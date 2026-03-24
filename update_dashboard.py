@@ -5,20 +5,19 @@ from datetime import datetime, timezone
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
-# ── Asset definitions ────────────────────────────────────────────
 CRYPTO_ASSETS = {
     "btc": {"id": "bitcoin", "symbol": "BTC", "name": "Bitcoin"},
     "eth": {"id": "ethereum", "symbol": "ETH", "name": "Ethereum"},
     "sui": {"id": "sui", "symbol": "SUI", "name": "SUI"},
 }
 
-# ── Data fetchers ────────────────────────────────────────────────
+
 def fetch_crypto_prices():
     ids = ",".join([a["id"] for a in CRYPTO_ASSETS.values()])
     url = (
-        f"https://api.coingecko.com/api/v3/simple/price"
+        "https://api.coingecko.com/api/v3/simple/price"
         f"?ids={ids}&vs_currencies=usd"
-        f"&include_24hr_change=true&include_market_cap=true"
+        "&include_24hr_change=true&include_market_cap=true"
     )
     r = requests.get(url, timeout=15)
     r.raise_for_status()
@@ -28,7 +27,7 @@ def fetch_crypto_prices():
 def fetch_crypto_ohlc(coin_id):
     url = (
         f"https://api.coingecko.com/api/v3/coins/{coin_id}"
-        f"/ohlc?vs_currency=usd&days=14"
+        "/ohlc?vs_currency=usd&days=14"
     )
     r = requests.get(url, timeout=15)
     r.raise_for_status()
@@ -36,16 +35,39 @@ def fetch_crypto_ohlc(coin_id):
 
 
 def fetch_gold_tradingview():
-    """Fetch XAU/USD data from TradingView via tradingview_ta."""
     from tradingview_ta import TA_Handler, Interval
 
-    handler = TA_Handler(
-        symbol="XAUUSD",
-        screener="forex",
-        exchange="OANDA",
-        interval=Interval.INTERVAL_1_DAY,
-    )
-    analysis = handler.get_analysis()
+    # Try multiple exchange/screener combos until one works
+    combos = [
+        {"symbol": "XAUUSD", "exchange": "CAPITALCOM", "screener": "cfd"},
+        {"symbol": "XAUUSD", "exchange": "PEPPERSTONE", "screener": "cfd"},
+        {"symbol": "XAUUSD", "exchange": "FXOPEN", "screener": "cfd"},
+        {"symbol": "XAUUSD", "exchange": "OANDA", "screener": "cfd"},
+        {"symbol": "XAUUSD", "exchange": "FX_IDC", "screener": "cfd"},
+        {"symbol": "XAUUSD", "exchange": "FOREXCOM", "screener": "forex"},
+        {"symbol": "XAUUSD", "exchange": "OANDA", "screener": "forex"},
+    ]
+
+    analysis = None
+    for combo in combos:
+        try:
+            print(f"    Trying {combo['exchange']}:{combo['symbol']} ({combo['screener']})...")
+            handler = TA_Handler(
+                symbol=combo["symbol"],
+                screener=combo["screener"],
+                exchange=combo["exchange"],
+                interval=Interval.INTERVAL_1_DAY,
+            )
+            analysis = handler.get_analysis()
+            print(f"    Success with {combo['exchange']}")
+            break
+        except Exception as e:
+            print(f"    Failed: {e}")
+            continue
+
+    if analysis is None:
+        raise Exception("All TradingView exchange combos failed for XAUUSD")
+
     indicators = analysis.indicators
 
     price = indicators.get("close", 0)
@@ -77,9 +99,8 @@ def fetch_gold_tradingview():
     }
 
 
-# ── RSI calculation (for crypto) ─────────────────────────────────
 def calculate_rsi(ohlc_data, period=14):
-    closes = [candle[4] for candle in ohlc_data[-period * 2 :]]
+    closes = [candle[4] for candle in ohlc_data[-period * 2:]]
     if len(closes) < period + 1:
         return None
     gains, losses = [], []
@@ -95,45 +116,52 @@ def calculate_rsi(ohlc_data, period=14):
     return round(100 - (100 / (1 + rs)), 2)
 
 
-# ── AI analysis ──────────────────────────────────────────────────
 def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="crypto", extra_context=""):
     rsi_label = "neutral"
     if rsi:
         rsi_label = "overbought" if rsi >= 70 else ("oversold" if rsi <= 30 else "neutral")
 
     if asset_type == "commodity":
-        context = f"""You are a professional commodities market analyst. Analyze {symbol}/USD (Gold spot) and return ONLY a valid JSON object. No markdown, no explanation, just raw JSON.
-
-Market data:
-- Price: ${price:,.2f} per troy ounce
-- 24h Change: {change_24h:.2f}%
-- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})
-{extra_context}
-
-Note: Gold does not follow Elliott Wave theory in the same way crypto does. Focus on classical technical patterns, macro drivers (DXY, real yields, central bank policy), and safe-haven demand."""
+        context = (
+            f"You are a professional commodities market analyst. "
+            f"Analyze {symbol}/USD (Gold spot) and return ONLY a valid JSON object. "
+            f"No markdown, no explanation, just raw JSON.\n\n"
+            f"Market data:\n"
+            f"- Price: ${price:,.2f} per troy ounce\n"
+            f"- 24h Change: {change_24h:.2f}%\n"
+            f"- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})\n"
+            f"{extra_context}\n\n"
+            f"Note: Gold does not follow Elliott Wave theory in the same way crypto does. "
+            f"Focus on classical technical patterns, macro drivers (DXY, real yields, central bank policy), "
+            f"and safe-haven demand."
+        )
     else:
-        context = f"""You are a professional crypto market analyst. Analyze {symbol}/USD and return ONLY a valid JSON object. No markdown, no explanation, just raw JSON.
+        context = (
+            f"You are a professional crypto market analyst. "
+            f"Analyze {symbol}/USD and return ONLY a valid JSON object. "
+            f"No markdown, no explanation, just raw JSON.\n\n"
+            f"Market data:\n"
+            f"- Price: ${price:,.2f}\n"
+            f"- 24h Change: {change_24h:.2f}%\n"
+            f"- Market Cap: ${market_cap:,.0f}\n"
+            f"- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})"
+        )
 
-Market data:
-- Price: ${price:,.2f}
-- 24h Change: {change_24h:.2f}%
-- Market Cap: ${market_cap:,.0f}
-- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})"""
-
-    prompt = f"""{context}
-
-Return this exact JSON structure:
-{{
-  "elliott_wave": "string — current wave count / pattern assessment and what it implies (1-2 sentences)",
-  "momentum": "string — momentum assessment based on price action and RSI (1-2 sentences)",
-  "key_levels": {{
-    "support": ["price1", "price2"],
-    "resistance": ["price1", "price2"]
-  }},
-  "trend_bias": "bullish | bearish | neutral",
-  "trade_plan": "string — concise actionable plan for the next 24-48h (2-3 sentences)",
-  "risk_note": "string — one key risk to watch"
-}}"""
+    prompt = (
+        f"{context}\n\n"
+        'Return this exact JSON structure:\n'
+        '{\n'
+        '  "elliott_wave": "string - current wave count / pattern assessment (1-2 sentences)",\n'
+        '  "momentum": "string - momentum assessment based on price action and RSI (1-2 sentences)",\n'
+        '  "key_levels": {\n'
+        '    "support": ["price1", "price2"],\n'
+        '    "resistance": ["price1", "price2"]\n'
+        '  },\n'
+        '  "trend_bias": "bullish | bearish | neutral",\n'
+        '  "trade_plan": "string - concise actionable plan for the next 24-48h (2-3 sentences)",\n'
+        '  "risk_note": "string - one key risk to watch"\n'
+        '}'
+    )
 
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -154,7 +182,6 @@ Return this exact JSON structure:
     r.raise_for_status()
     content = r.json()["choices"][0]["message"]["content"].strip()
 
-    # Strip markdown fences if present
     if content.startswith("```"):
         content = content.split("```")[1]
         if content.startswith("json"):
@@ -162,12 +189,10 @@ Return this exact JSON structure:
     return json.loads(content)
 
 
-# ── Main pipeline ────────────────────────────────────────────────
 def main():
     os.makedirs("data", exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
 
-    # ── Crypto assets ────────────────────────────────────────────
     print("Fetching crypto prices...")
     prices = fetch_crypto_prices()
 
@@ -195,28 +220,25 @@ def main():
         }
         with open(f"data/{key}.json", "w") as f:
             json.dump(output, f, indent=2)
-        print(f"  {asset['symbol']} done — ${price:,.2f}")
+        print(f"  {asset['symbol']} done - ${price:,.2f}")
 
-    # ── Gold (XAU) via TradingView ───────────────────────────────
     print("Processing XAU (Gold) via TradingView...")
     gold = fetch_gold_tradingview()
     gold_price = gold["price"]
     gold_change = gold["change_pct"]
     gold_rsi = gold["rsi"]
 
-    # Build extra context from TradingView data
     extra = f"- TradingView Signal: {gold['tv_recommendation']}"
     if gold["support"]:
-        extra += f"\n- TV Pivot Support: {', '.join([f'${s:,.2f}' for s in gold['support']])}"
+        extra += "\n- TV Pivot Support: " + ", ".join([f"${s:,.2f}" for s in gold["support"]])
     if gold["resistance"]:
-        extra += f"\n- TV Pivot Resistance: {', '.join([f'${r:,.2f}' for r in gold['resistance']])}"
+        extra += "\n- TV Pivot Resistance: " + ", ".join([f"${r:,.2f}" for r in gold["resistance"]])
 
     analysis = get_ai_analysis(
         "XAU", gold_price, gold_change, 0, gold_rsi,
         asset_type="commodity", extra_context=extra
     )
 
-    # Override AI key_levels with TradingView's actual pivot levels
     if gold["support"] or gold["resistance"]:
         analysis["key_levels"] = {
             "support": [f"${s:,.2f}" for s in gold["support"]],
@@ -235,7 +257,7 @@ def main():
     }
     with open("data/xau.json", "w") as f:
         json.dump(output, f, indent=2)
-    print(f"  XAU done — ${gold_price:,.2f} | RSI: {gold_rsi} | TV: {gold['tv_recommendation']}")
+    print(f"  XAU done - ${gold_price:,.2f} | RSI: {gold_rsi} | TV: {gold['tv_recommendation']}")
 
     print("All done.")
 

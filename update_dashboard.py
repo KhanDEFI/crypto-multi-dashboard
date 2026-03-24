@@ -182,11 +182,16 @@ def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="cryp
     r.raise_for_status()
     content = r.json()["choices"][0]["message"]["content"].strip()
 
-    if content.startswith("```"):
+if content.startswith("```"):
         content = content.split("```")[1]
         if content.startswith("json"):
             content = content[4:]
-    return json.loads(content)
+    content = content.replace("\\\\", "\\").replace("\\'", "'")
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        content = content.replace("\\", "")
+        return json.loads(content)
 
 
 def main():

@@ -38,6 +38,7 @@
       display: flex;
       gap: 4px;
       margin-bottom: 0;
+      flex-wrap: wrap;
     }
 
     .tab {
@@ -64,6 +65,7 @@
     .tab.btc.active { color: #f7931a; border-color: #f7931a; }
     .tab.eth.active { color: #627eea; border-color: #627eea; }
     .tab.sui.active { color: #4da2ff; border-color: #4da2ff; }
+    .tab.xau.active { color: #ffd700; border-color: #ffd700; }
 
     /* Panel */
     .panel {
@@ -83,12 +85,14 @@
       margin-bottom: 20px;
       padding-bottom: 16px;
       border-bottom: 1px solid #1a1a1a;
+      flex-wrap: wrap;
     }
 
     .asset-symbol { font-size: 22px; font-weight: bold; }
     .btc .asset-symbol { color: #f7931a; }
     .eth .asset-symbol { color: #627eea; }
     .sui .asset-symbol { color: #4da2ff; }
+    .xau .asset-symbol { color: #ffd700; }
 
     .price-usd { font-size: 28px; color: #ffffff; }
 
@@ -176,6 +180,16 @@
 
     .loading { color: #444; padding: 40px 0; text-align: center; letter-spacing: 2px; }
     .error { color: #ff4444; padding: 20px 0; }
+
+    .asset-type {
+      font-size: 9px;
+      letter-spacing: 1px;
+      color: #444;
+      padding: 1px 6px;
+      border: 1px solid #222;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
@@ -190,16 +204,18 @@
     <button class="tab btc active" onclick="switchTab('btc')">BTC</button>
     <button class="tab eth" onclick="switchTab('eth')">ETH</button>
     <button class="tab sui" onclick="switchTab('sui')">SUI</button>
+    <button class="tab xau" onclick="switchTab('xau')">XAU</button>
   </div>
 
   <div id="panel-btc" class="panel btc active"><div class="loading">LOADING BTC DATA...</div></div>
   <div id="panel-eth" class="panel eth"><div class="loading">LOADING ETH DATA...</div></div>
   <div id="panel-sui" class="panel sui"><div class="loading">LOADING SUI DATA...</div></div>
+  <div id="panel-xau" class="panel xau"><div class="loading">LOADING XAU DATA...</div></div>
 
 </div>
 
 <script>
-  const ASSETS = ['btc', 'eth', 'sui'];
+  const ASSETS = ['btc', 'eth', 'sui', 'xau'];
   const cache = {};
 
   function switchTab(asset) {
@@ -234,19 +250,24 @@
     const support = (a.key_levels?.support ?? []).join(' · ') || '—';
     const resistance = (a.key_levels?.resistance ?? []).join(' · ') || '—';
     const updated = new Date(d.updated_at).toUTCString();
+    const isCommodity = asset === 'xau';
+    const typeLabel = isCommodity ? 'COMMODITY' : 'CRYPTO';
+    const hasRsi = d.rsi !== null && d.rsi !== undefined;
+    const priceDecimals = isCommodity ? 2 : (d.price < 1 ? 4 : 2);
 
     panel.innerHTML = `
       <div class="price-row">
         <span class="asset-symbol">${d.symbol}</span>
-        <span class="price-usd">$${Number(d.price).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 4})}</span>
+        <span class="asset-type">${typeLabel}</span>
+        <span class="price-usd">$${Number(d.price).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: priceDecimals})}</span>
         <span class="${changeClass}">${changeSign}${d.change_24h}%</span>
         <span class="bias-badge ${biasClass}">${(a.trend_bias ?? 'neutral').toUpperCase()}</span>
-        <span class="meta-pill">RSI ${rsi}</span>
+        ${hasRsi ? `<span class="meta-pill">RSI ${rsi}</span>` : ''}
       </div>
 
       <div class="grid">
         <div class="block">
-          <div class="block-label">Elliott Wave</div>
+          <div class="block-label">${isCommodity ? 'Technical Pattern' : 'Elliott Wave'}</div>
           <div class="block-value">${a.elliott_wave ?? '—'}</div>
         </div>
         <div class="block">
@@ -255,12 +276,19 @@
         </div>
       </div>
 
+      ${hasRsi ? `
       <div class="block-full">
         <div class="block-label">RSI (14) — ${rsi} ${rsiClass ? '· ' + rsiClass.toUpperCase() : ''}</div>
         <div class="rsi-bar-wrap">
           <div class="rsi-bar ${rsiClass}" style="width:${rsi}%"></div>
         </div>
       </div>
+      ` : `
+      <div class="block-full">
+        <div class="block-label">RSI (14)</div>
+        <div class="block-value" style="color:#555">— Not available for this asset —</div>
+      </div>
+      `}
 
       <div class="block-full">
         <div class="block-label">Key Levels</div>
@@ -296,6 +324,7 @@
   loadAsset('btc');
   setTimeout(() => loadAsset('eth'), 500);
   setTimeout(() => loadAsset('sui'), 1000);
+  setTimeout(() => loadAsset('xau'), 1500);
 </script>
 </body>
 </html>

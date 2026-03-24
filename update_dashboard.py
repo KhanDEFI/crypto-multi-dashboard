@@ -5,27 +5,56 @@ from datetime import datetime, timezone
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
-ASSETS = {
+# ── Asset definitions ────────────────────────────────────────────
+CRYPTO_ASSETS = {
     "btc": {"id": "bitcoin", "symbol": "BTC", "name": "Bitcoin"},
     "eth": {"id": "ethereum", "symbol": "ETH", "name": "Ethereum"},
     "sui": {"id": "sui", "symbol": "SUI", "name": "SUI"},
 }
 
-def fetch_prices():
-    ids = ",".join([a["id"] for a in ASSETS.values()])
-    url = f"https://api.coingecko.com/api/v3/simple/price?ids={ids}&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
-    response = requests.get(url, timeout=10)
-    response.raise_for_status()
-    return response.json()
+GOLD_ASSET = {"key": "xau", "symbol": "XAU", "name": "Gold"}
 
-def fetch_ohlc(coin_id):
-    url = f"https://api.coingecko.com/api/v3/coins/{coin_id}/ohlc?vs_currency=usd&days=14"
-    response = requests.get(url, timeout=10)
-    response.raise_for_status()
-    return response.json()
+# ── Data fetchers ────────────────────────────────────────────────
+def fetch_crypto_prices():
+    ids = ",".join([a["id"] for a in CRYPTO_ASSETS.values()])
+    url = (
+        f"https://api.coingecko.com/api/v3/simple/price"
+        f"?ids={ids}&vs_currencies=usd"
+        f"&include_24hr_change=true&include_market_cap=true"
+    )
+    r = requests.get(url, timeout=15)
+    r.raise_for_status()
+    return r.json()
 
+
+def fetch_crypto_ohlc(coin_id):
+    url = (
+        f"https://api.coingecko.com/api/v3/coins/{coin_id}"
+        f"/ohlc?vs_currency=usd&days=14"
+    )
+    r = requests.get(url, timeout=15)
+    r.raise_for_status()
+    return r.json()
+
+
+def fetch_gold_price():
+    """Fetch XAU/USD from gold-api.com (free, no key needed)."""
+    url = "https://api.gold-api.com/price/XAU"
+    r = requests.get(url, timeout=15)
+    r.raise_for_status()
+    data = r.json()
+    return {
+        "price": data.get("price", 0),
+        "ch": data.get("ch", 0),          # absolute change
+        "chp": data.get("chp", 0),         # percent change
+        "high": data.get("high_price", 0),
+        "low": data.get("low_price", 0),
+    }
+
+
+# ── RSI calculation ──────────────────────────────────────────────
 def calculate_rsi(ohlc_data, period=14):
-    closes = [candle[4] for candle in ohlc_data[-period * 2:]]
+    closes = [candle[4] for candle in ohlc_data[-period * 2 :]]
     if len(closes) < period + 1:
         return None
     gains, losses = [], []
@@ -40,25 +69,36 @@ def calculate_rsi(ohlc_data, period=14):
     rs = avg_gain / avg_loss
     return round(100 - (100 / (1 + rs)), 2)
 
-def get_ai_analysis(symbol, price, change_24h, market_cap, rsi):
+
+# ── AI analysis ──────────────────────────────────────────────────
+def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="crypto"):
     rsi_label = "neutral"
     if rsi:
-        if rsi >= 70:
-            rsi_label = "overbought"
-        elif rsi <= 30:
-            rsi_label = "oversold"
+        rsi_label = "overbought" if rsi >= 70 else ("oversold" if rsi <= 30 else "neutral")
 
-    prompt = f"""You are a professional crypto market analyst. Analyze {symbol}/USD and return ONLY a valid JSON object. No markdown, no explanation, just raw JSON.
+    if asset_type == "commodity":
+        context = f"""You are a professional commodities market analyst. Analyze {symbol}/USD (Gold spot) and return ONLY a valid JSON object. No markdown, no explanation, just raw JSON.
+
+Market data:
+- Price: ${price:,.2f} per troy ounce
+- 24h Change: {change_24h:.2f}%
+- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})
+
+Note: Gold does not follow Elliott Wave theory in the same way crypto does. Focus on classical technical patterns, macro drivers (DXY, real yields, central bank policy), and safe-haven demand."""
+    else:
+        context = f"""You are a professional crypto market analyst. Analyze {symbol}/USD and return ONLY a valid JSON object. No markdown, no explanation, just raw JSON.
 
 Market data:
 - Price: ${price:,.2f}
 - 24h Change: {change_24h:.2f}%
 - Market Cap: ${market_cap:,.0f}
-- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})
+- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})"""
+
+    prompt = f"""{context}
 
 Return this exact JSON structure:
 {{
-  "elliott_wave": "string — current wave count and what it implies (1-2 sentences)",
+  "elliott_wave": "string — current wave count / pattern assessment and what it implies (1-2 sentences)",
   "momentum": "string — momentum assessment based on price action and RSI (1-2 sentences)",
   "key_levels": {{
     "support": ["price1", "price2"],
@@ -71,17 +111,22 @@ Return this exact JSON structure:
 
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
     }
     body = {
         "model": "llama3-8b-8192",
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 500,
-        "temperature": 0.3
+        "temperature": 0.3,
     }
-    response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=body, timeout=20)
-    response.raise_for_status()
-    content = response.json()["choices"][0]["message"]["content"].strip()
+    r = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers=headers,
+        json=body,
+        timeout=20,
+    )
+    r.raise_for_status()
+    content = r.json()["choices"][0]["message"]["content"].strip()
 
     # Strip markdown fences if present
     if content.startswith("```"):
@@ -90,39 +135,71 @@ Return this exact JSON structure:
             content = content[4:]
     return json.loads(content)
 
+
+# ── Main pipeline ────────────────────────────────────────────────
 def main():
     os.makedirs("data", exist_ok=True)
-    print("Fetching prices...")
-    prices = fetch_prices()
+    now = datetime.now(timezone.utc).isoformat()
 
-    for key, asset in ASSETS.items():
+    # ── Crypto assets ────────────────────────────────────────────
+    print("Fetching crypto prices...")
+    prices = fetch_crypto_prices()
+
+    for key, asset in CRYPTO_ASSETS.items():
         print(f"Processing {asset['symbol']}...")
-        coin_data = prices.get(asset["id"], {})
-        price = coin_data.get("usd", 0)
-        change_24h = coin_data.get("usd_24h_change", 0)
-        market_cap = coin_data.get("usd_market_cap", 0)
+        coin = prices.get(asset["id"], {})
+        price = coin.get("usd", 0)
+        change = coin.get("usd_24h_change", 0)
+        mcap = coin.get("usd_market_cap", 0)
 
-        ohlc = fetch_ohlc(asset["id"])
+        ohlc = fetch_crypto_ohlc(asset["id"])
         rsi = calculate_rsi(ohlc)
 
-        analysis = get_ai_analysis(asset["symbol"], price, change_24h, market_cap, rsi)
+        analysis = get_ai_analysis(asset["symbol"], price, change, mcap, rsi)
 
         output = {
             "symbol": asset["symbol"],
             "name": asset["name"],
             "price": price,
-            "change_24h": round(change_24h, 2),
-            "market_cap": market_cap,
+            "change_24h": round(change, 2),
+            "market_cap": mcap,
             "rsi": rsi,
             "analysis": analysis,
-            "updated_at": datetime.now(timezone.utc).isoformat()
+            "updated_at": now,
         }
-
         with open(f"data/{key}.json", "w") as f:
             json.dump(output, f, indent=2)
         print(f"  {asset['symbol']} done — ${price:,.2f}")
 
+    # ── Gold (XAU) ───────────────────────────────────────────────
+    print("Processing XAU (Gold)...")
+    gold = fetch_gold_price()
+    gold_price = gold["price"]
+    gold_change = gold["chp"]
+
+    # No OHLC candles from gold-api.com, so RSI is null for now
+    gold_rsi = None
+
+    analysis = get_ai_analysis(
+        "XAU", gold_price, gold_change, 0, gold_rsi, asset_type="commodity"
+    )
+
+    output = {
+        "symbol": "XAU",
+        "name": "Gold",
+        "price": gold_price,
+        "change_24h": round(gold_change, 2),
+        "market_cap": 0,
+        "rsi": gold_rsi,
+        "analysis": analysis,
+        "updated_at": now,
+    }
+    with open("data/xau.json", "w") as f:
+        json.dump(output, f, indent=2)
+    print(f"  XAU done — ${gold_price:,.2f}")
+
     print("All done.")
+
 
 if __name__ == "__main__":
     main()

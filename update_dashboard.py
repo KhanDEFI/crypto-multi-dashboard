@@ -39,12 +39,13 @@ def fetch_gold_tradingview():
     """Fetch XAU/USD data from TradingView via tradingview_ta."""
     from tradingview_ta import TA_Handler, Interval
 
-    handler = TA_Handler(
+  handler = TA_Handler(
         symbol="XAUUSD",
-        screener="cfd",
-        exchange="TVC",
+        screener="forex",
+        exchange="OANDA",
         interval=Interval.INTERVAL_1_DAY,
     )
+
     analysis = handler.get_analysis()
     indicators = analysis.indicators
 

@@ -39,7 +39,7 @@ def fetch_gold_tradingview():
     """Fetch XAU/USD data from TradingView via tradingview_ta."""
     from tradingview_ta import TA_Handler, Interval
 
-  handler = TA_Handler(
+handler = TA_Handler(
         symbol="XAUUSD",
         screener="forex",
         exchange="OANDA",

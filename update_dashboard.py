@@ -39,13 +39,12 @@ def fetch_gold_tradingview():
     """Fetch XAU/USD data from TradingView via tradingview_ta."""
     from tradingview_ta import TA_Handler, Interval
 
-handler = TA_Handler(
+    handler = TA_Handler(
         symbol="XAUUSD",
         screener="forex",
         exchange="OANDA",
         interval=Interval.INTERVAL_1_DAY,
     )
-
     analysis = handler.get_analysis()
     indicators = analysis.indicators
 
@@ -55,13 +54,11 @@ handler = TA_Handler(
     high = indicators.get("high", 0)
     low = indicators.get("low", 0)
 
-    # Extract pivot levels for support/resistance
     support_1 = indicators.get("Pivot.M.Classic.S1", None)
     support_2 = indicators.get("Pivot.M.Classic.S2", None)
     resistance_1 = indicators.get("Pivot.M.Classic.R1", None)
     resistance_2 = indicators.get("Pivot.M.Classic.R2", None)
 
-    # TradingView recommendation
     summary = analysis.summary
     recommendation = summary.get("RECOMMENDATION", "NEUTRAL")
 

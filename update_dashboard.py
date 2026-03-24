@@ -37,7 +37,6 @@ def fetch_crypto_ohlc(coin_id):
 def fetch_gold_tradingview():
     from tradingview_ta import TA_Handler, Interval
 
-    # Try multiple exchange/screener combos until one works
     combos = [
         {"symbol": "XAUUSD", "exchange": "CAPITALCOM", "screener": "cfd"},
         {"symbol": "XAUUSD", "exchange": "PEPPERSTONE", "screener": "cfd"},
@@ -116,6 +115,21 @@ def calculate_rsi(ohlc_data, period=14):
     return round(100 - (100 / (1 + rs)), 2)
 
 
+def parse_ai_json(content):
+    """Safely parse JSON from AI response, handling bad escapes."""
+    if content.startswith("```"):
+        content = content.split("```")[1]
+        if content.startswith("json"):
+            content = content[4:]
+    content = content.strip()
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        import re
+        cleaned = re.sub(r'\\(?!["\\/bfnrtu])', '', content)
+        return json.loads(cleaned)
+
+
 def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="crypto", extra_context=""):
     rsi_label = "neutral"
     if rsi:
@@ -181,17 +195,7 @@ def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="cryp
     )
     r.raise_for_status()
     content = r.json()["choices"][0]["message"]["content"].strip()
-
-if content.startswith("```"):
-        content = content.split("```")[1]
-        if content.startswith("json"):
-            content = content[4:]
-    content = content.replace("\\\\", "\\").replace("\\'", "'")
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        content = content.replace("\\", "")
-        return json.loads(content)
+    return parse_ai_json(content)
 
 
 def main():

@@ -1,6 +1,6 @@
 {
-  "symbol": "xau",
-  "name": "gold",
+  "symbol": "XAU",
+  "name": "Gold",
   "price": 0,
   "change_24h": 0,
   "market_cap": 0,
@@ -8,7 +8,10 @@
   "analysis": {
     "elliott_wave": "Awaiting first data run...",
     "momentum": "Awaiting first data run...",
-    "key_levels": { "support": [], "resistance": [] },
+    "key_levels": {
+      "support": [],
+      "resistance": []
+    },
     "trend_bias": "neutral",
     "trade_plan": "Awaiting first data run...",
     "risk_note": "Awaiting first data run..."

@@ -1,17 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 0,
-  "change_24h": 0,
-  "market_cap": 0,
-  "rsi": null,
+  "price": 2161.18,
+  "change_24h": 6.13,
+  "market_cap": 260871324790.14188,
+  "rsi": 48.35,
   "analysis": {
-    "elliott_wave": "Awaiting first data run...",
-    "momentum": "Awaiting first data run...",
-    "key_levels": { "support": [], "resistance": [] },
-    "trend_bias": "neutral",
-    "trade_plan": "Awaiting first data run...",
-    "risk_note": "Awaiting first data run..."
+    "elliott_wave": "ETH is currently in a wave 3 of a larger bull trend, which suggests a potential continuation of the upward momentum.",
+    "momentum": "The RSI reading of 48.35 indicates a neutral momentum, but the 6.13% 24h change suggests a growing bullish sentiment.",
+    "key_levels": {
+      "support": [
+        "$2,050.00",
+        "$2,000.00"
+      ],
+      "resistance": [
+        "$2,300.00",
+        "$2,400.00"
+      ]
+    },
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $2,050.00, targeting $2,300.00. Consider taking profits at $2,400.00. Monitor for potential reversal signs.",
+    "risk_note": "A sudden increase in selling pressure could lead to a sharp decline in price."
   },
-  "updated_at": "1970-01-01T00:00:00+00:00"
+  "updated_at": "2026-03-24T07:19:05.903974+00:00"
 }

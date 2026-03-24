@@ -12,8 +12,6 @@ CRYPTO_ASSETS = {
     "sui": {"id": "sui", "symbol": "SUI", "name": "SUI"},
 }
 
-GOLD_ASSET = {"key": "xau", "symbol": "XAU", "name": "Gold"}
-
 # ── Data fetchers ────────────────────────────────────────────────
 def fetch_crypto_prices():
     ids = ",".join([a["id"] for a in CRYPTO_ASSETS.values()])
@@ -37,22 +35,51 @@ def fetch_crypto_ohlc(coin_id):
     return r.json()
 
 
-def fetch_gold_price():
-    """Fetch XAU/USD from gold-api.com (free, no key needed)."""
-    url = "https://api.gold-api.com/price/XAU"
-    r = requests.get(url, timeout=15)
-    r.raise_for_status()
-    data = r.json()
+def fetch_gold_tradingview():
+    """Fetch XAU/USD data from TradingView via tradingview_ta."""
+    from tradingview_ta import TA_Handler, Interval
+
+    handler = TA_Handler(
+        symbol="XAUUSD",
+        screener="cfd",
+        exchange="TVC",
+        interval=Interval.INTERVAL_1_DAY,
+    )
+    analysis = handler.get_analysis()
+    indicators = analysis.indicators
+
+    price = indicators.get("close", 0)
+    change_pct = indicators.get("change", 0)
+    rsi = indicators.get("RSI", None)
+    high = indicators.get("high", 0)
+    low = indicators.get("low", 0)
+
+    # Extract pivot levels for support/resistance
+    support_1 = indicators.get("Pivot.M.Classic.S1", None)
+    support_2 = indicators.get("Pivot.M.Classic.S2", None)
+    resistance_1 = indicators.get("Pivot.M.Classic.R1", None)
+    resistance_2 = indicators.get("Pivot.M.Classic.R2", None)
+
+    # TradingView recommendation
+    summary = analysis.summary
+    recommendation = summary.get("RECOMMENDATION", "NEUTRAL")
+
+    if rsi is not None:
+        rsi = round(rsi, 2)
+
     return {
-        "price": data.get("price", 0),
-        "ch": data.get("ch", 0),          # absolute change
-        "chp": data.get("chp", 0),         # percent change
-        "high": data.get("high_price", 0),
-        "low": data.get("low_price", 0),
+        "price": price,
+        "change_pct": round(change_pct, 2) if change_pct else 0,
+        "rsi": rsi,
+        "high": high,
+        "low": low,
+        "support": [s for s in [support_1, support_2] if s],
+        "resistance": [r for r in [resistance_1, resistance_2] if r],
+        "tv_recommendation": recommendation,
     }
 
 
-# ── RSI calculation ──────────────────────────────────────────────
+# ── RSI calculation (for crypto) ─────────────────────────────────
 def calculate_rsi(ohlc_data, period=14):
     closes = [candle[4] for candle in ohlc_data[-period * 2 :]]
     if len(closes) < period + 1:
@@ -71,7 +98,7 @@ def calculate_rsi(ohlc_data, period=14):
 
 
 # ── AI analysis ──────────────────────────────────────────────────
-def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="crypto"):
+def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="crypto", extra_context=""):
     rsi_label = "neutral"
     if rsi:
         rsi_label = "overbought" if rsi >= 70 else ("oversold" if rsi <= 30 else "neutral")
@@ -83,6 +110,7 @@ Market data:
 - Price: ${price:,.2f} per troy ounce
 - 24h Change: {change_24h:.2f}%
 - RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})
+{extra_context}
 
 Note: Gold does not follow Elliott Wave theory in the same way crypto does. Focus on classical technical patterns, macro drivers (DXY, real yields, central bank policy), and safe-haven demand."""
     else:
@@ -171,24 +199,37 @@ def main():
             json.dump(output, f, indent=2)
         print(f"  {asset['symbol']} done — ${price:,.2f}")
 
-    # ── Gold (XAU) ───────────────────────────────────────────────
-    print("Processing XAU (Gold)...")
-    gold = fetch_gold_price()
+    # ── Gold (XAU) via TradingView ───────────────────────────────
+    print("Processing XAU (Gold) via TradingView...")
+    gold = fetch_gold_tradingview()
     gold_price = gold["price"]
-    gold_change = gold["chp"]
+    gold_change = gold["change_pct"]
+    gold_rsi = gold["rsi"]
 
-    # No OHLC candles from gold-api.com, so RSI is null for now
-    gold_rsi = None
+    # Build extra context from TradingView data
+    extra = f"- TradingView Signal: {gold['tv_recommendation']}"
+    if gold["support"]:
+        extra += f"\n- TV Pivot Support: {', '.join([f'${s:,.2f}' for s in gold['support']])}"
+    if gold["resistance"]:
+        extra += f"\n- TV Pivot Resistance: {', '.join([f'${r:,.2f}' for r in gold['resistance']])}"
 
     analysis = get_ai_analysis(
-        "XAU", gold_price, gold_change, 0, gold_rsi, asset_type="commodity"
+        "XAU", gold_price, gold_change, 0, gold_rsi,
+        asset_type="commodity", extra_context=extra
     )
+
+    # Override AI key_levels with TradingView's actual pivot levels
+    if gold["support"] or gold["resistance"]:
+        analysis["key_levels"] = {
+            "support": [f"${s:,.2f}" for s in gold["support"]],
+            "resistance": [f"${r:,.2f}" for r in gold["resistance"]],
+        }
 
     output = {
         "symbol": "XAU",
         "name": "Gold",
         "price": gold_price,
-        "change_24h": round(gold_change, 2),
+        "change_24h": gold_change,
         "market_cap": 0,
         "rsi": gold_rsi,
         "analysis": analysis,
@@ -196,7 +237,7 @@ def main():
     }
     with open("data/xau.json", "w") as f:
         json.dump(output, f, indent=2)
-    print(f"  XAU done — ${gold_price:,.2f}")
+    print(f"  XAU done — ${gold_price:,.2f} | RSI: {gold_rsi} | TV: {gold['tv_recommendation']}")
 
     print("All done.")
 

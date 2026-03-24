@@ -1,20 +1,26 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 0,
-  "change_24h": 0,
+  "price": 4414.9,
+  "change_24h": 0.19,
   "market_cap": 0,
-  "rsi": null,
+  "rsi": 27.95,
   "analysis": {
-    "elliott_wave": "Awaiting first data run...",
-    "momentum": "Awaiting first data run...",
+    "elliott_wave": "Not applicable due to gold's non-compliance with Elliott Wave theory",
+    "momentum": "The price is oversold according to the RSI (27.95), indicating a potential short-term bounce, but the 24h change is minimal, suggesting a lack of strong momentum.",
     "key_levels": {
-      "support": [],
-      "resistance": []
+      "support": [
+        "$4,694.85",
+        "$4,109.76"
+      ],
+      "resistance": [
+        "$5,572.91",
+        "$5,865.88"
+      ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Awaiting first data run...",
-    "risk_note": "Awaiting first data run..."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider selling the pair near current levels, targeting a potential bounce to the $4,700-$4,800 range. However, be cautious of a potential false breakout, and adjust the trade plan accordingly. Monitor the price action closely for a clear direction.",
+    "risk_note": "A sudden shift in central bank policy or a surprise move in the DXY could significantly impact gold prices, leading to a sharp reversal."
   },
-  "updated_at": "1970-01-01T00:00:00+00:00"
+  "updated_at": "2026-03-24T09:04:51.869336+00:00"
 }

@@ -74,7 +74,7 @@ Return this exact JSON structure:
         "Content-Type": "application/json"
     }
     body = {
-        "model": "llama-3.1-8b-instant",
+        "model": "llama3-8b-8192",
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 500,
         "temperature": 0.3

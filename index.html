@@ -6,7 +6,6 @@
   <title>Crypto Market Engine</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
       background: #0a0a0a;
       color: #e0e0e0;
@@ -14,201 +13,174 @@
       font-size: 13px;
       min-height: 100vh;
       padding: 20px;
+      overflow-x: hidden;
     }
-
-    .terminal {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-
+    .terminal { max-width: 860px; margin: 0 auto; }
     .header {
       border: 1px solid #2a2a2a;
       padding: 12px 16px;
       margin-bottom: 16px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 14px;
     }
-
     .header-title { color: #00ff88; font-size: 14px; letter-spacing: 2px; }
-    .header-meta { color: #555; font-size: 11px; }
+    .header-meta { color: #555; font-size: 11px; margin-left: auto; }
 
-    .tabs {
-      display: flex;
-      gap: 4px;
-      margin-bottom: 0;
-      flex-wrap: wrap;
+    /* Hamburger */
+    .hamburger {
+      width: 28px; height: 20px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      cursor: pointer; flex-shrink: 0;
     }
+    .hamburger span {
+      display: block; width: 100%; height: 2px;
+      background: #666; border-radius: 1px; transition: all 0.25s;
+    }
+    .hamburger:hover span { background: #00ff88; }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); background: #00ff88; }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); background: #00ff88; }
 
+    /* Sidebar overlay */
+    .sidebar-overlay {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6); z-index: 900;
+      opacity: 0; pointer-events: none; transition: opacity 0.3s;
+    }
+    .sidebar-overlay.open { opacity: 1; pointer-events: auto; }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed; top: 0; left: -280px; width: 280px; height: 100%;
+      background: #0d0d0d; border-right: 1px solid #2a2a2a;
+      z-index: 1000; transition: left 0.3s ease;
+      padding: 24px 0; overflow-y: auto;
+    }
+    .sidebar.open { left: 0; }
+    .sidebar-header { padding: 0 20px 20px; border-bottom: 1px solid #1a1a1a; margin-bottom: 8px; }
+    .sidebar-header span { color: #00ff88; font-size: 12px; letter-spacing: 2px; }
+    .sidebar-section-label {
+      padding: 16px 20px 6px; font-size: 10px;
+      letter-spacing: 2px; color: #333; text-transform: uppercase;
+    }
+    .sidebar-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 20px; color: #888; cursor: pointer;
+      transition: all 0.15s; font-size: 13px; text-decoration: none;
+    }
+    .sidebar-item:hover { color: #e0e0e0; background: #141414; }
+    .sidebar-item .icon { font-size: 16px; width: 22px; text-align: center; flex-shrink: 0; }
+    .sidebar-item .arrow { margin-left: auto; color: #333; font-size: 11px; }
+    .sidebar-item.active { color: #00ff88; border-left: 2px solid #00ff88; }
+
+    /* Learn overlay */
+    .learn-overlay {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      background: #0a0a0a; z-index: 2000;
+      display: none; flex-direction: column;
+    }
+    .learn-overlay.open { display: flex; }
+    .learn-topbar {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 20px; background: #0d0d0d;
+      border-bottom: 1px solid #2a2a2a; flex-shrink: 0;
+    }
+    .learn-back {
+      background: none; border: 1px solid #2a2a2a;
+      color: #888; padding: 6px 14px; font-family: inherit;
+      font-size: 12px; cursor: pointer; letter-spacing: 1px; transition: all 0.15s;
+    }
+    .learn-back:hover { color: #00ff88; border-color: #00ff88; }
+    .learn-title { color: #555; font-size: 12px; letter-spacing: 1px; }
+    .learn-iframe { flex: 1; border: none; width: 100%; background: #0c0c0f; }
+
+    /* Tabs */
+    .tabs { display: flex; gap: 4px; margin-bottom: 0; flex-wrap: wrap; }
     .tab {
-      padding: 8px 24px;
-      cursor: pointer;
-      border: 1px solid #2a2a2a;
-      border-bottom: none;
-      color: #555;
-      background: #0f0f0f;
-      letter-spacing: 1px;
-      font-family: inherit;
-      font-size: 12px;
-      transition: all 0.15s;
+      padding: 8px 24px; cursor: pointer; border: 1px solid #2a2a2a;
+      border-bottom: none; color: #555; background: #0f0f0f;
+      letter-spacing: 1px; font-family: inherit; font-size: 12px; transition: all 0.15s;
     }
-
     .tab:hover { color: #aaa; border-color: #3a3a3a; }
-
-    .tab.active {
-      color: #00ff88;
-      border-color: #00ff88;
-      background: #0a0a0a;
-    }
-
+    .tab.active { color: #00ff88; border-color: #00ff88; background: #0a0a0a; }
     .tab.btc.active { color: #f7931a; border-color: #f7931a; }
     .tab.eth.active { color: #627eea; border-color: #627eea; }
     .tab.sui.active { color: #4da2ff; border-color: #4da2ff; }
     .tab.xau.active { color: #ffd700; border-color: #ffd700; }
 
-    .panel {
-      display: none;
-      border: 1px solid #2a2a2a;
-      padding: 20px;
-      background: #0d0d0d;
-    }
-
+    /* Panel */
+    .panel { display: none; border: 1px solid #2a2a2a; padding: 20px; background: #0d0d0d; }
     .panel.active { display: block; }
-
     .price-row {
-      display: flex;
-      align-items: baseline;
-      gap: 16px;
-      margin-bottom: 20px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid #1a1a1a;
-      flex-wrap: wrap;
+      display: flex; align-items: baseline; gap: 16px;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid #1a1a1a; flex-wrap: wrap;
     }
-
     .asset-symbol { font-size: 22px; font-weight: bold; }
     .btc .asset-symbol { color: #f7931a; }
     .eth .asset-symbol { color: #627eea; }
     .sui .asset-symbol { color: #4da2ff; }
     .xau .asset-symbol { color: #ffd700; }
-
     .price-usd { font-size: 28px; color: #ffffff; }
-
     .change-positive { color: #00ff88; }
     .change-negative { color: #ff4444; }
-
-    .meta-pill {
-      font-size: 11px;
-      color: #555;
-      margin-left: auto;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-
-    .block {
-      border: 1px solid #1e1e1e;
-      padding: 14px;
-    }
-
-    .block-full {
-      border: 1px solid #1e1e1e;
-      padding: 14px;
-      margin-bottom: 12px;
-    }
-
-    .block-label {
-      color: #444;
-      font-size: 10px;
-      letter-spacing: 2px;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-    }
-
+    .meta-pill { font-size: 11px; color: #555; margin-left: auto; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+    .block { border: 1px solid #1e1e1e; padding: 14px; }
+    .block-full { border: 1px solid #1e1e1e; padding: 14px; margin-bottom: 12px; }
+    .block-label { color: #444; font-size: 10px; letter-spacing: 2px; margin-bottom: 8px; text-transform: uppercase; }
     .block-value { color: #cccccc; line-height: 1.6; }
-
-    .rsi-bar-wrap {
-      margin-top: 8px;
-      background: #1a1a1a;
-      height: 4px;
-      border-radius: 2px;
-      position: relative;
-    }
-
-    .rsi-bar {
-      height: 4px;
-      border-radius: 2px;
-      background: #00ff88;
-      transition: width 0.5s;
-    }
-
+    .rsi-bar-wrap { margin-top: 8px; background: #1a1a1a; height: 4px; border-radius: 2px; position: relative; }
+    .rsi-bar { height: 4px; border-radius: 2px; background: #00ff88; transition: width 0.5s; }
     .rsi-bar.overbought { background: #ff4444; }
     .rsi-bar.oversold { background: #4da2ff; }
-
-    .levels {
-      display: flex;
-      gap: 20px;
-    }
-
+    .levels { display: flex; gap: 20px; }
     .level-group { flex: 1; }
     .level-label { color: #444; font-size: 10px; letter-spacing: 1px; margin-bottom: 4px; }
-
     .level-support { color: #00ff88; }
     .level-resistance { color: #ff4444; }
-
-    .bias-badge {
-      display: inline-block;
-      padding: 2px 10px;
-      font-size: 11px;
-      letter-spacing: 1px;
-      border: 1px solid;
-      margin-left: 8px;
-    }
-
+    .bias-badge { display: inline-block; padding: 2px 10px; font-size: 11px; letter-spacing: 1px; border: 1px solid; margin-left: 8px; }
     .bias-bullish { color: #00ff88; border-color: #00ff88; }
     .bias-bearish { color: #ff4444; border-color: #ff4444; }
-    .bias-neutral  { color: #888; border-color: #888; }
-
+    .bias-neutral { color: #888; border-color: #888; }
     .updated { color: #333; font-size: 10px; margin-top: 16px; text-align: right; }
-
     .loading { color: #444; padding: 40px 0; text-align: center; letter-spacing: 2px; }
     .error { color: #ff4444; padding: 20px 0; }
-
-    .asset-type {
-      font-size: 9px;
-      letter-spacing: 1px;
-      color: #444;
-      padding: 1px 6px;
-      border: 1px solid #222;
-      margin-left: 8px;
-      vertical-align: middle;
-    }
-
-    /* Chart container */
-    .chart-container {
-      border: 1px solid #1e1e1e;
-      margin-bottom: 12px;
-      overflow: hidden;
-      position: relative;
-      height: 500px;
-    }
-
-    .chart-label {
-      color: #444;
-      font-size: 10px;
-      letter-spacing: 2px;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-    }
+    .asset-type { font-size: 9px; letter-spacing: 1px; color: #444; padding: 1px 6px; border: 1px solid #222; margin-left: 8px; vertical-align: middle; }
+    .chart-container { border: 1px solid #1e1e1e; margin-bottom: 12px; overflow: hidden; position: relative; height: 500px; }
+    .chart-label { color: #444; font-size: 10px; letter-spacing: 2px; margin-bottom: 8px; text-transform: uppercase; }
   </style>
 </head>
 <body>
-<div class="terminal">
 
+<div class="sidebar-overlay" id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-header"><span>// MENU</span></div>
+  <div class="sidebar-section-label">Dashboard</div>
+  <div class="sidebar-item active" onclick="goToDashboard()">
+    <span class="icon">&#9632;</span> Market Overview
+  </div>
+  <div class="sidebar-section-label">Learn</div>
+  <div class="sidebar-item" onclick="openLearn()">
+    <span class="icon">&#9733;</span> How the Dashboard Works <span class="arrow">&#8594;</span>
+  </div>
+</div>
+
+<div class="learn-overlay" id="learn-overlay">
+  <div class="learn-topbar">
+    <button class="learn-back" onclick="closeLearn()">&#8592; BACK</button>
+    <span class="learn-title">// LEARN &gt; HOW THE DASHBOARD WORKS</span>
+  </div>
+  <iframe class="learn-iframe" id="learn-iframe"></iframe>
+</div>
+
+<div class="terminal" id="dashboard">
   <div class="header">
+    <div class="hamburger" id="hamburger" onclick="toggleSidebar()">
+      <span></span><span></span><span></span>
+    </div>
     <span class="header-title">// CRYPTO MARKET ENGINE</span>
     <span class="header-meta" id="last-refresh">--</span>
   </div>
@@ -224,16 +196,36 @@
   <div id="panel-eth" class="panel eth"><div class="loading">LOADING ETH DATA...</div></div>
   <div id="panel-sui" class="panel sui"><div class="loading">LOADING SUI DATA...</div></div>
   <div id="panel-xau" class="panel xau"><div class="loading">LOADING XAU DATA...</div></div>
-
 </div>
 
 <script>
-  const ASSETS = ['btc', 'eth', 'sui', 'xau'];
-  const cache = {};
-  const chartLoaded = {};
+  function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.getElementById('sidebar-overlay').classList.toggle('open');
+    document.getElementById('hamburger').classList.toggle('open');
+  }
+  function goToDashboard() {
+    closeLearn();
+    toggleSidebar();
+  }
+  function openLearn() {
+    toggleSidebar();
+    var iframe = document.getElementById('learn-iframe');
+    if (!iframe.src || iframe.src === 'about:blank' || iframe.src === window.location.href) {
+      iframe.src = 'learn.html';
+    }
+    document.getElementById('learn-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLearn() {
+    document.getElementById('learn-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
 
-  // TradingView symbol mapping
-  const TV_SYMBOLS = {
+  var ASSETS = ['btc', 'eth', 'sui', 'xau'];
+  var cache = {};
+  var chartLoaded = {};
+  var TV_SYMBOLS = {
     btc: 'BINANCE:BTCUSDT',
     eth: 'BINANCE:ETHUSDT',
     sui: 'BINANCE:SUIUSDT',
@@ -241,167 +233,124 @@
   };
 
   function switchTab(asset) {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-    document.querySelector(`.tab.${asset}`).classList.add('active');
-    document.getElementById(`panel-${asset}`).classList.add('active');
+    document.querySelectorAll('.tab').forEach(function(t) { t.classList.remove('active'); });
+    document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+    document.querySelector('.tab.' + asset).classList.add('active');
+    document.getElementById('panel-' + asset).classList.add('active');
     if (!cache[asset]) loadAsset(asset);
-    // Load chart after panel is visible
-    if (!chartLoaded[asset]) {
-      setTimeout(() => loadChart(asset), 100);
-    }
+    if (!chartLoaded[asset]) setTimeout(function() { loadChart(asset); }, 100);
   }
 
   function loadChart(asset) {
-    const container = document.getElementById(`tv-chart-${asset}`);
-    if (!container) return;
-    if (chartLoaded[asset]) return;
+    var container = document.getElementById('tv-chart-' + asset);
+    if (!container || chartLoaded[asset]) return;
     chartLoaded[asset] = true;
-
-    const widgetDiv = document.createElement('div');
+    var widgetDiv = document.createElement('div');
     widgetDiv.className = 'tradingview-widget-container';
     widgetDiv.style.height = '100%';
     widgetDiv.style.width = '100%';
-
-    const innerDiv = document.createElement('div');
+    var innerDiv = document.createElement('div');
     innerDiv.className = 'tradingview-widget-container__widget';
     innerDiv.style.height = '100%';
     innerDiv.style.width = '100%';
     widgetDiv.appendChild(innerDiv);
-
-    const script = document.createElement('script');
+    var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
     script.async = true;
     script.textContent = JSON.stringify({
-      "autosize": true,
-      "symbol": TV_SYMBOLS[asset],
-      "interval": "60",
-      "timezone": "Etc/UTC",
-      "theme": "dark",
-      "style": "1",
-      "locale": "en",
-      "backgroundColor": "rgba(13, 13, 13, 1)",
-      "gridColor": "rgba(30, 30, 30, 1)",
-      "hide_top_toolbar": false,
-      "hide_legend": false,
-      "allow_symbol_change": false,
-      "save_image": false,
-      "calendar": false,
-      "studies": ["STD;RSI"],
-      "support_host": "https://www.tradingview.com"
+      autosize: true,
+      symbol: TV_SYMBOLS[asset],
+      interval: '60',
+      timezone: 'Etc/UTC',
+      theme: 'dark',
+      style: '1',
+      locale: 'en',
+      backgroundColor: 'rgba(13, 13, 13, 1)',
+      gridColor: 'rgba(30, 30, 30, 1)',
+      hide_top_toolbar: false,
+      hide_legend: false,
+      allow_symbol_change: false,
+      save_image: false,
+      calendar: false,
+      studies: ['STD;RSI'],
+      support_host: 'https://www.tradingview.com'
     });
     widgetDiv.appendChild(script);
     container.appendChild(widgetDiv);
   }
 
-  async function loadAsset(asset) {
-    const panel = document.getElementById(`panel-${asset}`);
-    try {
-      const res = await fetch(`data/${asset}.json?t=${Date.now()}`);
-      if (!res.ok) throw new Error('Data not found');
-      const d = await res.json();
-      cache[asset] = d;
-      renderPanel(asset, d);
-    } catch (e) {
-      panel.innerHTML = `<div class="error">// ERROR: Could not load ${asset.toUpperCase()} data. Run the update script first.</div>`;
-    }
+  function loadAsset(asset) {
+    var panel = document.getElementById('panel-' + asset);
+    fetch('data/' + asset + '.json?t=' + Date.now())
+      .then(function(res) {
+        if (!res.ok) throw new Error('not found');
+        return res.json();
+      })
+      .then(function(d) {
+        cache[asset] = d;
+        renderPanel(asset, d);
+      })
+      .catch(function() {
+        panel.innerHTML = '<div class="error">// ERROR: Could not load ' + asset.toUpperCase() + ' data. Run the update script first.</div>';
+      });
   }
 
   function renderPanel(asset, d) {
-    const panel = document.getElementById(`panel-${asset}`);
-    const a = d.analysis;
-    const changeClass = d.change_24h >= 0 ? 'change-positive' : 'change-negative';
-    const changeSign = d.change_24h >= 0 ? '+' : '';
-    const rsi = d.rsi ?? 50;
-    const rsiClass = rsi >= 70 ? 'overbought' : rsi <= 30 ? 'oversold' : '';
-    const biasClass = `bias-${a.trend_bias ?? 'neutral'}`;
-    const support = (a.key_levels?.support ?? []).join(' · ') || '—';
-    const resistance = (a.key_levels?.resistance ?? []).join(' · ') || '—';
-    const updated = new Date(d.updated_at).toUTCString();
-    const isCommodity = asset === 'xau';
-    const typeLabel = isCommodity ? 'COMMODITY' : 'CRYPTO';
-    const hasRsi = d.rsi !== null && d.rsi !== undefined;
-    const priceDecimals = isCommodity ? 2 : (d.price < 1 ? 4 : 2);
+    var panel = document.getElementById('panel-' + asset);
+    var a = d.analysis;
+    var changeClass = d.change_24h >= 0 ? 'change-positive' : 'change-negative';
+    var changeSign = d.change_24h >= 0 ? '+' : '';
+    var rsi = d.rsi != null ? d.rsi : 50;
+    var rsiClass = rsi >= 70 ? 'overbought' : (rsi <= 30 ? 'oversold' : '');
+    var biasClass = 'bias-' + (a.trend_bias || 'neutral');
+    var support = (a.key_levels && a.key_levels.support ? a.key_levels.support : []).join(' · ') || '—';
+    var resistance = (a.key_levels && a.key_levels.resistance ? a.key_levels.resistance : []).join(' · ') || '—';
+    var updated = new Date(d.updated_at).toUTCString();
+    var isCommodity = asset === 'xau';
+    var typeLabel = isCommodity ? 'COMMODITY' : 'CRYPTO';
+    var hasRsi = d.rsi !== null && d.rsi !== undefined;
+    var priceDecimals = isCommodity ? 2 : (d.price < 1 ? 4 : 2);
 
-    panel.innerHTML = `
-      <div class="price-row">
-        <span class="asset-symbol">${d.symbol}</span>
-        <span class="asset-type">${typeLabel}</span>
-        <span class="price-usd">$${Number(d.price).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: priceDecimals})}</span>
-        <span class="${changeClass}">${changeSign}${d.change_24h}%</span>
-        <span class="bias-badge ${biasClass}">${(a.trend_bias ?? 'neutral').toUpperCase()}</span>
-        ${hasRsi ? `<span class="meta-pill">RSI ${rsi}</span>` : ''}
-      </div>
+    var html = '<div class="price-row">'
+      + '<span class="asset-symbol">' + d.symbol + '</span>'
+      + '<span class="asset-type">' + typeLabel + '</span>'
+      + '<span class="price-usd">$' + Number(d.price).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: priceDecimals}) + '</span>'
+      + '<span class="' + changeClass + '">' + changeSign + d.change_24h + '%</span>'
+      + '<span class="bias-badge ' + biasClass + '">' + (a.trend_bias || 'neutral').toUpperCase() + '</span>'
+      + (hasRsi ? '<span class="meta-pill">RSI ' + rsi + '</span>' : '')
+      + '</div>'
+      + '<div class="chart-label">// LIVE CHART</div>'
+      + '<div class="chart-container" id="tv-chart-' + asset + '"></div>'
+      + '<div class="grid">'
+      + '<div class="block"><div class="block-label">' + (isCommodity ? 'Technical Pattern' : 'Elliott Wave') + '</div><div class="block-value">' + (a.elliott_wave || '—') + '</div></div>'
+      + '<div class="block"><div class="block-label">Momentum</div><div class="block-value">' + (a.momentum || '—') + '</div></div>'
+      + '</div>';
 
-      <div class="chart-label">// LIVE CHART</div>
-      <div class="chart-container" id="tv-chart-${asset}"></div>
-
-      <div class="grid">
-        <div class="block">
-          <div class="block-label">${isCommodity ? 'Technical Pattern' : 'Elliott Wave'}</div>
-          <div class="block-value">${a.elliott_wave ?? '—'}</div>
-        </div>
-        <div class="block">
-          <div class="block-label">Momentum</div>
-          <div class="block-value">${a.momentum ?? '—'}</div>
-        </div>
-      </div>
-
-      ${hasRsi ? `
-      <div class="block-full">
-        <div class="block-label">RSI (14) — ${rsi} ${rsiClass ? '· ' + rsiClass.toUpperCase() : ''}</div>
-        <div class="rsi-bar-wrap">
-          <div class="rsi-bar ${rsiClass}" style="width:${rsi}%"></div>
-        </div>
-      </div>
-      ` : `
-      <div class="block-full">
-        <div class="block-label">RSI (14)</div>
-        <div class="block-value" style="color:#555">— Not available for this asset —</div>
-      </div>
-      `}
-
-      <div class="block-full">
-        <div class="block-label">Key Levels</div>
-        <div class="levels">
-          <div class="level-group">
-            <div class="level-label">SUPPORT</div>
-            <div class="level-support">${support}</div>
-          </div>
-          <div class="level-group">
-            <div class="level-label">RESISTANCE</div>
-            <div class="level-resistance">${resistance}</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="block-full">
-        <div class="block-label">Trade Plan</div>
-        <div class="block-value">${a.trade_plan ?? '—'}</div>
-      </div>
-
-      <div class="block-full">
-        <div class="block-label">Risk Note</div>
-        <div class="block-value" style="color:#ff8844">${a.risk_note ?? '—'}</div>
-      </div>
-
-      <div class="updated">// last updated: ${updated}</div>
-    `;
-
-    document.getElementById('last-refresh').textContent = `refreshed ${new Date().toLocaleTimeString()}`;
-
-    // Load chart after DOM is ready
-    if (!chartLoaded[asset]) {
-      setTimeout(() => loadChart(asset), 100);
+    if (hasRsi) {
+      html += '<div class="block-full"><div class="block-label">RSI (14) — ' + rsi + (rsiClass ? ' · ' + rsiClass.toUpperCase() : '') + '</div>'
+        + '<div class="rsi-bar-wrap"><div class="rsi-bar ' + rsiClass + '" style="width:' + rsi + '%"></div></div></div>';
+    } else {
+      html += '<div class="block-full"><div class="block-label">RSI (14)</div><div class="block-value" style="color:#555">— Not available for this asset —</div></div>';
     }
+
+    html += '<div class="block-full"><div class="block-label">Key Levels</div><div class="levels">'
+      + '<div class="level-group"><div class="level-label">SUPPORT</div><div class="level-support">' + support + '</div></div>'
+      + '<div class="level-group"><div class="level-label">RESISTANCE</div><div class="level-resistance">' + resistance + '</div></div>'
+      + '</div></div>'
+      + '<div class="block-full"><div class="block-label">Trade Plan</div><div class="block-value">' + (a.trade_plan || '—') + '</div></div>'
+      + '<div class="block-full"><div class="block-label">Risk Note</div><div class="block-value" style="color:#ff8844">' + (a.risk_note || '—') + '</div></div>'
+      + '<div class="updated">// last updated: ' + updated + '</div>';
+
+    panel.innerHTML = html;
+    document.getElementById('last-refresh').textContent = 'refreshed ' + new Date().toLocaleTimeString();
+    if (!chartLoaded[asset]) setTimeout(function() { loadChart(asset); }, 100);
   }
 
-  // Load BTC on start, prefetch others
   loadAsset('btc');
-  setTimeout(() => loadAsset('eth'), 500);
-  setTimeout(() => loadAsset('sui'), 1000);
-  setTimeout(() => loadAsset('xau'), 1500);
+  setTimeout(function() { loadAsset('eth'); }, 500);
+  setTimeout(function() { loadAsset('sui'); }, 1000);
+  setTimeout(function() { loadAsset('xau'); }, 1500);
 </script>
 </body>
 </html>

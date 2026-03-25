@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>How Your Crypto Dashboard Works — A Visual Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0c0f;
+  --bg2: #111116;
+  --bg3: #18181e;
+  --fg: #e2e0d8;
+  --fg2: #9d9b93;
+  --fg3: #5c5b56;
+  --green: #00e88f;
+  --green-dim: #00e88f22;
+  --amber: #f5a623;
+  --amber-dim: #f5a62322;
+  --coral: #e85d3a;
+  --coral-dim: #e85d3a22;
+  --blue: #5ba4f5;
+  --blue-dim: #5ba4f522;
+  --purple: #9b7bf5;
+  --purple-dim: #9b7bf522;
+  --pink: #e05a9e;
+  --pink-dim: #e05a9e22;
+  --mono: 'IBM Plex Mono', monospace;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased;}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--fg3);border-radius:3px;}
+
+/* Layout */
+.container{max-width:860px;margin:0 auto;padding:0 28px;}
+
+/* Hero */
+.hero{padding:80px 0 60px;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,var(--green-dim) 0%,transparent 70%);pointer-events:none;opacity:.5;}
+.hero h1{font-family:var(--serif);font-size:clamp(36px,6vw,56px);font-weight:400;color:var(--fg);line-height:1.15;margin-bottom:16px;position:relative;}
+.hero h1 em{font-style:italic;color:var(--green);}
+.hero p{font-size:18px;color:var(--fg2);max-width:540px;margin:0 auto 32px;position:relative;}
+.hero-badge{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:2px;color:var(--fg3);border:1px solid var(--fg3);padding:6px 16px;border-radius:999px;text-transform:uppercase;position:relative;}
+
+/* Nav dots */
+.nav{position:fixed;right:20px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:12px;}
+.nav a{width:10px;height:10px;border-radius:50%;background:var(--fg3);display:block;transition:all .3s;opacity:.4;}
+.nav a:hover,.nav a.active{background:var(--green);opacity:1;transform:scale(1.3);}
+@media(max-width:768px){.nav{display:none;}}
+
+/* Section */
+section{padding:70px 0 40px;border-top:1px solid #1e1e24;position:relative;}
+section:first-of-type{border-top:none;}
+
+.section-number{font-family:var(--mono);font-size:13px;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.section-number .dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
+
+h2{font-family:var(--serif);font-size:clamp(28px,4vw,40px);font-weight:400;line-height:1.2;margin-bottom:20px;}
+h2 em{font-style:italic;}
+h3{font-family:var(--sans);font-size:20px;font-weight:600;margin:32px 0 12px;color:var(--fg);}
+
+p{color:var(--fg2);margin-bottom:16px;}
+p strong{color:var(--fg);font-weight:600;}
+
+/* Illustration cards */
+.illust{background:var(--bg2);border:1px solid #1e1e24;border-radius:16px;padding:32px;margin:28px 0;overflow:hidden;position:relative;}
+.illust svg{display:block;width:100%;height:auto;}
+
+/* Analogy box */
+.analogy{background:var(--bg3);border-left:3px solid var(--amber);padding:20px 24px;border-radius:0 12px 12px 0;margin:24px 0;font-size:16px;}
+.analogy .label{font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--amber);text-transform:uppercase;margin-bottom:8px;}
+
+/* Code explainer */
+.code-block{background:#0a0a0e;border:1px solid #1e1e24;border-radius:12px;padding:20px 24px;margin:24px 0;font-family:var(--mono);font-size:13px;line-height:1.8;overflow-x:auto;color:var(--fg2);}
+.code-block .comment{color:var(--fg3);}
+.code-block .keyword{color:var(--purple);}
+.code-block .string{color:var(--green);}
+.code-block .fn{color:var(--blue);}
+.code-block .var{color:var(--amber);}
+
+/* Vocab card */
+.vocab{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0;}
+@media(max-width:600px){.vocab{grid-template-columns:1fr;}}
+.vocab-card{background:var(--bg2);border:1px solid #1e1e24;border-radius:12px;padding:18px 20px;}
+.vocab-card .term{font-family:var(--mono);font-size:14px;font-weight:600;color:var(--green);margin-bottom:6px;}
+.vocab-card .def{font-size:14px;color:var(--fg2);line-height:1.6;}
+
+/* Flow step */
+.flow-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.flow-step{display:flex;gap:20px;position:relative;padding-bottom:28px;}
+.flow-step:last-child{padding-bottom:0;}
+.flow-step:last-child .flow-line{display:none;}
+.flow-num{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:14px;font-weight:600;flex-shrink:0;position:relative;z-index:1;}
+.flow-line{position:absolute;left:19px;top:40px;bottom:0;width:2px;border-radius:1px;}
+.flow-content{flex:1;padding-top:8px;}
+.flow-content h4{font-size:16px;font-weight:600;margin-bottom:4px;}
+.flow-content p{font-size:15px;margin-bottom:0;}
+
+/* Color coded sections */
+.c-green .section-number{color:var(--green);}
+.c-green .dot{background:var(--green);}
+.c-green .flow-num{background:var(--green-dim);color:var(--green);border:1px solid var(--green);}
+.c-green .flow-line{background:var(--green-dim);}
+
+.c-amber .section-number{color:var(--amber);}
+.c-amber .dot{background:var(--amber);}
+.c-amber .flow-num{background:var(--amber-dim);color:var(--amber);border:1px solid var(--amber);}
+.c-amber .flow-line{background:var(--amber-dim);}
+
+.c-coral .section-number{color:var(--coral);}
+.c-coral .dot{background:var(--coral);}
+.c-coral .flow-num{background:var(--coral-dim);color:var(--coral);border:1px solid var(--coral);}
+.c-coral .flow-line{background:var(--coral-dim);}
+
+.c-blue .section-number{color:var(--blue);}
+.c-blue .dot{background:var(--blue);}
+.c-blue .flow-num{background:var(--blue-dim);color:var(--blue);border:1px solid var(--blue);}
+.c-blue .flow-line{background:var(--blue-dim);}
+
+.c-purple .section-number{color:var(--purple);}
+.c-purple .dot{background:var(--purple);}
+.c-purple .flow-num{background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple);}
+.c-purple .flow-line{background:var(--purple-dim);}
+
+.c-pink .section-number{color:var(--pink);}
+.c-pink .dot{background:var(--pink);}
+.c-pink .flow-num{background:var(--pink-dim);color:var(--pink);border:1px solid var(--pink);}
+.c-pink .flow-line{background:var(--pink-dim);}
+
+/* Highlight text */
+.hl-green{color:var(--green);}
+.hl-amber{color:var(--amber);}
+.hl-coral{color:var(--coral);}
+.hl-blue{color:var(--blue);}
+.hl-purple{color:var(--purple);}
+
+/* File tree */
+.file-tree{font-family:var(--mono);font-size:14px;background:var(--bg2);border:1px solid #1e1e24;border-radius:12px;padding:24px;margin:24px 0;line-height:2;}
+.file-tree .folder{color:var(--amber);}
+.file-tree .file{color:var(--fg2);}
+.file-tree .desc{color:var(--fg3);font-size:12px;}
+
+/* Footer */
+footer{padding:60px 0;text-align:center;border-top:1px solid #1e1e24;margin-top:40px;}
+footer p{color:var(--fg3);font-size:14px;}
+
+/* Animations */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.fade-up{animation:fadeUp .6s ease-out both;}
+
+/* Connector badge */
+.connector{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;padding:4px 12px;border-radius:999px;border:1px solid;margin:4px 2px;}
+.connector.api{color:var(--blue);border-color:var(--blue);background:var(--blue-dim);}
+.connector.file{color:var(--green);border-color:var(--green);background:var(--green-dim);}
+.connector.ai{color:var(--purple);border-color:var(--purple);background:var(--purple-dim);}
+</style>
+</head>
+<body>
+
+<!-- Fixed nav -->
+<nav class="nav" id="nav">
+  <a href="#overview" title="Overview"></a>
+  <a href="#apis" title="APIs"></a>
+  <a href="#python" title="Python Script"></a>
+  <a href="#json" title="JSON Data"></a>
+  <a href="#html" title="Frontend"></a>
+  <a href="#github" title="GitHub Actions"></a>
+  <a href="#ai" title="AI Analysis"></a>
+</nav>
+
+<div class="container">
+
+<!-- HERO -->
+<div class="hero fade-up">
+  <div class="hero-badge">Ben's learning guide</div>
+  <h1>How your <em>Crypto Dashboard</em> actually works</h1>
+  <p>A visual, beginner-friendly breakdown of every piece of the project you and Ben built together — from APIs to automation.</p>
+</div>
+
+<!-- ============================================ -->
+<!-- SECTION 0: THE BIG PICTURE -->
+<!-- ============================================ -->
+<section id="overview" class="c-green">
+  <div class="section-number"><span class="dot"></span> 00 &mdash; The big picture</div>
+  <h2>Your project is a <em>data pipeline</em></h2>
+
+  <p>Think of your dashboard like a <strong>newspaper</strong>. Every hour, a reporter (your Python script) goes out, gathers the latest crypto prices, asks an analyst (AI) for their opinion, writes it all down (JSON files), and the printing press (your HTML page) turns it into something people can read.</p>
+
+  <div class="analogy">
+    <div class="label">Real-world analogy</div>
+    <strong style="color:var(--fg)">Reporter</strong> = Python script &nbsp;&bull;&nbsp;
+    <strong style="color:var(--fg)">Notebook</strong> = JSON files &nbsp;&bull;&nbsp;
+    <strong style="color:var(--fg)">Newspaper</strong> = HTML page &nbsp;&bull;&nbsp;
+    <strong style="color:var(--fg)">Alarm clock</strong> = GitHub Actions
+  </div>
+
+  <!-- Architecture illustration -->
+  <div class="illust">
+    <svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+      <!-- Background grid -->
+      <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0L0 0 0 40" fill="none" stroke="#1e1e24" stroke-width=".5"/>
+        </pattern>
+      </defs>
+      <rect width="800" height="520" fill="url(#grid)" opacity=".5"/>
+
+      <!-- External world -->
+      <text x="400" y="36" text-anchor="middle" fill="#5c5b56" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="2">THE INTERNET (EXTERNAL APIS)</text>
+
+      <!-- API boxes -->
+      <rect x="60" y="52" width="160" height="60" rx="10" fill="#5ba4f522" stroke="#5ba4f5" stroke-width=".8"/>
+      <text x="140" y="78" text-anchor="middle" fill="#5ba4f5" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">CoinGecko</text>
+      <text x="140" y="96" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Crypto prices</text>
+
+      <rect x="260" y="52" width="160" height="60" rx="10" fill="#5ba4f522" stroke="#5ba4f5" stroke-width=".8"/>
+      <text x="340" y="78" text-anchor="middle" fill="#5ba4f5" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">TradingView</text>
+      <text x="340" y="96" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Gold data + signals</text>
+
+      <rect x="460" y="52" width="160" height="60" rx="10" fill="#9b7bf522" stroke="#9b7bf5" stroke-width=".8"/>
+      <text x="540" y="78" text-anchor="middle" fill="#9b7bf5" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">Groq AI</text>
+      <text x="540" y="96" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Market analysis</text>
+
+      <!-- Arrows down -->
+      <line x1="140" y1="112" x2="140" y2="170" stroke="#5ba4f5" stroke-width="1.5" stroke-dasharray="4 3" opacity=".6"/>
+      <line x1="340" y1="112" x2="340" y2="170" stroke="#5ba4f5" stroke-width="1.5" stroke-dasharray="4 3" opacity=".6"/>
+      <line x1="540" y1="112" x2="540" y2="170" stroke="#9b7bf5" stroke-width="1.5" stroke-dasharray="4 3" opacity=".6"/>
+
+      <!-- Python box -->
+      <rect x="60" y="170" width="560" height="90" rx="14" fill="#9b7bf522" stroke="#9b7bf5" stroke-width="1"/>
+      <text x="340" y="204" text-anchor="middle" fill="#9b7bf5" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600">update_dashboard.py</text>
+      <text x="340" y="226" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="14">Fetches prices &bull; Calculates RSI &bull; Gets AI analysis &bull; Saves JSON</text>
+      <text x="340" y="248" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">The "brain" of your project — a Python script</text>
+
+      <!-- Arrow down to JSON -->
+      <line x1="340" y1="260" x2="340" y2="310" stroke="#00e88f" stroke-width="1.5" stroke-dasharray="4 3" opacity=".6"/>
+      <text x="365" y="290" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="11" opacity=".8">saves files</text>
+
+      <!-- JSON files -->
+      <rect x="80" y="310" width="120" height="52" rx="8" fill="#00e88f18" stroke="#00e88f" stroke-width=".8"/>
+      <text x="140" y="341" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="500">btc.json</text>
+
+      <rect x="220" y="310" width="120" height="52" rx="8" fill="#00e88f18" stroke="#00e88f" stroke-width=".8"/>
+      <text x="280" y="341" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="500">eth.json</text>
+
+      <rect x="360" y="310" width="120" height="52" rx="8" fill="#00e88f18" stroke="#00e88f" stroke-width=".8"/>
+      <text x="420" y="341" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="500">sui.json</text>
+
+      <rect x="500" y="310" width="120" height="52" rx="8" fill="#f5a62318" stroke="#f5a623" stroke-width=".8"/>
+      <text x="560" y="341" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="500">xau.json</text>
+
+      <!-- Arrow down to HTML -->
+      <line x1="340" y1="362" x2="340" y2="412" stroke="#e85d3a" stroke-width="1.5" stroke-dasharray="4 3" opacity=".6"/>
+      <text x="365" y="392" fill="#e85d3a" font-family="IBM Plex Mono,monospace" font-size="11" opacity=".8">reads files</text>
+
+      <!-- HTML box -->
+      <rect x="120" y="412" width="440" height="70" rx="14" fill="#e85d3a22" stroke="#e85d3a" stroke-width="1"/>
+      <text x="340" y="444" text-anchor="middle" fill="#e85d3a" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600">index.html</text>
+      <text x="340" y="466" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="14">Terminal-style dashboard you see in the browser</text>
+
+      <!-- GitHub Actions (right side) -->
+      <rect x="660" y="170" width="120" height="90" rx="14" fill="#f5a62322" stroke="#f5a623" stroke-width="1"/>
+      <text x="720" y="204" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">GitHub</text>
+      <text x="720" y="222" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">Actions</text>
+      <text x="720" y="248" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="11">Runs every hour</text>
+
+      <!-- Arrow from GH to Python -->
+      <line x1="660" y1="215" x2="622" y2="215" stroke="#f5a623" stroke-width="1.5" opacity=".6"/>
+      <polygon points="625,210 625,220 618,215" fill="#f5a623" opacity=".6"/>
+
+      <!-- Arrow from GH down to JSON -->
+      <path d="M720 260 L720 336 L622 336" fill="none" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3" opacity=".4"/>
+      <text x="728" y="300" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="10" opacity=".6">commits</text>
+    </svg>
+  </div>
+
+  <p>That's the whole project in one picture. Now let's break down each piece.</p>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 1: WHAT IS AN API? -->
+<!-- ============================================ -->
+<section id="apis" class="c-blue">
+  <div class="section-number"><span class="dot"></span> 01 &mdash; Foundation concept</div>
+  <h2>What is an <em>API?</em></h2>
+
+  <p>API stands for <strong>Application Programming Interface</strong>. That sounds intimidating, but it's just a <strong>waiter at a restaurant</strong>.</p>
+
+  <div class="analogy">
+    <div class="label">Analogy</div>
+    You (the customer) don't walk into the kitchen and cook your own food. Instead, you tell the <strong style="color:var(--fg)">waiter</strong> (the API) what you want. The waiter goes to the kitchen (the server), gets your food (the data), and brings it back to your table. You never need to know how the kitchen works.
+  </div>
+
+  <div class="illust">
+    <svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0L0 0 0 40" fill="none" stroke="#1e1e24" stroke-width=".5"/>
+        </pattern>
+      </defs>
+      <rect width="800" height="280" fill="url(#grid2)" opacity=".3"/>
+
+      <!-- You -->
+      <rect x="40" y="80" width="160" height="100" rx="14" fill="#9b7bf522" stroke="#9b7bf5" stroke-width="1"/>
+      <text x="120" y="118" text-anchor="middle" fill="#9b7bf5" font-family="IBM Plex Mono,monospace" font-size="14" font-weight="600">Your script</text>
+      <text x="120" y="142" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">"Hey, what's the</text>
+      <text x="120" y="158" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">price of Bitcoin?"</text>
+
+      <!-- Arrow 1 -->
+      <line x1="200" y1="120" x2="298" y2="120" stroke="#5ba4f5" stroke-width="1.5" opacity=".6"/>
+      <polygon points="295,115 295,125 304,120" fill="#5ba4f5" opacity=".8"/>
+      <text x="250" y="108" text-anchor="middle" fill="#5ba4f5" font-family="IBM Plex Mono,monospace" font-size="11">request</text>
+
+      <!-- API -->
+      <rect x="300" y="80" width="180" height="100" rx="14" fill="#5ba4f522" stroke="#5ba4f5" stroke-width="1"/>
+      <text x="390" y="118" text-anchor="middle" fill="#5ba4f5" font-family="IBM Plex Mono,monospace" font-size="14" font-weight="600">API</text>
+      <text x="390" y="142" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">The waiter</text>
+      <text x="390" y="158" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Takes your order</text>
+
+      <!-- Arrow 2 -->
+      <line x1="480" y1="120" x2="578" y2="120" stroke="#5ba4f5" stroke-width="1.5" opacity=".6"/>
+      <polygon points="575,115 575,125 584,120" fill="#5ba4f5" opacity=".8"/>
+
+      <!-- Server -->
+      <rect x="580" y="80" width="180" height="100" rx="14" fill="#00e88f22" stroke="#00e88f" stroke-width="1"/>
+      <text x="670" y="118" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="14" font-weight="600">CoinGecko server</text>
+      <text x="670" y="142" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">The kitchen</text>
+      <text x="670" y="158" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Has ALL the data</text>
+
+      <!-- Return arrow -->
+      <path d="M580 180 L480 180 L480 210 L200 210 L200 180" fill="none" stroke="#00e88f" stroke-width="1.5" stroke-dasharray="4 3" opacity=".5"/>
+      <polygon points="203,175 203,185 194,180" fill="#00e88f" opacity=".7"/>
+      <text x="390" y="230" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="11">response: { "bitcoin": { "usd": 70984 } }</text>
+    </svg>
+  </div>
+
+  <p>Your project uses <strong>three APIs</strong>:</p>
+
+  <div class="vocab">
+    <div class="vocab-card">
+      <div class="term">CoinGecko API</div>
+      <div class="def">A free service that gives you live crypto prices, 24h price changes, and market caps for BTC, ETH, and SUI. No key needed.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">TradingView API</div>
+      <div class="def">Provides technical analysis data for Gold (XAU) — price, RSI indicator, and support/resistance levels from professional traders.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Groq API</div>
+      <div class="def">A super-fast AI service running Meta's Llama model. Your script sends market data and asks it to write a trade analysis. Requires an API key.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">API Key</div>
+      <div class="def">Like a membership card. Some APIs are free to use (CoinGecko), others need a key to identify you (Groq). It's a long secret text string you keep private.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 2: PYTHON SCRIPT -->
+<!-- ============================================ -->
+<section id="python" class="c-purple">
+  <div class="section-number"><span class="dot"></span> 02 &mdash; The brain</div>
+  <h2>The Python script: <em>update_dashboard.py</em></h2>
+
+  <p><strong>Python</strong> is a programming language — a way to write instructions that a computer can follow. Your script is like a recipe that tells the computer exactly what to do, step by step.</p>
+
+  <div class="analogy">
+    <div class="label">Analogy</div>
+    Python is like writing a cooking recipe. Each line is one instruction: "first, crack 2 eggs" becomes "first, fetch Bitcoin's price." The computer reads from top to bottom and does exactly what you wrote.
+  </div>
+
+  <h3>What happens when the script runs</h3>
+
+  <div class="flow-steps">
+    <div class="flow-step">
+      <div class="flow-num">1</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Fetch crypto prices</h4>
+        <p>Calls CoinGecko's API to get live prices, 24h changes, and market caps for Bitcoin, Ethereum, and SUI.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">2</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Fetch price history (OHLC)</h4>
+        <p>Gets 14 days of candlestick data (Open, High, Low, Close) for each crypto. This is needed to calculate RSI.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">3</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Calculate RSI</h4>
+        <p>RSI (Relative Strength Index) is a number from 0-100 that tells you if something is overbought (above 70) or oversold (below 30). The script calculates this from the price history.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">4</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Ask AI for analysis</h4>
+        <p>Sends all the data (price, change, RSI, market cap) to Groq's Llama AI model with a carefully written prompt. The AI returns a JSON object with Elliott Wave analysis, momentum reading, key levels, trend bias, trade plan, and risk notes.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">5</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Fetch Gold data separately</h4>
+        <p>Gold uses TradingView instead of CoinGecko — it's a commodity, not a crypto. The script tries multiple exchanges until one works.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">6</div>
+      <div class="flow-content">
+        <h4>Save everything as JSON files</h4>
+        <p>Writes four files: <code>btc.json</code>, <code>eth.json</code>, <code>sui.json</code>, <code>xau.json</code> — each containing price, analysis, and metadata.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Key building blocks in the code</h3>
+
+  <div class="vocab">
+    <div class="vocab-card">
+      <div class="term">import</div>
+      <div class="def">Loads a pre-built tool someone else made. Like borrowing a power drill instead of building one. <code>import requests</code> gives you the ability to call APIs.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">function (def)</div>
+      <div class="def">A reusable block of code. <code>def fetch_crypto_prices():</code> defines a set of steps you can run anytime by calling its name.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">variable</div>
+      <div class="def">A named container for data. <code>price = 70984</code> stores the number 70984 in a box labelled "price" that you can use later.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">dictionary (dict)</div>
+      <div class="def">A collection of key-value pairs, like a real dictionary. <code>{"symbol": "BTC", "price": 70984}</code> — you look up "symbol" and get "BTC".</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">requests.get()</div>
+      <div class="def">Sends a "GET" request to an API — like asking the waiter "what's on the menu?" It returns the data from the server.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">requests.post()</div>
+      <div class="def">Sends data TO an API — like handing the waiter your order. Used for the Groq AI call because you're sending the prompt along with it.</div>
+    </div>
+  </div>
+
+  <h3>A taste of the actual code</h3>
+  <div class="code-block">
+    <span class="comment"># This is a comment — the computer ignores it, it's just a note for humans</span><br><br>
+    <span class="keyword">def</span> <span class="fn">fetch_crypto_prices</span>():<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"># Build the URL with the coins we want</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="var">url</span> = <span class="string">"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,sui..."</span><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"># Ask CoinGecko for the data (like visiting a website)</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="var">r</span> = requests.<span class="fn">get</span>(<span class="var">url</span>)<br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment"># Convert the response into Python data we can work with</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="var">r</span>.<span class="fn">json</span>()
+  </div>
+  <p>Every function in your script follows this pattern: <strong>build a URL or request</strong>, <strong>send it</strong>, <strong>get data back</strong>, <strong>do something with it</strong>.</p>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 3: JSON -->
+<!-- ============================================ -->
+<section id="json" class="c-green">
+  <div class="section-number"><span class="dot"></span> 03 &mdash; The data format</div>
+  <h2>What is <em>JSON?</em></h2>
+
+  <p>JSON (JavaScript Object Notation) is just a <strong>way to organize data as text</strong>. Think of it as a form you fill out — it has labels (keys) and values.</p>
+
+  <div class="analogy">
+    <div class="label">Analogy</div>
+    JSON is like a business card. It has structured information — Name: Bitcoin, Price: $70,984, Change: +3.87%. Both humans and computers can read it easily.
+  </div>
+
+  <div class="code-block">
+    {<br>
+    &nbsp;&nbsp;<span class="string">"symbol"</span>: <span class="string">"BTC"</span>, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// The label (key) and value</span><br>
+    &nbsp;&nbsp;<span class="string">"price"</span>: <span class="var">70984</span>, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// Numbers don't need quotes</span><br>
+    &nbsp;&nbsp;<span class="string">"change_24h"</span>: <span class="var">3.87</span>, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// Decimal numbers work too</span><br>
+    &nbsp;&nbsp;<span class="string">"analysis"</span>: { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// You can nest objects inside objects</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"trend_bias"</span>: <span class="string">"bullish"</span>,<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"key_levels"</span>: {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"support"</span>: [<span class="string">"$68,000"</span>, <span class="string">"$66,000"</span>], &nbsp;<span class="comment">// Arrays = lists of items</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"resistance"</span>: [<span class="string">"$72,000"</span>, <span class="string">"$74,000"</span>]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+    &nbsp;&nbsp;}<br>
+    }
+  </div>
+
+  <p><strong>Why JSON?</strong> Because it's the universal language between systems. Your Python script writes JSON, and your HTML page reads JSON. They don't need to know anything about each other — they just agree on the format. This is how most of the internet works.</p>
+
+  <h3>Your project's file structure</h3>
+  <div class="file-tree">
+    <span class="folder">crypto-dashboard/</span><br>
+    &nbsp;&nbsp;<span class="file">index.html</span> <span class="desc">&larr; The website people see</span><br>
+    &nbsp;&nbsp;<span class="file">update_dashboard.py</span> <span class="desc">&larr; The Python brain</span><br>
+    &nbsp;&nbsp;<span class="folder">data/</span> <span class="desc">&larr; Folder for JSON files</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="file">btc.json</span> <span class="desc">&larr; Bitcoin data</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="file">eth.json</span> <span class="desc">&larr; Ethereum data</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="file">sui.json</span> <span class="desc">&larr; SUI data</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="file">xau.json</span> <span class="desc">&larr; Gold data</span><br>
+    &nbsp;&nbsp;<span class="folder">.github/workflows/</span> <span class="desc">&larr; Automation config</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span class="file">update.yml</span> <span class="desc">&larr; "Run this every hour"</span>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 4: HTML FRONTEND -->
+<!-- ============================================ -->
+<section id="html" class="c-coral">
+  <div class="section-number"><span class="dot"></span> 04 &mdash; The display</div>
+  <h2>The HTML frontend: <em>index.html</em></h2>
+
+  <p>HTML (HyperText Markup Language) is the language every web page is written in. If the Python script is the brain, <strong>HTML is the face</strong> — it's what users actually see and interact with.</p>
+
+  <p>Your <code>index.html</code> is made of <strong>three languages working together</strong>:</p>
+
+  <div class="vocab">
+    <div class="vocab-card">
+      <div class="term">HTML</div>
+      <div class="def"><strong>The skeleton.</strong> Defines what's on the page — headings, buttons, containers. Like the frame of a house.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">CSS</div>
+      <div class="def"><strong>The paint and decoration.</strong> Defines how things look — colors, fonts, spacing, the dark terminal style. Like interior design.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">JavaScript (JS)</div>
+      <div class="def"><strong>The electricity.</strong> Makes things interactive — switching tabs, loading data, updating numbers. Makes the house "smart."</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">fetch()</div>
+      <div class="def">JavaScript's way of loading a file. When you open the page, JS uses <code>fetch('data/btc.json')</code> to read the JSON file and display it.</div>
+    </div>
+  </div>
+
+  <div class="illust">
+    <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0L0 0 0 40" fill="none" stroke="#1e1e24" stroke-width=".5"/>
+        </pattern>
+      </defs>
+      <rect width="800" height="320" fill="url(#grid3)" opacity=".3"/>
+
+      <!-- Three pillars -->
+      <rect x="40" y="40" width="220" height="240" rx="14" fill="#e85d3a18" stroke="#e85d3a" stroke-width=".8"/>
+      <text x="150" y="76" text-anchor="middle" fill="#e85d3a" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600">HTML</text>
+      <text x="150" y="100" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="13">The skeleton</text>
+      <line x1="70" y1="118" x2="230" y2="118" stroke="#1e1e24" stroke-width=".5"/>
+      <text x="150" y="145" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">&lt;div class="tabs"&gt;</text>
+      <text x="150" y="167" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">&lt;button&gt;BTC&lt;/button&gt;</text>
+      <text x="150" y="189" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">&lt;button&gt;ETH&lt;/button&gt;</text>
+      <text x="150" y="211" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">&lt;div class="panel"&gt;</text>
+      <text x="150" y="258" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="11">Defines structure</text>
+
+      <rect x="290" y="40" width="220" height="240" rx="14" fill="#5ba4f518" stroke="#5ba4f5" stroke-width=".8"/>
+      <text x="400" y="76" text-anchor="middle" fill="#5ba4f5" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600">CSS</text>
+      <text x="400" y="100" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="13">The paint</text>
+      <line x1="320" y1="118" x2="480" y2="118" stroke="#1e1e24" stroke-width=".5"/>
+      <text x="400" y="145" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">background: #0a0a0a</text>
+      <text x="400" y="167" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">color: #00ff88</text>
+      <text x="400" y="189" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">font: Courier New</text>
+      <text x="400" y="211" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">border: 1px solid</text>
+      <text x="400" y="258" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="11">Defines appearance</text>
+
+      <rect x="540" y="40" width="220" height="240" rx="14" fill="#f5a62318" stroke="#f5a623" stroke-width=".8"/>
+      <text x="650" y="76" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="15" font-weight="600">JavaScript</text>
+      <text x="650" y="100" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="13">The electricity</text>
+      <line x1="570" y1="118" x2="730" y2="118" stroke="#1e1e24" stroke-width=".5"/>
+      <text x="650" y="145" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">fetch('data/btc.json')</text>
+      <text x="650" y="167" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">switchTab('eth')</text>
+      <text x="650" y="189" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">renderPanel(data)</text>
+      <text x="650" y="211" text-anchor="middle" fill="#9d9b93" font-family="DM Sans,sans-serif" font-size="12">loadAsset('sui')</text>
+      <text x="650" y="258" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="11">Defines behaviour</text>
+    </svg>
+  </div>
+
+  <h3>How the page loads data</h3>
+  <p>When someone opens <code>index.html</code> in a browser, the JavaScript at the bottom of the file runs automatically. Here's what it does:</p>
+
+  <div class="flow-steps">
+    <div class="flow-step">
+      <div class="flow-num">1</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Page opens in browser</h4>
+        <p>The browser reads the HTML (structure), applies CSS (styling), then runs the JavaScript code.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">2</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>JavaScript calls <code>loadAsset('btc')</code></h4>
+        <p>This fetches <code>data/btc.json</code>, reads the JSON data, and passes it to the rendering function.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">3</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4><code>renderPanel()</code> builds the display</h4>
+        <p>Takes the raw data and creates HTML elements — the price, change percentage, RSI bar, key levels, trade plan, and risk note.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">4</div>
+      <div class="flow-content">
+        <h4>Other assets load with a delay</h4>
+        <p>ETH loads after 500ms, SUI after 1000ms, XAU after 1500ms. This avoids hitting the server too hard all at once (a technique called staggering).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 5: GITHUB ACTIONS -->
+<!-- ============================================ -->
+<section id="github" class="c-amber">
+  <div class="section-number"><span class="dot"></span> 05 &mdash; The automation</div>
+  <h2>GitHub Actions: <em>the robot worker</em></h2>
+
+  <p>Let's break this into two concepts: <strong>Git/GitHub</strong> and <strong>GitHub Actions</strong>.</p>
+
+  <h3>Git &amp; GitHub</h3>
+
+  <div class="analogy">
+    <div class="label">Analogy</div>
+    <strong style="color:var(--fg)">Git</strong> is like a magical notebook that remembers every version of everything you've ever written. Made a mistake? Go back to yesterday's version. <strong style="color:var(--fg)">GitHub</strong> is like Google Drive for that notebook — it stores it online so you (and others) can access it anywhere.
+  </div>
+
+  <div class="vocab">
+    <div class="vocab-card">
+      <div class="term">Repository (repo)</div>
+      <div class="def">Your project folder on GitHub. Contains all your files and their entire history.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Commit</div>
+      <div class="def">A "save point." When you commit, Git takes a snapshot of all your files at that moment. You can always go back to any commit.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Push</div>
+      <div class="def">Upload your local commits to GitHub so they're stored online and others can see them.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Secrets</div>
+      <div class="def">Private values (like your Groq API key) stored safely in GitHub. Your code can use them, but nobody can see them.</div>
+    </div>
+  </div>
+
+  <h3>GitHub Actions</h3>
+
+  <p>GitHub Actions is a <strong>free automation service</strong> built into GitHub. You write a YAML file (a simple config format) that says "do this task on this schedule," and GitHub's servers do it for you — no computer of yours needs to be running.</p>
+
+  <div class="illust">
+    <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0L0 0 0 40" fill="none" stroke="#1e1e24" stroke-width=".5"/>
+        </pattern>
+      </defs>
+      <rect width="800" height="360" fill="url(#grid4)" opacity=".3"/>
+
+      <!-- Timeline -->
+      <text x="400" y="36" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="2">WHAT HAPPENS EVERY HOUR</text>
+
+      <!-- Step 1 -->
+      <circle cx="100" cy="100" r="28" fill="#f5a62322" stroke="#f5a623" stroke-width="1"/>
+      <text x="100" y="105" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600">1</text>
+      <text x="100" y="155" text-anchor="middle" fill="#e2e0d8" font-family="DM Sans,sans-serif" font-size="13" font-weight="600">Wake up</text>
+      <text x="100" y="175" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Cron triggers at</text>
+      <text x="100" y="192" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">:00 every hour</text>
+
+      <!-- Arrow -->
+      <line x1="140" y1="100" x2="220" y2="100" stroke="#f5a623" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+
+      <!-- Step 2 -->
+      <circle cx="270" cy="100" r="28" fill="#f5a62322" stroke="#f5a623" stroke-width="1"/>
+      <text x="270" y="105" text-anchor="middle" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600">2</text>
+      <text x="270" y="155" text-anchor="middle" fill="#e2e0d8" font-family="DM Sans,sans-serif" font-size="13" font-weight="600">Set up</text>
+      <text x="270" y="175" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Installs Python</text>
+      <text x="270" y="192" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">+ dependencies</text>
+
+      <line x1="310" y1="100" x2="390" y2="100" stroke="#f5a623" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+
+      <!-- Step 3 -->
+      <circle cx="440" cy="100" r="28" fill="#9b7bf522" stroke="#9b7bf5" stroke-width="1"/>
+      <text x="440" y="105" text-anchor="middle" fill="#9b7bf5" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600">3</text>
+      <text x="440" y="155" text-anchor="middle" fill="#e2e0d8" font-family="DM Sans,sans-serif" font-size="13" font-weight="600">Run script</text>
+      <text x="440" y="175" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Executes</text>
+      <text x="440" y="192" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">update_dashboard.py</text>
+
+      <line x1="480" y1="100" x2="560" y2="100" stroke="#f5a623" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+
+      <!-- Step 4 -->
+      <circle cx="610" cy="100" r="28" fill="#00e88f22" stroke="#00e88f" stroke-width="1"/>
+      <text x="610" y="105" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="16" font-weight="600">4</text>
+      <text x="610" y="155" text-anchor="middle" fill="#e2e0d8" font-family="DM Sans,sans-serif" font-size="13" font-weight="600">Save &amp; push</text>
+      <text x="610" y="175" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Commits new JSON</text>
+      <text x="610" y="192" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">data to the repo</text>
+
+      <!-- The YAML breakdown -->
+      <rect x="60" y="230" width="680" height="110" rx="12" fill="#0a0a0e" stroke="#1e1e24" stroke-width="1"/>
+      <text x="80" y="258" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="12">schedule:</text>
+      <text x="100" y="278" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="12">- cron: '0 * * * *'</text>
+      <text x="340" y="278" fill="#5c5b56" font-family="IBM Plex Mono,monospace" font-size="11">&larr; "At minute 0 of every hour"</text>
+      <text x="80" y="310" fill="#f5a623" font-family="IBM Plex Mono,monospace" font-size="12">workflow_dispatch:</text>
+      <text x="340" y="310" fill="#5c5b56" font-family="IBM Plex Mono,monospace" font-size="11">&larr; "Also let me trigger it manually"</text>
+    </svg>
+  </div>
+
+  <p>The <code>update.yml</code> file is the instruction sheet. It tells GitHub: "Every hour on the hour, spin up a fresh computer, install Python, run my script, and if there's new data, save it back to the repository." The whole process takes about 30-60 seconds and costs you nothing.</p>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 6: AI ANALYSIS -->
+<!-- ============================================ -->
+<section id="ai" class="c-pink">
+  <div class="section-number"><span class="dot"></span> 06 &mdash; The intelligence</div>
+  <h2>How the <em>AI analysis</em> works</h2>
+
+  <p>This is the part closest to your heart — and to your future AGI ambitions. Here's what's actually happening when your script "asks AI for analysis."</p>
+
+  <div class="analogy">
+    <div class="label">Analogy</div>
+    Imagine you're a financial reporter. You have the raw numbers (price, RSI, market cap). You walk over to an analyst's desk (the AI model), hand them a briefing sheet (the prompt), and ask them to write a structured report. They hand you back a filled-in form (the JSON response).
+  </div>
+
+  <h3>The prompt engineering</h3>
+  <p>Your script builds a <strong>prompt</strong> — a carefully written instruction telling the AI exactly what data it has and exactly what format to respond in. This is a critical skill called <strong>prompt engineering</strong>, and you already have 2 years of experience with it as a Tier 1 user.</p>
+
+  <div class="code-block">
+    <span class="comment"># What your script sends to Groq's Llama model:</span><br><br>
+    <span class="string">"You are a professional crypto market analyst.</span><br>
+    <span class="string">&nbsp;Analyze BTC/USD and return ONLY a valid JSON object.</span><br><br>
+    <span class="string">&nbsp;Market data:</span><br>
+    <span class="string">&nbsp;- Price: $70,984.00</span><br>
+    <span class="string">&nbsp;- 24h Change: 3.87%</span><br>
+    <span class="string">&nbsp;- Market Cap: $1,419,742,320,932</span><br>
+    <span class="string">&nbsp;- RSI (14): 65.83 (neutral)</span><br><br>
+    <span class="string">&nbsp;Return this exact JSON structure:</span><br>
+    <span class="string">&nbsp;{ elliott_wave, momentum, key_levels, trend_bias,</span><br>
+    <span class="string">&nbsp;&nbsp;&nbsp;trade_plan, risk_note }"</span>
+  </div>
+
+  <h3>The AI stack</h3>
+  <div class="flow-steps">
+    <div class="flow-step">
+      <div class="flow-num">1</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Groq (the platform)</h4>
+        <p>Groq is a company that runs AI models on special hardware (LPUs) that makes them extremely fast. Think of it as a <strong>super-fast restaurant kitchen</strong> — same recipes, faster cooking.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">2</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Llama 3.1 8B (the model)</h4>
+        <p>This is Meta's open-source AI model. "8B" means 8 billion parameters — think of parameters as the model's "brain cells." It's not the biggest model, but it's fast and good enough for structured analysis. For context, GPT-4 has ~1.8 trillion parameters.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">3</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>Temperature: 0.3</h4>
+        <p>This controls creativity. 0.0 = completely predictable/factual. 1.0 = very creative/random. Your script uses 0.3 — mostly factual with a tiny bit of creative interpretation. Perfect for market analysis.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num">4</div>
+      <div class="flow-line"></div>
+      <div class="flow-content">
+        <h4>The response</h4>
+        <p>The AI returns a JSON object with exactly the fields you asked for. Your script parses it (reads the structured data) and saves it into the asset's JSON file.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="illust">
+    <svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid5" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0L0 0 0 40" fill="none" stroke="#1e1e24" stroke-width=".5"/>
+        </pattern>
+      </defs>
+      <rect width="800" height="240" fill="url(#grid5)" opacity=".3"/>
+
+      <!-- Input -->
+      <rect x="40" y="50" width="200" height="140" rx="12" fill="#9b7bf518" stroke="#9b7bf5" stroke-width=".8"/>
+      <text x="140" y="82" text-anchor="middle" fill="#9b7bf5" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">Your prompt</text>
+      <text x="140" y="108" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Price: $70,984</text>
+      <text x="140" y="128" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">RSI: 65.83</text>
+      <text x="140" y="148" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">Change: +3.87%</text>
+      <text x="140" y="168" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">"Return JSON..."</text>
+
+      <!-- Arrow -->
+      <line x1="240" y1="120" x2="310" y2="120" stroke="#e05a9e" stroke-width="1.5" opacity=".6"/>
+      <polygon points="307,115 307,125 316,120" fill="#e05a9e" opacity=".8"/>
+
+      <!-- Model -->
+      <rect x="310" y="70" width="180" height="100" rx="14" fill="#e05a9e22" stroke="#e05a9e" stroke-width="1"/>
+      <text x="400" y="108" text-anchor="middle" fill="#e05a9e" font-family="IBM Plex Mono,monospace" font-size="14" font-weight="600">Llama 3.1 8B</text>
+      <text x="400" y="130" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">on Groq (fast AI)</text>
+      <text x="400" y="150" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="11">temp: 0.3 &bull; max: 500 tokens</text>
+
+      <!-- Arrow -->
+      <line x1="490" y1="120" x2="560" y2="120" stroke="#e05a9e" stroke-width="1.5" opacity=".6"/>
+      <polygon points="557,115 557,125 566,120" fill="#e05a9e" opacity=".8"/>
+
+      <!-- Output -->
+      <rect x="560" y="50" width="200" height="140" rx="12" fill="#00e88f18" stroke="#00e88f" stroke-width=".8"/>
+      <text x="660" y="82" text-anchor="middle" fill="#00e88f" font-family="IBM Plex Mono,monospace" font-size="13" font-weight="600">JSON response</text>
+      <text x="660" y="108" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">trend_bias: "bullish"</text>
+      <text x="660" y="128" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">trade_plan: "Buy..."</text>
+      <text x="660" y="148" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">key_levels: {...}</text>
+      <text x="660" y="168" text-anchor="middle" fill="#5c5b56" font-family="DM Sans,sans-serif" font-size="12">risk_note: "..."</text>
+    </svg>
+  </div>
+
+  <p><strong>Key takeaway for your AGI journey:</strong> This is a simple example of what AI engineers call an <strong>"AI pipeline"</strong> — data goes in, AI processes it, structured output comes out. More complex systems chain multiple AI calls together, add memory, and let the AI use tools. That's the path from here to building agents and eventually more autonomous systems.</p>
+</section>
+
+<!-- ============================================ -->
+<!-- SECTION 7: PUTTING IT ALL TOGETHER -->
+<!-- ============================================ -->
+<section class="c-green" style="padding-bottom:20px;">
+  <div class="section-number"><span class="dot"></span> 07 &mdash; The full loop</div>
+  <h2>How it all <em>comes together</em></h2>
+
+  <p>Every single hour, this entire sequence plays out automatically — without you doing a thing:</p>
+
+  <div class="flow-steps">
+    <div class="flow-step">
+      <div class="flow-num" style="background:var(--amber-dim);color:var(--amber);border-color:var(--amber);">1</div>
+      <div class="flow-line" style="background:var(--amber-dim);"></div>
+      <div class="flow-content">
+        <h4 class="hl-amber">GitHub Actions wakes up</h4>
+        <p>At the top of every hour, GitHub's servers fire up a fresh virtual machine.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num" style="background:var(--purple-dim);color:var(--purple);border-color:var(--purple);">2</div>
+      <div class="flow-line" style="background:var(--purple-dim);"></div>
+      <div class="flow-content">
+        <h4 class="hl-purple">Python script runs</h4>
+        <p>Calls CoinGecko for crypto prices, TradingView for gold, calculates RSI, then asks Groq AI to analyze everything.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num" style="background:var(--green-dim);color:var(--green);border-color:var(--green);">3</div>
+      <div class="flow-line" style="background:var(--green-dim);"></div>
+      <div class="flow-content">
+        <h4 class="hl-green">JSON files are updated</h4>
+        <p>Four fresh data files are written with the latest prices and analysis.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num" style="background:var(--amber-dim);color:var(--amber);border-color:var(--amber);">4</div>
+      <div class="flow-line" style="background:var(--amber-dim);"></div>
+      <div class="flow-content">
+        <h4 class="hl-amber">GitHub commits &amp; pushes</h4>
+        <p>The new data is saved to the repository with a timestamp.</p>
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-num" style="background:var(--coral-dim);color:var(--coral);border-color:var(--coral);">5</div>
+      <div class="flow-content">
+        <h4 class="hl-coral">Dashboard refreshes</h4>
+        <p>Next time anyone opens <code>index.html</code>, they see the latest data. No manual work needed.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Key vocabulary cheat sheet</h3>
+  <div class="vocab">
+    <div class="vocab-card">
+      <div class="term">API</div>
+      <div class="def">A waiter between your code and a server. You ask, it fetches.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Python</div>
+      <div class="def">A programming language. Your script is a recipe written in Python.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">JSON</div>
+      <div class="def">A text format for structured data. Like a filled-in form.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">HTML / CSS / JS</div>
+      <div class="def">The three languages of the web: structure, style, and behaviour.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Git / GitHub</div>
+      <div class="def">Version control + cloud storage for your code.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">GitHub Actions</div>
+      <div class="def">Free automation — runs your script on a schedule.</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">RSI</div>
+      <div class="def">A 0-100 score showing if an asset is overbought (&gt;70) or oversold (&lt;30).</div>
+    </div>
+    <div class="vocab-card">
+      <div class="term">Prompt engineering</div>
+      <div class="def">The art of writing instructions for AI models to get the output you want.</div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="container">
+    <p>Built for Ben's learning journey &mdash; from vibe-coding to AGI</p>
+    <p style="margin-top:8px;color:#333;">Guide generated with Claude &bull; March 2026</p>
+  </div>
+</footer>
+
+<script>
+// Simple nav highlight on scroll
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 200) current = s.id;
+  });
+  navLinks.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+});
+</script>
+</body>
+</html>

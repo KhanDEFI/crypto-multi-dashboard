@@ -33,7 +33,6 @@
     .header-title { color: #00ff88; font-size: 14px; letter-spacing: 2px; }
     .header-meta { color: #555; font-size: 11px; }
 
-    /* Tabs */
     .tabs {
       display: flex;
       gap: 4px;
@@ -67,7 +66,6 @@
     .tab.sui.active { color: #4da2ff; border-color: #4da2ff; }
     .tab.xau.active { color: #ffd700; border-color: #ffd700; }
 
-    /* Panel */
     .panel {
       display: none;
       border: 1px solid #2a2a2a;
@@ -77,7 +75,6 @@
 
     .panel.active { display: block; }
 
-    /* Price row */
     .price-row {
       display: flex;
       align-items: baseline;
@@ -105,7 +102,6 @@
       margin-left: auto;
     }
 
-    /* Grid */
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -190,6 +186,23 @@
       margin-left: 8px;
       vertical-align: middle;
     }
+
+    /* Chart container */
+    .chart-container {
+      border: 1px solid #1e1e1e;
+      margin-bottom: 12px;
+      overflow: hidden;
+      position: relative;
+      height: 500px;
+    }
+
+    .chart-label {
+      color: #444;
+      font-size: 10px;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
@@ -217,6 +230,15 @@
 <script>
   const ASSETS = ['btc', 'eth', 'sui', 'xau'];
   const cache = {};
+  const chartLoaded = {};
+
+  // TradingView symbol mapping
+  const TV_SYMBOLS = {
+    btc: 'BINANCE:BTCUSDT',
+    eth: 'BINANCE:ETHUSDT',
+    sui: 'BINANCE:SUIUSDT',
+    xau: 'OANDA:XAUUSD'
+  };
 
   function switchTab(asset) {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -224,6 +246,53 @@
     document.querySelector(`.tab.${asset}`).classList.add('active');
     document.getElementById(`panel-${asset}`).classList.add('active');
     if (!cache[asset]) loadAsset(asset);
+    // Load chart after panel is visible
+    if (!chartLoaded[asset]) {
+      setTimeout(() => loadChart(asset), 100);
+    }
+  }
+
+  function loadChart(asset) {
+    const container = document.getElementById(`tv-chart-${asset}`);
+    if (!container) return;
+    if (chartLoaded[asset]) return;
+    chartLoaded[asset] = true;
+
+    const widgetDiv = document.createElement('div');
+    widgetDiv.className = 'tradingview-widget-container';
+    widgetDiv.style.height = '100%';
+    widgetDiv.style.width = '100%';
+
+    const innerDiv = document.createElement('div');
+    innerDiv.className = 'tradingview-widget-container__widget';
+    innerDiv.style.height = '100%';
+    innerDiv.style.width = '100%';
+    widgetDiv.appendChild(innerDiv);
+
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
+    script.async = true;
+    script.textContent = JSON.stringify({
+      "autosize": true,
+      "symbol": TV_SYMBOLS[asset],
+      "interval": "60",
+      "timezone": "Etc/UTC",
+      "theme": "dark",
+      "style": "1",
+      "locale": "en",
+      "backgroundColor": "rgba(13, 13, 13, 1)",
+      "gridColor": "rgba(30, 30, 30, 1)",
+      "hide_top_toolbar": false,
+      "hide_legend": false,
+      "allow_symbol_change": false,
+      "save_image": false,
+      "calendar": false,
+      "studies": ["STD;RSI"],
+      "support_host": "https://www.tradingview.com"
+    });
+    widgetDiv.appendChild(script);
+    container.appendChild(widgetDiv);
   }
 
   async function loadAsset(asset) {
@@ -264,6 +333,9 @@
         <span class="bias-badge ${biasClass}">${(a.trend_bias ?? 'neutral').toUpperCase()}</span>
         ${hasRsi ? `<span class="meta-pill">RSI ${rsi}</span>` : ''}
       </div>
+
+      <div class="chart-label">// LIVE CHART</div>
+      <div class="chart-container" id="tv-chart-${asset}"></div>
 
       <div class="grid">
         <div class="block">
@@ -318,6 +390,11 @@
     `;
 
     document.getElementById('last-refresh').textContent = `refreshed ${new Date().toLocaleTimeString()}`;
+
+    // Load chart after DOM is ready
+    if (!chartLoaded[asset]) {
+      setTimeout(() => loadChart(asset), 100);
+    }
   }
 
   // Load BTC on start, prefetch others

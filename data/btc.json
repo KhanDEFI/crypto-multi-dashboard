@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 69942,
-  "change_24h": -1.58,
-  "market_cap": 1399710222555.3372,
-  "rsi": 51.34,
+  "price": 69541,
+  "change_24h": -2.61,
+  "market_cap": 1391034441583.9062,
+  "rsi": 44.63,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential corrective wave within a larger uptrend, with wave 4 potentially unfolding. However, confirmation of this pattern requires further price action.",
-    "momentum": "The RSI reading of 51.34 indicates neutral momentum, with neither overbought nor oversold conditions present. The 24h price change of -1.58% also suggests a lack of strong directional momentum.",
+    "elliott_wave": "BTC is currently in a corrective wave (4) within a larger bullish trend, with a potential wave 5 forming.",
+    "momentum": "The RSI at 44.63 indicates neutral momentum, but the recent 2.61% price drop suggests a slight bearish bias.",
     "key_levels": {
       "support": [
-        "$68,000",
+        "$67,000",
         "$65,000"
       ],
       "resistance": [
-        "$72,000",
-        "$75,000"
+        "$70,000",
+        "$72,000"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a range-bound trading strategy, focusing on buying dips around $68,000 and selling rallies around $72,000. Monitor price action for signs of a breakout above $72,000 or a breakdown below $68,000. Adjust position sizes accordingly.",
-    "risk_note": "A potential risk is a sharp decline in price if the market fails to hold above $68,000, potentially triggering a more significant correction."
+    "trade_plan": "Consider shorting on a break below $67,000 with a stop-loss at $70,000, targeting $65,000. Alternatively, wait for a bullish reversal above $70,000 to enter long positions.",
+    "risk_note": "A break below $65,000 could trigger a more significant bearish trend"
   },
-  "updated_at": "2026-03-26T06:02:07.946909+00:00"
+  "updated_at": "2026-03-26T10:14:08.338410+00:00"
 }

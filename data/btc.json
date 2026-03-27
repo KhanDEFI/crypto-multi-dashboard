@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 66053,
-  "change_24h": -3.49,
-  "market_cap": 1321512036546.9097,
-  "rsi": 18.96,
+  "price": 66021,
+  "change_24h": -4.21,
+  "market_cap": 1320669124246.7603,
+  "rsi": 10.03,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential 4th wave correction within a larger bearish trend. The price action is consistent with a wave 4 retracement.",
-    "momentum": "The RSI reading of 18.96 indicates an oversold condition, suggesting a potential bounce in the short term. However, the 24h price change of -3.49% indicates a strong downward momentum.",
+    "elliott_wave": "BTC is in a corrective wave 2, potentially setting up for a bounce in wave 3. Wave pattern suggests a potential low.",
+    "momentum": "Momentum is bearish due to the recent price drop, but the RSI is oversold at 10.03, indicating a potential reversal. A bounce is likely.",
     "key_levels": {
       "support": [
-        "$63,500",
-        "$61,000"
+        "$63,000",
+        "$60,000"
       ],
       "resistance": [
-        "$67,500",
+        "$68,000",
         "$70,000"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting the market with a stop loss above $67,500 and a target at $63,500. Monitor the price action for a potential bounce and adjust the trade plan accordingly. A break below $63,500 could trigger a larger sell-off.",
-    "risk_note": "A break above $70,000 could invalidate the bearish trend bias and trigger a short-term buy signal."
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a bounce above $65,000 with a target of $70,000. Set a stop-loss at $62,000. Monitor for a potential reversal.",
+    "risk_note": "A break below $60,000 could lead to a deeper correction."
   },
-  "updated_at": "2026-03-27T20:04:42.697807+00:00"
+  "updated_at": "2026-03-27T22:00:14.359839+00:00"
 }

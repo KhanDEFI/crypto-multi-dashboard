@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2002.46,
-  "change_24h": 0.28,
-  "market_cap": 241633624876.8637,
-  "rsi": 36.1,
+  "price": 1986.41,
+  "change_24h": -1.7,
+  "market_cap": 239752567409.93277,
+  "rsi": 35.52,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle pattern within a larger downtrend.",
-    "momentum": "The neutral RSI reading suggests a lack of momentum, but the recent 0.28% price increase indicates a slight uptick in buying pressure.",
+    "elliott_wave": "ETH is currently in a corrective wave (B) of a larger bearish impulse, with a potential wave (C) down forming. A break below $1,900 could confirm the bearish impulse.",
+    "momentum": "ETH's RSI of 35.52 indicates a neutral momentum, with price action showing a slight downtrend. However, the 24h change of -1.70% suggests a potential reversal.",
     "key_levels": {
       "support": [
         "$1,900",
         "$1,800"
       ],
       "resistance": [
-        "$2,050",
-        "$2,100"
+        "$2,000",
+        "$2,050"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider shorting ETH around current levels, targeting $1,900 support. Set a stop-loss at $2,050 resistance. Monitor the 24h change for signs of increasing buying pressure.",
-    "risk_note": "A sudden spike in market cap could lead to a rapid price increase, potentially invalidating the bearish trend bias."
+    "trade_plan": "Short ETH with a stop-loss at $2,050 and a target of $1,800. Monitor the price action for a potential reversal. Consider scaling out of the short position if the price reaches $1,900.",
+    "risk_note": "A sudden increase in market sentiment could lead to a sharp price reversal, potentially catching short sellers off guard."
   },
-  "updated_at": "2026-03-29T11:55:18.620198+00:00"
+  "updated_at": "2026-03-29T14:03:26.719099+00:00"
 }

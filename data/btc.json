@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 66425,
-  "change_24h": -0.67,
-  "market_cap": 1329347161468.825,
+  "price": 66342,
+  "change_24h": -0.71,
+  "market_cap": 1327263838289.742,
   "rsi": 34.0,
   "analysis": {
-    "elliott_wave": "We're currently in a corrective wave (B) within a larger bullish trend, with a potential wave 3 forming. The wave count suggests a potential reversal in the near term.",
-    "momentum": "The RSI reading of 34.0 indicates a neutral momentum, with the price action showing a slight downtrend. However, the 24h change of -0.67% suggests a minor pullback within a larger uptrend.",
+    "elliott_wave": "Currently, we are in a corrective wave, with a possible wave 4 unfolding. The wave count suggests a potential continuation of the downtrend.",
+    "momentum": "The RSI reading of 34.0 indicates a neutral momentum, but the recent price action suggests a slight bearish bias. We need to see a break above the current resistance to confirm a reversal.",
     "key_levels": {
       "support": [
-        "$65,000.00",
-        "$63,000.00"
+        "$65,000",
+        "$63,000"
       ],
       "resistance": [
-        "$67,500.00",
-        "$70,000.00"
+        "$67,000",
+        "$69,000"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $65,000.00, targeting $67,500.00. Set a stop-loss at $63,000.00. Consider scaling into positions over the next 24-48 hours.",
-    "risk_note": "A potential bearish reversal could occur if the price breaks below $63,000.00, invalidating the current bullish trend bias."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $65,000, targeting $63,000. Consider buying on a bounce above $67,000, but with a tight stop-loss. Monitor the market for a potential reversal.",
+    "risk_note": "A sudden spike in global market volatility could lead to a sharp price drop in BTC/USD."
   },
-  "updated_at": "2026-03-29T17:05:38.998784+00:00"
+  "updated_at": "2026-03-29T19:47:35.262642+00:00"
 }

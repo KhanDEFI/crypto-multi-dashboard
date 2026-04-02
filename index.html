@@ -179,6 +179,7 @@
     .tab.eth.active { color: #627eea; border-color: #627eea; }
     .tab.sui.active { color: #4da2ff; border-color: #4da2ff; }
     .tab.xau.active { color: #ffd700; border-color: #ffd700; }
+    .tab.accuracy-tab.active { color: #ff6bef; border-color: #ff6bef; }
 
     /* ── Panels ───────────────────────────────────── */
     .panel {
@@ -273,6 +274,183 @@
       color: #444; font-size: 10px; letter-spacing: 2px;
       margin-bottom: 8px; text-transform: uppercase;
     }
+
+    /* ══════════════════════════════════════════════════
+       ACCURACY PANEL STYLES
+       ══════════════════════════════════════════════════ */
+
+    .accuracy-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .accuracy-header h2 {
+      font-size: 18px;
+      color: #ff6bef;
+      letter-spacing: 2px;
+      font-weight: normal;
+    }
+    .accuracy-header .sub {
+      color: #555;
+      font-size: 11px;
+    }
+
+    /* ── Stat cards row ───────────────────────────── */
+    .acc-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 600px) {
+      .acc-stats-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .acc-stat-card {
+      border: 1px solid #1e1e1e;
+      padding: 14px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .acc-stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+    }
+    .acc-stat-card.btc::before { background: #f7931a; }
+    .acc-stat-card.eth::before { background: #627eea; }
+    .acc-stat-card.sui::before { background: #4da2ff; }
+    .acc-stat-card.xau::before { background: #ffd700; }
+
+    .acc-stat-symbol {
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #555;
+      margin-bottom: 8px;
+    }
+    .acc-stat-pct {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .acc-stat-pct.good { color: #00ff88; }
+    .acc-stat-pct.mid  { color: #f5a623; }
+    .acc-stat-pct.bad  { color: #ff4444; }
+    .acc-stat-pct.none { color: #333; }
+
+    .acc-stat-detail {
+      font-size: 10px;
+      color: #555;
+      letter-spacing: 1px;
+    }
+
+    /* ── Per-asset accordion ──────────────────────── */
+    .acc-asset-section {
+      border: 1px solid #1e1e1e;
+      margin-bottom: 8px;
+    }
+
+    .acc-asset-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      cursor: pointer;
+      transition: background 0.15s;
+      user-select: none;
+    }
+    .acc-asset-header:hover { background: #111; }
+
+    .acc-asset-header .symbol {
+      font-size: 14px;
+      font-weight: bold;
+      width: 40px;
+    }
+    .acc-asset-header .symbol.btc { color: #f7931a; }
+    .acc-asset-header .symbol.eth { color: #627eea; }
+    .acc-asset-header .symbol.sui { color: #4da2ff; }
+    .acc-asset-header .symbol.xau { color: #ffd700; }
+
+    .acc-asset-header .mini-stats {
+      font-size: 11px;
+      color: #666;
+      display: flex;
+      gap: 16px;
+    }
+
+    .acc-asset-header .toggle {
+      margin-left: auto;
+      color: #444;
+      font-size: 11px;
+      transition: transform 0.2s;
+    }
+    .acc-asset-header.open .toggle { transform: rotate(90deg); }
+
+    .acc-asset-body {
+      display: none;
+      padding: 0 16px 16px;
+    }
+    .acc-asset-body.open { display: block; }
+
+    /* ── Evaluation table ─────────────────────────── */
+    .acc-table-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .acc-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      min-width: 600px;
+    }
+    .acc-table th {
+      text-align: left;
+      padding: 8px 10px;
+      color: #444;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #1e1e1e;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    .acc-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid #111;
+      color: #999;
+      vertical-align: top;
+    }
+    .acc-table tr:hover td { background: #0f0f0f; }
+
+    .acc-table .verdict {
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 10px;
+    }
+    .verdict-correct { color: #00ff88; }
+    .verdict-partial { color: #f5a623; }
+    .verdict-incorrect { color: #ff4444; }
+
+    .acc-table .plan-cell {
+      max-width: 260px;
+      line-height: 1.5;
+      color: #777;
+    }
+
+    .acc-no-data {
+      color: #333;
+      padding: 30px 0;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
   </style>
 </head>
 <body>
@@ -311,18 +489,25 @@
     <span class="header-meta" id="last-refresh">--</span>
   </div>
 
-  <!-- ════════════ DASHBOARD ════════════ -->
+  <!-- ════════════ TABS ════════════ -->
   <div class="tabs">
     <button class="tab btc active" onclick="switchTab('btc')">BTC</button>
     <button class="tab eth" onclick="switchTab('eth')">ETH</button>
     <button class="tab sui" onclick="switchTab('sui')">SUI</button>
     <button class="tab xau" onclick="switchTab('xau')">XAU</button>
+    <button class="tab accuracy-tab" onclick="switchTab('accuracy')">◎ ACCURACY</button>
   </div>
 
+  <!-- ════════════ ASSET PANELS ════════════ -->
   <div id="panel-btc" class="panel btc active"><div class="loading">LOADING BTC DATA...</div></div>
   <div id="panel-eth" class="panel eth"><div class="loading">LOADING ETH DATA...</div></div>
   <div id="panel-sui" class="panel sui"><div class="loading">LOADING SUI DATA...</div></div>
   <div id="panel-xau" class="panel xau"><div class="loading">LOADING XAU DATA...</div></div>
+
+  <!-- ════════════ ACCURACY PANEL ════════════ -->
+  <div id="panel-accuracy" class="panel">
+    <div class="loading">LOADING ACCURACY DATA...</div>
+  </div>
 
 </div>
 
@@ -338,6 +523,7 @@
   const ASSETS = ['btc', 'eth', 'sui', 'xau'];
   const cache = {};
   const chartLoaded = {};
+  let accuracyLoaded = false;
 
   const TV_SYMBOLS = {
     btc: 'BINANCE:BTCUSDT',
@@ -346,14 +532,28 @@
     xau: 'OANDA:XAUUSD'
   };
 
+  const ASSET_COLORS = {
+    btc: '#f7931a',
+    eth: '#627eea',
+    sui: '#4da2ff',
+    xau: '#ffd700'
+  };
+
   function switchTab(asset) {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-    document.querySelector(`.tab.${asset}`).classList.add('active');
-    document.getElementById(`panel-${asset}`).classList.add('active');
-    if (!cache[asset]) loadAsset(asset);
-    if (!chartLoaded[asset]) {
-      setTimeout(() => loadChart(asset), 100);
+
+    if (asset === 'accuracy') {
+      document.querySelector('.tab.accuracy-tab').classList.add('active');
+      document.getElementById('panel-accuracy').classList.add('active');
+      if (!accuracyLoaded) loadAccuracy();
+    } else {
+      document.querySelector(`.tab.${asset}`).classList.add('active');
+      document.getElementById(`panel-${asset}`).classList.add('active');
+      if (!cache[asset]) loadAsset(asset);
+      if (!chartLoaded[asset]) {
+        setTimeout(() => loadChart(asset), 100);
+      }
     }
   }
 
@@ -497,6 +697,182 @@
     }
   }
 
+  /* ══════════════════════════════════════════════════
+     ACCURACY PANEL
+     ══════════════════════════════════════════════════ */
+
+  async function loadAccuracy() {
+    const panel = document.getElementById('panel-accuracy');
+    try {
+      const res = await fetch(`data/accuracy.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error('Not found');
+      const data = await res.json();
+      accuracyLoaded = true;
+      renderAccuracy(data);
+    } catch (e) {
+      panel.innerHTML = `
+        <div class="accuracy-header">
+          <h2>◎ AI ACCURACY TRACKER</h2>
+        </div>
+        <div class="acc-no-data">
+          // NO ACCURACY DATA YET<br><br>
+          <span style="color:#555;font-size:11px;">
+            The tracker needs at least 24 hours of history to start scoring predictions.<br>
+            Your dashboard runs every hour — check back tomorrow.
+          </span>
+        </div>
+      `;
+    }
+  }
+
+  function renderAccuracy(data) {
+    const panel = document.getElementById('panel-accuracy');
+    const assets = ['btc', 'eth', 'sui', 'xau'];
+    const names = { btc: 'BTC', eth: 'ETH', sui: 'SUI', xau: 'XAU' };
+
+    // ── Stat cards ──
+    let statsHtml = '';
+    assets.forEach(a => {
+      const info = data[a];
+      const stats = info?.stats || {};
+      const total = stats.total || 0;
+      const pct = stats.accuracy_pct ?? 0;
+      const pctClass = total === 0 ? 'none' : (pct >= 60 ? 'good' : pct >= 40 ? 'mid' : 'bad');
+      const pctDisplay = total === 0 ? '—' : pct + '%';
+      const detail = total === 0
+        ? 'AWAITING DATA'
+        : `${stats.correct}✓  ${stats.partial}~  ${stats.incorrect}✗  of ${total}`;
+
+      statsHtml += `
+        <div class="acc-stat-card ${a}">
+          <div class="acc-stat-symbol">${names[a]}</div>
+          <div class="acc-stat-pct ${pctClass}">${pctDisplay}</div>
+          <div class="acc-stat-detail">${detail}</div>
+        </div>
+      `;
+    });
+
+    // ── Per-asset tables ──
+    let sectionsHtml = '';
+    assets.forEach(a => {
+      const info = data[a];
+      const evals = info?.evaluations || [];
+      const stats = info?.stats || {};
+      const total = stats.total || 0;
+      const pct = stats.accuracy_pct ?? 0;
+
+      // Build table rows (most recent first)
+      let rowsHtml = '';
+      const sorted = [...evals].reverse();
+      if (sorted.length === 0) {
+        rowsHtml = `<tr><td colspan="6" style="text-align:center;color:#333;padding:20px;">No evaluations yet — need 24h of history</td></tr>`;
+      } else {
+        sorted.forEach(ev => {
+          const predTime = new Date(ev.prediction_time);
+          const timeStr = predTime.toLocaleString('en-US', {
+            month: 'short', day: 'numeric',
+            hour: '2-digit', minute: '2-digit', hour12: false
+          });
+
+          const changePct = ev.price_change_pct;
+          const changeClass = changePct >= 0 ? 'change-positive' : 'change-negative';
+          const changeSign = changePct >= 0 ? '+' : '';
+
+          const verdictClass = ev.verdict === 'CORRECT' ? 'verdict-correct'
+            : ev.verdict === 'PARTIAL' ? 'verdict-partial' : 'verdict-incorrect';
+
+          const biasColor = ev.predicted_bias === 'bullish' ? '#00ff88'
+            : ev.predicted_bias === 'bearish' ? '#ff4444' : '#888';
+
+          const actualColor = ev.actual_direction === 'bullish' ? '#00ff88'
+            : ev.actual_direction === 'bearish' ? '#ff4444' : '#888';
+
+          const priceNow = typeof ev.price_now === 'number'
+            ? '$' + ev.price_now.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})
+            : '—';
+
+          // Truncate trade plan
+          const planShort = (ev.trade_plan || '—').length > 120
+            ? ev.trade_plan.substring(0, 120) + '…'
+            : (ev.trade_plan || '—');
+
+          rowsHtml += `
+            <tr>
+              <td style="white-space:nowrap;">${timeStr}</td>
+              <td style="color:${biasColor};letter-spacing:1px;font-size:10px;">${(ev.predicted_bias || '—').toUpperCase()}</td>
+              <td style="color:${actualColor};letter-spacing:1px;font-size:10px;">${(ev.actual_direction || '—').toUpperCase()}</td>
+              <td>
+                <span class="${changeClass}">${changeSign}${changePct}%</span>
+                <span style="color:#444;margin-left:6px;font-size:10px;">→ ${priceNow}</span>
+              </td>
+              <td><span class="verdict ${verdictClass}">${ev.verdict}</span></td>
+              <td class="plan-cell">${planShort}</td>
+            </tr>
+          `;
+        });
+      }
+
+      sectionsHtml += `
+        <div class="acc-asset-section">
+          <div class="acc-asset-header" onclick="toggleAccSection(this)">
+            <span class="symbol ${a}">${names[a]}</span>
+            <div class="mini-stats">
+              <span>${total} evaluated</span>
+              <span>${total > 0 ? pct + '% correct' : 'awaiting data'}</span>
+            </div>
+            <span class="toggle">▸</span>
+          </div>
+          <div class="acc-asset-body">
+            <div class="acc-table-wrap">
+              <table class="acc-table">
+                <thead>
+                  <tr>
+                    <th>Predicted at</th>
+                    <th>AI Said</th>
+                    <th>Actual</th>
+                    <th>Price Δ (24h)</th>
+                    <th>Verdict</th>
+                    <th>Trade Plan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${rowsHtml}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    panel.innerHTML = `
+      <div class="accuracy-header">
+        <h2>◎ AI ACCURACY TRACKER</h2>
+        <span class="sub">// 24h prediction vs. reality</span>
+      </div>
+
+      <div class="acc-stats-grid">
+        ${statsHtml}
+      </div>
+
+      <div style="color:#444;font-size:10px;letter-spacing:2px;margin-bottom:12px;text-transform:uppercase;">
+        // Detailed evaluations — click to expand
+      </div>
+
+      ${sectionsHtml}
+
+      <div class="updated" style="margin-top:20px;">
+        // scoring: CORRECT = bias matched direction · PARTIAL = market was flat · INCORRECT = bias was wrong
+      </div>
+    `;
+  }
+
+  function toggleAccSection(header) {
+    header.classList.toggle('open');
+    header.nextElementSibling.classList.toggle('open');
+  }
+
+  /* ── Initial load ────────────────────────────── */
   loadAsset('btc');
   setTimeout(() => loadAsset('eth'), 500);
   setTimeout(() => loadAsset('sui'), 1000);

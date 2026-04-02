@@ -1,13 +1,13 @@
 {
   "symbol": "SUI",
   "name": "SUI",
-  "price": 0.857604,
-  "change_24h": -4.33,
-  "market_cap": 3390973809.2175903,
-  "rsi": 44.87,
+  "price": 0.861976,
+  "change_24h": -3.35,
+  "market_cap": 3406741580.875708,
+  "rsi": 51.09,
   "analysis": {
-    "elliott_wave": "SUI/USD is currently in a corrective wave, potentially forming a minor pullback within a larger uptrend. The wave count suggests a potential bounce in the near term.",
-    "momentum": "The RSI reading of 44.87 indicates a neutral momentum, suggesting a balance between buying and selling pressure. However, the 24h change of -4.33% indicates a slight bearish bias.",
+    "elliott_wave": "The current wave count suggests a potential corrective wave within a larger downtrend, with a possible wave 4 or B wave unfolding. Further analysis is required to confirm the pattern.",
+    "momentum": "The RSI reading of 51.09 indicates a neutral momentum, with the price action showing a slight downtrend but not yet confirming a strong bearish trend. A break below $0.80 could indicate a shift in momentum.",
     "key_levels": {
       "support": [
         "$0.80",
@@ -15,12 +15,12 @@
       ],
       "resistance": [
         "$0.90",
-        "$0.95"
+        "$1.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.80, targeting $0.90-$0.95 resistance. Set stop-loss at $0.75. Monitor the trend bias for potential shift.",
-    "risk_note": "A break below $0.75 support could indicate a more significant downtrend, prompting a reevaluation of the trade plan."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $0.80, targeting $0.75. Consider buying on a bounce above $0.90, with a stop-loss at $0.80. Monitor the RSI for a potential shift in momentum.",
+    "risk_note": "A break above $1.00 could indicate a shift in trend bias to bullish, invalidating the current bearish trade plan."
   },
-  "updated_at": "2026-04-02T19:38:23.773419+00:00"
+  "updated_at": "2026-04-02T21:54:27.978721+00:00"
 }

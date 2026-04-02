@@ -1,6 +1,8 @@
 import requests
 import json
 import os
+import re
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -17,6 +19,19 @@ ACCURACY_FILE = "data/accuracy.json"
 MAX_HISTORY_ENTRIES = 168  # 7 days of hourly snapshots
 LOOKBACK_HOURS = 24        # Evaluate predictions from 24h ago
 LOOKBACK_TOLERANCE_MIN = 30  # ±30 min tolerance when finding the 24h-old snapshot
+
+# ── YouTube Feed Settings ────────────────────────────────
+YOUTUBE_CHANNEL_ID = "UCngIhBkikUe6e7tZTjpKK7Q"  # More Crypto Online
+YOUTUBE_RSS_URL = f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}"
+YOUTUBE_FILE = "data/youtube.json"
+YOUTUBE_MAX_VIDEOS = 7  # Keep the last 7 uploads
+
+# Keywords to match video titles to dashboard assets
+ASSET_KEYWORDS = {
+    "btc": ["bitcoin", "btc"],
+    "eth": ["ethereum", "eth"],
+    "sui": ["sui"],
+}
 
 
 def fetch_crypto_prices():
@@ -413,6 +428,104 @@ def run_accuracy_evaluation(all_current_data):
 
 
 # ══════════════════════════════════════════════════════════
+#  YOUTUBE FEED — NEW
+# ══════════════════════════════════════════════════════════
+
+def classify_video(title):
+    """Match a video title to one of our dashboard assets (btc, eth, sui)."""
+    title_lower = title.lower()
+    matched = []
+    for asset_key, keywords in ASSET_KEYWORDS.items():
+        for kw in keywords:
+            # Use word boundary matching to avoid partial matches
+            if re.search(r'\b' + re.escape(kw) + r'\b', title_lower):
+                matched.append(asset_key)
+                break
+    return matched if matched else ["other"]
+
+
+def fetch_youtube_feed():
+    """Fetch the latest videos from the More Crypto Online YouTube RSS feed."""
+    print("\nFetching YouTube feed from More Crypto Online...")
+
+    try:
+        r = requests.get(YOUTUBE_RSS_URL, timeout=15)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  Failed to fetch YouTube feed: {e}")
+        return
+
+    # Parse the Atom XML feed
+    # YouTube uses Atom namespace
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom",
+        "yt": "http://www.youtube.com/xml/schemas/2015",
+        "media": "http://search.yahoo.com/mrss/",
+    }
+
+    root = ET.fromstring(r.text)
+    entries = root.findall("atom:entry", ns)
+
+    videos = []
+    for entry in entries[:YOUTUBE_MAX_VIDEOS]:
+        video_id = entry.find("yt:videoId", ns)
+        title = entry.find("atom:title", ns)
+        published = entry.find("atom:published", ns)
+        # Get the media:group -> media:thumbnail for the thumbnail URL
+        media_group = entry.find("media:group", ns)
+        thumbnail_url = ""
+        description = ""
+        if media_group is not None:
+            thumb = media_group.find("media:thumbnail", ns)
+            if thumb is not None:
+                thumbnail_url = thumb.get("url", "")
+            desc = media_group.find("media:description", ns)
+            if desc is not None and desc.text:
+                # Trim description to first 200 chars
+                description = desc.text[:200].strip()
+
+        if video_id is None or title is None:
+            continue
+
+        vid = video_id.text
+        title_text = title.text or ""
+        pub_text = published.text if published is not None else ""
+
+        # Classify which asset(s) this video covers
+        assets = classify_video(title_text)
+
+        # Use high-quality thumbnail if available
+        hq_thumb = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+
+        videos.append({
+            "id": vid,
+            "title": title_text,
+            "published": pub_text,
+            "thumbnail": hq_thumb,
+            "description": description,
+            "url": f"https://www.youtube.com/watch?v={vid}",
+            "assets": assets,
+        })
+
+    # Save to JSON
+    output = {
+        "channel": "More Crypto Online",
+        "channel_url": "https://www.youtube.com/@morecryptoonline",
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "videos": videos,
+    }
+
+    with open(YOUTUBE_FILE, "w") as f:
+        json.dump(output, f, indent=2)
+
+    print(f"  Saved {len(videos)} videos to {YOUTUBE_FILE}")
+    for v in videos:
+        print(f"    [{','.join(v['assets'])}] {v['title'][:60]}...")
+
+    return output
+
+
+# ══════════════════════════════════════════════════════════
 #  MAIN
 # ══════════════════════════════════════════════════════════
 
@@ -500,6 +613,9 @@ def main():
     # ── Run accuracy evaluation ──
     print("\nEvaluating prediction accuracy...")
     run_accuracy_evaluation(all_current)
+
+    # ── Fetch YouTube feed ──
+    fetch_youtube_feed()
 
     print("\nAll done.")
 

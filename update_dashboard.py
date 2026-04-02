@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
@@ -10,6 +10,13 @@ CRYPTO_ASSETS = {
     "eth": {"id": "ethereum", "symbol": "ETH", "name": "Ethereum"},
     "sui": {"id": "sui", "symbol": "SUI", "name": "SUI"},
 }
+
+# ── History / Accuracy Settings ──────────────────────────
+HISTORY_DIR = "data/history"
+ACCURACY_FILE = "data/accuracy.json"
+MAX_HISTORY_ENTRIES = 168  # 7 days of hourly snapshots
+LOOKBACK_HOURS = 24        # Evaluate predictions from 24h ago
+LOOKBACK_TOLERANCE_MIN = 30  # ±30 min tolerance when finding the 24h-old snapshot
 
 
 def fetch_crypto_prices():
@@ -198,9 +205,223 @@ def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="cryp
     return parse_ai_json(content)
 
 
+# ══════════════════════════════════════════════════════════
+#  HISTORY & ACCURACY — NEW
+# ══════════════════════════════════════════════════════════
+
+def save_history_snapshot(asset_key, data):
+    """Append a prediction snapshot to the asset's history file."""
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    history_file = os.path.join(HISTORY_DIR, f"{asset_key}.json")
+
+    # Load existing history
+    history = []
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r") as f:
+                history = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            history = []
+
+    # Build the snapshot — just the fields we need for evaluation
+    snapshot = {
+        "timestamp": data["updated_at"],
+        "price": data["price"],
+        "trend_bias": data["analysis"].get("trend_bias", "neutral"),
+        "trade_plan": data["analysis"].get("trade_plan", ""),
+        "key_levels": data["analysis"].get("key_levels", {}),
+        "rsi": data.get("rsi"),
+    }
+
+    history.append(snapshot)
+
+    # Trim to max entries (oldest first)
+    if len(history) > MAX_HISTORY_ENTRIES:
+        history = history[-MAX_HISTORY_ENTRIES:]
+
+    with open(history_file, "w") as f:
+        json.dump(history, f, indent=2)
+
+    return history
+
+
+def find_snapshot_near(history, target_time, tolerance_minutes=LOOKBACK_TOLERANCE_MIN):
+    """Find the snapshot closest to target_time within tolerance."""
+    best = None
+    best_delta = None
+    for snap in history:
+        try:
+            snap_time = datetime.fromisoformat(snap["timestamp"])
+        except (ValueError, KeyError):
+            continue
+        delta = abs((snap_time - target_time).total_seconds())
+        if delta <= tolerance_minutes * 60:
+            if best_delta is None or delta < best_delta:
+                best = snap
+                best_delta = delta
+    return best
+
+
+def evaluate_prediction(old_snapshot, current_price):
+    """
+    Score a 24h-old prediction against current reality.
+
+    Returns a dict with the evaluation results.
+    """
+    predicted_bias = old_snapshot.get("trend_bias", "neutral")
+    old_price = old_snapshot["price"]
+
+    if old_price == 0:
+        return None
+
+    price_change = current_price - old_price
+    price_change_pct = round((price_change / old_price) * 100, 2)
+
+    # Determine actual direction
+    # Use a ±0.5% dead zone for "neutral"
+    if price_change_pct > 0.5:
+        actual_direction = "bullish"
+    elif price_change_pct < -0.5:
+        actual_direction = "bearish"
+    else:
+        actual_direction = "neutral"
+
+    # Score the bias prediction
+    if predicted_bias == actual_direction:
+        verdict = "CORRECT"
+    elif predicted_bias == "neutral" and abs(price_change_pct) < 2.0:
+        verdict = "CORRECT"  # Neutral call when price barely moved = fair
+    elif actual_direction == "neutral":
+        verdict = "PARTIAL"  # Market was flat, any call is a wash
+    else:
+        verdict = "INCORRECT"
+
+    # Check if price hit any predicted support/resistance
+    key_levels = old_snapshot.get("key_levels", {})
+    levels_hit = []
+
+    def parse_price(s):
+        """Extract number from '$68,000' style strings."""
+        try:
+            return float(str(s).replace("$", "").replace(",", ""))
+        except (ValueError, TypeError):
+            return None
+
+    for lvl in key_levels.get("support", []):
+        p = parse_price(lvl)
+        if p and current_price <= p:
+            levels_hit.append({"level": lvl, "type": "support", "hit": True})
+
+    for lvl in key_levels.get("resistance", []):
+        p = parse_price(lvl)
+        if p and current_price >= p:
+            levels_hit.append({"level": lvl, "type": "resistance", "hit": True})
+
+    return {
+        "prediction_time": old_snapshot["timestamp"],
+        "price_at_prediction": old_price,
+        "price_now": current_price,
+        "price_change_pct": price_change_pct,
+        "predicted_bias": predicted_bias,
+        "actual_direction": actual_direction,
+        "verdict": verdict,
+        "trade_plan": old_snapshot.get("trade_plan", ""),
+        "levels_hit": levels_hit,
+    }
+
+
+def run_accuracy_evaluation(all_current_data):
+    """
+    For each asset, find the ~24h-old snapshot, compare to current price,
+    and build the accuracy results.
+    """
+    now = datetime.now(timezone.utc)
+    target_time = now - timedelta(hours=LOOKBACK_HOURS)
+
+    accuracy = {}
+
+    for asset_key in list(CRYPTO_ASSETS.keys()) + ["xau"]:
+        history_file = os.path.join(HISTORY_DIR, f"{asset_key}.json")
+        if not os.path.exists(history_file):
+            print(f"  No history for {asset_key} yet — skipping accuracy")
+            accuracy[asset_key] = {"evaluations": [], "stats": {}}
+            continue
+
+        with open(history_file, "r") as f:
+            history = json.load(f)
+
+        current_price = all_current_data[asset_key]["price"]
+
+        # Find the 24h-old snapshot
+        old_snap = find_snapshot_near(history, target_time)
+
+        # Load existing accuracy results so we accumulate over time
+        existing_accuracy = {}
+        if os.path.exists(ACCURACY_FILE):
+            try:
+                with open(ACCURACY_FILE, "r") as f:
+                    existing_accuracy = json.load(f)
+            except (json.JSONDecodeError, IOError):
+                existing_accuracy = {}
+
+        prev_evals = existing_accuracy.get(asset_key, {}).get("evaluations", [])
+
+        if old_snap:
+            evaluation = evaluate_prediction(old_snap, current_price)
+            if evaluation:
+                # Deduplicate — don't re-evaluate the same prediction timestamp
+                existing_times = {e["prediction_time"] for e in prev_evals}
+                if evaluation["prediction_time"] not in existing_times:
+                    prev_evals.append(evaluation)
+                    print(f"  {asset_key.upper()} accuracy: predicted {evaluation['predicted_bias']}, "
+                          f"actual {evaluation['actual_direction']} → {evaluation['verdict']} "
+                          f"({evaluation['price_change_pct']:+.2f}%)")
+                else:
+                    print(f"  {asset_key.upper()} accuracy: already evaluated this snapshot")
+            else:
+                print(f"  {asset_key.upper()} accuracy: could not evaluate (price was 0)")
+        else:
+            print(f"  {asset_key.upper()} accuracy: no 24h-old snapshot found yet")
+
+        # Trim to last 30 evaluations (30 days if daily, ~30 entries)
+        prev_evals = prev_evals[-30:]
+
+        # Calculate running stats
+        total = len(prev_evals)
+        correct = sum(1 for e in prev_evals if e["verdict"] == "CORRECT")
+        partial = sum(1 for e in prev_evals if e["verdict"] == "PARTIAL")
+        incorrect = sum(1 for e in prev_evals if e["verdict"] == "INCORRECT")
+
+        accuracy[asset_key] = {
+            "evaluations": prev_evals,
+            "stats": {
+                "total": total,
+                "correct": correct,
+                "partial": partial,
+                "incorrect": incorrect,
+                "accuracy_pct": round((correct / total) * 100, 1) if total > 0 else 0,
+                "updated_at": now.isoformat(),
+            }
+        }
+
+    # Save accuracy file
+    with open(ACCURACY_FILE, "w") as f:
+        json.dump(accuracy, f, indent=2)
+
+    print("  Accuracy evaluation complete.")
+    return accuracy
+
+
+# ══════════════════════════════════════════════════════════
+#  MAIN
+# ══════════════════════════════════════════════════════════
+
 def main():
     os.makedirs("data", exist_ok=True)
+    os.makedirs(HISTORY_DIR, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
+
+    all_current = {}
 
     print("Fetching crypto prices...")
     prices = fetch_crypto_prices()
@@ -230,6 +451,10 @@ def main():
         with open(f"data/{key}.json", "w") as f:
             json.dump(output, f, indent=2)
         print(f"  {asset['symbol']} done - ${price:,.2f}")
+
+        # ── Save history snapshot ──
+        save_history_snapshot(key, output)
+        all_current[key] = output
 
     print("Processing XAU (Gold) via TradingView...")
     gold = fetch_gold_tradingview()
@@ -268,7 +493,15 @@ def main():
         json.dump(output, f, indent=2)
     print(f"  XAU done - ${gold_price:,.2f} | RSI: {gold_rsi} | TV: {gold['tv_recommendation']}")
 
-    print("All done.")
+    # ── Save XAU history snapshot ──
+    save_history_snapshot("xau", output)
+    all_current["xau"] = output
+
+    # ── Run accuracy evaluation ──
+    print("\nEvaluating prediction accuracy...")
+    run_accuracy_evaluation(all_current)
+
+    print("\nAll done.")
 
 
 if __name__ == "__main__":

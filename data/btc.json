@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 66490,
-  "change_24h": -2.89,
-  "market_cap": 1331699141759.0562,
-  "rsi": 50.98,
+  "price": 66434,
+  "change_24h": -2.97,
+  "market_cap": 1329362509706.309,
+  "rsi": 51.42,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential correction within a larger bull trend, with wave 4 forming.",
-    "momentum": "Neutral momentum, as the RSI is at 50.98, indicating a lack of clear directional bias.",
+    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bearish trend, with potential for a further decline before a potential reversal.",
+    "momentum": "The RSI reading of 51.42 suggests a neutral momentum, but the recent 2.97% price drop indicates a slight bearish bias.",
     "key_levels": {
       "support": [
         "$64,000",
-        "$62,000"
+        "$60,000"
       ],
       "resistance": [
         "$68,000",
         "$70,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting resistance levels around $68,000-$70,000. However, be cautious of a potential bearish reversal if price breaks below $64,000.",
-    "risk_note": "A key risk to watch is a potential breakdown in market sentiment, leading to a significant price drop."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop-loss above $68,000 and a target at $60,000. Monitor the price action for a potential reversal signal. Adjust the trade plan if the RSI reading drops below 30.",
+    "risk_note": "A potential reversal signal could be triggered if the price bounces off the $60,000 support level and the RSI reading rises above 70."
   },
-  "updated_at": "2026-04-02T05:50:13.642011+00:00"
+  "updated_at": "2026-04-02T09:39:55.270020+00:00"
 }

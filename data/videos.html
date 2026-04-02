@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elliott Wave Videos — Crypto Market Engine</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      min-height: 100vh;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .terminal {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* ── Back link ────────────────────────────────── */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      color: #888;
+      font-size: 12px;
+      letter-spacing: 1px;
+      border: 1px solid #2a2a2a;
+      background: #0f0f0f;
+      font-family: inherit;
+      text-decoration: none;
+      transition: all 0.15s;
+      margin-bottom: 16px;
+    }
+    .back-link:hover { color: #00ff88; border-color: #00ff88; }
+
+    /* ── Header ───────────────────────────────────── */
+    .header {
+      border: 1px solid #2a2a2a;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .header-title { color: #00ff88; font-size: 14px; letter-spacing: 2px; }
+    .header-sub { color: #555; font-size: 11px; }
+    .header-meta { color: #555; font-size: 11px; margin-left: auto; }
+
+    .channel-link {
+      color: #444;
+      font-size: 11px;
+      text-decoration: none;
+      border: 1px solid #1e1e1e;
+      padding: 3px 10px;
+      transition: all 0.15s;
+      letter-spacing: 0.5px;
+    }
+    .channel-link:hover { color: #ff4444; border-color: #ff4444; }
+
+    /* ── Tabs ─────────────────────────────────────── */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 0;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      padding: 8px 24px;
+      cursor: pointer;
+      border: 1px solid #2a2a2a;
+      border-bottom: none;
+      color: #555;
+      background: #0f0f0f;
+      letter-spacing: 1px;
+      font-family: inherit;
+      font-size: 12px;
+      transition: all 0.15s;
+    }
+    .tab:hover { color: #aaa; border-color: #3a3a3a; }
+
+    .tab.active { color: #00ff88; border-color: #00ff88; background: #0a0a0a; }
+    .tab[data-asset="btc"].active { color: #f7931a; border-color: #f7931a; }
+    .tab[data-asset="eth"].active { color: #627eea; border-color: #627eea; }
+    .tab[data-asset="sui"].active { color: #4da2ff; border-color: #4da2ff; }
+
+    .tab .count {
+      font-size: 10px;
+      color: #333;
+      margin-left: 6px;
+    }
+    .tab.active .count { color: inherit; opacity: 0.5; }
+
+    /* ── Panel ────────────────────────────────────── */
+    .panel {
+      border: 1px solid #2a2a2a;
+      padding: 20px;
+      background: #0d0d0d;
+      min-height: 400px;
+    }
+
+    /* ── Video grid ───────────────────────────────── */
+    .video-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .video-card {
+      border: 1px solid #1e1e1e;
+      background: #0a0a0a;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .video-card:hover { border-color: #3a3a3a; }
+
+    .video-card-inner {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    /* ── Video embed ──────────────────────────────── */
+    .video-embed {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 aspect ratio */
+      background: #000;
+    }
+    .video-embed iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* ── Thumbnail (before clicking play) ─────────── */
+    .video-thumb {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      background: #111;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .video-thumb img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.2s;
+    }
+    .video-thumb:hover img { opacity: 0.8; }
+
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 64px;
+      height: 64px;
+      background: rgba(0, 0, 0, 0.7);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    .video-thumb:hover .play-btn {
+      background: rgba(255, 0, 0, 0.85);
+      border-color: transparent;
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+    .play-btn::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 0 10px 18px;
+      border-color: transparent transparent transparent #fff;
+      margin-left: 4px;
+    }
+
+    /* ── Video info ───────────────────────────────── */
+    .video-info {
+      padding: 14px 16px;
+    }
+
+    .video-title {
+      font-size: 14px;
+      color: #e0e0e0;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      font-weight: normal;
+    }
+
+    .video-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .video-date {
+      color: #555;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+
+    .asset-tag {
+      font-size: 10px;
+      letter-spacing: 1px;
+      padding: 2px 8px;
+      border: 1px solid;
+    }
+    .asset-tag.btc { color: #f7931a; border-color: #f7931a33; background: #f7931a11; }
+    .asset-tag.eth { color: #627eea; border-color: #627eea33; background: #627eea11; }
+    .asset-tag.sui { color: #4da2ff; border-color: #4da2ff33; background: #4da2ff11; }
+    .asset-tag.other { color: #888; border-color: #88888833; background: #88888811; }
+
+    .video-desc {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid #1a1a1a;
+      font-size: 12px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* ── Empty state ──────────────────────────────── */
+    .empty-state {
+      color: #333;
+      padding: 60px 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+    .empty-state .icon { font-size: 32px; margin-bottom: 16px; opacity: 0.3; }
+
+    /* ── Focus mode banner ────────────────────────── */
+    .focus-banner {
+      border: 1px solid #1a1a1a;
+      padding: 10px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #0d0d0d;
+    }
+    .focus-banner .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #00ff88;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .focus-banner span {
+      color: #444;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    .loading {
+      color: #444;
+      padding: 60px 0;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .error { color: #ff4444; padding: 20px 0; }
+    .updated { color: #333; font-size: 10px; margin-top: 16px; text-align: right; }
+
+    @media (max-width: 600px) {
+      body { padding: 12px; }
+      .tab { padding: 8px 14px; font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+<div class="terminal">
+
+  <a href="index.html" class="back-link">&larr; Back to Dashboard</a>
+
+  <!-- Header -->
+  <div class="header">
+    <span class="header-title">// ELLIOTT WAVE VIDEOS</span>
+    <span class="header-sub">More Crypto Online</span>
+    <a href="https://www.youtube.com/@morecryptoonline" target="_blank" rel="noopener" class="channel-link">↗ YouTube Channel</a>
+    <span class="header-meta" id="last-updated">--</span>
+  </div>
+
+  <!-- Focus mode banner -->
+  <div class="focus-banner">
+    <div class="dot"></div>
+    <span>FOCUS MODE — Only the videos that matter for your portfolio</span>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-asset="all" onclick="switchVideoTab('all')">ALL <span class="count" id="count-all"></span></button>
+    <button class="tab" data-asset="btc" onclick="switchVideoTab('btc')">BTC <span class="count" id="count-btc"></span></button>
+    <button class="tab" data-asset="eth" onclick="switchVideoTab('eth')">ETH <span class="count" id="count-eth"></span></button>
+    <button class="tab" data-asset="sui" onclick="switchVideoTab('sui')">SUI <span class="count" id="count-sui"></span></button>
+  </div>
+
+  <!-- Panel -->
+  <div class="panel" id="video-panel">
+    <div class="loading">LOADING VIDEOS...</div>
+  </div>
+
+</div>
+
+<script>
+  let allVideos = [];
+  let currentTab = 'all';
+
+  async function loadVideos() {
+    const panel = document.getElementById('video-panel');
+    try {
+      const res = await fetch(`data/youtube.json?t=${Date.now()}`);
+      if (!res.ok) throw new Error('Not found');
+      const data = await res.json();
+      allVideos = data.videos || [];
+
+      // Update tab counts
+      document.getElementById('count-all').textContent = allVideos.length;
+      document.getElementById('count-btc').textContent = allVideos.filter(v => v.assets.includes('btc')).length;
+      document.getElementById('count-eth').textContent = allVideos.filter(v => v.assets.includes('eth')).length;
+      document.getElementById('count-sui').textContent = allVideos.filter(v => v.assets.includes('sui')).length;
+
+      // Update timestamp
+      if (data.updated_at) {
+        document.getElementById('last-updated').textContent = `updated ${new Date(data.updated_at).toLocaleString()}`;
+      }
+
+      renderVideos('all');
+    } catch (e) {
+      panel.innerHTML = `
+        <div class="empty-state">
+          <div class="icon">◎</div>
+          // NO VIDEO DATA YET<br><br>
+          <span style="color:#555;font-size:11px;">
+            The YouTube feed hasn't been fetched yet.<br>
+            Run the update script or wait for the next hourly cycle.
+          </span>
+        </div>
+      `;
+    }
+  }
+
+  function switchVideoTab(asset) {
+    currentTab = asset;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelector(`.tab[data-asset="${asset}"]`).classList.add('active');
+    renderVideos(asset);
+  }
+
+  function renderVideos(asset) {
+    const panel = document.getElementById('video-panel');
+
+    // Filter videos
+    let filtered = allVideos;
+    if (asset !== 'all') {
+      filtered = allVideos.filter(v => v.assets.includes(asset));
+    }
+
+    if (filtered.length === 0) {
+      const assetName = asset === 'all' ? '' : asset.toUpperCase() + ' ';
+      panel.innerHTML = `
+        <div class="empty-state">
+          <div class="icon">◎</div>
+          // NO ${assetName}VIDEOS IN THE LATEST 7 UPLOADS<br><br>
+          <span style="color:#555;font-size:11px;">
+            The last 7 uploads from More Crypto Online didn't cover ${asset === 'all' ? 'any assets' : asset.toUpperCase()}.<br>
+            Check back after new videos are published.
+          </span>
+        </div>
+      `;
+      return;
+    }
+
+    let html = '<div class="video-grid">';
+
+    filtered.forEach((video, index) => {
+      const pubDate = video.published ? new Date(video.published) : null;
+      const dateStr = pubDate ? pubDate.toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
+      }) : '';
+      const timeStr = pubDate ? pubDate.toLocaleTimeString('en-US', {
+        hour: '2-digit', minute: '2-digit', hour12: false
+      }) : '';
+
+      const assetTags = video.assets.map(a =>
+        `<span class="asset-tag ${a}">${a.toUpperCase()}</span>`
+      ).join(' ');
+
+      const descHtml = video.description
+        ? `<div class="video-desc">${escapeHtml(video.description)}${video.description.length >= 200 ? '…' : ''}</div>`
+        : '';
+
+      const cardId = `video-card-${index}`;
+      const thumbId = `thumb-${index}`;
+
+      html += `
+        <div class="video-card" id="${cardId}">
+          <div class="video-card-inner">
+            <div class="video-thumb" id="${thumbId}" onclick="playVideo('${video.id}', '${cardId}', '${thumbId}')">
+              <img src="${video.thumbnail}" alt="" loading="lazy" />
+              <div class="play-btn"></div>
+            </div>
+            <div class="video-info">
+              <div class="video-title">${escapeHtml(video.title)}</div>
+              <div class="video-meta">
+                ${assetTags}
+                <span class="video-date">${dateStr} · ${timeStr}</span>
+              </div>
+              ${descHtml}
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    html += '</div>';
+    html += `<div class="updated">// showing ${filtered.length} of ${allVideos.length} videos from the last 7 uploads</div>`;
+    panel.innerHTML = html;
+  }
+
+  function playVideo(videoId, cardId, thumbId) {
+    const thumbEl = document.getElementById(thumbId);
+    if (!thumbEl) return;
+
+    // Replace thumbnail with embedded iframe
+    const embedDiv = document.createElement('div');
+    embedDiv.className = 'video-embed';
+
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    iframe.allowFullscreen = true;
+
+    embedDiv.appendChild(iframe);
+    thumbEl.replaceWith(embedDiv);
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  // ── Initial load ──
+  loadVideos();
+</script>
+</body>
+</html>

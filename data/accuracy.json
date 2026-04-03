@@ -1,46 +1,94 @@
 {
   "btc": {
-    "evaluations": [],
+    "evaluations": [
+      {
+        "prediction_time": "2026-04-02T19:38:23.773419+00:00",
+        "price_at_prediction": 66940,
+        "price_now": 66876,
+        "price_change_pct": -0.1,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a short-term bearish position with a stop-loss above $67,500, targeting $65,000. Alternatively, a neutral strategy focusing on range trading between $65,000 and $69,000 may be more suitable.",
+        "levels_hit": []
+      }
+    ],
     "stats": {
-      "total": 0,
-      "correct": 0,
+      "total": 1,
+      "correct": 1,
       "partial": 0,
       "incorrect": 0,
-      "accuracy_pct": 0,
-      "updated_at": "2026-04-03T17:00:37.234027+00:00"
+      "accuracy_pct": 100.0,
+      "updated_at": "2026-04-03T19:54:51.018771+00:00"
     }
   },
   "eth": {
-    "evaluations": [],
+    "evaluations": [
+      {
+        "prediction_time": "2026-04-02T19:38:23.773419+00:00",
+        "price_at_prediction": 2056.91,
+        "price_now": 2052.83,
+        "price_change_pct": -0.2,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider buying ETH on a bounce above $2,100, targeting $2,200. Alternatively, sell ETH on a break below $1,900. Monitor the price action closely for a clear trend bias.",
+        "levels_hit": []
+      }
+    ],
     "stats": {
-      "total": 0,
-      "correct": 0,
+      "total": 1,
+      "correct": 1,
       "partial": 0,
       "incorrect": 0,
-      "accuracy_pct": 0,
-      "updated_at": "2026-04-03T17:00:37.234027+00:00"
+      "accuracy_pct": 100.0,
+      "updated_at": "2026-04-03T19:54:51.018771+00:00"
     }
   },
   "sui": {
-    "evaluations": [],
+    "evaluations": [
+      {
+        "prediction_time": "2026-04-02T19:38:23.773419+00:00",
+        "price_at_prediction": 0.857604,
+        "price_now": 0.873123,
+        "price_change_pct": 1.81,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards $0.80, targeting $0.90-$0.95 resistance. Set stop-loss at $0.75. Monitor the trend bias for potential shift.",
+        "levels_hit": []
+      }
+    ],
     "stats": {
-      "total": 0,
-      "correct": 0,
+      "total": 1,
+      "correct": 1,
       "partial": 0,
       "incorrect": 0,
-      "accuracy_pct": 0,
-      "updated_at": "2026-04-03T17:00:37.234027+00:00"
+      "accuracy_pct": 100.0,
+      "updated_at": "2026-04-03T19:54:51.018771+00:00"
     }
   },
   "xau": {
-    "evaluations": [],
+    "evaluations": [
+      {
+        "prediction_time": "2026-04-02T19:38:23.773419+00:00",
+        "price_at_prediction": 4662.63,
+        "price_now": 4676.41,
+        "price_change_pct": 0.3,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards TV Pivot Support levels, targeting $4,037.68 or $3,408.28, with a stop-loss above $4,662.63. Alternatively, sell rallies towards TV Pivot Resistance levels, targeting $5,357.81 or $6,048.54, with a stop-loss below $4,662.63.",
+        "levels_hit": []
+      }
+    ],
     "stats": {
-      "total": 0,
-      "correct": 0,
+      "total": 1,
+      "correct": 1,
       "partial": 0,
       "incorrect": 0,
-      "accuracy_pct": 0,
-      "updated_at": "2026-04-03T17:00:37.234027+00:00"
+      "accuracy_pct": 100.0,
+      "updated_at": "2026-04-03T19:54:51.018771+00:00"
     }
   }
 }

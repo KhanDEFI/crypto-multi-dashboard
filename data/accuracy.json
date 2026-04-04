@@ -33,15 +33,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider buying on dips towards $64,500, with a target of $68,000. However, be cautious of a potential reversal if the price breaks below $63,000. Monitor the market closely for any signs of trend reversal.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-03T14:26:52.275243+00:00",
+        "price_at_prediction": 66862,
+        "price_now": 67207,
+        "price_change_pct": 0.52,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips to $64,000, targeting $68,000. Set stop-loss at $62,000. Monitor for potential breakouts above $70,000.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 3,
-      "correct": 3,
+      "total": 4,
+      "correct": 4,
       "partial": 0,
       "incorrect": 0,
       "accuracy_pct": 100.0,
-      "updated_at": "2026-04-04T11:04:04.451690+00:00"
+      "updated_at": "2026-04-04T14:03:05.928516+00:00"
     }
   },
   "eth": {
@@ -78,15 +89,26 @@
         "verdict": "PARTIAL",
         "trade_plan": "Buy on dips to $1,900, targeting $2,200. Sell at $2,200, with a stop-loss at $2,000. Monitor market sentiment and adjust the plan accordingly.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-03T14:26:52.275243+00:00",
+        "price_at_prediction": 2051.39,
+        "price_now": 2054.26,
+        "price_change_pct": 0.14,
+        "predicted_bias": "bullish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Consider buying on dips to $1,900 or selling at resistance around $2,200, with a target of $2,500 within the next 48 hours.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 3,
+      "total": 4,
       "correct": 2,
-      "partial": 1,
+      "partial": 2,
       "incorrect": 0,
-      "accuracy_pct": 66.7,
-      "updated_at": "2026-04-04T11:04:04.451690+00:00"
+      "accuracy_pct": 50.0,
+      "updated_at": "2026-04-04T14:03:05.928516+00:00"
     }
   },
   "sui": {
@@ -123,15 +145,26 @@
         "verdict": "INCORRECT",
         "trade_plan": "Buy on dips above $0.85, targeting $0.95. Set a stop-loss at $0.80 to limit potential losses. Monitor the price action for a potential breakout above $0.90.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-03T14:26:52.275243+00:00",
+        "price_at_prediction": 0.871524,
+        "price_now": 0.867049,
+        "price_change_pct": -0.51,
+        "predicted_bias": "bullish",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on dips to $0.85, targeting $0.90-$0.95 resistance levels. Set stop-loss at $0.80 to limit potential losses. Monitor the price action for signs of a potential reversal.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 3,
+      "total": 4,
       "correct": 2,
       "partial": 0,
-      "incorrect": 1,
-      "accuracy_pct": 66.7,
-      "updated_at": "2026-04-04T11:04:04.451690+00:00"
+      "incorrect": 2,
+      "accuracy_pct": 50.0,
+      "updated_at": "2026-04-04T14:03:05.928516+00:00"
     }
   },
   "xau": {
@@ -168,15 +201,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider short-term bullish positions if price breaks above resistance, or short-term bearish positions if price breaks below support. Monitor DXY and real yields for potential catalysts. A bounce above $4,676.41 could be a buying opportunity.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-03T14:26:52.275243+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4676.41,
+        "price_change_pct": 0.0,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider short-term buys above $4,676.41 or sells below $4,037.68, with a focus on the 24h change and RSI levels. Monitor central bank policy and DXY movements for potential catalysts. Adjust the plan based on price action and macro drivers.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 3,
-      "correct": 3,
+      "total": 4,
+      "correct": 4,
       "partial": 0,
       "incorrect": 0,
       "accuracy_pct": 100.0,
-      "updated_at": "2026-04-04T11:04:04.451690+00:00"
+      "updated_at": "2026-04-04T14:03:05.928516+00:00"
     }
   }
 }

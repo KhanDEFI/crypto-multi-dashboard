@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 66979,
-  "change_24h": 0.11,
-  "market_cap": 1341456433828.3396,
+  "price": 66832,
+  "change_24h": -0.26,
+  "market_cap": 1337142828479.4822,
   "rsi": 52.72,
   "analysis": {
-    "elliott_wave": "BTC is currently in a neutral wave pattern, with a potential bullish impulse wave forming. The wave count suggests a possible continuation of the uptrend.",
-    "momentum": "The RSI reading of 52.72 indicates a neutral momentum, with neither strong buying nor selling pressure. However, the 0.11% 24h change suggests a slight bullish bias.",
+    "elliott_wave": "BTC is currently in a corrective wave within a larger bull trend, with a possible wave 4 or B wave unfolding.",
+    "momentum": "Momentum is neutral, with the RSI at 52.72, indicating a lack of clear direction, but the 24h change of -0.26% suggests a slight bearish bias.",
     "key_levels": {
       "support": [
         "$66,000",
         "$65,500"
       ],
       "resistance": [
-        "$67,500",
-        "$68,000"
+        "$67,000",
+        "$67,500"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $66,000, targeting $67,500. Set a stop-loss at $65,500. Monitor the market for potential bearish reversal signs.",
-    "risk_note": "A potential risk is a sudden increase in selling pressure, triggered by a major market event or economic indicator."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $66,000, targeting $65,500. Alternatively, look for a bounce to $67,000 for a long entry. Monitor the market for a clear breakout.",
+    "risk_note": "A break below $65,000 could trigger a more significant bearish move."
   },
-  "updated_at": "2026-04-05T05:54:36.012650+00:00"
+  "updated_at": "2026-04-05T06:53:11.542905+00:00"
 }

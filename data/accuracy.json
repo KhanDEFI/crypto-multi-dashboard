@@ -383,15 +383,37 @@
         "verdict": "CORRECT",
         "trade_plan": "Buy on dips towards $65,000, targeting $70,000. Set a stop-loss at $63,000. Monitor the market for a potential breakout.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T20:19:52.437259+00:00",
+        "price_at_prediction": 67359,
+        "price_now": 69889,
+        "price_change_pct": 3.76,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards $66,500, targeting $68,000. Set a stop-loss at $65,000. Monitor the price action for a potential breakout above $69,500.",
+        "levels_hit": [
+          {
+            "level": "$68,000",
+            "type": "resistance",
+            "hit": true
+          },
+          {
+            "level": "$69,500",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 28,
-      "correct": 12,
+      "total": 29,
+      "correct": 13,
       "partial": 6,
       "incorrect": 10,
-      "accuracy_pct": 42.9,
-      "updated_at": "2026-04-06T19:43:50.102605+00:00"
+      "accuracy_pct": 44.8,
+      "updated_at": "2026-04-06T20:27:37.959352+00:00"
     }
   },
   "eth": {
@@ -757,15 +779,26 @@
         "verdict": "INCORRECT",
         "trade_plan": "Buy on dips towards $1,900.00, targeting $2,200.00. Set stop-loss at $1,800.00. Monitor the 24h change for signs of acceleration.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T20:19:52.437259+00:00",
+        "price_at_prediction": 2062.83,
+        "price_now": 2152.26,
+        "price_change_pct": 4.34,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider buying on a break above $2,200.00, with a target of $2,500.00. However, be cautious of a potential reversal if the price fails to hold above $2,000.00.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 28,
+      "total": 29,
       "correct": 12,
       "partial": 5,
-      "incorrect": 11,
-      "accuracy_pct": 42.9,
-      "updated_at": "2026-04-06T19:43:50.102605+00:00"
+      "incorrect": 12,
+      "accuracy_pct": 41.4,
+      "updated_at": "2026-04-06T20:27:37.959352+00:00"
     }
   },
   "sui": {
@@ -1119,15 +1152,26 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider buying on a bounce from the current levels, targeting $0.90-$0.95 resistance. However, set a stop-loss at $0.75 to limit potential losses. Monitor the trend bias for a potential shift.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T20:19:52.437259+00:00",
+        "price_at_prediction": 0.848827,
+        "price_now": 0.895409,
+        "price_change_pct": 5.49,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider shorting SUI/USD with a target of $0.75, using a stop-loss at $0.90. Monitor the price action for a potential rebound, and adjust the trade plan accordingly. Be cautious of a potential false break.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 28,
+      "total": 29,
       "correct": 5,
       "partial": 1,
-      "incorrect": 22,
-      "accuracy_pct": 17.9,
-      "updated_at": "2026-04-06T19:43:50.102605+00:00"
+      "incorrect": 23,
+      "accuracy_pct": 17.2,
+      "updated_at": "2026-04-06T20:27:37.959352+00:00"
     }
   },
   "xau": {
@@ -1439,15 +1483,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider short-term trading opportunities around the TV Pivot Support levels, but maintain a cautious approach due to the recent price decline",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T20:19:52.437259+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4657.34,
+        "price_change_pct": -0.41,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider short-term trading opportunities around key levels, focusing on mean reversion strategies. Monitor price action for signs of a breakout or reversal. Adjust positions accordingly.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 28,
-      "correct": 24,
+      "total": 29,
+      "correct": 25,
       "partial": 4,
       "incorrect": 0,
-      "accuracy_pct": 85.7,
-      "updated_at": "2026-04-06T19:43:50.102605+00:00"
+      "accuracy_pct": 86.2,
+      "updated_at": "2026-04-06T20:27:37.959352+00:00"
     }
   }
 }

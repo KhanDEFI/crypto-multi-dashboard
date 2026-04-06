@@ -405,15 +405,26 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T21:20:27.902020+00:00",
+        "price_at_prediction": 67491,
+        "price_now": 69667,
+        "price_change_pct": 3.22,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards $65,000, targeting $70,000 with a stop-loss at $63,000. Consider scaling in positions over the next 24-48 hours.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 29,
-      "correct": 13,
+      "total": 30,
+      "correct": 14,
       "partial": 6,
       "incorrect": 10,
-      "accuracy_pct": 44.8,
-      "updated_at": "2026-04-06T20:27:37.959352+00:00"
+      "accuracy_pct": 46.7,
+      "updated_at": "2026-04-06T21:28:02.269160+00:00"
     }
   },
   "eth": {
@@ -790,15 +801,32 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider buying on a break above $2,200.00, with a target of $2,500.00. However, be cautious of a potential reversal if the price fails to hold above $2,000.00.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T21:20:27.902020+00:00",
+        "price_at_prediction": 2060.12,
+        "price_now": 2146.42,
+        "price_change_pct": 4.19,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on dips to $2,030, targeting $2,100. Consider selling at $2,150. Monitor the market for a potential breakout.",
+        "levels_hit": [
+          {
+            "level": "$2,100",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 29,
+      "total": 30,
       "correct": 12,
       "partial": 5,
-      "incorrect": 12,
-      "accuracy_pct": 41.4,
-      "updated_at": "2026-04-06T20:27:37.959352+00:00"
+      "incorrect": 13,
+      "accuracy_pct": 40.0,
+      "updated_at": "2026-04-06T21:28:02.269160+00:00"
     }
   },
   "sui": {
@@ -1163,15 +1191,26 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider shorting SUI/USD with a target of $0.75, using a stop-loss at $0.90. Monitor the price action for a potential rebound, and adjust the trade plan accordingly. Be cautious of a potential false break.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T21:20:27.902020+00:00",
+        "price_at_prediction": 0.848741,
+        "price_now": 0.895662,
+        "price_change_pct": 5.53,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Short-term, consider selling on rallies towards $0.90. Medium-term, look for a potential bounce towards $0.80. Long-term, the trend bias remains bearish.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 29,
+      "total": 30,
       "correct": 5,
       "partial": 1,
-      "incorrect": 23,
-      "accuracy_pct": 17.2,
-      "updated_at": "2026-04-06T20:27:37.959352+00:00"
+      "incorrect": 24,
+      "accuracy_pct": 16.7,
+      "updated_at": "2026-04-06T21:28:02.269160+00:00"
     }
   },
   "xau": {
@@ -1494,15 +1533,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider short-term trading opportunities around key levels, focusing on mean reversion strategies. Monitor price action for signs of a breakout or reversal. Adjust positions accordingly.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T21:20:27.902020+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4650.97,
+        "price_change_pct": -0.54,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider buying on dips towards the TV Pivot Support levels, targeting the lower resistance at $5,357.81. Alternatively, sell on rallies towards the TV Pivot Resistance levels, aiming for the upper support at $4,037.68.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 29,
-      "correct": 25,
+      "total": 30,
+      "correct": 26,
       "partial": 4,
       "incorrect": 0,
-      "accuracy_pct": 86.2,
-      "updated_at": "2026-04-06T20:27:37.959352+00:00"
+      "accuracy_pct": 86.7,
+      "updated_at": "2026-04-06T21:28:02.269160+00:00"
     }
   }
 }

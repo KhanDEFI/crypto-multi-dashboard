@@ -248,15 +248,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T11:20:09.647659+00:00",
+        "price_at_prediction": 67055,
+        "price_now": 69754,
+        "price_change_pct": 4.03,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider selling on a break below $65,000 for a potential short-term trade, but be cautious of a potential bounce. Alternatively, wait for a clear break above $68,000 to confirm a resumption of the bull trend.",
+        "levels_hit": [
+          {
+            "level": "$68,000",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 20,
+      "total": 21,
       "correct": 11,
       "partial": 6,
-      "incorrect": 3,
-      "accuracy_pct": 55.0,
-      "updated_at": "2026-04-06T09:58:33.143034+00:00"
+      "incorrect": 4,
+      "accuracy_pct": 52.4,
+      "updated_at": "2026-04-06T10:54:07.728268+00:00"
     }
   },
   "eth": {
@@ -504,15 +521,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T11:20:09.647659+00:00",
+        "price_at_prediction": 2044.57,
+        "price_now": 2151.9,
+        "price_change_pct": 5.25,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on dips towards $1,900.00, targeting $2,100.00. Sell on rallies above $2,100.00, targeting $2,200.00. Monitor the 24h chart for a breakout.",
+        "levels_hit": [
+          {
+            "level": "$2,100.00",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 20,
+      "total": 21,
       "correct": 11,
       "partial": 5,
-      "incorrect": 4,
-      "accuracy_pct": 55.0,
-      "updated_at": "2026-04-06T09:58:33.143034+00:00"
+      "incorrect": 5,
+      "accuracy_pct": 52.4,
+      "updated_at": "2026-04-06T10:54:07.728268+00:00"
     }
   },
   "sui": {
@@ -760,15 +794,26 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider buying on a bounce to $0.90, with a target of $1.00. Alternatively, sell on a break below $0.80. Monitor the 24h change for signs of acceleration.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T11:20:09.647659+00:00",
+        "price_at_prediction": 0.851145,
+        "price_now": 0.912726,
+        "price_change_pct": 7.24,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Sell SUI/USD on a break below $0.85, targeting $0.78. Consider long positions if price rebounds to $0.92. Monitor market sentiment for potential reversal signals.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 20,
+      "total": 21,
       "correct": 5,
       "partial": 1,
-      "incorrect": 14,
-      "accuracy_pct": 25.0,
-      "updated_at": "2026-04-06T09:58:33.143034+00:00"
+      "incorrect": 15,
+      "accuracy_pct": 23.8,
+      "updated_at": "2026-04-06T10:54:07.728268+00:00"
     }
   },
   "xau": {
@@ -992,15 +1037,26 @@
         "verdict": "PARTIAL",
         "trade_plan": "Consider short positions with a stop-loss above $4,037.68 and a target near $3,408.28. Monitor the price action for a potential bounce off the support levels. A break below $4,037.68 would confirm the bearish trend.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T11:20:09.647659+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4694.2,
+        "price_change_pct": 0.38,
+        "predicted_bias": "bearish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Consider short positions with a stop-loss above $4730, targeting $4037.68. Alternatively, wait for a breakout above $5357.81 to enter long positions. Monitor the price action closely for a potential reversal.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 20,
+      "total": 21,
       "correct": 17,
-      "partial": 3,
+      "partial": 4,
       "incorrect": 0,
-      "accuracy_pct": 85.0,
-      "updated_at": "2026-04-06T09:58:33.143034+00:00"
+      "accuracy_pct": 81.0,
+      "updated_at": "2026-04-06T10:54:07.728268+00:00"
     }
   }
 }

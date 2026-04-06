@@ -265,15 +265,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T12:30:17.366700+00:00",
+        "price_at_prediction": 66885,
+        "price_now": 69492,
+        "price_change_pct": 3.9,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider buying on dips around $65,000, targeting $67,500. However, if the price breaks below $63,000, consider selling. Monitor the 24h change for signs of a trend reversal.",
+        "levels_hit": [
+          {
+            "level": "$67,500",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 21,
+      "total": 22,
       "correct": 11,
       "partial": 6,
-      "incorrect": 4,
-      "accuracy_pct": 52.4,
-      "updated_at": "2026-04-06T11:40:14.436103+00:00"
+      "incorrect": 5,
+      "accuracy_pct": 50.0,
+      "updated_at": "2026-04-06T12:42:39.727255+00:00"
     }
   },
   "eth": {
@@ -538,15 +555,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T12:30:17.366700+00:00",
+        "price_at_prediction": 2037.29,
+        "price_now": 2151.73,
+        "price_change_pct": 5.62,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on dips towards $1,900, targeting $2,100. Sell on rallies above $2,100, aiming for $2,200. Monitor the 24h change for signs of a reversal.",
+        "levels_hit": [
+          {
+            "level": "$2,100",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 21,
+      "total": 22,
       "correct": 11,
       "partial": 5,
-      "incorrect": 5,
-      "accuracy_pct": 52.4,
-      "updated_at": "2026-04-06T11:40:14.436103+00:00"
+      "incorrect": 6,
+      "accuracy_pct": 50.0,
+      "updated_at": "2026-04-06T12:42:39.727255+00:00"
     }
   },
   "sui": {
@@ -805,15 +839,32 @@
         "verdict": "INCORRECT",
         "trade_plan": "Sell SUI/USD on a break below $0.85, targeting $0.78. Consider long positions if price rebounds to $0.92. Monitor market sentiment for potential reversal signals.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T12:30:17.366700+00:00",
+        "price_at_prediction": 0.847508,
+        "price_now": 0.904967,
+        "price_change_pct": 6.78,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Short-term trade plan: Sell on a bounce above $0.90 with a stop-loss at $0.95. Medium-term trade plan: Hold bearish positions and wait for a potential break below $0.80.",
+        "levels_hit": [
+          {
+            "level": "$0.90",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 21,
+      "total": 22,
       "correct": 5,
       "partial": 1,
-      "incorrect": 15,
-      "accuracy_pct": 23.8,
-      "updated_at": "2026-04-06T11:40:14.436103+00:00"
+      "incorrect": 16,
+      "accuracy_pct": 22.7,
+      "updated_at": "2026-04-06T12:42:39.727255+00:00"
     }
   },
   "xau": {
@@ -1048,15 +1099,26 @@
         "verdict": "PARTIAL",
         "trade_plan": "Consider short positions with a stop-loss above $4730, targeting $4037.68. Alternatively, wait for a breakout above $5357.81 to enter long positions. Monitor the price action closely for a potential reversal.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T12:30:17.366700+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4676.01,
+        "price_change_pct": -0.01,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider shorting around the 24h high or buying around the TV Pivot Support levels. Monitor the price action for a potential breakout or reversal. Adjust the trade plan based on the 24h price action.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 21,
-      "correct": 17,
+      "total": 22,
+      "correct": 18,
       "partial": 4,
       "incorrect": 0,
-      "accuracy_pct": 81.0,
-      "updated_at": "2026-04-06T11:40:14.436103+00:00"
+      "accuracy_pct": 81.8,
+      "updated_at": "2026-04-06T12:42:39.727255+00:00"
     }
   }
 }

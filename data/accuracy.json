@@ -299,15 +299,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T15:21:19.476162+00:00",
+        "price_at_prediction": 66956,
+        "price_now": 69746,
+        "price_change_pct": 4.17,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider shorting on a break below $64,500, targeting $62,000. Alternatively, a bounce above $68,500 could trigger a long position, aiming for $70,000. Monitor price action closely for a potential reversal.",
+        "levels_hit": [
+          {
+            "level": "$68,500",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 23,
+      "total": 24,
       "correct": 11,
       "partial": 6,
-      "incorrect": 6,
-      "accuracy_pct": 47.8,
-      "updated_at": "2026-04-06T14:03:59.200145+00:00"
+      "incorrect": 7,
+      "accuracy_pct": 45.8,
+      "updated_at": "2026-04-06T15:36:06.633080+00:00"
     }
   },
   "eth": {
@@ -606,15 +623,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T15:21:19.476162+00:00",
+        "price_at_prediction": 2040.93,
+        "price_now": 2162.77,
+        "price_change_pct": 5.97,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider shorting ETH around $2,040.93 with a stop-loss at $2,100.00 and a target at $1,900.00, but be cautious of a potential bounce.",
+        "levels_hit": [
+          {
+            "level": "$2,100.00",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 23,
+      "total": 24,
       "correct": 11,
       "partial": 5,
-      "incorrect": 7,
-      "accuracy_pct": 47.8,
-      "updated_at": "2026-04-06T14:03:59.200145+00:00"
+      "incorrect": 8,
+      "accuracy_pct": 45.8,
+      "updated_at": "2026-04-06T15:36:06.633080+00:00"
     }
   },
   "sui": {
@@ -907,15 +941,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T15:21:19.476162+00:00",
+        "price_at_prediction": 0.845656,
+        "price_now": 0.900017,
+        "price_change_pct": 6.43,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider shorting SUI/USD around $0.85 with a stop-loss at $0.90, targeting $0.75. Alternatively, wait for a confirmed break below $0.80 to re-enter a short position.",
+        "levels_hit": [
+          {
+            "level": "$0.90",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 23,
+      "total": 24,
       "correct": 5,
       "partial": 1,
-      "incorrect": 17,
-      "accuracy_pct": 21.7,
-      "updated_at": "2026-04-06T14:03:59.200145+00:00"
+      "incorrect": 18,
+      "accuracy_pct": 20.8,
+      "updated_at": "2026-04-06T15:36:06.633080+00:00"
     }
   },
   "xau": {
@@ -1172,15 +1223,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider short-term trading opportunities around key levels, with a focus on buying dips and selling rallies. Monitor central bank policy and real yields for potential macro drivers. A break above resistance or below support could trigger a more significant trend.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T15:21:19.476162+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4667.65,
+        "price_change_pct": -0.19,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards TV Pivot Support levels, targeting $4,037.68 or $3,408.28, with a stop-loss above $4,676.41. Sell on rallies towards TV Pivot Resistance levels, targeting $5,357.81 or $6,048.54, with a stop-loss below $4,676.41.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 23,
-      "correct": 19,
+      "total": 24,
+      "correct": 20,
       "partial": 4,
       "incorrect": 0,
-      "accuracy_pct": 82.6,
-      "updated_at": "2026-04-06T14:03:59.200145+00:00"
+      "accuracy_pct": 83.3,
+      "updated_at": "2026-04-06T15:36:06.633080+00:00"
     }
   }
 }

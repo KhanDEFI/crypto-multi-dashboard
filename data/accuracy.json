@@ -209,15 +209,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T08:30:46.413393+00:00",
+        "price_at_prediction": 66858,
+        "price_now": 69150,
+        "price_change_pct": 3.43,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider buying on dips towards $64,000 or $62,000, with a target of $68,000. However, if price breaks below $62,000, consider shorting with a stop above $64,000.",
+        "levels_hit": [
+          {
+            "level": "$68,000",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 18,
+      "total": 19,
       "correct": 10,
       "partial": 6,
-      "incorrect": 2,
-      "accuracy_pct": 55.6,
-      "updated_at": "2026-04-06T06:23:41.588536+00:00"
+      "incorrect": 3,
+      "accuracy_pct": 52.6,
+      "updated_at": "2026-04-06T08:16:11.330451+00:00"
     }
   },
   "eth": {
@@ -431,15 +448,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T08:30:46.413393+00:00",
+        "price_at_prediction": 2036.93,
+        "price_now": 2136.39,
+        "price_change_pct": 4.88,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider shorting ETH on a break below $1,900.00, targeting $1,800.00. Alternatively, wait for a bullish reversal signal above $2,100.00 to enter a long position.",
+        "levels_hit": [
+          {
+            "level": "$2,100.00",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
-      "total": 18,
+      "total": 19,
       "correct": 11,
       "partial": 5,
-      "incorrect": 2,
-      "accuracy_pct": 61.1,
-      "updated_at": "2026-04-06T06:23:41.588536+00:00"
+      "incorrect": 3,
+      "accuracy_pct": 57.9,
+      "updated_at": "2026-04-06T08:16:11.330451+00:00"
     }
   },
   "sui": {
@@ -665,15 +699,26 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-04-05T08:30:46.413393+00:00",
+        "price_at_prediction": 0.852181,
+        "price_now": 0.88677,
+        "price_change_pct": 4.06,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Short-term traders may consider selling on rallies towards $0.90, while long-term investors may look to buy on dips towards $0.80. A break below $0.80 could trigger a more significant sell-off.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 18,
+      "total": 19,
       "correct": 5,
       "partial": 1,
-      "incorrect": 12,
-      "accuracy_pct": 27.8,
-      "updated_at": "2026-04-06T06:23:41.588536+00:00"
+      "incorrect": 13,
+      "accuracy_pct": 26.3,
+      "updated_at": "2026-04-06T08:16:11.330451+00:00"
     }
   },
   "xau": {
@@ -875,15 +920,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider buying on a bounce towards the TV Pivot Support levels, with a target of retesting the $5,357.81 resistance level. Monitor the price action for a potential short-term bottom. Be cautious of further price declines.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-05T08:30:46.413393+00:00",
+        "price_at_prediction": 4676.41,
+        "price_now": 4689.63,
+        "price_change_pct": 0.28,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider short-term range trading or scalping opportunities around key levels. Monitor price action for potential breakouts or reversals. Adjust position sizes based on market volatility.",
+        "levels_hit": []
       }
     ],
     "stats": {
-      "total": 18,
-      "correct": 16,
+      "total": 19,
+      "correct": 17,
       "partial": 2,
       "incorrect": 0,
-      "accuracy_pct": 88.9,
-      "updated_at": "2026-04-06T06:23:41.588536+00:00"
+      "accuracy_pct": 89.5,
+      "updated_at": "2026-04-06T08:16:11.330451+00:00"
     }
   }
 }

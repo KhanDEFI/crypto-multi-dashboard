@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2200.21,
-  "change_24h": 1.88,
-  "market_cap": 265585737135.5295,
+  "price": 2184.72,
+  "change_24h": -3.19,
+  "market_cap": 263608794825.20444,
   "rsi": 58.44,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle or a zigzag pattern within a larger bull trend.",
-    "momentum": "The RSI reading of 58.44 indicates a neutral momentum, suggesting a pause in the uptrend, but the 1.88% 24h change and $2,200.21 price level indicate a slight bullish bias.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially part of a larger bearish trend, following a strong downtrend. The wave count suggests a potential reversal in the near future.",
+    "momentum": "The RSI reading of 58.44 indicates a neutral momentum, with neither strong buying nor selling pressure. However, the 24h change of -3.19% suggests a slight bearish bias.",
     "key_levels": {
       "support": [
-        "$2,150.00",
-        "$2,100.00"
+        "$2,100",
+        "$2,000"
       ],
       "resistance": [
-        "$2,250.00",
-        "$2,300.00"
+        "$2,300",
+        "$2,500"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $2,150.00, targeting $2,250.00-$2,300.00. Set stop-loss at $2,100.00. Monitor for a potential breakout above $2,300.00.",
-    "risk_note": "A sharp decline below $2,100.00 could indicate a shift in trend bias to bearish."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $2,200 with a stop-loss at $2,300, targeting $2,000. Alternatively, consider buying ETH around $2,000 with a stop-loss at $1,900, targeting $2,300. Monitor the market for a potential breakout.",
+    "risk_note": "A potential risk is a sudden shift in market sentiment, leading to a sharp price move in either direction."
   },
-  "updated_at": "2026-04-08T22:28:23.654023+00:00"
+  "updated_at": "2026-04-08T23:28:33.889775+00:00"
 }

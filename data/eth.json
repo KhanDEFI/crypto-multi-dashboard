@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2193.24,
-  "change_24h": -2.51,
-  "market_cap": 264784591278.69742,
+  "price": 2180.95,
+  "change_24h": -2.71,
+  "market_cap": 263133907819.7442,
   "rsi": 62.75,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a double zigzag pattern, with a possible wave 4 low at $2,100.",
-    "momentum": "The RSI is neutral at 62.75, indicating a lack of clear momentum, but the 24h price action suggests a slight bearish bias.",
+    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bullish trend, with a possible wave 4 low forming.",
+    "momentum": "The RSI is neutral at 62.75, indicating a pause in the recent downtrend, but the 24h change suggests a bearish momentum.",
     "key_levels": {
       "support": [
-        "$2,100",
-        "$2,050"
+        "$2,100.00",
+        "$2,000.00"
       ],
       "resistance": [
-        "$2,250",
-        "$2,300"
+        "$2,300.00",
+        "$2,400.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $2,200 with a stop-loss at $2,300, targeting $2,050. Alternatively, wait for a clear break below $2,100 to confirm a bearish trend.",
-    "risk_note": "A potential reversal above $2,300 could invalidate the bearish trend and lead to a significant price increase."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a bounce to $2,200.00, targeting $2,100.00. Consider scaling in on a retest of $2,000.00.",
+    "risk_note": "A break above $2,300.00 would invalidate the bearish trend bias and trigger a risk-on trade plan."
   },
-  "updated_at": "2026-04-09T10:01:26.961253+00:00"
+  "updated_at": "2026-04-09T11:43:18.650173+00:00"
 }

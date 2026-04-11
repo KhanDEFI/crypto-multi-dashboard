@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 73398,
-  "change_24h": 0.33,
-  "market_cap": 1469618886984.549,
+  "price": 73505,
+  "change_24h": 0.49,
+  "market_cap": 1471174188436.5999,
   "rsi": 74.68,
   "analysis": {
-    "elliott_wave": "BTC is in a corrective wave (B) within a larger bull trend, potentially forming a complex wave structure. Further confirmation requires a clear break above the current high.",
-    "momentum": "Momentum is neutral to bearish due to the overbought RSI reading and a 0.33% price drop over the last 24 hours, suggesting a potential reversal.",
+    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a bearish impulse wave (3-4) within a larger bull trend.",
+    "momentum": "The RSI reading of 74.68 indicates overbought conditions, suggesting a potential reversal or pullback in the near term.",
     "key_levels": {
       "support": [
-        "$65,000",
-        "$60,000"
+        "$70,000",
+        "$68,000"
       ],
       "resistance": [
         "$75,000",
-        "$80,000"
+        "$78,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting at current levels with a stop-loss above $75,000 and a target at $65,000. Alternatively, wait for a clear break below $70,000 to confirm a bearish trend. Monitor the market for a potential reversal.",
-    "risk_note": "A sharp break above $80,000 could invalidate the bearish trend and trigger a long position."
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions and taking profits, while setting a buy limit order around $70,000 for potential long entries.",
+    "risk_note": "A sharp decline below $68,000 could signal a more significant bearish reversal."
   },
-  "updated_at": "2026-04-11T21:22:03.846790+00:00"
+  "updated_at": "2026-04-11T22:19:43.404472+00:00"
 }

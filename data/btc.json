@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 72901,
-  "change_24h": 0.29,
-  "market_cap": 1459223573919.989,
+  "price": 72999,
+  "change_24h": 0.06,
+  "market_cap": 1460741018170.3628,
   "rsi": 71.11,
   "analysis": {
-    "elliott_wave": "BTC is in a corrective wave, possibly a wave 4, after a strong wave 3. The wave count suggests a potential reversal.",
-    "momentum": "The RSI reading of 71.11 indicates overbought conditions, suggesting a potential pullback in the near term. However, the 0.29% 24h change indicates a stable market.",
+    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bull trend, with a possible wave 3 unfolding. The wave count suggests a potential retest of the previous high.",
+    "momentum": "The RSI reading of 71.11 indicates an overbought condition, suggesting a potential reversal in the short term. However, the 0.06% 24h change suggests a lack of momentum.",
     "key_levels": {
       "support": [
-        "$70,000",
-        "$68,000"
+        "$65,000",
+        "$62,000"
       ],
       "resistance": [
         "$75,000",
-        "$77,000"
+        "$80,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $70,000 or going long on a bounce above $75,000. Monitor the market for a potential reversal in the next 24-48 hours.",
-    "risk_note": "A sudden shift in sentiment or a major news event could trigger a sharp price movement."
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $65,000, targeting $75,000. Consider taking profits at $75,000 and re-evaluating the trade plan. A break below $62,000 would be a strong bearish signal.",
+    "risk_note": "A sudden shift in global macroeconomic sentiment could lead to a sharp decline in BTC price."
   },
-  "updated_at": "2026-04-11T16:22:22.946547+00:00"
+  "updated_at": "2026-04-11T17:22:01.500398+00:00"
 }

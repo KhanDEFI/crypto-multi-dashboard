@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-02T19:38:23.773419+00:00",
-    "price": 2056.91,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying ETH on a bounce above $2,100, targeting $2,200. Alternatively, sell ETH on a break below $1,900. Monitor the price action closely for a clear trend bias.",
-    "key_levels": {
-      "support": [
-        "$1,900",
-        "$1,800"
-      ],
-      "resistance": [
-        "$2,100",
-        "$2,200"
-      ]
-    },
-    "rsi": 50.82
-  },
-  {
     "timestamp": "2026-04-02T21:54:27.978721+00:00",
     "price": 2060.27,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.53
+  },
+  {
+    "timestamp": "2026-04-13T09:24:50.121526+00:00",
+    "price": 2190.57,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH on a break below $2,100, targeting $2,000. Alternatively, look for a bounce off $2,100 to enter long positions, aiming for $2,300-$2,400.",
+    "key_levels": {
+      "support": [
+        "$2,100",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,400"
+      ]
+    },
+    "rsi": 38.92
   }
 ]

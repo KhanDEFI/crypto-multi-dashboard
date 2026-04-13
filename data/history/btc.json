@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-02T19:38:23.773419+00:00",
-    "price": 66940,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term bearish position with a stop-loss above $67,500, targeting $65,000. Alternatively, a neutral strategy focusing on range trading between $65,000 and $69,000 may be more suitable.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$63,000"
-      ],
-      "resistance": [
-        "$67,500",
-        "$69,000"
-      ]
-    },
-    "rsi": 46.59
-  },
-  {
     "timestamp": "2026-04-02T21:54:27.978721+00:00",
     "price": 66843,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 28.66
+  },
+  {
+    "timestamp": "2026-04-13T09:24:50.121526+00:00",
+    "price": 70744,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $67,500, targeting $72,000 with a stop at $65,000. Consider scaling in positions as the bounce develops. Monitor for a potential false breakout above $72,000.",
+    "key_levels": {
+      "support": [
+        "$67,500",
+        "$65,000"
+      ],
+      "resistance": [
+        "$72,000",
+        "$75,000"
+      ]
+    },
+    "rsi": 29.19
   }
 ]

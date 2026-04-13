@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-03T21:06:00.660548+00:00",
-    "price": 66839,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $67,500 resistance, with a stop-loss at $64,500. Monitor price action for signs of a strong trend reversal. Adjust trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$64,500",
-        "$63,000"
-      ],
-      "resistance": [
-        "$67,500",
-        "$69,000"
-      ]
-    },
-    "rsi": 32.99
-  },
-  {
     "timestamp": "2026-04-03T23:05:05.242407+00:00",
     "price": 66891,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$75,000",
         "$78,000"
+      ]
+    },
+    "rsi": 53.18
+  },
+  {
+    "timestamp": "2026-04-13T22:34:06.058509+00:00",
+    "price": 74287,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $75,000, targeting $77,000. Alternatively, consider selling on a break below $72,000, targeting $70,000. A stop-loss at $73,000 can help manage risk.",
+    "key_levels": {
+      "support": [
+        "$72,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$75,500",
+        "$77,000"
       ]
     },
     "rsi": 53.18

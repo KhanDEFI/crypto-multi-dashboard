@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-02T23:04:02.758559+00:00",
-    "price": 0.861667,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting SUI/USD around $0.85 with a stop-loss at $0.92, targeting a potential drop to $0.78. Alternatively, wait for a clear breakout above $0.92 to consider long positions. Monitor market volatility for potential trading opportunities.",
-    "key_levels": {
-      "support": [
-        "$0.82",
-        "$0.78"
-      ],
-      "resistance": [
-        "$0.92",
-        "$0.98"
-      ]
-    },
-    "rsi": 51.09
-  },
-  {
     "timestamp": "2026-04-03T05:50:34.733318+00:00",
     "price": 0.870873,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 32.78
+  },
+  {
+    "timestamp": "2026-04-13T12:56:37.503219+00:00",
+    "price": 0.90957,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting SUI/USD if it breaks below $0.85, targeting $0.80. Conversely, look to buy if it holds above $0.85 and breaks above $0.95. A stop-loss at $0.80 is recommended.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 34.44
   }
 ]

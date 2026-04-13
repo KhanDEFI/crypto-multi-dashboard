@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 70660,
-  "change_24h": -3.44,
-  "market_cap": 1413721540910.5586,
-  "rsi": 41.26,
+  "price": 71120,
+  "change_24h": -2.69,
+  "market_cap": 1423396058142.566,
+  "rsi": 33.91,
   "analysis": {
-    "elliott_wave": "BTC is in a corrective wave, potentially a zigzag within a larger downtrend, with a possible wave 4 low around $68,000.",
-    "momentum": "The neutral RSI reading suggests a lack of clear momentum, but the recent 3.44% price drop indicates a bearish bias.",
+    "elliott_wave": "We are currently in a corrective wave (wave 4) within a larger bullish trend. The price action suggests a potential reversal towards the upper trend line.",
+    "momentum": "The RSI reading of 33.91 indicates a neutral momentum, with the price action suggesting a potential bounce. However, the 24h change of -2.69% indicates a slight bearish momentum.",
     "key_levels": {
       "support": [
-        "$68,000",
-        "$65,000"
+        "$69,000",
+        "$67,000"
       ],
       "resistance": [
-        "$72,000",
+        "$72,500",
         "$75,000"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting around current levels with a stop-loss above $72,000, targeting $65,000. Monitor the price action for a potential bounce or continuation of the downtrend. Adjust the stop-loss as necessary.",
-    "risk_note": "A potential reversal above $72,000 could invalidate the bearish bias and lead to a significant price increase."
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $69,000, targeting $72,500. Sell on rallies above $72,500, targeting $75,000. Monitor the price action for a potential breakout.",
+    "risk_note": "A break below $67,000 could indicate a stronger bearish trend"
   },
-  "updated_at": "2026-04-12T23:23:12.809868+00:00"
+  "updated_at": "2026-04-13T01:21:25.418939+00:00"
 }

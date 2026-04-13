@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-03T17:00:34.693534+00:00",
-    "price": 67000,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $65,000.00, with a target of $68,000.00, and set a stop-loss at $62,000.00. Alternatively, sell on rallies towards $68,000.00, with a target of $70,000.00, and set a stop-loss at $65,000.00.",
-    "key_levels": {
-      "support": [
-        "$65,000.00",
-        "$62,000.00"
-      ],
-      "resistance": [
-        "$68,000.00",
-        "$70,000.00"
-      ]
-    },
-    "rsi": 33.58
-  },
-  {
     "timestamp": "2026-04-03T19:54:48.596650+00:00",
     "price": 66876,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$75,000",
         "$77,000"
+      ]
+    },
+    "rsi": 42.72
+  },
+  {
+    "timestamp": "2026-04-13T20:03:03.153899+00:00",
+    "price": 73367,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $70,000, targeting $75,000 with a stop-loss at $68,000. Monitor for a potential breakout above $78,000.",
+    "key_levels": {
+      "support": [
+        "$70,000",
+        "$68,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$78,000"
       ]
     },
     "rsi": 42.72

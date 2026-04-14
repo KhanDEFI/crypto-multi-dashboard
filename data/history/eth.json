@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T10:22:08.754738+00:00",
-    "price": 2043.35,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling on a bounce to $2,100. Medium-term, look for a break below $1,900 to confirm the downtrend. Long-term, consider buying on a strong bounce.",
-    "key_levels": {
-      "support": [
-        "$1,900",
-        "$1,800"
-      ],
-      "resistance": [
-        "$2,100",
-        "$2,200"
-      ]
-    },
-    "rsi": 37.49
-  },
-  {
     "timestamp": "2026-04-05T11:20:09.647659+00:00",
     "price": 2044.57,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,350",
         "$2,400"
+      ]
+    },
+    "rsi": 67.52
+  },
+  {
+    "timestamp": "2026-04-14T23:33:44.002148+00:00",
+    "price": 2321.43,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH on a break below $2,200, targeting $2,100. Alternatively, look to buy on a bounce to $2,400, with a stop-loss at $2,200. Monitor the market for a potential trend reversal.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,500"
       ]
     },
     "rsi": 67.52

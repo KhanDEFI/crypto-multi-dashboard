@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4839.46,
-  "change_24h": -0.03,
+  "price": 4835.69,
+  "change_24h": -0.11,
   "market_cap": 0,
-  "rsi": 54.26,
+  "rsi": 54.03,
   "analysis": {
-    "elliott_wave": "Not applicable due to gold's non-compliance with Elliott Wave theory",
-    "momentum": "Neutral momentum with RSI at 54.26, indicating a stable price action. However, the 24h change of -0.03% suggests a slight downtrend.",
+    "elliott_wave": "No applicable Elliott Wave pattern assessment due to gold's unique market dynamics.",
+    "momentum": "Neutral momentum with RSI at 54.03, indicating a lack of strong buying or selling pressure. Price action suggests a slight downtrend.",
     "key_levels": {
       "support": [
         "$4,037.68",
@@ -18,9 +18,9 @@
         "$6,048.54"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards the support levels of $4,037.68 and $3,408.28. However, given the neutral momentum and slight downtrend, it's essential to set a tight stop-loss. Monitor the price action closely for a potential reversal.",
-    "risk_note": "A sharp increase in the US Dollar Index (DXY) could lead to a decline in gold prices due to its inverse relationship"
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting with a stop above $4835.69 and a target at the TV Pivot Support levels. Monitor the 24h chart for a potential breakdown. Adjust the trade plan if the RSI moves below 30.",
+    "risk_note": "A strong US dollar (DXY) rally could lead to increased selling pressure on gold."
   },
-  "updated_at": "2026-04-14T22:35:19.313150+00:00"
+  "updated_at": "2026-04-14T23:33:44.002148+00:00"
 }

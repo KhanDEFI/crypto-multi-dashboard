@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T05:54:36.012650+00:00",
-    "price": 0.858082,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $0.83, targeting $0.80. Alternatively, wait for a bullish reversal above $0.88. Be cautious of a potential price bounce.",
-    "key_levels": {
-      "support": [
-        "$0.83",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.88",
-        "$0.92"
-      ]
-    },
-    "rsi": 55.11
-  },
-  {
     "timestamp": "2026-04-05T06:53:11.542905+00:00",
     "price": 0.85505,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.00",
         "$1.04"
+      ]
+    },
+    "rsi": 65.03
+  },
+  {
+    "timestamp": "2026-04-14T18:56:17.661526+00:00",
+    "price": 0.928173,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips, targeting $1.02 resistance. Set stop-loss at $0.88. Consider scaling out of positions if reached.",
+    "key_levels": {
+      "support": [
+        "$0.88",
+        "$0.85"
+      ],
+      "resistance": [
+        "$0.98",
+        "$1.02"
       ]
     },
     "rsi": 65.03

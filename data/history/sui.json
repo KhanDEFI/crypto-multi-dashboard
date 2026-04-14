@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-04T14:03:03.267996+00:00",
-    "price": 0.867049,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position at $0.80 for a potential bounce, with a target of $0.95. Alternatively, a sell position at $0.90 could be considered for a short-term trade. Monitor the price action closely for a clear trend direction.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.90",
-        "$0.95"
-      ]
-    },
-    "rsi": 58.79
-  },
-  {
     "timestamp": "2026-04-04T15:58:22.908407+00:00",
     "price": 0.869119,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.00",
         "$1.10"
+      ]
+    },
+    "rsi": 50.9
+  },
+  {
+    "timestamp": "2026-04-14T10:05:16.629598+00:00",
+    "price": 0.951069,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips near $0.90 with a target of $1.05, and consider scaling in on a breakout above $1.00. Set a stop-loss at $0.85 to limit potential losses. Monitor the market for a potential wave 4 correction.",
+    "key_levels": {
+      "support": [
+        "$0.90",
+        "$0.85"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.05"
       ]
     },
     "rsi": 50.9

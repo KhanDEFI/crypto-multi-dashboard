@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T13:45:13.290352+00:00",
-    "price": 66815,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short positions if price breaks below $65,000 support, targeting $62,000. Otherwise, wait for a clear breakout above $68,000 resistance.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$62,000"
-      ],
-      "resistance": [
-        "$68,000",
-        "$70,000"
-      ]
-    },
-    "rsi": 59.16
-  },
-  {
     "timestamp": "2026-04-05T14:26:04.664192+00:00",
     "price": 66858,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$73,000",
         "$72,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$76,000"
+      ]
+    },
+    "rsi": 72.98
+  },
+  {
+    "timestamp": "2026-04-15T06:25:54.958659+00:00",
+    "price": 73974,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a tight stop above $75,000 or going long with a stop below $72,000. Monitor the price action around the key levels for potential breakouts. Adjust the trade plan based on the trend bias.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$72,500"
       ],
       "resistance": [
         "$75,000",

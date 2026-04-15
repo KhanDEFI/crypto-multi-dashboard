@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T23:22:36.023083+00:00",
-    "price": 4623.28,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting gold if price breaks below TV Pivot Support at $4,037.68, targeting $3,408.28. Alternatively, wait for a bounce off current levels or a clear break above TV Pivot Resistance at $5,357.81.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 43.76
-  },
-  {
     "timestamp": "2026-04-06T01:16:01.145807+00:00",
     "price": 4640.37,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 52.05
+  },
+  {
+    "timestamp": "2026-04-15T20:36:33.527915+00:00",
+    "price": 4791.03,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards the TV Pivot Support levels, targeting the $5,357.81 resistance. Set a stop-loss below the $4,037.68 support.",
+    "key_levels": {
+      "support": [
+        "$4,037.68",
+        "$3,408.28"
+      ],
+      "resistance": [
+        "$5,357.81",
+        "$6,048.54"
+      ]
+    },
+    "rsi": 51.49
   }
 ]

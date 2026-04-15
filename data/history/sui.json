@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T22:18:36.905311+00:00",
-    "price": 0.846012,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a close above $0.90, targeting $1.00. Alternatively, sell on a close below $0.80, targeting $0.75. Risk management is crucial due to the neutral trend bias.",
-    "key_levels": {
-      "support": [
-        "$0.80",
-        "$0.75"
-      ],
-      "resistance": [
-        "$0.90",
-        "$1.00"
-      ]
-    },
-    "rsi": 17.85
-  },
-  {
     "timestamp": "2026-04-05T23:22:36.023083+00:00",
     "price": 0.866313,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.00",
         "$1.05"
+      ]
+    },
+    "rsi": 66.83
+  },
+  {
+    "timestamp": "2026-04-15T19:20:38.184169+00:00",
+    "price": 0.960633,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.92, targeting $1.00 with a stop-loss at $0.88. Alternatively, consider selling at $1.00 with a take-profit at $1.04.",
+    "key_levels": {
+      "support": [
+        "$0.92",
+        "$0.88"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.04"
       ]
     },
     "rsi": 66.83

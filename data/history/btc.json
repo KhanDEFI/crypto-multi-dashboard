@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T22:18:36.905311+00:00",
-    "price": 67560,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position if price breaks above $68,000, targeting $70,000. Otherwise, wait for a clear trend bias to emerge before entering a trade. Risk management is key in this stable market.",
-    "key_levels": {
-      "support": [
-        "$66,500",
-        "$65,000"
-      ],
-      "resistance": [
-        "$68,000",
-        "$69,500"
-      ]
-    },
-    "rsi": 58.09
-  },
-  {
     "timestamp": "2026-04-05T23:22:36.023083+00:00",
     "price": 68834,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$75,000",
         "$76,500"
+      ]
+    },
+    "rsi": 69.31
+  },
+  {
+    "timestamp": "2026-04-15T19:20:38.184169+00:00",
+    "price": 74692,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $73,000, targeting $75,500. Sell on rallies above $76,000, aiming for $75,500. Monitor the 24h chart for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$72,500"
+      ],
+      "resistance": [
+        "$75,500",
+        "$76,000"
       ]
     },
     "rsi": 69.31

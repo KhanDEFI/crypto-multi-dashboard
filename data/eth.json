@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2331.56,
-  "change_24h": -1.49,
-  "market_cap": 281644334703.8294,
-  "rsi": 72.29,
+  "price": 2337.36,
+  "change_24h": 0.2,
+  "market_cap": 282106555173.1333,
+  "rsi": 72.93,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a double top pattern. Further analysis is needed to confirm.",
-    "momentum": "The RSI reading of 72.29 indicates overbought conditions, suggesting a potential reversal. However, the -1.49% 24h change suggests a slight decline in momentum.",
+    "elliott_wave": "ETH is currently in a 5-wave impulse wave up, with a possible wave 5 forming. A break above $2,350 could confirm the completion of wave 5.",
+    "momentum": "The RSI reading of 72.93 indicates an overbought condition, suggesting a potential pullback. However, the 0.20% 24h change indicates a lack of strong momentum.",
     "key_levels": {
       "support": [
-        "$2,250",
-        "$2,200"
+        "$2,300",
+        "$2,250"
       ],
       "resistance": [
-        "$2,400",
-        "$2,500"
+        "$2,350",
+        "$2,400"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Short ETH with a stop-loss at $2,400 and a target at $2,200. Monitor the price action for a potential reversal. Adjust the trade plan if the RSI reading drops below 50.",
-    "risk_note": "A sudden surge in market sentiment could lead to a rapid price increase, potentially catching short positions off guard."
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,300, targeting $2,400. Set a stop-loss at $2,250. Monitor the 24h RSI for signs of a potential pullback.",
+    "risk_note": "A sudden drop in market cap below $280B could lead to a sharp price correction."
   },
-  "updated_at": "2026-04-15T15:57:17.065421+00:00"
+  "updated_at": "2026-04-15T16:56:23.492749+00:00"
 }

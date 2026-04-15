@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05T14:26:04.664192+00:00",
-    "price": 0.846128,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider selling SUI/USD on a break above $0.90 resistance, with a target of $0.95. Alternatively, consider buying on a break below $0.80 support, with a target of $0.75. A stop-loss at $0.85 is recommended.",
-    "key_levels": {
-      "support": [
-        "$0.80",
-        "$0.75"
-      ],
-      "resistance": [
-        "$0.90",
-        "$0.95"
-      ]
-    },
-    "rsi": 35.75
-  },
-  {
     "timestamp": "2026-04-05T15:21:19.476162+00:00",
     "price": 0.845656,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 64.2
+  },
+  {
+    "timestamp": "2026-04-15T08:20:42.243114+00:00",
+    "price": 0.932237,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $0.85 or buying on a bounce above $0.95. Monitor the market for a potential reversal in the next 24-48 hours. A break above $1.00 could confirm a bullish trend.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 61.48
   }
 ]

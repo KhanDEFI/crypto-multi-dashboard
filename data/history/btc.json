@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T18:40:04.691654+00:00",
-    "price": 69822,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a pullback to $65,000 or $62,000, with a stop-loss at $60,000. Alternatively, consider buying on a bounce from $65,000 or $62,000, with a target at $75,000. Monitor the market for a clear reversal pattern.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$62,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$75,000"
-      ]
-    },
-    "rsi": 86.24
-  },
-  {
     "timestamp": "2026-04-06T19:43:46.862748+00:00",
     "price": 69728,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.62
+  },
+  {
+    "timestamp": "2026-04-16T20:37:52.701929+00:00",
+    "price": 75060,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips targeting $78,000, with a stop-loss at $73,500. Monitor the market for signs of a potential reversal. Adjust the trade plan if the market fails to hold above $75,000.",
+    "key_levels": {
+      "support": [
+        "$73,500",
+        "$72,000"
+      ],
+      "resistance": [
+        "$76,500",
+        "$78,000"
+      ]
+    },
+    "rsi": 57.43
   }
 ]

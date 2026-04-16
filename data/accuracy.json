@@ -2,17 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-04-13T18:58:01.063592+00:00",
-        "price_at_prediction": 72463,
-        "price_now": 74118,
-        "price_change_pct": 2.28,
-        "predicted_bias": "bullish",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips towards $70,000, with a target of $75,000. Consider setting a stop-loss at $68,000. Monitor the market for signs of exhaustion or reversal.",
-        "levels_hit": []
-      },
-      {
         "prediction_time": "2026-04-13T20:03:03.153899+00:00",
         "price_at_prediction": 73367,
         "price_now": 74261,
@@ -347,36 +336,30 @@
         "verdict": "PARTIAL",
         "trade_plan": "Consider shorting on a close below $73,000 or longing on a bounce above $75,000, with a stop-loss at $70,000. Monitor the market for a potential pullback or reversal. Adjust the trade plan based on the market's reaction.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-15T23:32:28.337764+00:00",
+        "price_at_prediction": 74774,
+        "price_now": 75037,
+        "price_change_pct": 0.35,
+        "predicted_bias": "bullish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Buy on dips to $73,500, targeting $75,500. Set stop-loss at $72,000. Consider scaling in on a pullback to $72,000.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 16,
-      "partial": 6,
+      "correct": 15,
+      "partial": 7,
       "incorrect": 8,
-      "accuracy_pct": 53.3,
-      "updated_at": "2026-04-16T22:28:43.849914+00:00"
+      "accuracy_pct": 50.0,
+      "updated_at": "2026-04-16T23:30:25.771098+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-04-13T18:58:01.063592+00:00",
-        "price_at_prediction": 2233.52,
-        "price_now": 2317.91,
-        "price_change_pct": 3.78,
-        "predicted_bias": "bullish",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips to $2,150.00, targeting $2,300.00. Set a stop-loss at $2,100.00. Monitor for a potential breakout above $2,350.00.",
-        "levels_hit": [
-          {
-            "level": "$2,300.00",
-            "type": "resistance",
-            "hit": true
-          }
-        ]
-      },
       {
         "prediction_time": "2026-04-13T20:03:03.153899+00:00",
         "price_at_prediction": 2261.74,
@@ -725,30 +708,30 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider shorting ETH in the near term, targeting $2,250.00 as a potential support level. Alternatively, consider long positions if ETH breaks above $2,400.00. Monitor the market closely for potential reversals.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-15T23:32:28.337764+00:00",
+        "price_at_prediction": 2356.41,
+        "price_now": 2348.53,
+        "price_change_pct": -0.33,
+        "predicted_bias": "bullish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Consider selling ETH on a pullback to $2,200-$2,300, targeting $2,500-$2,700 resistance levels. Alternatively, buy on a dip to $2,100-$2,200, aiming for $2,500-$2,700. Monitor the RSI and adjust the trade plan accordingly.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 10,
-      "partial": 2,
+      "correct": 9,
+      "partial": 3,
       "incorrect": 18,
-      "accuracy_pct": 33.3,
-      "updated_at": "2026-04-16T22:28:43.849914+00:00"
+      "accuracy_pct": 30.0,
+      "updated_at": "2026-04-16T23:30:25.771098+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-04-13T18:58:01.063592+00:00",
-        "price_at_prediction": 0.919602,
-        "price_now": 0.928173,
-        "price_change_pct": 0.93,
-        "predicted_bias": "neutral",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on a close above $0.95 with a target of $1.00. Set a stop-loss at $0.90. Monitor the RSI for a potential divergence.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-04-13T20:03:03.153899+00:00",
         "price_at_prediction": 0.935061,
@@ -1091,6 +1074,23 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider shorting SUI/USD on a pullback to $0.92, with a stop-loss at $0.88 and a target at $0.95. Alternatively, consider buying on a bounce from $0.92. Monitor the price action closely for a potential reversal.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-15T23:32:28.337764+00:00",
+        "price_at_prediction": 0.958174,
+        "price_now": 1.006,
+        "price_change_pct": 4.99,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider entering long positions on a pullback to the $0.92 support level, with a target of $1.04. Alternatively, consider shorting on a break above $1.04. Monitor the market for any signs of reversal.",
+        "levels_hit": [
+          {
+            "level": "$1.00",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
@@ -1099,22 +1099,11 @@
       "partial": 2,
       "incorrect": 16,
       "accuracy_pct": 40.0,
-      "updated_at": "2026-04-16T22:28:43.849914+00:00"
+      "updated_at": "2026-04-16T23:30:25.771098+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-04-13T18:58:01.063592+00:00",
-        "price_at_prediction": 4738.16,
-        "price_now": 4835.1,
-        "price_change_pct": 2.05,
-        "predicted_bias": "neutral",
-        "actual_direction": "bullish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider a neutral stance, with a focus on waiting for a clear breakout above $5357.81 or below $4037.68 to establish a new trend.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-04-13T20:03:03.153899+00:00",
         "price_at_prediction": 4743.05,
@@ -1433,15 +1422,26 @@
         "verdict": "PARTIAL",
         "trade_plan": "Buy gold with a stop-loss below $4,037.68 and target $5,357.81, considering the TradingView signal and bullish trend bias.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-04-15T23:32:28.337764+00:00",
+        "price_at_prediction": 4817.95,
+        "price_now": 4794.46,
+        "price_change_pct": -0.49,
+        "predicted_bias": "bullish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Consider buying XAU/USD with a target of $5,357.81 resistance, stop-loss at $4,037.68 support. Monitor DXY and real yields for potential impact on gold demand.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
       "correct": 19,
-      "partial": 5,
-      "incorrect": 6,
+      "partial": 6,
+      "incorrect": 5,
       "accuracy_pct": 63.3,
-      "updated_at": "2026-04-16T22:28:43.849914+00:00"
+      "updated_at": "2026-04-16T23:30:25.771098+00:00"
     }
   }
 }

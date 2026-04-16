@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T21:27:59.433552+00:00",
-    "price": 69667,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling into strength on a close above $72,000, with a stop-loss at $65,000. Alternatively, look to buy on a pullback to $65,000.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$62,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$75,000"
-      ]
-    },
-    "rsi": 81.33
-  },
-  {
     "timestamp": "2026-04-06T22:23:16.226366+00:00",
     "price": 69390,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$75,500",
         "$76,500"
+      ]
+    },
+    "rsi": 57.43
+  },
+  {
+    "timestamp": "2026-04-16T23:30:22.501220+00:00",
+    "price": 75037,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the $73,000 support level, with a target of $76,000. However, be cautious of a potential reversal if the price fails to break above $76,000. A stop-loss at $72,500 is recommended.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$72,500"
+      ],
+      "resistance": [
+        "$76,000",
+        "$77,000"
       ]
     },
     "rsi": 57.43

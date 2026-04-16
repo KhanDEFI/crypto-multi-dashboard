@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T09:58:30.509730+00:00",
-    "price": 69750,
-    "trend_bias": "bullish",
-    "trade_plan": "Short-term: Consider selling on a close above $72,000.00. Medium-term: Look to buy on a retest of $65,000.00.",
-    "key_levels": {
-      "support": [
-        "$65,000.00",
-        "$63,000.00"
-      ],
-      "resistance": [
-        "$72,000.00",
-        "$75,000.00"
-      ]
-    },
-    "rsi": 80.62
-  },
-  {
     "timestamp": "2026-04-06T10:54:05.510946+00:00",
     "price": 69754,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 61.25
+  },
+  {
+    "timestamp": "2026-04-16T08:20:55.844608+00:00",
+    "price": 74635,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the $73,000 support level, with a target of $76,000. However, be cautious of a potential reversal if the price fails to hold above $74,000. A stop-loss at $72,500 is recommended.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$72,500"
+      ],
+      "resistance": [
+        "$76,000",
+        "$77,000"
+      ]
+    },
+    "rsi": 51.64
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T17:35:47.599756+00:00",
-    "price": 2135.14,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling ETH on a close above $2,250 to target $2,400, with a stop-loss at $2,050. Alternatively, consider buying on a close below $2,050 to target $2,250.",
-    "key_levels": {
-      "support": [
-        "$2,050",
-        "$1,900"
-      ],
-      "resistance": [
-        "$2,250",
-        "$2,400"
-      ]
-    },
-    "rsi": 82.52
-  },
-  {
     "timestamp": "2026-04-06T18:40:04.691654+00:00",
     "price": 2144.38,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400.00",
         "$2,440.00"
+      ]
+    },
+    "rsi": 40.67
+  },
+  {
+    "timestamp": "2026-04-16T19:55:12.286228+00:00",
+    "price": 2357.92,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,150, targeting $2,500. Sell on rallies above $2,500, aiming for $2,650. Risk management is crucial in this neutral market.",
+    "key_levels": {
+      "support": [
+        "$2,150",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,500",
+        "$2,650"
       ]
     },
     "rsi": 40.67

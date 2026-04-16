@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T08:16:08.385843+00:00",
-    "price": 0.88677,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a break above $0.90 with a target of $0.95, and consider selling on a retest of $0.85. Alternatively, a short position can be taken on a break below $0.85 with a target of $0.80.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.92",
-        "$0.95"
-      ]
-    },
-    "rsi": 57.65
-  },
-  {
     "timestamp": "2026-04-06T09:58:30.509730+00:00",
     "price": 0.899637,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 71.19
+  },
+  {
+    "timestamp": "2026-04-16T04:41:59.279215+00:00",
+    "price": 0.975901,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.92, aiming for a target of $1.02. Set a stop-loss at $0.88 to limit potential losses. Monitor the price action for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$0.92",
+        "$0.88"
+      ],
+      "resistance": [
+        "$1.02",
+        "$1.08"
+      ]
+    },
+    "rsi": 63.28
   }
 ]

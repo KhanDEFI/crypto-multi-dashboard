@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-06T22:23:16.226366+00:00",
-    "price": 2136.19,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling ETH around $2,250 resistance or waiting for a pullback to $2,050 support. If the price breaks above $2,300, consider scaling in long positions. Monitor the RSI for signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$2,050",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,250",
-        "$2,300"
-      ]
-    },
-    "rsi": 74.39
-  },
-  {
     "timestamp": "2026-04-06T23:25:02.931020+00:00",
     "price": 2094.13,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.57
+  },
+  {
+    "timestamp": "2026-04-17T01:20:01.871945+00:00",
+    "price": 2344.58,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider shorting ETH around current levels, targeting a potential retest of $2,200. However, be cautious of a potential bounce to $2,500. Monitor price action closely for signs of a reversal.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,500",
+        "$2,700"
+      ]
+    },
+    "rsi": 45.94
   }
 ]

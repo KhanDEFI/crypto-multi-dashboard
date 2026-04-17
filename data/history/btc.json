@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-07T01:14:03.049025+00:00",
-    "price": 68601,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the neutral momentum and trend bias, our trade plan is to wait for a clear breakout above $70,000 or a breakdown below $65,000. A long position can be considered on a breakout above $70,000, while a short position can be considered on a breakdown below $65,000. Risk management is key in this scenario.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$70,000",
-        "$72,000"
-      ]
-    },
-    "rsi": 65.81
-  },
-  {
     "timestamp": "2026-04-07T04:23:08.869848+00:00",
     "price": 68567,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 53.75
+  },
+  {
+    "timestamp": "2026-04-17T08:19:49.133504+00:00",
+    "price": 75078,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $73,500, targeting $76,500. Sell at $78,000 to lock in profits. Be cautious of a potential reversal if the price fails to hold above $75,000.",
+    "key_levels": {
+      "support": [
+        "$73,500",
+        "$72,000"
+      ],
+      "resistance": [
+        "$76,500",
+        "$78,000"
+      ]
+    },
+    "rsi": 57.89
   }
 ]

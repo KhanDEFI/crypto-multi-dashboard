@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-07T04:23:08.869848+00:00",
-    "price": 2104.53,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $2,100 with a stop-loss at $2,150, targeting $2,000 for a 5% profit. Monitor the price action and adjust the trade plan accordingly. A breakout above $2,200 could trigger a long position.",
-    "key_levels": {
-      "support": [
-        "$2,000",
-        "$1,900"
-      ],
-      "resistance": [
-        "$2,200",
-        "$2,300"
-      ]
-    },
-    "rsi": 59.81
-  },
-  {
     "timestamp": "2026-04-07T06:12:04.648334+00:00",
     "price": 2101.89,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 2338.44,
     "trend_bias": "neutral",
     "trade_plan": "Buy on dips towards $2,300, targeting $2,400. Sell on rallies above $2,400, targeting $2,500. Monitor market cap for signs of strength or weakness.",
+    "key_levels": {
+      "support": [
+        "$2,300",
+        "$2,250"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,500"
+      ]
+    },
+    "rsi": 52.75
+  },
+  {
+    "timestamp": "2026-04-17T11:41:12.714094+00:00",
+    "price": 2351.17,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips below $2,300, targeting $2,400-$2,450. Alternatively, sell on rallies above $2,400, aiming for $2,250-$2,300. Monitor the market for a clear trend reversal.",
     "key_levels": {
       "support": [
         "$2,300",

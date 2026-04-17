@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-07T10:49:37.859824+00:00",
-    "price": 2097.31,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a range-bound trading strategy, focusing on buying dips near support levels and selling rallies near resistance levels. Monitor price action closely for signs of a breakout. A clear trend bias may emerge within the next 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$2,050.00",
-        "$1,950.00"
-      ],
-      "resistance": [
-        "$2,200.00",
-        "$2,350.00"
-      ]
-    },
-    "rsi": 58.78
-  },
-  {
     "timestamp": "2026-04-07T11:43:35.636765+00:00",
     "price": 2089.22,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 56.29
+  },
+  {
+    "timestamp": "2026-04-17T16:41:13.280629+00:00",
+    "price": 2463.41,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling ETH near current levels to lock in profits, or wait for a potential correction to $2,300 before buying back in. A stop-loss at $2,150 is recommended. Monitor the market for signs of a reversal.",
+    "key_levels": {
+      "support": [
+        "$2,300",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,600",
+        "$2,800"
+      ]
+    },
+    "rsi": 72.44
   }
 ]

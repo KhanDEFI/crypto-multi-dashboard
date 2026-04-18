@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-08T01:15:01.758887+00:00",
-    "price": 2240.83,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling into strength around $2,350, with a stop-loss at $2,100, and a target at $2,500. Alternatively, wait for a pullback to $2,100 before buying. Monitor the market for signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$2,100",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,500"
-      ]
-    },
-    "rsi": 76.09
-  },
-  {
     "timestamp": "2026-04-08T04:26:22.317482+00:00",
     "price": 2242.47,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 55.56
+  },
+  {
+    "timestamp": "2026-04-18T08:35:32.544358+00:00",
+    "price": 2383.24,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,350, targeting $2,450 for a potential 2-3% gain. Set a stop-loss at $2,300 to limit potential losses. Monitor the price action for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$2,350",
+        "$2,300"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,450"
+      ]
+    },
+    "rsi": 59.45
   }
 ]

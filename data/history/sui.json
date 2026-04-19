@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-09T04:22:49.067411+00:00",
-    "price": 0.908545,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling SUI/USD on a close above $0.95 or buying on a close below $0.85, with a stop-loss at $0.80 and a target at $1.00.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 54.73
-  },
-  {
     "timestamp": "2026-04-09T06:13:34.389724+00:00",
     "price": 0.910913,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 42.29
+  },
+  {
+    "timestamp": "2026-04-19T04:41:45.311313+00:00",
+    "price": 0.945312,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying SUI/USD on a bounce above $0.90, targeting $1.00 with a stop-loss at $0.85. Monitor the price action for a potential break below $0.85, which could trigger a more significant sell-off.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.05"
+      ]
+    },
+    "rsi": 33.42
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-09T16:10:22.176609+00:00",
-    "price": 72179,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close below $70,000 or buying on a bounce above $75,000, with a target of $80,000 if the latter occurs.",
-    "key_levels": {
-      "support": [
-        "$70,000",
-        "$68,000"
-      ],
-      "resistance": [
-        "$75,000",
-        "$78,000"
-      ]
-    },
-    "rsi": 73.04
-  },
-  {
     "timestamp": "2026-04-09T17:51:33.601488+00:00",
     "price": 72366,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 75943,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting on a break below $75,000, targeting $74,500. Alternatively, look for a bounce off current levels and a potential move to $76,500. A stop-loss should be set at $74,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$74,500"
+      ],
+      "resistance": [
+        "$76,500",
+        "$77,000"
+      ]
+    },
+    "rsi": 57.48
+  },
+  {
+    "timestamp": "2026-04-19T14:33:05.659183+00:00",
+    "price": 75922,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy position if price breaks above $76,500, targeting $77,000. Conversely, sell if price falls below $74,500, aiming for $74,000. Monitor the 24h price action for confirmation.",
     "key_levels": {
       "support": [
         "$75,000",

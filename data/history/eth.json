@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-09T20:41:00.435325+00:00",
-    "price": 2217.92,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $2,300 resistance, targeting $2,100 support. Alternatively, wait for a clear breakout above $2,400 resistance to re-enter long positions.",
-    "key_levels": {
-      "support": [
-        "$2,100",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,300",
-        "$2,400"
-      ]
-    },
-    "rsi": 71.37
-  },
-  {
     "timestamp": "2026-04-09T21:36:47.693950+00:00",
     "price": 2210.07,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,500"
+      ]
+    },
+    "rsi": 49.38
+  },
+  {
+    "timestamp": "2026-04-19T18:31:53.499206+00:00",
+    "price": 2298.27,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH with a target of $2,150, using a stop-loss at $2,400. Monitor the price action for a potential breakout or reversal. Adjust the stop-loss as needed.",
+    "key_levels": {
+      "support": [
+        "$2,150",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,600"
       ]
     },
     "rsi": 49.38

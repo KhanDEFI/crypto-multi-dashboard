@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-09T23:29:21.573324+00:00",
-    "price": 0.935947,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $0.92, targeting $1.00 with a stop-loss at $0.88. A break above $1.00 could lead to a stronger uptrend. Monitor the price action for signs of exhaustion.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$0.96",
-        "$1.00"
-      ]
-    },
-    "rsi": 69.63
-  },
-  {
     "timestamp": "2026-04-10T01:15:25.810362+00:00",
     "price": 0.930814,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.98",
         "$1.02"
+      ]
+    },
+    "rsi": 32.01
+  },
+  {
+    "timestamp": "2026-04-19T21:24:03.366287+00:00",
+    "price": 0.938452,
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI/USD with a target of $0.82, and set a stop-loss at $0.98. Monitor the price action for a potential reversal, and adjust the trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$0.88",
+        "$0.82"
+      ],
+      "resistance": [
+        "$0.94",
+        "$0.98"
       ]
     },
     "rsi": 32.01

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2319.8,
-  "change_24h": 2.3,
-  "market_cap": 280017916156.46436,
+  "price": 2310.11,
+  "change_24h": 2.02,
+  "market_cap": 278880207977.57874,
   "rsi": 45.01,
   "analysis": {
-    "elliott_wave": "ETH is currently in a bullish impulse wave, with a potential 5th wave forming. The wave count suggests a potential breakout above $2,500.",
-    "momentum": "The RSI is neutral at 45.01, indicating a balanced market. However, the 2.30% 24h price increase suggests growing bullish momentum.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle pattern, which could lead to a breakout in either direction.",
+    "momentum": "The neutral RSI reading suggests a lack of clear momentum, but the 2.02% 24h gain indicates a slight bullish bias.",
     "key_levels": {
       "support": [
         "$2,200",
-        "$2,150"
+        "$2,100"
       ],
       "resistance": [
         "$2,400",
-        "$2,550"
+        "$2,500"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $2,200, targeting $2,500. Set a stop-loss at $2,100. Consider scaling out of positions as we approach $2,500.",
-    "risk_note": "A potential bearish reversal could occur if the price fails to hold above $2,200."
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips to $2,200 with a stop-loss at $2,100, targeting $2,400. Sell on rallies to $2,400 with a stop-loss at $2,500, targeting $2,100.",
+    "risk_note": "A potential bearish reversal could occur if the price fails to hold above $2,200 support."
   },
-  "updated_at": "2026-04-20T22:32:24.459388+00:00"
+  "updated_at": "2026-04-20T23:32:36.602011+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2296.04,
-  "change_24h": -1.59,
-  "market_cap": 277048503885.22437,
-  "rsi": 47.51,
+  "price": 2316.92,
+  "change_24h": -0.61,
+  "market_cap": 279735845939.7466,
+  "rsi": 41.32,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave 4, with a potential bullish impulse wave 5 forming. The wave count suggests a potential bullish reversal.",
-    "momentum": "The RSI reading of 47.51 indicates a neutral momentum, with price action showing a slight bearish trend. However, the 24h change of -1.59% suggests a potential short-term bearish momentum.",
+    "elliott_wave": "ETH is currently in a corrective wave (4) within a larger bearish impulse wave (3), as it has failed to break above the previous high.",
+    "momentum": "The RSI reading of 41.32 indicates neutral momentum, but the recent price action suggests a slight bearish bias due to the decline in the past 24 hours.",
     "key_levels": {
       "support": [
         "$2,200",
-        "$2,150"
+        "$2,100"
       ],
       "resistance": [
-        "$2,300",
-        "$2,350"
+        "$2,400",
+        "$2,500"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $2,300, with a target of $2,350. Alternatively, consider selling on a break below $2,200, with a target of $2,150. Monitor market sentiment and adjust the trade plan accordingly.",
-    "risk_note": "Key risk: a potential bearish break below $2,150, which could lead to a deeper correction."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a close above $2,400, targeting $2,200. Consider buying on a close below $2,100, targeting $2,300. Monitor the market for a potential reversal.",
+    "risk_note": "A break above $2,500 could invalidate the bearish trend bias and lead to a significant price increase."
   },
-  "updated_at": "2026-04-21T19:57:50.417911+00:00"
+  "updated_at": "2026-04-21T20:46:12.360346+00:00"
 }

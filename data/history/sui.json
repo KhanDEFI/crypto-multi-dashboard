@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T12:34:13.413499+00:00",
-    "price": 0.910563,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $0.83, with a target of $0.78. Alternatively, wait for a bullish reversal signal to initiate a long position. Risk management is crucial in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$0.83",
-        "$0.78"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 42.41
-  },
-  {
     "timestamp": "2026-04-12T13:52:10.268812+00:00",
     "price": 0.903668,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 0.95564,
     "trend_bias": "bullish",
     "trade_plan": "Buy on dips towards $0.90, with a target of $1.05. Set a stop-loss at $0.85 to limit potential losses. Monitor the market for any signs of increased volatility.",
+    "key_levels": {
+      "support": [
+        "$0.90",
+        "$0.85"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.05"
+      ]
+    },
+    "rsi": 56.37
+  },
+  {
+    "timestamp": "2026-04-22T23:36:54.604339+00:00",
+    "price": 0.948091,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips to $0.90, targeting $1.00. Set a stop-loss at $0.85 to limit potential losses. Monitor market sentiment and adjust the plan accordingly.",
     "key_levels": {
       "support": [
         "$0.90",

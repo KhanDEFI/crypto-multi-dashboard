@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T07:55:59.703970+00:00",
-    "price": 71746,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a bounce above $72,500, with a target of $74,000. Alternatively, look to buy on a dip below $70,000, with a target of $72,500. Monitor the price action closely for a potential break of the current range.",
-    "key_levels": {
-      "support": [
-        "$70,000",
-        "$68,000"
-      ],
-      "resistance": [
-        "$72,500",
-        "$74,000"
-      ]
-    },
-    "rsi": 45.74
-  },
-  {
     "timestamp": "2026-04-12T08:37:29.489754+00:00",
     "price": 71705,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$75,000",
         "$73,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 76.1
+  },
+  {
+    "timestamp": "2026-04-22T18:55:43.823174+00:00",
+    "price": 79097,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider shorting on a close above $80,000 or buying on a close below $76,000. The key is to wait for a clear breakout or breakdown. A stop-loss should be set at $75,000 for shorts and $82,000 for longs.",
+    "key_levels": {
+      "support": [
+        "$76,000",
+        "$75,000"
       ],
       "resistance": [
         "$80,000",

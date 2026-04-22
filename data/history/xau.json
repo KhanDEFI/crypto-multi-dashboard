@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T06:17:27.352439+00:00",
-    "price": 4749.09,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards TV Pivot Support, targeting $5,357.81; set stop-loss below $4,037.68; monitor DXY and real yields for potential catalysts.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 49.51
-  },
-  {
     "timestamp": "2026-04-12T07:55:59.703970+00:00",
     "price": 4749.09,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.43
+  },
+  {
+    "timestamp": "2026-04-22T17:49:49.593151+00:00",
+    "price": 4736.12,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards TV Pivot Support levels ($4,037.68, $3,408.28) with a target of $5,357.81, or sell on rallies towards TV Pivot Resistance levels ($5,357.81, $6,048.54) with a stop-loss at $4,037.68.",
+    "key_levels": {
+      "support": [
+        "$4,037.68",
+        "$3,408.28"
+      ],
+      "resistance": [
+        "$5,357.81",
+        "$6,048.54"
+      ]
+    },
+    "rsi": 47.85
   }
 ]

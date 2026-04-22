@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T04:36:46.446884+00:00",
-    "price": 71567,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards support levels or selling on rallies towards resistance levels. Monitor market sentiment and adjust the trade plan accordingly. A break above $72,000 could confirm a bullish trend.",
-    "key_levels": {
-      "support": [
-        "$70,000",
-        "$68,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$74,000"
-      ]
-    },
-    "rsi": 45.74
-  },
-  {
     "timestamp": "2026-04-12T06:17:27.352439+00:00",
     "price": 71737,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$80,000.00",
         "$82,000.00"
+      ]
+    },
+    "rsi": 73.36
+  },
+  {
+    "timestamp": "2026-04-22T16:00:44.178755+00:00",
+    "price": 79318,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a pullback to $75,000, aiming for a target of $72,000. However, if the price breaks above $80,000, consider buying with a target of $82,000. Monitor the price action closely for signs of a reversal.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
       ]
     },
     "rsi": 73.36

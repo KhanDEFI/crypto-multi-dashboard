@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T15:26:01.801482+00:00",
-    "price": 0.901235,
-    "trend_bias": "bearish",
-    "trade_plan": "Short SUI with a target at $0.80, using a stop loss at $1.00. Consider scaling in positions as the price approaches the target. Monitor the market for any signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$0.80",
-        "$0.70"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.10"
-      ]
-    },
-    "rsi": 42.41
-  },
-  {
     "timestamp": "2026-04-12T16:24:57.472408+00:00",
     "price": 0.902333,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.00",
         "$1.10"
+      ]
+    },
+    "rsi": 44.06
+  },
+  {
+    "timestamp": "2026-04-23T06:53:43.011407+00:00",
+    "price": 0.94279,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting the asset with a stop-loss above $0.98 and a target of $0.80, as the price is likely to test the support levels.",
+    "key_levels": {
+      "support": [
+        "$0.88",
+        "$0.82"
+      ],
+      "resistance": [
+        "$0.94",
+        "$1.00"
       ]
     },
     "rsi": 44.06

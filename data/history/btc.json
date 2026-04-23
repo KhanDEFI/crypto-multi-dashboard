@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T22:21:04.738807+00:00",
-    "price": 70777,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a target of $65,000, but set a stop-loss at $72,000 to limit potential losses. Monitor the price action for a potential reversal above $72,000. A break below $68,000 would confirm the bearish trend.",
-    "key_levels": {
-      "support": [
-        "$68,000",
-        "$65,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$75,000"
-      ]
-    },
-    "rsi": 41.26
-  },
-  {
     "timestamp": "2026-04-12T23:23:12.809868+00:00",
     "price": 70660,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$75,000",
         "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 62.62
+  },
+  {
+    "timestamp": "2026-04-23T18:52:35.453342+00:00",
+    "price": 77865,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the market if it breaks below the $75,000 support level, with a target of $73,000. Alternatively, look for a bounce off the current price and aim for a retest of the $80,000 resistance level. A conservative approach would be to wait for a clearer trend direction.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$73,000"
       ],
       "resistance": [
         "$80,000",

@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 77704,
-  "change_24h": -0.73,
-  "market_cap": 1555710947387.7434,
+  "price": 78061,
+  "change_24h": -1.17,
+  "market_cap": 1562603869506.9863,
   "rsi": 61.41,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a bullish flag pattern. The wave count suggests a potential reversal.",
-    "momentum": "The RSI reading of 61.41 indicates neutral momentum, with neither strong buying nor selling pressure. However, the recent 0.73% price drop suggests a slight bearish bias.",
+    "elliott_wave": "BTC is in a corrective wave (B) within a larger bull trend. The wave count suggests a potential completion of the B wave soon.",
+    "momentum": "The RSI reading of 61.41 indicates a neutral momentum, but the recent price action suggests a slight bearish bias. A break below $75,000 could accelerate the downtrend.",
     "key_levels": {
       "support": [
         "$75,000",
         "$72,000"
       ],
       "resistance": [
-        "$80,000",
-        "$82,000"
+        "$78,000",
+        "$80,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $75,000, targeting $80,000. Alternatively, sell on rallies towards $82,000. Monitor market sentiment and adjust the plan accordingly.",
-    "risk_note": "A potential break below $72,000 could trigger a more significant price drop."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $75,000 with a stop-loss at $78,000. Consider buying on a bounce to $78,000 with a stop-loss at $75,000. Monitor the price action closely for a potential reversal.",
+    "risk_note": "A sudden spike in global risk sentiment could lead to a sharp reversal in BTC price."
   },
-  "updated_at": "2026-04-23T12:56:04.907508+00:00"
+  "updated_at": "2026-04-23T15:07:49.762006+00:00"
 }

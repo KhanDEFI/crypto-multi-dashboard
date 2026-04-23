@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-13T04:48:31.607924+00:00",
-    "price": 2195.49,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips around $2,100, targeting $2,250, with a stop-loss at $2,050. However, given the neutral trend bias, it's essential to monitor the price action closely and adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$2,100",
-        "$2,050"
-      ],
-      "resistance": [
-        "$2,250",
-        "$2,300"
-      ]
-    },
-    "rsi": 38.53
-  },
-  {
     "timestamp": "2026-04-13T07:07:19.368500+00:00",
     "price": 2196.15,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,600"
+      ]
+    },
+    "rsi": 49.21
+  },
+  {
+    "timestamp": "2026-04-23T23:34:54.453191+00:00",
+    "price": 2327.71,
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a stop-loss above $2,350 and a target at $2,000, considering a potential wave 3 in the bearish impulse.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,500"
       ]
     },
     "rsi": 49.21

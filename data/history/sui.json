@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T13:52:10.268812+00:00",
-    "price": 0.903668,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term traders may consider selling at current levels, targeting $0.80 as a potential support level. Long-term traders may consider buying on dips, targeting $1.00 as a potential resistance level. A break above $0.95 would invalidate the bearish trend bias.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.92",
-        "$0.95"
-      ]
-    },
-    "rsi": 42.41
-  },
-  {
     "timestamp": "2026-04-12T14:31:58.052600+00:00",
     "price": 0.904829,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 56.37
+  },
+  {
+    "timestamp": "2026-04-23T01:23:19.225948+00:00",
+    "price": 0.941406,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $0.88, targeting $0.82. Conversely, look to buy on a bounce above $0.98, aiming for $1.02.",
+    "key_levels": {
+      "support": [
+        "$0.88",
+        "$0.82"
+      ],
+      "resistance": [
+        "$0.98",
+        "$1.02"
+      ]
+    },
+    "rsi": 51.47
   }
 ]

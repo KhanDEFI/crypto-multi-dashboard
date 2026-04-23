@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T13:52:10.268812+00:00",
-    "price": 70978,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $68,000, targeting $65,000. Alternatively, consider longing on a break above $72,000, targeting $75,000. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$68,000",
-        "$65,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$75,000"
-      ]
-    },
-    "rsi": 46.84
-  },
-  {
     "timestamp": "2026-04-12T14:31:58.052600+00:00",
     "price": 71073,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 71.74
+  },
+  {
+    "timestamp": "2026-04-23T01:23:19.225948+00:00",
+    "price": 78171,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips around $76,000, targeting $80,000. Set a stop-loss at $75,500. Monitor the market for potential bearish divergence.",
+    "key_levels": {
+      "support": [
+        "$76,000",
+        "$75,500"
+      ],
+      "resistance": [
+        "$79,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 64.37
   }
 ]

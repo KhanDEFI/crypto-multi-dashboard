@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T16:24:57.472408+00:00",
-    "price": 2186.74,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying ETH on a pullback to the $2,100 support level, with a target of $2,250 resistance. Set a stop-loss at $2,050 to limit potential losses. Monitor the price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$2,100",
-        "$2,050"
-      ],
-      "resistance": [
-        "$2,250",
-        "$2,300"
-      ]
-    },
-    "rsi": 51.24
-  },
-  {
     "timestamp": "2026-04-12T17:25:06.006078+00:00",
     "price": 2192.63,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.57
+  },
+  {
+    "timestamp": "2026-04-23T08:27:01.986394+00:00",
+    "price": 2340.67,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell ETH on a break below $2,270.00, targeting $2,200.00. Alternatively, buy ETH on a bounce above $2,400.00, aiming for $2,450.00. Monitor the 24h price action for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$2,270.00",
+        "$2,200.00"
+      ],
+      "resistance": [
+        "$2,400.00",
+        "$2,450.00"
+      ]
+    },
+    "rsi": 56.84
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T14:31:58.052600+00:00",
-    "price": 4749.09,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce from current levels, targeting TV Pivot Resistance at $5,357.81. Alternatively, wait for a clear break below $4,037.68 support for a short opportunity.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 49.51
-  },
-  {
     "timestamp": "2026-04-12T15:26:01.801482+00:00",
     "price": 4749.09,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.48
+  },
+  {
+    "timestamp": "2026-04-23T04:41:36.388026+00:00",
+    "price": 4702.64,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting with a stop above $4702.64 and a target at the TV Pivot Support levels. Monitor the DXY and real yields for potential catalysts. A break below $4037.68 could accelerate the downtrend.",
+    "key_levels": {
+      "support": [
+        "$4,037.68",
+        "$3,408.28"
+      ],
+      "resistance": [
+        "$5,357.81",
+        "$6,048.54"
+      ]
+    },
+    "rsi": 45.84
   }
 ]

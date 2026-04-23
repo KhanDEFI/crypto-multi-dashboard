@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12T14:31:58.052600+00:00",
-    "price": 2191.13,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term buy at $2,100.00 with a target of $2,250.00, but be cautious of a potential breakdown below $2,150.00. Monitor the price action and adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$2,150.00",
-        "$2,100.00"
-      ],
-      "resistance": [
-        "$2,200.00",
-        "$2,250.00"
-      ]
-    },
-    "rsi": 53.19
-  },
-  {
     "timestamp": "2026-04-12T15:26:01.801482+00:00",
     "price": 2183.05,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 66.01
+  },
+  {
+    "timestamp": "2026-04-23T04:41:36.388026+00:00",
+    "price": 2346.59,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a break above $2,400 with a target of $2,550, and set a stop-loss at $2,250. Alternatively, sell on a break below $2,250 with a target of $2,100. Monitor the price action closely for any signs of a trend reversal.",
+    "key_levels": {
+      "support": [
+        "$2,250",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,550"
+      ]
+    },
+    "rsi": 51.57
   }
 ]

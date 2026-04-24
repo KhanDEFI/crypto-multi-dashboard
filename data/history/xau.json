@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-14T01:20:02.639362+00:00",
-    "price": 4772.14,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the TV Pivot Support levels, targeting the resistance levels for potential profits. Monitor the DXY and real yields for any significant changes. A break above the TV Pivot Resistance levels could confirm the bullish trend.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 50.85
-  },
-  {
     "timestamp": "2026-04-14T04:36:03.917046+00:00",
     "price": 4774.81,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.94
+  },
+  {
+    "timestamp": "2026-04-24T20:34:13.642642+00:00",
+    "price": 4707.48,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards TV Pivot Support levels, targeting $4,037.68 or $3,408.28, with stop-loss above $4,707.48. Sell on rallies towards TV Pivot Resistance levels, targeting $5,357.81 or $6,048.54, with stop-loss below $4,707.48.",
+    "key_levels": {
+      "support": [
+        "$4,037.68",
+        "$3,408.28"
+      ],
+      "resistance": [
+        "$5,357.81",
+        "$6,048.54"
+      ]
+    },
+    "rsi": 46.3
   }
 ]

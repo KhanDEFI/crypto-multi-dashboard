@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-13T11:07:00.443781+00:00",
-    "price": 70840,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term: Consider shorting with a stop-loss at $72,000. Medium-term: Monitor for a potential bounce to $75,000, then look to short again.",
-    "key_levels": {
-      "support": [
-        "$68,000",
-        "$65,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$75,000"
-      ]
-    },
-    "rsi": 29.19
-  },
-  {
     "timestamp": "2026-04-13T12:56:37.503219+00:00",
     "price": 71184,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 65.57
+  },
+  {
+    "timestamp": "2026-04-24T08:56:49.912756+00:00",
+    "price": 77862,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $80,000.00, targeting $82,000.00. Alternatively, sell on a break below $75,000.00, targeting $72,000.00. Risk management is key in this neutral market.",
+    "key_levels": {
+      "support": [
+        "$75,000.00",
+        "$72,000.00"
+      ],
+      "resistance": [
+        "$80,000.00",
+        "$82,000.00"
+      ]
+    },
+    "rsi": 58.43
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-13T09:24:50.121526+00:00",
-    "price": 70744,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $67,500, targeting $72,000 with a stop at $65,000. Consider scaling in positions as the bounce develops. Monitor for a potential false breakout above $72,000.",
-    "key_levels": {
-      "support": [
-        "$67,500",
-        "$65,000"
-      ],
-      "resistance": [
-        "$72,000",
-        "$75,000"
-      ]
-    },
-    "rsi": 29.19
-  },
-  {
     "timestamp": "2026-04-13T11:07:00.443781+00:00",
     "price": 70840,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 63.45
+  },
+  {
+    "timestamp": "2026-04-24T04:45:12.104936+00:00",
+    "price": 77637,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $75,000 or $72,000, with a target of $80,000. However, given the neutral momentum, it's essential to set a tight stop-loss and be prepared to adjust the trade plan if the trend reverses. A clear breakout above $80,000 would confirm a bullish trend.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 65.57
   }
 ]

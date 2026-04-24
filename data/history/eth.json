@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-13T09:24:50.121526+00:00",
-    "price": 2190.57,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH on a break below $2,100, targeting $2,000. Alternatively, look for a bounce off $2,100 to enter long positions, aiming for $2,300-$2,400.",
-    "key_levels": {
-      "support": [
-        "$2,100",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,300",
-        "$2,400"
-      ]
-    },
-    "rsi": 38.92
-  },
-  {
     "timestamp": "2026-04-13T11:07:00.443781+00:00",
     "price": 2185.82,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 54.74
+  },
+  {
+    "timestamp": "2026-04-24T04:45:12.104936+00:00",
+    "price": 2304.82,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH if it breaks below $2,200, targeting $2,150. Conversely, a bounce above $2,300 could trigger a long position, aiming for $2,350.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,350"
+      ]
+    },
+    "rsi": 52.3
   }
 ]

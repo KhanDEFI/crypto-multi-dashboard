@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-14T23:33:44.002148+00:00",
-    "price": 74159,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $75,000 with a stop-loss at $72,500. However, given the neutral momentum, it's essential to set a tight stop-loss and adjust the position size accordingly.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$75,000",
-        "$76,000"
-      ]
-    },
-    "rsi": 68.2
-  },
-  {
     "timestamp": "2026-04-15T01:17:10.677231+00:00",
     "price": 74737,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 49.34
+  },
+  {
+    "timestamp": "2026-04-25T16:28:25.881136+00:00",
+    "price": 77375,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $75,000.00 or selling on rallies towards $80,000.00. A break above $80,000.00 could trigger a bullish impulse.",
+    "key_levels": {
+      "support": [
+        "$75,000.00",
+        "$72,500.00"
+      ],
+      "resistance": [
+        "$80,000.00",
+        "$82,500.00"
+      ]
+    },
+    "rsi": 43.3
   }
 ]

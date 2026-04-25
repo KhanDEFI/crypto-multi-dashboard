@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T12:55:32.302798+00:00",
-    "price": 2337.88,
-    "trend_bias": "bearish",
-    "trade_plan": "Short ETH with a target around $2,200, using a stop-loss at $2,400. Monitor the price action for a potential reversal. Consider adjusting the stop-loss if the price reaches $2,100.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,600"
-      ]
-    },
-    "rsi": 72.29
-  },
-  {
     "timestamp": "2026-04-15T14:25:33.381570+00:00",
     "price": 2341.33,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,600"
+      ]
+    },
+    "rsi": 40.73
+  },
+  {
+    "timestamp": "2026-04-25T23:26:56.552008+00:00",
+    "price": 2318.68,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,200, targeting $2,350 for a potential 3-5% gain. Set a stop-loss at $2,100 to limit risk.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,450"
       ]
     },
     "rsi": 40.73

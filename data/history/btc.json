@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T12:55:32.302798+00:00",
-    "price": 74377,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting BTC with a stop-loss above $75,000 and a target around $72,000. Alternatively, consider buying BTC with a stop-loss below $73,000 and a target around $76,000. Monitor the price action closely for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$75,000",
-        "$76,000"
-      ]
-    },
-    "rsi": 71.24
-  },
-  {
     "timestamp": "2026-04-15T14:25:33.381570+00:00",
     "price": 74373,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 77539,
     "trend_bias": "neutral",
     "trade_plan": "Consider selling at resistance levels around $80,000 or buying at support levels around $75,000, with a stop-loss at $70,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 45.86
+  },
+  {
+    "timestamp": "2026-04-25T23:26:56.552008+00:00",
+    "price": 77596,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $75,000, targeting $80,000. Set a stop-loss at $72,000. Monitor the 24h chart for a potential breakout.",
     "key_levels": {
       "support": [
         "$75,000",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T06:25:54.958659+00:00",
-    "price": 73974,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a tight stop above $75,000 or going long with a stop below $72,000. Monitor the price action around the key levels for potential breakouts. Adjust the trade plan based on the trend bias.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$75,000",
-        "$76,000"
-      ]
-    },
-    "rsi": 72.98
-  },
-  {
     "timestamp": "2026-04-15T08:20:42.243114+00:00",
     "price": 73877,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 77376,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting on a break below $75,000, targeting $72,000. Alternatively, consider buying on a bounce above $80,000, with a target of $82,000. Monitor the price action closely for a clear trend direction.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 43.3
+  },
+  {
+    "timestamp": "2026-04-25T19:36:50.207702+00:00",
+    "price": 77252,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips above $75,000 with a target of $80,000, and consider selling into strength above $82,000. Alternatively, short above $82,000 with a stop-loss at $80,000. Monitor the price action for signs of a breakout.",
     "key_levels": {
       "support": [
         "$75,000",

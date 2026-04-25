@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T08:20:42.243114+00:00",
-    "price": 73877,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting the market with a stop-loss above $75,000, targeting a profit at $72,000. Alternatively, wait for a confirmed reversal signal before entering a long position. Monitor the market closely for any signs of a trend reversal.",
-    "key_levels": {
-      "support": [
-        "$72,000",
-        "$70,000"
-      ],
-      "resistance": [
-        "$75,000",
-        "$77,000"
-      ]
-    },
-    "rsi": 70.44
-  },
-  {
     "timestamp": "2026-04-15T10:06:04.120541+00:00",
     "price": 74043,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.3
+  },
+  {
+    "timestamp": "2026-04-25T20:25:53.500562+00:00",
+    "price": 77428,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, we recommend selling on rallies towards $78,000. Long-term, we expect a potential breakdown below $75,000. A stop-loss at $80,000 is advised.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$78,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 45.86
   }
 ]

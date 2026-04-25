@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-14T19:59:43.734466+00:00",
-    "price": 74261,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $75,500 or buying on a close below $72,000 for a potential short-term trade.",
-    "key_levels": {
-      "support": [
-        "$72,000",
-        "$70,000"
-      ],
-      "resistance": [
-        "$75,500",
-        "$77,000"
-      ]
-    },
-    "rsi": 77.15
-  },
-  {
     "timestamp": "2026-04-14T20:55:37.327940+00:00",
     "price": 74184,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.87
+  },
+  {
+    "timestamp": "2026-04-25T12:35:26.803999+00:00",
+    "price": 77614,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $75,000, targeting $80,000 with a stop-loss at $72,000. Alternatively, sell on a break below $72,000, targeting $70,000 with a stop-loss at $75,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 49.34
   }
 ]

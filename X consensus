@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X Community Consensus — Crypto Market Engine</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      min-height: 100vh;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .terminal { max-width: 920px; margin: 0 auto; }
+
+    /* ── Back link ────────────────────────────────── */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      color: #888;
+      font-size: 12px;
+      letter-spacing: 1px;
+      border: 1px solid #2a2a2a;
+      background: #0f0f0f;
+      font-family: inherit;
+      text-decoration: none;
+      transition: all 0.15s;
+      margin-bottom: 16px;
+    }
+    .back-link:hover { color: #00ff88; border-color: #00ff88; }
+
+    /* ── Header ───────────────────────────────────── */
+    .header {
+      border: 1px solid #2a2a2a;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .header-title { color: #1da1f2; font-size: 14px; letter-spacing: 2px; }
+    .header-sub { color: #555; font-size: 11px; }
+    .header-meta { color: #555; font-size: 11px; margin-left: auto; }
+
+    /* ── Date slicer ──────────────────────────────── */
+    .date-slicer {
+      border: 1px solid #1e1e1e;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      background: #0d0d0d;
+    }
+    .date-slicer label {
+      color: #444;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .date-slicer input[type="date"] {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      color: #e0e0e0;
+      padding: 6px 10px;
+      font-family: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .date-slicer input[type="date"]:focus {
+      outline: none;
+      border-color: #1da1f2;
+    }
+    .date-slicer input[type="date"]::-webkit-calendar-picker-indicator {
+      filter: invert(0.5);
+      cursor: pointer;
+    }
+    .date-btn {
+      padding: 6px 14px;
+      background: #111;
+      border: 1px solid #2a2a2a;
+      color: #888;
+      font-family: inherit;
+      font-size: 11px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .date-btn:hover { color: #e0e0e0; border-color: #3a3a3a; }
+    .date-btn.active { color: #1da1f2; border-color: #1da1f2; }
+
+    /* ── Consensus cards ──────────────────────────── */
+    .consensus-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 600px) {
+      .consensus-grid { grid-template-columns: 1fr; }
+    }
+
+    .consensus-card {
+      border: 1px solid #1e1e1e;
+      padding: 18px;
+      position: relative;
+      overflow: hidden;
+      background: #0d0d0d;
+    }
+    .consensus-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+    }
+    .consensus-card.btc::before { background: #f7931a; }
+    .consensus-card.eth::before { background: #627eea; }
+    .consensus-card.sui::before { background: #4da2ff; }
+
+    .cc-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .cc-symbol { font-size: 16px; font-weight: bold; }
+    .cc-symbol.btc { color: #f7931a; }
+    .cc-symbol.eth { color: #627eea; }
+    .cc-symbol.sui { color: #4da2ff; }
+
+    .cc-bias {
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 2px 10px;
+      border: 1px solid;
+      margin-left: auto;
+    }
+    .cc-bias.bullish { color: #00ff88; border-color: #00ff88; }
+    .cc-bias.bearish { color: #ff4444; border-color: #ff4444; }
+    .cc-bias.neutral { color: #888; border-color: #888; }
+    .cc-bias.mixed   { color: #f5a623; border-color: #f5a623; }
+    .cc-bias.no_data, .cc-bias.error { color: #333; border-color: #333; }
+
+    .cc-confidence {
+      margin-bottom: 10px;
+    }
+    .cc-conf-label {
+      color: #444;
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .cc-conf-bar {
+      height: 3px;
+      background: #1a1a1a;
+      border-radius: 2px;
+    }
+    .cc-conf-fill {
+      height: 3px;
+      border-radius: 2px;
+      transition: width 0.5s;
+    }
+    .cc-conf-fill.high { background: #00ff88; }
+    .cc-conf-fill.mid  { background: #f5a623; }
+    .cc-conf-fill.low  { background: #ff4444; }
+
+    .cc-summary {
+      color: #999;
+      font-size: 12px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .cc-themes {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .cc-theme {
+      font-size: 10px;
+      color: #555;
+      padding: 2px 8px;
+      border: 1px solid #1e1e1e;
+      letter-spacing: 0.5px;
+    }
+
+    .cc-voices {
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px solid #151515;
+      color: #444;
+      font-size: 10px;
+    }
+    .cc-voices span { color: #1da1f2; }
+
+    /* ── Section labels ───────────────────────────── */
+    .section-label {
+      color: #444;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+
+    /* ── Profile selector ─────────────────────────── */
+    .profile-bar {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .profile-btn {
+      padding: 6px 14px;
+      background: #111;
+      border: 1px solid #1e1e1e;
+      color: #666;
+      font-family: inherit;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.5px;
+    }
+    .profile-btn:hover { color: #e0e0e0; border-color: #3a3a3a; }
+    .profile-btn.active { color: #1da1f2; border-color: #1da1f2; }
+    .profile-btn .count {
+      font-size: 10px;
+      color: #333;
+      margin-left: 4px;
+    }
+    .profile-btn.active .count { color: #1da1f280; }
+
+    /* ── Post feed ────────────────────────────────── */
+    .post-feed { display: flex; flex-direction: column; gap: 8px; }
+
+    .post-card {
+      border: 1px solid #1e1e1e;
+      padding: 14px 16px;
+      background: #0a0a0a;
+      transition: border-color 0.15s;
+    }
+    .post-card:hover { border-color: #2a2a2a; }
+
+    .post-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .post-handle {
+      color: #1da1f2;
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .post-handle:hover { text-decoration: underline; }
+    .post-date { color: #444; font-size: 11px; margin-left: auto; }
+
+    .post-text {
+      color: #ccc;
+      font-size: 12px;
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+
+    .post-tags {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .asset-tag {
+      font-size: 10px;
+      letter-spacing: 1px;
+      padding: 2px 8px;
+      border: 1px solid;
+    }
+    .asset-tag.btc { color: #f7931a; border-color: #f7931a33; }
+    .asset-tag.eth { color: #627eea; border-color: #627eea33; }
+    .asset-tag.sui { color: #4da2ff; border-color: #4da2ff33; }
+    .asset-tag.other { color: #555; border-color: #55555533; }
+
+    .post-link {
+      color: #333;
+      font-size: 10px;
+      text-decoration: none;
+      margin-left: auto;
+      letter-spacing: 0.5px;
+      transition: color 0.15s;
+    }
+    .post-link:hover { color: #1da1f2; }
+
+    /* ── Consensus history chart ──────────────────── */
+    .history-wrap {
+      border: 1px solid #1e1e1e;
+      padding: 16px;
+      background: #0d0d0d;
+      margin-bottom: 16px;
+      overflow-x: auto;
+    }
+
+    .history-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      min-width: 500px;
+    }
+    .history-table th {
+      text-align: left;
+      padding: 6px 10px;
+      color: #444;
+      font-size: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #1e1e1e;
+      font-weight: normal;
+    }
+    .history-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid #111;
+      color: #888;
+    }
+    .history-table tr:hover td { background: #0f0f0f; }
+
+    .bias-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+    .bias-dot.bullish { background: #00ff88; }
+    .bias-dot.bearish { background: #ff4444; }
+    .bias-dot.neutral { background: #888; }
+    .bias-dot.mixed   { background: #f5a623; }
+
+    /* ── Utils ────────────────────────────────────── */
+    .loading {
+      color: #444;
+      padding: 60px 0;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .empty-state {
+      color: #333;
+      padding: 40px 20px;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+    .updated { color: #333; font-size: 10px; margin-top: 16px; text-align: right; }
+
+    .show-more-btn {
+      width: 100%;
+      padding: 10px;
+      background: #0f0f0f;
+      border: 1px solid #1e1e1e;
+      color: #555;
+      font-family: inherit;
+      font-size: 11px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.15s;
+      margin-top: 8px;
+    }
+    .show-more-btn:hover { color: #e0e0e0; border-color: #3a3a3a; }
+
+    @media (max-width: 600px) {
+      body { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+<div class="terminal">
+
+  <a href="index.html" class="back-link">&larr; Back to Dashboard</a>
+
+  <!-- Header -->
+  <div class="header">
+    <span class="header-title">// X COMMUNITY CONSENSUS</span>
+    <span class="header-sub">Curated analyst sentiment</span>
+    <span class="header-meta" id="last-updated">--</span>
+  </div>
+
+  <!-- Date slicer -->
+  <div class="date-slicer">
+    <label>Period</label>
+    <button class="date-btn active" data-range="48h" onclick="setDateRange('48h')">48H</button>
+    <button class="date-btn" data-range="7d" onclick="setDateRange('7d')">7D</button>
+    <button class="date-btn" data-range="30d" onclick="setDateRange('30d')">30D</button>
+    <button class="date-btn" data-range="all" onclick="setDateRange('all')">ALL</button>
+    <span style="color:#333;margin:0 4px;">|</span>
+    <label>Custom</label>
+    <input type="date" id="date-from" onchange="setCustomRange()" />
+    <span style="color:#333;">→</span>
+    <input type="date" id="date-to" onchange="setCustomRange()" />
+  </div>
+
+  <!-- Consensus cards -->
+  <div class="section-label">// Overall consensus (last 48h)</div>
+  <div class="consensus-grid" id="consensus-cards">
+    <div class="loading">LOADING...</div>
+  </div>
+
+  <!-- Consensus history -->
+  <div class="section-label">// Consensus history</div>
+  <div class="history-wrap" id="history-section">
+    <div class="loading">LOADING...</div>
+  </div>
+
+  <!-- Profile selector -->
+  <div class="section-label" id="profiles-label">// Filter by analyst</div>
+  <div class="profile-bar" id="profile-bar"></div>
+
+  <!-- Post feed -->
+  <div class="section-label" id="feed-label">// Post feed</div>
+  <div class="post-feed" id="post-feed">
+    <div class="loading">LOADING...</div>
+  </div>
+
+</div>
+
+<script>
+  let analysisData = null;
+  let postsData = null;
+  let historyData = null;
+  let currentProfile = 'all';
+  let currentRange = '48h';
+  let customFrom = null;
+  let customTo = null;
+  let postsShown = 20;
+
+  // ── Load data ─────────────────────────────────
+  async function loadAll() {
+    try {
+      const [analysisRes, postsRes, historyRes] = await Promise.allSettled([
+        fetch(`data/x/analysis.json?t=${Date.now()}`),
+        fetch(`data/x/posts.json?t=${Date.now()}`),
+        fetch(`data/x/consensus_history.json?t=${Date.now()}`),
+      ]);
+
+      if (analysisRes.status === 'fulfilled' && analysisRes.value.ok) {
+        analysisData = await analysisRes.value.json();
+      }
+      if (postsRes.status === 'fulfilled' && postsRes.value.ok) {
+        postsData = await postsRes.value.json();
+      }
+      if (historyRes.status === 'fulfilled' && historyRes.value.ok) {
+        historyData = await historyRes.value.json();
+      }
+
+      if (!analysisData && !postsData) {
+        showEmpty();
+        return;
+      }
+
+      if (analysisData?.updated_at) {
+        document.getElementById('last-updated').textContent =
+          `updated ${new Date(analysisData.updated_at).toLocaleString()}`;
+      }
+
+      renderConsensus();
+      renderHistory();
+      renderProfiles();
+      renderPosts();
+
+    } catch (e) {
+      showEmpty();
+    }
+  }
+
+  function showEmpty() {
+    document.getElementById('consensus-cards').innerHTML = `
+      <div class="empty-state" style="grid-column:1/-1;">
+        // NO CONSENSUS DATA YET<br><br>
+        <span style="color:#555;font-size:11px;">
+          Configure your X handles in update_dashboard.py and deploy RSSHub.<br>
+          See SETUP_RSSHUB.md for the full guide.
+        </span>
+      </div>
+    `;
+    document.getElementById('history-section').innerHTML = '';
+    document.getElementById('post-feed').innerHTML = '';
+    document.getElementById('profile-bar').innerHTML = '';
+  }
+
+  // ── Date range ────────────────────────────────
+  function setDateRange(range) {
+    currentRange = range;
+    customFrom = null;
+    customTo = null;
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector(`.date-btn[data-range="${range}"]`).classList.add('active');
+    postsShown = 20;
+    renderPosts();
+    renderHistory();
+  }
+
+  function setCustomRange() {
+    const from = document.getElementById('date-from').value;
+    const to = document.getElementById('date-to').value;
+    if (from) customFrom = new Date(from + 'T00:00:00');
+    if (to) customTo = new Date(to + 'T23:59:59');
+    currentRange = 'custom';
+    document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+    postsShown = 20;
+    renderPosts();
+    renderHistory();
+  }
+
+  function getDateCutoff() {
+    const now = new Date();
+    switch (currentRange) {
+      case '48h': return new Date(now - 48 * 60 * 60 * 1000);
+      case '7d':  return new Date(now - 7 * 24 * 60 * 60 * 1000);
+      case '30d': return new Date(now - 30 * 24 * 60 * 60 * 1000);
+      case 'all': return new Date('2026-01-01');
+      case 'custom': return customFrom || new Date('2026-01-01');
+      default: return new Date(now - 48 * 60 * 60 * 1000);
+    }
+  }
+
+  function getDateEnd() {
+    if (currentRange === 'custom' && customTo) return customTo;
+    return new Date();
+  }
+
+  function filterPostsByDate(posts) {
+    const cutoff = getDateCutoff();
+    const end = getDateEnd();
+    return posts.filter(p => {
+      const d = new Date(p.published);
+      return d >= cutoff && d <= end;
+    });
+  }
+
+  // ── Render consensus cards ────────────────────
+  function renderConsensus() {
+    if (!analysisData?.consensus) return;
+    const container = document.getElementById('consensus-cards');
+    const assets = ['btc', 'eth', 'sui'];
+    const names = { btc: 'BTC', eth: 'ETH', sui: 'SUI' };
+
+    let html = '';
+    assets.forEach(a => {
+      const c = analysisData.consensus[a] || {};
+      const bias = c.bias || 'no_data';
+      const conf = c.confidence || 0;
+      const confClass = conf >= 65 ? 'high' : conf >= 40 ? 'mid' : 'low';
+      const summary = c.summary || 'No data available.';
+      const themes = c.key_themes || [];
+      const voices = c.voices || [];
+      const postCount = c.post_count || 0;
+
+      const themesHtml = themes.map(t =>
+        `<span class="cc-theme">${escapeHtml(t)}</span>`
+      ).join('');
+
+      const voicesHtml = voices.map(v =>
+        `<span>@${escapeHtml(v)}</span>`
+      ).join(' · ');
+
+      html += `
+        <div class="consensus-card ${a}">
+          <div class="cc-header">
+            <span class="cc-symbol ${a}">${names[a]}</span>
+            <span class="cc-bias ${bias}">${bias.toUpperCase()}</span>
+          </div>
+          <div class="cc-confidence">
+            <div class="cc-conf-label">
+              <span>CONFIDENCE</span>
+              <span>${conf}%</span>
+            </div>
+            <div class="cc-conf-bar">
+              <div class="cc-conf-fill ${confClass}" style="width:${conf}%"></div>
+            </div>
+          </div>
+          <div class="cc-summary">${escapeHtml(summary)}</div>
+          <div class="cc-themes">${themesHtml}</div>
+          <div class="cc-voices">
+            ${postCount} posts from ${voicesHtml}
+          </div>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  }
+
+  // ── Render history ────────────────────────────
+  function renderHistory() {
+    const container = document.getElementById('history-section');
+    if (!historyData || historyData.length === 0) {
+      container.innerHTML = `<div class="empty-state">No consensus history yet — accumulates hourly</div>`;
+      return;
+    }
+
+    const cutoff = getDateCutoff();
+    const end = getDateEnd();
+    const filtered = historyData.filter(h => {
+      const d = new Date(h.timestamp);
+      return d >= cutoff && d <= end;
+    });
+
+    // Show at most 48 entries (most recent), group by ~6h blocks for readability
+    const display = filtered.slice(-48).reverse();
+
+    if (display.length === 0) {
+      container.innerHTML = `<div class="empty-state">No history entries in this date range</div>`;
+      return;
+    }
+
+    let rows = '';
+    display.forEach(entry => {
+      const time = new Date(entry.timestamp);
+      const timeStr = time.toLocaleString('en-US', {
+        month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', hour12: false
+      });
+
+      const btc = entry.consensus?.btc || {};
+      const eth = entry.consensus?.eth || {};
+      const sui = entry.consensus?.sui || {};
+
+      const prices = entry.prices || {};
+
+      const biasCell = (b) => {
+        const bias = b.bias || '—';
+        const conf = b.confidence || 0;
+        if (bias === '—') return `<td style="color:#333;">—</td>`;
+        return `<td><span class="bias-dot ${bias}"></span>${bias} <span style="color:#444;">${conf}%</span></td>`;
+      };
+
+      const priceCell = (key) => {
+        const p = prices[key];
+        if (!p) return '<td style="color:#333;">—</td>';
+        return `<td style="color:#666;">$${Number(p).toLocaleString('en-US', {maximumFractionDigits: 2})}</td>`;
+      };
+
+      rows += `<tr>
+        <td style="white-space:nowrap;color:#555;">${timeStr}</td>
+        ${biasCell(btc)}
+        ${biasCell(eth)}
+        ${biasCell(sui)}
+        ${priceCell('btc')}
+        ${priceCell('eth')}
+        ${priceCell('sui')}
+      </tr>`;
+    });
+
+    container.innerHTML = `
+      <table class="history-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>BTC Bias</th>
+            <th>ETH Bias</th>
+            <th>SUI Bias</th>
+            <th>BTC Price</th>
+            <th>ETH Price</th>
+            <th>SUI Price</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  // ── Render profile selector ───────────────────
+  function renderProfiles() {
+    const bar = document.getElementById('profile-bar');
+    if (!analysisData?.by_profile) {
+      bar.innerHTML = '';
+      return;
+    }
+
+    const profiles = Object.values(analysisData.by_profile);
+    if (profiles.length === 0) {
+      bar.innerHTML = '';
+      return;
+    }
+
+    let html = `<button class="profile-btn active" onclick="selectProfile('all')">ALL</button>`;
+    profiles.sort((a, b) => b.post_count - a.post_count);
+    profiles.forEach(p => {
+      html += `<button class="profile-btn" data-handle="${p.handle}" onclick="selectProfile('${p.handle}')">
+        @${escapeHtml(p.handle)} <span class="count">${p.post_count}</span>
+      </button>`;
+    });
+    bar.innerHTML = html;
+  }
+
+  function selectProfile(handle) {
+    currentProfile = handle;
+    postsShown = 20;
+    document.querySelectorAll('.profile-btn').forEach(b => b.classList.remove('active'));
+    if (handle === 'all') {
+      document.querySelector('.profile-btn').classList.add('active');
+    } else {
+      const btn = document.querySelector(`.profile-btn[data-handle="${handle}"]`);
+      if (btn) btn.classList.add('active');
+    }
+    renderPosts();
+  }
+
+  // ── Render post feed ──────────────────────────
+  function renderPosts() {
+    const container = document.getElementById('post-feed');
+    if (!postsData?.posts) {
+      container.innerHTML = `<div class="empty-state">No posts loaded yet</div>`;
+      return;
+    }
+
+    let filtered = postsData.posts;
+
+    // Filter by profile
+    if (currentProfile !== 'all') {
+      filtered = filtered.filter(p => p.handle === currentProfile);
+    }
+
+    // Filter by date
+    filtered = filterPostsByDate(filtered);
+
+    if (filtered.length === 0) {
+      container.innerHTML = `<div class="empty-state">No posts match this filter</div>`;
+      return;
+    }
+
+    // Update label
+    document.getElementById('feed-label').textContent =
+      `// Post feed — ${filtered.length} posts`;
+
+    const display = filtered.slice(0, postsShown);
+
+    let html = '';
+    display.forEach(p => {
+      const d = new Date(p.published);
+      const dateStr = d.toLocaleString('en-US', {
+        month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', hour12: false
+      });
+
+      const tags = (p.assets || []).map(a =>
+        `<span class="asset-tag ${a}">${a.toUpperCase()}</span>`
+      ).join(' ');
+
+      html += `
+        <div class="post-card">
+          <div class="post-header">
+            <a class="post-handle" href="https://x.com/${p.handle}" target="_blank" rel="noopener">@${escapeHtml(p.handle)}</a>
+            <span class="post-date">${dateStr}</span>
+          </div>
+          <div class="post-text">${escapeHtml(p.text)}</div>
+          <div class="post-tags">
+            ${tags}
+            <a class="post-link" href="${p.url}" target="_blank" rel="noopener">↗ view on X</a>
+          </div>
+        </div>
+      `;
+    });
+
+    if (filtered.length > postsShown) {
+      html += `<button class="show-more-btn" onclick="showMorePosts()">
+        SHOW MORE (${filtered.length - postsShown} remaining)
+      </button>`;
+    }
+
+    container.innerHTML = html;
+  }
+
+  function showMorePosts() {
+    postsShown += 20;
+    renderPosts();
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text || '';
+    return div.innerHTML;
+  }
+
+  // ── Init ──────────────────────────────────────
+  // Set date inputs default
+  document.getElementById('date-from').value = '2026-01-01';
+  document.getElementById('date-to').value = new Date().toISOString().split('T')[0];
+
+  loadAll();
+</script>
+</body>
+</html>

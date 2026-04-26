@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T14:25:33.381570+00:00",
-    "price": 74373,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting at $75,000 with a stop-loss at $76,000, targeting $73,000. Alternatively, wait for a confirmed wave 4 low and look to buy at $72,000.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$75,000",
-        "$76,000"
-      ]
-    },
-    "rsi": 71.24
-  },
-  {
     "timestamp": "2026-04-15T15:57:17.065421+00:00",
     "price": 73817,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.86
+  },
+  {
+    "timestamp": "2026-04-26T01:25:07.510067+00:00",
+    "price": 77550,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $75,000.00, targeting $80,000.00. Set a stop-loss at $73,000.00. Consider scaling in on a pullback.",
+    "key_levels": {
+      "support": [
+        "$75,000.00",
+        "$73,000.00"
+      ],
+      "resistance": [
+        "$80,000.00",
+        "$82,000.00"
+      ]
+    },
+    "rsi": 40.87
   }
 ]

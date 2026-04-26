@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T10:05:14.332137+00:00",
-    "price": 2334.37,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy at $2,250 for a potential breakout, with a stop-loss at $2,100. Sell at $2,400 for a short-term profit. Monitor the market for a clear trend direction.",
-    "key_levels": {
-      "support": [
-        "$2,250",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,550"
-      ]
-    },
-    "rsi": 42.68
-  },
-  {
     "timestamp": "2026-04-16T11:50:30.597179+00:00",
     "price": 2332.69,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 64.86
+  },
+  {
+    "timestamp": "2026-04-26T16:29:04.106860+00:00",
+    "price": 2346.99,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,200, targeting $2,500 resistance. Set a stop-loss at $2,000. Monitor the market for signs of a potential wave 5.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,500",
+        "$2,700"
+      ]
+    },
+    "rsi": 68.05
   }
 ]

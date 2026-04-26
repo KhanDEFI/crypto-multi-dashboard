@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15T20:36:33.527915+00:00",
-    "price": 2360.64,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on minor pullbacks, targeting $2,500 resistance. Consider scaling out of long positions if price reaches $2,700. Monitor market cap and RSI for signs of reversal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,500",
-        "$2,700"
-      ]
-    },
-    "rsi": 76.27
-  },
-  {
     "timestamp": "2026-04-15T21:40:26.880379+00:00",
     "price": 2356.64,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,500"
+      ]
+    },
+    "rsi": 50.38
+  },
+  {
+    "timestamp": "2026-04-26T10:34:57.747591+00:00",
+    "price": 2333.32,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,200, targeting $2,350. Sell on rallies towards $2,400, targeting $2,150. Monitor key levels for potential breakouts.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,400"
       ]
     },
     "rsi": 50.38

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T17:00:57.316040+00:00",
-    "price": 74193,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a break above $75,000, targeting $80,000. Sell on a break below $72,500, targeting $70,000. Monitor the 24h RSI for signs of overbought or oversold conditions.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$75,000",
-        "$76,000"
-      ]
-    },
-    "rsi": 51.62
-  },
-  {
     "timestamp": "2026-04-16T18:55:25.198960+00:00",
     "price": 74904,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 56.09
+  },
+  {
+    "timestamp": "2026-04-26T20:26:07.192797+00:00",
+    "price": 78215,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $75,000, targeting $80,000. Set stop-loss at $72,000. Consider scaling out profits at $82,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 49.9
   }
 ]

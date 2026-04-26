@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T19:55:12.286228+00:00",
-    "price": 2357.92,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $2,150, targeting $2,500. Sell on rallies above $2,500, aiming for $2,650. Risk management is crucial in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$2,150",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,500",
-        "$2,650"
-      ]
-    },
-    "rsi": 40.67
-  },
-  {
     "timestamp": "2026-04-16T20:37:52.701929+00:00",
     "price": 2346.36,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,500"
+      ]
+    },
+    "rsi": 68.85
+  },
+  {
+    "timestamp": "2026-04-26T22:25:24.421605+00:00",
+    "price": 2373.53,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,200, targeting $2,500. Set a stop-loss at $2,000. Consider taking profits at $2,700.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,500",
+        "$2,700"
       ]
     },
     "rsi": 68.85

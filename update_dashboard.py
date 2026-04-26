@@ -26,6 +26,22 @@ YOUTUBE_RSS_URL = f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE
 YOUTUBE_FILE = "data/youtube.json"
 YOUTUBE_MAX_VIDEOS = 7  # Keep the last 7 uploads
 
+# ── X Community Consensus Settings ───────────────────────
+RSSHUB_URL = os.environ.get("RSSHUB_URL", "https://rsshub.example.app")
+X_DATA_DIR = "data/x"
+X_POSTS_FILE = "data/x/posts.json"
+X_ANALYSIS_FILE = "data/x/analysis.json"
+X_CONSENSUS_HISTORY_FILE = "data/x/consensus_history.json"
+X_POSTS_SINCE = "2026-01-01T00:00:00+00:00"  # Collect from Jan 1 2026
+
+# ── Curated X handles — UPDATE THESE WITH YOUR LIST ──────
+X_HANDLES = [
+    # "handle1",       # Uncomment and replace with your handles
+    # "handle2",
+    # "handle3",
+    # Add more handles here — no @ prefix needed
+]
+
 # Keywords to match video titles to dashboard assets
 ASSET_KEYWORDS = {
     "btc": ["bitcoin", "btc"],
@@ -428,6 +444,378 @@ def run_accuracy_evaluation(all_current_data):
 
 
 # ══════════════════════════════════════════════════════════
+#  X COMMUNITY CONSENSUS — NEW
+# ══════════════════════════════════════════════════════════
+
+def classify_post_assets(text):
+    """Detect which crypto assets are mentioned in a post."""
+    text_lower = text.lower()
+    found = []
+    for asset_key, keywords in ASSET_KEYWORDS.items():
+        for kw in keywords:
+            if re.search(r'\b' + re.escape(kw) + r'\b', text_lower):
+                found.append(asset_key)
+                break
+    return found
+
+
+def fetch_x_posts():
+    """
+    Fetch posts from all curated X handles via self-hosted RSSHub.
+    Stores posts in a single JSON file, deduplicating by post URL.
+    """
+    if not X_HANDLES:
+        print("\n  No X handles configured — skipping X feed fetch.")
+        print("  Edit X_HANDLES in update_dashboard.py to add your curated accounts.")
+        return
+
+    if RSSHUB_URL == "https://rsshub.example.app":
+        print("\n  RSSHUB_URL not configured — skipping X feed fetch.")
+        print("  Set the RSSHUB_URL secret in GitHub Actions or env var.")
+        return
+
+    os.makedirs(X_DATA_DIR, exist_ok=True)
+    print(f"\nFetching X posts from {len(X_HANDLES)} handles via RSSHub...")
+
+    # Load existing posts
+    existing_posts = []
+    existing_urls = set()
+    if os.path.exists(X_POSTS_FILE):
+        try:
+            with open(X_POSTS_FILE, "r") as f:
+                data = json.load(f)
+                existing_posts = data.get("posts", [])
+                existing_urls = {p["url"] for p in existing_posts}
+        except (json.JSONDecodeError, IOError):
+            existing_posts = []
+            existing_urls = set()
+
+    cutoff = datetime.fromisoformat(X_POSTS_SINCE)
+    new_count = 0
+
+    for handle in X_HANDLES:
+        feed_url = f"{RSSHUB_URL}/twitter/user/{handle}/exclude_rts"
+        print(f"  Fetching @{handle}...")
+
+        try:
+            r = requests.get(feed_url, timeout=20)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"    Failed: {e}")
+            continue
+
+        # RSSHub returns RSS 2.0 XML
+        try:
+            root = ET.fromstring(r.text)
+        except ET.ParseError as e:
+            print(f"    XML parse error: {e}")
+            continue
+
+        # Try Atom namespace first, then plain RSS
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        items = root.findall(".//item")  # RSS 2.0
+        if not items:
+            items = root.findall(".//atom:entry", ns)  # Atom
+
+        for item in items:
+            # RSS 2.0 fields
+            title_el = item.find("title")
+            desc_el = item.find("description")
+            link_el = item.find("link")
+            pubdate_el = item.find("pubDate")
+
+            # Atom fallback
+            if title_el is None:
+                title_el = item.find("atom:title", ns)
+            if link_el is None:
+                link_atom = item.find("atom:link", ns)
+                link_text = link_atom.get("href", "") if link_atom is not None else ""
+            else:
+                link_text = link_el.text or ""
+
+            if desc_el is None:
+                desc_el = item.find("atom:content", ns)
+                if desc_el is None:
+                    desc_el = item.find("atom:summary", ns)
+
+            title_text = title_el.text if title_el is not None else ""
+            desc_text = desc_el.text if desc_el is not None else ""
+
+            # Combine title and description for full post text
+            # RSSHub often puts the tweet text in description
+            post_text = desc_text or title_text or ""
+
+            # Strip HTML tags from post text
+            post_text_clean = re.sub(r'<[^>]+>', ' ', post_text).strip()
+            post_text_clean = re.sub(r'\s+', ' ', post_text_clean)
+
+            if not link_text or link_text in existing_urls:
+                continue
+
+            # Parse date
+            pub_date = None
+            if pubdate_el is not None and pubdate_el.text:
+                try:
+                    from email.utils import parsedate_to_datetime
+                    pub_date = parsedate_to_datetime(pubdate_el.text)
+                except Exception:
+                    pub_date = None
+            else:
+                pub_el = item.find("atom:published", ns)
+                if pub_el is not None and pub_el.text:
+                    try:
+                        pub_date = datetime.fromisoformat(pub_el.text)
+                    except Exception:
+                        pub_date = None
+
+            if pub_date is None:
+                continue
+
+            # Make timezone-aware if needed
+            if pub_date.tzinfo is None:
+                pub_date = pub_date.replace(tzinfo=timezone.utc)
+
+            # Skip posts before our cutoff
+            if pub_date < cutoff:
+                continue
+
+            # Classify which assets this post mentions
+            assets = classify_post_assets(post_text_clean)
+
+            post_entry = {
+                "handle": handle,
+                "text": post_text_clean[:500],  # Cap at 500 chars
+                "published": pub_date.isoformat(),
+                "url": link_text,
+                "assets": assets,
+            }
+
+            existing_posts.append(post_entry)
+            existing_urls.add(link_text)
+            new_count += 1
+
+        print(f"    @{handle} done")
+
+    # Sort by published date (newest first for convenience)
+    existing_posts.sort(key=lambda p: p.get("published", ""), reverse=True)
+
+    output = {
+        "handles": X_HANDLES,
+        "total_posts": len(existing_posts),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "posts": existing_posts,
+    }
+
+    with open(X_POSTS_FILE, "w") as f:
+        json.dump(output, f, indent=2)
+
+    print(f"  Stored {len(existing_posts)} total posts ({new_count} new)")
+    return existing_posts
+
+
+def analyze_x_consensus(all_current_prices):
+    """
+    Run AI analysis on recent X posts to determine community consensus
+    for each asset. Saves results + appends to consensus history.
+    """
+    if not os.path.exists(X_POSTS_FILE):
+        print("  No X posts to analyze yet.")
+        return
+
+    with open(X_POSTS_FILE, "r") as f:
+        data = json.load(f)
+
+    all_posts = data.get("posts", [])
+    if not all_posts:
+        print("  No posts available for consensus analysis.")
+        return
+
+    now = datetime.now(timezone.utc)
+
+    # Get posts from the last 48h for current consensus
+    cutoff_recent = now - timedelta(hours=48)
+    recent_posts = []
+    for p in all_posts:
+        try:
+            ptime = datetime.fromisoformat(p["published"])
+            if ptime >= cutoff_recent:
+                recent_posts.append(p)
+        except (ValueError, KeyError):
+            continue
+
+    if not recent_posts:
+        print("  No recent posts (48h) for consensus — skipping analysis.")
+        return
+
+    print(f"  Analyzing {len(recent_posts)} recent posts for consensus...")
+
+    # Group recent posts by asset
+    # General posts (no specific coin mentioned) go into ALL asset buckets
+    asset_posts = {"btc": [], "eth": [], "sui": []}
+    general_posts = []
+    for p in recent_posts:
+        matched_assets = [a for a in p.get("assets", []) if a in asset_posts]
+        if matched_assets:
+            for a in matched_assets:
+                asset_posts[a].append(p)
+        else:
+            # General market post — feed into all asset buckets
+            general_posts.append(p)
+            for a in asset_posts:
+                asset_posts[a].append(p)
+
+    if general_posts:
+        print(f"    {len(general_posts)} general market posts factored into all assets")
+
+    consensus = {}
+    by_profile = {}
+
+    for asset_key in ["btc", "eth", "sui"]:
+        posts = asset_posts[asset_key]
+        if not posts:
+            consensus[asset_key] = {
+                "bias": "no_data",
+                "confidence": 0,
+                "post_count": 0,
+                "summary": "No recent posts about this asset.",
+                "voices": [],
+            }
+            continue
+
+        # Build a digest of posts for the AI
+        digest_lines = []
+        for p in posts[:20]:  # Cap at 20 posts per asset
+            handle = p["handle"]
+            text = p["text"][:200]
+            digest_lines.append(f"@{handle}: {text}")
+
+        digest = "\n".join(digest_lines)
+
+        asset_name = CRYPTO_ASSETS.get(asset_key, {}).get("name", asset_key.upper())
+        current_price = all_current_prices.get(asset_key, {}).get("price", 0)
+
+        prompt = (
+            f"You are a crypto market sentiment analyst. "
+            f"Analyze the following {len(posts)} recent posts from curated crypto analysts. "
+            f"Some posts mention {asset_name} specifically, others are general market commentary "
+            f"that should be considered as indirect sentiment for {asset_name}. "
+            f"Current {asset_name} price: ${current_price:,.2f}. "
+            f"Determine the community CONSENSUS for {asset_name}.\n\n"
+            f"Posts:\n{digest}\n\n"
+            f"Return ONLY a valid JSON object. No markdown, no explanation:\n"
+            '{\n'
+            '  "bias": "bullish | bearish | neutral | mixed",\n'
+            '  "confidence": 0-100,\n'
+            '  "summary": "2-3 sentence consensus summary",\n'
+            '  "key_themes": ["theme1", "theme2"],\n'
+            '  "dissenting_view": "brief note on any contrarian voice, or null"\n'
+            '}'
+        )
+
+        try:
+            headers = {
+                "Authorization": f"Bearer {GROQ_API_KEY}",
+                "Content-Type": "application/json",
+            }
+            body = {
+                "model": "llama-3.1-8b-instant",
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": 400,
+                "temperature": 0.3,
+            }
+            r = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers=headers, json=body, timeout=20,
+            )
+            r.raise_for_status()
+            content = r.json()["choices"][0]["message"]["content"].strip()
+            result = parse_ai_json(content)
+        except Exception as e:
+            print(f"    AI analysis failed for {asset_key}: {e}")
+            result = {
+                "bias": "error",
+                "confidence": 0,
+                "summary": f"Analysis failed: {e}",
+                "key_themes": [],
+                "dissenting_view": None,
+            }
+
+        result["post_count"] = len(posts)
+        # Track which handles contributed
+        voices = list(set(p["handle"] for p in posts))
+        result["voices"] = voices
+        consensus[asset_key] = result
+
+        print(f"    {asset_key.upper()}: {result.get('bias', '?')} "
+              f"({result.get('confidence', 0)}% confidence, "
+              f"{len(posts)} posts, {len(voices)} voices)")
+
+    # Build per-profile summary
+    for p in recent_posts:
+        handle = p["handle"]
+        if handle not in by_profile:
+            by_profile[handle] = {
+                "handle": handle,
+                "post_count": 0,
+                "assets_mentioned": [],
+                "latest_post": None,
+                "latest_text": "",
+            }
+        by_profile[handle]["post_count"] += 1
+        by_profile[handle]["assets_mentioned"] = list(
+            set(by_profile[handle]["assets_mentioned"] + p.get("assets", []))
+        )
+        # Track latest post
+        if (by_profile[handle]["latest_post"] is None
+                or p["published"] > by_profile[handle]["latest_post"]):
+            by_profile[handle]["latest_post"] = p["published"]
+            by_profile[handle]["latest_text"] = p["text"][:200]
+
+    # ── Append to consensus history ──
+    history = []
+    if os.path.exists(X_CONSENSUS_HISTORY_FILE):
+        try:
+            with open(X_CONSENSUS_HISTORY_FILE, "r") as f:
+                history = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            history = []
+
+    history_entry = {
+        "timestamp": now.isoformat(),
+        "consensus": {
+            k: {"bias": v.get("bias"), "confidence": v.get("confidence", 0)}
+            for k, v in consensus.items()
+        },
+        "prices": {
+            k: v.get("price", 0) for k, v in all_current_prices.items()
+            if k in ["btc", "eth", "sui"]
+        },
+    }
+    history.append(history_entry)
+
+    # Keep max 720 entries (~30 days hourly)
+    history = history[-720:]
+    with open(X_CONSENSUS_HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=2)
+
+    # ── Save current analysis ──
+    analysis_output = {
+        "updated_at": now.isoformat(),
+        "consensus": consensus,
+        "by_profile": by_profile,
+        "recent_post_count": len(recent_posts),
+        "total_posts_stored": len(all_posts),
+        "handles_tracked": X_HANDLES,
+    }
+
+    with open(X_ANALYSIS_FILE, "w") as f:
+        json.dump(analysis_output, f, indent=2)
+
+    print("  Consensus analysis complete.")
+    return analysis_output
+
+
+# ══════════════════════════════════════════════════════════
 #  YOUTUBE FEED — NEW
 # ══════════════════════════════════════════════════════════
 
@@ -616,6 +1004,11 @@ def main():
 
     # ── Fetch YouTube feed ──
     fetch_youtube_feed()
+
+    # ── Fetch X posts & analyze consensus ──
+    fetch_x_posts()
+    print("\nAnalyzing X community consensus...")
+    analyze_x_consensus(all_current)
 
     print("\nAll done.")
 

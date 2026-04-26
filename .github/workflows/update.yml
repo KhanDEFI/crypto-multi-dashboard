@@ -24,6 +24,7 @@ jobs:
       - name: Run update script
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          RSSHUB_URL: ${{ secrets.RSSHUB_URL }}
         run: python update_dashboard.py
 
       - name: Commit and push data

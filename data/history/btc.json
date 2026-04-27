@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T16:41:13.280629+00:00",
-    "price": 78228,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider taking profits on long positions and adjusting stop-loss levels to $75,000. A break below this level could trigger a short trade. Monitor the price action for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 77.23
-  },
-  {
     "timestamp": "2026-04-17T17:38:49.141285+00:00",
     "price": 77416,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$78,000",
         "$80,000"
+      ]
+    },
+    "rsi": 42.07
+  },
+  {
+    "timestamp": "2026-04-27T21:44:02.270555+00:00",
+    "price": 76929,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting around $75,000 with a stop-loss at $76,500, targeting $74,000. Alternatively, consider buying around $74,500 with a stop-loss at $73,500, targeting $78,000.",
+    "key_levels": {
+      "support": [
+        "74,000",
+        "72,000"
+      ],
+      "resistance": [
+        "78,000",
+        "80,000"
       ]
     },
     "rsi": 42.07

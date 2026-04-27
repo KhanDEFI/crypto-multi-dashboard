@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2291.79,
-  "change_24h": -3.16,
-  "market_cap": 276570523283.9027,
+  "price": 2290.79,
+  "change_24h": -2.86,
+  "market_cap": 276470724146.00244,
   "rsi": 44.73,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a bearish impulse wave (wave 2) within a larger downtrend.",
-    "momentum": "The neutral RSI reading suggests a lack of strong momentum, but the recent 3.16% price drop indicates a bearish trend bias.",
+    "elliott_wave": "ETH is currently in a corrective wave, likely wave 4 of a larger impulse wave, as price action has been trending lower but still within a relatively tight range.",
+    "momentum": "Momentum is neutral, with the RSI at 44.73, indicating a lack of strong buying or selling pressure, but the 24h change of -2.86% suggests a slight bearish bias.",
     "key_levels": {
       "support": [
-        "$2,200",
-        "$2,100"
+        "$2,150.00",
+        "$2,000.00"
       ],
       "resistance": [
-        "$2,300",
-        "$2,400"
+        "$2,400.00",
+        "$2,550.00"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting ETH around current levels, targeting a 5-7% drop to $2,150-$2,150. Set a stop-loss at $2,350 to limit potential losses. Monitor the 24h chart for a potential breakout.",
-    "risk_note": "A potential reversal above $2,350 could invalidate the bearish trend bias and trigger a long position."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce to $2,400.00 resistance, targeting $2,550.00, but set a stop-loss at $2,150.00 to limit potential losses.",
+    "risk_note": "A break below $2,150.00 support could trigger a more significant sell-off, so be cautious of this key risk level."
   },
-  "updated_at": "2026-04-27T20:49:12.988175+00:00"
+  "updated_at": "2026-04-27T21:44:02.270555+00:00"
 }

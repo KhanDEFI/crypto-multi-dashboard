@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T01:20:01.871945+00:00",
-    "price": 2344.58,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider shorting ETH around current levels, targeting a potential retest of $2,200. However, be cautious of a potential bounce to $2,500. Monitor price action closely for signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,500",
-        "$2,700"
-      ]
-    },
-    "rsi": 45.94
-  },
-  {
     "timestamp": "2026-04-17T04:39:08.740550+00:00",
     "price": 2332.6,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 79.38
+  },
+  {
+    "timestamp": "2026-04-27T10:03:22.804786+00:00",
+    "price": 2322.87,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $2,300 with a stop-loss at $2,350, targeting $2,200. Alternatively, wait for a clear break above $2,400 to initiate a long position. Monitor the situation closely.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,400"
+      ]
+    },
+    "rsi": 50.47
   }
 ]

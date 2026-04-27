@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T01:20:01.871945+00:00",
-    "price": 1.001,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling SUI/USD on a pullback to 0.90-0.80, with a stop-loss above 1.10 and a target at 0.60-0.50. Monitor the market for a potential breakout above 1.20.",
-    "key_levels": {
-      "support": [
-        "0.90",
-        "0.80"
-      ],
-      "resistance": [
-        "1.10",
-        "1.20"
-      ]
-    },
-    "rsi": 71.04
-  },
-  {
     "timestamp": "2026-04-17T04:39:08.740550+00:00",
     "price": 0.988596,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 55.66
+  },
+  {
+    "timestamp": "2026-04-27T10:03:22.804786+00:00",
+    "price": 0.930227,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips, targeting $0.95 resistance. Set stop-loss at $0.80. Consider scaling in positions.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 40.43
   }
 ]

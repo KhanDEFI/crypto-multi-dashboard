@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T11:41:12.714094+00:00",
-    "price": 0.999777,
-    "trend_bias": "bullish",
-    "trade_plan": "Short-term traders may consider selling on a close above $1.08, while long-term investors may look to accumulate on a pullback to $0.92. A break below $0.88 would confirm a bearish reversal.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$1.08",
-        "$1.12"
-      ]
-    },
-    "rsi": 73.13
-  },
-  {
     "timestamp": "2026-04-17T12:51:58.676955+00:00",
     "price": 1.008,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.01
+  },
+  {
+    "timestamp": "2026-04-27T16:17:22.556220+00:00",
+    "price": 0.922114,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $0.92, targeting $0.95-$1.00 resistance. Alternatively, sell on a break below $0.85 support.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 34.45
   }
 ]

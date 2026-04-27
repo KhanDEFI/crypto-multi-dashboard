@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16T21:33:11.693729+00:00",
-    "price": 0.98772,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $0.95, targeting $1.05. Alternatively, consider selling at $1.05 for a potential retest of $0.95. Risk management is crucial, as a break below $0.90 could negate the bullish bias.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.05",
-        "$1.10"
-      ]
-    },
-    "rsi": 69.31
-  },
-  {
     "timestamp": "2026-04-16T22:28:40.551013+00:00",
     "price": 1.006,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.55
+  },
+  {
+    "timestamp": "2026-04-27T01:26:10.538142+00:00",
+    "price": 0.953847,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above 0.96, with a target of 1.00, and a stop-loss at 0.92. Alternatively, shorting below 0.92 with a target of 0.88 and a stop-loss at 0.95.",
+    "key_levels": {
+      "support": [
+        "0.92",
+        "0.88"
+      ],
+      "resistance": [
+        "0.96",
+        "1.00"
+      ]
+    },
+    "rsi": 46.76
   }
 ]

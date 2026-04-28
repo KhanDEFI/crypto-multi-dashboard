@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 76085,
-  "change_24h": -0.96,
-  "market_cap": 1524570279690.122,
-  "rsi": 32.33,
+  "price": 76437,
+  "change_24h": -0.71,
+  "market_cap": 1530465007528.111,
+  "rsi": 35.55,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave (4) within a larger downtrend, with a potential target at $70,000.",
-    "momentum": "The RSI is neutral at 32.33, indicating a lack of momentum, but the 24h change of -0.96% suggests a weak downtrend.",
+    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a triangle pattern as it oscillates between $74,000 and $78,000.",
+    "momentum": "The RSI reading of 35.55 suggests a neutral momentum, with price action indicating a slight bearish bias due to the recent decline.",
     "key_levels": {
       "support": [
-        "$72,000",
-        "$70,000"
+        "$74,000",
+        "$72,000"
       ],
       "resistance": [
         "$78,000",
         "$80,000"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a break below $72,000, targeting $70,000. Consider buying on a bounce above $78,000. Monitor the 24h change for signs of a trend reversal.",
-    "risk_note": "A sudden spike in buying pressure could lead to a rapid price increase, potentially invalidating the bearish trend bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting BTC around $76,000 with a stop-loss at $78,000, targeting $74,000. Alternatively, consider buying around $74,000 with a stop-loss at $72,000, targeting $76,000.",
+    "risk_note": "A break below $74,000 could trigger a more significant decline to $72,000."
   },
-  "updated_at": "2026-04-28T19:15:38.397448+00:00"
+  "updated_at": "2026-04-28T20:56:49.741937+00:00"
 }

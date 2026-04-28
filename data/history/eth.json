@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T01:13:37.402032+00:00",
-    "price": 2425.79,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a pullback to $2,300 or selling on a break above $2,500. Monitor the 24h RSI for signs of overbought or oversold conditions. Adjust the trade plan based on market developments.",
-    "key_levels": {
-      "support": [
-        "$2,300",
-        "$2,150"
-      ],
-      "resistance": [
-        "$2,500",
-        "$2,650"
-      ]
-    },
-    "rsi": 65.75
-  },
-  {
     "timestamp": "2026-04-18T04:21:52.042018+00:00",
     "price": 2408.96,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.79
+  },
+  {
+    "timestamp": "2026-04-28T12:19:03.049496+00:00",
+    "price": 2276.32,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on a break below $2,200, targeting $2,150. Medium-term, look for a bullish reversal above $2,350.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,350"
+      ]
+    },
+    "rsi": 43.13
   }
 ]

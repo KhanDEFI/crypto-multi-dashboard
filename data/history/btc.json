@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T20:33:23.445622+00:00",
-    "price": 77220,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting on a close below $74,500.00, with a target of $72,000.00. Alternatively, look to buy on a bounce from $74,500.00, with a target of $78,000.00.",
-    "key_levels": {
-      "support": [
-        "$74,500.00",
-        "$72,000.00"
-      ],
-      "resistance": [
-        "$78,000.00",
-        "$80,000.00"
-      ]
-    },
-    "rsi": 71.8
-  },
-  {
     "timestamp": "2026-04-17T21:31:30.687685+00:00",
     "price": 77444,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 49.93
+  },
+  {
+    "timestamp": "2026-04-28T05:20:02.361463+00:00",
+    "price": 76924,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, we recommend selling on rallies towards $78,000. Long-term, we're looking for a potential bottom around $70,000. A stop-loss at $80,000 is advised.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$78,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 45.59
   }
 ]

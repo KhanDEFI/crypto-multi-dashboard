@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T09:36:59.781663+00:00",
-    "price": 76665,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $73,500, targeting $77,500. Consider scaling out of long positions if price reaches $80,000. Monitor for potential reversal signals if price action deviates from the expected trend.",
-    "key_levels": {
-      "support": [
-        "$73,500",
-        "$72,000"
-      ],
-      "resistance": [
-        "$77,500",
-        "$80,000"
-      ]
-    },
-    "rsi": 68.06
-  },
-  {
     "timestamp": "2026-04-18T10:30:02.929087+00:00",
     "price": 76335,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 76323,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting on a break below $73,000 for a potential target of $70,000, or going long on a break above $78,000 for a potential target of $80,000.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$78,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 35.55
+  },
+  {
+    "timestamp": "2026-04-28T22:44:32.256070+00:00",
+    "price": 76296,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a bounce above $76,000, targeting $73,000. Alternatively, consider shorting on a break below $74,000. Monitor the price action for a potential reversal.",
     "key_levels": {
       "support": [
         "$73,000",

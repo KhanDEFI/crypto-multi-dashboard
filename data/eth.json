@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2295.8,
-  "change_24h": -3.16,
-  "market_cap": 277065855580.8136,
-  "rsi": 44.73,
+  "price": 2299.98,
+  "change_24h": -3.89,
+  "market_cap": 277667537321.3789,
+  "rsi": 48.28,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a double zigzag pattern. Further analysis is needed to confirm.",
-    "momentum": "The RSI reading of 44.73 indicates a neutral momentum, with the price action showing a slight downtrend. However, the 24h change of -3.16% suggests a potential short-term reversal.",
+    "elliott_wave": "ETH is currently in a corrective wave, with a possible impulse wave forming after a minor pullback. Wave count suggests a potential continuation of the downtrend.",
+    "momentum": "Momentum is neutral, with the RSI at 48.28. However, the recent price action suggests a bearish trend, with a potential reversal in the next 24-48 hours.",
     "key_levels": {
       "support": [
-        "$2,150.00",
-        "$2,000.00"
+        "$2,200",
+        "$2,150"
       ],
       "resistance": [
-        "$2,400.00",
-        "$2,550.00"
+        "$2,300",
+        "$2,350"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $2,300.00, with a stop-loss at $2,400.00, and a target at $2,150.00. Monitor the price action for a potential reversal. Adjust the trade plan based on the market's response.",
-    "risk_note": "A potential risk is a sudden increase in market volatility, leading to a sharp price movement in either direction."
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a stop-loss at $2,300 and a target at $2,100. Monitor the RSI for a potential reversal signal. Consider closing the short position if the price breaks above $2,350.",
+    "risk_note": "A potential reversal in the trend could occur if the price breaks above $2,350, invalidating the bearish trade plan."
   },
-  "updated_at": "2026-04-27T23:41:03.662962+00:00"
+  "updated_at": "2026-04-28T01:45:23.085645+00:00"
 }

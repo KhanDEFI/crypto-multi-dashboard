@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-17T19:50:03.343864+00:00",
-    "price": 1.014,
-    "trend_bias": "bullish",
-    "trade_plan": "Short-term: Consider selling on a pullback to $0.95-$0.90. Medium-term: Re-enter longs on a confirmed bullish reversal. Long-term: Maintain a bullish bias.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.05",
-        "$1.10"
-      ]
-    },
-    "rsi": 83.11
-  },
-  {
     "timestamp": "2026-04-17T20:33:23.445622+00:00",
     "price": 1.011,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.81
+  },
+  {
+    "timestamp": "2026-04-28T01:45:23.085645+00:00",
+    "price": 0.933445,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on a bounce to $0.95, targeting $0.85. Medium-term, look for a break below $0.80 to re-enter the trade.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 46.25
   }
 ]

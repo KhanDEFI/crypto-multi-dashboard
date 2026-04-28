@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T04:21:52.042018+00:00",
-    "price": 77044,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider entering long positions with a tight stop-loss around $75,000, targeting $80,000-$82,000 resistance levels. Monitor the price action closely for signs of reversal or exhaustion. Be prepared to adjust the trade plan if the trend bias shifts.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 65.7
-  },
-  {
     "timestamp": "2026-04-18T06:05:54.162347+00:00",
     "price": 77167,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.29
+  },
+  {
+    "timestamp": "2026-04-28T17:27:40.254061+00:00",
+    "price": 76052,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $73,500 with a target of $70,000. Consider buying on a bounce above $78,000 with a target of $80,000. Monitor the price action closely for any signs of a trend reversal.",
+    "key_levels": {
+      "support": [
+        "$73,500",
+        "$70,000"
+      ],
+      "resistance": [
+        "$78,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 32.33
   }
 ]

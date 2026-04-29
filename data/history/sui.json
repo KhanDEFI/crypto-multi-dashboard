@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T16:25:32.022172+00:00",
-    "price": 0.966802,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a tight stop above $1.00, targeting $0.85. Alternatively, wait for a bounce to $0.90 before considering a long position. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 48.1
-  },
-  {
     "timestamp": "2026-04-18T17:27:14.440499+00:00",
     "price": 0.960484,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.64
+  },
+  {
+    "timestamp": "2026-04-29T13:17:59.227536+00:00",
+    "price": 0.922905,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.85, targeting $1.00 resistance. Set stop-loss at $0.80. Consider scaling out of positions as $1.00 is approached.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.05"
+      ]
+    },
+    "rsi": 33.75
   }
 ]

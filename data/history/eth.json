@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T13:53:52.236611+00:00",
-    "price": 2357.12,
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, consider selling on a break below $2,200, targeting $2,000. Medium-term, look for a bullish reversal above $2,500, targeting $2,700. Monitor the 24h chart for signs of a trend change.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,500",
-        "$2,700"
-      ]
-    },
-    "rsi": 49.11
-  },
-  {
     "timestamp": "2026-04-18T14:33:01.319787+00:00",
     "price": 2358.19,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,600"
+      ]
+    },
+    "rsi": 39.21
+  },
+  {
+    "timestamp": "2026-04-29T07:56:32.215986+00:00",
+    "price": 2322.73,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,200, targeting $2,400-$2,550 resistance zone. Set stop-loss at $2,100. Monitor for potential bearish reversal if price fails to hold above $2,200.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,550"
       ]
     },
     "rsi": 39.21

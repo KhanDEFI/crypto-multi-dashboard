@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T13:53:52.236611+00:00",
-    "price": 4833.79,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards support levels, with a target of resistance levels. Monitor DXY and real yields for potential impact on gold prices. A breakout above resistance could confirm the bullish trend.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 53.9
-  },
-  {
     "timestamp": "2026-04-18T14:33:01.319787+00:00",
     "price": 4833.79,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.13
+  },
+  {
+    "timestamp": "2026-04-29T07:56:32.215986+00:00",
+    "price": 4569.13,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting gold with a stop-loss above $4570.13, targeting a 2-3% decline to the TV Pivot Support levels. Monitor the 24-hour price action for signs of reversal. Adjust the trade plan based on TradingView Signal updates.",
+    "key_levels": {
+      "support": [
+        "$4,037.68",
+        "$3,408.28"
+      ],
+      "resistance": [
+        "$5,357.81",
+        "$6,048.54"
+      ]
+    },
+    "rsi": 38.21
   }
 ]

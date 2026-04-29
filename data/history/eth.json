@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T19:33:11.066698+00:00",
-    "price": 2350.79,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $2,250.00 or going long on a bounce above $2,400.00, with a stop-loss at $2,150.00.",
-    "key_levels": {
-      "support": [
-        "$2,250.00",
-        "$2,150.00"
-      ],
-      "resistance": [
-        "$2,400.00",
-        "$2,550.00"
-      ]
-    },
-    "rsi": 53.98
-  },
-  {
     "timestamp": "2026-04-18T20:23:07.971485+00:00",
     "price": 2350.65,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,300",
         "$2,350"
+      ]
+    },
+    "rsi": 40.52
+  },
+  {
+    "timestamp": "2026-04-29T19:05:19.670069+00:00",
+    "price": 2237.75,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,150, targeting $2,350. Sell on rallies above $2,350, targeting $2,500.",
+    "key_levels": {
+      "support": [
+        "$2,150",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,500"
       ]
     },
     "rsi": 40.52

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T23:24:00.686521+00:00",
-    "price": 0.960518,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy at $0.92 for a potential reversal, with a stop-loss at $0.88. Alternatively, consider a sell at $1.00 for a potential continuation of the downtrend. Monitor the price action closely.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.04"
-      ]
-    },
-    "rsi": 45.7
-  },
-  {
     "timestamp": "2026-04-19T01:22:19.361342+00:00",
     "price": 0.954663,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.85",
         "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 32.43
+  },
+  {
+    "timestamp": "2026-04-29T23:42:04.060605+00:00",
+    "price": 0.906206,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting the asset with a stop-loss at $0.95 and a target at $0.85, but be cautious of potential reversals.",
+    "key_levels": {
+      "support": [
+        "$0.88",
+        "$0.85"
       ],
       "resistance": [
         "$0.95",

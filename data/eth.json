@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2237.75,
-  "change_24h": -2.41,
-  "market_cap": 270302811316.01178,
-  "rsi": 40.52,
+  "price": 2245.17,
+  "change_24h": -2.27,
+  "market_cap": 271009887364.71893,
+  "rsi": 34.22,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bullish trend, with a potential target at $2,500.",
-    "momentum": "The RSI is neutral, but the recent price action suggests a potential reversal, with a momentum shift towards a bullish trend.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a bullish flag pattern. The wave count suggests a potential bounce.",
+    "momentum": "The RSI reading of 34.22 indicates a neutral momentum, with price action showing a slight decline. However, the 24h change of -2.27% suggests a bearish trend bias.",
     "key_levels": {
       "support": [
-        "$2,150",
-        "$2,000"
+        "$2,150.00",
+        "$2,100.00"
       ],
       "resistance": [
-        "$2,350",
-        "$2,500"
+        "$2,300.00",
+        "$2,350.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $2,150, targeting $2,350. Sell on rallies above $2,350, targeting $2,500.",
-    "risk_note": "A break below $2,000 could lead to a more significant correction."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH with a stop-loss at $2,350.00 and a target at $2,100.00. Monitor the price action closely for a potential bounce. Adjust the trade plan if the RSI reading breaks above 50.",
+    "risk_note": "A potential bullish reversal could occur if the price action breaks above the resistance level of $2,300.00."
   },
-  "updated_at": "2026-04-29T19:05:19.670069+00:00"
+  "updated_at": "2026-04-29T20:49:14.048045+00:00"
 }

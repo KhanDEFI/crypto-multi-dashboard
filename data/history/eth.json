@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T11:25:18.258463+00:00",
-    "price": 2356.64,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $2,300 support, targeting $2,400 resistance. Set stop-loss at $2,250. Monitor price action for signs of a breakout.",
-    "key_levels": {
-      "support": [
-        "$2,300",
-        "$2,250"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,450"
-      ]
-    },
-    "rsi": 59.45
-  },
-  {
     "timestamp": "2026-04-18T12:34:02.456124+00:00",
     "price": 2356.49,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.66
+  },
+  {
+    "timestamp": "2026-04-29T01:48:19.842574+00:00",
+    "price": 2286.36,
+    "trend_bias": "neutral",
+    "trade_plan": "Short-term, consider buying on dips towards $2,200, targeting $2,300. However, if price breaks below $2,150, consider shorting with a stop above $2,200. Monitor the market for any significant price movements.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,350"
+      ]
+    },
+    "rsi": 39.19
   }
 ]

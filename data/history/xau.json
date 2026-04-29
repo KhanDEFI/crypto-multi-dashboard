@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T18:30:25.425940+00:00",
-    "price": 4833.79,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying gold with a stop-loss below $4,037.68 and a target at $5,357.81, given the TradingView BUY signal and bullish trend bias.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 53.9
-  },
-  {
     "timestamp": "2026-04-18T19:33:11.066698+00:00",
     "price": 4833.79,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.51
+  },
+  {
+    "timestamp": "2026-04-29T17:14:27.909175+00:00",
+    "price": 4551.51,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term bearish bias, consider selling at current levels or near TV Pivot Support. Monitor DXY and real yields for further direction. A break below TV Pivot Support could lead to further declines.",
+    "key_levels": {
+      "support": [
+        "$4,037.68",
+        "$3,408.28"
+      ],
+      "resistance": [
+        "$5,357.81",
+        "$6,048.54"
+      ]
+    },
+    "rsi": 37.32
   }
 ]

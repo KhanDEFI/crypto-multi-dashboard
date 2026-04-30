@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T15:27:33.816691+00:00",
-    "price": 4833.79,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the support levels, with a target of reaching the resistance levels. Monitor the TradingView Signal and adjust the trade plan accordingly. A stop-loss below the support levels is recommended.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 53.9
-  },
-  {
     "timestamp": "2026-04-19T16:26:13.873859+00:00",
     "price": 4833.79,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.2
+  },
+  {
+    "timestamp": "2026-04-30T22:39:35.379358+00:00",
+    "price": 4629.11,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the market if it breaks below the $4,458.09 support level, targeting a potential move to $4,294.63. Otherwise, wait for a clear breakout above $4,837.22 to consider long positions.",
+    "key_levels": {
+      "support": [
+        "$4,458.09",
+        "$4,294.63"
+      ],
+      "resistance": [
+        "$4,837.22",
+        "$5,052.89"
+      ]
+    },
+    "rsi": 43.78
   }
 ]

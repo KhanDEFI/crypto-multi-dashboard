@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T08:54:55.582334+00:00",
-    "price": 2320.26,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $2,350, targeting $2,400. Alternatively, sell on a break below $2,280, targeting $2,220. Risk management is key in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$2,280",
-        "$2,220"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,400"
-      ]
-    },
-    "rsi": 44.68
-  },
-  {
     "timestamp": "2026-04-19T09:36:41.352171+00:00",
     "price": 2314.89,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.01
+  },
+  {
+    "timestamp": "2026-04-30T10:06:26.309194+00:00",
+    "price": 2263.03,
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a stop-loss at $2,300 and a target at $2,100. Monitor the market for a potential reversal. Adjust the trade plan if the RSI reading moves above 50.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,400"
+      ]
+    },
+    "rsi": 41.18
   }
 ]

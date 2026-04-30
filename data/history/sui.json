@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T12:33:33.485601+00:00",
-    "price": 0.955416,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.92, targeting $1.00 for a potential 4.2% gain. However, be cautious of a potential breakdown below $0.88. Monitor the price action closely for a clear trend bias.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.04"
-      ]
-    },
-    "rsi": 38.36
-  },
-  {
     "timestamp": "2026-04-19T13:52:04.719892+00:00",
     "price": 0.962507,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 35.62
+  },
+  {
+    "timestamp": "2026-04-30T18:01:52.084965+00:00",
+    "price": 0.906852,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $0.85, targeting $1.00 with a stop-loss at $0.80. Alternatively, sell on rallies towards $1.00, targeting $0.95 with a stop-loss at $1.05.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 38.62
   }
 ]

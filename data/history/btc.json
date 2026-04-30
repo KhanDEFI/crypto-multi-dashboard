@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T14:33:05.659183+00:00",
-    "price": 75922,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position if price breaks above $76,500, targeting $77,000. Conversely, sell if price falls below $74,500, aiming for $74,000. Monitor the 24h price action for confirmation.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$74,500"
-      ],
-      "resistance": [
-        "$76,500",
-        "$77,000"
-      ]
-    },
-    "rsi": 57.48
-  },
-  {
     "timestamp": "2026-04-19T15:27:33.816691+00:00",
     "price": 75975,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.44
+  },
+  {
+    "timestamp": "2026-04-30T21:44:38.537338+00:00",
+    "price": 76395,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $73,500, targeting $78,000. Set a stop-loss at $72,000. Monitor the trend and adjust the plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$73,500",
+        "$72,000"
+      ],
+      "resistance": [
+        "$78,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 52.09
   }
 ]

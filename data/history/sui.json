@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T22:22:26.343694+00:00",
-    "price": 0.922259,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling SUI/USD with a target of $0.85 and a stop-loss at $0.95. Medium-term, monitor the price action for a potential reversal or continuation of the downtrend. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 32.01
-  },
-  {
     "timestamp": "2026-04-19T23:25:28.458433+00:00",
     "price": 0.921649,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.26
+  },
+  {
+    "timestamp": "2026-05-01T13:19:06.906044+00:00",
+    "price": 0.921666,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.85, targeting $1.00 resistance. Set stop-loss at $0.80. Consider scaling out of long positions if price reaches $1.00.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 36.6
   }
 ]

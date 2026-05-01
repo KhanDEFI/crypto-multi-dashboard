@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-19T22:22:26.343694+00:00",
-    "price": 4788.21,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips towards the TV Pivot Support levels, targeting the lower resistance at $5,357.81. Monitor the price action and adjust the trade plan accordingly. A stop-loss below the recent low at $4,788.21 is recommended.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 50.99
-  },
-  {
     "timestamp": "2026-04-19T23:25:28.458433+00:00",
     "price": 4769.53,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.16
+  },
+  {
+    "timestamp": "2026-05-01T13:19:06.906044+00:00",
+    "price": 4590.64,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting gold with a stop-loss above $4,590.64, targeting $4,458.09 or $4,294.63. Monitor TradingView Signal and adjust accordingly.",
+    "key_levels": {
+      "support": [
+        "$4,458.09",
+        "$4,294.63"
+      ],
+      "resistance": [
+        "$4,837.22",
+        "$5,052.89"
+      ]
+    },
+    "rsi": 41.45
   }
 ]

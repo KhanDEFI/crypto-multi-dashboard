@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-20T13:01:19.972877+00:00",
-    "price": 75302,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a break below $73,000 with a stop-loss at $75,500. Consider taking profits around $70,000. A more conservative approach would be to wait for a confirmed break above $77,000.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$70,000"
-      ],
-      "resistance": [
-        "$75,500",
-        "$77,000"
-      ]
-    },
-    "rsi": 34.47
-  },
-  {
     "timestamp": "2026-04-20T15:07:32.759121+00:00",
     "price": 74868,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$75,000",
         "$73,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 57.56
+  },
+  {
+    "timestamp": "2026-05-01T21:41:08.981170+00:00",
+    "price": 78117,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $75,000, targeting $80,000. Sell on rallies to $82,000, aiming for $80,000. Risk management is crucial, with a stop-loss at $72,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
       ],
       "resistance": [
         "$80,000",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-20T11:09:27.144036+00:00",
-    "price": 75164,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider buying on a bounce above $75,000, with a target of $80,000. However, be cautious of a potential breakdown below $73,000, which could lead to a retest of $70,000.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$70,000"
-      ],
-      "resistance": [
-        "$75,000",
-        "$77,000"
-      ]
-    },
-    "rsi": 29.3
-  },
-  {
     "timestamp": "2026-04-20T13:01:19.972877+00:00",
     "price": 75302,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 61.51
+  },
+  {
+    "timestamp": "2026-05-01T20:51:15.467187+00:00",
+    "price": 77962,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $75,000, targeting $80,000. Set a stop-loss at $73,000. Monitor the price action for a breakout above $82,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$73,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 57.56
   }
 ]

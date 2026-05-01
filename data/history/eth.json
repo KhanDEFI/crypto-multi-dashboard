@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-20T16:52:02.789539+00:00",
-    "price": 2302.05,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips above $2,150, targeting $2,400. Consider scaling out of long positions if price reaches $2,600. Monitor for a break below $2,000 to re-enter short positions.",
-    "key_levels": {
-      "support": [
-        "$2,150",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,600"
-      ]
-    },
-    "rsi": 29.65
-  },
-  {
     "timestamp": "2026-04-20T17:48:01.422214+00:00",
     "price": 2313.67,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,300",
         "$2,350"
+      ]
+    },
+    "rsi": 43.76
+  },
+  {
+    "timestamp": "2026-05-01T23:40:35.723182+00:00",
+    "price": 2291.83,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,200, with a target of $2,350. Consider taking profits around $2,400. Be cautious of a potential reversal if the price fails to hold above $2,200.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,400"
       ]
     },
     "rsi": 43.76

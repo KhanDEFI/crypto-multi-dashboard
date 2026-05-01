@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-20T01:22:31.182027+00:00",
-    "price": 74259,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a stop loss at $75,000 and a target at $72,000. Alternatively, consider buying with a stop loss at $72,500 and a target at $76,000. Monitor the market closely for any signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$75,000",
-        "$76,000"
-      ]
-    },
-    "rsi": 13.18
-  },
-  {
     "timestamp": "2026-04-20T04:48:15.400010+00:00",
     "price": 74545,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$80,000",
         "$80,500"
+      ]
+    },
+    "rsi": 54.56
+  },
+  {
+    "timestamp": "2026-05-01T15:44:16.095076+00:00",
+    "price": 78634,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $76,000 with a target of $80,000, and consider scaling out at $79,500. Set a stop-loss at $75,500. Monitor the 24h RSI for signs of overbought conditions.",
+    "key_levels": {
+      "support": [
+        "$76,000",
+        "$75,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
       ]
     },
     "rsi": 54.56

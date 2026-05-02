@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-20T21:36:11.860948+00:00",
-    "price": 0.949831,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy at $0.90 with a stop loss at $0.85 and a target at $1.05, or wait for a pullback to $0.80 before entering a long position.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 42.89
-  },
-  {
     "timestamp": "2026-04-20T22:32:24.459388+00:00",
     "price": 0.949958,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.98",
         "$1.02"
+      ]
+    },
+    "rsi": 62.04
+  },
+  {
+    "timestamp": "2026-05-02T09:51:41.670296+00:00",
+    "price": 0.919538,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards the $0.85 support level, with a target of $1.00 resistance. Alternatively, consider selling on rallies towards $0.95 resistance. A stop-loss at $0.80 is recommended.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
       ]
     },
     "rsi": 62.04

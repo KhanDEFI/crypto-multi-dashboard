@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-21T04:38:46.741138+00:00",
-    "price": 2309.11,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $2,250, targeting $2,400. Set a stop-loss at $2,200. Monitor market sentiment and adjust accordingly.",
-    "key_levels": {
-      "support": [
-        "$2,250",
-        "$2,200"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,400"
-      ]
-    },
-    "rsi": 40.69
-  },
-  {
     "timestamp": "2026-04-21T06:27:51.767270+00:00",
     "price": 2310.17,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 2303.72,
     "trend_bias": "bullish",
     "trade_plan": "Consider selling ETH on a close above $2,350 to target $2,400, with a stop-loss at $2,200. Alternatively, wait for a pullback to $2,150 to buy with a target of $2,350.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,400"
+      ]
+    },
+    "rsi": 71.92
+  },
+  {
+    "timestamp": "2026-05-02T14:03:25.910374+00:00",
+    "price": 2307.81,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $2,200, targeting $2,350-$2,400 resistance. Consider scaling in on a pullback. Monitor the 24h RSI for signs of exhaustion.",
     "key_levels": {
       "support": [
         "$2,200",

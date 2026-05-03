@@ -1,13 +1,13 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2314.44,
-  "change_24h": 0.47,
-  "market_cap": 279272429895.5705,
-  "rsi": 71.68,
+  "price": 2323.99,
+  "change_24h": 0.87,
+  "market_cap": 280499305671.95795,
+  "rsi": 67.64,
   "analysis": {
-    "elliott_wave": "ETH is in a corrective wave (B) within a larger bullish trend, potentially forming a triangle or zigzag pattern.",
-    "momentum": "Momentum is neutral to bearish due to the overbought RSI reading and lack of significant price movement, suggesting a potential pullback.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle pattern within a larger bullish trend.",
+    "momentum": "Momentum is neutral, with RSI at 67.64, indicating a pause in the upward trend. However, the 0.87% 24h change suggests a slight bullish bias.",
     "key_levels": {
       "support": [
         "$2,200",
@@ -15,12 +15,12 @@
       ],
       "resistance": [
         "$2,400",
-        "$2,500"
+        "$2,600"
       ]
     },
     "trend_bias": "bullish",
-    "trade_plan": "Consider shorting ETH on a break below $2,200, targeting $2,100 with a stop-loss above $2,300. Alternatively, buy ETH on a bounce from $2,200, targeting $2,400 with a stop-loss below $2,100.",
-    "risk_note": "A break below $2,100 could trigger a more significant bearish trend, invalidating the current bullish bias."
+    "trade_plan": "Buy on dips towards $2,200, targeting $2,400-$2,600 resistance. Set stop-loss at $2,100. Monitor market cap and RSI for signs of trend reversal.",
+    "risk_note": "A sudden drop in market cap could indicate a shift in trend bias, potentially triggering a sell-off."
   },
-  "updated_at": "2026-05-03T11:33:57.464362+00:00"
+  "updated_at": "2026-05-03T12:40:42.432158+00:00"
 }

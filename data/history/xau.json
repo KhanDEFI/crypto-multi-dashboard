@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T12:56:33.605182+00:00",
-    "price": 4745.22,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards TV Pivot Support ($4,037.68, $3,408.28) or sell on rallies towards TV Pivot Resistance ($5,357.81, $6,048.54). Monitor price action for a clear breakout or reversal signal.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 48.43
-  },
-  {
     "timestamp": "2026-04-22T14:30:03.289014+00:00",
     "price": 4743.38,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4616.15,
     "trend_bias": "neutral",
     "trade_plan": "Consider selling on a break below $4,458.09 support, targeting $4,294.63. Alternatively, look for a bounce off current levels to retest resistance at $4,837.22. Be cautious of a potential bearish continuation.",
+    "key_levels": {
+      "support": [
+        "$4,458.09",
+        "$4,294.63"
+      ],
+      "resistance": [
+        "$4,837.22",
+        "$5,052.89"
+      ]
+    },
+    "rsi": 42.88
+  },
+  {
+    "timestamp": "2026-05-03T17:37:12.167836+00:00",
+    "price": 4616.15,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting with a stop above $4,837.22, targeting $4,294.63. Monitor TradingView Signal: SELL and adjust accordingly. Be cautious of potential safe-haven demand shifts.",
     "key_levels": {
       "support": [
         "$4,458.09",

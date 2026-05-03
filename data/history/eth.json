@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-21T20:46:12.360346+00:00",
-    "price": 2316.92,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a close above $2,400, targeting $2,200. Consider buying on a close below $2,100, targeting $2,300. Monitor the market for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,500"
-      ]
-    },
-    "rsi": 41.32
-  },
-  {
     "timestamp": "2026-04-21T21:35:21.622214+00:00",
     "price": 2313.5,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 73.68
+  },
+  {
+    "timestamp": "2026-05-03T01:43:06.748024+00:00",
+    "price": 2303.87,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a close below $2,200 for a potential short-term trade, with a target of $2,100. Alternatively, wait for a breakout above $2,400 to enter a long position. Risk management is key in this neutral market.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,600"
+      ]
+    },
+    "rsi": 73.09
   }
 ]

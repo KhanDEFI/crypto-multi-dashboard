@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T06:53:43.011407+00:00",
-    "price": 2353.82,
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, consider selling on a break below $2,250, while keeping an eye on a potential long entry above $2,400. Medium-term, the trend bias remains neutral, but a break above $2,550 could signal a bullish reversal.",
-    "key_levels": {
-      "support": [
-        "$2,250",
-        "$2,150"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,550"
-      ]
-    },
-    "rsi": 51.57
-  },
-  {
     "timestamp": "2026-04-23T08:27:01.986394+00:00",
     "price": 2340.67,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,400",
         "$2,500"
+      ]
+    },
+    "rsi": 58.83
+  },
+  {
+    "timestamp": "2026-05-04T15:00:52.837956+00:00",
+    "price": 2372.61,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips near $2,300 with a target of $2,500, and set a stop-loss at $2,200. Consider scaling in on a pullback to $2,250. Monitor the price action and adjust the trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$2,300",
+        "$2,250"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,450"
       ]
     },
     "rsi": 58.83

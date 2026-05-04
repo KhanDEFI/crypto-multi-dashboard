@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T22:36:53.670549+00:00",
-    "price": 4733.52,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting around current levels with a tight stop above $4733.52, targeting $4037.68 for a potential 14% gain. Alternatively, look for a bounce to $5357.81 for a long position",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 47.69
-  },
-  {
     "timestamp": "2026-04-22T23:36:54.604339+00:00",
     "price": 4725.99,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.56
+  },
+  {
+    "timestamp": "2026-05-04T05:22:32.102924+00:00",
+    "price": 4609.68,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target near the TV Pivot Support levels, but be cautious of potential safe-haven demand driven reversals.",
+    "key_levels": {
+      "support": [
+        "$4,458.09",
+        "$4,294.63"
+      ],
+      "resistance": [
+        "$4,837.22",
+        "$5,052.89"
+      ]
+    },
+    "rsi": 42.48
   }
 ]

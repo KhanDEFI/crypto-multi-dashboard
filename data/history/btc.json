@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T22:36:53.670549+00:00",
-    "price": 78554,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $80,000 or on a bearish reversal pattern, with a stop-loss at $75,000. If the price breaks below $75,000, consider buying on a bounce.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 71.74
-  },
-  {
     "timestamp": "2026-04-22T23:36:54.604339+00:00",
     "price": 78291,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 52.4
+  },
+  {
+    "timestamp": "2026-05-04T05:22:32.102924+00:00",
+    "price": 80033,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $82,000 or buying on a close below $75,000. Monitor the price action closely for a potential reversal. A stop-loss at $70,000 is recommended.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$82,000",
+        "$85,000"
+      ]
+    },
+    "rsi": 71.07
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T10:12:30.104285+00:00",
-    "price": 0.933332,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a range-bound trading strategy, focusing on buying dips near $0.85 and selling rallies near $1.00, with a stop-loss at $0.80.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 48.26
-  },
-  {
     "timestamp": "2026-04-23T11:51:49.482218+00:00",
     "price": 0.939123,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.96",
         "$0.98"
+      ]
+    },
+    "rsi": 57.43
+  },
+  {
+    "timestamp": "2026-05-04T19:10:11.948194+00:00",
+    "price": 0.938682,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.85, targeting $1.05. Set a stop-loss at $0.80 to limit potential losses. Consider scaling in positions to manage risk.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.05"
       ]
     },
     "rsi": 57.43

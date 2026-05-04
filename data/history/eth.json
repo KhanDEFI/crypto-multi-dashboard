@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T23:36:54.604339+00:00",
-    "price": 2378.99,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $2,500 or buying on a bounce from the $2,200 support level. Monitor the 24h RSI reading for signs of exhaustion. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,500",
-        "$2,700"
-      ]
-    },
-    "rsi": 73.51
-  },
-  {
     "timestamp": "2026-04-23T01:23:19.225948+00:00",
     "price": 2364.75,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 74.29
+  },
+  {
+    "timestamp": "2026-05-04T08:13:10.721051+00:00",
+    "price": 2361.52,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling ETH on a close above $2,500, targeting $2,700. Alternatively, buy ETH on a dip to $2,200. Monitor the market for a potential trend reversal.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,500",
+        "$2,700"
+      ]
+    },
+    "rsi": 70.49
   }
 ]

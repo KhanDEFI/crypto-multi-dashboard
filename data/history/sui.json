@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-22T21:42:40.173757+00:00",
-    "price": 0.959352,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $0.92, with a target of $1.00 and a stop-loss at $0.88. Monitor the market for a potential breakout above $1.00.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.04"
-      ]
-    },
-    "rsi": 56.37
-  },
-  {
     "timestamp": "2026-04-22T22:36:53.670549+00:00",
     "price": 0.95564,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 63.36
+  },
+  {
+    "timestamp": "2026-05-04T01:30:13.759711+00:00",
+    "price": 0.917771,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a break above $0.95 for a target of $1.00, or sell on a break below $0.90 for a target of $0.85.",
+    "key_levels": {
+      "support": [
+        "$0.90",
+        "$0.88"
+      ],
+      "resistance": [
+        "$0.95",
+        "$0.98"
+      ]
+    },
+    "rsi": 47.19
   }
 ]

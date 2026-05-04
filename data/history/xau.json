@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T01:23:19.225948+00:00",
-    "price": 4730.15,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on rallies towards resistance levels, targeting support levels for potential long entries. Monitor DXY and real yields for macro drivers. Be cautious of potential safe-haven demand shifts.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 47.48
-  },
-  {
     "timestamp": "2026-04-23T04:41:36.388026+00:00",
     "price": 4702.64,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.61
+  },
+  {
+    "timestamp": "2026-05-04T10:53:06.485269+00:00",
+    "price": 4562.72,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting XAU/USD with a target at the TradingView Pivot Support levels, while monitoring for potential bounces. A stop-loss above $4,600 would be advisable. A 24-48h price drop to $4,400 is a possible scenario.",
+    "key_levels": {
+      "support": [
+        "$4,458.09",
+        "$4,294.63"
+      ],
+      "resistance": [
+        "$4,837.22",
+        "$5,052.89"
+      ]
+    },
+    "rsi": 39.77
   }
 ]

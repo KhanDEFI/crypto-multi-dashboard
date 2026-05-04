@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T01:23:19.225948+00:00",
-    "price": 78171,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips around $76,000, targeting $80,000. Set a stop-loss at $75,500. Monitor the market for potential bearish divergence.",
-    "key_levels": {
-      "support": [
-        "$76,000",
-        "$75,500"
-      ],
-      "resistance": [
-        "$79,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 64.37
-  },
-  {
     "timestamp": "2026-04-23T04:41:36.388026+00:00",
     "price": 77897,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$77,500",
         "$75,000"
+      ],
+      "resistance": [
+        "$80,500",
+        "$82,000"
+      ]
+    },
+    "rsi": 66.97
+  },
+  {
+    "timestamp": "2026-05-04T10:53:06.485269+00:00",
+    "price": 79029,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy position at the next support level ($78,000) with a target of $82,000. Alternatively, a sell position at the resistance level ($80,500) with a target of $78,000. Monitor the price action for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$76,500"
       ],
       "resistance": [
         "$80,500",

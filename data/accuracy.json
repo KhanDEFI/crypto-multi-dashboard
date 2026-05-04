@@ -2,28 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-05-01T01:50:17.299233+00:00",
-        "price_at_prediction": 76649,
-        "price_now": 78308,
-        "price_change_pct": 2.16,
-        "predicted_bias": "bullish",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips above $76,000 with a target of $77,500. Set a stop-loss at $75,500. Monitor the market for any signs of a reversal.",
-        "levels_hit": [
-          {
-            "level": "$77,200",
-            "type": "resistance",
-            "hit": true
-          },
-          {
-            "level": "$77,500",
-            "type": "resistance",
-            "hit": true
-          }
-        ]
-      },
-      {
         "prediction_time": "2026-05-01T07:57:53.272711+00:00",
         "price_at_prediction": 77095,
         "price_now": 78242,
@@ -347,6 +325,17 @@
         "verdict": "CORRECT",
         "trade_plan": "Buy on dips towards $77,500, with a target of $80,000. Sell on a close below $78,000. Monitor the $80,000 resistance level for a potential reversal.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-05-03T10:42:39.890903+00:00",
+        "price_at_prediction": 78436,
+        "price_now": 79029,
+        "price_change_pct": 0.76,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Short-term traders should consider taking profits on long positions, while investors should maintain a bullish bias and look to add to positions on dips.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -355,22 +344,11 @@
       "partial": 15,
       "incorrect": 0,
       "accuracy_pct": 50.0,
-      "updated_at": "2026-05-04T08:13:14.203949+00:00"
+      "updated_at": "2026-05-04T10:53:11.527126+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-01T01:50:17.299233+00:00",
-        "price_at_prediction": 2266.24,
-        "price_now": 2296.75,
-        "price_change_pct": 1.35,
-        "predicted_bias": "neutral",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips towards $2,150.00, targeting $2,350.00. Set stop-loss at $2,050.00. Monitor market cap for signs of strength.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-01T07:57:53.272711+00:00",
         "price_at_prediction": 2278.59,
@@ -707,6 +685,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-05-03T10:42:39.890903+00:00",
+        "price_at_prediction": 2313.79,
+        "price_now": 2341.23,
+        "price_change_pct": 1.19,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider selling ETH at resistance levels ($2,400, $2,500) and buying on dips to $2,250. Monitor the 24h RSI for signs of reversal. Set a stop-loss at $2,100.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -715,22 +704,11 @@
       "partial": 8,
       "incorrect": 0,
       "accuracy_pct": 73.3,
-      "updated_at": "2026-05-04T08:13:14.203949+00:00"
+      "updated_at": "2026-05-04T10:53:11.527126+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-01T01:50:17.299233+00:00",
-        "price_at_prediction": 0.910695,
-        "price_now": 0.919087,
-        "price_change_pct": 0.92,
-        "predicted_bias": "neutral",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider buying on dips around $0.88-$0.85, targeting $0.94-$0.98 resistance levels. Set stop-loss at $0.82 to limit potential losses.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-01T07:57:53.272711+00:00",
         "price_at_prediction": 0.915129,
@@ -1049,6 +1027,17 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider a buy or sell on a break of $0.88 or $0.95, respectively, with a stop-loss at the opposite level. Monitor the market for signs of a breakout or reversal. A cautious approach is advised given the neutral trend bias.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-05-03T10:42:39.890903+00:00",
+        "price_at_prediction": 0.919906,
+        "price_now": 0.929692,
+        "price_change_pct": 1.06,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a buy on dips to $0.85, targeting $1.00 resistance, but be cautious of a potential breakdown if support at $0.80 is breached.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1057,22 +1046,11 @@
       "partial": 7,
       "incorrect": 2,
       "accuracy_pct": 70.0,
-      "updated_at": "2026-05-04T08:13:14.203949+00:00"
+      "updated_at": "2026-05-04T10:53:11.527126+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-01T01:50:17.299233+00:00",
-        "price_at_prediction": 4619.8,
-        "price_now": 4616.15,
-        "price_change_pct": -0.08,
-        "predicted_bias": "bearish",
-        "actual_direction": "neutral",
-        "verdict": "PARTIAL",
-        "trade_plan": "Consider short positions with a target at TV Pivot Support levels, but be cautious of potential safe-haven demand and central bank policy shifts",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-01T07:57:53.272711+00:00",
         "price_at_prediction": 4576.8,
@@ -1391,15 +1369,26 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider shorting with a tight stop above $4,837.22, targeting $4,458.09 as the initial support level. Monitor the DXY and real yields for potential catalysts. Adjust the trade plan based on the TradingView Signal.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-05-03T10:42:39.890903+00:00",
+        "price_at_prediction": 4616.15,
+        "price_now": 4562.72,
+        "price_change_pct": -1.16,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a sell strategy based on the TradingView Signal, but wait for a confirmation of a break below the TV Pivot Support levels. Monitor the price action closely for potential reversals. A stop-loss above the current price is recommended.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 16,
-      "partial": 11,
+      "correct": 17,
+      "partial": 10,
       "incorrect": 3,
-      "accuracy_pct": 53.3,
-      "updated_at": "2026-05-04T08:13:14.203949+00:00"
+      "accuracy_pct": 56.7,
+      "updated_at": "2026-05-04T10:53:11.527126+00:00"
     }
   }
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T11:51:49.482218+00:00",
-    "price": 4706.47,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,708 and a target at $4,037.68. Monitor the price action for a potential break below the support levels. Adjust the trade plan based on the TradingView Signal.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 46.05
-  },
-  {
     "timestamp": "2026-04-23T12:56:04.907508+00:00",
     "price": 4737.78,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.57
+  },
+  {
+    "timestamp": "2026-05-04T20:56:12.154824+00:00",
+    "price": 4521.74,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a stop loss above $4,837.22, targeting $4,294.63 or lower. Monitor TradingView Signal and adjust accordingly. Be cautious of potential bounce.",
+    "key_levels": {
+      "support": [
+        "$4,458.09",
+        "$4,294.63"
+      ],
+      "resistance": [
+        "$4,837.22",
+        "$5,052.89"
+      ]
+    },
+    "rsi": 37.68
   }
 ]

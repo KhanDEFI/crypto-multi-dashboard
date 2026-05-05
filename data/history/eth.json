@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T12:54:48.060870+00:00",
-    "price": 2320.09,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying ETH on a bounce above $2,300, targeting $2,400 resistance. Alternatively, sell on a break below $2,200 support. Monitor the market for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,150"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,400"
-      ]
-    },
-    "rsi": 40.82
-  },
-  {
     "timestamp": "2026-04-24T14:27:00.172272+00:00",
     "price": 2308.17,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 66.87
+  },
+  {
+    "timestamp": "2026-05-05T20:51:10.078813+00:00",
+    "price": 2382.23,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,350, targeting $2,450. Set stop-loss at $2,300. Monitor market sentiment for potential reversal.",
+    "key_levels": {
+      "support": [
+        "$2,350",
+        "$2,300"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,450"
+      ]
+    },
+    "rsi": 62.42
   }
 ]

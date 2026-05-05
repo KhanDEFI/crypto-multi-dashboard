@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T01:22:34.578607+00:00",
-    "price": 78080,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $76,000.00, targeting $80,000.00. Sell on rallies above $80,000.00, targeting $76,000.00. Risk management: set stop-loss at $75,000.00.",
-    "key_levels": {
-      "support": [
-        "$76,000.00",
-        "$75,000.00"
-      ],
-      "resistance": [
-        "$78,500.00",
-        "$80,000.00"
-      ]
-    },
-    "rsi": 63.45
-  },
-  {
     "timestamp": "2026-04-24T04:45:12.104936+00:00",
     "price": 77637,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$82,000",
+        "$85,000"
+      ]
+    },
+    "rsi": 65.61
+  },
+  {
+    "timestamp": "2026-05-05T11:08:31.523860+00:00",
+    "price": 80823,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $78,000, with a target of $85,000. However, be cautious of a potential correction and adjust the trade plan accordingly. A stop-loss at $75,000 is recommended.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$75,000"
+      ],
+      "resistance": [
+        "$82,500",
         "$85,000"
       ]
     },

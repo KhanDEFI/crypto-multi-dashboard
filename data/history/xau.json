@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T08:56:49.912756+00:00",
-    "price": 4690.22,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term sell or hedge strategy as the TradingView Signal is SELL. Monitor the price action around the TV Pivot Support levels for potential buying opportunities. Adjust the trade plan based on the price movement over the next 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$4,037.68",
-        "$3,408.28"
-      ],
-      "resistance": [
-        "$5,357.81",
-        "$6,048.54"
-      ]
-    },
-    "rsi": 45.11
-  },
-  {
     "timestamp": "2026-04-24T10:16:20.511016+00:00",
     "price": 4682.1,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.93
+  },
+  {
+    "timestamp": "2026-05-05T15:26:45.761816+00:00",
+    "price": 4578.55,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4,837.32, targeting $4,458.19 as the first key support level. Monitor the 24h change and adjust the trade plan accordingly. A break below $4,294.69 could trigger a more bearish scenario.",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 42.17
   }
 ]

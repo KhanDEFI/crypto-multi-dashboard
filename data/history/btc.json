@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T08:56:49.912756+00:00",
-    "price": 77862,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $80,000.00, targeting $82,000.00. Alternatively, sell on a break below $75,000.00, targeting $72,000.00. Risk management is key in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$75,000.00",
-        "$72,000.00"
-      ],
-      "resistance": [
-        "$80,000.00",
-        "$82,000.00"
-      ]
-    },
-    "rsi": 58.43
-  },
-  {
     "timestamp": "2026-04-24T10:16:20.511016+00:00",
     "price": 77540,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$83,000.00",
         "$85,000.00"
+      ]
+    },
+    "rsi": 70.99
+  },
+  {
+    "timestamp": "2026-05-05T15:26:45.761816+00:00",
+    "price": 81613,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $84,000 or buying on a close below $78,000. A stop-loss can be placed at $75,000. Monitor the price action for a potential pullback.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$75,000"
+      ],
+      "resistance": [
+        "$84,000",
+        "$86,000"
       ]
     },
     "rsi": 70.99

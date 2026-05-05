@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2383.67,
-  "change_24h": 1.45,
-  "market_cap": 287383308534.78564,
-  "rsi": 67.57,
+  "price": 2361.84,
+  "change_24h": -0.08,
+  "market_cap": 285683485785.9457,
+  "rsi": 66.87,
   "analysis": {
-    "elliott_wave": "ETH is currently in a bullish impulse wave, with the potential for a minor pullback before continuing upwards.",
-    "momentum": "The RSI reading of 67.57 indicates neutral momentum, but the 1.45% 24h price increase suggests a slight bullish bias.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle within a larger bullish trend.",
+    "momentum": "Momentum is neutral, with the RSI at 66.87, indicating a pause in the uptrend, but not a reversal.",
     "key_levels": {
       "support": [
-        "$2,350.00",
-        "$2,300.00"
+        "$2,300",
+        "$2,250"
       ],
       "resistance": [
-        "$2,420.00",
-        "$2,500.00"
+        "$2,400",
+        "$2,500"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Consider long positions with a target of $2,500.00 and a stop-loss at $2,300.00. Monitor the market for any signs of a reversal. Be prepared to adjust the trade plan if the trend bias shifts.",
-    "risk_note": "A potential risk to watch is a sudden increase in selling pressure, which could lead to a sharp decline in price."
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,300, targeting $2,400-$2,500. Sell on rallies above $2,400, targeting $2,300-$2,250. Monitor for a break of $2,250.",
+    "risk_note": "A break below $2,250 could indicate a more significant correction."
   },
-  "updated_at": "2026-05-05T15:26:45.761816+00:00"
+  "updated_at": "2026-05-05T17:11:02.677695+00:00"
 }

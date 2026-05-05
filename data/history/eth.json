@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T10:16:20.511016+00:00",
-    "price": 2309.34,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $2,200, targeting $2,100. Alternatively, look to buy on a bounce above $2,350, with a target of $2,450. Monitor the market for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,450"
-      ]
-    },
-    "rsi": 46.06
-  },
-  {
     "timestamp": "2026-04-24T11:51:09.029681+00:00",
     "price": 2330.44,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 67.57
+  },
+  {
+    "timestamp": "2026-05-05T17:11:02.677695+00:00",
+    "price": 2361.84,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,300, targeting $2,400-$2,500. Sell on rallies above $2,400, targeting $2,300-$2,250. Monitor for a break of $2,250.",
+    "key_levels": {
+      "support": [
+        "$2,300",
+        "$2,250"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,500"
+      ]
+    },
+    "rsi": 66.87
   }
 ]

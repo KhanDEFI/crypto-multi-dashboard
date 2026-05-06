@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T01:15:57.852120+00:00",
-    "price": 77522,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $75,000, targeting $80,000. Set a stop-loss at $72,000. Monitor for a breakout above $80,000.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 34.48
-  },
-  {
     "timestamp": "2026-04-25T06:13:43.042804+00:00",
     "price": 77560,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 62.38
+  },
+  {
+    "timestamp": "2026-05-06T21:00:34.522535+00:00",
+    "price": 81406,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $80,000 or going long on a bounce above $82,500. Monitor the price action closely for a potential breakout. Adjust the trade plan based on the next 24 hours' price movement.",
+    "key_levels": {
+      "support": [
+        "$80,000",
+        "$78,000"
+      ],
+      "resistance": [
+        "$82,500",
+        "$85,000"
+      ]
+    },
+    "rsi": 68.71
   }
 ]

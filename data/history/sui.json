@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T01:15:57.852120+00:00",
-    "price": 0.948122,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.90, targeting $1.00 with a stop-loss at $0.85. Alternatively, consider selling into strength towards $1.05, with a stop-loss at $1.00.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 36.63
-  },
-  {
     "timestamp": "2026-04-25T06:13:43.042804+00:00",
     "price": 0.951182,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 65.62
+  },
+  {
+    "timestamp": "2026-05-06T21:00:34.522535+00:00",
+    "price": 0.991356,
+    "trend_bias": "bullish",
+    "trade_plan": "Short-term: Consider selling at resistance levels ($1.02, $1.05) with a tight stop-loss. Medium-term: Monitor for a potential correction wave C, and consider buying at support levels ($0.95, $0.90).",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.02",
+        "$1.05"
+      ]
+    },
+    "rsi": 71.66
   }
 ]

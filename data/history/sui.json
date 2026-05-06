@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T19:42:16.467457+00:00",
-    "price": 0.950002,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips to $0.85 or selling on rallies to $1.00, with a stop-loss at $0.80. Monitor the market for any signs of trend reversal. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 42.57
-  },
-  {
     "timestamp": "2026-04-24T20:34:13.642642+00:00",
     "price": 0.948775,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 76.53
+  },
+  {
+    "timestamp": "2026-05-06T10:54:00.878662+00:00",
+    "price": 1.03,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions at current levels, aiming to re-enter at $0.95 support. Set a stop-loss at $0.90 to limit potential losses. Monitor the price action for a potential breakout above $1.10 resistance.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
+      ]
+    },
+    "rsi": 81.89
   }
 ]

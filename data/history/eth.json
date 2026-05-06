@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T19:42:16.467457+00:00",
-    "price": 2322.6,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider going long with a tight stop-loss around $2,200, targeting $2,350-$2,400 within the next 24-48 hours. Monitor the market for any signs of increased volatility.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,150"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,400"
-      ]
-    },
-    "rsi": 31.32
-  },
-  {
     "timestamp": "2026-04-24T20:34:13.642642+00:00",
     "price": 2319.43,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 59.24
+  },
+  {
+    "timestamp": "2026-05-06T10:54:00.878662+00:00",
+    "price": 2410.03,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on a pullback to $2,350.00 or selling on a break above $2,450.00. Monitor the 24h candle for a clear breakout. Adjust trade plan based on market action.",
+    "key_levels": {
+      "support": [
+        "$2,350.00",
+        "$2,300.00"
+      ],
+      "resistance": [
+        "$2,450.00",
+        "$2,500.00"
+      ]
+    },
+    "rsi": 60.51
   }
 ]

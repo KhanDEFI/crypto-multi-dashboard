@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T18:35:04.634036+00:00",
-    "price": 77571,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $75,000 or selling on rallies above $80,000. However, given the neutral momentum, a more cautious approach is advised. A break above $82,000 could confirm a bullish trend resumption.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 50.3
-  },
-  {
     "timestamp": "2026-04-24T19:42:16.467457+00:00",
     "price": 77645,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 65.17
+  },
+  {
+    "timestamp": "2026-05-06T05:17:37.693989+00:00",
+    "price": 81257,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the $80,000 support level, with a target of $85,000. However, be cautious of a potential reversal if the price action breaks below $78,000.",
+    "key_levels": {
+      "support": [
+        "$80,000",
+        "$78,000"
+      ],
+      "resistance": [
+        "$82,500",
+        "$85,000"
+      ]
+    },
+    "rsi": 67.5
   }
 ]

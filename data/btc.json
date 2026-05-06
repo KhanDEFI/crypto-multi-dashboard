@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 81431,
-  "change_24h": 0.1,
-  "market_cap": 1633085949441.6614,
+  "price": 81220,
+  "change_24h": -0.37,
+  "market_cap": 1626707870333.0903,
   "rsi": 62.38,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential correction within the larger bullish trend, with a possible ABC pattern unfolding. Wave 3 is likely the current upward movement.",
-    "momentum": "The RSI reading of 62.38 indicates neutral momentum, suggesting a pause in the upward trend. However, the 0.10% 24h change hints at a potential reversal.",
+    "elliott_wave": "BTC is in a corrective wave (B) within a larger downtrend, potentially forming a double zigzag pattern.",
+    "momentum": "The RSI is neutral at 62.38, indicating a lack of clear momentum, but the 24h change of -0.37% suggests a slight downtrend.",
     "key_levels": {
       "support": [
-        "$80,000",
-        "$78,000"
+        "$79,500.00",
+        "$78,000.00"
       ],
       "resistance": [
-        "$82,000",
-        "$84,000"
+        "$82,000.00",
+        "$83,500.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, consider selling at resistance levels around $82,000. Medium-term, focus on buying the dip around $80,000. Long-term, maintain a bullish stance.",
-    "risk_note": "Key risk: a sharp decline below $78,000 could trigger a more significant correction"
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop-loss at $82,000.00 and a target at $78,000.00. Monitor the price action closely for a potential breakout. A bullish reversal would require a close above $83,500.00.",
+    "risk_note": "A sudden shift in sentiment could lead to a sharp price move, potentially catching traders off guard."
   },
-  "updated_at": "2026-05-06T17:19:43.886053+00:00"
+  "updated_at": "2026-05-06T19:17:35.004061+00:00"
 }

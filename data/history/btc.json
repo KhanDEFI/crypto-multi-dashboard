@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-24T22:30:31.472074+00:00",
-    "price": 77578,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $80,000 if the price breaks above $78,000, while keeping a stop-loss at $75,000.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 45.3
-  },
-  {
     "timestamp": "2026-04-24T23:29:58.012286+00:00",
     "price": 77418,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 64.83
+  },
+  {
+    "timestamp": "2026-05-06T17:19:43.886053+00:00",
+    "price": 81431,
+    "trend_bias": "neutral",
+    "trade_plan": "Short-term, consider selling at resistance levels around $82,000. Medium-term, focus on buying the dip around $80,000. Long-term, maintain a bullish stance.",
+    "key_levels": {
+      "support": [
+        "$80,000",
+        "$78,000"
+      ],
+      "resistance": [
+        "$82,000",
+        "$84,000"
+      ]
+    },
+    "rsi": 62.38
   }
 ]

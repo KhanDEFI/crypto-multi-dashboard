@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T07:58:16.327045+00:00",
-    "price": 0.950353,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position if the price breaks above $1.00, with a target of $1.05. Alternatively, consider a sell position if the price breaks below $0.90, with a target of $0.85. Monitor the price action closely for any signs of a strong trend.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 47.47
-  },
-  {
     "timestamp": "2026-04-25T08:49:10.102779+00:00",
     "price": 0.951505,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.02",
         "$1.05"
+      ]
+    },
+    "rsi": 71.66
+  },
+  {
+    "timestamp": "2026-05-06T23:39:09.345751+00:00",
+    "price": 0.990811,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a tight stop above $1.05, targeting $0.95. Alternatively, wait for a clear reversal signal to enter a long position.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.05",
+        "$1.10"
       ]
     },
     "rsi": 71.66

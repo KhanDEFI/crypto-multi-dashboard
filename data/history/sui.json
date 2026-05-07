@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T08:49:10.102779+00:00",
-    "price": 0.951505,
-    "trend_bias": "neutral",
-    "trade_plan": "Wait for a clear breakout above $1.00 or a breakdown below $0.90 to establish a trade plan. Consider long positions if the price breaks above $1.00, and short positions if it breaks below $0.90. Monitor the market for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 52.63
-  },
-  {
     "timestamp": "2026-04-25T09:40:21.425276+00:00",
     "price": 0.951694,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 71.66
+  },
+  {
+    "timestamp": "2026-05-07T01:46:48.620485+00:00",
+    "price": 0.979614,
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI/USD with a stop-loss at $1.00 and a target at $0.90. Monitor the price action for a potential breakout or reversal. A close above $1.00 could negate the bearish trend bias.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.00",
+        "$1.05"
+      ]
+    },
+    "rsi": 71.22
   }
 ]

@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 79944,
-  "change_24h": -1.78,
-  "market_cap": 1601168980691.1775,
+  "price": 79831,
+  "change_24h": -2.14,
+  "market_cap": 1599166186062.5056,
   "rsi": 44.0,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave (4) within a larger bull market, with a potential wave 5 forming. The wave count suggests a minor pullback is due.",
-    "momentum": "The RSI is neutral at 44.0, indicating a lack of clear momentum. However, the 24h price change of -1.78% suggests a minor downtrend.",
+    "elliott_wave": "BTC is currently in a corrective wave, potentially within a larger bearish sequence. The wave count suggests a potential test of support.",
+    "momentum": "The RSI reading of 44.0 indicates a neutral momentum, but the recent 2.14% price drop suggests a bearish bias. A break below $79,831.00 could confirm this trend.",
     "key_levels": {
       "support": [
-        "$78,000",
-        "$76,000"
+        "$78,500.00",
+        "$77,000.00"
       ],
       "resistance": [
-        "$80,500",
-        "$81,500"
+        "$80,500.00",
+        "$82,000.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $78,000, targeting $80,500. Consider selling at $81,500. Monitor the 24h price action for signs of a larger trend reversal.",
-    "risk_note": "A break below $76,000 could indicate a larger bearish trend reversal."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop-loss above $80,500.00 and a target at $77,000.00. Monitor the market for a potential reversal. Adjust the trade plan if the price breaks above $80,500.00.",
+    "risk_note": "A sudden shift in market sentiment could lead to a rapid price reversal."
   },
-  "updated_at": "2026-05-07T20:55:33.841300+00:00"
+  "updated_at": "2026-05-07T21:44:47.971613+00:00"
 }

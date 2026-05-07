@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T16:28:25.881136+00:00",
-    "price": 2307.85,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a breakout above $2,400 with a stop-loss at $2,200, targeting $2,600. Alternatively, sell on a breakdown below $2,100 with a stop-loss at $2,200, targeting $2,000.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,600"
-      ]
-    },
-    "rsi": 34.64
-  },
-  {
     "timestamp": "2026-04-25T17:29:25.385481+00:00",
     "price": 2312.21,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 32.49
+  },
+  {
+    "timestamp": "2026-05-07T20:55:33.841300+00:00",
+    "price": 2288.94,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $2,200, targeting $2,150. Consider buying on a bounce above $2,300, but with a tight stop-loss.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,350"
+      ]
+    },
+    "rsi": 32.69
   }
 ]

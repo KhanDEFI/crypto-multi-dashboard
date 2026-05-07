@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-25T13:56:17.287330+00:00",
-    "price": 0.94661,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.92, targeting $1.02. However, if price breaks below $0.88, consider selling.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$0.98",
-        "$1.02"
-      ]
-    },
-    "rsi": 59.04
-  },
-  {
     "timestamp": "2026-04-25T14:36:24.500529+00:00",
     "price": 0.946515,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "1.03",
         "1.05"
+      ]
+    },
+    "rsi": 63.49
+  },
+  {
+    "timestamp": "2026-05-07T15:23:42.748120+00:00",
+    "price": 0.973317,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling SUI/USD at current levels and setting a stop-loss at $1.02, aiming to buy back at $0.92 if the price action holds above the support level.",
+    "key_levels": {
+      "support": [
+        "$0.92",
+        "$0.88"
+      ],
+      "resistance": [
+        "$1.02",
+        "$1.08"
       ]
     },
     "rsi": 63.49

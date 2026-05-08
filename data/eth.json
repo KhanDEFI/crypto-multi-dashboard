@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2278.18,
-  "change_24h": -2.02,
-  "market_cap": 274824105702.93488,
+  "price": 2276.71,
+  "change_24h": -1.92,
+  "market_cap": 274871806888.24893,
   "rsi": 31.28,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger downtrend, with a potential target at $2,000.",
-    "momentum": "The RSI reading of 31.28 indicates a neutral momentum, but the recent 2.02% price drop suggests a bearish trend bias.",
+    "elliott_wave": "ETH is currently in a corrective wave (A) of a larger downtrend, with a possible wave (B) forming.",
+    "momentum": "The RSI is neutral at 31.28, but the recent 1.92% price drop suggests a bearish momentum.",
     "key_levels": {
       "support": [
-        "$2,150",
+        "$2,100",
         "$2,000"
       ],
       "resistance": [
         "$2,300",
-        "$2,450"
+        "$2,400"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Short ETH with a target at $2,000, using a stop-loss at $2,350. Monitor the market for signs of a potential reversal.",
-    "risk_note": "A sudden shift in market sentiment could lead to a rapid price increase, potentially catching short positions off guard."
+    "trade_plan": "Short ETH with a target of $2,100, using a stop-loss at $2,400. Monitor the RSI for a potential reversal signal.",
+    "risk_note": "A sudden spike in market cap could lead to a short squeeze, potentially reversing the trend."
   },
-  "updated_at": "2026-05-08T04:46:22.253145+00:00"
+  "updated_at": "2026-05-08T06:26:21.453973+00:00"
 }

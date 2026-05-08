@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-26T10:34:57.747591+00:00",
-    "price": 78009,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $75,000 for a potential move to $80,000, with a stop-loss at $72,000. Consider scaling in positions to manage risk.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 48.04
-  },
-  {
     "timestamp": "2026-04-26T11:30:50.723873+00:00",
     "price": 78138,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$82,000",
         "$85,000"
+      ]
+    },
+    "rsi": 40.64
+  },
+  {
+    "timestamp": "2026-05-08T20:02:21.444309+00:00",
+    "price": 80127,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips to $78,500 for a potential move to $82,000, with a stop-loss at $77,000. Sell on rallies to $82,000 for a potential move to $80,500, with a stop-loss at $80,500.",
+    "key_levels": {
+      "support": [
+        "$78,500",
+        "$77,000"
+      ],
+      "resistance": [
+        "$80,500",
+        "$82,000"
       ]
     },
     "rsi": 40.64

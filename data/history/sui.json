@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-26T08:09:49.539005+00:00",
-    "price": 0.947437,
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, we recommend a wait-and-see approach, watching for a break below $0.90 to confirm a bearish trend. If the price holds above $0.90, a long position could be considered. However, this is a high-risk strategy.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 49.71
-  },
-  {
     "timestamp": "2026-04-26T09:42:07.303974+00:00",
     "price": 0.94398,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.05",
         "$1.10"
+      ]
+    },
+    "rsi": 49.17
+  },
+  {
+    "timestamp": "2026-05-08T16:07:03.265906+00:00",
+    "price": 1.007,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.98, with a target of $1.04 and a stop-loss at $0.95. Monitor the price action for a potential breakout above $1.04.",
+    "key_levels": {
+      "support": [
+        "$0.98",
+        "$0.95"
+      ],
+      "resistance": [
+        "$1.04",
+        "$1.06"
       ]
     },
     "rsi": 49.17

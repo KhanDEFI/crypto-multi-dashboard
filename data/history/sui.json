@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-27T01:26:10.538142+00:00",
-    "price": 0.953847,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above 0.96, with a target of 1.00, and a stop-loss at 0.92. Alternatively, shorting below 0.92 with a target of 0.88 and a stop-loss at 0.95.",
-    "key_levels": {
-      "support": [
-        "0.92",
-        "0.88"
-      ],
-      "resistance": [
-        "0.96",
-        "1.00"
-      ]
-    },
-    "rsi": 46.76
-  },
-  {
     "timestamp": "2026-04-27T04:57:40.783350+00:00",
     "price": 0.957209,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.10",
         "$1.15"
+      ]
+    },
+    "rsi": 61.89
+  },
+  {
+    "timestamp": "2026-05-09T18:41:05.785461+00:00",
+    "price": 1.066,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips to $1.04, targeting $1.12-$1.18 resistance. Set stop-loss at $0.99. Monitor market sentiment and adjust trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$1.04",
+        "$0.99"
+      ],
+      "resistance": [
+        "$1.12",
+        "$1.18"
       ]
     },
     "rsi": 61.89

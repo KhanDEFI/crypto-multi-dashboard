@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-27T14:54:33.811277+00:00",
-    "price": 77949,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a bullish trade plan with a target of $80,000 and a stop-loss at $75,000. Monitor the price action closely for a breakout or breakdown. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$77,000",
-        "$75,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 51.99
-  },
-  {
     "timestamp": "2026-04-27T16:17:22.556220+00:00",
     "price": 76807,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$82,500",
+        "$85,000"
+      ]
+    },
+    "rsi": 50.95
+  },
+  {
+    "timestamp": "2026-05-09T23:35:24.446836+00:00",
+    "price": 80645,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $78,000, with a target of $85,000. However, be cautious of a potential reversal if price fails to hold above $80,000.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$75,000"
+      ],
+      "resistance": [
+        "$82,000",
         "$85,000"
       ]
     },

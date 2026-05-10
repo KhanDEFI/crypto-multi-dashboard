@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-28T08:02:30.620871+00:00",
-    "price": 2286.16,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting ETH around $2,300 with a stop-loss at $2,350, targeting a profit of $100. Monitor the RSI for signs of oversold conditions. A break above $2,350 could invalidate this trade plan.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,150"
-      ],
-      "resistance": [
-        "$2,300",
-        "$2,350"
-      ]
-    },
-    "rsi": 46.09
-  },
-  {
     "timestamp": "2026-04-28T10:52:22.478512+00:00",
     "price": 2286.47,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 74.0
+  },
+  {
+    "timestamp": "2026-05-10T16:40:05.245664+00:00",
+    "price": 2346.66,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $2,200-$2,150, targeting $2,400-$2,500 resistance levels. Consider scaling in positions with a 24-48h time frame. Monitor for potential pullbacks.",
+    "key_levels": {
+      "support": [
+        "$2,200",
+        "$2,150"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,500"
+      ]
+    },
+    "rsi": 79.35
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-28T21:51:19.690052+00:00",
-    "price": 76323,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $73,000 for a potential target of $70,000, or going long on a break above $78,000 for a potential target of $80,000.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$70,000"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 35.55
-  },
-  {
     "timestamp": "2026-04-28T22:44:32.256070+00:00",
     "price": 76296,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$83,000",
         "$85,000"
+      ]
+    },
+    "rsi": 74.98
+  },
+  {
+    "timestamp": "2026-05-10T23:38:56.073597+00:00",
+    "price": 82341,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $85,000 or buying on a close below $80,000, with a target of $90,000 if the trade is successful.",
+    "key_levels": {
+      "support": [
+        "$80,000",
+        "$78,000"
+      ],
+      "resistance": [
+        "$85,000",
+        "$90,000"
       ]
     },
     "rsi": 74.98

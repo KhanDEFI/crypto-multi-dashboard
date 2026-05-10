@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-28T12:19:03.049496+00:00",
-    "price": 76249,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $78,000 resistance. Set stop-loss at $72,000. Monitor price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$73,500",
-        "$72,000"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 40.29
-  },
-  {
     "timestamp": "2026-04-28T17:27:40.254061+00:00",
     "price": 76052,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 81289,
     "trend_bias": "bullish",
     "trade_plan": "Consider buying on dips to $78,000 or $75,000, with a target of $85,000. Alternatively, consider shorting at $82,500 or $85,000. Monitor for a potential pullback or consolidation.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$75,000"
+      ],
+      "resistance": [
+        "$82,500",
+        "$85,000"
+      ]
+    },
+    "rsi": 79.27
+  },
+  {
+    "timestamp": "2026-05-10T18:42:38.105077+00:00",
+    "price": 81291,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $82,500 or on a reversal candle formation. Alternatively, consider buying on a close below $78,000. Monitor the market for a potential pullback.",
     "key_levels": {
       "support": [
         "$78,000",

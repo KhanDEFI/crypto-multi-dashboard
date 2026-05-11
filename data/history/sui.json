@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T15:50:50.281295+00:00",
-    "price": 0.902146,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position if the price breaks above $0.95, targeting $1.00. Alternatively, consider a sell position if the price breaks below $0.85, targeting $0.80. Monitor the market for any significant price movements.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 33.75
-  },
-  {
     "timestamp": "2026-04-29T17:14:27.909175+00:00",
     "price": 0.903462,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1.20",
         "$1.15"
+      ],
+      "resistance": [
+        "$1.35",
+        "$1.40"
+      ]
+    },
+    "rsi": 74.43
+  },
+  {
+    "timestamp": "2026-05-11T22:43:47.159864+00:00",
+    "price": 1.3,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting SUI/USD with a stop-loss at $1.35 and a target at $1.25. Monitor the price action for a potential bounce or reversal. Adjust the trade plan based on the market's response.",
+    "key_levels": {
+      "support": [
+        "$1.25",
+        "$1.20"
       ],
       "resistance": [
         "$1.35",

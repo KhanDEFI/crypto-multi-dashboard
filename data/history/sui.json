@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T05:16:52.027294+00:00",
-    "price": 0.933953,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards support levels ($0.85, $0.80) with a target of $1.00. However, be cautious of a potential reversal if the price fails to hold above $0.85. A stop-loss at $0.80 is recommended.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 41.85
-  },
-  {
     "timestamp": "2026-04-29T07:56:32.215986+00:00",
     "price": 0.930938,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 1.26,
     "trend_bias": "bullish",
     "trade_plan": "Short-term: Consider selling at the current price or slightly above. Medium-term: Look for a potential reversal around the $1.20 support level.",
+    "key_levels": {
+      "support": [
+        "$1.20",
+        "$1.15"
+      ],
+      "resistance": [
+        "$1.30",
+        "$1.35"
+      ]
+    },
+    "rsi": 73.63
+  },
+  {
+    "timestamp": "2026-05-11T11:55:15.905748+00:00",
+    "price": 1.26,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling or hedging a portion of the position to lock in profits, as the overbought RSI reading increases the risk of a short-term reversal. Set a stop-loss at $1.20 to limit potential losses. Monitor the price action for a potential pullback.",
     "key_levels": {
       "support": [
         "$1.20",

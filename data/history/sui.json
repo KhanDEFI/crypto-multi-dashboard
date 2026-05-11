@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T11:27:27.907597+00:00",
-    "price": 0.93023,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.85, targeting $1.00. Alternatively, sell on rallies towards $1.00, aiming for $0.95. Monitor price action for confirmation.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 41.64
-  },
-  {
     "timestamp": "2026-04-29T13:17:59.227536+00:00",
     "price": 0.922905,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 1.3,
     "trend_bias": "bearish",
     "trade_plan": "Short SUI/USD with a stop loss at $1.40 and a target at $1.10. Consider scaling into the position as the price approaches the support levels. Monitor the price action for signs of a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1.20",
+        "$1.10"
+      ],
+      "resistance": [
+        "$1.40",
+        "$1.50"
+      ]
+    },
+    "rsi": 70.08
+  },
+  {
+    "timestamp": "2026-05-11T19:24:22.048351+00:00",
+    "price": 1.32,
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI/USD with a target of $1.20 and a stop-loss at $1.40. Monitor the price action for a potential reversal in the next 24-48 hours. Adjust the trade plan accordingly.",
     "key_levels": {
       "support": [
         "$1.20",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-30T12:06:36.141742+00:00",
-    "price": 2259.04,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting ETH with a tight stop-loss around $2,300.00, targeting a profit at $2,150.00. Monitor the price action closely for any signs of a reversal. A break below $2,000.00 could trigger a more significant sell-off.",
-    "key_levels": {
-      "support": [
-        "$2,150.00",
-        "$2,000.00"
-      ],
-      "resistance": [
-        "$2,300.00",
-        "$2,400.00"
-      ]
-    },
-    "rsi": 41.18
-  },
-  {
     "timestamp": "2026-04-30T16:13:24.811480+00:00",
     "price": 2263.5,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 2285.19,
     "trend_bias": "neutral",
     "trade_plan": "Buy on dips towards $2,150, targeting $2,350 for a potential 5-7% gain. Set a stop-loss at $2,000 to limit risk. Monitor the price action for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$2,150",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,350",
+        "$2,500"
+      ]
+    },
+    "rsi": 40.6
+  },
+  {
+    "timestamp": "2026-05-12T23:48:30.488546+00:00",
+    "price": 2274.86,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $2,250 with a stop-loss at $2,300, targeting $2,150 for a potential 2-3% profit. Alternatively, consider buying ETH around $2,150 with a stop-loss at $2,000, targeting $2,350 for a potential 2-3% profit.",
     "key_levels": {
       "support": [
         "$2,150",

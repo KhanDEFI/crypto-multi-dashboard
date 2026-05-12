@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-30T12:06:36.141742+00:00",
-    "price": 0.907032,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $0.88, targeting $0.85, with a stop-loss above $0.95. Alternatively, look for a bounce off support to enter long, targeting $1.00.",
-    "key_levels": {
-      "support": [
-        "$0.88",
-        "$0.85"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 34.91
-  },
-  {
     "timestamp": "2026-04-30T16:13:24.811480+00:00",
     "price": 0.907394,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.30",
         "$1.35"
+      ]
+    },
+    "rsi": 60.38
+  },
+  {
+    "timestamp": "2026-05-12T23:48:30.488546+00:00",
+    "price": 1.24,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, we recommend selling on rallies towards $1.30, targeting $1.18. Medium-term, we expect a larger correction towards $1.00. Risk management is crucial, as the market can be volatile.",
+    "key_levels": {
+      "support": [
+        "$1.18",
+        "$1.12"
+      ],
+      "resistance": [
+        "$1.30",
+        "$1.40"
       ]
     },
     "rsi": 60.38

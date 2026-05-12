@@ -1,17 +1,17 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2276.67,
-  "change_24h": -2.71,
-  "market_cap": 274755461767.28778,
-  "rsi": 32.62,
+  "price": 2284.48,
+  "change_24h": -2.28,
+  "market_cap": 275809709061.95496,
+  "rsi": 40.6,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave 2, potentially forming a zigzag pattern within a larger downtrend.",
-    "momentum": "The RSI reading of 32.62 indicates a neutral momentum, but the recent price action suggests a bearish trend continuation.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a double zigzag pattern. The wave count suggests a potential bounce in the near term.",
+    "momentum": "The RSI reading of 40.6 indicates a neutral momentum, but the recent 2.28% price drop suggests a bearish bias. A break below $2,200 could accelerate the downtrend.",
     "key_levels": {
       "support": [
-        "$2,100",
-        "$2,000"
+        "$2,200",
+        "$2,100"
       ],
       "resistance": [
         "$2,300",
@@ -19,8 +19,8 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Short ETH with a stop-loss at $2,400 and a target at $2,000, considering a potential 10-15% move within the next 24-48 hours.",
-    "risk_note": "A potential reversal in trend bias could occur if the price breaks above $2,400 resistance level."
+    "trade_plan": "Sell on a break below $2,200, targeting $2,100. Consider buying on a bounce above $2,300. Monitor market sentiment and adjust the plan accordingly.",
+    "risk_note": "A sudden shift in market sentiment, potentially driven by regulatory news or a major exchange outage, could lead to a sharp price swing."
   },
-  "updated_at": "2026-05-12T18:29:08.981284+00:00"
+  "updated_at": "2026-05-12T20:23:23.527452+00:00"
 }

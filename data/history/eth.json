@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T21:50:09.957791+00:00",
-    "price": 2256.15,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $2,200, targeting $2,300-$2,350, but be cautious of a potential drop to $2,100-$2,150.",
-    "key_levels": {
-      "support": [
-        "$2,150",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,300",
-        "$2,350"
-      ]
-    },
-    "rsi": 34.22
-  },
-  {
     "timestamp": "2026-04-29T22:43:43.293437+00:00",
     "price": 2256.45,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 42.03
+  },
+  {
+    "timestamp": "2026-05-12T08:19:58.495840+00:00",
+    "price": 2285.25,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $2,400 or selling on a break below $2,150, with a stop-loss at $2,000.",
+    "key_levels": {
+      "support": [
+        "$2,150",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,400",
+        "$2,600"
+      ]
+    },
+    "rsi": 40.02
   }
 ]

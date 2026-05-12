@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29T22:43:43.293437+00:00",
-    "price": 75904,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $72,000, targeting $78,000. Sell on rallies above $78,000, targeting $80,000. Monitor the 24h change for signs of trend reversal.",
-    "key_levels": {
-      "support": [
-        "$72,000",
-        "$70,000"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 32.43
-  },
-  {
     "timestamp": "2026-04-29T23:42:04.060605+00:00",
     "price": 75803,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$82,000",
         "$85,000"
+      ]
+    },
+    "rsi": 51.71
+  },
+  {
+    "timestamp": "2026-05-12T11:09:27.160868+00:00",
+    "price": 80559,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy entry at the next support level ($78,000) with a stop-loss at $76,500. Alternatively, a sell entry at the resistance level ($82,000) with a stop-loss at $84,500. Monitor the price action for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$76,500"
+      ],
+      "resistance": [
+        "$82,000",
+        "$84,500"
       ]
     },
     "rsi": 51.71

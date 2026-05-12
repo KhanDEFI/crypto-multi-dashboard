@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 81776,
-  "change_24h": -0.69,
-  "market_cap": 1637855762501.725,
-  "rsi": 65.67,
+  "price": 81089,
+  "change_24h": -0.47,
+  "market_cap": 1620940382312.3467,
+  "rsi": 61.84,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bullish trend, with a potential wave 3 forming.",
-    "momentum": "The RSI is neutral at 65.67, indicating a lack of strong momentum, but the recent price action suggests a possible bearish divergence.",
+    "elliott_wave": "BTC is in a corrective wave (B) within a larger bearish impulse, as the price is attempting to form a higher low. The wave count suggests a potential continuation of the downtrend.",
+    "momentum": "The RSI is neutral at 61.84, indicating a lack of strong momentum in either direction. However, the 24h change of -0.47% suggests a slight bearish bias.",
     "key_levels": {
       "support": [
-        "$80,000",
-        "$78,000"
+        "$75,000",
+        "$70,000"
       ],
       "resistance": [
-        "$82,000",
-        "$84,000"
+        "$80,000",
+        "$85,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $80,000, targeting $78,000. Alternatively, look to buy on a bounce above $82,000, targeting $84,000. Monitor the price action closely for a clear trend direction.",
-    "risk_note": "A break below $78,000 could indicate a stronger bearish trend, while a hold above $82,000 could confirm a bullish trend"
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $75,000 with a target of $70,000. Consider buying on a bounce above $80,000 with a target of $85,000. A stop-loss at $65,000 is recommended.",
+    "risk_note": "A break above $85,000 could invalidate the bearish trend bias and lead to a significant price increase."
   },
-  "updated_at": "2026-05-11T23:44:43.620321+00:00"
+  "updated_at": "2026-05-12T01:49:37.807718+00:00"
 }

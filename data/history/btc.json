@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-01T15:44:16.095076+00:00",
-    "price": 78634,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $76,000 with a target of $80,000, and consider scaling out at $79,500. Set a stop-loss at $75,500. Monitor the 24h RSI for signs of overbought conditions.",
-    "key_levels": {
-      "support": [
-        "$76,000",
-        "$75,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 54.56
-  },
-  {
     "timestamp": "2026-05-01T17:46:24.890212+00:00",
     "price": 78423,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$80,500",
+        "$82,000"
+      ]
+    },
+    "rsi": 36.5
+  },
+  {
+    "timestamp": "2026-05-14T11:07:04.811583+00:00",
+    "price": 79501,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $78,000 or going long on a bounce above $80,000, with a stop-loss at $75,000.",
+    "key_levels": {
+      "support": [
+        "$78,000",
+        "$75,000"
+      ],
+      "resistance": [
+        "$80,000",
         "$82,000"
       ]
     },

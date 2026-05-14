@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-01T20:51:15.467187+00:00",
-    "price": 0.920668,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $0.85, with a target of $1.00. However, if the price breaks below $0.80, consider shorting with a stop at $0.85. A tight stop-loss is recommended.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 46.16
-  },
-  {
     "timestamp": "2026-05-01T21:41:08.981170+00:00",
     "price": 0.922252,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.5
+  },
+  {
+    "timestamp": "2026-05-14T20:22:10.361350+00:00",
+    "price": 1.2,
+    "trend_bias": "neutral",
+    "trade_plan": "Wait for a clear breakout or reversal signal, then consider trading in the direction of the breakout. Set stop-loss at the 24h low. Target a 2-3% profit.",
+    "key_levels": {
+      "support": [
+        "$1.15",
+        "$1.10"
+      ],
+      "resistance": [
+        "$1.25",
+        "$1.30"
+      ]
+    },
+    "rsi": 42.86
   }
 ]

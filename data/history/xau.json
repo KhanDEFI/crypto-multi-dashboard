@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-01T22:38:50.603275+00:00",
-    "price": 4616.15,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term sell position with a tight stop-loss above $4,837.22, targeting $4,458.09 or $4,294.63. Monitor the price action and adjust the stop-loss accordingly. Be cautious of a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$4,458.09",
-        "$4,294.63"
-      ],
-      "resistance": [
-        "$4,837.22",
-        "$5,052.89"
-      ]
-    },
-    "rsi": 42.88
-  },
-  {
     "timestamp": "2026-05-01T23:40:35.723182+00:00",
     "price": 4616.15,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.67
+  },
+  {
+    "timestamp": "2026-05-14T22:54:25.986789+00:00",
+    "price": 4661.91,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a break below $4,458.19, targeting $4,294.69. Alternatively, wait for a strong bullish signal or a break above $4,837.32 to consider long positions.",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 47.52
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-01T14:45:08.801061+00:00",
-    "price": 0.919958,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider long positions with a target of $1.00 and a stop-loss at $0.85. Monitor the price action for a potential breakout above $0.95. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 36.6
-  },
-  {
     "timestamp": "2026-05-01T15:44:16.095076+00:00",
     "price": 0.926518,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 26.09
+  },
+  {
+    "timestamp": "2026-05-14T08:24:33.736527+00:00",
+    "price": 1.19,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1.10 with a target of $1.25. Alternatively, consider selling on a break below $1.05 with a stop above $1.10. Monitor the price action for a potential trend reversal.",
+    "key_levels": {
+      "support": [
+        "$1.10",
+        "$1.05"
+      ],
+      "resistance": [
+        "$1.25",
+        "$1.30"
+      ]
+    },
+    "rsi": 27.27
   }
 ]

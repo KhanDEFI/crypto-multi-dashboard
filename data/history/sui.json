@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T14:03:25.910374+00:00",
-    "price": 0.91961,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.88-$0.85 support levels, with a target of $1.00 resistance. Alternatively, sell on rallies towards $0.95-$1.00 resistance levels. Monitor price action closely for potential breakouts.",
-    "key_levels": {
-      "support": [
-        "$0.88",
-        "$0.85"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 55.93
-  },
-  {
     "timestamp": "2026-05-02T15:36:07.688072+00:00",
     "price": 0.92275,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.15",
         "$1.20"
+      ]
+    },
+    "rsi": 24.41
+  },
+  {
+    "timestamp": "2026-05-15T21:46:13.358007+00:00",
+    "price": 1.095,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting SUI/USD with a stop-loss above $1.20, targeting a potential bounce to $1.10-$1.15 within the next 24-48 hours.",
+    "key_levels": {
+      "support": [
+        "0.98",
+        "1.00"
+      ],
+      "resistance": [
+        "1.09",
+        "1.20"
       ]
     },
     "rsi": 24.41

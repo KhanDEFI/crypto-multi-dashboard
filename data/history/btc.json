@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T11:36:02.952012+00:00",
-    "price": 78169,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $80,000 or buying on a dip to $75,000, with a target of $85,000. Monitor the RSI for signs of a potential pullback. Adjust the trade plan based on market conditions.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 80.78
-  },
-  {
     "timestamp": "2026-05-02T12:41:03.814656+00:00",
     "price": 78190,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.24
+  },
+  {
+    "timestamp": "2026-05-15T17:19:06.806254+00:00",
+    "price": 79206,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a break below $76,500 for a potential short-term trade, with a stop-loss above $80,000. Alternatively, look for a bounce off the current price to enter a long position with a target at $82,000.",
+    "key_levels": {
+      "support": [
+        "$76,500",
+        "$74,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 40.11
   }
 ]

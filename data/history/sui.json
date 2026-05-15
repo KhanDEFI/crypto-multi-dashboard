@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T12:41:03.814656+00:00",
-    "price": 0.917766,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a tight stop-loss at $0.80, targeting $1.00 for a potential 8.7% gain. Alternatively, a short position with a stop-loss at $1.00 could yield a 8.7% gain. Monitor the market for any significant price movements.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 55.93
-  },
-  {
     "timestamp": "2026-05-02T14:03:25.910374+00:00",
     "price": 0.91961,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 19.08
+  },
+  {
+    "timestamp": "2026-05-15T20:48:30.581545+00:00",
+    "price": 1.095,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting SUI/USD with a tight stop-loss above $1.15, targeting a potential bounce to $1.10-$1.12. Monitor the market for a potential reversal signal. Adjust the trade plan based on the market's reaction to the current support levels.",
+    "key_levels": {
+      "support": [
+        "$0.98",
+        "$0.92"
+      ],
+      "resistance": [
+        "$1.15",
+        "$1.20"
+      ]
+    },
+    "rsi": 24.41
   }
 ]

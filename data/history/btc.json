@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T15:36:07.688072+00:00",
-    "price": 78389,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a close below $75,000, with a target of $72,000. Alternatively, consider buying on a bounce above $80,000, with a target of $82,000.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 78.73
-  },
-  {
     "timestamp": "2026-05-02T16:34:20.893809+00:00",
     "price": 78466,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$80,500",
+        "$82,000"
+      ]
+    },
+    "rsi": 42.02
+  },
+  {
+    "timestamp": "2026-05-15T22:42:18.165707+00:00",
+    "price": 79072,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $75,000 or selling on rallies towards $80,000. A break above $80,000 could confirm a resumption of the bull trend, while a break below $75,000 could indicate a deeper correction.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$73,000"
+      ],
+      "resistance": [
+        "$80,000",
         "$82,000"
       ]
     },

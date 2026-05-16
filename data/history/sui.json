@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-03T07:44:11.927616+00:00",
-    "price": 0.918199,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy or sell on a break of $0.88 or $0.95, respectively, with a stop-loss at the opposite level. Monitor the market for signs of a breakout or reversal. A cautious approach is advised given the neutral trend bias.",
-    "key_levels": {
-      "support": [
-        "$0.88",
-        "$0.85"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 58.63
-  },
-  {
     "timestamp": "2026-05-03T09:11:18.751699+00:00",
     "price": 0.917074,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 1.065,
     "trend_bias": "bullish",
     "trade_plan": "Buy on dips to $1.00 or $0.95, targeting $1.10 or $1.15. Set stop-loss at $0.90. Monitor the price action for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$1.00",
+        "$0.95"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
+      ]
+    },
+    "rsi": 25.7
+  },
+  {
+    "timestamp": "2026-05-16T17:44:21.433649+00:00",
+    "price": 1.063,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a bounce above $1.06, targeting $1.00-$0.95. Consider scaling out of long positions. Monitor for a potential reversal if price fails to hold above $1.00.",
     "key_levels": {
       "support": [
         "$1.00",

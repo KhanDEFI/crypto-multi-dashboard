@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-03T01:43:06.748024+00:00",
-    "price": 0.916764,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a close above $0.95 or buying on a close below $0.85. A stop-loss can be placed at $0.80 to limit potential losses. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 72.72
-  },
-  {
     "timestamp": "2026-05-03T05:19:43.636909+00:00",
     "price": 0.917041,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$1.10",
+        "$1.15"
+      ]
+    },
+    "rsi": 17.72
+  },
+  {
+    "timestamp": "2026-05-16T15:45:24.520666+00:00",
+    "price": 1.069,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term traders may consider selling on a break above $1.12, while long-term investors may look to buy on a bounce to $1.05. A stop-loss at $1.00 could be considered. Risk management is crucial in this volatile market.",
+    "key_levels": {
+      "support": [
+        "$1.05",
+        "$1.02"
+      ],
+      "resistance": [
+        "$1.12",
         "$1.15"
       ]
     },

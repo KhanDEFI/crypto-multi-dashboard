@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T21:29:09.192119+00:00",
-    "price": 2312.82,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting on a close below $2,200, targeting $2,000. Alternatively, look to long on a bounce above $2,400, targeting $2,600. Monitor the 24h RSI for signs of a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,600"
-      ]
-    },
-    "rsi": 73.68
-  },
-  {
     "timestamp": "2026-05-02T22:28:18.114584+00:00",
     "price": 2319.07,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,200",
         "$2,250"
+      ]
+    },
+    "rsi": 34.91
+  },
+  {
+    "timestamp": "2026-05-16T11:41:34.533022+00:00",
+    "price": 2178.78,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $2,050, targeting $1,900. Consider buying on a bounce above $2,300. Monitor the market for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$2,050",
+        "$1,900"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,500"
       ]
     },
     "rsi": 34.91

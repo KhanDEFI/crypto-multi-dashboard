@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T23:32:18.759719+00:00",
-    "price": 2322.41,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $2,400 to target $2,500-$2,550, but set a stop-loss at $2,350 to limit potential losses.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,150"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,400"
-      ]
-    },
-    "rsi": 73.68
-  },
-  {
     "timestamp": "2026-05-03T01:43:06.748024+00:00",
     "price": 2303.87,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,300",
         "$2,500"
+      ]
+    },
+    "rsi": 34.81
+  },
+  {
+    "timestamp": "2026-05-16T14:17:04.062236+00:00",
+    "price": 2174.06,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,100, targeting $2,200. Sell on rallies towards $2,250, targeting $2,200. Monitor the price action for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$2,100",
+        "$2,050"
+      ],
+      "resistance": [
+        "$2,200",
+        "$2,250"
       ]
     },
     "rsi": 34.81

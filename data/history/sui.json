@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02T20:29:18.116707+00:00",
-    "price": 0.926497,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting SUI/USD on a pullback to $0.85, with a stop-loss at $0.80. Alternatively, consider buying on a bounce from $0.80. A wait-and-see approach is recommended given the neutral trend bias.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.98",
-        "$1.00"
-      ]
-    },
-    "rsi": 73.43
-  },
-  {
     "timestamp": "2026-05-02T21:29:09.192119+00:00",
     "price": 0.926766,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.20",
         "$1.30"
+      ]
+    },
+    "rsi": 18.67
+  },
+  {
+    "timestamp": "2026-05-16T10:57:54.502869+00:00",
+    "price": 1.045,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting SUI/USD with a tight stop above $1.12, targeting $0.92. However, be cautious of a potential bounce if the RSI continues to oversell. Monitor the price action closely for a clear trend reversal.",
+    "key_levels": {
+      "support": [
+        "$0.98",
+        "$0.92"
+      ],
+      "resistance": [
+        "$1.12",
+        "$1.20"
       ]
     },
     "rsi": 18.67

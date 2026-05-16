@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-03T11:33:57.464362+00:00",
-    "price": 2314.44,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting ETH on a break below $2,200, targeting $2,100 with a stop-loss above $2,300. Alternatively, buy ETH on a bounce from $2,200, targeting $2,400 with a stop-loss below $2,100.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,500"
-      ]
-    },
-    "rsi": 71.68
-  },
-  {
     "timestamp": "2026-05-03T12:40:42.432158+00:00",
     "price": 2323.99,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 27.31
+  },
+  {
+    "timestamp": "2026-05-16T20:36:14.050487+00:00",
+    "price": 2180.59,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH around current levels, targeting a potential bounce to $2,200-$2,250, but be cautious of a potential reversal if price action breaks above $2,250.",
+    "key_levels": {
+      "support": [
+        "$2,150",
+        "$2,100"
+      ],
+      "resistance": [
+        "$2,200",
+        "$2,250"
+      ]
+    },
+    "rsi": 28.93
   }
 ]

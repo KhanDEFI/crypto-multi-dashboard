@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04T17:19:08.881709+00:00",
-    "price": 0.9356,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $0.92, targeting $0.96-$0.98 resistance levels. Set stop-loss at $0.88 to limit risk.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$0.96",
-        "$0.98"
-      ]
-    },
-    "rsi": 57.43
-  },
-  {
     "timestamp": "2026-05-04T19:10:11.948194+00:00",
     "price": 0.938682,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.10",
         "$1.12"
+      ]
+    },
+    "rsi": 32.73
+  },
+  {
+    "timestamp": "2026-05-17T22:41:46.375965+00:00",
+    "price": 1.064,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $0.98, targeting $1.14 for a potential 6% gain. Sell on rallies above $1.14, targeting $0.92 for a potential 13% gain. Monitor the price action closely for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$0.98",
+        "$0.92"
+      ],
+      "resistance": [
+        "$1.14",
+        "$1.20"
       ]
     },
     "rsi": 32.73

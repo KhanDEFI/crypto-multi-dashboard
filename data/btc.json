@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 77932,
-  "change_24h": 0.05,
-  "market_cap": 1560815712390.6514,
+  "price": 77989,
+  "change_24h": -0.31,
+  "market_cap": 1562156149088.0056,
   "rsi": 14.6,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential bullish impulse wave (1) unfolding, with a possible retracement to retest the recent highs.",
-    "momentum": "The RSI reading of 14.6 indicates an oversold condition, suggesting a potential bounce in price action, but momentum remains weak.",
+    "elliott_wave": "BTC is currently in a corrective wave, potentially the end of a larger downtrend. The wave count suggests a possible bounce.",
+    "momentum": "The RSI is oversold, indicating a potential buying opportunity. However, the 24h price change is negative, suggesting caution.",
     "key_levels": {
       "support": [
-        "$75,000",
-        "$72,500"
+        "$76,500",
+        "$75,000"
       ],
       "resistance": [
-        "$80,000",
-        "$82,500"
+        "$78,500",
+        "$80,000"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on a bounce above $75,000, targeting $80,000, with a stop-loss at $72,500. However, be cautious of a potential bearish reversal if price fails to hold above $75,000.",
-    "risk_note": "A break below $72,500 could signal a more significant bearish reversal, potentially leading to a deeper correction."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $76,500, with a target of $80,000. However, set a stop-loss at $75,000 to limit potential losses. Monitor the 24h price action for signs of a reversal.",
+    "risk_note": "A sudden spike in global market volatility could lead to a sharp decline in BTC price."
   },
-  "updated_at": "2026-05-17T14:19:32.857144+00:00"
+  "updated_at": "2026-05-17T15:47:49.455954+00:00"
 }

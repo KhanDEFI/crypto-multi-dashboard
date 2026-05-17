@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-03T18:40:20.752744+00:00",
-    "price": 0.923243,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $0.92, targeting $0.95-1.00 resistance. Alternatively, sell on a break below $0.85 support. Monitor the 24h price action for confirmation.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 58.31
-  },
-  {
     "timestamp": "2026-05-03T19:44:21.954097+00:00",
     "price": 0.925833,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 15.53
+  },
+  {
+    "timestamp": "2026-05-17T08:06:06.654320+00:00",
+    "price": 1.071,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a bounce above $1.07, targeting $1.20-$1.40. Set a stop-loss at $0.90. Monitor for a break above $1.20 to confirm a bullish trend.",
+    "key_levels": {
+      "support": [
+        "$0.90",
+        "$0.80"
+      ],
+      "resistance": [
+        "$1.20",
+        "$1.40"
+      ]
+    },
+    "rsi": 22.17
   }
 ]

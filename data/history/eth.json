@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04T10:53:06.485269+00:00",
-    "price": 2341.23,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling ETH at current levels, aiming for a pullback to $2,200-$2,100, and re-entering long positions on a bounce.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,500"
-      ]
-    },
-    "rsi": 70.49
-  },
-  {
     "timestamp": "2026-05-04T12:16:21.967837+00:00",
     "price": 2336.26,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 2183.14,
     "trend_bias": "neutral",
     "trade_plan": "Consider buying on a bounce above $2,200, targeting $2,300-$2,400 resistance. Set a stop-loss at $2,000. Monitor the RSI for signs of overbought conditions.",
+    "key_levels": {
+      "support": [
+        "$2,100",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,300",
+        "$2,400"
+      ]
+    },
+    "rsi": 17.12
+  },
+  {
+    "timestamp": "2026-05-17T19:58:32.672873+00:00",
+    "price": 2191.44,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $2,100, targeting $2,300-$2,400. Set a stop-loss at $1,900. Monitor the RSI for signs of overbought conditions.",
     "key_levels": {
       "support": [
         "$2,100",

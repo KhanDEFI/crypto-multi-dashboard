@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04T10:53:06.485269+00:00",
-    "price": 79029,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position at the next support level ($78,000) with a target of $82,000. Alternatively, a sell position at the resistance level ($80,500) with a target of $78,000. Monitor the price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$76,500"
-      ],
-      "resistance": [
-        "$80,500",
-        "$82,000"
-      ]
-    },
-    "rsi": 66.97
-  },
-  {
     "timestamp": "2026-05-04T12:16:21.967837+00:00",
     "price": 78769,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$75,000",
         "$73,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 14.23
+  },
+  {
+    "timestamp": "2026-05-17T19:58:32.672873+00:00",
+    "price": 78359,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $75,000 with a target of $80,000, but set a stop-loss at $72,000 to limit risk.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
       ],
       "resistance": [
         "$80,000",

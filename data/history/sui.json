@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-03T19:44:21.954097+00:00",
-    "price": 0.925833,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying SUI on a bounce from the $0.90 support level, targeting $1.00. Alternatively, sell on a break above $1.00. Monitor the price action closely for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$0.95",
-        "$1.00"
-      ]
-    },
-    "rsi": 58.31
-  },
-  {
     "timestamp": "2026-05-03T20:30:42.382047+00:00",
     "price": 0.926218,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.20",
         "$1.40"
+      ]
+    },
+    "rsi": 22.17
+  },
+  {
+    "timestamp": "2026-05-17T10:15:53.932320+00:00",
+    "price": 1.082,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1.04, targeting $1.14-$1.20 resistance levels. Set stop-loss at $0.98 to limit potential losses. Monitor RSI for signs of overbought conditions.",
+    "key_levels": {
+      "support": [
+        "$1.04",
+        "$0.98"
+      ],
+      "resistance": [
+        "$1.14",
+        "$1.20"
       ]
     },
     "rsi": 22.17

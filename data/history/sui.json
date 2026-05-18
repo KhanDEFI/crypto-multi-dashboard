@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-05T09:50:08.048772+00:00",
-    "price": 0.947624,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.90, targeting $1.00 with a stop-loss at $0.85. Alternatively, consider selling into strength towards $1.05, with a stop-loss at $1.00.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 60.76
-  },
-  {
     "timestamp": "2026-05-05T11:08:31.523860+00:00",
     "price": 0.954311,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 1.058,
     "trend_bias": "neutral",
     "trade_plan": "Consider going long on a bounce above $1.06, targeting $1.08-$1.10. However, set a stop-loss at $1.04 to limit potential losses. Monitor the price action closely for any signs of reversal.",
+    "key_levels": {
+      "support": [
+        "$1.04",
+        "$1.02"
+      ],
+      "resistance": [
+        "$1.08",
+        "$1.10"
+      ]
+    },
+    "rsi": 51.03
+  },
+  {
+    "timestamp": "2026-05-18T23:53:44.090149+00:00",
+    "price": 1.061,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1.04, targeting $1.08. Sell on rallies above $1.08, targeting $1.10. Monitor market volatility and adjust the plan accordingly.",
     "key_levels": {
       "support": [
         "$1.04",

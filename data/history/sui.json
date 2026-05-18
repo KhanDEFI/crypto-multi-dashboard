@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-04T20:56:12.154824+00:00",
-    "price": 0.930014,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.85-$0.80, with a target of $1.00-$1.05. However, be cautious of a potential bearish reversal if the price fails to hold above $0.85.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 61.65
-  },
-  {
     "timestamp": "2026-05-04T21:53:20.033435+00:00",
     "price": 0.936962,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 32.73
+  },
+  {
+    "timestamp": "2026-05-18T02:01:24.662754+00:00",
+    "price": 1.041,
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI/USD with a target of $0.92, using a stop-loss at $1.12. Monitor market sentiment and adjust the trade plan accordingly. Consider closing the trade if the price reaches $1.12.",
+    "key_levels": {
+      "support": [
+        "$0.98",
+        "$0.92"
+      ],
+      "resistance": [
+        "$1.12",
+        "$1.20"
+      ]
+    },
+    "rsi": 34.39
   }
 ]

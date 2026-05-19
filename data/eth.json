@@ -1,13 +1,13 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2110.63,
-  "change_24h": 1.03,
-  "market_cap": 254864223089.4118,
-  "rsi": 30.16,
+  "price": 2112.97,
+  "change_24h": -0.5,
+  "market_cap": 255060937046.68546,
+  "rsi": 29.33,
   "analysis": {
-    "elliott_wave": "ETH is currently in a bullish impulse wave, with a potential wave 3 unfolding. A break above $2,200 could confirm the wave count.",
-    "momentum": "The RSI reading of 30.16 indicates a neutral momentum, but the recent 1.03% price increase suggests a slight bullish bias. A close above $2,150 could trigger a momentum shift.",
+    "elliott_wave": "ETH is currently in a corrective wave, likely wave 4 of a larger bull trend. The wave count suggests a potential bounce is imminent.",
+    "momentum": "The RSI reading of 29.33 indicates oversold conditions, suggesting a potential short-term bounce. However, the 24h price change of -0.50% indicates a slight downtrend.",
     "key_levels": {
       "support": [
         "$2,050",
@@ -15,12 +15,12 @@
       ],
       "resistance": [
         "$2,200",
-        "$2,250"
+        "$2,300"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $2,050, targeting $2,200. Consider scaling in with a 50% position size. Adjust the position size based on risk tolerance.",
-    "risk_note": "A sudden drop in market cap or a significant price rejection at $2,200 could trigger a trend reversal."
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a bounce above $2,100, targeting $2,200-$2,250. Set a stop-loss at $2,000. Monitor the trend and adjust the plan accordingly.",
+    "risk_note": "A break below $2,000 could signal a more significant downtrend."
   },
-  "updated_at": "2026-05-19T18:31:02.240671+00:00"
+  "updated_at": "2026-05-19T20:22:12.146853+00:00"
 }

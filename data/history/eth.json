@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-05T13:05:50.013304+00:00",
-    "price": 2392.23,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $2,300.00, targeting $2,450.00. Set a stop-loss at $2,250.00. Consider scaling in with a 50% position size.",
-    "key_levels": {
-      "support": [
-        "$2,300.00",
-        "$2,250.00"
-      ],
-      "resistance": [
-        "$2,450.00",
-        "$2,550.00"
-      ]
-    },
-    "rsi": 67.57
-  },
-  {
     "timestamp": "2026-05-05T15:26:45.761816+00:00",
     "price": 2383.67,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.26
+  },
+  {
+    "timestamp": "2026-05-19T06:37:23.462523+00:00",
+    "price": 2133.79,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH near current levels with a stop above $2,250, targeting $2,000 for a potential 6% profit. Alternatively, wait for a confirmed wave 4 correction before entering a long position. Monitor market sentiment and adjust accordingly.",
+    "key_levels": {
+      "support": [
+        "$2,050",
+        "$2,000"
+      ],
+      "resistance": [
+        "$2,250",
+        "$2,350"
+      ]
+    },
+    "rsi": 34.84
   }
 ]

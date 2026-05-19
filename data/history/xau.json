@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-05T13:05:50.013304+00:00",
-    "price": 4575.45,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a cautious approach, looking to sell on rallies towards resistance levels or buy on dips towards support levels, with a focus on safe-haven demand and macroeconomic drivers.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 41.93
-  },
-  {
     "timestamp": "2026-05-05T15:26:45.761816+00:00",
     "price": 4578.55,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.25
+  },
+  {
+    "timestamp": "2026-05-19T06:37:23.462523+00:00",
+    "price": 4546.89,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider selling with a stop above $4,500 and a target at $4,400, but be cautious of a potential bounce off the TV Pivot Support levels",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 40.5
   }
 ]

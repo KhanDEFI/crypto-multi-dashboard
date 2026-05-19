@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-05T19:01:35.551305+00:00",
-    "price": 0.959669,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling SUI/USD on a pullback to the $0.85-$0.80 support zone, with a target of $1.00-$1.05 resistance. Alternatively, wait for a confirmed break below $0.80 to consider a bearish trade.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 74.51
-  },
-  {
     "timestamp": "2026-05-05T20:51:10.078813+00:00",
     "price": 0.970153,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 49.22
+  },
+  {
+    "timestamp": "2026-05-19T16:42:36.094319+00:00",
+    "price": 1.061,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips, targeting $1.12 resistance. Set a stop-loss at $0.99. Consider taking profits around $1.18.",
+    "key_levels": {
+      "support": [
+        "$1.04",
+        "$0.99"
+      ],
+      "resistance": [
+        "$1.12",
+        "$1.18"
+      ]
+    },
+    "rsi": 47.03
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-06T05:17:37.693989+00:00",
-    "price": 0.979945,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a pullback to $0.90-$0.95, targeting $0.80-$0.85. Alternatively, wait for a break above $1.05 to confirm a continuation of the bullish trend.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.05",
-        "$1.10"
-      ]
-    },
-    "rsi": 76.53
-  },
-  {
     "timestamp": "2026-05-06T10:54:00.878662+00:00",
     "price": 1.03,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.52
+  },
+  {
+    "timestamp": "2026-05-20T06:37:24.589511+00:00",
+    "price": 1.049,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1.05, with a target of $1.10-$1.15. Alternatively, sell on a break below $0.95. Monitor the price action for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
+      ]
+    },
+    "rsi": 40.82
   }
 ]

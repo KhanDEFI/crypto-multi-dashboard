@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-06T21:00:34.522535+00:00",
-    "price": 0.991356,
-    "trend_bias": "bullish",
-    "trade_plan": "Short-term: Consider selling at resistance levels ($1.02, $1.05) with a tight stop-loss. Medium-term: Monitor for a potential correction wave C, and consider buying at support levels ($0.95, $0.90).",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.02",
-        "$1.05"
-      ]
-    },
-    "rsi": 71.66
-  },
-  {
     "timestamp": "2026-05-06T22:37:36.488138+00:00",
     "price": 0.993317,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.10",
         "$1.12"
+      ]
+    },
+    "rsi": 58.01
+  },
+  {
+    "timestamp": "2026-05-20T23:02:53.262633+00:00",
+    "price": 1.072,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1.05, targeting $1.10-$1.15. Sell on rallies above $1.10, targeting $1.05-$1.00. Monitor 24h change for signs of trend reversal.",
+    "key_levels": {
+      "support": [
+        "$1.05",
+        "$1.00"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
       ]
     },
     "rsi": 58.01

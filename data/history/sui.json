@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-06T22:37:36.488138+00:00",
-    "price": 0.993317,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling SUI/USD at current levels ($0.99) to take advantage of potential short-term gains, with a target price of $0.95. Alternatively, consider buying SUI/USD on a pullback to $0.95. Monitor the market for signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.02",
-        "$1.05"
-      ]
-    },
-    "rsi": 71.66
-  },
-  {
     "timestamp": "2026-05-06T23:39:09.345751+00:00",
     "price": 0.990811,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 58.01
+  },
+  {
+    "timestamp": "2026-05-21T02:00:34.301063+00:00",
+    "price": 1.11,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1.05, targeting $1.15-$1.20 resistance. Set stop-loss at $1.00. Consider scaling in positions to manage risk.",
+    "key_levels": {
+      "support": [
+        "$1.05",
+        "$1.00"
+      ],
+      "resistance": [
+        "$1.15",
+        "$1.20"
+      ]
+    },
+    "rsi": 63.01
   }
 ]

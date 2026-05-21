@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-07T12:27:08.991396+00:00",
-    "price": 0.999723,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below 0.98, with a target of 0.95. Alternatively, look for a bounce above 1.00 to re-enter long positions. Monitor the market for a clear trend bias.",
-    "key_levels": {
-      "support": [
-        "0.98",
-        "0.95"
-      ],
-      "resistance": [
-        "1.03",
-        "1.05"
-      ]
-    },
-    "rsi": 63.49
-  },
-  {
     "timestamp": "2026-05-07T15:23:42.748120+00:00",
     "price": 0.973317,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 53.74
+  },
+  {
+    "timestamp": "2026-05-21T20:28:24.020531+00:00",
+    "price": 1.14,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the $1.05 support level, with a target of $1.25. However, a pullback to the $0.95 level cannot be ruled out, and traders should be prepared to adjust their positions accordingly.",
+    "key_levels": {
+      "support": [
+        "$1.05",
+        "$0.95"
+      ],
+      "resistance": [
+        "$1.25",
+        "$1.35"
+      ]
+    },
+    "rsi": 69.09
   }
 ]

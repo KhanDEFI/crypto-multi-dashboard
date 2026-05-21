@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-07T15:23:42.748120+00:00",
-    "price": 79898,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $78,000.00, targeting $77,500.00. Alternatively, look to buy on a bounce above $80,500.00, with a stop-loss at $79,500.00.",
-    "key_levels": {
-      "support": [
-        "$78,000.00",
-        "$77,500.00"
-      ],
-      "resistance": [
-        "$80,500.00",
-        "$81,000.00"
-      ]
-    },
-    "rsi": 49.73
-  },
-  {
     "timestamp": "2026-05-07T17:29:26.657726+00:00",
     "price": 79681,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 77633,
     "trend_bias": "bullish",
     "trade_plan": "Consider buying on dips towards $75,000 or $72,000, with a target of $80,000 or $82,000. However, be cautious of a potential bearish reversal if price action breaks below $75,000.",
+    "key_levels": {
+      "support": [
+        "$75,000",
+        "$72,000"
+      ],
+      "resistance": [
+        "$80,000",
+        "$82,000"
+      ]
+    },
+    "rsi": 62.74
+  },
+  {
+    "timestamp": "2026-05-21T22:09:05.064527+00:00",
+    "price": 77662,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $77,662, with a target of $80,000. However, be cautious of a potential drop to $75,000. A break below $75,000 could indicate a bearish trend.",
     "key_levels": {
       "support": [
         "$75,000",

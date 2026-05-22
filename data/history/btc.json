@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-08T08:16:45.642240+00:00",
-    "price": 79720,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a bounce above $79,500.00, targeting $80,500.00. Sell on a break below $78,000.00, targeting $75,000.00.",
-    "key_levels": {
-      "support": [
-        "$77,500.00",
-        "$75,000.00"
-      ],
-      "resistance": [
-        "$80,500.00",
-        "$82,000.00"
-      ]
-    },
-    "rsi": 40.81
-  },
-  {
     "timestamp": "2026-05-08T10:14:47.445155+00:00",
     "price": 79810,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$76,500",
         "$78,000"
+      ]
+    },
+    "rsi": 33.01
+  },
+  {
+    "timestamp": "2026-05-22T22:48:24.575638+00:00",
+    "price": 75606,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $73,000 with a stop-loss at $75,000. Consider buying on a bounce to $75,000 with a stop-loss at $72,000. Monitor the market for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$77,000"
       ]
     },
     "rsi": 33.01

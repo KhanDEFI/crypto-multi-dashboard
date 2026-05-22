@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-08T06:26:21.453973+00:00",
-    "price": 0.964002,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting SUI/USD if it breaks below $0.92, targeting $0.88. Conversely, a bounce above $1.00 could lead to a longer-term bullish scenario.",
-    "key_levels": {
-      "support": [
-        "$0.92",
-        "$0.88"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.04"
-      ]
-    },
-    "rsi": 50.83
-  },
-  {
     "timestamp": "2026-05-08T08:16:45.642240+00:00",
     "price": 0.968952,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.95",
         "$0.90"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
+      ]
+    },
+    "rsi": 51.84
+  },
+  {
+    "timestamp": "2026-05-22T21:54:56.905503+00:00",
+    "price": 1.064,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $1.00 or selling on rallies towards $1.10, with a target of $1.15 if the resistance is broken.",
+    "key_levels": {
+      "support": [
+        "$1.00",
+        "$0.95"
       ],
       "resistance": [
         "$1.10",

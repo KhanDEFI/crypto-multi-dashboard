@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4536.31,
-  "change_24h": -0.15,
+  "price": 4526.22,
+  "change_24h": -0.37,
   "market_cap": 0,
-  "rsi": 41.68,
+  "rsi": 41.04,
   "analysis": {
-    "elliott_wave": "This analysis focuses on classical technical patterns and macro drivers, as gold does not follow Elliott Wave theory in the same way crypto does.",
-    "momentum": "The 24h change is negative, but the RSI is neutral at 41.68, indicating a lack of strong momentum in either direction.",
+    "elliott_wave": "Not applicable due to gold's non-compliance with Elliott Wave theory",
+    "momentum": "Neutral momentum with a 41.04 RSI, but a 0.37% price drop in the last 24 hours suggests a bearish bias",
     "key_levels": {
       "support": [
         "$4,458.19",
@@ -18,9 +18,9 @@
         "$5,052.95"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a bounce to $4,458.19, targeting $4,294.69. Alternatively, wait for a break below $4,294.69 for a more bearish trade setup.",
-    "risk_note": "A strong US dollar (DXY) or rising real yields could lead to increased selling pressure on gold."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider selling gold with a stop-loss above $4,837.32 and a target at $4,294.69, but be cautious of potential safe-haven demand",
+    "risk_note": "Central bank policy changes could significantly impact gold prices"
   },
-  "updated_at": "2026-05-22T10:13:47.794247+00:00"
+  "updated_at": "2026-05-22T13:19:50.865219+00:00"
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-09T04:58:37.977156+00:00",
-    "price": 80382,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $78,000, targeting $82,000. Consider taking partial profits at $80,500. A stop-loss at $75,000 is recommended.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$75,000"
-      ],
-      "resistance": [
-        "$82,000",
-        "$85,000"
-      ]
-    },
-    "rsi": 38.32
-  },
-  {
     "timestamp": "2026-05-09T07:05:20.531868+00:00",
     "price": 80213,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 75431,
     "trend_bias": "bearish",
     "trade_plan": "Consider shorting with a stop-loss above $77,000 and a target at $73,000. Alternatively, wait for a bullish reversal signal to enter long positions. Monitor the 24h change for signs of trend reversal.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$77,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 29.06
+  },
+  {
+    "timestamp": "2026-05-23T17:51:54.085934+00:00",
+    "price": 75367,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $75,000, targeting $77,000. However, if the price breaks below $73,000, consider shorting towards $70,000. Monitor the market for a potential trend reversal.",
     "key_levels": {
       "support": [
         "$73,000",

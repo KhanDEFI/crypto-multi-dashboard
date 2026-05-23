@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-08T20:02:21.444309+00:00",
-    "price": 1.023,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying SUI on a pullback to $0.95, with a target of $1.10. Alternatively, wait for a breakout above $1.05 to confirm the uptrend. A stop-loss at $0.90 is recommended.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.05",
-        "$1.10"
-      ]
-    },
-    "rsi": 48.92
-  },
-  {
     "timestamp": "2026-05-08T21:46:22.113565+00:00",
     "price": 1.025,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.08",
         "$1.15"
+      ]
+    },
+    "rsi": 36.29
+  },
+  {
+    "timestamp": "2026-05-23T11:52:14.013127+00:00",
+    "price": 1.003,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting SUI/USD with a stop-loss above $1.075 and a target around $0.925, but be cautious of potential reversals if the price breaks above $1.125.",
+    "key_levels": {
+      "support": [
+        "$0.925",
+        "$0.875"
+      ],
+      "resistance": [
+        "$1.075",
+        "$1.125"
       ]
     },
     "rsi": 36.29

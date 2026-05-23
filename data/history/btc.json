@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-09T07:05:20.531868+00:00",
-    "price": 80213,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $78,000, targeting $82,000 resistance. Set stop-loss at $77,500. Monitor market cap for signs of exhaustion.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$77,500"
-      ],
-      "resistance": [
-        "$81,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 38.32
-  },
-  {
     "timestamp": "2026-05-09T09:05:56.520738+00:00",
     "price": 80395,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$77,000",
+        "$80,000"
+      ]
+    },
+    "rsi": 29.06
+  },
+  {
+    "timestamp": "2026-05-23T18:52:03.205385+00:00",
+    "price": 75735,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on rallies towards $78,000. Medium-term, wait for a confirmed bounce or a break below $70,000 to re-enter long positions.",
+    "key_levels": {
+      "support": [
+        "$72,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$78,000",
         "$80,000"
       ]
     },

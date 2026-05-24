@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T11:39:50.982199+00:00",
-    "price": 4715.07,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position based on the TradingView Signal, but set a stop-loss below $4,458.19 to manage risk.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 51.69
-  },
-  {
     "timestamp": "2026-05-10T12:49:26.438497+00:00",
     "price": 4715.07,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.85
+  },
+  {
+    "timestamp": "2026-05-24T22:44:16.600105+00:00",
+    "price": 4557.62,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting around the TV Pivot Resistance levels, targeting a potential pullback to the TV Pivot Support levels. Monitor the price action closely for a potential breakout or breakdown. Be cautious of a potential reversal if the price action deviates significantly from the expected trend.",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 44.37
   }
 ]

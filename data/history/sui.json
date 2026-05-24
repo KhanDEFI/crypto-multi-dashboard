@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T12:49:26.438497+00:00",
-    "price": 1.13,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $1.20 or buying on a close below $1.05 to initiate a position. Monitor the price action closely for a potential reversal or consolidation. A stop-loss order can be set at $1.00 to limit potential losses.",
-    "key_levels": {
-      "support": [
-        "$1.05",
-        "$0.95"
-      ],
-      "resistance": [
-        "$1.20",
-        "$1.30"
-      ]
-    },
-    "rsi": 86.28
-  },
-  {
     "timestamp": "2026-05-10T14:14:46.760212+00:00",
     "price": 1.16,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1.05",
         "$1.10"
+      ]
+    },
+    "rsi": 34.79
+  },
+  {
+    "timestamp": "2026-05-24T23:48:49.432450+00:00",
+    "price": 1.033,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips, targeting $1.10-$1.15 resistance levels. Set stop-loss at $0.90. Monitor market sentiment and adjust accordingly.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
       ]
     },
     "rsi": 34.79

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T12:49:26.438497+00:00",
-    "price": 2323.15,
-    "trend_bias": "bullish",
-    "trade_plan": "Short-term traders may consider selling on a close above $2,350 or buying on a close below $2,200. Medium-term traders may look to add to long positions on a pullback to $2,100. A close below $2,100 would be a strong bearish signal.",
-    "key_levels": {
-      "support": [
-        "$2,200",
-        "$2,100"
-      ],
-      "resistance": [
-        "$2,350",
-        "$2,400"
-      ]
-    },
-    "rsi": 74.0
-  },
-  {
     "timestamp": "2026-05-10T14:14:46.760212+00:00",
     "price": 2328.93,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,150",
         "$2,250"
+      ]
+    },
+    "rsi": 44.04
+  },
+  {
+    "timestamp": "2026-05-24T23:48:49.432450+00:00",
+    "price": 2100.87,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $2,000, with a target of $2,200. However, if price breaks below $2,000, consider shorting with a stop-loss at $1,900. Monitor the 50% Fibonacci retracement level for potential support.",
+    "key_levels": {
+      "support": [
+        "$2,000",
+        "$1,900"
+      ],
+      "resistance": [
+        "$2,200",
+        "$2,300"
       ]
     },
     "rsi": 44.04

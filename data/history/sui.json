@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T07:52:51.892746+00:00",
-    "price": 1.093,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting on a break below $1.05, targeting $1.02. Alternatively, look to buy on a pullback to $1.02. A stop-loss at $1.00 is recommended.",
-    "key_levels": {
-      "support": [
-        "$1.05",
-        "$1.02"
-      ],
-      "resistance": [
-        "$1.15",
-        "$1.20"
-      ]
-    },
-    "rsi": 79.42
-  },
-  {
     "timestamp": "2026-05-10T09:19:32.194394+00:00",
     "price": 1.12,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.95",
         "$1.00"
+      ],
+      "resistance": [
+        "$1.10",
+        "$1.15"
+      ]
+    },
+    "rsi": 38.25
+  },
+  {
+    "timestamp": "2026-05-24T18:57:20.710570+00:00",
+    "price": 1.038,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting SUI/USD around $1.10 with a stop-loss at $1.15, targeting a potential drop to $0.95. Monitor the RSI for signs of oversold conditions. Adjust the trade plan based on price action and market sentiment.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
       ],
       "resistance": [
         "$1.10",

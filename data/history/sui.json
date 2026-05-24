@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-09T23:35:24.446836+00:00",
-    "price": 1.068,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a range-bound trading strategy, focusing on buying dips near $1.03 and selling rallies near $1.12, with a stop-loss at $0.98.",
-    "key_levels": {
-      "support": [
-        "$1.03",
-        "$0.98"
-      ],
-      "resistance": [
-        "$1.12",
-        "$1.17"
-      ]
-    },
-    "rsi": 68.93
-  },
-  {
     "timestamp": "2026-05-10T01:46:38.941253+00:00",
     "price": 1.07,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.98",
         "$0.92"
+      ],
+      "resistance": [
+        "$1.08",
+        "$1.12"
+      ]
+    },
+    "rsi": 39.93
+  },
+  {
+    "timestamp": "2026-05-24T15:52:49.995397+00:00",
+    "price": 1.044,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a bounce above $1.04, targeting $1.08-$1.12. Set a stop-loss at $0.98. Monitor for a potential breakout above $1.12.",
+    "key_levels": {
+      "support": [
+        "$1.00",
+        "$0.98"
       ],
       "resistance": [
         "$1.08",

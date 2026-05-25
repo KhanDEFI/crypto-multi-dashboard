@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T15:40:58.238690+00:00",
-    "price": 1.18,
-    "trend_bias": "bullish",
-    "trade_plan": "Short-term: Consider taking profits on long positions or scaling out of positions. Medium-term: Look for a potential reversal setup, possibly with a short entry around $1.25 resistance.",
-    "key_levels": {
-      "support": [
-        "$1.05",
-        "$0.95"
-      ],
-      "resistance": [
-        "$1.25",
-        "$1.35"
-      ]
-    },
-    "rsi": 86.28
-  },
-  {
     "timestamp": "2026-05-10T16:40:05.245664+00:00",
     "price": 1.27,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 35.86
+  },
+  {
+    "timestamp": "2026-05-25T06:59:41.851521+00:00",
+    "price": 1.042,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting SUI/USD with a stop-loss above $1.08 and a target of $0.92. Monitor the price action closely for a potential breakout above $1.08. A clear close below $0.98 would confirm the bearish bias.",
+    "key_levels": {
+      "support": [
+        "$0.98",
+        "$0.92"
+      ],
+      "resistance": [
+        "$1.08",
+        "$1.12"
+      ]
+    },
+    "rsi": 40.31
   }
 ]

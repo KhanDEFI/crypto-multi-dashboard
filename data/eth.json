@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2119.89,
-  "change_24h": 1.31,
-  "market_cap": 255861546124.92032,
+  "price": 2109.13,
+  "change_24h": 2.02,
+  "market_cap": 254523254949.99643,
   "rsi": 76.24,
   "analysis": {
-    "elliott_wave": "ETH is currently in a 5-wave impulse wave up, with a possible ending diagonal pattern forming.",
-    "momentum": "The RSI reading of 76.24 indicates overbought conditions, suggesting a potential reversal or correction in the near term.",
+    "elliott_wave": "ETH is currently in a 5-wave impulse wave, with a possible completion of wave 5. The wave count suggests a potential reversal.",
+    "momentum": "The RSI reading of 76.24 indicates overbought conditions, suggesting a potential pullback. However, the 2.02% 24h change indicates a strong upward momentum.",
     "key_levels": {
       "support": [
         "$2,050",
-        "$1,900"
+        "$2,000"
       ],
       "resistance": [
-        "$2,250",
-        "$2,500"
+        "$2,150",
+        "$2,200"
       ]
     },
     "trend_bias": "bullish",
-    "trade_plan": "Consider taking profits on long positions and adjusting stop-losses to $2,050. A short position can be considered if price breaks below $2,050. Monitor the market for a potential reversal or correction.",
-    "risk_note": "A sudden shift in investor sentiment or a major market event could lead to a sharp price drop, potentially triggering a stop-loss."
+    "trade_plan": "Buy on dips to $2,050, targeting $2,150. Set stop-loss at $2,000. Consider scaling out of positions if resistance at $2,200 is reached.",
+    "risk_note": "A potential reversal could occur if the price falls below the 50-day moving average."
   },
-  "updated_at": "2026-05-25T20:17:17.849673+00:00"
+  "updated_at": "2026-05-25T21:59:00.101497+00:00"
 }

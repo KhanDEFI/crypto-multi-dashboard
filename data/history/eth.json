@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T21:36:49.063762+00:00",
-    "price": 2335.85,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH with a stop above $2,400 and a target at $2,200, or holding a long position with a stop below $2,200 and a target at $2,500. Monitor key levels closely for potential breakouts or reversals. A strong close above $2,400 would confirm a bullish trend.",
-    "key_levels": {
-      "support": [
-        "$2,250",
-        "$2,200"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,500"
-      ]
-    },
-    "rsi": 80.24
-  },
-  {
     "timestamp": "2026-05-10T22:34:42.245219+00:00",
     "price": 2362.59,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 79.98
+  },
+  {
+    "timestamp": "2026-05-25T20:17:17.849673+00:00",
+    "price": 2119.89,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider taking profits on long positions and adjusting stop-losses to $2,050. A short position can be considered if price breaks below $2,050. Monitor the market for a potential reversal or correction.",
+    "key_levels": {
+      "support": [
+        "$2,050",
+        "$1,900"
+      ],
+      "resistance": [
+        "$2,250",
+        "$2,500"
+      ]
+    },
+    "rsi": 76.24
   }
 ]

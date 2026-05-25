@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-10T16:40:05.245664+00:00",
-    "price": 4715.07,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying the dip towards the $4,458.19 support level, with a target of $4,837.32 resistance. However, be cautious of a potential reversal if the price fails to hold above the $4,294.69 support. A stop-loss below $4,294.69 is recommended.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 51.69
-  },
-  {
     "timestamp": "2026-05-10T17:40:27.131985+00:00",
     "price": 4715.07,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 44.73
+  },
+  {
+    "timestamp": "2026-05-25T11:11:02.480548+00:00",
+    "price": 4568.65,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a sell strategy in the short-term, targeting the support levels, but be cautious of a potential bounce due to the neutral momentum and TradingView's sell signal.",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 45.26
   }
 ]

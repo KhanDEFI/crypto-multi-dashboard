@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-11T21:08:14.738574+00:00",
-    "price": 4734.88,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,837.32. However, be cautious of a potential bearish reversal if price action breaks below $4,294.69. Monitor the situation closely for 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 53.03
-  },
-  {
     "timestamp": "2026-05-11T22:43:47.159864+00:00",
     "price": 4742.46,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.35
+  },
+  {
+    "timestamp": "2026-05-26T22:59:26.677897+00:00",
+    "price": 4511.8,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider selling XAU/USD if it breaks below $4,458.19 support, targeting $4,294.69. Alternatively, look for buying opportunities if price bounces off current levels and forms a higher low. Monitor TradingView Signal for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 41.74
   }
 ]

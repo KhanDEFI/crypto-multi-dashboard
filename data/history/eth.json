@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-11T08:54:22.201376+00:00",
-    "price": 2332.61,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a pullback to the $2,250 support level, with a target of $2,400. However, if the price breaks below $2,200, consider selling with a stop-loss at $2,150. Monitor the market for any signs of increased buying pressure.",
-    "key_levels": {
-      "support": [
-        "$2,250",
-        "$2,200"
-      ],
-      "resistance": [
-        "$2,400",
-        "$2,500"
-      ]
-    },
-    "rsi": 59.07
-  },
-  {
     "timestamp": "2026-05-11T11:55:15.905748+00:00",
     "price": 2333.75,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 55.26
+  },
+  {
+    "timestamp": "2026-05-26T08:24:54.478941+00:00",
+    "price": 2096.91,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $2,150 or selling on a break below $2,050, with a stop-loss at $1,950 and a target at $2,300.",
+    "key_levels": {
+      "support": [
+        "$2,050",
+        "$1,950"
+      ],
+      "resistance": [
+        "$2,150",
+        "$2,300"
+      ]
+    },
+    "rsi": 40.21
   }
 ]

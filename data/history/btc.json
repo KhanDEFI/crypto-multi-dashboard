@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-12T11:09:27.160868+00:00",
-    "price": 80559,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry at the next support level ($78,000) with a stop-loss at $76,500. Alternatively, a sell entry at the resistance level ($82,000) with a stop-loss at $84,500. Monitor the price action for a clear breakout.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$76,500"
-      ],
-      "resistance": [
-        "$82,000",
-        "$84,500"
-      ]
-    },
-    "rsi": 51.71
-  },
-  {
     "timestamp": "2026-05-12T13:47:41.486173+00:00",
     "price": 80805,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$76,500",
+        "$78,000"
+      ]
+    },
+    "rsi": 25.76
+  },
+  {
+    "timestamp": "2026-05-27T19:11:43.994889+00:00",
+    "price": 74868,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting on a bounce above $75,000, with a target of $72,000. Alternatively, wait for a break below $73,000 to confirm a continuation of the downtrend.",
+    "key_levels": {
+      "support": [
+        "$73,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$76,000",
         "$78,000"
       ]
     },

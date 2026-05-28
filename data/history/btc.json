@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-12T23:48:30.488546+00:00",
-    "price": 80460,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $78,000 or going long on a bounce above $82,000. Monitor the market for a potential reversal in the next 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$76,000"
-      ],
-      "resistance": [
-        "$82,000",
-        "$84,000"
-      ]
-    },
-    "rsi": 49.71
-  },
-  {
     "timestamp": "2026-05-13T01:54:27.380604+00:00",
     "price": 81088,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 17.38
+  },
+  {
+    "timestamp": "2026-05-28T14:25:22.749211+00:00",
+    "price": 72945,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $69,000-$67,000 support levels, with a target of $75,000-$78,000 resistance levels. Consider scaling in positions as price approaches key levels. Monitor for potential reversal signals.",
+    "key_levels": {
+      "support": [
+        "$69,000",
+        "$67,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$78,000"
+      ]
+    },
+    "rsi": 20.34
   }
 ]

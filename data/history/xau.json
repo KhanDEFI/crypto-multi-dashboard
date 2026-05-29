@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-13T21:14:18.882370+00:00",
-    "price": 4688.8,
-    "trend_bias": "neutral",
-    "trade_plan": "Wait for a clear break above $4,837.32 or below $4,294.69 to establish a new trend. Consider a long position if the price breaks above $4,837.32, or a short position if it breaks below $4,294.69.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 49.45
-  },
-  {
     "timestamp": "2026-05-13T22:54:33.305485+00:00",
     "price": 4699.96,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 44.86
+  },
+  {
+    "timestamp": "2026-05-29T14:34:08.561461+00:00",
+    "price": 4532.27,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting around $4,500 with a stop-loss above $4,550, targeting $4,400. Monitor TradingView Signal for potential confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,458.19",
+        "$4,294.69"
+      ],
+      "resistance": [
+        "$4,837.32",
+        "$5,052.95"
+      ]
+    },
+    "rsi": 44.97
   }
 ]

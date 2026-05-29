@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-13T21:14:18.882370+00:00",
-    "price": 79406,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $78,000, with a target of $76,500, or buying on a bounce above $80,000, with a target of $81,500. Monitor the price action closely for any signs of a strong trend resumption.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$76,500"
-      ],
-      "resistance": [
-        "$80,000",
-        "$81,500"
-      ]
-    },
-    "rsi": 38.29
-  },
-  {
     "timestamp": "2026-05-13T22:54:33.305485+00:00",
     "price": 79418,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 27.42
+  },
+  {
+    "timestamp": "2026-05-29T14:34:08.561461+00:00",
+    "price": 72621,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider shorting BTC with a stop-loss above $73,000. Medium-term, look for a potential bounce to $75,000 as a selling opportunity. Long-term, maintain a bearish bias.",
+    "key_levels": {
+      "support": [
+        "$70,000",
+        "$68,000"
+      ],
+      "resistance": [
+        "$73,000",
+        "$75,000"
+      ]
+    },
+    "rsi": 28.77
   }
 ]

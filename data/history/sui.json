@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T08:35:46.544941+00:00",
-    "price": 1.15,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term traders may consider buying on a bounce from current levels, targeting resistance at $1.25. However, a stop-loss should be placed below $1.05 to limit potential losses. A more significant bounce would be required to confirm a trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1.05",
-        "$0.95"
-      ],
-      "resistance": [
-        "$1.25",
-        "$1.35"
-      ]
-    },
-    "rsi": 30.0
-  },
-  {
     "timestamp": "2026-05-15T11:10:42.150795+00:00",
     "price": 1.13,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.85",
         "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 48.41
+  },
+  {
+    "timestamp": "2026-05-30T23:50:00.139274+00:00",
+    "price": 0.903554,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $0.80, targeting $1.00 with a stop-loss at $0.70. Alternatively, sell on rallies above $0.95, targeting $0.90 with a stop-loss at $1.00.",
+    "key_levels": {
+      "support": [
+        "$0.80",
+        "$0.70"
       ],
       "resistance": [
         "$0.95",

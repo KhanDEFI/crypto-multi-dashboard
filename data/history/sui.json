@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-14T05:42:17.474931+00:00",
-    "price": 1.22,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term traders may consider buying on dips towards $1.15, while long-term traders may consider selling on rallies towards $1.28. A break above $1.28 would indicate a trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1.15",
-        "$1.10"
-      ],
-      "resistance": [
-        "$1.28",
-        "$1.32"
-      ]
-    },
-    "rsi": 26.09
-  },
-  {
     "timestamp": "2026-05-14T08:24:33.736527+00:00",
     "price": 1.19,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 22.08
+  },
+  {
+    "timestamp": "2026-05-30T04:42:47.232985+00:00",
+    "price": 0.894485,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a bounce above $0.92 with a target of $0.96, and consider scaling out of positions as the price approaches the target. Set a stop-loss at $0.84 to limit potential losses. Monitor the price action for signs of a reversal.",
+    "key_levels": {
+      "support": [
+        "$0.84",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.92",
+        "$0.96"
+      ]
+    },
+    "rsi": 24.32
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T05:45:13.432359+00:00",
-    "price": 1.16,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term traders may consider going long on a bounce above $1.16, targeting $1.30-$1.50. However, this trade plan is highly speculative and should be approached with caution. A stop-loss should be set below $1.05.",
-    "key_levels": {
-      "support": [
-        "$1.05",
-        "$0.95"
-      ],
-      "resistance": [
-        "$1.30",
-        "$1.50"
-      ]
-    },
-    "rsi": 30.0
-  },
-  {
     "timestamp": "2026-05-15T08:35:46.544941+00:00",
     "price": 1.15,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 44.14
+  },
+  {
+    "timestamp": "2026-05-30T22:44:32.883805+00:00",
+    "price": 0.902372,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $0.85, targeting $0.95 with a stop-loss at $0.80. Alternatively, wait for a clear breakout above $0.95 to confirm a new uptrend.",
+    "key_levels": {
+      "support": [
+        "$0.85",
+        "$0.80"
+      ],
+      "resistance": [
+        "$0.95",
+        "$1.00"
+      ]
+    },
+    "rsi": 48.41
   }
 ]

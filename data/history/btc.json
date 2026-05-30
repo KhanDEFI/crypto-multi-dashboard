@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-14T11:07:04.811583+00:00",
-    "price": 79501,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $78,000 or going long on a bounce above $80,000, with a stop-loss at $75,000.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$75,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 36.5
-  },
-  {
     "timestamp": "2026-05-14T13:24:22.998402+00:00",
     "price": 79959,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.4
+  },
+  {
+    "timestamp": "2026-05-30T09:48:18.187355+00:00",
+    "price": 73472,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term traders should consider shorting the market with a target of $70,000. Long-term traders should look to buy the dip around $70,000. A stop-loss at $75,000 is recommended.",
+    "key_levels": {
+      "support": [
+        "$72,000",
+        "$70,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$76,500"
+      ]
+    },
+    "rsi": 39.08
   }
 ]

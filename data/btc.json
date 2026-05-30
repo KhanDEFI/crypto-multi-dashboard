@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 73580,
-  "change_24h": 0.1,
-  "market_cap": 1473921208566.7524,
+  "price": 73388,
+  "change_24h": -0.22,
+  "market_cap": 1470438487484.5764,
   "rsi": 28.87,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential bullish impulse wave (5) unfolding, with a possible correction wave (4) already underway. The price action indicates a strong bounce from the recent lows.",
-    "momentum": "The RSI reading of 28.87 indicates an oversold condition, suggesting a potential bullish momentum reversal. The 0.10% 24h change also indicates a slight upward momentum.",
+    "elliott_wave": "The current wave count suggests a potential completion of wave 4, setting up a potential wave 5 impulse. However, confirmation is needed with a break above the previous high.",
+    "momentum": "The RSI reading of 28.87 indicates oversold conditions, suggesting a potential bounce in price. However, the 24h change of -0.22% indicates a slight bearish momentum.",
     "key_levels": {
       "support": [
-        "$72,000",
-        "$70,000"
+        "$70,000",
+        "$68,000"
       ],
       "resistance": [
         "$75,000",
-        "$77,000"
+        "$78,000"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $72,000, targeting $75,000 with a stop-loss at $70,000. Consider scaling in on a bounce towards $75,000. Monitor the price action for a potential breakout above $77,000.",
-    "risk_note": "A potential bearish reversal could occur if the price fails to hold above $72,000"
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $70,000, targeting $75,000 with a stop-loss at $68,000. Alternatively, sell at $75,000, targeting $70,000 with a stop-loss at $78,000.",
+    "risk_note": "A potential risk is a sudden break below $68,000, triggering a larger sell-off."
   },
-  "updated_at": "2026-05-29T20:23:15.558487+00:00"
+  "updated_at": "2026-05-30T00:00:32.270919+00:00"
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-14T01:57:04.301560+00:00",
-    "price": 79570,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a stop-loss below $78,000 and a target at $82,000, but be cautious of a potential breakdown below $76,500.",
-    "key_levels": {
-      "support": [
-        "$78,000",
-        "$76,500"
-      ],
-      "resistance": [
-        "$80,500",
-        "$82,000"
-      ]
-    },
-    "rsi": 34.8
-  },
-  {
     "timestamp": "2026-05-14T05:42:17.474931+00:00",
     "price": 79687,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$75,000",
         "$77,000"
+      ]
+    },
+    "rsi": 28.87
+  },
+  {
+    "timestamp": "2026-05-30T00:00:32.270919+00:00",
+    "price": 73388,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $70,000, targeting $75,000 with a stop-loss at $68,000. Alternatively, sell at $75,000, targeting $70,000 with a stop-loss at $78,000.",
+    "key_levels": {
+      "support": [
+        "$70,000",
+        "$68,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$78,000"
       ]
     },
     "rsi": 28.87

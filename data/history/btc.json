@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T15:54:12.293684+00:00",
-    "price": 79154,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting BTC with a target of $75,000, using a stop-loss at $82,000. Monitor the price action for a potential bounce off the support levels. Adjust the trade plan if the price action deviates from the expected corrective wave.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 46.24
-  },
-  {
     "timestamp": "2026-05-15T17:19:06.806254+00:00",
     "price": 79206,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 64.56
+  },
+  {
+    "timestamp": "2026-05-31T09:40:01.985178+00:00",
+    "price": 73860,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a pullback to the $73,000.00 support level, with a target of $74,500.00. Alternatively, wait for a clear break above $75,000.00 for a more confident long position.",
+    "key_levels": {
+      "support": [
+        "$73,000.00",
+        "$72,500.00"
+      ],
+      "resistance": [
+        "$74,500.00",
+        "$75,000.00"
+      ]
+    },
+    "rsi": 54.41
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T05:17:24.017273+00:00",
-    "price": 78991,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a bullish trade plan, targeting resistance levels around $80,000, with a stop-loss at $75,000, and adjust accordingly based on price action.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 46.25
-  },
-  {
     "timestamp": "2026-05-16T07:45:35.040129+00:00",
     "price": 78476,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$75,000",
         "$76,500"
+      ]
+    },
+    "rsi": 53.66
+  },
+  {
+    "timestamp": "2026-05-31T18:59:35.538868+00:00",
+    "price": 73519,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on a break above $75,000. Medium-term, look for a potential bounce around $70,000. Long-term, focus on the larger bearish trend.",
+    "key_levels": {
+      "support": [
+        "$70,000",
+        "$68,000"
+      ],
+      "resistance": [
+        "$75,000",
+        "$77,000"
       ]
     },
     "rsi": 53.66

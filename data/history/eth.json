@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T21:46:13.358007+00:00",
-    "price": 2219.36,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling ETH around current levels with a target of $2,100. If the price breaks below $2,100, consider adding to short positions. Monitor the 24-hour RSI for signs of oversold conditions.",
-    "key_levels": {
-      "support": [
-        "$2,100",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,300",
-        "$2,400"
-      ]
-    },
-    "rsi": 35.05
-  },
-  {
     "timestamp": "2026-05-15T22:42:18.165707+00:00",
     "price": 2221.41,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,100",
         "$2,200"
+      ]
+    },
+    "rsi": 61.5
+  },
+  {
+    "timestamp": "2026-05-31T15:08:42.738587+00:00",
+    "price": 2006.87,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips, targeting $2,100.00, with a stop-loss at $1,900.00. Consider taking partial profits at $2,000.00.",
+    "key_levels": {
+      "support": [
+        "$1,900.00",
+        "$1,800.00"
+      ],
+      "resistance": [
+        "$2,100.00",
+        "$2,200.00"
       ]
     },
     "rsi": 61.5

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-15T22:42:18.165707+00:00",
-    "price": 1.095,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a bounce above $1.20 with a target of $1.30, and set a stop-loss at $1.00. Alternatively, consider selling on a break below $1.00 with a target of $0.95.",
-    "key_levels": {
-      "support": [
-        "$1.00",
-        "$0.95"
-      ],
-      "resistance": [
-        "$1.20",
-        "$1.30"
-      ]
-    },
-    "rsi": 24.41
-  },
-  {
     "timestamp": "2026-05-15T23:42:54.251261+00:00",
     "price": 1.096,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.03
+  },
+  {
+    "timestamp": "2026-05-31T16:53:16.169707+00:00",
+    "price": 0.868116,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting the asset with a target price around $0.75, using a stop-loss at $0.95. Monitor the price action closely for any signs of reversal. Adjust the trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$0.80",
+        "$0.75"
+      ],
+      "resistance": [
+        "$0.90",
+        "$1.00"
+      ]
+    },
+    "rsi": 33.07
   }
 ]

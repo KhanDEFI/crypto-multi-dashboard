@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T17:44:21.433649+00:00",
-    "price": 2178.47,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting ETH around current levels with a stop-loss above $2,300.00, targeting a potential bounce to $2,300.00 or $2,500.00.",
-    "key_levels": {
-      "support": [
-        "$2,050.00",
-        "$1,900.00"
-      ],
-      "resistance": [
-        "$2,300.00",
-        "$2,500.00"
-      ]
-    },
-    "rsi": 27.31
-  },
-  {
     "timestamp": "2026-05-16T18:45:02.919602+00:00",
     "price": 2178.56,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 31.25
+  },
+  {
+    "timestamp": "2026-06-01T22:27:57.401883+00:00",
+    "price": 1998.06,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $1,980 with a stop-loss at $2,030, targeting a profit of $20-$30. Alternatively, wait for a clear breakout above $2,050 to enter a long position.",
+    "key_levels": {
+      "support": [
+        "$1,900",
+        "$1,850"
+      ],
+      "resistance": [
+        "$2,050",
+        "$2,100"
+      ]
+    },
+    "rsi": 46.13
   }
 ]

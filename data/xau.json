@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4543.58,
-  "change_24h": 0.07,
+  "price": 4532.7,
+  "change_24h": -0.17,
   "market_cap": 0,
-  "rsi": 45.88,
+  "rsi": 45.07,
   "analysis": {
-    "elliott_wave": "No applicable wave count or pattern assessment for gold.",
-    "momentum": "Neutral momentum with RSI at 45.88, but price action suggests a slight bearish bias due to the TradingView Signal: SELL.",
+    "elliott_wave": "Not applicable due to gold's unique market dynamics",
+    "momentum": "Neutral momentum with a slight bearish bias due to the 24h price drop and RSI reading of 45.07",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -18,9 +18,9 @@
         "$4,967.35"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target at the TV Pivot Support levels. Monitor the price action for a potential bounce or break below the support levels. Adjust the trade plan based on the price action and market conditions.",
-    "risk_note": "A sharp move in the DXY or a surprise change in central bank policy could significantly impact gold prices."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4753.93 and target the TV Pivot Support levels, but be cautious of potential safe-haven demand driven reversals",
+    "risk_note": "Central bank policy shifts could lead to a sudden surge in safe-haven demand and gold prices"
   },
-  "updated_at": "2026-05-31T23:54:04.988609+00:00"
+  "updated_at": "2026-06-01T02:15:33.222241+00:00"
 }

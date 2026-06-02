@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T23:39:21.164051+00:00",
-    "price": 2181.28,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider selling on a bounce above $2,200.00 with a stop-loss at $2,100.00, aiming for a target of $2,000.00. Alternatively, wait for a break below $2,000.00 for a more significant short opportunity.",
-    "key_levels": {
-      "support": [
-        "$2,100.00",
-        "$2,000.00"
-      ],
-      "resistance": [
-        "$2,200.00",
-        "$2,300.00"
-      ]
-    },
-    "rsi": 28.93
-  },
-  {
     "timestamp": "2026-05-17T01:52:15.866095+00:00",
     "price": 2171.19,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 25.06
+  },
+  {
+    "timestamp": "2026-06-02T21:39:02.880609+00:00",
+    "price": 1905.56,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1,900, with a target of $2,000. However, set a stop-loss at $1,800 to limit potential losses. Monitor the market for any signs of a reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
+      ]
+    },
+    "rsi": 24.74
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-16T21:37:43.943506+00:00",
-    "price": 78225,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $75,000.00, with a target of $72,000.00. Alternatively, look to go long on a bounce above $80,000.00, with a target of $82,000.00.",
-    "key_levels": {
-      "support": [
-        "$75,000.00",
-        "$72,000.00"
-      ],
-      "resistance": [
-        "$80,000.00",
-        "$82,000.00"
-      ]
-    },
-    "rsi": 40.7
-  },
-  {
     "timestamp": "2026-05-16T22:33:59.770072+00:00",
     "price": 78224,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 18.34
+  },
+  {
+    "timestamp": "2026-06-02T13:58:05.011838+00:00",
+    "price": 68717,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting at current levels with a stop-loss above $70,000, targeting $65,000 for a potential 5-7% gain. Alternatively, consider buying a dip near $60,000 with a stop-loss below $55,000.",
+    "key_levels": {
+      "support": [
+        "$65,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$70,000",
+        "$72,000"
+      ]
+    },
+    "rsi": 12.66
   }
 ]

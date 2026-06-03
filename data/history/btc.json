@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-17T10:15:53.932320+00:00",
-    "price": 78418,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $76,000, targeting $80,000 with a stop-loss at $75,000. Alternatively, consider a long position with a smaller position size, given the lack of strong momentum.",
-    "key_levels": {
-      "support": [
-        "$76,000",
-        "$75,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 9.09
-  },
-  {
     "timestamp": "2026-05-17T11:52:03.591097+00:00",
     "price": 78376,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 18.04
+  },
+  {
+    "timestamp": "2026-06-03T17:53:43.341430+00:00",
+    "price": 65828,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting on a bounce above $65,500 with a stop-loss at $66,200, targeting $63,000. Alternatively, consider buying on a break below $64,500 with a stop-loss at $63,500, targeting $67,000.",
+    "key_levels": {
+      "support": [
+        "$63,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$67,000",
+        "$68,500"
+      ]
+    },
+    "rsi": 17.95
   }
 ]

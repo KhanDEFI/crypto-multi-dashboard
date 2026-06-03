@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-17T08:06:06.654320+00:00",
-    "price": 78119,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a tight stop-loss below $76,000, targeting a move to $80,000 within the next 48 hours.",
-    "key_levels": {
-      "support": [
-        "$76,000",
-        "$75,000"
-      ],
-      "resistance": [
-        "$78,500",
-        "$80,000"
-      ]
-    },
-    "rsi": 9.09
-  },
-  {
     "timestamp": "2026-05-17T10:15:53.932320+00:00",
     "price": 78418,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 7.58
+  },
+  {
+    "timestamp": "2026-06-03T12:27:33.215048+00:00",
+    "price": 66883,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider shorting BTC at current levels with a target of $62,000, but be cautious of potential fake-outs and wait for confirmation of a clear reversal. If price action holds above $65,000, consider long positions with a target of $70,000. Monitor market conditions closely for potential trend changes.",
+    "key_levels": {
+      "support": [
+        "$64,500",
+        "$62,000"
+      ],
+      "resistance": [
+        "$68,000",
+        "$69,500"
+      ]
+    },
+    "rsi": 18.04
   }
 ]

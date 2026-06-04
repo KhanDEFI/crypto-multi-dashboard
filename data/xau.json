@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4440.35,
-  "change_24h": 0.13,
+  "price": 4450.84,
+  "change_24h": 0.37,
   "market_cap": 0,
-  "rsi": 39.43,
+  "rsi": 40.44,
   "analysis": {
-    "elliott_wave": "Not applicable due to gold's non-compliant price action. Focus on classical technical patterns and macro drivers.",
-    "momentum": "Neutral momentum with an RSI of 39.43, but price action is slightly bullish with a 0.13% 24h change.",
+    "elliott_wave": "Not applicable due to gold's non-compliance with Elliott Wave theory",
+    "momentum": "Neutral momentum with an RSI of 40.44, but price action suggests a slight downtrend; a potential reversal could be seen if price breaks above the current level",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -18,9 +18,9 @@
         "$4,967.35"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,753.93 and a target at $4,346.69. Alternatively, wait for a clear break below $4,346.69 for a potential short opportunity.",
-    "risk_note": "A surprise rate hike by the Fed could lead to a sharp sell-off in gold."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting with a stop-loss above $4,450.84; target the first support level at $4,346.69; be cautious of a potential reversal if price breaks above $4,450.84",
+    "risk_note": "A strong US dollar (DXY) or unexpected rate hike by the Federal Reserve could lead to a sharp increase in gold prices"
   },
-  "updated_at": "2026-06-03T22:56:07.403082+00:00"
+  "updated_at": "2026-06-04T00:25:07.302283+00:00"
 }

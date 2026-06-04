@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-17T16:42:57.830644+00:00",
-    "price": 2185.8,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $2,100.00, targeting $2,250.00. Consider taking profits at $2,300.00. Monitor for a potential reversal if price fails to hold above $2,100.00.",
-    "key_levels": {
-      "support": [
-        "$2,100.00",
-        "$2,050.00"
-      ],
-      "resistance": [
-        "$2,250.00",
-        "$2,300.00"
-      ]
-    },
-    "rsi": 17.12
-  },
-  {
     "timestamp": "2026-05-17T17:45:26.367587+00:00",
     "price": 2180.18,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 18.45
+  },
+  {
+    "timestamp": "2026-06-04T09:39:28.266247+00:00",
+    "price": 1748.47,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH with a stop-loss above $1,800 and a target of $1,550. Monitor the price action for a potential bounce off the current lows. A bullish reversal above $1,800 would negate this trade plan.",
+    "key_levels": {
+      "support": [
+        "$1,650",
+        "$1,550"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,900"
+      ]
+    },
+    "rsi": 16.48
   }
 ]

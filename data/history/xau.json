@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-18T22:03:09.933722+00:00",
-    "price": 4567.53,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a close above $4,837.32 or buying on a close below $4,458.19. Monitor the market for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 41.83
-  },
-  {
     "timestamp": "2026-05-18T23:53:44.090149+00:00",
     "price": 4582.74,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4327.55,
     "trend_bias": "bearish",
     "trade_plan": "Short-term bearish bias; consider selling on a bounce towards $4,346.69 or $4,152.87. Monitor the price action for a potential reversal or continuation of the downtrend.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 34.32
+  },
+  {
+    "timestamp": "2026-06-05T23:57:32.375544+00:00",
+    "price": 4327.55,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target around the $4,152.87 support level, given the STRONG_SELL signal from TradingView and the bearish trend bias. Monitor the price action around the $4,346.69 support for potential reversal signals. Adjust the trade plan based on the next 24-48 hours' price movement.",
     "key_levels": {
       "support": [
         "$4,346.69",

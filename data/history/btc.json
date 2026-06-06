@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-19T16:42:36.094319+00:00",
-    "price": 76673,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips, targeting $80,000 with a stop-loss at $74,000. Consider scaling in with a 50/50 allocation to $80,000 and $78,000.",
-    "key_levels": {
-      "support": [
-        "$74,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 34.8
-  },
-  {
     "timestamp": "2026-05-19T18:31:02.240671+00:00",
     "price": 76710,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$62,000",
         "$64,000"
+      ]
+    },
+    "rsi": 30.82
+  },
+  {
+    "timestamp": "2026-06-06T15:03:34.438877+00:00",
+    "price": 60723,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $58,000 with a stop-loss above $59,000. Consider buying on a bounce above $61,500 with a stop-loss below $60,000. Monitor price action for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$58,000",
+        "$56,000"
+      ],
+      "resistance": [
+        "$61,500",
+        "$62,500"
       ]
     },
     "rsi": 30.82

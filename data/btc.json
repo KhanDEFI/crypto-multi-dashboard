@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 60958,
-  "change_24h": -1.64,
-  "market_cap": 1222489392056.9941,
+  "price": 60723,
+  "change_24h": -0.29,
+  "market_cap": 1218812759536.761,
   "rsi": 30.82,
   "analysis": {
-    "elliott_wave": "BTC is in a corrective wave, with a possible 4th wave unfolding. The wave count suggests a potential bounce.",
-    "momentum": "The RSI is in a neutral zone, indicating a lack of clear momentum. However, the recent price action suggests a slight bearish bias.",
+    "elliott_wave": "The current wave count suggests a potential corrective wave (B) within a larger bearish trend, as price action has been forming a series of lower highs and lower lows. A break below $58,000 could confirm this assessment.",
+    "momentum": "The RSI reading of 30.82 indicates a neutral momentum, but the recent 0.29% price drop suggests a slight bearish bias. A close above $61,500 could shift momentum back to bullish.",
     "key_levels": {
       "support": [
         "$58,000",
         "$56,000"
       ],
       "resistance": [
-        "$62,000",
-        "$64,000"
+        "$61,500",
+        "$62,500"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider shorting BTC with a target of $58,000, using a stop loss at $62,000. Monitor the price action for a potential bounce. Adjust the trade plan if the RSI breaks out of the neutral zone.",
-    "risk_note": "A break above $62,000 could invalidate the bearish trend bias and trigger a long position."
+    "trade_plan": "Sell on a break below $58,000 with a stop-loss above $59,000. Consider buying on a bounce above $61,500 with a stop-loss below $60,000. Monitor price action for a potential reversal.",
+    "risk_note": "A break above $63,000 could invalidate the bearish trend bias and trigger a significant short squeeze."
   },
-  "updated_at": "2026-06-06T13:03:02.770159+00:00"
+  "updated_at": "2026-06-06T15:03:34.438877+00:00"
 }

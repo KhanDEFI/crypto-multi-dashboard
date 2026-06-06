@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-19T22:03:45.831403+00:00",
-    "price": 76791,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a stop-loss at $72,000 and a target at $80,000, but be cautious of a potential bearish reversal.",
-    "key_levels": {
-      "support": [
-        "$74,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 35.74
-  },
-  {
     "timestamp": "2026-05-19T23:52:16.669703+00:00",
     "price": 76816,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$62,000",
         "$65,000"
+      ]
+    },
+    "rsi": 33.23
+  },
+  {
+    "timestamp": "2026-06-06T19:23:44.444909+00:00",
+    "price": 60605,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips, targeting $62,000. Set a stop-loss at $58,000. Consider taking profits at $64,000.",
+    "key_levels": {
+      "support": [
+        "$58,000",
+        "$56,000"
+      ],
+      "resistance": [
+        "$62,000",
+        "$64,000"
       ]
     },
     "rsi": 33.23

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-19T20:22:12.146853+00:00",
-    "price": 76850,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy or sell at key levels, with a focus on scaling into positions as the trend bias remains neutral. Monitor the price action closely for signs of a breakout or reversal. A stop-loss order should be placed at the nearest key level.",
-    "key_levels": {
-      "support": [
-        "$75,000.00",
-        "$73,500.00"
-      ],
-      "resistance": [
-        "$78,000.00",
-        "$80,000.00"
-      ]
-    },
-    "rsi": 35.74
-  },
-  {
     "timestamp": "2026-05-19T22:03:45.831403+00:00",
     "price": 76791,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$58,000",
         "$55,000"
+      ],
+      "resistance": [
+        "$62,000",
+        "$65,000"
+      ]
+    },
+    "rsi": 33.23
+  },
+  {
+    "timestamp": "2026-06-06T17:59:43.271378+00:00",
+    "price": 60541,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop-loss above $62,000 and a target at $55,000. Monitor the market for potential bullish divergences. Adjust the trade plan if the RSI breaks above 50.",
+    "key_levels": {
+      "support": [
+        "$55,000",
+        "$50,000"
       ],
       "resistance": [
         "$62,000",

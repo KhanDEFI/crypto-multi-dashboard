@@ -1,17 +1,17 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 60776,
-  "change_24h": -1.02,
-  "market_cap": 1218294893857.685,
+  "price": 60541,
+  "change_24h": -0.36,
+  "market_cap": 1212595759462.6023,
   "rsi": 33.23,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bearish impulse, with a potential target at $55,000.",
-    "momentum": "The RSI reading of 33.23 indicates a neutral momentum, but the recent price action suggests a bearish trend continuation.",
+    "elliott_wave": "BTC is in a corrective wave (B) within a larger bearish impulse, potentially forming a triangle or zigzag pattern.",
+    "momentum": "The neutral RSI reading suggests a lack of strong momentum, but the recent price drop indicates a bearish trend bias.",
     "key_levels": {
       "support": [
-        "$58,000",
-        "$55,000"
+        "$55,000",
+        "$50,000"
       ],
       "resistance": [
         "$62,000",
@@ -19,8 +19,8 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Sell on a break below $58,000, targeting $55,000. Consider shorting with a stop-loss above $62,000. Monitor for a potential bullish reversal above $62,000.",
-    "risk_note": "A sudden shift in investor sentiment could lead to a sharp price reversal."
+    "trade_plan": "Consider shorting BTC with a stop-loss above $62,000 and a target at $55,000. Monitor the market for potential bullish divergences. Adjust the trade plan if the RSI breaks above 50.",
+    "risk_note": "A sudden spike in buying pressure could lead to a false breakout and a reversal of the bearish trend."
   },
-  "updated_at": "2026-06-06T16:56:03.287679+00:00"
+  "updated_at": "2026-06-06T17:59:43.271378+00:00"
 }

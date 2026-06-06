@@ -2,17 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-05-29T11:17:09.510455+00:00",
-        "price_at_prediction": 73556,
-        "price_now": 73527,
-        "price_change_pct": -0.04,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider buying on a bounce above $73,500, targeting $74,000-$74,500. However, be cautious of a potential breakdown below $73,000. Monitor the price action closely for a clear direction.",
-        "levels_hit": []
-      },
-      {
         "prediction_time": "2026-05-29T14:34:08.561461+00:00",
         "price_at_prediction": 72621,
         "price_now": 73856,
@@ -399,6 +388,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-05T17:44:59.667959+00:00",
+        "price_at_prediction": 60900,
+        "price_now": 60541,
+        "price_change_pct": -0.59,
+        "predicted_bias": "bearish",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider shorting with a stop-loss at $62,500.00 and a target at $58,500.00. Monitor the RSI for a potential bounce. A break above $62,500.00 could invalidate this trade plan.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -407,22 +407,11 @@
       "partial": 6,
       "incorrect": 10,
       "accuracy_pct": 46.7,
-      "updated_at": "2026-06-06T16:56:07.893569+00:00"
+      "updated_at": "2026-06-06T17:59:46.341111+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-29T11:17:09.510455+00:00",
-        "price_at_prediction": 2009.46,
-        "price_now": 2014.32,
-        "price_change_pct": 0.24,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting on a break below $1,900, targeting $1,800. Alternatively, look for a bounce above $2,100 to re-enter long positions. Monitor market conditions for a potential trend reversal.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-29T14:34:08.561461+00:00",
         "price_at_prediction": 1984.12,
@@ -820,6 +809,23 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-05T17:44:59.667959+00:00",
+        "price_at_prediction": 1596.97,
+        "price_now": 1551.91,
+        "price_change_pct": -2.82,
+        "predicted_bias": "bearish",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider shorting ETH with a stop-loss above $1,700 and a target around $1,400. Monitor the price action closely for a potential bounce. Be cautious of a false breakout.",
+        "levels_hit": [
+          {
+            "level": "$1,600",
+            "type": "support",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
@@ -828,22 +834,11 @@
       "partial": 6,
       "incorrect": 5,
       "accuracy_pct": 63.3,
-      "updated_at": "2026-06-06T16:56:07.893569+00:00"
+      "updated_at": "2026-06-06T17:59:46.341111+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-29T11:17:09.510455+00:00",
-        "price_at_prediction": 0.916665,
-        "price_now": 0.898648,
-        "price_change_pct": -1.97,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting SUI/USD with a target of $0.70, using a stop-loss at $1.00. Monitor the RSI for a potential bounce. Be cautious of a potential wave 4 correction.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-29T14:34:08.561461+00:00",
         "price_at_prediction": 0.896578,
@@ -1243,6 +1238,17 @@
         "verdict": "PARTIAL",
         "trade_plan": "Short-term, consider selling SUI/USD with a stop-loss above $0.75 and a target at $0.67. Monitor the price action for a potential bounce off the support level. A break below $0.63 could trigger a more significant sell-off.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-06-05T17:44:59.667959+00:00",
+        "price_at_prediction": 0.712361,
+        "price_now": 0.704578,
+        "price_change_pct": -1.09,
+        "predicted_bias": "bearish",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Short-term, consider shorting SUI/USD with a tight stop above $0.75, targeting $0.63-$0.67. Medium-term, look for a potential bounce to $0.75-$0.80.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1251,22 +1257,11 @@
       "partial": 5,
       "incorrect": 13,
       "accuracy_pct": 40.0,
-      "updated_at": "2026-06-06T16:56:07.893569+00:00"
+      "updated_at": "2026-06-06T17:59:46.341111+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-29T11:17:09.510455+00:00",
-        "price_at_prediction": 4530.97,
-        "price_now": 4540.51,
-        "price_change_pct": 0.21,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting with a stop above $4,550 and a target at $4,450, but be cautious of a potential bounce towards the resistance levels.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-29T14:34:08.561461+00:00",
         "price_at_prediction": 4532.27,
@@ -1621,15 +1616,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-05T17:44:59.667959+00:00",
+        "price_at_prediction": 4340.98,
+        "price_now": 4327.55,
+        "price_change_pct": -0.31,
+        "predicted_bias": "bearish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Consider selling gold with a stop-loss above $4350 and a target at $4150, as the bearish momentum and TradingView Signal suggest a strong sell. Monitor the price action closely for a potential bounce.",
+        "levels_hit": [
+          {
+            "level": "$4,346.69",
+            "type": "support",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 23,
-      "partial": 3,
+      "correct": 22,
+      "partial": 4,
       "incorrect": 4,
-      "accuracy_pct": 76.7,
-      "updated_at": "2026-06-06T16:56:07.893569+00:00"
+      "accuracy_pct": 73.3,
+      "updated_at": "2026-06-06T17:59:46.341111+00:00"
     }
   }
 }

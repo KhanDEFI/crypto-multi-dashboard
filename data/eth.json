@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1561.09,
-  "change_24h": -3.23,
-  "market_cap": 188321627485.8837,
+  "price": 1559.85,
+  "change_24h": -2.48,
+  "market_cap": 188179901209.6761,
   "rsi": 16.63,
   "analysis": {
-    "elliott_wave": "ETH is likely in a corrective wave 2, potentially forming a bullish flag pattern. Wave 3 could be imminent.",
-    "momentum": "ETH's price action and RSI indicate a strong oversold condition, suggesting a potential bounce in the near term.",
+    "elliott_wave": "ETH is likely in the midst of a corrective wave (4) within a larger bearish trend, potentially setting up a 5-wave impulse down.",
+    "momentum": "The RSI reading of 16.63 indicates an oversold condition, suggesting a potential bounce in the near term, but the -2.48% 24h change and bearish trend bias suggest caution.",
     "key_levels": {
       "support": [
-        "$1,500",
-        "$1,400"
+        "$1,400",
+        "$1,200"
       ],
       "resistance": [
-        "$1,600",
-        "$1,700"
+        "$1,700",
+        "$1,900"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $1,500, targeting $1,600-$1,700. Set stop-loss at $1,400. Monitor for a potential wave 3 impulse.",
-    "risk_note": "A sudden shift in global macroeconomic sentiment could lead to a sharp decline in ETH price."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH around current levels, targeting $1,400 support, with a stop-loss at $1,700 resistance. Monitor the 24h RSI for signs of a potential bounce. A break below $1,400 support could lead to further declines.",
+    "risk_note": "A sudden shift in market sentiment or a major regulatory announcement could lead to a sharp reversal in ETH price action."
   },
-  "updated_at": "2026-06-06T21:53:42.016480+00:00"
+  "updated_at": "2026-06-06T22:52:20.946812+00:00"
 }

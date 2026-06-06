@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-19T06:37:23.462523+00:00",
-    "price": 2133.79,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH near current levels with a stop above $2,250, targeting $2,000 for a potential 6% profit. Alternatively, wait for a confirmed wave 4 correction before entering a long position. Monitor market sentiment and adjust accordingly.",
-    "key_levels": {
-      "support": [
-        "$2,050",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,250",
-        "$2,350"
-      ]
-    },
-    "rsi": 34.84
-  },
-  {
     "timestamp": "2026-05-19T10:29:10.825010+00:00",
     "price": 2114.03,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 13.5
+  },
+  {
+    "timestamp": "2026-06-06T09:15:22.422765+00:00",
+    "price": 1581.44,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1,500 with a target of $1,600, but set a stop-loss at $1,400 to limit risk.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,400"
+      ],
+      "resistance": [
+        "$1,600",
+        "$1,700"
+      ]
+    },
+    "rsi": 13.8
   }
 ]

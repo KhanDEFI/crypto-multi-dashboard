@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-21T16:32:08.352019+00:00",
-    "price": 77132,
-    "trend_bias": "neutral",
-    "trade_plan": "We recommend a neutral stance, focusing on waiting for a clear breakout or reversal signal. A long position could be considered if the price breaks above $80,000, while a short position could be considered if the price breaks below $75,000.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 50.22
-  },
-  {
     "timestamp": "2026-05-21T18:50:08.423392+00:00",
     "price": 77531,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$62,500",
         "$65,000"
+      ]
+    },
+    "rsi": 44.66
+  },
+  {
+    "timestamp": "2026-06-07T23:56:03.661864+00:00",
+    "price": 63144,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $61,500, targeting $65,000. However, a close below $59,000 would invalidate the bullish trend. A stop-loss at $58,000 is recommended.",
+    "key_levels": {
+      "support": [
+        "$61,500",
+        "$59,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,500"
       ]
     },
     "rsi": 44.66

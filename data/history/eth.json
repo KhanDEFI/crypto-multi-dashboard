@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-20T13:28:05.067140+00:00",
-    "price": 2126.11,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the $2,050 support level, with a target of $2,200 resistance. Monitor the price action closely, as a break above $2,200 could lead to further gains. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$2,050",
-        "$2,000"
-      ],
-      "resistance": [
-        "$2,200",
-        "$2,300"
-      ]
-    },
-    "rsi": 53.14
-  },
-  {
     "timestamp": "2026-05-20T16:43:35.765907+00:00",
     "price": 2130.82,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 16.63
+  },
+  {
+    "timestamp": "2026-06-07T02:12:07.826589+00:00",
+    "price": 1591.52,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1,400, targeting $1,700 with a stop-loss at $1,300. Alternatively, sell at $1,900 with a stop-loss at $1,700.",
+    "key_levels": {
+      "support": [
+        "$1,400",
+        "$1,300"
+      ],
+      "resistance": [
+        "$1,700",
+        "$1,900"
+      ]
+    },
+    "rsi": 12.47
   }
 ]

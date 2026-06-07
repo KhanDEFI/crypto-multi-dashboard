@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-20T13:28:05.067140+00:00",
-    "price": 4491.98,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,837.32, targeting $4,458.19 for a potential 2.5% return. Monitor TradingView signals and adjust accordingly.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 37.81
-  },
-  {
     "timestamp": "2026-05-20T16:43:35.765907+00:00",
     "price": 4530.22,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4327.55,
     "trend_bias": "bearish",
     "trade_plan": "Consider shorting with a stop above $4,400 and a target at $4,200; however, be cautious of a potential bounce off current levels. Monitor TradingView Signal and adjust accordingly.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 34.32
+  },
+  {
+    "timestamp": "2026-06-07T02:12:07.826589+00:00",
+    "price": 4327.55,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on strength towards $4,753.93 resistance, with a stop-loss at $4,346.69 support. Consider scaling out of positions if price reaches $4,152.87.",
     "key_levels": {
       "support": [
         "$4,346.69",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-21T23:48:07.120128+00:00",
-    "price": 4535.74,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,550 and a target at $4,400, but be cautious of a potential bounce off the TV Pivot Support levels.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 41.64
-  },
-  {
     "timestamp": "2026-05-22T02:01:46.698848+00:00",
     "price": 4528.3,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.22
+  },
+  {
+    "timestamp": "2026-06-08T19:12:49.512001+00:00",
+    "price": 4331.18,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting XAU/USD with a stop-loss above $4,346.69, targeting $4,152.87 as a potential support level. Monitor the price action for a potential breakout below $4,346.69. Adjust the stop-loss and target accordingly.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 34.66
   }
 ]

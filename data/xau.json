@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4325.53,
-  "change_24h": -0.05,
+  "price": 4331.18,
+  "change_24h": 0.08,
   "market_cap": 0,
-  "rsi": 34.22,
+  "rsi": 34.66,
   "analysis": {
-    "elliott_wave": "No applicable wave count due to gold's non- Elliott Wave behavior; focus on classical technical patterns.",
-    "momentum": "Neutral momentum with RSI at 34.22, but recent 24h change of -0.05% indicates slight bearish bias.",
+    "elliott_wave": "No applicable Elliott Wave pattern assessment due to gold's unique market behavior.",
+    "momentum": "Neutral momentum with a slight downtrend bias, as the 0.08% 24h change and RSI of 34.66 indicate a consolidation phase.",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -18,9 +18,9 @@
         "$4,967.35"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short positions below $4356.69, targeting $4152.87; watch for potential longs above $4753.93.",
-    "risk_note": "DXY strength and real yield increases could boost gold's safe-haven demand, potentially invalidating bearish positions."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting XAU/USD with a stop-loss above $4,346.69, targeting $4,152.87 as a potential support level. Monitor the price action for a potential breakout below $4,346.69. Adjust the stop-loss and target accordingly.",
+    "risk_note": "A potential reversal in the US dollar (DXY) or a surprise rate hike by the Federal Reserve could lead to a safe-haven demand surge in gold, triggering a short squeeze."
   },
-  "updated_at": "2026-06-08T12:19:06.487694+00:00"
+  "updated_at": "2026-06-08T19:12:49.512001+00:00"
 }

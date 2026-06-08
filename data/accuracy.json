@@ -2,17 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-05-30T22:44:32.883805+00:00",
-        "price_at_prediction": 73725,
-        "price_now": 73799,
-        "price_change_pct": 0.1,
-        "predicted_bias": "bullish",
-        "actual_direction": "neutral",
-        "verdict": "PARTIAL",
-        "trade_plan": "Buy on dips towards $72,000.00, targeting $75,000.00. Set a stop-loss at $70,000.00. Consider taking profits at $77,000.00.",
-        "levels_hit": []
-      },
-      {
         "prediction_time": "2026-05-30T23:50:00.139274+00:00",
         "price_at_prediction": 73723,
         "price_now": 73592,
@@ -405,30 +394,41 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-07T02:12:07.826589+00:00",
+        "price_at_prediction": 61483,
+        "price_now": 63019,
+        "price_change_pct": 2.5,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips, targeting $62,500. Set stop-loss at $60,000. Consider scaling in with 20-30% of total position size.",
+        "levels_hit": [
+          {
+            "level": "$62,000",
+            "type": "resistance",
+            "hit": true
+          },
+          {
+            "level": "$62,500",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 14,
-      "partial": 4,
+      "correct": 15,
+      "partial": 3,
       "incorrect": 12,
-      "accuracy_pct": 46.7,
-      "updated_at": "2026-06-07T23:56:06.412686+00:00"
+      "accuracy_pct": 50.0,
+      "updated_at": "2026-06-08T02:41:53.947802+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-30T22:44:32.883805+00:00",
-        "price_at_prediction": 2019.43,
-        "price_now": 2008.46,
-        "price_change_pct": -0.54,
-        "predicted_bias": "bullish",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Buy on dips towards $1,900.00, targeting $2,100.00. Set stop-loss at $1,800.00. Monitor for potential pullbacks.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-30T23:50:00.139274+00:00",
         "price_at_prediction": 2018.76,
@@ -868,6 +868,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-07T02:12:07.826589+00:00",
+        "price_at_prediction": 1591.52,
+        "price_now": 1682.53,
+        "price_change_pct": 5.72,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on dips towards $1,400, targeting $1,700 with a stop-loss at $1,300. Alternatively, sell at $1,900 with a stop-loss at $1,700.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -876,22 +887,11 @@
       "partial": 1,
       "incorrect": 10,
       "accuracy_pct": 63.3,
-      "updated_at": "2026-06-07T23:56:06.412686+00:00"
+      "updated_at": "2026-06-08T02:41:53.947802+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-30T22:44:32.883805+00:00",
-        "price_at_prediction": 0.902372,
-        "price_now": 0.896706,
-        "price_change_pct": -0.63,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider buying on dips towards $0.85, targeting $0.95 with a stop-loss at $0.80. Alternatively, wait for a clear breakout above $0.95 to confirm a new uptrend.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-30T23:50:00.139274+00:00",
         "price_at_prediction": 0.903554,
@@ -1303,30 +1303,30 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-07T02:12:07.826589+00:00",
+        "price_at_prediction": 0.749116,
+        "price_now": 0.75205,
+        "price_change_pct": 0.39,
+        "predicted_bias": "bullish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Buy on dips targeting $0.80-$0.85 resistance, with a stop-loss at $0.68. Monitor the price action for a potential reversal or continuation. Adjust the trade plan if the RSI reading exceeds 50.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 13,
-      "partial": 3,
+      "correct": 12,
+      "partial": 4,
       "incorrect": 14,
-      "accuracy_pct": 43.3,
-      "updated_at": "2026-06-07T23:56:06.412686+00:00"
+      "accuracy_pct": 40.0,
+      "updated_at": "2026-06-08T02:41:53.947802+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-30T22:44:32.883805+00:00",
-        "price_at_prediction": 4540.51,
-        "price_now": 4535.23,
-        "price_change_pct": -0.12,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting with a stop above $4,837.32, target $4,458.19; monitor DXY and real yields for potential catalysts.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-30T23:50:00.139274+00:00",
         "price_at_prediction": 4540.51,
@@ -1753,15 +1753,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-07T02:12:07.826589+00:00",
+        "price_at_prediction": 4327.55,
+        "price_now": 4309.59,
+        "price_change_pct": -0.42,
+        "predicted_bias": "bearish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Sell on strength towards $4,753.93 resistance, with a stop-loss at $4,346.69 support. Consider scaling out of positions if price reaches $4,152.87.",
+        "levels_hit": [
+          {
+            "level": "$4,346.69",
+            "type": "support",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 12,
-      "partial": 14,
+      "correct": 11,
+      "partial": 15,
       "incorrect": 4,
-      "accuracy_pct": 40.0,
-      "updated_at": "2026-06-07T23:56:06.412686+00:00"
+      "accuracy_pct": 36.7,
+      "updated_at": "2026-06-08T02:41:53.947802+00:00"
     }
   }
 }

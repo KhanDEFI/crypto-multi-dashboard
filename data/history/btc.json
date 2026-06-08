@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-22T02:01:46.698848+00:00",
-    "price": 77582,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider going long if price breaks above $80,000, with a target of $82,000. Otherwise, wait for a clear bullish signal before entering a long position.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$72,000"
-      ],
-      "resistance": [
-        "$80,000",
-        "$82,000"
-      ]
-    },
-    "rsi": 65.33
-  },
-  {
     "timestamp": "2026-05-22T06:37:08.886030+00:00",
     "price": 77330,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 71.41
+  },
+  {
+    "timestamp": "2026-06-08T21:39:23.027564+00:00",
+    "price": 63733,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,500, targeting $65,000 with a stop-loss at $61,000. Monitor the price action for a potential breakout above $65,000. Consider scaling in positions on a pullback.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$66,500"
+      ]
+    },
+    "rsi": 69.7
   }
 ]

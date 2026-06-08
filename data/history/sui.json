@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-22T06:37:08.886030+00:00",
-    "price": 1.1,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1.10 with a target of $1.15, but set a stop-loss at $1.05 to limit potential losses. Alternatively, sell on a break below $1.05 with a target of $1.00.",
-    "key_levels": {
-      "support": [
-        "$1.05",
-        "$1.00"
-      ],
-      "resistance": [
-        "$1.15",
-        "$1.20"
-      ]
-    },
-    "rsi": 61.25
-  },
-  {
     "timestamp": "2026-05-22T10:13:47.794247+00:00",
     "price": 1.1,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.82",
+        "$0.85"
+      ]
+    },
+    "rsi": 70.78
+  },
+  {
+    "timestamp": "2026-06-08T23:05:39.528302+00:00",
+    "price": 0.75922,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a close above $0.80 or buying on a close below $0.73. A stop-loss at $0.70 would be prudent. Monitor the price action for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$0.73",
+        "$0.69"
+      ],
+      "resistance": [
+        "$0.80",
         "$0.85"
       ]
     },

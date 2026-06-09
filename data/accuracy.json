@@ -2,28 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-05-31T22:45:16.552684+00:00",
-        "price_at_prediction": 73799,
-        "price_now": 71217,
-        "price_change_pct": -3.5,
-        "predicted_bias": "bullish",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Buy on dips to $73,000, targeting $74,200-$74,500. Consider scaling in with a 50% position size. Monitor for a potential breakout above $74,500.",
-        "levels_hit": [
-          {
-            "level": "$73,000",
-            "type": "support",
-            "hit": true
-          },
-          {
-            "level": "$72,500",
-            "type": "support",
-            "hit": true
-          }
-        ]
-      },
-      {
         "prediction_time": "2026-05-31T23:54:04.988609+00:00",
         "price_at_prediction": 73592,
         "price_now": 71266,
@@ -411,6 +389,23 @@
         "verdict": "PARTIAL",
         "trade_plan": "Buy on dips towards $60,000, targeting $65,000 with a stop-loss at $58,000. Monitor the price action for signs of a reversal or continuation.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-06-08T21:39:23.027564+00:00",
+        "price_at_prediction": 63733,
+        "price_now": 61826,
+        "price_change_pct": -2.99,
+        "predicted_bias": "bullish",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on dips towards $62,500, targeting $65,000 with a stop-loss at $61,000. Monitor the price action for a potential breakout above $65,000. Consider scaling in positions on a pullback.",
+        "levels_hit": [
+          {
+            "level": "$62,500",
+            "type": "support",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
@@ -419,28 +414,11 @@
       "partial": 3,
       "incorrect": 9,
       "accuracy_pct": 60.0,
-      "updated_at": "2026-06-09T19:53:22.452993+00:00"
+      "updated_at": "2026-06-09T21:27:41.186635+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-31T22:45:16.552684+00:00",
-        "price_at_prediction": 2008.46,
-        "price_now": 1998.06,
-        "price_change_pct": -0.52,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips near 1950, targeting 2150. Set a stop-loss at 1850. Monitor the 2000 level for potential support.",
-        "levels_hit": [
-          {
-            "level": "2050",
-            "type": "support",
-            "hit": true
-          }
-        ]
-      },
       {
         "prediction_time": "2026-05-31T23:54:04.988609+00:00",
         "price_at_prediction": 2003.85,
@@ -874,30 +852,30 @@
         "verdict": "PARTIAL",
         "trade_plan": "Buy on dips to $1,600, targeting $1,750 with a stop-loss at $1,550. Consider scaling in for a more conservative entry.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-06-08T21:39:23.027564+00:00",
+        "price_at_prediction": 1711.43,
+        "price_now": 1651.71,
+        "price_change_pct": -3.49,
+        "predicted_bias": "bullish",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Buy on a pullback to the 20-day moving average ($1,650) and set a take profit at $1,750. Consider scaling out of long positions at $1,850. Monitor the market for a potential reversal.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 20,
+      "correct": 19,
       "partial": 1,
-      "incorrect": 9,
-      "accuracy_pct": 66.7,
-      "updated_at": "2026-06-09T19:53:22.452993+00:00"
+      "incorrect": 10,
+      "accuracy_pct": 63.3,
+      "updated_at": "2026-06-09T21:27:41.186635+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-31T22:45:16.552684+00:00",
-        "price_at_prediction": 0.896706,
-        "price_now": 0.87032,
-        "price_change_pct": -2.94,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider shorting the asset on a break below $0.85, targeting $0.80. Alternatively, look to buy on a bounce above $0.92, with a stop-loss at $0.90.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-31T23:54:04.988609+00:00",
         "price_at_prediction": 0.892994,
@@ -1309,6 +1287,17 @@
         "verdict": "PARTIAL",
         "trade_plan": "Consider selling on a close above $0.80 or buying on a close below $0.70. Monitor for a potential reversal or consolidation in the near term. Adjust trade plan accordingly.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-06-08T21:39:23.027564+00:00",
+        "price_at_prediction": 0.767391,
+        "price_now": 0.749272,
+        "price_change_pct": -2.36,
+        "predicted_bias": "bullish",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider selling SUI/USD on a pullback to $0.73-$0.70, with a stop-loss at $0.65. Alternatively, consider buying on a bounce from the support levels. Monitor the price action for a potential breakout above $0.82.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1317,22 +1306,11 @@
       "partial": 4,
       "incorrect": 14,
       "accuracy_pct": 40.0,
-      "updated_at": "2026-06-09T19:53:22.452993+00:00"
+      "updated_at": "2026-06-09T21:27:41.186635+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-05-31T22:45:16.552684+00:00",
-        "price_at_prediction": 4535.23,
-        "price_now": 4482.29,
-        "price_change_pct": -1.17,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider selling XAU/USD on a bounce from support levels, targeting resistance levels for profit taking. Monitor central bank policy and real yields for potential market shifts. A break below $4,352.87 could accelerate the downtrend.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-05-31T23:54:04.988609+00:00",
         "price_at_prediction": 4543.58,
@@ -1783,6 +1761,23 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-08T21:39:23.027564+00:00",
+        "price_at_prediction": 4330.5,
+        "price_now": 4260.09,
+        "price_change_pct": -1.63,
+        "predicted_bias": "bearish",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider short positions with a target around $4,152.87 support; stop-loss above $4,346.69; monitor DXY and real yields for further direction.",
+        "levels_hit": [
+          {
+            "level": "$4,346.69",
+            "type": "support",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
@@ -1791,7 +1786,7 @@
       "partial": 18,
       "incorrect": 4,
       "accuracy_pct": 26.7,
-      "updated_at": "2026-06-09T19:53:22.452993+00:00"
+      "updated_at": "2026-06-09T21:27:41.186635+00:00"
     }
   }
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1639.57,
-  "change_24h": -3.06,
-  "market_cap": 198120891090.31555,
-  "rsi": 67.52,
+  "price": 1639.91,
+  "change_24h": -2.64,
+  "market_cap": 198265182784.64737,
+  "rsi": 54.56,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle or a flat correction, with a possible reversal expected in the near term.",
-    "momentum": "The RSI reading of 67.52 indicates a neutral momentum, with the price action showing a slight bearish trend, but not strong enough to confirm a bearish reversal.",
+    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bullish trend, with a potential target of $1,800.",
+    "momentum": "The neutral RSI reading suggests a pause in the downward momentum, but the 2.64% 24h change indicates a bearish trend bias.",
     "key_levels": {
       "support": [
-        "1590.00",
-        "1550.00"
+        "$1,550",
+        "$1,450"
       ],
       "resistance": [
-        "1650.00",
-        "1700.00"
+        "$1,700",
+        "$1,800"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $1650.00 with a stop-loss at $1700.00, targeting a profit at $1590.00. Monitor the RSI for a potential bearish divergence. Adjust the trade plan based on the price action and market conditions.",
-    "risk_note": "A potential risk is a sudden surge in buying pressure, pushing the price above $1700.00, invalidating the short trade plan."
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on rallies towards $1,700, targeting $1,550. Medium-term, look for a bullish reversal above $1,800.",
+    "risk_note": "A sudden surge in global risk appetite could lead to a sharp rebound in ETH price."
   },
-  "updated_at": "2026-06-09T15:49:17.575147+00:00"
+  "updated_at": "2026-06-09T17:50:12.671166+00:00"
 }

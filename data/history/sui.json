@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23T05:30:40.374179+00:00",
-    "price": 1.031,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling SUI/USD with a stop-loss at $1.10 and a target at $0.95. Monitor the price action for a potential breakdown below $0.95. Adjust the trade plan based on the market's response.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.10",
-        "$1.15"
-      ]
-    },
-    "rsi": 44.53
-  },
-  {
     "timestamp": "2026-05-23T08:02:38.080918+00:00",
     "price": 0.993895,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 50.44
+  },
+  {
+    "timestamp": "2026-06-10T02:05:05.602831+00:00",
+    "price": 0.748867,
+    "trend_bias": "neutral",
+    "trade_plan": "We recommend a neutral stance, with a focus on waiting for a clear break above $0.78 or below $0.72 to establish a trade plan. A short-term trade can be considered if the price breaks below $0.72, targeting $0.68. Conversely, a long-term trade can be considered if the price breaks above $0.78.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.68"
+      ],
+      "resistance": [
+        "$0.78",
+        "$0.82"
+      ]
+    },
+    "rsi": 51.59
   }
 ]

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1646.47,
-  "change_24h": -0.0,
-  "market_cap": 198426143579.2781,
-  "rsi": 50.12,
+  "price": 1682.66,
+  "change_24h": 3.18,
+  "market_cap": 202918712117.95712,
+  "rsi": 42.4,
   "analysis": {
-    "elliott_wave": "ETH is currently in a neutral wave count, with a possible impulse wave forming. Further analysis is needed to confirm.",
-    "momentum": "The RSI is neutral at 50.12, indicating a lack of momentum in either direction. Price action is stable, with a 24h change of -0.00%.",
+    "elliott_wave": "ETH is currently in a bullish impulse wave (wave 3 of 5) as it breaks above the 161.8% extension of the previous wave.",
+    "momentum": "The RSI reading of 42.4 indicates a neutral momentum, but the 3.18% 24h price increase suggests a slight bullish bias.",
     "key_levels": {
       "support": [
-        "$1,600",
-        "$1,500"
+        "1650",
+        "1700"
       ],
       "resistance": [
-        "$1,700",
-        "$1,800"
+        "1800",
+        "1850"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,600, targeting $1,700. Sell on rallies above $1,700, targeting $1,800. Monitor the 24h change for signs of momentum.",
-    "risk_note": "A sudden shift in market sentiment could lead to a sharp price movement, making stop-loss management crucial."
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards 1650, targeting 1800-1850. Set stop-loss at 1600. Monitor for a potential reversal if price fails to hold above 1700.",
+    "risk_note": "A potential risk is a sharp decline if the market suddenly shifts to a bearish sentiment, triggered by a significant drop in global market indices."
   },
-  "updated_at": "2026-06-11T14:26:48.462406+00:00"
+  "updated_at": "2026-06-11T17:59:09.206631+00:00"
 }

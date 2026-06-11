@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4062.67,
-  "change_24h": -0.22,
+  "price": 4078.8,
+  "change_24h": 0.17,
   "market_cap": 0,
-  "rsi": 24.12,
+  "rsi": 25.05,
   "analysis": {
-    "elliott_wave": "Not applicable due to gold's unique market dynamics, instead focusing on classical technical patterns and macro drivers.",
-    "momentum": "The price action is oversold according to the RSI (24.12), indicating a potential bounce, but the STRONG_SELL signal from TradingView suggests caution.",
+    "elliott_wave": "Not applicable due to gold's unique market dynamics",
+    "momentum": "The price action is oversold, indicated by an RSI of 25.05, suggesting a potential bounce is due. However, the 24h change of 0.17% is minimal, indicating a lack of strong momentum.",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -19,8 +19,8 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a stop above $4,152.87 and a target at $4,000, but be cautious of a potential bounce. Monitor the DXY and real yields for further direction. A break below $4,000 could lead to further losses.",
-    "risk_note": "A sudden shift in investor sentiment or a surprise central bank policy change could lead to a sharp reversal in gold prices."
+    "trade_plan": "Consider selling with a stop-loss above $4,078.80, targeting a bounce to the TV Pivot Support levels. Monitor the price action for a potential reversal signal. Adjust the trade plan based on the TradingView Signal.",
+    "risk_note": "A strong US dollar (DXY) rally could lead to a decline in gold prices"
   },
-  "updated_at": "2026-06-10T22:45:00.377165+00:00"
+  "updated_at": "2026-06-11T05:18:23.761383+00:00"
 }

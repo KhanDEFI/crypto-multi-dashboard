@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23T18:52:03.205385+00:00",
-    "price": 1.05,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry on a bounce above $1.05, with a target of $1.10-$1.15. Alternatively, consider a sell entry on a break below $1.00, with a target of $0.90-$0.95.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.10",
-        "$1.15"
-      ]
-    },
-    "rsi": 37.3
-  },
-  {
     "timestamp": "2026-05-23T19:59:39.226015+00:00",
     "price": 1.053,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.65
+  },
+  {
+    "timestamp": "2026-06-11T14:26:48.462406+00:00",
+    "price": 0.747371,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy order at $0.72 for a potential bounce, with a target of $0.80. Alternatively, a sell order at $0.80 for a potential short-term trade. Risk management is crucial in this neutral market.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.68"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
+      ]
+    },
+    "rsi": 53.22
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-24T05:59:57.636216+00:00",
-    "price": 76729,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $74,000, targeting $78,000. Set stop-loss at $72,500. Monitor the 24h change for signs of increased buying pressure.",
-    "key_levels": {
-      "support": [
-        "$74,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 41.89
-  },
-  {
     "timestamp": "2026-05-24T08:30:38.589826+00:00",
     "price": 76741,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 59.35
+  },
+  {
+    "timestamp": "2026-06-12T12:47:11.290583+00:00",
+    "price": 63377,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $64,500, targeting $66,000. However, if the price fails to break above $64,500, consider shorting with a stop above $65,000. Monitor the 24h change for signs of increasing momentum.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$64,500",
+        "$66,000"
+      ]
+    },
+    "rsi": 64.39
   }
 ]

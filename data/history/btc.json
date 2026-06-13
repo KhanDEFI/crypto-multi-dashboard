@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-25T02:06:10.284203+00:00",
-    "price": 77003,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a range-bound trading strategy, focusing on buying dips and selling rallies. Set stop-loss orders at key support and resistance levels. Monitor market volatility for potential breakouts.",
-    "key_levels": {
-      "support": [
-        "$75,000",
-        "$73,500"
-      ],
-      "resistance": [
-        "$78,000",
-        "$80,000"
-      ]
-    },
-    "rsi": 52.03
-  },
-  {
     "timestamp": "2026-05-25T06:59:41.851521+00:00",
     "price": 77319,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,000",
         "$67,000"
+      ]
+    },
+    "rsi": 66.02
+  },
+  {
+    "timestamp": "2026-06-13T22:03:42.555352+00:00",
+    "price": 64394,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,000, targeting $65,000 with a stop-loss at $61,500. Monitor the price action for a potential breakout above $65,000.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$61,500"
+      ],
+      "resistance": [
+        "$65,000",
+        "$66,000"
       ]
     },
     "rsi": 66.02

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-24T20:00:47.380765+00:00",
-    "price": 76674,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $77,000.00, targeting $80,000.00. Alternatively, sell on a break below $75,000.00, targeting $73,500.00. Monitor the price action closely for any signs of trend reversal.",
-    "key_levels": {
-      "support": [
-        "$75,000.00",
-        "$74,500.00"
-      ],
-      "resistance": [
-        "$77,000.00",
-        "$78,000.00"
-      ]
-    },
-    "rsi": 42.04
-  },
-  {
     "timestamp": "2026-05-24T21:43:14.597601+00:00",
     "price": 76252,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,500.00",
         "$67,000.00"
+      ]
+    },
+    "rsi": 66.28
+  },
+  {
+    "timestamp": "2026-06-13T15:23:37.982184+00:00",
+    "price": 64261,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips, targeting $65,000 resistance. Set stop-loss at $62,000. Consider scaling in positions over the next 24-48h.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
       ]
     },
     "rsi": 66.28

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-24T21:43:14.597601+00:00",
-    "price": 1.013,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting at $1.05 with a stop-loss at $1.10. Alternatively, wait for a break below $0.95 to initiate a long position. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.05",
-        "$1.10"
-      ]
-    },
-    "rsi": 34.79
-  },
-  {
     "timestamp": "2026-05-24T22:44:16.600105+00:00",
     "price": 1.023,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 65.23
+  },
+  {
+    "timestamp": "2026-06-13T17:07:18.813828+00:00",
+    "price": 0.765848,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $0.75, with a target of $0.80. However, be cautious of potential selling pressure around $0.80. A stop-loss at $0.72 is recommended.",
+    "key_levels": {
+      "support": [
+        "$0.75",
+        "$0.72"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.82"
+      ]
+    },
+    "rsi": 65.96
   }
 ]

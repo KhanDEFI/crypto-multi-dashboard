@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-24T18:57:20.710570+00:00",
-    "price": 2096.99,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $2,000, with a target of $2,200. Consider taking profits at $2,200, and re-evaluating the position at $2,300. Risk management is crucial, with a stop-loss at $1,900.",
-    "key_levels": {
-      "support": [
-        "$2,000",
-        "$1,900"
-      ],
-      "resistance": [
-        "$2,200",
-        "$2,300"
-      ]
-    },
-    "rsi": 42.94
-  },
-  {
     "timestamp": "2026-05-24T20:00:47.380765+00:00",
     "price": 2098.58,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 65.43
+  },
+  {
+    "timestamp": "2026-06-13T13:19:41.151025+00:00",
+    "price": 1678.58,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,600, targeting $1,700-$1,750 resistance levels. Consider scaling in with a 50% position size. Monitor for a potential pullback.",
+    "key_levels": {
+      "support": [
+        "$1,600",
+        "$1,550"
+      ],
+      "resistance": [
+        "$1,700",
+        "$1,750"
+      ]
+    },
+    "rsi": 57.54
   }
 ]

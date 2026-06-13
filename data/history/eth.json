@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-24T23:48:49.432450+00:00",
-    "price": 2100.87,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $2,000, with a target of $2,200. However, if price breaks below $2,000, consider shorting with a stop-loss at $1,900. Monitor the 50% Fibonacci retracement level for potential support.",
-    "key_levels": {
-      "support": [
-        "$2,000",
-        "$1,900"
-      ],
-      "resistance": [
-        "$2,200",
-        "$2,300"
-      ]
-    },
-    "rsi": 44.04
-  },
-  {
     "timestamp": "2026-05-25T02:06:10.284203+00:00",
     "price": 2096.55,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 59.89
+  },
+  {
+    "timestamp": "2026-06-13T20:59:22.458597+00:00",
+    "price": 1675.62,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1,650.00, targeting $1,700.00. Sell on rallies above $1,700.00, targeting $1,750.00. Monitor market for signs of acceleration.",
+    "key_levels": {
+      "support": [
+        "$1,650.00",
+        "$1,600.00"
+      ],
+      "resistance": [
+        "$1,700.00",
+        "$1,750.00"
+      ]
+    },
+    "rsi": 54.6
   }
 ]

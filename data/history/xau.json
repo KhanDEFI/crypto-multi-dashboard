@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-25T16:56:23.669798+00:00",
-    "price": 4571.79,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a sell strategy based on TradingView's signal, targeting the support levels. Monitor the price action closely for potential reversals. Adjust the trade plan according to the market's response.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 45.51
-  },
-  {
     "timestamp": "2026-05-25T18:21:33.419869+00:00",
     "price": 4569.44,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4216.93,
     "trend_bias": "neutral",
     "trade_plan": "Consider a short position with a stop-loss above $4,346.69, targeting $4,152.87. Alternatively, wait for a clear breakout above $4,753.93 to consider a long position.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 36.05
+  },
+  {
+    "timestamp": "2026-06-14T10:42:07.069547+00:00",
+    "price": 4216.93,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $4,346.69, targeting $4,152.87. Alternatively, look to buy on a bounce off $4,152.87, aiming for $4,753.93.",
     "key_levels": {
       "support": [
         "$4,346.69",

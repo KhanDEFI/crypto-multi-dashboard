@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1675.63,
-  "change_24h": 0.1,
-  "market_cap": 202285843200.43137,
-  "rsi": 52.42,
+  "price": 1665.24,
+  "change_24h": -0.92,
+  "market_cap": 201030627841.77036,
+  "rsi": 51.6,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a bullish flag pattern. If the price breaks above $1,700, it could indicate a continuation of the uptrend.",
-    "momentum": "The RSI reading of 52.42 indicates a neutral momentum, suggesting that the price is neither overbought nor oversold. However, the 0.10% 24h change suggests a slight upward momentum.",
+    "elliott_wave": "ETH is currently in a corrective wave (IV) within a larger bull trend, with a potential wave count of (1)-(2)-(3)-(4)-(5).",
+    "momentum": "The RSI of 51.6 indicates a neutral momentum, with no clear indication of overbought or oversold conditions. The recent 0.92% price drop suggests a minor pullback within the larger uptrend.",
     "key_levels": {
       "support": [
-        "$1,650",
-        "$1,600"
+        "$1,600",
+        "$1,550"
       ],
       "resistance": [
         "$1,700",
         "$1,750"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,650, targeting $1,700. Set a stop-loss at $1,600. Consider taking profits at $1,750.",
-    "risk_note": "A potential risk is a sudden shift in market sentiment, leading to a sharp decline in price."
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,600, targeting $1,700-$1,750 resistance zone within the next 24-48 hours. Consider scaling in with smaller positions to manage risk. Monitor market conditions for potential trend reversals.",
+    "risk_note": "A break below $1,550 support could indicate a more significant trend reversal, potentially leading to a deeper correction."
   },
-  "updated_at": "2026-06-14T10:42:07.069547+00:00"
+  "updated_at": "2026-06-14T12:55:35.819663+00:00"
 }

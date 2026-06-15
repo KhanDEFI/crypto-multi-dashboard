@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-26T17:50:18.795061+00:00",
-    "price": 1.012,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting SUI/USD around current levels, targeting a potential retest of the $0.98 support level. Set a stop-loss at $1.04 to limit potential losses. Monitor the price action for signs of a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.98",
-        "$0.95"
-      ],
-      "resistance": [
-        "$1.04",
-        "$1.08"
-      ]
-    },
-    "rsi": 38.75
-  },
-  {
     "timestamp": "2026-05-26T19:51:45.212718+00:00",
     "price": 1.008,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 75.22
+  },
+  {
+    "timestamp": "2026-06-15T10:47:40.789428+00:00",
+    "price": 0.792718,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $0.75 or $0.72, with a target of $0.85. However, it's essential to set a stop-loss at $0.72 to mitigate potential losses. A cautious approach is recommended given the overbought conditions.",
+    "key_levels": {
+      "support": [
+        "$0.75",
+        "$0.72"
+      ],
+      "resistance": [
+        "$0.82",
+        "$0.85"
+      ]
+    },
+    "rsi": 71.64
   }
 ]

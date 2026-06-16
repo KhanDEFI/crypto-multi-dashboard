@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-27T00:03:33.221847+00:00",
-    "price": 1.001,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling SUI with a stop-loss at $1.05 and a target at $0.90. Medium-term, monitor the market for a potential reversal. Be cautious of a potential bounce.",
-    "key_levels": {
-      "support": [
-        "0.95",
-        "0.90"
-      ],
-      "resistance": [
-        "1.05",
-        "1.10"
-      ]
-    },
-    "rsi": 36.18
-  },
-  {
     "timestamp": "2026-05-27T05:07:08.571584+00:00",
     "price": 0.998177,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 61.98
+  },
+  {
+    "timestamp": "2026-06-16T00:20:43.714488+00:00",
+    "price": 0.794177,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a break below $0.75 for a potential short-term trade. Alternatively, look for a bounce above $0.82 to initiate a long position. Risk management is crucial in this neutral market.",
+    "key_levels": {
+      "support": [
+        "$0.75",
+        "$0.72"
+      ],
+      "resistance": [
+        "$0.82",
+        "$0.85"
+      ]
+    },
+    "rsi": 57.2
   }
 ]

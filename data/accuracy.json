@@ -2,23 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-06-07T22:00:35.573814+00:00",
-        "price_at_prediction": 61750,
-        "price_now": 63733,
-        "price_change_pct": 3.21,
-        "predicted_bias": "bullish",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips to $58,000 for a potential target at $65,000, with a stop-loss at $55,000. Monitor the 24h change and adjust the trade plan accordingly.",
-        "levels_hit": [
-          {
-            "level": "$62,500",
-            "type": "resistance",
-            "hit": true
-          }
-        ]
-      },
-      {
         "prediction_time": "2026-06-08T12:19:06.487694+00:00",
         "price_at_prediction": 62918,
         "price_now": 62652,
@@ -400,6 +383,17 @@
         "verdict": "CORRECT",
         "trade_plan": "Buy on dips to $62,000.00, targeting $67,000.00. Set a stop-loss at $60,000.00. Consider scaling into positions.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-06-14T23:59:18.214891+00:00",
+        "price_at_prediction": 65717,
+        "price_now": 66351,
+        "price_change_pct": 0.96,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards $63,000, targeting $68,000. Sell on rallies above $68,000, aiming for $70,000. Monitor the 24h chart for a clear breakout.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -408,28 +402,11 @@
       "partial": 8,
       "incorrect": 5,
       "accuracy_pct": 56.7,
-      "updated_at": "2026-06-15T22:53:10.117190+00:00"
+      "updated_at": "2026-06-16T00:20:47.002085+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-06-07T22:00:35.573814+00:00",
-        "price_at_prediction": 1633.14,
-        "price_now": 1711.43,
-        "price_change_pct": 4.79,
-        "predicted_bias": "bullish",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips to $1,550.00, targeting $1,700.00. Consider scaling in on a pullback to $1,450.00. Monitor for a potential breakout above $1,800.00.",
-        "levels_hit": [
-          {
-            "level": "$1,700.00",
-            "type": "resistance",
-            "hit": true
-          }
-        ]
-      },
       {
         "prediction_time": "2026-06-08T12:19:06.487694+00:00",
         "price_at_prediction": 1673.72,
@@ -794,6 +771,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-14T23:59:18.214891+00:00",
+        "price_at_prediction": 1724.58,
+        "price_now": 1795.64,
+        "price_change_pct": 4.12,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips to $1,650, with a target at $1,800. Consider taking profits at $1,900. Monitor market cap and RSI for signs of exhaustion.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -802,22 +790,11 @@
       "partial": 4,
       "incorrect": 10,
       "accuracy_pct": 53.3,
-      "updated_at": "2026-06-15T22:53:10.117190+00:00"
+      "updated_at": "2026-06-16T00:20:47.002085+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-06-07T22:00:35.573814+00:00",
-        "price_at_prediction": 0.738049,
-        "price_now": 0.767391,
-        "price_change_pct": 3.98,
-        "predicted_bias": "bullish",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Buy on dips towards $0.72, with a target of $0.82. Consider taking profits at $0.80. Monitor the 24h change for signs of exhaustion.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-06-08T12:19:06.487694+00:00",
         "price_at_prediction": 0.753792,
@@ -1165,6 +1142,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-14T23:59:18.214891+00:00",
+        "price_at_prediction": 0.800068,
+        "price_now": 0.794177,
+        "price_change_pct": -0.74,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider buying on dips towards $0.75, targeting $0.85-0.90 resistance levels. Alternatively, sell on rallies above $0.85, aiming for $0.70-0.75 support.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1173,28 +1161,11 @@
       "partial": 1,
       "incorrect": 19,
       "accuracy_pct": 33.3,
-      "updated_at": "2026-06-15T22:53:10.117190+00:00"
+      "updated_at": "2026-06-16T00:20:47.002085+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-06-07T22:00:35.573814+00:00",
-        "price_at_prediction": 4327.55,
-        "price_now": 4330.5,
-        "price_change_pct": 0.07,
-        "predicted_bias": "bearish",
-        "actual_direction": "neutral",
-        "verdict": "PARTIAL",
-        "trade_plan": "Consider short positions with a target around the TV Pivot Support levels. Monitor the price action and adjust the trade plan accordingly. Be cautious of a potential bounce.",
-        "levels_hit": [
-          {
-            "level": "$4,346.69",
-            "type": "support",
-            "hit": true
-          }
-        ]
-      },
       {
         "prediction_time": "2026-06-08T12:19:06.487694+00:00",
         "price_at_prediction": 4325.53,
@@ -1707,15 +1678,32 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-06-14T23:59:18.214891+00:00",
+        "price_at_prediction": 4294.18,
+        "price_now": 4310.67,
+        "price_change_pct": 0.38,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider shorting with a stop-loss above $4,346.69 and target $4,152.87, or wait for a breakout above $4,753.93 for a long position.",
+        "levels_hit": [
+          {
+            "level": "$4,346.69",
+            "type": "support",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 17,
-      "partial": 4,
+      "correct": 18,
+      "partial": 3,
       "incorrect": 9,
-      "accuracy_pct": 56.7,
-      "updated_at": "2026-06-15T22:53:10.117190+00:00"
+      "accuracy_pct": 60.0,
+      "updated_at": "2026-06-16T00:20:47.002085+00:00"
     }
   }
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-27T16:30:41.422136+00:00",
-    "price": 74977,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a stop-loss above $76,500 and a target of $72,000, but be cautious of a potential reversal if the price reaches the support level.",
-    "key_levels": {
-      "support": [
-        "$73,500",
-        "$72,000"
-      ],
-      "resistance": [
-        "$76,500",
-        "$78,000"
-      ]
-    },
-    "rsi": 25.76
-  },
-  {
     "timestamp": "2026-05-27T19:11:43.994889+00:00",
     "price": 74868,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$67,000",
         "$68,500"
+      ]
+    },
+    "rsi": 60.72
+  },
+  {
+    "timestamp": "2026-06-16T20:00:27.947241+00:00",
+    "price": 65570,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short-term buy position if the price breaks above $67,000.00, with a target of $68,500.00. Alternatively, consider a short position if the price breaks below $63,000.00, with a target of $61,500.00.",
+    "key_levels": {
+      "support": [
+        "$63,000.00",
+        "$61,500.00"
+      ],
+      "resistance": [
+        "$67,000.00",
+        "$68,500.00"
       ]
     },
     "rsi": 60.72

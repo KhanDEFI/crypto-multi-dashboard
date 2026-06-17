@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4326.02,
-  "change_24h": -0.12,
+  "price": 4328.56,
+  "change_24h": -0.06,
   "market_cap": 0,
-  "rsi": 43.74,
+  "rsi": 43.9,
   "analysis": {
-    "elliott_wave": "Not applicable to gold, focusing on classical technical patterns and macro drivers.",
-    "momentum": "Neutral momentum with RSI at 43.74, price action suggests a slight downtrend, but not strong enough to confirm a bearish trend.",
+    "elliott_wave": "Not applicable due to gold's non-comparability to crypto Elliott Wave theory",
+    "momentum": "Neutral momentum with a 43.9 RSI, but a slight bearish bias due to the -0.06% 24h change",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -18,9 +18,9 @@
         "$4,967.35"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling at current levels with a target around $4152.87, stop-loss above $4733.93. Monitor DXY and real yields for potential shifts in safe-haven demand.",
-    "risk_note": "A sudden shift in central bank policy could lead to a surge in gold prices, potentially invalidating the current bearish trend bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position with a tight stop above $4,346.69, targeting $4,152.87 as the next key level. Monitor the impact of macro drivers such as DXY and real yields on gold prices. Be cautious of a potential bullish reversal if gold prices bounce off the current support levels.",
+    "risk_note": "A sudden shift in central bank policy or a significant increase in safe-haven demand could rapidly change the market dynamics and invalidate the current trade plan"
   },
-  "updated_at": "2026-06-17T05:56:39.007710+00:00"
+  "updated_at": "2026-06-17T10:28:05.469486+00:00"
 }

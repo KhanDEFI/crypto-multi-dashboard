@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-27T21:42:32.936365+00:00",
-    "price": 0.97056,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting on a bounce above $0.95, with a target of $0.90. Alternatively, consider buying on a break below $0.90, with a target of $0.85. Be cautious of a potential false breakout.",
-    "key_levels": {
-      "support": [
-        "$0.90",
-        "$0.85"
-      ],
-      "resistance": [
-        "$1.00",
-        "$1.05"
-      ]
-    },
-    "rsi": 28.28
-  },
-  {
     "timestamp": "2026-05-27T23:07:01.633224+00:00",
     "price": 0.958264,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 0.797446,
     "trend_bias": "bullish",
     "trade_plan": "Consider buying on dips towards $0.75, targeting $0.85 resistance. Set a stop-loss at $0.70 to limit potential losses.",
+    "key_levels": {
+      "support": [
+        "$0.75",
+        "$0.70"
+      ],
+      "resistance": [
+        "$0.85",
+        "$0.90"
+      ]
+    },
+    "rsi": 60.49
+  },
+  {
+    "timestamp": "2026-06-17T00:06:52.981200+00:00",
+    "price": 0.797532,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips to $0.75 or selling on rallies to $0.85, with a target of $0.90. Stop-loss at $0.70 to limit potential losses. Monitor market conditions for a potential breakout.",
     "key_levels": {
       "support": [
         "$0.75",

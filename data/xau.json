@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4328.56,
-  "change_24h": -0.06,
+  "price": 4342.82,
+  "change_24h": 0.26,
   "market_cap": 0,
-  "rsi": 43.9,
+  "rsi": 44.82,
   "analysis": {
-    "elliott_wave": "Not applicable due to gold's non-comparability to crypto Elliott Wave theory",
-    "momentum": "Neutral momentum with a 43.9 RSI, but a slight bearish bias due to the -0.06% 24h change",
+    "elliott_wave": "Not applicable to gold due to its unique market dynamics.",
+    "momentum": "Neutral momentum, with a slight upward bias as the RSI is below 50. The recent 0.26% price increase suggests a potential continuation of the upward trend.",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -18,9 +18,9 @@
         "$4,967.35"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short position with a tight stop above $4,346.69, targeting $4,152.87 as the next key level. Monitor the impact of macro drivers such as DXY and real yields on gold prices. Be cautious of a potential bullish reversal if gold prices bounce off the current support levels.",
-    "risk_note": "A sudden shift in central bank policy or a significant increase in safe-haven demand could rapidly change the market dynamics and invalidate the current trade plan"
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the support levels, targeting the resistance levels for potential profit taking. Monitor the price action closely, as a break below the support levels could indicate a shift in trend. A stop-loss should be set below the support levels.",
+    "risk_note": "A sudden increase in the US dollar (DXY) could negatively impact gold prices due to its inverse relationship with the greenback."
   },
-  "updated_at": "2026-06-17T10:28:05.469486+00:00"
+  "updated_at": "2026-06-17T14:21:29.295421+00:00"
 }

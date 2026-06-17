@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-28T20:01:36.318916+00:00",
-    "price": 4497.4,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop-loss above $4,837.32, targeting $4,458.19 or lower. Alternatively, wait for a break below $4,294.69 for a more significant short opportunity.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 41.99
-  },
-  {
     "timestamp": "2026-05-28T22:24:42.077295+00:00",
     "price": 4494.02,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.34
+  },
+  {
+    "timestamp": "2026-06-17T23:14:15.635493+00:00",
+    "price": 4280.35,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $4,346.69 or $4,152.87, with a target of $4,753.93. However, given the TradingView Signal is SELL, prioritize caution and wait for a confirmed bullish reversal. Monitor the situation closely for a potential short-term trading opportunity.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 41.94
   }
 ]

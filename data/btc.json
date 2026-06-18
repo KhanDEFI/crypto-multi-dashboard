@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 63901,
-  "change_24h": -1.27,
-  "market_cap": 1280869182252.1646,
-  "rsi": 33.17,
+  "price": 63889,
+  "change_24h": -1.86,
+  "market_cap": 1278954767399.6204,
+  "rsi": 31.22,
   "analysis": {
-    "elliott_wave": "BTC is in a corrective wave, potentially in a wave 4 or B wave, as it's trying to find support after a sharp decline.",
-    "momentum": "Momentum is neutral, as the RSI is at 33.17, and the price is experiencing a minor pullback, but the 24h change is negative.",
+    "elliott_wave": "We are currently in a corrective wave (B) within a larger bearish trend, with a potential wave 4 unfolding. The wave count suggests a possible bounce to retest the previous support.",
+    "momentum": "The RSI reading of 31.22 indicates a neutral momentum, but the recent 1.86% price drop suggests a bearish bias. A break below $63,000 could accelerate the downtrend.",
     "key_levels": {
       "support": [
-        "$62,000",
-        "$60,000"
+        "$62,500",
+        "$61,000"
       ],
       "resistance": [
-        "$65,000",
-        "$66,500"
+        "$64,500",
+        "$65,500"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce to $65,000, targeting $67,000. However, if the price breaks below $62,000, consider selling short. Keep a close eye on the market.",
-    "risk_note": "A break below $60,000 could lead to a more significant decline."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $63,000 with a stop-loss at $64,000. Consider a short position with a target at $60,000. Monitor the RSI for a potential oversold bounce.",
+    "risk_note": "A sudden shift in market sentiment could lead to a surprise bounce, potentially catching traders off guard."
   },
-  "updated_at": "2026-06-18T11:42:20.095072+00:00"
+  "updated_at": "2026-06-18T14:40:10.037563+00:00"
 }

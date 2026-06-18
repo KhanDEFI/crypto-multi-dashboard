@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-29T07:43:52.765511+00:00",
-    "price": 73336,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a bullish trade plan with a target of $80,000, but only after a confirmed breakout above $75,000. Monitor the market for a potential reversal in the near future. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$70,000",
-        "$68,000"
-      ],
-      "resistance": [
-        "$75,000",
-        "$77,000"
-      ]
-    },
-    "rsi": 24.46
-  },
-  {
     "timestamp": "2026-05-29T11:17:09.510455+00:00",
     "price": 73556,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 33.17
+  },
+  {
+    "timestamp": "2026-06-18T14:40:10.037563+00:00",
+    "price": 63889,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $63,000 with a stop-loss at $64,000. Consider a short position with a target at $60,000. Monitor the RSI for a potential oversold bounce.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$64,500",
+        "$65,500"
+      ]
+    },
+    "rsi": 31.22
   }
 ]

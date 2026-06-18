@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-29T03:41:39.871010+00:00",
-    "price": 73240,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $73,000, targeting $75,000. However, set a stop-loss at $70,000 to limit potential losses. A break below $70,000 would indicate a stronger bear trend.",
-    "key_levels": {
-      "support": [
-        "$70,000",
-        "$68,000"
-      ],
-      "resistance": [
-        "$75,000",
-        "$78,000"
-      ]
-    },
-    "rsi": 23.98
-  },
-  {
     "timestamp": "2026-05-29T07:43:52.765511+00:00",
     "price": 73336,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 30.14
+  },
+  {
+    "timestamp": "2026-06-18T11:42:20.095072+00:00",
+    "price": 63901,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce to $65,000, targeting $67,000. However, if the price breaks below $62,000, consider selling short. Keep a close eye on the market.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$66,500"
+      ]
+    },
+    "rsi": 33.17
   }
 ]

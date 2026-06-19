@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-30T00:00:32.270919+00:00",
-    "price": 4540.51,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a sell strategy if the price reaches the TV Pivot Resistance levels, while keeping a close eye on the 24h change and RSI for potential reversal signals.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 45.62
-  },
-  {
     "timestamp": "2026-05-30T04:42:47.232985+00:00",
     "price": 4540.51,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.94
+  },
+  {
+    "timestamp": "2026-06-19T06:05:12.778721+00:00",
+    "price": 4137.73,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting XAU/USD at current levels, targeting the lower pivot support at $4,152.87. Alternatively, wait for a strong bounce off the current price to consider a long position. Monitor the DXY and real yields for potential macro drivers.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 34.96
   }
 ]

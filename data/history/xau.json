@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-30T09:48:18.187355+00:00",
-    "price": 4540.51,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a break above $4,837.32 resistance, targeting $5,052.95. Alternatively, buy on a break below $4,294.69 support, targeting $4,458.19.",
-    "key_levels": {
-      "support": [
-        "$4,458.19",
-        "$4,294.69"
-      ],
-      "resistance": [
-        "$4,837.32",
-        "$5,052.95"
-      ]
-    },
-    "rsi": 45.62
-  },
-  {
     "timestamp": "2026-05-30T11:09:51.931000+00:00",
     "price": 4540.51,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 35.32
+  },
+  {
+    "timestamp": "2026-06-19T19:22:10.785525+00:00",
+    "price": 4155.48,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting gold with a tight stop above $4,152.87, targeting $4,000-$4,100 in the next 24-48 hours.",
+    "key_levels": {
+      "support": [
+        "$4,346.69",
+        "$4,152.87"
+      ],
+      "resistance": [
+        "$4,753.93",
+        "$4,967.35"
+      ]
+    },
+    "rsi": 35.67
   }
 ]

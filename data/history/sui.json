@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-05-31T17:52:32.549641+00:00",
-    "price": 0.874887,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a bounce above $0.85 with a target of $0.90, and sell on a close below $0.80. Alternatively, consider a range trade between $0.80 and $0.90. Monitor the price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$0.85",
-        "$0.80"
-      ],
-      "resistance": [
-        "$0.90",
-        "$0.95"
-      ]
-    },
-    "rsi": 33.07
-  },
-  {
     "timestamp": "2026-05-31T18:59:35.538868+00:00",
     "price": 0.877847,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.86
+  },
+  {
+    "timestamp": "2026-06-21T13:43:12.706888+00:00",
+    "price": 0.710947,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips around $0.69, targeting $0.75 with a stop-loss at $0.67. Alternatively, consider selling around $0.73 with a stop-loss at $0.75.",
+    "key_levels": {
+      "support": [
+        "$0.69",
+        "$0.67"
+      ],
+      "resistance": [
+        "$0.73",
+        "$0.75"
+      ]
+    },
+    "rsi": 39.73
   }
 ]

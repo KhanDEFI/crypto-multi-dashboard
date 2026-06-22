@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4147,
-  "change_24h": -0.2,
+  "price": 4197.73,
+  "change_24h": 1.02,
   "market_cap": 0,
-  "rsi": 35.29,
+  "rsi": 38.92,
   "analysis": {
-    "elliott_wave": "No applicable Elliott Wave pattern assessment due to gold's unique market dynamics.",
-    "momentum": "Neutral momentum with a 35.29 RSI reading, but a STRONG_SELL signal from TradingView suggests a bearish bias.",
+    "elliott_wave": "Not applicable to gold market analysis",
+    "momentum": "Neutral momentum with RSI at 38.92, but recent price action indicates a slight bullish bias with a 1.02% 24h gain",
     "key_levels": {
       "support": [
         "$4,346.69",
@@ -18,9 +18,9 @@
         "$4,967.35"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target below $4,152.87, or wait for a bounce to $4,346.69 before considering longs.",
-    "risk_note": "Closely monitor the US Dollar Index (DXY) and real yields for potential shifts in safe-haven demand."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4,346.69, targeting $4,152.87, but be cautious of a potential bullish reversal if DXY weakens or real yields decline",
+    "risk_note": "A sharp decline in the DXY could spark a safe-haven demand surge in gold, potentially invalidating the current bearish bias"
   },
-  "updated_at": "2026-06-22T00:06:12.987492+00:00"
+  "updated_at": "2026-06-22T06:17:40.157540+00:00"
 }

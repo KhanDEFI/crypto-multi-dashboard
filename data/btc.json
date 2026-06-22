@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 64150,
-  "change_24h": -0.02,
-  "market_cap": 1286479888752.9714,
-  "rsi": 61.55,
+  "price": 64996,
+  "change_24h": 1.58,
+  "market_cap": 1300876657550.3652,
+  "rsi": 64.9,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a minor pullback within a larger bullish trend, with wave 2 potentially unfolding.",
-    "momentum": "The RSI reading of 61.55 indicates neutral momentum, with neither strong buying nor selling pressure.",
+    "elliott_wave": "BTC is in a corrective wave (B) within a larger bullish trend, potentially forming a bullish impulse wave (1) or a bearish impulse wave (2) if price breaks below $62,000.",
+    "momentum": "Momentum is neutral, with a slight bullish bias, as the RSI is above 50 and price action is trending upwards, but the 24h change is relatively low at 1.58%.",
     "key_levels": {
       "support": [
-        "$62,000.00",
-        "$60,000.00"
+        "$62,000",
+        "$59,000"
       ],
       "resistance": [
-        "$65,000.00",
-        "$67,000.00"
+        "$66,000",
+        "$68,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $62,000.00, targeting $65,000.00. Alternatively, sell on rallies above $65,000.00, aiming for $62,000.00.",
-    "risk_note": "A break below $60,000.00 could signal a more significant downtrend."
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $62,000 with a target of $66,000 and a stop-loss at $59,000. Consider taking profits at $68,000. Monitor the 24h change for signs of increasing momentum.",
+    "risk_note": "Key risk: a sudden drop in market cap due to a large sell order or a major economic event."
   },
-  "updated_at": "2026-06-22T06:17:40.157540+00:00"
+  "updated_at": "2026-06-22T12:40:17.845865+00:00"
 }

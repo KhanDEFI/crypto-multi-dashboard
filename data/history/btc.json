@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-01T02:15:33.222241+00:00",
-    "price": 73432,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a close above $74,000 for a potential short-term trade. Alternatively, wait for a break below $73,000 to initiate a long position. Monitor market conditions closely.",
-    "key_levels": {
-      "support": [
-        "$73,000",
-        "$72,500"
-      ],
-      "resistance": [
-        "$74,000",
-        "$74,500"
-      ]
-    },
-    "rsi": 47.48
-  },
-  {
     "timestamp": "2026-06-01T08:20:33.154698+00:00",
     "price": 72712,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,000.00",
         "$67,500.00"
+      ]
+    },
+    "rsi": 73.92
+  },
+  {
+    "timestamp": "2026-06-22T00:06:12.987492+00:00",
+    "price": 63361,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close below $59,500, targeting $58,000 for a potential short-term trade. Alternatively, look to buy on a bounce above $65,000, targeting $67,500 for a potential long-term trade.",
+    "key_levels": {
+      "support": [
+        "$59,500",
+        "$58,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,500"
       ]
     },
     "rsi": 73.92

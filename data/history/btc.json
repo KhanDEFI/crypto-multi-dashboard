@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-02T18:02:43.756135+00:00",
-    "price": 67456,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling on a bounce above $67,000, targeting $65,000. Medium-term, watch for a potential reversal above $69,000, indicating a resumption of the bull trend.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$63,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$69,000"
-      ]
-    },
-    "rsi": 9.64
-  },
-  {
     "timestamp": "2026-06-02T21:39:02.880609+00:00",
     "price": 67798,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 35.79
+  },
+  {
+    "timestamp": "2026-06-23T13:33:29.655906+00:00",
+    "price": 62181,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $60,000, with a target at $58,000. Alternatively, look for a bounce at current levels to re-enter long positions. Monitor the 24h chart for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$60,000",
+        "$58,000"
+      ],
+      "resistance": [
+        "$62,500",
+        "$65,000"
+      ]
+    },
+    "rsi": 31.56
   }
 ]

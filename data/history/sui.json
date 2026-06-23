@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-03T17:53:43.341430+00:00",
-    "price": 0.822568,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position if price breaks above $0.90, targeting $0.94. Alternatively, look for a short opportunity if price falls below $0.76.",
-    "key_levels": {
-      "support": [
-        "$0.76",
-        "$0.72"
-      ],
-      "resistance": [
-        "$0.90",
-        "$0.94"
-      ]
-    },
-    "rsi": 37.71
-  },
-  {
     "timestamp": "2026-06-03T20:44:18.668481+00:00",
     "price": 0.813519,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.72",
         "$0.75"
+      ]
+    },
+    "rsi": 47.58
+  },
+  {
+    "timestamp": "2026-06-23T23:50:31.435462+00:00",
+    "price": 0.704472,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $0.70, targeting $0.75-$0.80. Alternatively, sell on a break below $0.65. Monitor the 24h chart for signs of reversal.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
       ]
     },
     "rsi": 47.58

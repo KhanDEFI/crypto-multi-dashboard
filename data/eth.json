@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1665.72,
-  "change_24h": -3.47,
-  "market_cap": 200820525746.1816,
-  "rsi": 35.65,
+  "price": 1672.36,
+  "change_24h": -3.24,
+  "market_cap": 201976957608.7356,
+  "rsi": 35.19,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a bearish impulse wave (5-3-5). Further confirmation requires a break below $1,600.",
-    "momentum": "ETH's RSI is neutral at 35.65, indicating a lack of clear momentum. However, the recent 3.47% price drop suggests a bearish trend.",
+    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bearish trend, with a potential target at $1,500.",
+    "momentum": "The RSI reading of 35.19 indicates a neutral momentum, but the recent price action suggests a bearish trend continuation.",
     "key_levels": {
       "support": [
-        "$1,600",
-        "$1,500"
+        "$1,550",
+        "$1,400"
       ],
       "resistance": [
         "$1,700",
-        "$1,800"
+        "$1,850"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Sell ETH on a break below $1,600, targeting $1,500. Consider buying on a bounce above $1,700. Monitor market cap for signs of institutional selling.",
-    "risk_note": "A sudden shift in global macroeconomic sentiment could lead to a sharp ETH price drop, potentially triggering a larger bearish trend."
+    "trade_plan": "Short ETH with a target at $1,500, using a stop-loss at $1,700. Consider scaling in or out of positions based on market volatility.",
+    "risk_note": "A potential reversal in the trend could be triggered by a break above $1,700, invalidating the bearish trade plan."
   },
-  "updated_at": "2026-06-23T23:50:31.435462+00:00"
+  "updated_at": "2026-06-24T01:59:34.847330+00:00"
 }

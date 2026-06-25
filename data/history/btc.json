@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-05T17:44:59.667959+00:00",
-    "price": 60900,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a stop-loss at $62,500.00 and a target at $58,500.00. Monitor the RSI for a potential bounce. A break above $62,500.00 could invalidate this trade plan.",
-    "key_levels": {
-      "support": [
-        "$58,500.00",
-        "$56,000.00"
-      ],
-      "resistance": [
-        "$62,500.00",
-        "$65,000.00"
-      ]
-    },
-    "rsi": 19.94
-  },
-  {
     "timestamp": "2026-06-05T21:14:50.742163+00:00",
     "price": 61775,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 31.26
+  },
+  {
+    "timestamp": "2026-06-25T22:14:16.957853+00:00",
+    "price": 59813,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term traders should consider selling on rallies towards $60,000. Medium-term traders should look to buy on dips towards $56,000. A break below $58,000 would confirm the downtrend.",
+    "key_levels": {
+      "support": [
+        "$58,000",
+        "$56,000"
+      ],
+      "resistance": [
+        "$60,000",
+        "$62,000"
+      ]
+    },
+    "rsi": 31.57
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-06T15:03:34.438877+00:00",
-    "price": 1557.53,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,450.00, with a target of $1,600.00. Set a stop-loss at $1,350.00. Monitor the market for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1,450.00",
-        "$1,350.00"
-      ],
-      "resistance": [
-        "$1,600.00",
-        "$1,700.00"
-      ]
-    },
-    "rsi": 13.3
-  },
-  {
     "timestamp": "2026-06-06T16:56:03.287679+00:00",
     "price": 1563.0,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,600",
         "$1,650"
+      ]
+    },
+    "rsi": 37.13
+  },
+  {
+    "timestamp": "2026-06-26T21:59:45.714450+00:00",
+    "price": 1573.91,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a break below $1,500 for a potential short-term trade. Alternatively, a long position could be taken on a bounce above $1,600. Risk management is key in this neutral market.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,400"
+      ],
+      "resistance": [
+        "$1,600",
+        "$1,700"
       ]
     },
     "rsi": 37.13

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-06T13:03:02.770159+00:00",
-    "price": 60958,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting BTC with a target of $58,000, using a stop loss at $62,000. Monitor the price action for a potential bounce. Adjust the trade plan if the RSI breaks out of the neutral zone.",
-    "key_levels": {
-      "support": [
-        "$58,000",
-        "$56,000"
-      ],
-      "resistance": [
-        "$62,000",
-        "$64,000"
-      ]
-    },
-    "rsi": 30.82
-  },
-  {
     "timestamp": "2026-06-06T15:03:34.438877+00:00",
     "price": 60723,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.03
+  },
+  {
+    "timestamp": "2026-06-26T20:24:52.554154+00:00",
+    "price": 59658,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy setup on a break above $61,000, targeting $62,500. Conversely, a sell setup on a break below $57,500, targeting $56,000. Monitor price action for confirmation.",
+    "key_levels": {
+      "support": [
+        "$57,500",
+        "$56,000"
+      ],
+      "resistance": [
+        "$61,000",
+        "$62,500"
+      ]
+    },
+    "rsi": 37.27
   }
 ]

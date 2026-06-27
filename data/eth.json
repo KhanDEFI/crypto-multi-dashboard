@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1575.87,
-  "change_24h": 0.07,
-  "market_cap": 190062569312.91608,
+  "price": 1572.59,
+  "change_24h": -0.21,
+  "market_cap": 189773356699.80795,
   "rsi": 39.64,
   "analysis": {
-    "elliott_wave": "ETH is currently in a bullish impulse wave, with a possible wave 3 or 4 unfolding. The wave count suggests a potential continuation of the uptrend.",
-    "momentum": "The RSI of 39.64 indicates a neutral momentum, with the price action showing a slight increase in bullish momentum. However, the 24h change of 0.07% suggests a lack of strong momentum.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially part of a larger bearish impulse. The wave count suggests a potential test of the 2022 lows.",
+    "momentum": "The RSI reading of 39.64 indicates a neutral momentum, with the price action showing a slight bearish bias. However, the 24h change of -0.21% suggests a lack of strong momentum in either direction.",
     "key_levels": {
       "support": [
-        "$1,550.00",
-        "$1,525.00"
+        "$1,400",
+        "$1,200"
       ],
       "resistance": [
-        "$1,600.00",
-        "$1,625.00"
+        "$1,700",
+        "$1,900"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $1,550.00, with a target of $1,625.00. Consider taking profits at $1,600.00. Monitor the 24h change for signs of increasing momentum.",
-    "risk_note": "A potential bearish reversal could occur if the price falls below $1,525.00, triggering a short-term sell signal."
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a stop-loss above $1,600 and a target of $1,400. Alternatively, consider a range trade between $1,500 and $1,700. Monitor the price action for a potential breakout.",
+    "risk_note": "A sudden shift in market sentiment could lead to a rapid price move, potentially catching traders off guard."
   },
-  "updated_at": "2026-06-27T22:51:19.729225+00:00"
+  "updated_at": "2026-06-27T23:51:14.609955+00:00"
 }

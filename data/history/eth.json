@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-07T20:58:01.657545+00:00",
-    "price": 1627.77,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards 1610.00, targeting 1700.00. Set a stop loss at 1550.00. Consider taking partial profits around 1650.00.",
-    "key_levels": {
-      "support": [
-        "1610.00",
-        "1550.00"
-      ],
-      "resistance": [
-        "1650.00",
-        "1700.00"
-      ]
-    },
-    "rsi": 39.62
-  },
-  {
     "timestamp": "2026-06-07T22:00:35.573814+00:00",
     "price": 1633.14,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 50.98
+  },
+  {
+    "timestamp": "2026-06-28T06:51:24.923990+00:00",
+    "price": 1565.41,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1,500.00, targeting $1,600.00. Sell on rallies above $1,600.00, targeting $1,650.00. Monitor the 24h price action for potential trend reversals.",
+    "key_levels": {
+      "support": [
+        "$1,500.00",
+        "$1,450.00"
+      ],
+      "resistance": [
+        "$1,600.00",
+        "$1,650.00"
+      ]
+    },
+    "rsi": 54.64
   }
 ]

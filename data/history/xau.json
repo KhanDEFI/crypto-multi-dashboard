@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-08T19:12:49.512001+00:00",
-    "price": 4331.18,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting XAU/USD with a stop-loss above $4,346.69, targeting $4,152.87 as a potential support level. Monitor the price action for a potential breakout below $4,346.69. Adjust the stop-loss and target accordingly.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 34.66
-  },
-  {
     "timestamp": "2026-06-08T21:39:23.027564+00:00",
     "price": 4330.5,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 4081.36,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting the market if it breaks below $4,152.64, targeting $4,000. Alternatively, wait for a clear bullish signal or a break above $4,753.48.",
+    "key_levels": {
+      "support": [
+        "$4,346.24",
+        "$4,152.64"
+      ],
+      "resistance": [
+        "$4,753.48",
+        "$4,967.12"
+      ]
+    },
+    "rsi": 36.99
+  },
+  {
+    "timestamp": "2026-06-28T17:57:21.637742+00:00",
+    "price": 4081.36,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards support levels, with a target of $4,500. However, be cautious of a potential sell signal from TradingView.",
     "key_levels": {
       "support": [
         "$4,346.24",

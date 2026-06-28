@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-09T05:58:29.978046+00:00",
-    "price": 4342.75,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,753.93, targeting $4,346.69 or lower. Monitor TradingView Signal: SELL and central bank policy announcements. Be cautious of a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 35.8
-  },
-  {
     "timestamp": "2026-06-09T09:37:56.300346+00:00",
     "price": 4330.53,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.99
+  },
+  {
+    "timestamp": "2026-06-28T22:51:16.389051+00:00",
+    "price": 4065.93,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting with a target around $4,152.64, or wait for a bounce off support to short with a tighter stop.",
+    "key_levels": {
+      "support": [
+        "$4,346.24",
+        "$4,152.64"
+      ],
+      "resistance": [
+        "$4,753.48",
+        "$4,967.12"
+      ]
+    },
+    "rsi": 36.28
   }
 ]

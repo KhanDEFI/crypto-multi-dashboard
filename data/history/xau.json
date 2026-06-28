@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-07T23:56:03.661864+00:00",
-    "price": 4344.94,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target near the TV Pivot Support levels, but be cautious of a potential bounce if the DXY weakens or real yields drop.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 35.91
-  },
-  {
     "timestamp": "2026-06-08T02:41:50.598125+00:00",
     "price": 4309.59,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 4081.36,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting with a stop-loss above $4,081.36, targeting $4,152.64 or $4,346.24, but be cautious of a potential bounce",
+    "key_levels": {
+      "support": [
+        "$4,346.24",
+        "$4,152.64"
+      ],
+      "resistance": [
+        "$4,753.48",
+        "$4,967.12"
+      ]
+    },
+    "rsi": 36.99
+  },
+  {
+    "timestamp": "2026-06-28T11:29:43.270196+00:00",
+    "price": 4081.36,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting near current price levels ($4,081.36) if TradingView Signal: SELL is confirmed, with a target near the lower TV Pivot Support ($4,152.64). Alternatively, wait for a bullish reversal signal before entering long positions.",
     "key_levels": {
       "support": [
         "$4,346.24",

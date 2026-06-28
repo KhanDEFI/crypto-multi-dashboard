@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-08T21:39:23.027564+00:00",
-    "price": 4330.5,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target around $4,152.87 support; stop-loss above $4,346.69; monitor DXY and real yields for further direction.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 34.6
-  },
-  {
     "timestamp": "2026-06-08T23:05:39.528302+00:00",
     "price": 4327.7,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4081.36,
     "trend_bias": "bullish",
     "trade_plan": "Consider buying on dips towards support levels, with a target of $4,500. However, be cautious of a potential sell signal from TradingView.",
+    "key_levels": {
+      "support": [
+        "$4,346.24",
+        "$4,152.64"
+      ],
+      "resistance": [
+        "$4,753.48",
+        "$4,967.12"
+      ]
+    },
+    "rsi": 36.99
+  },
+  {
+    "timestamp": "2026-06-28T19:09:55.896713+00:00",
+    "price": 4081.36,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the market if it breaks below the $4,152.64 support level, while a close above $4,753.48 resistance could trigger a long position. Monitor the market's reaction to the TradingView SELL signal and adjust the trade plan accordingly.",
     "key_levels": {
       "support": [
         "$4,346.24",

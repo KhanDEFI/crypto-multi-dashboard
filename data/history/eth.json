@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-08T21:39:23.027564+00:00",
-    "price": 1711.43,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on a pullback to the 20-day moving average ($1,650) and set a take profit at $1,750. Consider scaling out of long positions at $1,850. Monitor the market for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$1,650",
-        "$1,550"
-      ],
-      "resistance": [
-        "$1,750",
-        "$1,850"
-      ]
-    },
-    "rsi": 78.6
-  },
-  {
     "timestamp": "2026-06-08T23:05:39.528302+00:00",
     "price": 1705.01,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,600",
         "$1,700"
+      ]
+    },
+    "rsi": 49.62
+  },
+  {
+    "timestamp": "2026-06-28T19:09:55.896713+00:00",
+    "price": 1567.49,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1,400, targeting $1,700. Alternatively, sell on a break below $1,300, aiming for $1,200. Monitor the RSI for signs of a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1,400",
+        "$1,300"
+      ],
+      "resistance": [
+        "$1,700",
+        "$1,900"
       ]
     },
     "rsi": 49.62

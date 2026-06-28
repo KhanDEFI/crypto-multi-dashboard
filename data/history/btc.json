@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-09T09:37:56.300346+00:00",
-    "price": 62677,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting BTC with a stop-loss above $63,500 and a target at $60,000, but be cautious of a potential bullish reversal.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$63,500",
-        "$65,000"
-      ]
-    },
-    "rsi": 65.94
-  },
-  {
     "timestamp": "2026-06-09T12:29:10.564154+00:00",
     "price": 62652,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 59083,
     "trend_bias": "neutral",
     "trade_plan": "Consider a buy on dips strategy, targeting $60,000 if the price holds above $58,000. Alternatively, a short position could be taken if the price breaks below $57,500.",
+    "key_levels": {
+      "support": [
+        "$58,000",
+        "$57,500"
+      ],
+      "resistance": [
+        "$60,000",
+        "$61,000"
+      ]
+    },
+    "rsi": 51.77
+  },
+  {
+    "timestamp": "2026-06-28T23:57:49.465661+00:00",
+    "price": 59569,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a breakout above $60,000 with a stop-loss at $58,000. Alternatively, sell on a breakdown below $58,000 with a stop-loss at $57,500. Monitor the price action closely for a potential reversal.",
     "key_levels": {
       "support": [
         "$58,000",

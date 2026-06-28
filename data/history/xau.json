@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-08T02:41:50.598125+00:00",
-    "price": 4309.59,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting gold with a stop-loss above $4310. A potential reversal could occur if price reaches the support levels, triggering a buy signal. Monitor the price action closely for a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 33.46
-  },
-  {
     "timestamp": "2026-06-08T07:20:04.805025+00:00",
     "price": 4305.93,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 4081.36,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting near current price levels ($4,081.36) if TradingView Signal: SELL is confirmed, with a target near the lower TV Pivot Support ($4,152.64). Alternatively, wait for a bullish reversal signal before entering long positions.",
+    "key_levels": {
+      "support": [
+        "$4,346.24",
+        "$4,152.64"
+      ],
+      "resistance": [
+        "$4,753.48",
+        "$4,967.12"
+      ]
+    },
+    "rsi": 36.99
+  },
+  {
+    "timestamp": "2026-06-28T13:09:16.277940+00:00",
+    "price": 4081.36,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4,967.12, targeting $4,152.64. Alternatively, look for a bounce off $4,346.24 to long with a stop below $4,152.64.",
     "key_levels": {
       "support": [
         "$4,346.24",

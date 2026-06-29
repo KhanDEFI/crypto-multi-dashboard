@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-09T21:27:37.849027+00:00",
-    "price": 61826,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $61,000, targeting $59,500. Alternatively, look for a bounce to $62,500. Be cautious of a potential false breakout.",
-    "key_levels": {
-      "support": [
-        "$61,000",
-        "$59,500"
-      ],
-      "resistance": [
-        "$62,500",
-        "$64,000"
-      ]
-    },
-    "rsi": 46.32
-  },
-  {
     "timestamp": "2026-06-09T23:07:44.516921+00:00",
     "price": 61691,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$60,000",
         "$60,500"
+      ]
+    },
+    "rsi": 40.91
+  },
+  {
+    "timestamp": "2026-06-29T18:56:05.021098+00:00",
+    "price": 60146,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $59,000, targeting $62,000 with a stop-loss at $58,500. Monitor the 24h RSI for signs of overbought conditions.",
+    "key_levels": {
+      "support": [
+        "$59,000",
+        "$58,500"
+      ],
+      "resistance": [
+        "$61,000",
+        "$62,000"
       ]
     },
     "rsi": 40.91

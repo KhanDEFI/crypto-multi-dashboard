@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-10T06:55:21.397217+00:00",
-    "price": 61437,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a close above $62,000, with a stop-loss at $61,500. Consider buying on a close below $60,500, with a stop-loss at $60,000. Monitor the 24h RSI for signs of overbought/oversold conditions.",
-    "key_levels": {
-      "support": [
-        "$61,000",
-        "$60,500"
-      ],
-      "resistance": [
-        "$62,000",
-        "$62,500"
-      ]
-    },
-    "rsi": 51.37
-  },
-  {
     "timestamp": "2026-06-10T10:46:55.679821+00:00",
     "price": 61285,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$58,000",
         "$57,000"
+      ],
+      "resistance": [
+        "$62,000",
+        "$63,500"
+      ]
+    },
+    "rsi": 51.22
+  },
+  {
+    "timestamp": "2026-06-29T23:50:49.095663+00:00",
+    "price": 60181,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $59,500, targeting $62,000. Consider taking profits at $63,500. Monitor the market for a potential wave 4 correction.",
+    "key_levels": {
+      "support": [
+        "$59,500",
+        "$58,000"
       ],
       "resistance": [
         "$62,000",

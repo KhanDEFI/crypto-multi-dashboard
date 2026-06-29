@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-09T17:50:12.671166+00:00",
-    "price": 4257.48,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a tight stop above $4257.48, targeting $4152.87 support. Monitor DXY and real yields for potential catalysts. A break above $4753.93 resistance could invalidate the bearish bias.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 31.12
-  },
-  {
     "timestamp": "2026-06-09T19:53:17.023121+00:00",
     "price": 4257.86,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.15
+  },
+  {
+    "timestamp": "2026-06-29T12:54:01.111450+00:00",
+    "price": 4045.58,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target of $4,152.64, stop-loss at $4,346.24. Monitor TradingView Signal: STRONG_SELL for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,346.24",
+        "$4,152.64"
+      ],
+      "resistance": [
+        "$4,753.48",
+        "$4,967.12"
+      ]
+    },
+    "rsi": 35.39
   }
 ]

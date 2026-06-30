@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 58342,
-  "change_24h": -2.78,
-  "market_cap": 1169882148987.5234,
-  "rsi": 35.92,
+  "price": 58433,
+  "change_24h": -2.04,
+  "market_cap": 1172050972123.4229,
+  "rsi": 29.86,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave 2, with a potential impulse wave 3 forming. The wave count suggests a potential bullish reversal.",
-    "momentum": "The RSI reading of 35.92 indicates a neutral momentum, with the price action showing a slight downtrend. However, the 24h change of -2.78% suggests a potential reversal.",
+    "elliott_wave": "The current wave count suggests a possible completion of the corrective wave (4) within the larger bearish trend, potentially setting up a larger wave (5) down. However, a bullish reversal cannot be ruled out if the price breaks above the current resistance.",
+    "momentum": "The RSI reading of 29.86 indicates an oversold condition, suggesting a potential rebound in the short term. However, the 24h price change of -2.04% indicates a bearish momentum.",
     "key_levels": {
       "support": [
-        "$55,000",
-        "$52,000"
+        "$56,000.00",
+        "$54,000.00"
       ],
       "resistance": [
-        "$60,000",
-        "$62,000"
+        "$58,000.00",
+        "$59,500.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $55,000, targeting $60,000. Sell on rallies above $62,000. Monitor the 24h change for signs of reversal.",
-    "risk_note": "Key risk: a sudden spike in global market volatility could lead to a sharp decline in BTC price."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting the market with a stop-loss above $59,500.00 and a target at $54,000.00. Alternatively, a long position can be taken with a stop-loss below $56,000.00 and a target at $59,500.00. Monitor the price action closely for a potential breakout.",
+    "risk_note": "A sudden spike in the price above $59,500.00 could invalidate the bearish trend bias and lead to a significant reversal."
   },
-  "updated_at": "2026-06-30T13:01:10.425838+00:00"
+  "updated_at": "2026-06-30T16:13:19.748498+00:00"
 }

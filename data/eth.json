@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1582.07,
-  "change_24h": 0.19,
-  "market_cap": 190963939023.22964,
-  "rsi": 55.81,
+  "price": 1552.59,
+  "change_24h": -1.63,
+  "market_cap": 187637273622.3241,
+  "rsi": 50.75,
   "analysis": {
-    "elliott_wave": "ETH is in a corrective wave (B) within a larger bull trend, with a potential wave 4 low forming.",
-    "momentum": "Momentum is neutral, with a slight bias towards a potential bullish reversal, as the RSI is at 55.81 and price action is stable.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle pattern within a larger downtrend.",
+    "momentum": "The RSI is neutral at 50.75, indicating a lack of clear momentum, while the 24h price change of -1.63% suggests a minor downtrend.",
     "key_levels": {
       "support": [
-        "$1,500.00",
-        "$1,450.00"
+        "$1,500",
+        "$1,450"
       ],
       "resistance": [
-        "$1,600.00",
-        "$1,650.00"
+        "$1,600",
+        "$1,650"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,500.00, targeting $1,600.00. Set stop-loss at $1,450.00. Consider scaling in with a smaller position size.",
-    "risk_note": "A potential bearish reversal could occur if price breaks below $1,450.00."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH with a stop-loss at $1,600 and a target at $1,450, but be cautious of a potential reversal if the price reaches the support level.",
+    "risk_note": "A break above $1,600 could indicate a trend reversal and invalidate the bearish trade plan."
   },
-  "updated_at": "2026-06-30T10:21:38.231612+00:00"
+  "updated_at": "2026-06-30T13:01:10.425838+00:00"
 }

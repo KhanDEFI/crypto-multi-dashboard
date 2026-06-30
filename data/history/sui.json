@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-11T14:26:48.462406+00:00",
-    "price": 0.747371,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy order at $0.72 for a potential bounce, with a target of $0.80. Alternatively, a sell order at $0.80 for a potential short-term trade. Risk management is crucial in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.80",
-        "$0.85"
-      ]
-    },
-    "rsi": 53.22
-  },
-  {
     "timestamp": "2026-06-11T17:59:09.206631+00:00",
     "price": 0.765578,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 0.69201,
     "trend_bias": "neutral",
     "trade_plan": "Consider buying on a bounce above $0.72, targeting $0.75. Alternatively, sell on a break below $0.65, targeting $0.60. Monitor the 24h price action for a clear trend bias.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 55.87
+  },
+  {
+    "timestamp": "2026-06-30T22:06:19.536555+00:00",
+    "price": 0.692706,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy on dips strategy, targeting $0.72-$0.75 resistance levels, with a stop-loss at $0.60.",
     "key_levels": {
       "support": [
         "$0.65",

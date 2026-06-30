@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-11T14:26:48.462406+00:00",
-    "price": 1646.47,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,600, targeting $1,700. Sell on rallies above $1,700, targeting $1,800. Monitor the 24h change for signs of momentum.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,500"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,800"
-      ]
-    },
-    "rsi": 50.12
-  },
-  {
     "timestamp": "2026-06-11T17:59:09.206631+00:00",
     "price": 1682.66,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$1,650.00",
+        "$1,700.00"
+      ]
+    },
+    "rsi": 49.31
+  },
+  {
+    "timestamp": "2026-06-30T22:06:19.536555+00:00",
+    "price": 1571.56,
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a target of $1,450.00, aiming to capture the potential wave 3. Set a stop-loss at $1,600.00 to limit risk.",
+    "key_levels": {
+      "support": [
+        "$1,450.00",
+        "$1,350.00"
+      ],
+      "resistance": [
+        "$1,600.00",
         "$1,700.00"
       ]
     },

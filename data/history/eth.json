@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-11T17:59:09.206631+00:00",
-    "price": 1682.66,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards 1650, targeting 1800-1850. Set stop-loss at 1600. Monitor for a potential reversal if price fails to hold above 1700.",
-    "key_levels": {
-      "support": [
-        "1650",
-        "1700"
-      ],
-      "resistance": [
-        "1800",
-        "1850"
-      ]
-    },
-    "rsi": 42.4
-  },
-  {
     "timestamp": "2026-06-11T20:20:12.974781+00:00",
     "price": 1677.37,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,600.00",
         "$1,700.00"
+      ]
+    },
+    "rsi": 49.31
+  },
+  {
+    "timestamp": "2026-06-30T23:55:31.094917+00:00",
+    "price": 1568.85,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $1,500, with a target of $1,600. However, if price breaks below $1,450, consider selling with a stop-loss at $1,400.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,450"
+      ],
+      "resistance": [
+        "$1,600",
+        "$1,650"
       ]
     },
     "rsi": 49.31

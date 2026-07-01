@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-12T12:47:11.290583+00:00",
-    "price": 1664.27,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $1,600, targeting $1,700. However, be cautious of a potential reversal if the price fails to break above $1,700. A stop-loss at $1,550 is recommended.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,550"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,750"
-      ]
-    },
-    "rsi": 59.13
-  },
-  {
     "timestamp": "2026-06-12T16:09:39.982673+00:00",
     "price": 1664.82,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 58.01
+  },
+  {
+    "timestamp": "2026-07-01T20:44:05.825070+00:00",
+    "price": 1614.27,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider long positions with a tight stop-loss around $1,500, targeting $1,700-$1,800. However, be cautious of a potential wave 4 correction and adjust the trade plan accordingly. Monitor the market for any signs of a trend reversal.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,400"
+      ],
+      "resistance": [
+        "$1,700",
+        "$1,800"
+      ]
+    },
+    "rsi": 59.29
   }
 ]

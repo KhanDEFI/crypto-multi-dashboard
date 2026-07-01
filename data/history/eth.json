@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-11T22:45:20.636101+00:00",
-    "price": 1675.05,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying ETH on dips towards $1,600, targeting $1,700 or higher. However, set a stop-loss at $1,550 to limit potential losses. Monitor the market for any signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,550"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,750"
-      ]
-    },
-    "rsi": 51.44
-  },
-  {
     "timestamp": "2026-06-12T00:12:53.203757+00:00",
     "price": 1673.36,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 57.45
+  },
+  {
+    "timestamp": "2026-07-01T10:59:36.149022+00:00",
+    "price": 1572.35,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $1,600, targeting $1,700. Alternatively, sell on a break below $1,500, targeting $1,400. Monitor the price action for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,400"
+      ],
+      "resistance": [
+        "$1,600",
+        "$1,700"
+      ]
+    },
+    "rsi": 51.14
   }
 ]

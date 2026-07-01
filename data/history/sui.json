@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-11T22:45:20.636101+00:00",
-    "price": 0.761043,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a tight stop-loss below $0.72, targeting $0.80-$0.84. Monitor the price action and adjust the trade plan accordingly. Be cautious of a potential bearish reversal.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.80",
-        "$0.84"
-      ]
-    },
-    "rsi": 53.54
-  },
-  {
     "timestamp": "2026-06-12T00:12:53.203757+00:00",
     "price": 0.754672,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 67.62
+  },
+  {
+    "timestamp": "2026-07-01T10:59:36.149022+00:00",
+    "price": 0.696981,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.68, targeting $0.75 resistance. Set stop-loss at $0.65. Consider scaling out of positions as $0.75 is approached.",
+    "key_levels": {
+      "support": [
+        "$0.68",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 58.12
   }
 ]

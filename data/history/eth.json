@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-13T00:11:27.682103+00:00",
-    "price": 1665.77,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $1,665.77 with a stop-loss at $1,700.00, targeting $1,600.00. Monitor the price action for a potential breakout above $1,700.00.",
-    "key_levels": {
-      "support": [
-        "$1,600.00",
-        "$1,550.00"
-      ],
-      "resistance": [
-        "$1,700.00",
-        "$1,750.00"
-      ]
-    },
-    "rsi": 53.45
-  },
-  {
     "timestamp": "2026-06-13T05:12:47.848340+00:00",
     "price": 1664.34,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 53.04
+  },
+  {
+    "timestamp": "2026-07-02T10:07:55.624692+00:00",
+    "price": 1642.39,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a pullback to $1,500 for a potential long-term trade, with a stop-loss at $1,400. Monitor the market for a breakout above $1,700 to confirm the uptrend.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,400"
+      ],
+      "resistance": [
+        "$1,700",
+        "$1,800"
+      ]
+    },
+    "rsi": 50.8
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-13T19:04:08.414957+00:00",
-    "price": 1678.18,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips near support levels, targeting resistance at 1700. Set stop-loss at 1620 and take-profit at 1720.",
-    "key_levels": {
-      "support": [
-        "1650",
-        "1620"
-      ],
-      "resistance": [
-        "1700",
-        "1720"
-      ]
-    },
-    "rsi": 59.89
-  },
-  {
     "timestamp": "2026-06-13T20:59:22.458597+00:00",
     "price": 1675.62,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,800",
         "$1,900"
+      ]
+    },
+    "rsi": 72.3
+  },
+  {
+    "timestamp": "2026-07-02T22:57:05.714165+00:00",
+    "price": 1697.74,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider shorting ETH on a close below $1650 to target $1625, with a stop-loss above $1700. Alternatively, hold long positions and look to add on a pullback to $1650. Monitor the market for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "1650",
+        "1625"
+      ],
+      "resistance": [
+        "1700",
+        "1725"
       ]
     },
     "rsi": 72.3

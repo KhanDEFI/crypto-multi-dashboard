@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-12T22:24:32.421094+00:00",
-    "price": 1665.67,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips near $1,600, targeting $1,700 with a stop-loss at $1,500. Alternatively, sell at $1,700 with a target at $1,600. Monitor the market for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,500"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,800"
-      ]
-    },
-    "rsi": 59.95
-  },
-  {
     "timestamp": "2026-06-13T00:11:27.682103+00:00",
     "price": 1665.77,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 56.17
+  },
+  {
+    "timestamp": "2026-07-02T06:58:18.068893+00:00",
+    "price": 1617.25,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips around $1,500, targeting $1,700. Set a stop-loss at $1,400. Consider scaling out of positions if $1,800 is reached.",
+    "key_levels": {
+      "support": [
+        "$1,500",
+        "$1,400"
+      ],
+      "resistance": [
+        "$1,700",
+        "$1,800"
+      ]
+    },
+    "rsi": 53.04
   }
 ]

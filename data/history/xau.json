@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-13T17:07:18.813828+00:00",
-    "price": 4216.93,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a sell strategy based on TradingView's signal, targeting the support levels. Monitor price action and adjust the plan accordingly. A break above resistance could trigger a bullish reversal.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 36.05
-  },
-  {
     "timestamp": "2026-06-13T19:04:08.414957+00:00",
     "price": 4216.93,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 42.89
+  },
+  {
+    "timestamp": "2026-07-02T21:56:27.271018+00:00",
+    "price": 4123.6,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a close below $4,123.60, targeting $3,784.63 or $3,561.83. Alternatively, look for a bounce off current levels to $4,388.11 or $4,768.79",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 43.15
   }
 ]

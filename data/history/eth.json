@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-14T20:56:52.775124+00:00",
-    "price": 1670.55,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $1,630.00, targeting $1,720.00. Set stop-loss at $1,580.00. Consider scaling out of long positions if $1,780.00 is reached.",
-    "key_levels": {
-      "support": [
-        "$1,630.00",
-        "$1,580.00"
-      ],
-      "resistance": [
-        "$1,720.00",
-        "$1,780.00"
-      ]
-    },
-    "rsi": 42.82
-  },
-  {
     "timestamp": "2026-06-14T22:03:26.041658+00:00",
     "price": 1722.24,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1,700",
         "$1,600"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,850"
+      ]
+    },
+    "rsi": 82.59
+  },
+  {
+    "timestamp": "2026-07-03T22:51:47.579318+00:00",
+    "price": 1755.82,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling into strength around $1,800, targeting $1,700 as a stop-loss. Alternatively, wait for a confirmed reversal signal to go long. Be cautious of a potential price drop to $1,650.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,650"
       ],
       "resistance": [
         "$1,800",

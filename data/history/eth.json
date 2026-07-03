@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-14T07:13:12.318092+00:00",
-    "price": 1673.96,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider going long with a stop-loss at $1,550 and a target at $1,750. Monitor the price action closely for a potential breakout. Adjust the trade plan if the trend bias changes.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,550"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,750"
-      ]
-    },
-    "rsi": 50.29
-  },
-  {
     "timestamp": "2026-06-14T10:42:07.069547+00:00",
     "price": 1675.63,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,800",
         "$1,900"
+      ]
+    },
+    "rsi": 77.48
+  },
+  {
+    "timestamp": "2026-07-03T11:58:16.644750+00:00",
+    "price": 1740.79,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling ETH on a pullback to $1,650.00, targeting $1,550.00. Alternatively, buy ETH on a dip below $1,650.00, with a stop-loss at $1,550.00.",
+    "key_levels": {
+      "support": [
+        "$1,650.00",
+        "$1,550.00"
+      ],
+      "resistance": [
+        "$1,850.00",
+        "$1,950.00"
       ]
     },
     "rsi": 77.48

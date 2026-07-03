@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-14T19:04:57.550095+00:00",
-    "price": 63768,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting around $63,500 with a stop-loss at $64,200, aiming for a target of $62,000. Alternatively, consider buying around $62,000 with a stop-loss at $61,500, aiming for a target of $65,000.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 68.26
-  },
-  {
     "timestamp": "2026-06-14T20:56:52.775124+00:00",
     "price": 64011,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$63,500",
         "$65,000"
+      ]
+    },
+    "rsi": 78.46
+  },
+  {
+    "timestamp": "2026-07-03T21:53:39.710323+00:00",
+    "price": 62617,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $65,000 or buying on a close below $60,000. A stop-loss at $58,000 can be set to limit potential losses. A target of $70,000 can be set for a potential long position.",
+    "key_levels": {
+      "support": [
+        "$60,000",
+        "$58,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
       ]
     },
     "rsi": 78.46

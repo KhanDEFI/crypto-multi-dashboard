@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-14T22:03:26.041658+00:00",
-    "price": 65374,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $62,000 or $60,000, with a target of $67,000 or $69,000. However, be cautious of a potential bearish reversal if the price breaks below $60,000. A stop-loss at $59,000 would be advisable.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$69,000"
-      ]
-    },
-    "rsi": 50.65
-  },
-  {
     "timestamp": "2026-06-14T23:59:18.214891+00:00",
     "price": 65717,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 62539,
     "trend_bias": "bullish",
     "trade_plan": "Consider shorting on a break below $60,000, targeting $58,000. Alternatively, look to buy the dip around $60,000, aiming for $65,000. Risk management is crucial in this overbought market.",
+    "key_levels": {
+      "support": [
+        "$60,000",
+        "$58,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
+      ]
+    },
+    "rsi": 78.46
+  },
+  {
+    "timestamp": "2026-07-03T23:54:18.759119+00:00",
+    "price": 62537,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions with a stop-loss above $65,000, targeting $60,000 as a potential support level. Alternatively, look to buy the dip around $58,000 for a potential bounce.",
     "key_levels": {
       "support": [
         "$60,000",

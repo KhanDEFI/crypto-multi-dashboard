@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-16T20:00:27.947241+00:00",
-    "price": 65570,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term buy position if the price breaks above $67,000.00, with a target of $68,500.00. Alternatively, consider a short position if the price breaks below $63,000.00, with a target of $61,500.00.",
-    "key_levels": {
-      "support": [
-        "$63,000.00",
-        "$61,500.00"
-      ],
-      "resistance": [
-        "$67,000.00",
-        "$68,500.00"
-      ]
-    },
-    "rsi": 60.72
-  },
-  {
     "timestamp": "2026-06-16T22:45:37.152894+00:00",
     "price": 65667,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$61,500",
         "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
+      ]
+    },
+    "rsi": 87.34
+  },
+  {
+    "timestamp": "2026-07-04T20:02:36.527507+00:00",
+    "price": 63280,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions to lock in profits, with a target sell price around $65,000. Alternatively, consider going long with a stop-loss below $61,000.",
+    "key_levels": {
+      "support": [
+        "$61,000",
+        "$59,500"
       ],
       "resistance": [
         "$65,000",

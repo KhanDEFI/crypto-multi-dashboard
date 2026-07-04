@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T05:56:39.007710+00:00",
-    "price": 1791.21,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $1,750.00 or selling on rallies towards $1,900.00. Set stop-loss at $1,700.00 and take-profit at $2,000.00.",
-    "key_levels": {
-      "support": [
-        "$1,750.00",
-        "$1,700.00"
-      ],
-      "resistance": [
-        "$1,850.00",
-        "$1,900.00"
-      ]
-    },
-    "rsi": 69.75
-  },
-  {
     "timestamp": "2026-06-17T10:28:05.469486+00:00",
     "price": 1770.42,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900.00",
         "$2,000.00"
+      ]
+    },
+    "rsi": 90.52
+  },
+  {
+    "timestamp": "2026-07-04T23:50:41.233352+00:00",
+    "price": 1779.69,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling ETH in the next 24-48h if it breaks below $1,700 support. Alternatively, consider buying ETH if it breaks above $1,850 resistance. A stop-loss order can be set at $1,600.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,600"
+      ],
+      "resistance": [
+        "$1,850",
+        "$1,950"
       ]
     },
     "rsi": 90.52

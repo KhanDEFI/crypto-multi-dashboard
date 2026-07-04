@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T05:56:39.007710+00:00",
-    "price": 0.804247,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $0.85 with a stop-loss at $0.75. Monitor the 24h change and adjust the trade plan accordingly. A break above $0.90 could trigger a more aggressive long position.",
-    "key_levels": {
-      "support": [
-        "$0.75",
-        "$0.70"
-      ],
-      "resistance": [
-        "$0.85",
-        "$0.90"
-      ]
-    },
-    "rsi": 67.77
-  },
-  {
     "timestamp": "2026-06-17T10:28:05.469486+00:00",
     "price": 0.789958,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.80",
         "$0.82"
+      ]
+    },
+    "rsi": 69.65
+  },
+  {
+    "timestamp": "2026-07-04T23:50:41.233352+00:00",
+    "price": 0.763021,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips to $0.73, with a target of $0.80, and a stop-loss at $0.69. Alternatively, sell at $0.80, with a target of $0.75, and a stop-loss at $0.85.",
+    "key_levels": {
+      "support": [
+        "$0.73",
+        "$0.69"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
       ]
     },
     "rsi": 69.65

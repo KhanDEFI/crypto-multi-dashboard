@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T00:06:52.981200+00:00",
-    "price": 4334.56,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a target around $4,346.69, or waiting for a breakout above $4,753.93 for a potential long position.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 44.25
-  },
-  {
     "timestamp": "2026-06-17T05:56:39.007710+00:00",
     "price": 4326.02,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 4175.03,
     "trend_bias": "neutral",
     "trade_plan": "Monitor price action around key levels, considering a potential breakout above $4,388.11 or a pullback to $3,784.63.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 46.79
+  },
+  {
+    "timestamp": "2026-07-04T22:44:12.749186+00:00",
+    "price": 4175.03,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider long positions with a stop-loss below $3,784.63 and a take-profit above $4,388.11, or short positions with a stop-loss above $4,388.11 and a take-profit below $3,784.63, depending on your market view.",
     "key_levels": {
       "support": [
         "$3,784.63",

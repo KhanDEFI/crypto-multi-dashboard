@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T14:21:29.295421+00:00",
-    "price": 65187,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $64,000, targeting $62,000. Alternatively, look for a bounce off current levels to $66,500.",
-    "key_levels": {
-      "support": [
-        "$64,000",
-        "$62,000"
-      ],
-      "resistance": [
-        "$65,500",
-        "$66,500"
-      ]
-    },
-    "rsi": 39.55
-  },
-  {
     "timestamp": "2026-06-17T17:42:03.129346+00:00",
     "price": 65877,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 77.24
+  },
+  {
+    "timestamp": "2026-07-05T05:52:29.685001+00:00",
+    "price": 62672,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions to lock in profits, with a target price of $63,000. Alternatively, consider buying on dips to $62,000. Monitor the market for a potential correction.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$63,000",
+        "$65,000"
+      ]
+    },
+    "rsi": 71.32
   }
 ]

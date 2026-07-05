@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-18T14:40:10.037563+00:00",
-    "price": 63889,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a break below $63,000 with a stop-loss at $64,000. Consider a short position with a target at $60,000. Monitor the RSI for a potential oversold bounce.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$61,000"
-      ],
-      "resistance": [
-        "$64,500",
-        "$65,500"
-      ]
-    },
-    "rsi": 31.22
-  },
-  {
     "timestamp": "2026-06-18T17:52:20.226586+00:00",
     "price": 62591,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$64,000.00",
         "$65,000.00"
+      ]
+    },
+    "rsi": 62.78
+  },
+  {
+    "timestamp": "2026-07-05T23:53:38.956830+00:00",
+    "price": 63560,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,500, targeting $64,500. Set stop-loss at $61,000. Consider scaling in on a pullback.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$64,500",
+        "$65,500"
       ]
     },
     "rsi": 62.78

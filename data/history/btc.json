@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T21:51:02.649597+00:00",
-    "price": 64156,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $62,000, targeting $65,000. Alternatively, sell on rallies above $65,000, aiming for $66,500.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$66,500"
-      ]
-    },
-    "rsi": 35.01
-  },
-  {
     "timestamp": "2026-06-17T23:14:15.635493+00:00",
     "price": 64229,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 68.16
+  },
+  {
+    "timestamp": "2026-07-05T17:06:02.820071+00:00",
+    "price": 62646,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $62,500, targeting $63,000. However, if price breaks below $62,000, consider selling with a stop above $62,500. Monitor the market for any significant developments.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$61,500"
+      ],
+      "resistance": [
+        "$63,000",
+        "$63,500"
+      ]
+    },
+    "rsi": 65.51
   }
 ]

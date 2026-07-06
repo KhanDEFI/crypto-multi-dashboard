@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-18T22:49:36.637412+00:00",
-    "price": 1703.16,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting ETH on a bounce above $1,700, with a target of $1,900. Alternatively, wait for a clear bullish reversal signal before entering a long position. Monitor the 24h RSI for signs of overbought conditions.",
-    "key_levels": {
-      "support": [
-        "$1,500",
-        "$1,200"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,100"
-      ]
-    },
-    "rsi": 29.01
-  },
-  {
     "timestamp": "2026-06-19T00:17:53.380606+00:00",
     "price": 1708.54,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 61.57
+  },
+  {
+    "timestamp": "2026-07-06T11:19:41.148826+00:00",
+    "price": 1766.89,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips to $1,700, targeting $1,800-$1,850 resistance. Alternatively, sell on rallies to $1,800, targeting $1,650 support.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,650"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,850"
+      ]
+    },
+    "rsi": 55.64
   }
 ]

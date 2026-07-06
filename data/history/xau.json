@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-18T17:52:20.226586+00:00",
-    "price": 4230.65,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting gold with a stop-loss above $4,346.69 and a target of $4,152.87, but be cautious of a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$4,346.69",
-        "$4,152.87"
-      ],
-      "resistance": [
-        "$4,753.93",
-        "$4,967.35"
-      ]
-    },
-    "rsi": 39.03
-  },
-  {
     "timestamp": "2026-06-18T20:06:13.944596+00:00",
     "price": 4217.58,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.25
+  },
+  {
+    "timestamp": "2026-07-06T01:55:43.688433+00:00",
+    "price": 4193.45,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop-loss above $4,388.11, targeting $4,768.79. Alternatively, wait for a break below $3,784.63 for a potential long opportunity.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 48.07
   }
 ]

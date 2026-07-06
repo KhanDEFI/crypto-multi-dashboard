@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-19T00:17:53.380606+00:00",
-    "price": 1708.54,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling on rallies towards $1,800. Medium-term, look for a break below $1,600 to confirm the bearish trend.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,500"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,900"
-      ]
-    },
-    "rsi": 32.8
-  },
-  {
     "timestamp": "2026-06-19T06:05:12.778721+00:00",
     "price": 1696.68,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 55.64
+  },
+  {
+    "timestamp": "2026-07-06T14:52:01.956983+00:00",
+    "price": 1748.49,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a break above $1,800, targeting $1,850. Alternatively, sell on a break below $1,700, targeting $1,650.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,650"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,850"
+      ]
+    },
+    "rsi": 54.41
   }
 ]

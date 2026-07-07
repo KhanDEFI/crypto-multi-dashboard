@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-19T22:02:07.386571+00:00",
-    "price": 1701.1,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,700, targeting $1,750-$1,800. Alternatively, sell on a break below $1,650, aiming for $1,600-$1,550.",
-    "key_levels": {
-      "support": [
-        "$1,650",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,750",
-        "$1,800"
-      ]
-    },
-    "rsi": 34.85
-  },
-  {
     "timestamp": "2026-06-19T23:56:53.732300+00:00",
     "price": 1706.6,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.09
+  },
+  {
+    "timestamp": "2026-07-07T10:16:17.848605+00:00",
+    "price": 1778.82,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,750.00, with a target of $1,800.00. Consider taking profits around $1,820.00. Be cautious of a potential reversal if the price fails to break above $1,820.00.",
+    "key_levels": {
+      "support": [
+        "$1,750.00",
+        "$1,700.00"
+      ],
+      "resistance": [
+        "$1,800.00",
+        "$1,820.00"
+      ]
+    },
+    "rsi": 47.34
   }
 ]

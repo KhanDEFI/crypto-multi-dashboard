@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-21T04:01:09.927710+00:00",
-    "price": 64350,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $62,000.00, targeting $68,000.00. Set a stop-loss at $60,000.00. Consider taking profits at $66,000.00.",
-    "key_levels": {
-      "support": [
-        "$62,000.00",
-        "$60,000.00"
-      ],
-      "resistance": [
-        "$66,000.00",
-        "$68,000.00"
-      ]
-    },
-    "rsi": 75.91
-  },
-  {
     "timestamp": "2026-06-21T08:52:41.772500+00:00",
     "price": 63867,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.72
+  },
+  {
+    "timestamp": "2026-07-08T17:15:52.082831+00:00",
+    "price": 62011,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $60,000, targeting $58,000. Alternatively, look to buy on a bounce above $62,500, aiming for $65,000. Monitor market sentiment for signs of a trend reversal.",
+    "key_levels": {
+      "support": [
+        "$60,000",
+        "$58,000"
+      ],
+      "resistance": [
+        "$62,500",
+        "$65,000"
+      ]
+    },
+    "rsi": 38.63
   }
 ]

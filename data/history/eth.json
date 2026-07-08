@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-21T04:01:09.927710+00:00",
-    "price": 1736.01,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $1,800 for a potential target at $1,850, but be cautious of a short-term pullback to $1,700.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,650"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,850"
-      ]
-    },
-    "rsi": 71.87
-  },
-  {
     "timestamp": "2026-06-21T08:52:41.772500+00:00",
     "price": 1725.84,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.94
+  },
+  {
+    "timestamp": "2026-07-08T17:15:52.082831+00:00",
+    "price": 1733.1,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a bounce above $1,800, targeting $1,800-$1,850. Consider using a stop-loss at $1,700. Monitor for a potential breakout below $1,650.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,650"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,850"
+      ]
+    },
+    "rsi": 36.21
   }
 ]

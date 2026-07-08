@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-21T13:43:12.706888+00:00",
-    "price": 1721.05,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $1,700-$1,680, with a target at $1,750-$1,800. Monitor the 24h change and adjust the trade plan accordingly. A stop-loss at $1,650 would be a good risk management strategy.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,680"
-      ],
-      "resistance": [
-        "$1,750",
-        "$1,800"
-      ]
-    },
-    "rsi": 62.42
-  },
-  {
     "timestamp": "2026-06-21T15:43:30.300761+00:00",
     "price": 1729.01,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,800",
         "$1,850"
+      ]
+    },
+    "rsi": 43.21
+  },
+  {
+    "timestamp": "2026-07-08T21:56:16.613389+00:00",
+    "price": 1737.39,
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a stop-loss above $1,800, targeting $1,600-$1,700. Consider scaling in with a smaller position size. Monitor the 24h candle for a potential break below $1,700.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,600"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,900"
       ]
     },
     "rsi": 43.21

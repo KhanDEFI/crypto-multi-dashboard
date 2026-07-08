@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1747.72,
-  "change_24h": -1.69,
-  "market_cap": 210936629557.76697,
-  "rsi": 40.83,
+  "price": 1733.91,
+  "change_24h": -2.62,
+  "market_cap": 209265503346.34473,
+  "rsi": 40.92,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle or a zigzag pattern, with a possible reversal in the next wave.",
-    "momentum": "The RSI reading of 40.83 indicates a neutral momentum, with price action showing a slight downtrend, but the 24h change of -1.69% suggests a potential short-term bounce.",
+    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bearish trend, potentially forming a double zigzag pattern.",
+    "momentum": "The RSI reading of 40.92 indicates a neutral momentum, but the recent 2.62% price drop suggests a bearish trend bias.",
     "key_levels": {
       "support": [
-        "$1,700",
-        "$1,650"
+        "$1,600.00",
+        "$1,400.00"
       ],
       "resistance": [
-        "$1,800",
-        "$1,850"
+        "$1,900.00",
+        "$2,100.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,750, targeting $1,800-$1,850 resistance, with a stop-loss at $1,700. Alternatively, sell on a break below $1,700, targeting $1,650-$1,600 support.",
-    "risk_note": "A potential key risk is a sudden surge in market sentiment, pushing the price above $1,850 and invalidating the current neutral trend bias."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a close above $1,900.00, targeting $1,600.00. Consider shorting with a stop-loss at $1,400.00.",
+    "risk_note": "A potential reversal could occur if ETH breaks above $2,100.00 and holds above it."
   },
-  "updated_at": "2026-07-08T07:22:58.682565+00:00"
+  "updated_at": "2026-07-08T10:03:44.756996+00:00"
 }

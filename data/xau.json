@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4070.49,
-  "change_24h": -0.87,
+  "price": 4043.16,
+  "change_24h": -1.54,
   "market_cap": 0,
-  "rsi": 40.55,
+  "rsi": 39.11,
   "analysis": {
-    "elliott_wave": "No applicable Elliott Wave pattern assessment due to gold's non-compliant price action.",
-    "momentum": "Neutral momentum with an RSI of 40.55, indicating a potential reversal or consolidation phase.",
+    "elliott_wave": "Not applicable to gold, focusing on classical technical patterns and macro drivers.",
+    "momentum": "Neutral momentum with RSI at 39.11, but price action indicates a bearish trend with a 24h change of -1.54%.",
     "key_levels": {
       "support": [
         "$3,784.63",
@@ -18,9 +18,9 @@
         "$4,768.79"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a target near the TradingView Pivot Support levels, but be cautious of a potential bounce.",
-    "risk_note": "A strong US dollar (DXY) rally could strengthen the bearish case and lead to further price declines."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a stop-loss above $4,043.16, targeting the TV Pivot Support levels. Monitor the impact of macro drivers, particularly DXY and real yields, on gold prices.",
+    "risk_note": "A potential reversal in the US dollar could lead to a sharp increase in gold prices, invalidating current bearish views."
   },
-  "updated_at": "2026-07-08T12:11:29.365880+00:00"
+  "updated_at": "2026-07-08T15:06:08.711691+00:00"
 }

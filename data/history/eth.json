@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-21T15:43:30.300761+00:00",
-    "price": 1729.01,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a break below $1,600.00 for a potential short-term trade, with a target of $1,500.00. Alternatively, look to buy on a bounce above $1,800.00 for a potential long-term trade.",
-    "key_levels": {
-      "support": [
-        "$1,600.00",
-        "$1,500.00"
-      ],
-      "resistance": [
-        "$1,800.00",
-        "$1,900.00"
-      ]
-    },
-    "rsi": 62.42
-  },
-  {
     "timestamp": "2026-06-21T17:15:15.287824+00:00",
     "price": 1728.12,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1,700",
         "$1,600"
+      ],
+      "resistance": [
+        "$1,800",
+        "$1,900"
+      ]
+    },
+    "rsi": 43.21
+  },
+  {
+    "timestamp": "2026-07-08T22:56:06.265863+00:00",
+    "price": 1737.94,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH around current levels with a stop-loss above $1,800, targeting a potential retest of $1,550. Alternatively, wait for a bullish reversal signal to re-enter long positions. Monitor market sentiment and adjust the trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$1,650",
+        "$1,550"
       ],
       "resistance": [
         "$1,800",

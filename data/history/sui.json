@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-22T23:58:01.657076+00:00",
-    "price": 0.718996,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.68, targeting $0.80 with a stop-loss at $0.65. Alternatively, sell on rallies towards $0.80, targeting $0.75 with a stop-loss at $0.82.",
-    "key_levels": {
-      "support": [
-        "$0.68",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 50.24
-  },
-  {
     "timestamp": "2026-06-23T06:37:12.413529+00:00",
     "price": 0.684584,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.34
+  },
+  {
+    "timestamp": "2026-07-10T01:59:17.352451+00:00",
+    "price": 0.725581,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $0.68, targeting $0.80 with a stop-loss at $0.65. Monitor the 24h chart for a potential breakout. A close above $0.75 could trigger a momentum shift.",
+    "key_levels": {
+      "support": [
+        "$0.68",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
+      ]
+    },
+    "rsi": 35.4
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-23T18:59:58.322793+00:00",
-    "price": 1654.32,
-    "trend_bias": "bearish",
-    "trade_plan": "Short ETH with a tight stop above $1700, targeting $1550-$1600. Consider scaling out of positions if the price reaches $1620. Monitor for a potential reversal if the price holds above $1620.",
-    "key_levels": {
-      "support": [
-        "1620",
-        "1550"
-      ],
-      "resistance": [
-        "1700",
-        "1750"
-      ]
-    },
-    "rsi": 33.01
-  },
-  {
     "timestamp": "2026-06-23T21:00:18.657243+00:00",
     "price": 1661.88,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 60.82
+  },
+  {
+    "timestamp": "2026-07-10T18:14:36.635126+00:00",
+    "price": 1788.63,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,750, targeting $1,850 with a stop-loss at $1,700. Monitor the price action for a potential breakout above $1,900.",
+    "key_levels": {
+      "support": [
+        "$1,750",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,850",
+        "$1,900"
+      ]
+    },
+    "rsi": 58.58
   }
 ]

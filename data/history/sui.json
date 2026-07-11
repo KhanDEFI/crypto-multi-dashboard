@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-23T23:50:31.435462+00:00",
-    "price": 0.704472,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $0.70, targeting $0.75-$0.80. Alternatively, sell on a break below $0.65. Monitor the 24h chart for signs of reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 47.58
-  },
-  {
     "timestamp": "2026-06-24T01:59:34.847330+00:00",
     "price": 0.70546,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 67.78
+  },
+  {
+    "timestamp": "2026-07-11T01:22:16.107796+00:00",
+    "price": 0.73444,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider shorting the asset if it breaks below $0.69, targeting $0.65. Otherwise, wait for a pullback to $0.70-$0.72 to enter long positions. Set stop-loss at $0.65.",
+    "key_levels": {
+      "support": [
+        "$0.69",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
+      ]
+    },
+    "rsi": 73.47
   }
 ]

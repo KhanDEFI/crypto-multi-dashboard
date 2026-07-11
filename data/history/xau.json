@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-25T17:59:58.695392+00:00",
-    "price": 4034.52,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a sell position if price breaks below TV Pivot Support at $4,152.64 or $4,346.24; monitor TradingView Signal for potential confirmation.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 33.29
-  },
-  {
     "timestamp": "2026-06-25T20:00:59.676366+00:00",
     "price": 4027.45,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4118.49,
     "trend_bias": "neutral",
     "trade_plan": "Consider selling on a break below $4,118.49, targeting $3,784.63 support. Alternatively, look for a bounce from current levels, aiming for $4,388.11 resistance.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 44.34
+  },
+  {
+    "timestamp": "2026-07-11T23:40:35.610214+00:00",
+    "price": 4118.49,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the market if price breaks below $3,784.63 support, targeting $3,561.83. Conversely, look to buy on dips towards $3,561.83, with a stop-loss below $3,784.63.",
     "key_levels": {
       "support": [
         "$3,784.63",

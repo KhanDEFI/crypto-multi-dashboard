@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 64160,
-  "change_24h": 1.41,
-  "market_cap": 1286713062169.7668,
-  "rsi": 75.41,
+  "price": 64114,
+  "change_24h": 0.11,
+  "market_cap": 1285865822764.0522,
+  "rsi": 76.45,
   "analysis": {
-    "elliott_wave": "BTC is currently in a potential impulse wave (5) within a larger bullish trend, but a pullback is expected to retest the previous support level.",
-    "momentum": "The RSI reading of 75.41 indicates overbought conditions, suggesting a potential reversal or consolidation in the coming days.",
+    "elliott_wave": "The current wave count suggests a potential impulse wave (5) forming, with a possible correction wave (4) already underway. However, the wave count is uncertain due to the recent price action.",
+    "momentum": "The RSI reading of 76.45 indicates overbought conditions, suggesting a potential reversal in the near future. However, the 0.11% 24h change in price indicates a lack of strong momentum.",
     "key_levels": {
       "support": [
-        "$62,000.00",
-        "$60,000.00"
+        "$62,000",
+        "$60,000"
       ],
       "resistance": [
-        "$65,000.00",
-        "$67,000.00"
+        "$65,000",
+        "$67,000"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $65,000.00 or buying on a close below $62,000.00. A stop-loss should be set at $60,000.00.",
-    "risk_note": "A sudden shift in market sentiment or a major economic event could lead to a sharp decline in BTC price."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a break above $65,000 for a potential short-term trade, but be cautious of a potential reversal. Alternatively, consider buying on a break below $62,000 for a potential long-term trade. Monitor the price action closely for any signs of a trend reversal.",
+    "risk_note": "A potential risk to watch is a sharp decline in price if the RSI fails to break above 80, indicating a potential reversal in the trend."
   },
-  "updated_at": "2026-07-11T01:22:16.107796+00:00"
+  "updated_at": "2026-07-11T04:51:02.105571+00:00"
 }

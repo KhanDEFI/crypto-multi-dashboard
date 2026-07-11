@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-24T06:07:11.884156+00:00",
-    "price": 0.704134,
-    "trend_bias": "neutral",
-    "trade_plan": "We recommend a neutral stance, with a focus on buying dips to $0.65 and selling rallies to $0.75. A break below $0.60 would indicate a stronger bearish trend, while a close above $0.75 would confirm a bullish trend.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 45.85
-  },
-  {
     "timestamp": "2026-06-24T13:08:54.373756+00:00",
     "price": 0.693399,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 71.63
+  },
+  {
+    "timestamp": "2026-07-11T07:03:39.401742+00:00",
+    "price": 0.746078,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $0.70, targeting $0.80-$0.85 resistance. Set stop-loss at $0.65 to limit potential losses. Monitor the market for any signs of increased selling pressure.",
+    "key_levels": {
+      "support": [
+        "$0.70",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
+      ]
+    },
+    "rsi": 66.59
   }
 ]

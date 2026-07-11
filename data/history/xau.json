@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-24T23:55:53.326490+00:00",
-    "price": 4010.3,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a close below $4,152.64, with a target of $4,000. Alternatively, look to buy on a close above $4,753.48.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 31.34
-  },
-  {
     "timestamp": "2026-06-25T02:13:09.280116+00:00",
     "price": 3969.87,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 4118.49,
     "trend_bias": "neutral",
     "trade_plan": "Short-term, consider selling on rallies towards $4,388.11, targeting $3,784.63 as a key support level. Monitor TradingView's SELL signal and adjust the trade plan accordingly. Be cautious of potential safe-haven demand shifts.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 44.34
+  },
+  {
+    "timestamp": "2026-07-11T17:43:54.370703+00:00",
+    "price": 4118.49,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target of TV Pivot Support levels, set stop-loss above $4,200. Monitor DXY and real yields for potential catalysts.",
     "key_levels": {
       "support": [
         "$3,784.63",

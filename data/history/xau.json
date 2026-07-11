@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-24T18:25:21.324144+00:00",
-    "price": 3986.57,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting XAU/USD with a target near the TV Pivot Support levels, while setting a stop-loss above the current price. Monitor the price action for potential reversals around the key levels. A strong sell signal from TradingView adds to the bearish bias.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 30.07
-  },
-  {
     "timestamp": "2026-06-24T20:25:23.680365+00:00",
     "price": 3998.58,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 4118.49,
     "trend_bias": "neutral",
     "trade_plan": "Short-term, consider selling gold if it breaks below $3,784.63 support. Alternatively, consider buying gold if it holds above $3,561.83 support. Monitor the market for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 44.34
+  },
+  {
+    "timestamp": "2026-07-11T12:47:20.107546+00:00",
+    "price": 4118.49,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop-loss above $4,388.11, targeting $3,784.63. Alternatively, wait for a breakout above $4,768.79 to consider long positions.",
     "key_levels": {
       "support": [
         "$3,784.63",

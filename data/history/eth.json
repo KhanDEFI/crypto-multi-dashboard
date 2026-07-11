@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-25T09:59:56.462001+00:00",
-    "price": 1646.14,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell ETH on a break below $1,600 with a stop-loss at $1,650. Consider taking profits around $1,450. Monitor the market for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$1,600",
-        "$1,500"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,800"
-      ]
-    },
-    "rsi": 36.25
-  },
-  {
     "timestamp": "2026-06-25T12:22:16.036935+00:00",
     "price": 1627.84,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 76.01
+  },
+  {
+    "timestamp": "2026-07-11T20:40:20.163364+00:00",
+    "price": 1824.81,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $1,900.00 or buying on a retest of $1,700.00. Monitor the price action for a potential reversal or consolidation. Adjust the trade plan based on the actual market behavior.",
+    "key_levels": {
+      "support": [
+        "$1,700.00",
+        "$1,600.00"
+      ],
+      "resistance": [
+        "$1,900.00",
+        "$2,000.00"
+      ]
+    },
+    "rsi": 83.62
   }
 ]

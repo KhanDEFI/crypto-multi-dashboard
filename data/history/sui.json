@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-25T20:00:59.676366+00:00",
-    "price": 0.671663,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling SUI/USD at current levels or around $0.65 support. Medium-term, a potential bounce to $0.70 resistance is possible, but a break below $0.60 support would confirm a bearish trend.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.75"
-      ]
-    },
-    "rsi": 36.07
-  },
-  {
     "timestamp": "2026-06-25T22:14:16.957853+00:00",
     "price": 0.679441,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 73.6
+  },
+  {
+    "timestamp": "2026-07-12T01:23:58.916705+00:00",
+    "price": 0.727032,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $0.68 or $0.65, with a target of $0.80 or $0.85. However, be cautious of a potential breakdown below $0.65. A stop-loss should be set at $0.60.",
+    "key_levels": {
+      "support": [
+        "$0.68",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
+      ]
+    },
+    "rsi": 60.41
   }
 ]

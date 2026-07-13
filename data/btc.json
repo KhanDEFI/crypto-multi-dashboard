@@ -1,13 +1,13 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 62208,
-  "change_24h": -3.06,
-  "market_cap": 1247478164981.543,
+  "price": 62004,
+  "change_24h": -2.73,
+  "market_cap": 1243449952367.174,
   "rsi": 23.92,
   "analysis": {
-    "elliott_wave": "BTC is in a corrective wave 2, potentially setting up for a bounce in wave 3. Wave 2 typically retraces 61.8% of wave 1.",
-    "momentum": "The RSI reading of 23.92 indicates oversold conditions, suggesting a potential bounce in the near term. However, the 24h change of -3.06% indicates a bearish momentum.",
+    "elliott_wave": "BTC is currently in a corrective wave (4) within a larger bearish impulse wave (3), with a potential wave (5) forming.",
+    "momentum": "The RSI is oversold, indicating a potential reversal, but the 24h price change suggests a bearish momentum.",
     "key_levels": {
       "support": [
         "$60,000",
@@ -19,8 +19,8 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Short-term traders may look to buy on a bounce above $62,000, targeting $65,000. However, a break below $60,000 could indicate further bearish momentum. Medium-term traders should consider shorting above $65,000.",
-    "risk_note": "A break above $65,000 could invalidate the bearish trend bias and indicate a potential reversal."
+    "trade_plan": "Consider shorting BTC with a stop-loss at $62,500 and a target at $58,000, but be cautious of a potential reversal.",
+    "risk_note": "A sudden increase in market cap could lead to a rapid price recovery, invalidating the short position."
   },
-  "updated_at": "2026-07-13T20:05:17.278776+00:00"
+  "updated_at": "2026-07-13T22:42:00.194690+00:00"
 }

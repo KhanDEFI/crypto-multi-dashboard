@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-27T22:51:19.729225+00:00",
-    "price": 0.684034,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position if the price breaks above $0.72, with a target of $0.75. Otherwise, maintain a neutral stance and look for a clear trend reversal. Monitor the market for any significant news or events.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 49.47
-  },
-  {
     "timestamp": "2026-06-27T23:51:14.609955+00:00",
     "price": 0.684947,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.70",
         "$0.65"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
+      ]
+    },
+    "rsi": 37.32
+  },
+  {
+    "timestamp": "2026-07-13T18:24:55.283914+00:00",
+    "price": 0.715561,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, we recommend selling on rallies towards $0.75, with a stop-loss at $0.80. Medium-term, we expect a potential bounce towards $0.80-$0.85, providing a buying opportunity.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
       ],
       "resistance": [
         "$0.75",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-27T23:51:14.609955+00:00",
-    "price": 59975,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a neutral stance, with a focus on short-term trading opportunities. Look for potential buying opportunities around support levels, and selling opportunities around resistance levels. Be cautious of a potential breakout in either direction.",
-    "key_levels": {
-      "support": [
-        "$59,500",
-        "$58,500"
-      ],
-      "resistance": [
-        "$60,500",
-        "$61,500"
-      ]
-    },
-    "rsi": 43.41
-  },
-  {
     "timestamp": "2026-06-28T02:08:28.994796+00:00",
     "price": 60175,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 27.24
+  },
+  {
+    "timestamp": "2026-07-13T20:05:17.278776+00:00",
+    "price": 62208,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term traders may look to buy on a bounce above $62,000, targeting $65,000. However, a break below $60,000 could indicate further bearish momentum. Medium-term traders should consider shorting above $65,000.",
+    "key_levels": {
+      "support": [
+        "$60,000",
+        "$58,000"
+      ],
+      "resistance": [
+        "$62,500",
+        "$65,000"
+      ]
+    },
+    "rsi": 23.92
   }
 ]

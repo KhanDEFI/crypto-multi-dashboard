@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-28T20:49:07.534090+00:00",
-    "price": 4081.36,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting around the current price with a stop-loss above $4,081.36, targeting the TV Pivot Support levels. Monitor the TradingView Signal and adjust the trade plan accordingly. Be cautious of a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 36.99
-  },
-  {
     "timestamp": "2026-06-28T21:51:44.557712+00:00",
     "price": 4081.36,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.92
+  },
+  {
+    "timestamp": "2026-07-14T21:44:16.476250+00:00",
+    "price": 4052.64,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the market if price breaks below $3,784.63 support, targeting $3,561.83. Alternatively, look for long opportunities if price holds above $4,388.11 resistance.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 41.71
   }
 ]

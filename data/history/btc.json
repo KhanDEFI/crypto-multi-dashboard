@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-28T22:51:16.389051+00:00",
-    "price": 59083,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $60,000 if the price holds above $58,000. Alternatively, a short position could be taken if the price breaks below $57,500.",
-    "key_levels": {
-      "support": [
-        "$58,000",
-        "$57,500"
-      ],
-      "resistance": [
-        "$60,000",
-        "$61,000"
-      ]
-    },
-    "rsi": 51.77
-  },
-  {
     "timestamp": "2026-06-28T23:57:49.465661+00:00",
     "price": 59569,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$67,000.00",
         "$69,000.00"
+      ]
+    },
+    "rsi": 55.78
+  },
+  {
+    "timestamp": "2026-07-14T23:39:51.734977+00:00",
+    "price": 64930,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,000, aiming for a target of $68,000 within the next 48 hours. Set a stop-loss at $60,000 to limit potential losses. Monitor the RSI for signs of overbought conditions.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$66,000",
+        "$68,000"
       ]
     },
     "rsi": 55.78

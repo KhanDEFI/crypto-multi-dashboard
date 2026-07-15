@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-30T06:42:51.996503+00:00",
-    "price": 4023.75,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider going short with a stop loss above $4,753.48 and a target at $4,152.64, but be cautious of potential safe-haven demand driving prices higher.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 34.78
-  },
-  {
     "timestamp": "2026-06-30T10:21:38.231612+00:00",
     "price": 4025.44,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.85
+  },
+  {
+    "timestamp": "2026-07-15T20:59:42.612432+00:00",
+    "price": 4060.5,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a break above $4,388.11 resistance or buying on a break below $3,561.83 support. Monitor TradingView Signal for further confirmation. A move above $4,768.79 could indicate a bullish reversal.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 42.36
   }
 ]

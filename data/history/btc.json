@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-29T20:45:40.889030+00:00",
-    "price": 60329,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $59,000 and selling on rallies towards $62,000. A break above $62,000 could indicate a bullish trend, while a break below $59,000 could indicate a bearish trend.",
-    "key_levels": {
-      "support": [
-        "$59,000",
-        "$58,500"
-      ],
-      "resistance": [
-        "$61,500",
-        "$62,000"
-      ]
-    },
-    "rsi": 51.22
-  },
-  {
     "timestamp": "2026-06-29T22:02:09.602433+00:00",
     "price": 60391,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$67,000",
         "$70,000"
+      ]
+    },
+    "rsi": 71.14
+  },
+  {
+    "timestamp": "2026-07-15T15:15:30.448454+00:00",
+    "price": 65343,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions at current levels, with a stop-loss at $63,000. Alternatively, wait for a pullback to $62,000 before entering long positions. Monitor the price action closely for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$63,000",
+        "$62,000"
+      ],
+      "resistance": [
+        "$67,000",
+        "$68,000"
       ]
     },
     "rsi": 71.14

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-30T10:21:38.231612+00:00",
-    "price": 0.692756,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.67, targeting $0.72-$0.75 resistance. Sell on rallies above $0.72, targeting $0.67-$0.65 support. Monitor market conditions for potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$0.67",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 58.21
-  },
-  {
     "timestamp": "2026-06-30T13:01:10.425838+00:00",
     "price": 0.678906,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.80",
         "$0.85"
+      ]
+    },
+    "rsi": 60.64
+  },
+  {
+    "timestamp": "2026-07-15T22:00:27.096537+00:00",
+    "price": 0.752613,
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI with a stop loss at $0.78 and a target at $0.68, or consider a long position if the price breaks above $0.78.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.68"
+      ],
+      "resistance": [
+        "$0.78",
+        "$0.82"
       ]
     },
     "rsi": 60.64

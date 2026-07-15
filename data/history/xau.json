@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-30T10:21:38.231612+00:00",
-    "price": 4025.44,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,967.12 and target at $4,152.64, or wait for a clear breakout above $4,753.48 to go long.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 34.91
-  },
-  {
     "timestamp": "2026-06-30T13:01:10.425838+00:00",
     "price": 4016.34,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4060.5,
     "trend_bias": "neutral",
     "trade_plan": "Consider selling on a break above $4,388.11 resistance or buying on a break below $3,561.83 support. Monitor TradingView Signal for further confirmation. A move above $4,768.79 could indicate a bullish reversal.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 42.36
+  },
+  {
+    "timestamp": "2026-07-15T22:00:27.096537+00:00",
+    "price": 4060.5,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting gold with a target of $4,388.11 resistance, stop-loss at $4,060.50. Monitor DXY and real yields for potential impact on safe-haven demand.",
     "key_levels": {
       "support": [
         "$3,784.63",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-06-29T12:54:01.111450+00:00",
-    "price": 4045.58,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target of $4,152.64, stop-loss at $4,346.24. Monitor TradingView Signal: STRONG_SELL for confirmation.",
-    "key_levels": {
-      "support": [
-        "$4,346.24",
-        "$4,152.64"
-      ],
-      "resistance": [
-        "$4,753.48",
-        "$4,967.12"
-      ]
-    },
-    "rsi": 35.39
-  },
-  {
     "timestamp": "2026-06-29T16:31:18.844704+00:00",
     "price": 4022.82,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.59
+  },
+  {
+    "timestamp": "2026-07-15T09:46:33.398796+00:00",
+    "price": 4026.88,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a sell trade with a stop-loss above $4,388.11 and a target at $3,784.63, or wait for a break below $3,561.83 for a more significant short opportunity.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 40.21
   }
 ]

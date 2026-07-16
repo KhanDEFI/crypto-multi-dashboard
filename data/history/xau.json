@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-01T18:53:34.053835+00:00",
-    "price": 4058.3,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $3,784.47, targeting $3,561.75. Alternatively, look for a bounce above $4,058.30, targeting $4,387.95.",
-    "key_levels": {
-      "support": [
-        "$3,784.47",
-        "$3,561.75"
-      ],
-      "resistance": [
-        "$4,387.95",
-        "$4,768.71"
-      ]
-    },
-    "rsi": 38.02
-  },
-  {
     "timestamp": "2026-07-01T20:44:05.825070+00:00",
     "price": 4034.82,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.93
+  },
+  {
+    "timestamp": "2026-07-16T19:53:45.476051+00:00",
+    "price": 3980.71,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting gold with a tight stop above $4,388.11, targeting $3,784.63 as a potential support level. Monitor TradingView's STRONG_SELL signal for confirmation.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 37.74
   }
 ]

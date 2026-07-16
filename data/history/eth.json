@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-01T22:11:01.169455+00:00",
-    "price": 1628.69,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $1,500, targeting $1,700. Set stop-loss at $1,400. Consider scaling out of long positions at $1,700.",
-    "key_levels": {
-      "support": [
-        "$1,500",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,800"
-      ]
-    },
-    "rsi": 59.29
-  },
-  {
     "timestamp": "2026-07-02T00:00:07.994846+00:00",
     "price": 1608.54,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900",
         "$2,000"
+      ]
+    },
+    "rsi": 66.28
+  },
+  {
+    "timestamp": "2026-07-16T21:53:06.209543+00:00",
+    "price": 1877.91,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around the 1900 resistance level, with a stop-loss at 1950 and a target of 1840. Alternatively, buying ETH around the 1800 support level could be a more conservative approach. Monitor the price action closely for any signs of a breakout.",
+    "key_levels": {
+      "support": [
+        "1840",
+        "1800"
+      ],
+      "resistance": [
+        "1900",
+        "1950"
       ]
     },
     "rsi": 66.28

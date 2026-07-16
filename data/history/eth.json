@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-01T10:59:36.149022+00:00",
-    "price": 1572.35,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $1,600, targeting $1,700. Alternatively, sell on a break below $1,500, targeting $1,400. Monitor the price action for a clear breakout.",
-    "key_levels": {
-      "support": [
-        "$1,500",
-        "$1,400"
-      ],
-      "resistance": [
-        "$1,600",
-        "$1,700"
-      ]
-    },
-    "rsi": 51.14
-  },
-  {
     "timestamp": "2026-07-01T13:33:20.660961+00:00",
     "price": 1573.76,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 1873.77,
     "trend_bias": "neutral",
     "trade_plan": "Consider selling on a close above $1,900 or buying on a close below $1,800 to capitalize on potential reversals. Monitor the market for a breakout above $2,000 or a breakdown below $1,700. Adjust the trade plan based on the market's response.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 70.75
+  },
+  {
+    "timestamp": "2026-07-16T15:23:20.926800+00:00",
+    "price": 1877.15,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH with a stop above $1,900 and a target at $1,700. Monitor the RSI for signs of a potential bullish divergence. Be cautious of a potential wave 4 bounce.",
     "key_levels": {
       "support": [
         "$1,800",

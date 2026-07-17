@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-02T10:07:55.624692+00:00",
-    "price": 1642.39,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a pullback to $1,500 for a potential long-term trade, with a stop-loss at $1,400. Monitor the market for a breakout above $1,700 to confirm the uptrend.",
-    "key_levels": {
-      "support": [
-        "$1,500",
-        "$1,400"
-      ],
-      "resistance": [
-        "$1,700",
-        "$1,800"
-      ]
-    },
-    "rsi": 50.8
-  },
-  {
     "timestamp": "2026-07-02T12:51:44.066935+00:00",
     "price": 1661.42,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1,800",
         "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 42.68
+  },
+  {
+    "timestamp": "2026-07-17T07:07:42.543128+00:00",
+    "price": 1829.56,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH on a break below $1,700, targeting $1,600. Alternatively, look for a bounce above $1,900 to enter a long position. Monitor the price action for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1,700",
+        "$1,600"
       ],
       "resistance": [
         "$1,900",

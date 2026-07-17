@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-02T19:05:18.842866+00:00",
-    "price": 61648,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider taking a long position with a stop-loss at $59,000 and a target at $65,000, but be cautious of a potential pullback.",
-    "key_levels": {
-      "support": [
-        "$59,000",
-        "$58,000"
-      ],
-      "resistance": [
-        "$62,500",
-        "$65,000"
-      ]
-    },
-    "rsi": 63.57
-  },
-  {
     "timestamp": "2026-07-02T20:49:44.454893+00:00",
     "price": 61331,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,000",
         "$67,000"
+      ]
+    },
+    "rsi": 36.12
+  },
+  {
+    "timestamp": "2026-07-17T14:38:37.416524+00:00",
+    "price": 63216,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC if price breaks below $61,000, targeting $58,000. Alternatively, wait for a clear bullish reversal signal before entering a long position.",
+    "key_levels": {
+      "support": [
+        "$61,000",
+        "$58,000"
+      ],
+      "resistance": [
+        "$63,000",
+        "$65,000"
       ]
     },
     "rsi": 36.12

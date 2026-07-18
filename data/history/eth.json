@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-03T21:53:39.710323+00:00",
-    "price": 1760.42,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $1,800 to target $1,850, with a stop-loss at $1,700. Alternatively, buy on a dip to $1,700 with a target at $1,800.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,850"
-      ]
-    },
-    "rsi": 82.59
-  },
-  {
     "timestamp": "2026-07-03T22:51:47.579318+00:00",
     "price": 1755.82,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 1843.91,
     "trend_bias": "bullish",
     "trade_plan": "Consider buying on dips towards $1,800, targeting $2,000. Set a stop-loss at $1,600. Monitor the market for any signs of reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 23.37
+  },
+  {
+    "timestamp": "2026-07-18T11:42:00.864803+00:00",
+    "price": 1843.38,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1,800, targeting $1,900-$2,000. Set a stop-loss at $1,700. Monitor the RSI for signs of overbought conditions.",
     "key_levels": {
       "support": [
         "$1,800",

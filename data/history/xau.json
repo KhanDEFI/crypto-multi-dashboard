@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-04T13:26:37.994872+00:00",
-    "price": 4175.03,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $3,784.63 or sell on rallies to $4,388.11, with a focus on safe-haven demand and macro drivers.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 46.79
-  },
-  {
     "timestamp": "2026-07-04T14:56:21.866400+00:00",
     "price": 4175.03,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4016.08,
     "trend_bias": "bullish",
     "trade_plan": "Consider long positions with a stop-loss below $3,784.63, targeting $4,388.11 or higher. Monitor the TradingView Signal and adjust the trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 40.94
+  },
+  {
+    "timestamp": "2026-07-18T19:56:49.271739+00:00",
+    "price": 4016.08,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63 as the initial support level. Monitor the 24h change and adjust the stop-loss accordingly. Be cautious of a potential reversal.",
     "key_levels": {
       "support": [
         "$3,784.63",

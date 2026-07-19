@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-05T18:56:50.925510+00:00",
-    "price": 1781.32,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,800 with a target of $1,850. Alternatively, sell on a break below $1,750. Risk management is crucial in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$1,750",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,850"
-      ]
-    },
-    "rsi": 66.32
-  },
-  {
     "timestamp": "2026-07-05T20:07:31.112249+00:00",
     "price": 1779.44,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900",
         "$1,950"
+      ]
+    },
+    "rsi": 76.22
+  },
+  {
+    "timestamp": "2026-07-19T20:00:11.893887+00:00",
+    "price": 1860.52,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $1,900 or buying on a close below $1,800. A break below $1,700 could trigger a more significant correction. Monitor the price action for a potential pullback.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
       ]
     },
     "rsi": 76.22

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-04T21:44:47.632624+00:00",
-    "price": 4175.03,
-    "trend_bias": "neutral",
-    "trade_plan": "Monitor price action around key levels, considering a potential breakout above $4,388.11 or a pullback to $3,784.63.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 46.79
-  },
-  {
     "timestamp": "2026-07-04T22:44:12.749186+00:00",
     "price": 4175.03,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4016.08,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting if price breaks below $3,784.63 support, otherwise, look for opportunities to buy on dips towards $3,561.83.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 40.94
+  },
+  {
+    "timestamp": "2026-07-19T09:41:27.742890+00:00",
+    "price": 4016.08,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position with a tight stop above $4,388.11, targeting $4,768.79 as a potential resistance level. Monitor DXY and real yields for potential shifts in safe-haven demand.",
     "key_levels": {
       "support": [
         "$3,784.63",

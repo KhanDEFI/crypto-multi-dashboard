@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-05T14:23:25.205612+00:00",
-    "price": 1764.85,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,800.00, targeting $1,900.00. Alternatively, sell on a break below $1,700.00, aiming for $1,600.00.",
-    "key_levels": {
-      "support": [
-        "$1,700.00",
-        "$1,600.00"
-      ],
-      "resistance": [
-        "$1,800.00",
-        "$1,900.00"
-      ]
-    },
-    "rsi": 66.08
-  },
-  {
     "timestamp": "2026-07-05T15:58:28.493112+00:00",
     "price": 1773.3,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 59.01
+  },
+  {
+    "timestamp": "2026-07-19T16:41:25.357416+00:00",
+    "price": 1866.57,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling ETH at the current price ($1,866.57) and re-entering at $1,800 support. Set a stop-loss at $1,900 resistance. Monitor the market for a potential wave 2 retracement.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
+      ]
+    },
+    "rsi": 76.22
   }
 ]

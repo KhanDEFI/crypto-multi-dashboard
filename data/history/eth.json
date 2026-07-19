@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-05T01:48:47.916922+00:00",
-    "price": 1764.01,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $1,800 or buying on a break below $1,700 for a potential trade. Set stop-loss at $1,600 and take-profit at $2,000. Monitor for a potential pullback to $1,700.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,900"
-      ]
-    },
-    "rsi": 78.97
-  },
-  {
     "timestamp": "2026-07-05T05:52:29.685001+00:00",
     "price": 1762.77,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900",
         "$2,000"
+      ]
+    },
+    "rsi": 59.01
+  },
+  {
+    "timestamp": "2026-07-19T14:17:50.555648+00:00",
+    "price": 1870.66,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,800, with a target of $1,900. Consider taking profits around $1,950. A stop-loss at $1,700 is recommended.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
       ]
     },
     "rsi": 59.01

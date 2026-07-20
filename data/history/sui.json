@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-06T01:55:43.688433+00:00",
-    "price": 0.754655,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.72, targeting $0.78-0.82 resistance. Sell on rallies above $0.78, targeting $0.72 support.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 52.5
-  },
-  {
     "timestamp": "2026-07-06T06:17:54.654686+00:00",
     "price": 0.737732,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 71.35
+  },
+  {
+    "timestamp": "2026-07-20T05:26:43.754870+00:00",
+    "price": 0.742179,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy on dips strategy around the $0.72 support level, targeting a potential rebound to $0.76 resistance. Alternatively, a short position could be taken around $0.76 resistance, with a stop-loss at $0.80.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.68"
+      ],
+      "resistance": [
+        "$0.76",
+        "$0.80"
+      ]
+    },
+    "rsi": 67.18
   }
 ]

@@ -1,13 +1,13 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1879.76,
-  "change_24h": 1.1,
-  "market_cap": 226776288054.25162,
-  "rsi": 81.71,
+  "price": 1856.9,
+  "change_24h": -0.56,
+  "market_cap": 224084739304.0137,
+  "rsi": 78.37,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave 4, with a possible bullish impulse wave 5 forming. However, the wave count is uncertain due to the lack of clear 5-wave impulse.",
-    "momentum": "The RSI reading of 81.71 indicates overbought conditions, suggesting a potential reversal in the near future. However, the 1.10% 24h change in price suggests a minor correction rather than a significant reversal.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a double top pattern as price struggles to break above $1,900.",
+    "momentum": "Momentum is weakening, with the RSI overbought at 78.37, indicating a potential reversal in the coming days.",
     "key_levels": {
       "support": [
         "$1,800",
@@ -15,12 +15,12 @@
       ],
       "resistance": [
         "$1,900",
-        "$1,950"
+        "$2,000"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling ETH in the short term to take advantage of potential overbought conditions, with a target price of $1,800. However, be cautious of a potential bullish impulse wave 5 forming. A stop-loss at $1,600 would be advisable.",
-    "risk_note": "Key risk: a sudden drop in market cap due to a global market downturn"
+    "trend_bias": "bearish",
+    "trade_plan": "Short ETH with a stop-loss at $1,900 and a target at $1,700, considering the bearish trend bias and overbought RSI.",
+    "risk_note": "A sudden spike in demand could push ETH above $1,900, invalidating the short trade plan."
   },
-  "updated_at": "2026-07-20T01:27:16.988701+00:00"
+  "updated_at": "2026-07-20T05:26:43.754870+00:00"
 }

@@ -2,17 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-07-17T01:24:08.046201+00:00",
-        "price_at_prediction": 63849,
-        "price_now": 63881,
-        "price_change_pct": 0.05,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting on a break below $62,000 for a potential target of $60,000, but be cautious of a potential bounce back up to $65,000.",
-        "levels_hit": []
-      },
-      {
         "prediction_time": "2026-07-17T04:50:42.324065+00:00",
         "price_at_prediction": 63496,
         "price_now": 63920,
@@ -360,6 +349,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-07-19T22:38:49.423066+00:00",
+        "price_at_prediction": 64659,
+        "price_now": 65097,
+        "price_change_pct": 0.68,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips above $62,000 with a target of $67,000, and consider scaling out of long positions on rallies to $70,000.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -368,22 +368,11 @@
       "partial": 5,
       "incorrect": 4,
       "accuracy_pct": 70.0,
-      "updated_at": "2026-07-20T21:56:40.226471+00:00"
+      "updated_at": "2026-07-20T22:50:21.275519+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-07-17T01:24:08.046201+00:00",
-        "price_at_prediction": 1860.04,
-        "price_now": 1839.38,
-        "price_change_pct": -1.11,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting ETH around current levels, targeting $1,700.00 for a potential 10% gain. Set a stop-loss at $1,900.00 to limit risk. Monitor for a potential wave 4 low.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-07-17T04:50:42.324065+00:00",
         "price_at_prediction": 1850.34,
@@ -708,6 +697,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-07-19T22:38:49.423066+00:00",
+        "price_at_prediction": 1867.52,
+        "price_now": 1894.44,
+        "price_change_pct": 1.44,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards $1,800, targeting $1,900. Set stop-loss at $1,700. Monitor market for signs of a breakout.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -716,22 +716,11 @@
       "partial": 7,
       "incorrect": 6,
       "accuracy_pct": 56.7,
-      "updated_at": "2026-07-20T21:56:40.226471+00:00"
+      "updated_at": "2026-07-20T22:50:21.275519+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-07-17T01:24:08.046201+00:00",
-        "price_at_prediction": 0.743362,
-        "price_now": 0.738836,
-        "price_change_pct": -0.61,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Short-term traders may consider selling on rallies towards $0.76, while long-term investors may look to buy on dips towards $0.68.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-07-17T04:50:42.324065+00:00",
         "price_at_prediction": 0.741613,
@@ -1056,6 +1045,17 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider a neutral stance, with a focus on waiting for a clear breakout above $0.78 or a breakdown below $0.72 to establish a trade plan. A stop-loss at $0.70 is recommended.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-07-19T22:38:49.423066+00:00",
+        "price_at_prediction": 0.748973,
+        "price_now": 0.759935,
+        "price_change_pct": 1.46,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Buy on dips towards $0.73, with a target of $0.80. Sell on rallies above $0.78. Monitor market cap for signs of institutional interest.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1064,22 +1064,11 @@
       "partial": 4,
       "incorrect": 3,
       "accuracy_pct": 76.7,
-      "updated_at": "2026-07-20T21:56:40.226471+00:00"
+      "updated_at": "2026-07-20T22:50:21.275519+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-07-17T01:24:08.046201+00:00",
-        "price_at_prediction": 3990.58,
-        "price_now": 4016.08,
-        "price_change_pct": 0.64,
-        "predicted_bias": "neutral",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider a short-term buy on dips towards TV Pivot Support levels, targeting a bounce to TV Pivot Resistance levels. Monitor TradingView Signal and adjust accordingly.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-07-17T04:50:42.324065+00:00",
         "price_at_prediction": 3982,
@@ -1398,6 +1387,17 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63. Alternatively, wait for a clear break of the TV Pivot Support levels. Monitor the price action closely.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-07-19T22:38:49.423066+00:00",
+        "price_at_prediction": 3996.5,
+        "price_now": 4001.56,
+        "price_change_pct": 0.13,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a sell strategy with a tight stop-loss above $4,388.11, targeting $3,784.63 as a potential support level. Monitor the 24h change and adjust the position accordingly.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1406,7 +1406,7 @@
       "partial": 1,
       "incorrect": 1,
       "accuracy_pct": 93.3,
-      "updated_at": "2026-07-20T21:56:40.226471+00:00"
+      "updated_at": "2026-07-20T22:50:21.275519+00:00"
     }
   }
 }

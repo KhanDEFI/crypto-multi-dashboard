@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 64654,
-  "change_24h": -0.2,
-  "market_cap": 1296249024548.5764,
-  "rsi": 72.36,
+  "price": 64847,
+  "change_24h": 0.17,
+  "market_cap": 1300278478485.6172,
+  "rsi": 74.57,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bullish impulse, with a potential wave 3 forming.",
-    "momentum": "Momentum is neutral, as the recent price action has been choppy and the RSI is overbought, indicating a potential reversal.",
+    "elliott_wave": "BTC is in a corrective wave, potentially a 4th wave of a larger bull trend. The wave count suggests a potential reversal.",
+    "momentum": "The RSI is overbought, indicating a potential reversal. However, the 0.17% 24h change suggests a lack of momentum.",
     "key_levels": {
       "support": [
-        "$63,500",
-        "$62,000"
+        "$62,000",
+        "$60,000"
       ],
       "resistance": [
         "$66,000",
         "$68,000"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a break below $63,500 with a stop at $65,000 and a target at $60,000. Alternatively, consider shorting with a stop at $66,000 and a target at $64,000.",
-    "risk_note": "A break above $68,000 could invalidate the bearish trend bias and trigger a long position."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider selling on a close above $66,000 or buying on a close below $62,000. A stop-loss at $60,000 is recommended. Monitor market sentiment for a potential reversal.",
+    "risk_note": "A sudden drop in market cap could lead to a sharp price decline."
   },
-  "updated_at": "2026-07-19T23:44:06.894859+00:00"
+  "updated_at": "2026-07-20T01:27:16.988701+00:00"
 }

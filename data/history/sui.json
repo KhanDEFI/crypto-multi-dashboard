@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-07T18:52:40.851752+00:00",
-    "price": 0.739613,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on a bounce above $0.76, targeting $0.80. Alternatively, a short below $0.72 with a stop above $0.76. Monitor market cap and price action for signs of a larger trend reversal.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.70"
-      ],
-      "resistance": [
-        "$0.76",
-        "$0.78"
-      ]
-    },
-    "rsi": 47.67
-  },
-  {
     "timestamp": "2026-07-07T20:42:58.791197+00:00",
     "price": 0.734441,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 77.5
+  },
+  {
+    "timestamp": "2026-07-21T04:55:44.807113+00:00",
+    "price": 0.769055,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling a portion of long positions to lock in profits, and look to re-enter on a pullback to the $0.72-$0.68 support zone.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.68"
+      ],
+      "resistance": [
+        "$0.82",
+        "$0.88"
+      ]
+    },
+    "rsi": 76.41
   }
 ]

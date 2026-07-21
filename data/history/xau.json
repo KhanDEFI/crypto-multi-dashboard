@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-07T23:43:31.345543+00:00",
-    "price": 4100.52,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short positions with a tight stop-loss above $4,388.11, targeting $4,768.79 as a potential resistance level. Alternatively, wait for a bullish signal or a break above $4,388.11 to consider long positions.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 42.26
-  },
-  {
     "timestamp": "2026-07-08T01:22:57.887737+00:00",
     "price": 4106.97,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.45
+  },
+  {
+    "timestamp": "2026-07-21T12:17:20.918433+00:00",
+    "price": 4058.19,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a sell strategy based on the TradingView Signal, targeting the support levels; however, monitor the market for potential reversal signs and adjust the plan accordingly",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 44.85
   }
 ]

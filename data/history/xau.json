@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-08T07:22:58.682565+00:00",
-    "price": 4115.8,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63 or lower. Alternatively, wait for a break below $3,561.83 for a more compelling short entry.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 43.37
-  },
-  {
     "timestamp": "2026-07-08T10:03:44.756996+00:00",
     "price": 4047.27,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.37
+  },
+  {
+    "timestamp": "2026-07-21T20:10:54.503696+00:00",
+    "price": 4084.8,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a neutral stance and wait for a clear breakout above $4,388.11 or below $3,784.63 to establish a trade plan.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 46.92
   }
 ]

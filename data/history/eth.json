@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-08T01:22:57.887737+00:00",
-    "price": 1775.57,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $1,800, targeting $1,850. Alternatively, sell on a break below $1,750, targeting $1,700. Monitor the market for any significant price movements.",
-    "key_levels": {
-      "support": [
-        "$1,750",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,850"
-      ]
-    },
-    "rsi": 49.11
-  },
-  {
     "timestamp": "2026-07-08T04:55:54.240416+00:00",
     "price": 1752.81,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,950",
         "$2,000"
+      ]
+    },
+    "rsi": 78.04
+  },
+  {
+    "timestamp": "2026-07-21T14:52:44.954363+00:00",
+    "price": 1934.42,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider taking profits on long positions and adjusting stop-losses to $1,800. A break below this level could trigger a short trade. Monitor the market for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,600"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,200"
       ]
     },
     "rsi": 78.04

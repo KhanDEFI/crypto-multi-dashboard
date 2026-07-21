@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-08T01:22:57.887737+00:00",
-    "price": 63523,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $63,000, targeting $65,000. Alternatively, sell on a break below $62,500, aiming for $61,000. Monitor market conditions for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$61,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 55.91
-  },
-  {
     "timestamp": "2026-07-08T04:55:54.240416+00:00",
     "price": 62671,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$68,000",
         "$70,000"
+      ]
+    },
+    "rsi": 68.43
+  },
+  {
+    "timestamp": "2026-07-21T14:52:44.954363+00:00",
+    "price": 66809,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on a pullback to the $64,500 support level, with a target of $69,000. Set a stop-loss at $63,000 to limit potential losses. Monitor the market for any signs of increased selling pressure.",
+    "key_levels": {
+      "support": [
+        "$64,500",
+        "$63,000"
+      ],
+      "resistance": [
+        "$67,500",
+        "$69,000"
       ]
     },
     "rsi": 68.43

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-08T10:03:44.756996+00:00",
-    "price": 1733.91,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a close above $1,900.00, targeting $1,600.00. Consider shorting with a stop-loss at $1,400.00.",
-    "key_levels": {
-      "support": [
-        "$1,600.00",
-        "$1,400.00"
-      ],
-      "resistance": [
-        "$1,900.00",
-        "$2,100.00"
-      ]
-    },
-    "rsi": 40.92
-  },
-  {
     "timestamp": "2026-07-08T12:11:29.365880+00:00",
     "price": 1748.63,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,950",
         "$2,000"
+      ]
+    },
+    "rsi": 70.38
+  },
+  {
+    "timestamp": "2026-07-21T21:51:54.870984+00:00",
+    "price": 1923.81,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying ETH on dips to $1,800 or selling at resistance levels around $2,000-$2,100. A stop-loss at $1,700 is recommended to limit potential losses. Monitor the market for any signs of a reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
       ]
     },
     "rsi": 70.38

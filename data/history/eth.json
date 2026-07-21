@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-07T22:02:56.433875+00:00",
-    "price": 1768.68,
-    "trend_bias": "bearish",
-    "trade_plan": "Short ETH with a tight stop above $1,800, targeting $1,600-$1,700 as a potential profit zone. Alternatively, consider a long position if ETH breaks above $1,900.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,900"
-      ]
-    },
-    "rsi": 60.56
-  },
-  {
     "timestamp": "2026-07-07T23:43:31.345543+00:00",
     "price": 1774.61,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 78.06
+  },
+  {
+    "timestamp": "2026-07-21T10:11:30.383869+00:00",
+    "price": 1943.48,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close below $1,800, targeting $1,600. Alternatively, look to buy on a pullback to $1,800, aiming for $2,000 resistance.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,600"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,200"
+      ]
+    },
+    "rsi": 78.76
   }
 ]

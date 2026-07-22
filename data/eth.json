@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1935.59,
-  "change_24h": 0.63,
-  "market_cap": 233597438790.35687,
+  "price": 1914.37,
+  "change_24h": -0.99,
+  "market_cap": 231031198037.0737,
   "rsi": 77.11,
   "analysis": {
-    "elliott_wave": "ETH is likely in a 5-3-5 wave pattern, with the current wave being the 5th wave of the 3rd leg. The wave count suggests a potential reversal in the near term.",
-    "momentum": "The RSI reading of 77.11 indicates overbought conditions, suggesting a potential pullback in the near term. However, the 0.63% 24h change suggests a lack of strong momentum.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially in a wave 4 or B wave, as the price action is showing signs of exhaustion.",
+    "momentum": "The RSI reading of 77.11 indicates overbought conditions, suggesting a potential reversal in the near term, but the -0.99% 24h change suggests a lack of momentum.",
     "key_levels": {
       "support": [
-        "$1,900",
-        "$1,850"
+        "$1,800",
+        "$1,700"
       ],
       "resistance": [
         "$2,000",
-        "$2,050"
+        "$2,100"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a close above $2,000 or buying on a close below $1,900. A stop-loss can be placed at $1,800 to limit potential losses. A target of $2,100 can be set for a potential long position.",
-    "risk_note": "A potential risk is a sudden drop in market cap, which could lead to a sharp decline in price."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH around current levels with a stop-loss above $1,950, targeting $1,800-$1,900 in the next 24-48 hours.",
+    "risk_note": "A potential reversal above $2,000 could invalidate the bearish trend bias and lead to a significant price increase."
   },
-  "updated_at": "2026-07-22T04:55:16.942076+00:00"
+  "updated_at": "2026-07-22T07:28:04.655633+00:00"
 }

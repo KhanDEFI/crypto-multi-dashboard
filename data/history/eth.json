@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-08T20:53:08.833193+00:00",
-    "price": 1736.9,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $1,700, targeting $1,650. Alternatively, look for a bounce above $1,800, with a target of $1,850. Monitor the 24h chart for a clear trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,650"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,850"
-      ]
-    },
-    "rsi": 43.21
-  },
-  {
     "timestamp": "2026-07-08T21:56:16.613389+00:00",
     "price": 1737.39,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000",
         "$2,050"
+      ]
+    },
+    "rsi": 77.11
+  },
+  {
+    "timestamp": "2026-07-22T07:28:04.655633+00:00",
+    "price": 1914.37,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH around current levels with a stop-loss above $1,950, targeting $1,800-$1,900 in the next 24-48 hours.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
       ]
     },
     "rsi": 77.11

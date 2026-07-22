@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09T10:42:57.252387+00:00",
-    "price": 1751.12,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,700, targeting $1,800-$1,850. Set a stop-loss at $1,650. Monitor the market for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,650"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,850"
-      ]
-    },
-    "rsi": 37.7
-  },
-  {
     "timestamp": "2026-07-09T13:41:16.396891+00:00",
     "price": 1738.04,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 1937.8,
     "trend_bias": "bullish",
     "trade_plan": "Buy on dips to $1,800, with a target of $2,100. Consider scaling in on a pullback. Monitor the $1,700 support level for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
+      ]
+    },
+    "rsi": 79.32
+  },
+  {
+    "timestamp": "2026-07-22T19:20:22.600851+00:00",
+    "price": 1926.09,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider shorting ETH on a close below $1,800, targeting $1,700. Alternatively, look to buy dips around $1,900 with a stop below $1,800.",
     "key_levels": {
       "support": [
         "$1,800",

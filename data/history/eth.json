@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09T07:26:16.192855+00:00",
-    "price": 1750.63,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $1,700, targeting $1,800. Sell on rallies to $1,800, targeting $1,600. Monitor for a break below $1,600.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,800",
-        "$1,900"
-      ]
-    },
-    "rsi": 32.07
-  },
-  {
     "timestamp": "2026-07-09T10:42:57.252387+00:00",
     "price": 1751.12,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000",
         "$2,200"
+      ]
+    },
+    "rsi": 79.32
+  },
+  {
+    "timestamp": "2026-07-22T17:59:52.460672+00:00",
+    "price": 1937.8,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $1,800, with a target of $2,100. Consider scaling in on a pullback. Monitor the $1,700 support level for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
       ]
     },
     "rsi": 79.32

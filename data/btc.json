@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 65890,
-  "change_24h": -0.75,
-  "market_cap": 1321748729448.1592,
+  "price": 66071,
+  "change_24h": -0.4,
+  "market_cap": 1325500641288.8308,
   "rsi": 62.13,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a bullish flag pattern as price consolidates.",
-    "momentum": "Momentum is neutral, with RSI at 62.13, indicating a balanced market with no clear trend. Price action suggests a slight bearish bias.",
+    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bullish trend, with a potential wave 3 forming.",
+    "momentum": "The neutral RSI reading suggests a pause in the recent uptrend, but the price action remains bullish with a slight pullback.",
     "key_levels": {
       "support": [
-        "$64,000",
-        "$62,000"
+        "$65,000",
+        "$63,500"
       ],
       "resistance": [
-        "$67,000",
+        "$67,500",
         "$69,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $64,000, targeting $62,000. Alternatively, look to buy on a bounce above $67,000, targeting $69,000. Monitor the 24h chart for a clear breakout.",
-    "risk_note": "Key risk: a sudden shift in market sentiment could lead to a sharp price movement, potentially exceeding $10,000 in a single day."
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips above $65,000, targeting $67,500. Consider scaling out of long positions if price reaches $69,000. Monitor the 24h RSI for signs of overbought conditions.",
+    "risk_note": "A potential bearish reversal if the 24h RSI drops below 30."
   },
-  "updated_at": "2026-07-22T20:52:38.889831+00:00"
+  "updated_at": "2026-07-22T21:53:32.275595+00:00"
 }

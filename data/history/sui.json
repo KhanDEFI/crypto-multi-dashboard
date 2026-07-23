@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10T23:45:03.177244+00:00",
-    "price": 0.738374,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry on a break above $0.78, targeting $0.82. Alternatively, a sell entry on a break below $0.72, targeting $0.68. Monitor the price action closely.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 67.78
-  },
-  {
     "timestamp": "2026-07-11T01:22:16.107796+00:00",
     "price": 0.73444,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 33.08
+  },
+  {
+    "timestamp": "2026-07-23T21:53:51.132212+00:00",
+    "price": 0.746823,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy on dips strategy, targeting $0.80 with a stop-loss at $0.72. Monitor the price action and adjust the plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.70"
+      ],
+      "resistance": [
+        "$0.78",
+        "$0.80"
+      ]
+    },
+    "rsi": 34.65
   }
 ]

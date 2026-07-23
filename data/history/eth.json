@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10T06:03:15.797305+00:00",
-    "price": 1777.46,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,700 support, with a target of $1,900 resistance. Sell on rallies above $2,000, with a stop-loss at $1,900. Monitor market sentiment and adjust accordingly.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 46.25
-  },
-  {
     "timestamp": "2026-07-10T10:12:49.103073+00:00",
     "price": 1790.31,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 58.45
+  },
+  {
+    "timestamp": "2026-07-23T10:56:30.145687+00:00",
+    "price": 1927.33,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $1,800, targeting $1,600. Alternatively, look for a bounce above $2,000, aiming for $2,200. Monitor the 24h price action for signs of a larger trend reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,600"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,200"
+      ]
+    },
+    "rsi": 54.52
   }
 ]

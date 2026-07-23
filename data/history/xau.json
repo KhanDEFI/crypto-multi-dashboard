@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09T22:11:35.396615+00:00",
-    "price": 4123.09,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target around $4,388.11 resistance. Monitor TradingView Signal for potential confirmation. Adjust stop-loss around $4,123.09.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 44.65
-  },
-  {
     "timestamp": "2026-07-09T23:56:07.401166+00:00",
     "price": 4123.23,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 50.32
+  },
+  {
+    "timestamp": "2026-07-23T01:27:42.269149+00:00",
+    "price": 4140.62,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards TV Pivot Support levels, targeting $3,784.63 or $3,561.83. Sell on rallies towards TV Pivot Resistance levels, aiming for $4,388.11 or $4,768.79. Monitor price action for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 51.16
   }
 ]

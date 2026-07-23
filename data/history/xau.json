@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10T10:12:49.103073+00:00",
-    "price": 4107.11,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target around $4,388.11, using the TradingView Signal: SELL as a guide. Monitor the price action and adjust the target accordingly. Be cautious of a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 43.62
-  },
-  {
     "timestamp": "2026-07-10T13:02:37.295688+00:00",
     "price": 4104.73,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.76
+  },
+  {
+    "timestamp": "2026-07-23T12:18:54.028488+00:00",
+    "price": 4075.56,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63 or lower. Monitor TradingView Signal: SELL and adjust accordingly.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 46.5
   }
 ]

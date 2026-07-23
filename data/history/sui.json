@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T01:22:16.107796+00:00",
-    "price": 0.73444,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting the asset if it breaks below $0.69, targeting $0.65. Otherwise, wait for a pullback to $0.70-$0.72 to enter long positions. Set stop-loss at $0.65.",
-    "key_levels": {
-      "support": [
-        "$0.69",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.80",
-        "$0.85"
-      ]
-    },
-    "rsi": 73.47
-  },
-  {
     "timestamp": "2026-07-11T04:51:02.105571+00:00",
     "price": 0.740938,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 0.746823,
     "trend_bias": "neutral",
     "trade_plan": "Consider a buy on dips strategy, targeting $0.80 with a stop-loss at $0.72. Monitor the price action and adjust the plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$0.72",
+        "$0.70"
+      ],
+      "resistance": [
+        "$0.78",
+        "$0.80"
+      ]
+    },
+    "rsi": 34.65
+  },
+  {
+    "timestamp": "2026-07-23T22:44:14.944865+00:00",
+    "price": 0.748119,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting at $0.72 with a stop-loss at $0.75 and a target at $0.68. Alternatively, consider buying at $0.70 with a stop-loss at $0.68 and a target at $0.78. Monitor the price action for a potential bounce.",
     "key_levels": {
       "support": [
         "$0.72",

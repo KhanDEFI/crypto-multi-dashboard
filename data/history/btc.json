@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T11:41:25.056934+00:00",
-    "price": 64122,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a close below $62,000 or waiting for a pullback to $60,000 for a potential long entry. Alternatively, consider buying on a bounce off $60,000.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 72.92
-  },
-  {
     "timestamp": "2026-07-11T12:47:20.107546+00:00",
     "price": 64088,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.93
+  },
+  {
+    "timestamp": "2026-07-24T07:27:44.836300+00:00",
+    "price": 65610,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $62,000, targeting $67,000. Consider taking profits at $67,000 and adjusting the stop-loss to break-even. Monitor the market for potential reversal signals.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$67,000",
+        "$69,000"
+      ]
+    },
+    "rsi": 35.18
   }
 ]

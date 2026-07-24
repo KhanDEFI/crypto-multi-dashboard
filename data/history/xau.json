@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T15:42:01.341276+00:00",
-    "price": 4118.49,
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, consider selling on rallies towards $4,388.11, targeting $3,784.63 as a key support level. Monitor TradingView's SELL signal and adjust the trade plan accordingly. Be cautious of potential safe-haven demand shifts.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 44.34
-  },
-  {
     "timestamp": "2026-07-11T17:43:54.370703+00:00",
     "price": 4118.49,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.5
+  },
+  {
+    "timestamp": "2026-07-24T14:41:18.011217+00:00",
+    "price": 4060.79,
+    "trend_bias": "neutral",
+    "trade_plan": "Monitor TradingView Signal SELL and wait for a potential bounce off support levels. Consider entering a long position if price breaks above $4,388.11. Set stop-loss below $3,784.63.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 45.75
   }
 ]

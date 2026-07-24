@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T12:47:20.107546+00:00",
-    "price": 1797.56,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH on a close below $1,700, with a target of $1,600. Alternatively, wait for a confirmed bullish reversal signal before entering long positions. Risk management is crucial in this neutral market.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 77.55
-  },
-  {
     "timestamp": "2026-07-11T14:15:55.704392+00:00",
     "price": 1801.82,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.24
+  },
+  {
+    "timestamp": "2026-07-24T10:04:21.457819+00:00",
+    "price": 1886.6,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $1,900 with a stop-loss at $1,800 and a target at $1,700. Monitor the price action closely for a potential breakout. Adjust the trade plan based on the next 24 hours of price movement.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
+      ]
+    },
+    "rsi": 40.25
   }
 ]

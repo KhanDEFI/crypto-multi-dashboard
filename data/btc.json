@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 65610,
-  "change_24h": 0.33,
-  "market_cap": 1316169722908.113,
-  "rsi": 35.18,
+  "price": 65066,
+  "change_24h": -0.82,
+  "market_cap": 1305263196125.5574,
+  "rsi": 34.13,
   "analysis": {
-    "elliott_wave": "We are currently in a bullish impulse wave (wave 3) within a larger bull market. The wave count suggests a potential completion of the impulse wave in the near term.",
-    "momentum": "The price action is showing a neutral RSI reading of 35.18, indicating a lack of strong momentum in either direction. However, the 0.33% 24h change suggests a slight bullish bias.",
+    "elliott_wave": "BTC is currently in a corrective wave (4) within a larger bullish trend, with a potential wave 5 forming.",
+    "momentum": "The RSI reading of 34.13 indicates a neutral momentum, with price action suggesting a potential bounce from current levels.",
     "key_levels": {
       "support": [
-        "$62,000",
+        "$63,000",
         "$60,000"
       ],
       "resistance": [
         "$67,000",
-        "$69,000"
+        "$70,000"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $62,000, targeting $67,000. Consider taking profits at $67,000 and adjusting the stop-loss to break-even. Monitor the market for potential reversal signals.",
-    "risk_note": "A potential reversal signal could be a bearish engulfing candlestick pattern at the current resistance level."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $63,000-$60,000, with a target of $67,000. However, if price breaks below $60,000, consider shorting with a stop-loss at $55,000.",
+    "risk_note": "A break below $60,000 could indicate a shift in trend bias to bearish."
   },
-  "updated_at": "2026-07-24T07:27:44.836300+00:00"
+  "updated_at": "2026-07-24T10:04:21.457819+00:00"
 }

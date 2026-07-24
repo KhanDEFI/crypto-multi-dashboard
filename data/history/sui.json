@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T14:15:55.704392+00:00",
-    "price": 0.74389,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce from the current price, targeting $0.80 with a stop-loss at $0.68. Monitor the market for a potential breakout above $0.80.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.76",
-        "$0.80"
-      ]
-    },
-    "rsi": 69.82
-  },
-  {
     "timestamp": "2026-07-11T15:42:01.341276+00:00",
     "price": 0.743102,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 31.75
+  },
+  {
+    "timestamp": "2026-07-24T12:10:12.108186+00:00",
+    "price": 0.729526,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting with a stop-loss at $0.80 and a target at $0.60. Alternatively, consider buying with a stop-loss at $0.60 and a target at $0.80. Monitor the price action closely for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
+      ]
+    },
+    "rsi": 29.46
   }
 ]

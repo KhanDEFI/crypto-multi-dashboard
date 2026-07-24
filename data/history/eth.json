@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T10:51:28.597059+00:00",
-    "price": 1797.11,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $1,900 or buying on a close below $1,700, with a stop-loss at $1,600. Monitor for a potential reversal in the next 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$1,700",
-        "$1,600"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 70.02
-  },
-  {
     "timestamp": "2026-07-11T11:41:25.056934+00:00",
     "price": 1798.2,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 33.94
+  },
+  {
+    "timestamp": "2026-07-24T04:57:36.147049+00:00",
+    "price": 1875.64,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting ETH around current levels, targeting $1,700.00 with a stop-loss at $1,900.00, as the bearish trend bias remains intact.",
+    "key_levels": {
+      "support": [
+        "$1,800.00",
+        "$1,700.00"
+      ],
+      "resistance": [
+        "$1,900.00",
+        "$2,000.00"
+      ]
+    },
+    "rsi": 36.27
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T09:40:39.463104+00:00",
-    "price": 63893,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips around the $62,000 support level, with a target of $65,000. However, be cautious of a potential bearish reversal if the price breaks below $61,500. A stop-loss at $60,000 is recommended.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$61,500"
-      ],
-      "resistance": [
-        "$65,000",
-        "$65,500"
-      ]
-    },
-    "rsi": 60.07
-  },
-  {
     "timestamp": "2026-07-12T11:02:37.893090+00:00",
     "price": 63830,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 22.9
+  },
+  {
+    "timestamp": "2026-07-25T12:01:34.696399+00:00",
+    "price": 64000,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop-loss above $65,000.00 and a target of $60,000.00, but be cautious of a potential bounce.",
+    "key_levels": {
+      "support": [
+        "$62,000.00",
+        "$60,000.00"
+      ],
+      "resistance": [
+        "$65,000.00",
+        "$67,000.00"
+      ]
+    },
+    "rsi": 26.18
   }
 ]

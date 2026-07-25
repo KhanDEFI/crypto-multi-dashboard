@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T18:44:55.124300+00:00",
-    "price": 0.737484,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term buy or hold strategy, with a focus on breaking above the $0.78 resistance level to confirm a bullish trend resumption. Alternatively, a sell strategy can be employed if the price breaks below the $0.72 support level.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 68.16
-  },
-  {
     "timestamp": "2026-07-12T19:59:00.678958+00:00",
     "price": 0.74132,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 12.37
+  },
+  {
+    "timestamp": "2026-07-25T21:41:44.936170+00:00",
+    "price": 0.713192,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.68, targeting $0.75 with a stop-loss at $0.65. Monitor the 24h change for signs of increasing momentum. A break above $0.75 could confirm the bullish trend.",
+    "key_levels": {
+      "support": [
+        "$0.68",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
+      ]
+    },
+    "rsi": 17.81
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T18:44:55.124300+00:00",
-    "price": 64064,
-    "trend_bias": "neutral",
-    "trade_plan": "We recommend a wait-and-see approach, focusing on a potential breakout above $65,000 or a breakdown below $62,500. A bullish bias is expected if the price holds above $62,500. A stop-loss at $60,000 is recommended.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,500"
-      ]
-    },
-    "rsi": 53.94
-  },
-  {
     "timestamp": "2026-07-12T19:59:00.678958+00:00",
     "price": 64198,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 32.92
+  },
+  {
+    "timestamp": "2026-07-25T21:41:44.936170+00:00",
+    "price": 64299,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $61,500, targeting $65,500; set stop-loss at $59,000. Consider scaling in on a breakout above $65,500.",
+    "key_levels": {
+      "support": [
+        "$61,500",
+        "$59,000"
+      ],
+      "resistance": [
+        "$65,500",
+        "$68,000"
+      ]
+    },
+    "rsi": 32.76
   }
 ]

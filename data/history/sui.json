@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T20:43:53.187060+00:00",
-    "price": 0.741707,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a tight stop above $0.76, targeting $0.72 for a potential 4% gain. Alternatively, wait for a clear break below $0.73 to confirm a bearish trend.",
-    "key_levels": {
-      "support": [
-        "$0.73",
-        "$0.72"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.77"
-      ]
-    },
-    "rsi": 53.42
-  },
-  {
     "timestamp": "2026-07-12T21:37:25.034320+00:00",
     "price": 0.738103,
     "trend_bias": "bearish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.73",
+        "$0.75"
+      ]
+    },
+    "rsi": 16.9
+  },
+  {
+    "timestamp": "2026-07-25T23:48:11.276874+00:00",
+    "price": 0.710965,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a break above $0.72 with a target of $0.75, and set a stop-loss at $0.69. Alternatively, consider selling on a break below $0.69 with a target of $0.65. Monitor the RSI for signs of a potential bounce.",
+    "key_levels": {
+      "support": [
+        "$0.69",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.72",
         "$0.75"
       ]
     },

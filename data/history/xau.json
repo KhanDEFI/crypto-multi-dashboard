@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T15:46:02.402373+00:00",
-    "price": 4118.49,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop-loss above $4,388.11, targeting $3,784.63. Alternatively, wait for a clear break below $3,561.83 to consider a more significant short position.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 44.34
-  },
-  {
     "timestamp": "2026-07-12T16:41:58.326801+00:00",
     "price": 4118.49,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4053.6,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63. Alternatively, wait for a breakout above $4,768.79 to consider long positions.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 45.19
+  },
+  {
+    "timestamp": "2026-07-25T17:46:35.309808+00:00",
+    "price": 4053.6,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider selling XAU/USD at current levels, with a target of $4,388.11 resistance, and adjust stop-loss to $3,784.63 support",
     "key_levels": {
       "support": [
         "$3,784.63",

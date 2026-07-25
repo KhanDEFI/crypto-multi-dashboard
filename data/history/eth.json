@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T01:23:58.916705+00:00",
-    "price": 1799.01,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a pullback to the $1,700.00-$1,600.00 range, with a target of $1,900.00. Alternatively, sell on a break above $2,000.00.",
-    "key_levels": {
-      "support": [
-        "$1,700.00",
-        "$1,600.00"
-      ],
-      "resistance": [
-        "$1,900.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 67.76
-  },
-  {
     "timestamp": "2026-07-12T05:13:19.916907+00:00",
     "price": 1803.85,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1,800",
         "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 27.71
+  },
+  {
+    "timestamp": "2026-07-25T07:07:28.447885+00:00",
+    "price": 1857.28,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce above $1,800, targeting $1,900. However, set a stop-loss at $1,750 to limit potential losses. Monitor the market for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,750"
       ],
       "resistance": [
         "$1,900",

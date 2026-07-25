@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T01:23:58.916705+00:00",
-    "price": 4118.49,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop-loss above $4,388.11, targeting $4,388.11 or $4,768.79 as a potential exit.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 44.34
-  },
-  {
     "timestamp": "2026-07-12T05:13:19.916907+00:00",
     "price": 4118.49,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4053.6,
     "trend_bias": "neutral",
     "trade_plan": "Consider a neutral stance and wait for a clear breakout above $4,388.11 or below $3,784.63 to establish a trade plan.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 45.19
+  },
+  {
+    "timestamp": "2026-07-25T07:07:28.447885+00:00",
+    "price": 4053.6,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a sell position if price breaks below $3,784.63 support, targeting $3,561.83. Conversely, a buy signal may be triggered if price holds above $4,388.11 resistance.",
     "key_levels": {
       "support": [
         "$3,784.63",

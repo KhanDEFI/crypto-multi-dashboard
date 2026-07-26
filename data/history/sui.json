@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-13T11:48:03.909392+00:00",
-    "price": 0.731371,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a bounce to $0.78, with a stop-loss at $0.82. Consider shorting with a target of $0.62. Monitor the market for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.68",
-        "$0.62"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 45.24
-  },
-  {
     "timestamp": "2026-07-13T13:57:20.728549+00:00",
     "price": 0.723747,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.75",
         "$0.80"
+      ]
+    },
+    "rsi": 30.11
+  },
+  {
+    "timestamp": "2026-07-26T14:21:37.249054+00:00",
+    "price": 0.716861,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $0.68, targeting $0.78-$0.82 resistance. Consider scaling out of long positions if $0.78 is reached. Monitor for a potential breakout above $0.82.",
+    "key_levels": {
+      "support": [
+        "$0.68",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.78",
+        "$0.82"
       ]
     },
     "rsi": 30.11

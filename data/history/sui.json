@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12T22:35:19.790130+00:00",
-    "price": 0.73462,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting SUI/USD around $0.76 resistance, targeting $0.69 support. Alternatively, wait for a break below $0.69 to initiate a longer-term short position.",
-    "key_levels": {
-      "support": [
-        "$0.69",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.76",
-        "$0.80"
-      ]
-    },
-    "rsi": 53.42
-  },
-  {
     "timestamp": "2026-07-12T23:40:26.870201+00:00",
     "price": 0.735883,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 20.8
+  },
+  {
+    "timestamp": "2026-07-26T05:17:59.121447+00:00",
+    "price": 0.720394,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on a bounce above $0.72, targeting $0.80. Set a stop-loss at $0.65. Consider scaling in positions for a potential long-term trend.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.80",
+        "$0.85"
+      ]
+    },
+    "rsi": 29.26
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-13T22:42:00.194690+00:00",
-    "price": 0.714721,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce from the current levels, targeting $0.75 resistance. Set a stop-loss at $0.67 to limit potential losses. Monitor the price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$0.69",
-        "$0.67"
-      ],
-      "resistance": [
-        "$0.73",
-        "$0.75"
-      ]
-    },
-    "rsi": 34.05
-  },
-  {
     "timestamp": "2026-07-13T23:40:14.566897+00:00",
     "price": 0.718462,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.74",
         "$0.76"
+      ]
+    },
+    "rsi": 31.73
+  },
+  {
+    "timestamp": "2026-07-26T20:02:04.852454+00:00",
+    "price": 0.711544,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $0.69, targeting $0.65. Alternatively, look for a bounce off $0.69 to long, targeting $0.75. However, given the neutral momentum, it's essential to set tight stop-losses.",
+    "key_levels": {
+      "support": [
+        "$0.69",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
       ]
     },
     "rsi": 31.73

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-14T21:44:16.476250+00:00",
-    "price": 4052.64,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting the market if price breaks below $3,784.63 support, targeting $3,561.83. Alternatively, look for long opportunities if price holds above $4,388.11 resistance.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 41.71
-  },
-  {
     "timestamp": "2026-07-14T22:43:30.583397+00:00",
     "price": 4049.5,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.8
+  },
+  {
+    "timestamp": "2026-07-27T17:26:45.108845+00:00",
+    "price": 4074.63,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63. Monitor TradingView Signal and adjust accordingly. Be cautious of potential safe-haven demand.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 46.94
   }
 ]

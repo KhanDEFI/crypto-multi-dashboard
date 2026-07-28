@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T15:15:30.448454+00:00",
-    "price": 65343,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling a portion of long positions at current levels, with a stop-loss at $63,000. Alternatively, wait for a pullback to $62,000 before entering long positions. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$63,000",
-        "$62,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$68,000"
-      ]
-    },
-    "rsi": 71.14
-  },
-  {
     "timestamp": "2026-07-15T17:01:47.662385+00:00",
     "price": 65088,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$62,000",
         "$60,000"
+      ],
+      "resistance": [
+        "$64,000",
+        "$65,500"
+      ]
+    },
+    "rsi": 38.04
+  },
+  {
+    "timestamp": "2026-07-28T15:09:03.336718+00:00",
+    "price": 63278,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting with a stop-loss at $65,500 and a target at $61,000. Alternatively, wait for a clear breakout above $64,000 to go long.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
       ],
       "resistance": [
         "$64,000",

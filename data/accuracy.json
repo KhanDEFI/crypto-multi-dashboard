@@ -2,17 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-07-24T14:41:18.011217+00:00",
-        "price_at_prediction": 63784,
-        "price_now": 64086,
-        "price_change_pct": 0.47,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Short-term, consider buying on dips towards $62,500 or selling on rallies towards $65,000. Long-term, keep an eye on the market cap and adjust positions accordingly.",
-        "levels_hit": []
-      },
-      {
         "prediction_time": "2026-07-24T18:08:43.579543+00:00",
         "price_at_prediction": 64121,
         "price_now": 64237,
@@ -348,6 +337,17 @@
         "verdict": "INCORRECT",
         "trade_plan": "Buy on dips towards $62,000, targeting $66,000 with a stop-loss at $60,000. Adjust position size based on risk tolerance.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-07-27T19:07:30.624538+00:00",
+        "price_at_prediction": 64763,
+        "price_now": 63679,
+        "price_change_pct": -1.67,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider buying on dips towards $62,000 for a potential short-term trade. Set a stop-loss at $60,000 and a take-profit at $67,000. Monitor the market for any significant price movements.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -356,22 +356,11 @@
       "partial": 7,
       "incorrect": 8,
       "accuracy_pct": 50.0,
-      "updated_at": "2026-07-28T17:15:36.247734+00:00"
+      "updated_at": "2026-07-28T19:02:11.469714+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-07-24T14:41:18.011217+00:00",
-        "price_at_prediction": 1853.0,
-        "price_now": 1864.31,
-        "price_change_pct": 0.61,
-        "predicted_bias": "bearish",
-        "actual_direction": "bullish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Short ETH with a target of $1,750.00, with a stop-loss at $1,900.00. Consider adding to the position if the price drops below $1,600.00.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-07-24T18:08:43.579543+00:00",
         "price_at_prediction": 1863.24,
@@ -777,30 +766,30 @@
         "verdict": "INCORRECT",
         "trade_plan": "Consider shorting on a close below $1,800, targeting $1,600. Alternatively, look for a bullish reversal above $2,000, with a target of $2,200.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-07-27T19:07:30.624538+00:00",
+        "price_at_prediction": 1936.76,
+        "price_now": 1909.52,
+        "price_change_pct": -1.41,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider shorting on a break below $1,900, targeting $1,850. Alternatively, consider buying on a pullback to $1,900, targeting $1,950.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 22,
+      "correct": 23,
       "partial": 1,
-      "incorrect": 7,
-      "accuracy_pct": 73.3,
-      "updated_at": "2026-07-28T17:15:36.247734+00:00"
+      "incorrect": 6,
+      "accuracy_pct": 76.7,
+      "updated_at": "2026-07-28T19:02:11.469714+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-07-24T14:41:18.011217+00:00",
-        "price_at_prediction": 0.714906,
-        "price_now": 0.706209,
-        "price_change_pct": -1.22,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting SUI/USD with a target of $0.65, but be cautious of a potential bounce to $0.75.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-07-24T18:08:43.579543+00:00",
         "price_at_prediction": 0.71258,
@@ -1149,6 +1138,17 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-07-27T19:07:30.624538+00:00",
+        "price_at_prediction": 0.700916,
+        "price_now": 0.688203,
+        "price_change_pct": -1.81,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Short-term, we recommend a neutral stance. If the price breaks above $0.72, consider a bullish trade. Conversely, if it breaks below $0.68, consider a bearish trade.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1157,22 +1157,11 @@
       "partial": 7,
       "incorrect": 9,
       "accuracy_pct": 46.7,
-      "updated_at": "2026-07-28T17:15:36.247734+00:00"
+      "updated_at": "2026-07-28T19:02:11.469714+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-07-24T14:41:18.011217+00:00",
-        "price_at_prediction": 4060.79,
-        "price_now": 4053.6,
-        "price_change_pct": -0.18,
-        "predicted_bias": "neutral",
-        "actual_direction": "neutral",
-        "verdict": "CORRECT",
-        "trade_plan": "Monitor TradingView Signal SELL and wait for a potential bounce off support levels. Consider entering a long position if price breaks above $4,388.11. Set stop-loss below $3,784.63.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-07-24T18:08:43.579543+00:00",
         "price_at_prediction": 4063.2,
@@ -1491,6 +1480,17 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63. Monitor TradingView Signal and adjust accordingly. Be cautious of potential safe-haven demand.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-07-27T19:07:30.624538+00:00",
+        "price_at_prediction": 4078.75,
+        "price_now": 4022.7,
+        "price_change_pct": -1.37,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a cautious approach, with a focus on short-term trading opportunities around key levels. A potential short setup could be triggered if price breaks below $3,784.63. Monitor TradingView Signal for confirmation.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1499,7 +1499,7 @@
       "partial": 4,
       "incorrect": 1,
       "accuracy_pct": 83.3,
-      "updated_at": "2026-07-28T17:15:36.247734+00:00"
+      "updated_at": "2026-07-28T19:02:11.469714+00:00"
     }
   }
 }

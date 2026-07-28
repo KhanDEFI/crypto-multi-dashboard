@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T18:51:07.087156+00:00",
-    "price": 4064.1,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting gold with a target price around $4,388.11, given the bearish trend bias and TradingView Signal: SELL. Adjust stop-loss to $4,064.10. Monitor the situation for potential reversal signals.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 42.65
-  },
-  {
     "timestamp": "2026-07-15T19:59:28.592330+00:00",
     "price": 4054.38,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 44.21
+  },
+  {
+    "timestamp": "2026-07-28T19:02:07.617950+00:00",
+    "price": 4022.7,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting the XAU/USD with a stop-loss above $4,022.70. Monitor the price action around the TV Pivot Support levels for potential buying opportunities. A break below $3,784.63 could trigger further selling.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 43.29
   }
 ]

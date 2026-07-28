@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T11:18:39.596717+00:00",
-    "price": 1879.93,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $1,800.00, with a target of $1,950.00. Set a stop-loss at $1,750.00. Monitor market sentiment and adjust the plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$1,800.00",
-        "$1,750.00"
-      ],
-      "resistance": [
-        "$1,900.00",
-        "$1,950.00"
-      ]
-    },
-    "rsi": 67.02
-  },
-  {
     "timestamp": "2026-07-15T13:04:24.012728+00:00",
     "price": 1936.61,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 50.92
+  },
+  {
+    "timestamp": "2026-07-28T10:19:44.084095+00:00",
+    "price": 1876.69,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards $1,800, targeting $2,000 resistance. Alternatively, sell on rallies towards $2,000, targeting $1,800 support. Monitor the price action for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 51.61
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T23:46:50.367300+00:00",
-    "price": 4057.54,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting XAU/USD with a stop-loss above $4,388.11, targeting the support levels for potential profit. Monitor the impact of central bank policy and real yields on gold prices.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 42.17
-  },
-  {
     "timestamp": "2026-07-16T01:20:39.844206+00:00",
     "price": 4040.81,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 42.91
+  },
+  {
+    "timestamp": "2026-07-28T23:47:50.042704+00:00",
+    "price": 4021.35,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target around $3,784.63, but be cautious of a potential bounce off the current price. Monitor the impact of the STRONG_SELL signal from TradingView. A stop-loss above $4,388.11 is recommended.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 43.17
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T13:04:24.012728+00:00",
-    "price": 4068.19,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term sell trade with a target around $4,388.11 resistance, but be cautious of a potential bounce to $4,768.79. Monitor the 24h change and adjust the trade plan accordingly. A stop-loss below $3,784.63 is recommended.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 42.98
-  },
-  {
     "timestamp": "2026-07-15T15:15:30.448454+00:00",
     "price": 4044.24,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.34
+  },
+  {
+    "timestamp": "2026-07-28T12:28:22.192536+00:00",
+    "price": 4033.49,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target below $3,784.63, but be cautious of a potential bounce off the TV Pivot Support. Monitor the TradingView Signal for a potential reversal. Adjust the trade plan based on the TradingView Signal and price action.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 44.0
   }
 ]

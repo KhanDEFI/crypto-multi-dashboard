@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T13:04:24.012728+00:00",
-    "price": 1936.61,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $1,800, targeting $2,000-$2,200 within the next 24-48 hours. Set stop-loss at $1,600. Monitor market sentiment for signs of reversal.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,600"
-      ],
-      "resistance": [
-        "$2,000",
-        "$2,200"
-      ]
-    },
-    "rsi": 79.69
-  },
-  {
     "timestamp": "2026-07-15T15:15:30.448454+00:00",
     "price": 1929.5,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.61
+  },
+  {
+    "timestamp": "2026-07-28T12:28:22.192536+00:00",
+    "price": 1876.58,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $1,900 with a stop-loss at $1,800, targeting $1,700. Alternatively, wait for a bullish reversal signal to enter long positions.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 48.84
   }
 ]

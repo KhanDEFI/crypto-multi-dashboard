@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-15T13:04:24.012728+00:00",
-    "price": 65273,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $67,000 or buying on a close below $62,000 to capitalize on potential trend reversals.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$70,000"
-      ]
-    },
-    "rsi": 71.14
-  },
-  {
     "timestamp": "2026-07-15T15:15:30.448454+00:00",
     "price": 65343,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.38
+  },
+  {
+    "timestamp": "2026-07-28T12:28:22.192536+00:00",
+    "price": 63415,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop-loss at $65,500 and a target at $60,000, but be cautious of a potential bounce.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$64,000",
+        "$65,500"
+      ]
+    },
+    "rsi": 38.04
   }
 ]

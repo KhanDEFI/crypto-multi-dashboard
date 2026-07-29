@@ -1,26 +1,26 @@
 {
   "symbol": "SUI",
   "name": "SUI",
-  "price": 0.693867,
-  "change_24h": 0.8,
-  "market_cap": 2811782216.687857,
-  "rsi": 30.47,
+  "price": 0.678996,
+  "change_24h": -2.15,
+  "market_cap": 2751601189.333562,
+  "rsi": 39.71,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a potential continuation of the uptrend, with wave 3 of a larger impulse wave unfolding. However, a deeper correction cannot be ruled out.",
-    "momentum": "The RSI reading of 30.47 indicates a neutral momentum, with price action suggesting a consolidation phase. A break above $0.72 could signal a resumption of the uptrend.",
+    "elliott_wave": "Currently in a corrective wave 2, with a potential 5-3-5 pattern unfolding. Wave 2 is likely to retest the previous wave 1 high.",
+    "momentum": "The RSI is neutral at 39.71, indicating a lack of clear momentum. However, the 24h price action suggests a bearish trend.",
     "key_levels": {
       "support": [
-        "$0.66",
-        "$0.63"
+        "$0.60",
+        "$0.55"
       ],
       "resistance": [
         "$0.72",
-        "$0.76"
+        "$0.80"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips above $0.66, targeting $0.76. Sell on rallies above $0.72, targeting $0.66. Monitor the 24h chart for a potential breakout.",
-    "risk_note": "A sudden increase in selling pressure could lead to a sharp decline in price, potentially triggering a larger correction."
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI with a target of $0.60, using a stop-loss at $0.75. Monitor the price action for a potential breakout above $0.72. Adjust the trade plan if the RSI breaks above 50.",
+    "risk_note": "A potential reversal above $0.72 could lead to a strong bullish trend, invalidating the current bearish trade plan."
   },
-  "updated_at": "2026-07-29T18:51:00.690027+00:00"
+  "updated_at": "2026-07-29T20:05:46.145543+00:00"
 }

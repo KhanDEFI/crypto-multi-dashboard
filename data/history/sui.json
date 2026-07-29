@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-16T18:07:00.757538+00:00",
-    "price": 0.747171,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a cautious approach, focusing on buying opportunities around the support levels, while keeping a close eye on the price action and RSI for potential signs of a trend reversal.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 60.57
-  },
-  {
     "timestamp": "2026-07-16T19:53:45.476051+00:00",
     "price": 0.747262,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 30.47
+  },
+  {
+    "timestamp": "2026-07-29T20:05:46.145543+00:00",
+    "price": 0.678996,
+    "trend_bias": "bearish",
+    "trade_plan": "Short SUI with a target of $0.60, using a stop-loss at $0.75. Monitor the price action for a potential breakout above $0.72. Adjust the trade plan if the RSI breaks above 50.",
+    "key_levels": {
+      "support": [
+        "$0.60",
+        "$0.55"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.80"
+      ]
+    },
+    "rsi": 39.71
   }
 ]

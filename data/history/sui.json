@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-16T21:53:06.209543+00:00",
-    "price": 0.75001,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.72 or selling on rallies towards $0.78, with a stop-loss at $0.68 to limit potential losses.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 57.21
-  },
-  {
     "timestamp": "2026-07-16T22:44:56.079529+00:00",
     "price": 0.744816,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 30.66
+  },
+  {
+    "timestamp": "2026-07-30T01:14:25.419327+00:00",
+    "price": 0.684868,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider going long around $0.65 if the price holds above this level, or short around $0.70 if it breaks above resistance. Monitor the price action closely for a potential trend reversal. A stop-loss order can be placed at $0.60 to limit potential losses.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
+        "$0.75"
+      ]
+    },
+    "rsi": 40.33
   }
 ]

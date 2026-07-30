@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17T17:54:57.218425+00:00",
-    "price": 1842.73,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $1,800 for a potential bounce, or sell on rallies to $1,900 for a short-term profit. Monitor the price action for a clear breakout. Be cautious of a potential bearish reversal.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 38.2
-  },
-  {
     "timestamp": "2026-07-17T18:49:21.764143+00:00",
     "price": 1844.94,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000",
         "$2,100"
+      ]
+    },
+    "rsi": 61.7
+  },
+  {
+    "timestamp": "2026-07-30T23:51:52.938538+00:00",
+    "price": 1924.05,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,900, targeting $2,000. Set stop-loss at $1,850. Consider scaling out of positions on a close above $2,000.",
+    "key_levels": {
+      "support": [
+        "$1,900",
+        "$1,850"
+      ],
+      "resistance": [
+        "$1,950",
+        "$2,000"
       ]
     },
     "rsi": 61.7

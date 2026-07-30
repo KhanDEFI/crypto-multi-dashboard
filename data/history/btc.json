@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17T07:07:42.543128+00:00",
-    "price": 62837,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider going long with a tight stop-loss at $61,000, targeting $63,500 for a potential 2-3% gain, but be cautious of a potential bearish breakout.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$61,000"
-      ],
-      "resistance": [
-        "$63,500",
-        "$65,000"
-      ]
-    },
-    "rsi": 38.85
-  },
-  {
     "timestamp": "2026-07-17T09:43:27.915498+00:00",
     "price": 62964,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,500",
         "$66,000"
+      ]
+    },
+    "rsi": 67.36
+  },
+  {
+    "timestamp": "2026-07-30T14:59:06.588223+00:00",
+    "price": 64625,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,000, targeting $65,000 with a stop-loss at $60,000. Consider scaling in positions as the price approaches $65,000.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
       ]
     },
     "rsi": 67.36

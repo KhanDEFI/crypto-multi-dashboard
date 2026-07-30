@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17T14:38:37.416524+00:00",
-    "price": 0.731729,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting the asset if it breaks below $0.69, targeting $0.65. Alternatively, consider buying if it bounces off $0.69, targeting $0.78.",
-    "key_levels": {
-      "support": [
-        "$0.69",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 40.36
-  },
-  {
     "timestamp": "2026-07-17T16:06:11.208207+00:00",
     "price": 0.734199,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.68",
         "$0.65"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 64.27
+  },
+  {
+    "timestamp": "2026-07-30T21:55:56.724456+00:00",
+    "price": 0.694965,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $0.65, targeting $0.72-$0.75 resistance levels. Set stop-loss at $0.60 to limit potential losses. Monitor for a potential breakout above $0.75.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
       ],
       "resistance": [
         "$0.72",

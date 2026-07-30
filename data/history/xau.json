@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17T14:38:37.416524+00:00",
-    "price": 3997.15,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a sell strategy if price breaks below $3,784.63 support, while a buy signal may emerge if price holds above $4,388.11 resistance.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 39.35
-  },
-  {
     "timestamp": "2026-07-17T16:06:11.208207+00:00",
     "price": 4016.52,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 50.87
+  },
+  {
+    "timestamp": "2026-07-30T21:55:56.724456+00:00",
+    "price": 4103.61,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards the support levels, especially if the DXY weakens or real yields decline. Conversely, sell on rallies towards the resistance levels if the DXY strengthens or real yields rise. Monitor safe-haven demand for gold.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 50.02
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-17T11:12:13.881659+00:00",
-    "price": 3991.24,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a sell strategy based on the TradingView Signal, targeting the support levels for potential entry points. Monitor price action around the TV Pivot Support and Resistance levels. Adjust the plan according to market developments.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 38.84
-  },
-  {
     "timestamp": "2026-07-17T12:57:51.443647+00:00",
     "price": 3970.43,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.17
+  },
+  {
+    "timestamp": "2026-07-30T18:07:27.011227+00:00",
+    "price": 4106.03,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards TV Pivot Support levels, targeting $4,388.11 resistance. Alternatively, sell rallies towards TV Pivot Resistance levels, targeting $3,561.83 support.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 50.2
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T06:51:17.358360+00:00",
-    "price": 1843.65,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips with a target of $2,000, stop-loss at $1,600. Monitor the 24h change and adjust the trade plan accordingly. Consider scaling in positions to manage risk.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 22.63
-  },
-  {
     "timestamp": "2026-07-18T08:29:26.887066+00:00",
     "price": 1845.39,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900.00",
         "$2,000.00"
+      ]
+    },
+    "rsi": 30.57
+  },
+  {
+    "timestamp": "2026-07-31T19:03:19.146875+00:00",
+    "price": 1871.11,
+    "trend_bias": "neutral",
+    "trade_plan": "Wait for a clear breakout above $1,900 to consider long positions, with a stop-loss at $1,800. Alternatively, short positions can be considered if ETH breaks below $1,800.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
       ]
     },
     "rsi": 30.57

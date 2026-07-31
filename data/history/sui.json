@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T11:42:00.864803+00:00",
-    "price": 0.734929,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy strategy if the price breaks above $0.75, targeting $0.80. Alternatively, consider a sell strategy if the price breaks below $0.70, targeting $0.65. Monitor the price action closely for further confirmation.",
-    "key_levels": {
-      "support": [
-        "$0.70",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 38.57
-  },
-  {
     "timestamp": "2026-07-18T12:44:07.850081+00:00",
     "price": 0.734745,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 40.16
+  },
+  {
+    "timestamp": "2026-07-31T22:47:50.721986+00:00",
+    "price": 0.681519,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term traders may consider selling on a bounce to $0.70, while long-term investors may look to accumulate on a dip to $0.60.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
         "$0.75"
       ]
     },

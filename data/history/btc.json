@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T01:16:10.088406+00:00",
-    "price": 63881,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $62,500, targeting $65,000. Set stop-loss at $60,000. Consider scaling in positions over the next 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 36.5
-  },
-  {
     "timestamp": "2026-07-18T04:35:52.348169+00:00",
     "price": 63920,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,000",
         "$67,000"
+      ]
+    },
+    "rsi": 50.87
+  },
+  {
+    "timestamp": "2026-07-31T15:51:45.787724+00:00",
+    "price": 62602,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC/USD with a target of $60,000 and a stop-loss at $64,500. Monitor the price action for a potential reversal. A break above $63,000 could invalidate the bearish trade plan.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$63,000",
+        "$64,500"
       ]
     },
     "rsi": 50.87

@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 63756,
-  "change_24h": -1.6,
-  "market_cap": 1279193724600.8796,
+  "price": 62602,
+  "change_24h": -3.2,
+  "market_cap": 1255795564395.3037,
   "rsi": 50.87,
   "analysis": {
-    "elliott_wave": "Currently in a corrective wave, potentially forming a double bottom pattern.",
-    "momentum": "Neutral momentum, with RSI at 50.87, indicating a balanced market. However, the recent 1.60% price drop suggests a minor bearish trend.",
+    "elliott_wave": "We are currently in a corrective wave, potentially a bearish impulse wave (A) within a larger bull trend. The wave count suggests a potential reversal is underway.",
+    "momentum": "The RSI is neutral at 50.87, indicating a lack of momentum in either direction. However, the recent 3.20% price drop suggests bearish momentum.",
     "key_levels": {
       "support": [
-        "$62,500",
+        "$62,000",
         "$60,000"
       ],
       "resistance": [
-        "$65,000",
-        "$67,000"
+        "$63,000",
+        "$64,500"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips, targeting $65,000 resistance. Set stop-loss at $62,500. Consider scaling in with a 50% position size.",
-    "risk_note": "A break below $62,000 could trigger a more significant bearish trend."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC/USD with a target of $60,000 and a stop-loss at $64,500. Monitor the price action for a potential reversal. A break above $63,000 could invalidate the bearish trade plan.",
+    "risk_note": "A sudden spike in market sentiment or a major news event could quickly shift the trend bias, making it essential to stay vigilant."
   },
-  "updated_at": "2026-07-31T13:25:54.830783+00:00"
+  "updated_at": "2026-07-31T15:51:45.787724+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1906.54,
-  "change_24h": 0.36,
-  "market_cap": 230105397929.55603,
-  "rsi": 46.48,
+  "price": 1890.01,
+  "change_24h": -1.14,
+  "market_cap": 228050270780.7328,
+  "rsi": 41.62,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, likely wave 4 of a larger bullish impulse. The wave pattern suggests a potential bounce in the near term.",
-    "momentum": "The RSI reading of 46.48 indicates a neutral momentum, with neither strong buying nor selling pressure. However, the 0.36% 24h change suggests a slight bullish bias.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle pattern. The wave count suggests a possible continuation of the downtrend.",
+    "momentum": "The RSI reading of 41.62 indicates a neutral momentum, but the recent 1.14% price drop suggests a bearish trend. A break below $1,880 could accelerate the downtrend.",
     "key_levels": {
       "support": [
-        "$1,800",
-        "$1,700"
+        "$1,880",
+        "$1,860"
       ],
       "resistance": [
-        "$2,000",
-        "$2,100"
+        "$1,900",
+        "$1,920"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips to $1,800 or selling on rallies to $2,000. Monitor the market for a potential breakout above $2,000 or a breakdown below $1,700. Adjust the trade plan accordingly.",
-    "risk_note": "A potential risk is a sudden shift in market sentiment, leading to a sharp price move in either direction."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $1,880 with a stop-loss at $1,900. Consider taking profits around $1,860. A bullish reversal would require a close above $1,920.",
+    "risk_note": "A sudden shift in market sentiment could lead to a sharp price reversal, potentially catching traders off guard."
   },
-  "updated_at": "2026-07-31T05:21:47.866509+00:00"
+  "updated_at": "2026-07-31T08:28:35.761688+00:00"
 }

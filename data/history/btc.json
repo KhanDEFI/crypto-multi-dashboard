@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T18:42:45.838567+00:00",
-    "price": 64440,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a neutral strategy, focusing on range trading between $62,000 and $66,000. Monitor the market for potential breakouts or reversals. Adjust the strategy based on market conditions.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$66,000",
-        "$68,000"
-      ]
-    },
-    "rsi": 50.1
-  },
-  {
     "timestamp": "2026-07-18T19:56:49.271739+00:00",
     "price": 64513,
     "trend_bias": "neutral",
@@ -2846,6 +2829,23 @@
     "key_levels": {
       "support": [
         "$61,500",
+        "$60,000"
+      ],
+      "resistance": [
+        "$63,500",
+        "$65,000"
+      ]
+    },
+    "rsi": 38.24
+  },
+  {
+    "timestamp": "2026-08-01T11:08:57.122790+00:00",
+    "price": 62984,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC with a stop loss above $63,500, targeting $60,000. Monitor the market for a potential bounce to $63,500 before shorting. Adjust stop loss and target accordingly.",
+    "key_levels": {
+      "support": [
+        "$62,000",
         "$60,000"
       ],
       "resistance": [

@@ -1,17 +1,17 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1827.27,
-  "change_24h": -2.21,
-  "market_cap": 220238090617.95682,
+  "price": 1834.97,
+  "change_24h": -1.69,
+  "market_cap": 221448360613.0936,
   "rsi": 35.86,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave 2, potentially forming a zigzag pattern within a larger downtrend.",
-    "momentum": "The RSI reading of 35.86 suggests a neutral momentum, but the recent price action indicates a slight bearish bias.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a bearish impulse wave (3-4) within a larger downtrend.",
+    "momentum": "The RSI reading of 35.86 indicates a neutral momentum, but the 24h price change of -1.69% suggests a slight bearish bias.",
     "key_levels": {
       "support": [
-        "$1,750",
-        "$1,600"
+        "$1,800",
+        "$1,700"
       ],
       "resistance": [
         "$1,900",
@@ -19,8 +19,8 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Sell ETH at current levels with a stop-loss at $1,900, targeting $1,600. Consider scaling in on dips to $1,750. Monitor the market for potential bullish divergences.",
-    "risk_note": "A strong bounce above $1,900 could invalidate the bearish trend bias and trigger a short-covering rally."
+    "trade_plan": "Short ETH with a stop-loss above $1,900, targeting $1,700-$1,800. Monitor the 24h price action for a potential reversal. Adjust the trade plan if the RSI reading exceeds 50.",
+    "risk_note": "A sudden spike in market capitalization could lead to a short squeeze, potentially invalidating the bearish trade plan."
   },
-  "updated_at": "2026-08-01T18:49:19.218899+00:00"
+  "updated_at": "2026-08-01T20:03:02.501831+00:00"
 }

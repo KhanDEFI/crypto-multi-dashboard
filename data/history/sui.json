@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T22:35:47.639363+00:00",
-    "price": 0.742089,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.72 or $0.68, with a target of $0.80. However, be cautious of a potential bearish reversal if the price breaks below $0.72.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.76",
-        "$0.80"
-      ]
-    },
-    "rsi": 49.91
-  },
-  {
     "timestamp": "2026-07-18T23:39:55.130375+00:00",
     "price": 0.742301,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.02
+  },
+  {
+    "timestamp": "2026-08-01T16:44:11.640694+00:00",
+    "price": 0.683503,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a bounce from the current price, targeting $0.72. Set a stop-loss at $0.64. Monitor the price action for signs of a potential bullish reversal.",
+    "key_levels": {
+      "support": [
+        "$0.66",
+        "$0.64"
+      ],
+      "resistance": [
+        "$0.70",
+        "$0.72"
+      ]
+    },
+    "rsi": 45.85
   }
 ]

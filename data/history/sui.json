@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-19T11:01:43.840232+00:00",
-    "price": 0.754001,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy order above $0.78 with a target of $0.82, while setting a stop-loss at $0.72. Monitor the price action closely for any signs of a breakout or reversal.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 56.3
-  },
-  {
     "timestamp": "2026-07-19T12:46:07.162851+00:00",
     "price": 0.750886,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 26.98
+  },
+  {
+    "timestamp": "2026-08-01T22:41:58.512909+00:00",
+    "price": 0.676783,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on rallies towards $0.70-$0.75. Medium-term, focus on the $0.60 support level. Long-term, maintain a bearish bias.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
         "$0.75"
       ]
     },

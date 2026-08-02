@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-19T20:00:11.893887+00:00",
-    "price": 0.747671,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a neutral stance, with a potential short entry at $0.73 and a stop-loss at $0.78, or a long entry at $0.70 with a stop-loss at $0.68.",
-    "key_levels": {
-      "support": [
-        "$0.73",
-        "$0.70"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.82"
-      ]
-    },
-    "rsi": 62.88
-  },
-  {
     "timestamp": "2026-07-19T21:39:18.978205+00:00",
     "price": 0.74805,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 48.73
+  },
+  {
+    "timestamp": "2026-08-02T12:52:23.879535+00:00",
+    "price": 0.687238,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a long position if price breaks above $0.70, targeting $0.72. Alternatively, consider a short position if price breaks below $0.68, targeting $0.65. Monitor market conditions for a potential trend reversal.",
+    "key_levels": {
+      "support": [
+        "$0.68",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.70",
+        "$0.72"
+      ]
+    },
+    "rsi": 45.39
   }
 ]

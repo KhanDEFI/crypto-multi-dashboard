@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-20T08:33:56.911295+00:00",
-    "price": 4020.99,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,388.11, targeting $3,784.63. Alternatively, wait for a strong break above $4,768.79 to consider long positions.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 41.37
-  },
-  {
     "timestamp": "2026-07-20T11:32:56.854330+00:00",
     "price": 4034.34,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4046.37,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions with a target around $3,784.63, as the STRONG_SELL signal from TradingView suggests a bearish trend. Monitor the price action around the support levels for potential entry points. Adjust the target based on the price action and pivot levels.",
+    "key_levels": {
+      "support": [
+        "$3,784.63",
+        "$3,561.83"
+      ],
+      "resistance": [
+        "$4,388.11",
+        "$4,768.79"
+      ]
+    },
+    "rsi": 45.64
+  },
+  {
+    "timestamp": "2026-08-02T20:03:29.477949+00:00",
+    "price": 4046.37,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a target at TV Pivot Support levels, but be cautious of potential safe-haven demand spikes.",
     "key_levels": {
       "support": [
         "$3,784.63",

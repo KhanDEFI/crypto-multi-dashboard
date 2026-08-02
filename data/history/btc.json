@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-20T08:33:56.911295+00:00",
-    "price": 64176,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a neutral stance, focusing on accumulation around key support levels. A break above $66,000 could trigger a short-term bullish bias, while a drop below $62,000 may indicate a bearish reversal.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$66,000",
-        "$68,000"
-      ]
-    },
-    "rsi": 55.25
-  },
-  {
     "timestamp": "2026-07-20T11:32:56.854330+00:00",
     "price": 64439,
     "trend_bias": "neutral",
@@ -2847,6 +2830,23 @@
       "support": [
         "$62,000",
         "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
+      ]
+    },
+    "rsi": 39.1
+  },
+  {
+    "timestamp": "2026-08-02T20:03:29.477949+00:00",
+    "price": 63405,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,500, aiming for a target of $65,000. Set a stop-loss at $61,000. Monitor the price action for signs of exhaustion.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
       ],
       "resistance": [
         "$65,000",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-20T01:27:16.988701+00:00",
-    "price": 64847,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a close above $66,000 or buying on a close below $62,000. A stop-loss at $60,000 is recommended. Monitor market sentiment for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$66,000",
-        "$68,000"
-      ]
-    },
-    "rsi": 74.57
-  },
-  {
     "timestamp": "2026-07-20T05:26:43.754870+00:00",
     "price": 64138,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$64,000",
         "$65,500"
+      ]
+    },
+    "rsi": 39.1
+  },
+  {
+    "timestamp": "2026-08-02T17:50:03.009832+00:00",
+    "price": 63272,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,000, targeting $65,000 with a stop-loss at $60,000. Consider scaling out of long positions if $65,000 is reached.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
       ]
     },
     "rsi": 39.1

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-21T01:21:41.381924+00:00",
-    "price": 1910.0,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider scaling into long positions on dips to $1,850.00 or $1,800.00, with a target of $2,000.00. Monitor the price action and adjust the plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$1,850.00",
-        "$1,800.00"
-      ],
-      "resistance": [
-        "$1,950.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 76.35
-  },
-  {
     "timestamp": "2026-07-21T04:55:44.807113+00:00",
     "price": 1923.13,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 1867.86,
     "trend_bias": "neutral",
     "trade_plan": "Buy on dips towards $1,800, targeting $1,900. Set stop-loss at $1,700. Monitor market cap and RSI for signs of a strong trend.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
+      ]
+    },
+    "rsi": 48.24
+  },
+  {
+    "timestamp": "2026-08-03T19:14:31.708485+00:00",
+    "price": 1869.2,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips below $1,800 for a potential breakout, with a target of $2,000. Alternatively, sell on rallies above $1,900 for a potential correction. Monitor key levels for confirmation.",
     "key_levels": {
       "support": [
         "$1,800",

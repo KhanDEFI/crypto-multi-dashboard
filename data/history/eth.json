@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-20T19:20:52.452096+00:00",
-    "price": 1892.97,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting ETH on a break below $1,800, targeting $1,700. Alternatively, look to buy the dip around $1,700. A stop-loss at $1,600 is recommended.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$1,950"
-      ]
-    },
-    "rsi": 75.97
-  },
-  {
     "timestamp": "2026-07-20T20:57:41.324605+00:00",
     "price": 1902.87,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 57.07
+  },
+  {
+    "timestamp": "2026-08-03T05:27:11.583641+00:00",
+    "price": 1855.64,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH if it breaks below $1,800, targeting $1,700. Alternatively, look for a bounce off current levels and aim for $2,000. A stop-loss at $1,900 would be prudent.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 47.26
   }
 ]

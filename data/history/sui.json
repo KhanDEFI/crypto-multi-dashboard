@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-21T04:55:44.807113+00:00",
-    "price": 0.769055,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling a portion of long positions to lock in profits, and look to re-enter on a pullback to the $0.72-$0.68 support zone.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.68"
-      ],
-      "resistance": [
-        "$0.82",
-        "$0.88"
-      ]
-    },
-    "rsi": 76.41
-  },
-  {
     "timestamp": "2026-07-21T07:26:56.065625+00:00",
     "price": 0.773294,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 57.12
+  },
+  {
+    "timestamp": "2026-08-03T20:51:48.724348+00:00",
+    "price": 0.692989,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying SUI/USD on a break above $0.72, targeting $0.75. However, if the price fails to hold above $0.66, consider selling or hedging positions. A stop-loss below $0.63 is recommended.",
+    "key_levels": {
+      "support": [
+        "$0.66",
+        "$0.63"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 56.91
   }
 ]

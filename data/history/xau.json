@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-22T20:52:38.889831+00:00",
-    "price": 4129.2,
-    "trend_bias": "neutral",
-    "trade_plan": "Monitor price action around key levels, with a focus on potential breakouts above $4,388.11 or below $3,784.63.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 50.31
-  },
-  {
     "timestamp": "2026-07-22T21:53:32.275595+00:00",
     "price": 4130.02,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 60.16
+  },
+  {
+    "timestamp": "2026-08-05T19:09:22.987142+00:00",
+    "price": 4259.13,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,313.41. However, be cautious of potential sell-offs if the RSI crosses below 50. A stop-loss below $4,100 would be advisable.",
+    "key_levels": {
+      "support": [
+        "$3,936.03",
+        "$3,825.71"
+      ],
+      "resistance": [
+        "$4,179.88",
+        "$4,313.41"
+      ]
+    },
+    "rsi": 61.2
   }
 ]

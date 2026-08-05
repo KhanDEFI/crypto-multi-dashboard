@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-22T21:53:32.275595+00:00",
-    "price": 66071,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips above $65,000, targeting $67,500. Consider scaling out of long positions if price reaches $69,000. Monitor the 24h RSI for signs of overbought conditions.",
-    "key_levels": {
-      "support": [
-        "$65,000",
-        "$63,500"
-      ],
-      "resistance": [
-        "$67,500",
-        "$69,000"
-      ]
-    },
-    "rsi": 62.13
-  },
-  {
     "timestamp": "2026-07-22T22:50:34.742759+00:00",
     "price": 65969,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 76.2
+  },
+  {
+    "timestamp": "2026-08-05T20:53:53.095426+00:00",
+    "price": 64843,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,000-$60,000, aiming for a potential breakout above $68,000. Set a stop-loss at $60,000. Consider scaling into positions to manage risk.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$66,000",
+        "$68,000"
+      ]
+    },
+    "rsi": 79.97
   }
 ]

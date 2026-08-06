@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T10:56:30.145687+00:00",
-    "price": 1927.33,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $1,800, targeting $1,600. Alternatively, look for a bounce above $2,000, aiming for $2,200. Monitor the 24h price action for signs of a larger trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,600"
-      ],
-      "resistance": [
-        "$2,000",
-        "$2,200"
-      ]
-    },
-    "rsi": 54.52
-  },
-  {
     "timestamp": "2026-07-23T12:18:54.028488+00:00",
     "price": 1921.25,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 63.08
+  },
+  {
+    "timestamp": "2026-08-06T10:23:12.351886+00:00",
+    "price": 1903.65,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $2,000 or buying on a bounce to $1,900; however, be cautious of a potential reversal if the price fails to hold above $1,900.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
+      ]
+    },
+    "rsi": 72.96
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T14:58:33.072841+00:00",
-    "price": 1894.05,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling on a break below $1,850.00 for a potential short-term trade, with a target of $1,800.00. Alternatively, wait for a strong bounce from current levels to consider buying.",
-    "key_levels": {
-      "support": [
-        "$1,850.00",
-        "$1,800.00"
-      ],
-      "resistance": [
-        "$1,950.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 50.04
-  },
-  {
     "timestamp": "2026-07-23T16:24:01.597543+00:00",
     "price": 1884.97,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000",
         "$2,200"
+      ]
+    },
+    "rsi": 70.12
+  },
+  {
+    "timestamp": "2026-08-06T15:03:56.949520+00:00",
+    "price": 1913.64,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider selling on a close above $2,000 to target $2,100, with a stop-loss at $1,900. Alternatively, consider buying on a close below $1,800 to target $1,700.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
       ]
     },
     "rsi": 70.12

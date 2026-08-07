@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T21:53:51.132212+00:00",
-    "price": 0.746823,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy on dips strategy, targeting $0.80 with a stop-loss at $0.72. Monitor the price action and adjust the plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$0.72",
-        "$0.70"
-      ],
-      "resistance": [
-        "$0.78",
-        "$0.80"
-      ]
-    },
-    "rsi": 34.65
-  },
-  {
     "timestamp": "2026-07-23T22:44:14.944865+00:00",
     "price": 0.748119,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$0.72",
         "$0.75"
+      ]
+    },
+    "rsi": 23.29
+  },
+  {
+    "timestamp": "2026-08-07T06:02:39.847132+00:00",
+    "price": 0.672887,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term: Consider buying on a bounce to $0.72, with a stop-loss at $0.59. Medium-term: Focus on shorting the asset, targeting $0.50.",
+    "key_levels": {
+      "support": [
+        "$0.63",
+        "$0.59"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.78"
       ]
     },
     "rsi": 23.29

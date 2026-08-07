@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-24T18:08:43.579543+00:00",
-    "price": 1863.24,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider selling ETH around current levels, targeting $1,700.00 as a key support level. Set a stop-loss at $1,900.00 to limit potential losses. Monitor for a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$1,800.00",
-        "$1,700.00"
-      ],
-      "resistance": [
-        "$1,900.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 36.05
-  },
-  {
     "timestamp": "2026-07-24T20:08:11.280616+00:00",
     "price": 1861.62,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 1913.83,
     "trend_bias": "neutral",
     "trade_plan": "Buy on dips towards $1,800, targeting $2,000. Sell on rallies above $2,000, aiming for $1,900. Monitor the 24h change for signs of acceleration.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
+      ]
+    },
+    "rsi": 69.86
+  },
+  {
+    "timestamp": "2026-08-07T17:38:05.489516+00:00",
+    "price": 1905.32,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards $1,800, with a target at $2,000. Monitor the $2,100 resistance level for a potential reversal. Adjust the trade plan if the RSI turns bearish.",
     "key_levels": {
       "support": [
         "$1,800",

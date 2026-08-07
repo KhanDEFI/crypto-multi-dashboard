@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-24T10:04:21.457819+00:00",
-    "price": 1886.6,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH around $1,900 with a stop-loss at $1,800 and a target at $1,700. Monitor the price action closely for a potential breakout. Adjust the trade plan based on the next 24 hours of price movement.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$1,950"
-      ]
-    },
-    "rsi": 40.25
-  },
-  {
     "timestamp": "2026-07-24T12:10:12.108186+00:00",
     "price": 1880.93,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000",
         "$2,200"
+      ]
+    },
+    "rsi": 69.74
+  },
+  {
+    "timestamp": "2026-08-07T14:02:56.658162+00:00",
+    "price": 1921.47,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips to $1,850, targeting $1,950. Sell on rallies to $2,000, targeting $1,950.",
+    "key_levels": {
+      "support": [
+        "$1,850",
+        "$1,800"
+      ],
+      "resistance": [
+        "$1,950",
+        "$2,000"
       ]
     },
     "rsi": 69.74

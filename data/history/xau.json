@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-23T22:44:14.944865+00:00",
-    "price": 4049.06,
-    "trend_bias": "neutral",
-    "trade_plan": "Monitor the market for a potential breakout above $4,388.11 or a breakdown below $3,784.63. A sell signal from TradingView suggests caution on long positions. Consider shorting on a close below the TV Pivot Support.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 44.82
-  },
-  {
     "timestamp": "2026-07-23T23:46:20.489612+00:00",
     "price": 4047.64,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 62.29
+  },
+  {
+    "timestamp": "2026-08-07T08:03:55.410635+00:00",
+    "price": 4293.08,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,313.41. Stop-loss at $4,179.88. Monitor the 24-hour change for further confirmation.",
+    "key_levels": {
+      "support": [
+        "$3,936.03",
+        "$3,825.71"
+      ],
+      "resistance": [
+        "$4,179.88",
+        "$4,313.41"
+      ]
+    },
+    "rsi": 63.06
   }
 ]

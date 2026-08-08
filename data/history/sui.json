@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-26T05:17:59.121447+00:00",
-    "price": 0.720394,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a bounce above $0.72, targeting $0.80. Set a stop-loss at $0.65. Consider scaling in positions for a potential long-term trend.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.80",
-        "$0.85"
-      ]
-    },
-    "rsi": 29.26
-  },
-  {
     "timestamp": "2026-07-26T08:03:07.243805+00:00",
     "price": 0.719535,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 0.698944,
     "trend_bias": "bullish",
     "trade_plan": "Buy on dips to $0.65, targeting $0.75-$0.80 resistance levels. Consider scaling out of positions as the price reaches the resistance zone. Monitor for potential pullbacks to $0.60.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
+      ]
+    },
+    "rsi": 65.34
+  },
+  {
+    "timestamp": "2026-08-08T17:18:34.888823+00:00",
+    "price": 0.697243,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $0.65, targeting $0.75-$0.80 resistance. Set stop-loss at $0.60. Consider scaling out of positions if price reaches $0.80.",
     "key_levels": {
       "support": [
         "$0.65",

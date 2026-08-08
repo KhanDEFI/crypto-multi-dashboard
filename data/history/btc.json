@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-25T09:24:26.509875+00:00",
-    "price": 63831,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a stop-loss above $65,000, targeting a profit at $62,500. Alternatively, wait for a confirmed bounce above $65,000 to re-enter long positions.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 22.9
-  },
-  {
     "timestamp": "2026-07-25T10:59:18.710853+00:00",
     "price": 63990,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$66,000",
         "$67,500"
+      ]
+    },
+    "rsi": 60.15
+  },
+  {
+    "timestamp": "2026-08-08T02:47:26.371550+00:00",
+    "price": 64884,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy position around $62,000 for a potential breakout, but set a stop-loss at $60,000. Alternatively, a sell position around $67,000 could be considered for a correction. Monitor the market closely for any significant price movements.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$67,000",
+        "$70,000"
       ]
     },
     "rsi": 60.15

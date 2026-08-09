@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-26T17:51:41.673197+00:00",
-    "price": 0.714818,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $0.75 or selling on a break below $0.69. Monitor the price action closely for any signs of increasing momentum. A stop-loss should be set at $0.65 to limit potential losses.",
-    "key_levels": {
-      "support": [
-        "$0.69",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 31.73
-  },
-  {
     "timestamp": "2026-07-26T18:51:59.792955+00:00",
     "price": 0.711313,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 0.689362,
     "trend_bias": "bullish",
     "trade_plan": "Buy on dips to $0.65, targeting $0.72-$0.75 resistance. Set a stop-loss at $0.60. Monitor the price action for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 65.79
+  },
+  {
+    "timestamp": "2026-08-09T05:38:38.898455+00:00",
+    "price": 0.690234,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the asset on a close below $0.65, targeting $0.60. Alternatively, look to long the asset on a close above $0.72, aiming for $0.75. A break of either level will provide a clear direction.",
     "key_levels": {
       "support": [
         "$0.65",

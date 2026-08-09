@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1920.58,
-  "change_24h": 0.05,
-  "market_cap": 231773923944.75894,
-  "rsi": 71.13,
+  "price": 1917.76,
+  "change_24h": -0.06,
+  "market_cap": 231439528820.61636,
+  "rsi": 56.38,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a bearish impulse wave within a larger bull trend.",
-    "momentum": "The RSI is overbought, indicating a potential reversal, but the 0.05% 24h change suggests a lack of momentum.",
+    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bull trend, with a potential wave 4 low forming.",
+    "momentum": "Momentum is neutral, with a slight bearish bias due to the recent price drop, but RSI remains above 50.",
     "key_levels": {
       "support": [
-        "$1,800.00",
-        "$1,700.00"
+        "$1,800",
+        "$1,700"
       ],
       "resistance": [
-        "$2,000.00",
-        "$2,100.00"
+        "$1,950",
+        "$2,000"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider shorting ETH with a stop-loss above $2,000.00, targeting $1,800.00. Monitor the market for signs of a reversal. Adjust the trade plan based on market conditions.",
-    "risk_note": "A sudden increase in buying pressure could lead to a sharp price reversal."
+    "trade_plan": "Buy on dips towards $1,800, targeting $1,950. Sell on rallies above $2,000. Monitor market sentiment and adjust accordingly.",
+    "risk_note": "A break below $1,700 could signal a larger bear trend"
   },
-  "updated_at": "2026-08-09T19:23:13.298318+00:00"
+  "updated_at": "2026-08-09T20:17:17.475105+00:00"
 }

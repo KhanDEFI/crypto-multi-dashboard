@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-26T22:46:40.076296+00:00",
-    "price": 1945.15,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying ETH on a pullback to $1,800.00 or $1,700.00, with a target of $2,100.00. However, be cautious of a potential reversal if the price falls below $1,800.00.",
-    "key_levels": {
-      "support": [
-        "$1,800.00",
-        "$1,700.00"
-      ],
-      "resistance": [
-        "$2,000.00",
-        "$2,100.00"
-      ]
-    },
-    "rsi": 68.62
-  },
-  {
     "timestamp": "2026-07-26T23:49:33.928816+00:00",
     "price": 1952.83,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1,850",
         "$1,800"
+      ],
+      "resistance": [
+        "$1,950",
+        "$2,000"
+      ]
+    },
+    "rsi": 62.25
+  },
+  {
+    "timestamp": "2026-08-09T09:26:26.885319+00:00",
+    "price": 1913.04,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips to $1,800, targeting $1,950. Sell on rallies to $2,000, targeting $1,800. Monitor the 24h chart for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
       ],
       "resistance": [
         "$1,950",

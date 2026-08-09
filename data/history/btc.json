@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-27T22:04:45.490426+00:00",
-    "price": 64629,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a bounce above $64,000, targeting $65,500. Set a stop-loss at $62,000. Monitor for a potential breakout above $67,000.",
-    "key_levels": {
-      "support": [
-        "$63,500",
-        "$62,000"
-      ],
-      "resistance": [
-        "$65,500",
-        "$67,000"
-      ]
-    },
-    "rsi": 64.54
-  },
-  {
     "timestamp": "2026-07-27T23:52:07.862759+00:00",
     "price": 63665,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$67,000",
         "$70,000"
+      ]
+    },
+    "rsi": 74.11
+  },
+  {
+    "timestamp": "2026-08-09T19:23:13.298318+00:00",
+    "price": 65165,
+    "trend_bias": "neutral",
+    "trade_plan": "Sell on a close below $63,000.00, targeting $60,000.00. Alternatively, buy on a close above $67,000.00, targeting $70,000.00. Monitor market conditions for a potential reversal.",
+    "key_levels": {
+      "support": [
+        "$63,000.00",
+        "$60,000.00"
+      ],
+      "resistance": [
+        "$67,000.00",
+        "$70,000.00"
       ]
     },
     "rsi": 74.11

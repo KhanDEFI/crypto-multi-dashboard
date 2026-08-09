@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-27T20:58:59.812303+00:00",
-    "price": 0.700844,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting the asset if it breaks below $0.69, targeting $0.67. Alternatively, look for a bounce off $0.69 to initiate a long position.",
-    "key_levels": {
-      "support": [
-        "$0.69",
-        "$0.67"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.74"
-      ]
-    },
-    "rsi": 49.84
-  },
-  {
     "timestamp": "2026-07-27T22:04:45.490426+00:00",
     "price": 0.698244,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 0.702515,
     "trend_bias": "neutral",
     "trade_plan": "Consider shorting SUI/USD around $0.75 with a stop-loss at $0.80, targeting a potential reversal or consolidation. Alternatively, consider buying around $0.65 with a stop-loss at $0.60, targeting a potential bounce.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.75",
+        "$0.80"
+      ]
+    },
+    "rsi": 74.44
+  },
+  {
+    "timestamp": "2026-08-09T18:20:50.589555+00:00",
+    "price": 0.699489,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on a clear break above $0.75 with a target of $0.80, and set a stop loss at $0.65. Alternatively, consider a short position if the price breaks below $0.65. Monitor the market closely for any signs of reversal.",
     "key_levels": {
       "support": [
         "$0.65",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-27T05:36:18.317004+00:00",
-    "price": 1957.35,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on a pullback to the 20-day EMA ($1,900) and set a take-profit at $2,100. Consider scaling in on a breakout above $2,000. Be cautious of a potential reversal if the price fails to hold above $1,900.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$2,000",
-        "$2,100"
-      ]
-    },
-    "rsi": 88.02
-  },
-  {
     "timestamp": "2026-07-27T09:22:53.188435+00:00",
     "price": 1957.41,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 62.25
+  },
+  {
+    "timestamp": "2026-08-09T12:22:50.526508+00:00",
+    "price": 1916.37,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH around $1,900 with a stop-loss at $1,900 and a target at $1,850, or buying around $1,850 with a stop-loss at $1,800 and a target at $1,950.",
+    "key_levels": {
+      "support": [
+        "$1,850",
+        "$1,800"
+      ],
+      "resistance": [
+        "$1,950",
+        "$2,000"
+      ]
+    },
+    "rsi": 69.98
   }
 ]

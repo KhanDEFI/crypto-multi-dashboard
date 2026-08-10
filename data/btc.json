@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 64985,
-  "change_24h": 0.11,
-  "market_cap": 1304127280879.1462,
-  "rsi": 56.57,
+  "price": 64790,
+  "change_24h": -0.22,
+  "market_cap": 1300604631413.228,
+  "rsi": 49.1,
   "analysis": {
-    "elliott_wave": "The current wave count suggests a possible corrective wave within a larger bullish trend, with a potential impulse wave forming. Further analysis is needed to confirm.",
-    "momentum": "The RSI reading of 56.57 indicates a neutral momentum, with neither strong buying nor selling pressure. A break above 60 could signal a bullish momentum shift.",
+    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a double bottom pattern. Further confirmation is needed to determine the next wave direction.",
+    "momentum": "The neutral RSI reading suggests a lack of clear momentum, but the recent price action indicates a slight bearish trend. A break above $65,000 could shift momentum to bullish.",
     "key_levels": {
       "support": [
-        "$62,000",
-        "$60,000"
+        "$64,500",
+        "$63,000"
       ],
       "resistance": [
-        "$67,000",
-        "$70,000"
+        "$65,000",
+        "$66,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a tight stop-loss around $62,000, targeting $67,000 for a potential 5-7% gain. Monitor the price action closely for a potential breakout or breakdown. Adjust the trade plan accordingly.",
-    "risk_note": "A sudden decline in global market sentiment could lead to a sharp price drop, potentially triggering a bearish trend."
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on a break below $64,500, targeting $63,000. Consider buying on a bounce above $65,000, with a stop-loss at $64,000. Monitor the market for a potential reversal.",
+    "risk_note": "A sudden surge in market sentiment could lead to a rapid price increase, resulting in significant losses for short positions."
   },
-  "updated_at": "2026-08-09T23:18:27.500528+00:00"
+  "updated_at": "2026-08-10T00:46:41.053742+00:00"
 }

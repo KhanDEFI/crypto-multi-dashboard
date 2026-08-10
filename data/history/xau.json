@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-29T17:01:19.517028+00:00",
-    "price": 4030.99,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target of $4,388.11 resistance level, or wait for a breakdown below $3,784.63 support.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 43.9
-  },
-  {
     "timestamp": "2026-07-29T18:51:00.690027+00:00",
     "price": 4093.07,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 67.84
+  },
+  {
+    "timestamp": "2026-08-10T22:23:56.586109+00:00",
+    "price": 4392.93,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $3,825.71, targeting $4,313.41; set stop-loss at $3,936.03.",
+    "key_levels": {
+      "support": [
+        "$3,936.03",
+        "$3,825.71"
+      ],
+      "resistance": [
+        "$4,179.88",
+        "$4,313.41"
+      ]
+    },
+    "rsi": 67.96
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-31T08:28:35.761688+00:00",
-    "price": 1890.01,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on a break below $1,880 with a stop-loss at $1,900. Consider taking profits around $1,860. A bullish reversal would require a close above $1,920.",
-    "key_levels": {
-      "support": [
-        "$1,880",
-        "$1,860"
-      ],
-      "resistance": [
-        "$1,900",
-        "$1,920"
-      ]
-    },
-    "rsi": 41.62
-  },
-  {
     "timestamp": "2026-07-31T11:15:12.817741+00:00",
     "price": 1883.73,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 31.3
+  },
+  {
+    "timestamp": "2026-08-11T20:31:25.465930+00:00",
+    "price": 1878.85,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying on dips around $1,850.00, targeting $1,900.00. Alternatively, sell on rallies above $1,900.00, aiming for $1,850.00. Monitor market conditions for a potential breakout.",
+    "key_levels": {
+      "support": [
+        "$1,850.00",
+        "$1,800.00"
+      ],
+      "resistance": [
+        "$1,900.00",
+        "$1,950.00"
+      ]
+    },
+    "rsi": 38.81
   }
 ]

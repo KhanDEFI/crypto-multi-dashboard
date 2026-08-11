@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-30T14:59:06.588223+00:00",
-    "price": 0.695976,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $0.68, targeting $0.75 with a stop-loss at $0.65. Monitor the RSI for signs of overbought conditions. A break above $0.75 could trigger a more aggressive long position.",
-    "key_levels": {
-      "support": [
-        "$0.68",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 59.7
-  },
-  {
     "timestamp": "2026-07-30T16:25:00.965003+00:00",
     "price": 0.700805,
     "trend_bias": "bullish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$0.68",
         "$0.65"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 45.32
+  },
+  {
+    "timestamp": "2026-08-11T10:39:23.406104+00:00",
+    "price": 0.689197,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $0.65, targeting $0.72-$0.75 resistance. Consider scaling out of long positions if price fails to hold above $0.65. Monitor the market for potential trend reversals.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
       ],
       "resistance": [
         "$0.72",

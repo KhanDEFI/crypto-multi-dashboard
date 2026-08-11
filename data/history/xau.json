@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-30T10:08:35.459453+00:00",
-    "price": 4069.59,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting the market if it breaks below the $3,784.63 support level, targeting a potential move to $3,561.83. Alternatively, look to buy on dips towards the lower support level, with a stop-loss below $3,561.83.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 47.22
-  },
-  {
     "timestamp": "2026-07-30T12:20:52.303051+00:00",
     "price": 4073.12,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 65.65
+  },
+  {
+    "timestamp": "2026-08-11T08:00:47.515495+00:00",
+    "price": 4358.87,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards the TV Pivot Support levels, with a target of $4,313.41. However, be cautious of a potential sell-off if the price reaches the upper TV Pivot Resistance level. A stop-loss below $4,179.88 is recommended.",
+    "key_levels": {
+      "support": [
+        "$3,936.03",
+        "$3,825.71"
+      ],
+      "resistance": [
+        "$4,179.88",
+        "$4,313.41"
+      ]
+    },
+    "rsi": 64.83
   }
 ]

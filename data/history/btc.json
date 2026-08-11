@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-30T21:55:56.724456+00:00",
-    "price": 64685,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider long positions with a tight stop-loss below $62,500, targeting $67,000-$70,000. Monitor the market for signs of exhaustion or reversal. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$60,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$70,000"
-      ]
-    },
-    "rsi": 65.89
-  },
-  {
     "timestamp": "2026-07-30T22:55:31.256681+00:00",
     "price": 64831,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,000",
         "$67,000"
+      ]
+    },
+    "rsi": 43.13
+  },
+  {
+    "timestamp": "2026-08-11T15:46:19.105091+00:00",
+    "price": 63488,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on dips towards the $62,500 support level, with a target of $65,500. However, be cautious of a potential breakdown below $61,000. A stop-loss at $60,000 is recommended.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$64,500",
+        "$65,500"
       ]
     },
     "rsi": 43.13

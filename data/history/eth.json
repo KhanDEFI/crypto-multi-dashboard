@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-30T22:55:31.256681+00:00",
-    "price": 1925.77,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips to $1,800 or $1,700, with a target of $2,000 or higher. However, be cautious of potential selling pressure around the $2,100 resistance level. Monitor the market for signs of a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$2,000",
-        "$2,100"
-      ]
-    },
-    "rsi": 61.7
-  },
-  {
     "timestamp": "2026-07-30T23:51:52.938538+00:00",
     "price": 1924.05,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.56
+  },
+  {
+    "timestamp": "2026-08-11T16:43:20.209472+00:00",
+    "price": 1862.94,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting ETH with a stop-loss at $1,900 and a target at $1,700. Monitor the price action closely for any signs of reversal. A break above $2,000 could invalidate this trade plan.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$2,000"
+      ]
+    },
+    "rsi": 31.3
   }
 ]

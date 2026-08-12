@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T01:29:13.674455+00:00",
-    "price": 62879,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $62,500, targeting $65,000. Alternatively, sell on a break below $60,000, targeting $57,000. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$59,000",
-        "$57,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 37.98
-  },
-  {
     "timestamp": "2026-08-01T05:14:24.536633+00:00",
     "price": 63074,
     "trend_bias": "bearish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$65,000",
         "$67,000"
+      ]
+    },
+    "rsi": 33.54
+  },
+  {
+    "timestamp": "2026-08-12T10:53:10.692066+00:00",
+    "price": 64079,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider shorting BTC around current levels, targeting $62,000 support. Set a stop-loss at $66,500 resistance. Monitor for a potential bullish reversal if price action breaks above $65,000.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$66,500"
       ]
     },
     "rsi": 33.54

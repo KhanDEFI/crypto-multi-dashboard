@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T01:29:13.674455+00:00",
-    "price": 1864.05,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips around $1,800-$1,700 for a potential short-term bounce, but set a stop-loss at $1,600. Alternatively, consider selling at $2,000-$2,100 for a potential short-term correction.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 39.12
-  },
-  {
     "timestamp": "2026-08-01T05:14:24.536633+00:00",
     "price": 1868.9,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000.00",
         "$2,100.00"
+      ]
+    },
+    "rsi": 43.73
+  },
+  {
+    "timestamp": "2026-08-12T10:53:10.692066+00:00",
+    "price": 1908.08,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,800, with a target of $2,000. Consider setting a stop-loss at $1,700. Monitor the price action for a potential breakout above $2,000.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,100"
       ]
     },
     "rsi": 43.73

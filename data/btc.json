@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 63462,
-  "change_24h": -0.04,
-  "market_cap": 1273867056232.6838,
+  "price": 63400,
+  "change_24h": -0.2,
+  "market_cap": 1272452573084.5432,
   "rsi": 29.01,
   "analysis": {
-    "elliott_wave": "We are currently in a bearish impulse wave (wave 2) within a larger downtrend. The wave count suggests a potential bounce in the near term.",
-    "momentum": "The RSI reading of 29.01 indicates an oversold condition, suggesting a potential short-term bounce in price. However, the 24h change of -0.04% indicates a lack of momentum.",
+    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a bullish flag pattern as price consolidates near the 61.8% Fibonacci retracement.",
+    "momentum": "Momentum is bearish, as the 24h price drop and oversold RSI (29.01) suggest a potential short-term bounce, but the overall trend remains uncertain.",
     "key_levels": {
       "support": [
-        "$62,000",
-        "$60,000"
+        "$61,800",
+        "$60,300"
       ],
       "resistance": [
-        "$65,000",
-        "$67,000"
+        "$64,200",
+        "$65,500"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting on a bounce above $63,500 with a stop-loss at $64,000. Alternatively, consider buying on a break below $62,500 with a stop-loss at $61,500. A more conservative approach is to wait for a clear break above $65,000.",
-    "risk_note": "A key risk to watch is a potential false breakout above $65,000, which could lead to a further decline in price."
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips near $61,800 with a target of $65,500, but set a stop-loss at $60,300 to mitigate potential losses.",
+    "risk_note": "A sharp move above $65,500 could invalidate the bearish momentum and trigger a long-term bullish reversal."
   },
-  "updated_at": "2026-08-12T16:43:14.430707+00:00"
+  "updated_at": "2026-08-12T17:47:55.927963+00:00"
 }

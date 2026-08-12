@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T05:14:24.536633+00:00",
-    "price": 1868.9,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce near $1,800, targeting $2,000, with a stop-loss at $1,700. Alternatively, wait for a confirmed break below $1,700 to consider shorting.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 43.21
-  },
-  {
     "timestamp": "2026-08-01T07:58:24.106287+00:00",
     "price": 1867.92,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$2,000",
         "$2,100"
+      ]
+    },
+    "rsi": 43.73
+  },
+  {
+    "timestamp": "2026-08-12T11:37:10.094191+00:00",
+    "price": 1911.23,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $1,800, targeting $2,000 in the next 24-48 hours. Set a stop-loss at $1,600. Monitor market sentiment for potential trend reversals.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,600"
+      ],
+      "resistance": [
+        "$2,000",
+        "$2,200"
       ]
     },
     "rsi": 43.73

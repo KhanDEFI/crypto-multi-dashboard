@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T14:19:13.178268+00:00",
-    "price": 63025,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a stop-loss below $62,000 and a target at $65,000. Monitor the 24h chart for potential breakouts. Adjust the trade plan based on market volatility.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$61,000"
-      ],
-      "resistance": [
-        "$64,000",
-        "$65,500"
-      ]
-    },
-    "rsi": 35.88
-  },
-  {
     "timestamp": "2026-08-01T15:50:02.074420+00:00",
     "price": 62996,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$64,200",
         "$65,500"
+      ]
+    },
+    "rsi": 29.01
+  },
+  {
+    "timestamp": "2026-08-12T18:43:35.534361+00:00",
+    "price": 63388,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $62,000, targeting $65,000 with a stop-loss at $60,000. Monitor the price action for a potential breakout above $65,000.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
       ]
     },
     "rsi": 29.01

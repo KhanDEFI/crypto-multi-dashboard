@@ -2,17 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-08-09T15:18:48.582525+00:00",
-        "price_at_prediction": 65192,
-        "price_now": 64282,
-        "price_change_pct": -1.4,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider shorting on a close below $63,000.00 or buying on a bounce above $66,500.00. A stop-loss should be set at $61,500.00 for shorts and $68,000.00 for longs.",
-        "levels_hit": []
-      },
-      {
         "prediction_time": "2026-08-09T16:19:08.444099+00:00",
         "price_at_prediction": 65194,
         "price_now": 64069,
@@ -342,36 +331,30 @@
         "verdict": "CORRECT",
         "trade_plan": "Consider buying on a bounce above $64,000, targeting $65,000-$67,000. Alternatively, sell on a break below $62,000, targeting $60,000. Monitor the price action for a potential trend reversal.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-08-11T12:35:53.995996+00:00",
+        "price_at_prediction": 64298,
+        "price_now": 64118,
+        "price_change_pct": -0.28,
+        "predicted_bias": "bearish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Short-term focus on selling rallies towards resistance levels, with a target of $60,000. Consider scaling out of positions if price reaches $62,000. Monitor for potential bullish divergence.",
+        "levels_hit": []
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 19,
-      "partial": 2,
+      "correct": 18,
+      "partial": 3,
       "incorrect": 9,
-      "accuracy_pct": 63.3,
-      "updated_at": "2026-08-12T11:37:12.993272+00:00"
+      "accuracy_pct": 60.0,
+      "updated_at": "2026-08-12T12:39:04.362090+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-08-09T15:18:48.582525+00:00",
-        "price_at_prediction": 1925.29,
-        "price_now": 1876.38,
-        "price_change_pct": -2.54,
-        "predicted_bias": "bullish",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Buy on dips towards $1,900, targeting $2,000 resistance. Set stop-loss at $1,850. Consider scaling out of long positions if $2,000 is reached.",
-        "levels_hit": [
-          {
-            "level": "$1,900",
-            "type": "support",
-            "hit": true
-          }
-        ]
-      },
       {
         "prediction_time": "2026-08-09T16:19:08.444099+00:00",
         "price_at_prediction": 1923.77,
@@ -726,6 +709,23 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-08-11T12:35:53.995996+00:00",
+        "price_at_prediction": 1889.92,
+        "price_now": 1911.27,
+        "price_change_pct": 1.13,
+        "predicted_bias": "bearish",
+        "actual_direction": "bullish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Sell on a bounce to $1,900.00, targeting $1,850.00. Consider scaling out of long positions if price breaks below $1,800.00. A stop-loss at $1,950.00 is recommended.",
+        "levels_hit": [
+          {
+            "level": "$1,900.00",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
@@ -734,22 +734,11 @@
       "partial": 5,
       "incorrect": 16,
       "accuracy_pct": 30.0,
-      "updated_at": "2026-08-12T11:37:12.993272+00:00"
+      "updated_at": "2026-08-12T12:39:04.362090+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-08-09T15:18:48.582525+00:00",
-        "price_at_prediction": 0.699482,
-        "price_now": 0.688401,
-        "price_change_pct": -1.58,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider buying on a bounce above $0.70, targeting $0.75-$0.80 resistance. Alternatively, sell on a break below $0.65 support. Monitor the price action for a potential breakout.",
-        "levels_hit": []
-      },
       {
         "prediction_time": "2026-08-09T16:19:08.444099+00:00",
         "price_at_prediction": 0.701502,
@@ -1086,6 +1075,17 @@
         "verdict": "PARTIAL",
         "trade_plan": "Consider shorting SUI/USD with a stop-loss above $0.72, targeting $0.65-$0.67 for a potential 5-7% gain. Monitor the price action closely for a potential bounce.",
         "levels_hit": []
+      },
+      {
+        "prediction_time": "2026-08-11T12:35:53.995996+00:00",
+        "price_at_prediction": 0.687744,
+        "price_now": 0.693354,
+        "price_change_pct": 0.82,
+        "predicted_bias": "neutral",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a buy on dips strategy, targeting $0.72 resistance with a stop-loss at $0.60. Monitor the price action for signs of a potential reversal or continuation.",
+        "levels_hit": []
       }
     ],
     "stats": {
@@ -1094,33 +1094,11 @@
       "partial": 2,
       "incorrect": 4,
       "accuracy_pct": 80.0,
-      "updated_at": "2026-08-12T11:37:12.993272+00:00"
+      "updated_at": "2026-08-12T12:39:04.362090+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-08-09T15:18:48.582525+00:00",
-        "price_at_prediction": 4340.67,
-        "price_now": 4350.44,
-        "price_change_pct": 0.23,
-        "predicted_bias": "bullish",
-        "actual_direction": "neutral",
-        "verdict": "PARTIAL",
-        "trade_plan": "Consider buying XAU/USD with a stop-loss below $4,179.88 and a target of $4,313.41, but be cautious of potential pullbacks to the TV Pivot Support levels.",
-        "levels_hit": [
-          {
-            "level": "$4,179.88",
-            "type": "resistance",
-            "hit": true
-          },
-          {
-            "level": "$4,313.41",
-            "type": "resistance",
-            "hit": true
-          }
-        ]
-      },
       {
         "prediction_time": "2026-08-09T16:19:08.444099+00:00",
         "price_at_prediction": 4340.67,
@@ -1758,15 +1736,37 @@
             "hit": true
           }
         ]
+      },
+      {
+        "prediction_time": "2026-08-11T12:35:53.995996+00:00",
+        "price_at_prediction": 4390.53,
+        "price_now": 4420.47,
+        "price_change_pct": 0.68,
+        "predicted_bias": "bullish",
+        "actual_direction": "bullish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider buying on dips towards $3,825.71, targeting $4,313.41. However, be cautious of a potential pullback if DXY strengthens.",
+        "levels_hit": [
+          {
+            "level": "$4,179.88",
+            "type": "resistance",
+            "hit": true
+          },
+          {
+            "level": "$4,313.41",
+            "type": "resistance",
+            "hit": true
+          }
+        ]
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 20,
-      "partial": 8,
+      "correct": 21,
+      "partial": 7,
       "incorrect": 2,
-      "accuracy_pct": 66.7,
-      "updated_at": "2026-08-12T11:37:12.993272+00:00"
+      "accuracy_pct": 70.0,
+      "updated_at": "2026-08-12T12:39:04.362090+00:00"
     }
   }
 }

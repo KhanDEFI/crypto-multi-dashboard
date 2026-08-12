@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T17:49:05.209003+00:00",
-    "price": 1860.34,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term, consider selling ETH around $1,850 with a stop-loss at $1,900. Medium-term, keep an eye on the $1,700 support level for a potential bounce. Long-term, focus on the $2,000 resistance level for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 35.86
-  },
-  {
     "timestamp": "2026-08-01T18:49:19.218899+00:00",
     "price": 1827.27,
     "trend_bias": "bearish",
@@ -2847,6 +2830,23 @@
       "support": [
         "$1,850",
         "$1,800"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
+      ]
+    },
+    "rsi": 39.35
+  },
+  {
+    "timestamp": "2026-08-12T21:32:20.784068+00:00",
+    "price": 1875.27,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1,800-$1,700, with a target of $2,000. Sell on rallies above $1,900-$1,950. Monitor market sentiment and adjust positions accordingly.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
       ],
       "resistance": [
         "$1,900",

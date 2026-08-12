@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T17:49:05.209003+00:00",
-    "price": 4046.37,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions with a target of the first support level ($3,784.63) and a stop-loss above the resistance level ($4,388.11). Monitor the price action closely for signs of reversal. A potential reversal could be triggered by a strong bullish signal from TradingView or a significant shift in macro drivers.",
-    "key_levels": {
-      "support": [
-        "$3,784.63",
-        "$3,561.83"
-      ],
-      "resistance": [
-        "$4,388.11",
-        "$4,768.79"
-      ]
-    },
-    "rsi": 45.64
-  },
-  {
     "timestamp": "2026-08-01T18:49:19.218899+00:00",
     "price": 4046.37,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 67.67
+  },
+  {
+    "timestamp": "2026-08-12T21:32:20.784068+00:00",
+    "price": 4408.71,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider long positions with a stop-loss below $4,179.88 and a target above $4,313.41, but monitor safe-haven demand and central bank policy announcements",
+    "key_levels": {
+      "support": [
+        "$3,936.03",
+        "$3,825.71"
+      ],
+      "resistance": [
+        "$4,179.88",
+        "$4,313.41"
+      ]
+    },
+    "rsi": 67.68
   }
 ]

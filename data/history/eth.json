@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-31T19:03:19.146875+00:00",
-    "price": 1871.11,
-    "trend_bias": "neutral",
-    "trade_plan": "Wait for a clear breakout above $1,900 to consider long positions, with a stop-loss at $1,800. Alternatively, short positions can be considered if ETH breaks below $1,800.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 30.57
-  },
-  {
     "timestamp": "2026-07-31T20:50:23.645146+00:00",
     "price": 1864.81,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900.00",
         "$1,920.00"
+      ]
+    },
+    "rsi": 36.29
+  },
+  {
+    "timestamp": "2026-08-12T03:16:03.237896+00:00",
+    "price": 1881.08,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,800, targeting $1,900-$1,950 resistance levels. Set stop-loss at $1,700. Monitor market conditions for potential trend reversal.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
       ]
     },
     "rsi": 36.29

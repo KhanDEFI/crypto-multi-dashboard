@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-01T21:41:46.674145+00:00",
-    "price": 62730,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider shorting with a target of $60,000, but be cautious of a potential bounce. Set a stop-loss at $64,000. Monitor the market closely for any signs of a reversal.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$63,000",
-        "$64,000"
-      ]
-    },
-    "rsi": 16.76
-  },
-  {
     "timestamp": "2026-08-01T22:41:58.512909+00:00",
     "price": 62796,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 29.38
+  },
+  {
+    "timestamp": "2026-08-13T00:55:30.862061+00:00",
+    "price": 63519,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $62,500, targeting $65,000. Sell on rallies towards $65,000, targeting $62,500. Monitor the market for a potential bullish reversal.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$65,000",
+        "$67,000"
+      ]
+    },
+    "rsi": 37.77
   }
 ]

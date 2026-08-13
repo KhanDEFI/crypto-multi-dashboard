@@ -1,16 +1,16 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 63178,
-  "change_24h": -0.35,
-  "market_cap": 1267423463153.2202,
+  "price": 63108,
+  "change_24h": -0.42,
+  "market_cap": 1266508010833.423,
   "rsi": 42.49,
   "analysis": {
-    "elliott_wave": "We are currently in a corrective wave (B) within a larger bull market, with a possible wave 4 unfolding. The price action suggests a potential bounce in the near term.",
-    "momentum": "The RSI reading of 42.49 indicates a neutral momentum, but the recent 0.35% price drop suggests a slight bearish bias. We may see a brief pullback before resuming the uptrend.",
+    "elliott_wave": "BTC is currently in a corrective wave (B) within a larger bearish trend, as price action is still below the 200-day moving average.",
+    "momentum": "Momentum is neutral, with the RSI at 42.49, indicating a lack of clear direction, but the recent 0.42% 24h price drop suggests a slight bearish bias.",
     "key_levels": {
       "support": [
-        "$62,000",
+        "$62,500",
         "$60,000"
       ],
       "resistance": [
@@ -18,9 +18,9 @@
         "$67,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips around $62,000, targeting $65,000. Set a stop-loss at $60,000. Monitor the market for a potential breakout above $67,000.",
-    "risk_note": "A sudden shift in global macroeconomic sentiment could lead to a sharp sell-off in the crypto market."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions with a tight stop-loss above $65,000, targeting $62,500 as a potential support level. Monitor the 24h RSI for signs of a potential reversal. Be cautious of a potential bearish breakout.",
+    "risk_note": "A break below $60,000 could lead to a significant price drop, potentially targeting $55,000"
   },
-  "updated_at": "2026-08-13T17:47:09.071574+00:00"
+  "updated_at": "2026-08-13T18:44:28.694317+00:00"
 }

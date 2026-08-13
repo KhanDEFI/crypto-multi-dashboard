@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-02T11:12:15.170019+00:00",
-    "price": 0.686473,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying SUI/USD on a pullback to $0.68, with a target of $0.75 and a stop-loss at $0.65. Monitor the price action closely for any signs of weakness. A break above $0.75 could confirm the continuation of the bull trend.",
-    "key_levels": {
-      "support": [
-        "$0.68",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 48.73
-  },
-  {
     "timestamp": "2026-08-02T12:52:23.879535+00:00",
     "price": 0.687238,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 54.06
+  },
+  {
+    "timestamp": "2026-08-13T12:39:53.943045+00:00",
+    "price": 0.687657,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy position if the price breaks above $0.72, targeting $0.75. Otherwise, wait for a clear trend direction to emerge. A stop-loss at $0.65 is recommended.",
+    "key_levels": {
+      "support": [
+        "$0.67",
+        "$0.65"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 48.75
   }
 ]

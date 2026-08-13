@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-02T01:26:56.282520+00:00",
-    "price": 1852.63,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider selling on a bounce above $1,850.00, targeting $1,900.00. Alternatively, wait for a break below $1,750.00 to sell.",
-    "key_levels": {
-      "support": [
-        "$1,750.00",
-        "$1,600.00"
-      ],
-      "resistance": [
-        "$1,900.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 22.09
-  },
-  {
     "timestamp": "2026-08-02T05:13:34.535950+00:00",
     "price": 1876.49,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,950",
         "$2,000"
+      ]
+    },
+    "rsi": 52.97
+  },
+  {
+    "timestamp": "2026-08-13T07:07:12.581425+00:00",
+    "price": 1894.78,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1,850.00, targeting $1,950.00. Set stop-loss at $1,800.00. Monitor for a potential breakout above $2,000.00.",
+    "key_levels": {
+      "support": [
+        "$1,850.00",
+        "$1,800.00"
+      ],
+      "resistance": [
+        "$1,950.00",
+        "$2,000.00"
       ]
     },
     "rsi": 52.97

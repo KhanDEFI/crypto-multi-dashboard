@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T08:13:19.387175+00:00",
-    "price": 63600,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the $62,000.00 support level, with a target of $65,000.00. However, be cautious of a potential reversal if the price breaks below $60,000.00.",
-    "key_levels": {
-      "support": [
-        "$62,000.00",
-        "$60,000.00"
-      ],
-      "resistance": [
-        "$65,000.00",
-        "$67,000.00"
-      ]
-    },
-    "rsi": 59.15
-  },
-  {
     "timestamp": "2026-08-04T11:12:16.308594+00:00",
     "price": 63698,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.68
+  },
+  {
+    "timestamp": "2026-08-14T20:19:12.405532+00:00",
+    "price": 62893,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on rallies towards $63,500, targeting $61,000. Medium-term, look for a potential wave 5 push towards $65,000.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$61,000"
+      ],
+      "resistance": [
+        "$63,500",
+        "$65,000"
+      ]
+    },
+    "rsi": 25.34
   }
 ]

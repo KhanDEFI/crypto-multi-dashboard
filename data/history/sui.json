@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-03T12:12:27.218047+00:00",
-    "price": 0.683776,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a break above $0.72 with a stop-loss at $0.65, targeting $0.75. Sell on a break below $0.65 with a stop-loss at $0.72, targeting $0.60.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 49.57
-  },
-  {
     "timestamp": "2026-08-03T15:34:48.936840+00:00",
     "price": 0.69415,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.70",
+        "$0.75"
+      ]
+    },
+    "rsi": 50.83
+  },
+  {
+    "timestamp": "2026-08-14T07:03:37.941651+00:00",
+    "price": 0.677642,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a long position if price breaks above $0.72, targeting $0.75. Otherwise, wait for a clear bullish signal or a strong bearish reversal.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.72",
         "$0.75"
       ]
     },

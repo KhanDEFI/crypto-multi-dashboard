@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T16:03:29.463038+00:00",
-    "price": 0.692802,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.66 or $0.63, with a target of $0.72 or $0.75. However, be cautious of potential further declines if the market cap drops below $2.5 billion. A stop-loss at $0.60 is recommended.",
-    "key_levels": {
-      "support": [
-        "$0.66",
-        "$0.63"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 50.8
-  },
-  {
     "timestamp": "2026-08-04T18:21:08.439644+00:00",
     "price": 0.696693,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 35.22
+  },
+  {
+    "timestamp": "2026-08-14T23:10:07.526141+00:00",
+    "price": 0.677753,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell on strength, targeting $0.60. Consider short positions with a stop-loss at $0.72. Monitor RSI for signs of oversold conditions.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
         "$0.75"
       ]
     },

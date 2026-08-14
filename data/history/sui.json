@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T13:40:07.744911+00:00",
-    "price": 0.694594,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $0.66, with a target of $0.75. Set a stop-loss at $0.63 to limit potential losses. Monitor the price action for signs of a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.66",
-        "$0.63"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 55.36
-  },
-  {
     "timestamp": "2026-08-04T16:03:29.463038+00:00",
     "price": 0.692802,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.70",
+        "$0.75"
+      ]
+    },
+    "rsi": 35.22
+  },
+  {
+    "timestamp": "2026-08-14T22:10:00.545625+00:00",
+    "price": 0.676636,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider shorting SUI/USD with a target of $0.60. However, a stop-loss at $0.72 is recommended. A reversal above $0.72 could trigger a long position.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.72",
         "$0.75"
       ]
     },

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-05T10:21:29.029722+00:00",
-    "price": 1869.25,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips below $1,800 for a potential breakout above $2,000, or sell on rallies above $1,900 for a potential pullback to $1,700.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 43.39
-  },
-  {
     "timestamp": "2026-08-05T12:30:13.170938+00:00",
     "price": 1880.36,
     "trend_bias": "bullish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$1,900",
+        "$1,950"
+      ]
+    },
+    "rsi": 52.63
+  },
+  {
+    "timestamp": "2026-08-15T06:17:06.928023+00:00",
+    "price": 1878.61,
+    "trend_bias": "neutral",
+    "trade_plan": "Short-term, consider selling ETH on a break below $1,850. Medium-term, look for a potential bounce around $1,800. Monitor the market for a clear trend reversal.",
+    "key_levels": {
+      "support": [
+        "$1,850",
+        "$1,800"
+      ],
+      "resistance": [
+        "$1,920",
         "$1,950"
       ]
     },

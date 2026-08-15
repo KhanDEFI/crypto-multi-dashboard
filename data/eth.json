@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1882.9,
-  "change_24h": 0.1,
-  "market_cap": 227229330069.20474,
+  "price": 1878.61,
+  "change_24h": -0.01,
+  "market_cap": 226706033647.07266,
   "rsi": 52.63,
   "analysis": {
-    "elliott_wave": "ETH is currently in a corrective wave (B) within a larger bullish impulse wave (1-2). The wave count suggests a potential continuation of the upward trend.",
-    "momentum": "The neutral RSI reading (52.63) indicates a stable market, but the 0.10% 24h change suggests a slight bullish momentum. However, the price action is relatively flat, indicating a need for a catalyst to spark further movement.",
+    "elliott_wave": "ETH is in a neutral wave count, with a possible impulse wave forming after a correction. Further analysis is needed to confirm the wave pattern.",
+    "momentum": "ETH's neutral RSI reading indicates a lack of strong momentum, but the recent price action suggests a slight bearish bias. A break below $1,850 could confirm this trend.",
     "key_levels": {
       "support": [
-        "$1,800",
-        "$1,700"
+        "$1,850",
+        "$1,800"
       ],
       "resistance": [
-        "$1,900",
+        "$1,920",
         "$1,950"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $1,800 support, targeting $1,900 resistance. Set a stop-loss at $1,700 to limit potential losses. Consider scaling into positions to manage risk.",
-    "risk_note": "A potential bearish reversal could occur if the price breaks below $1,700 support, triggering a larger correction."
+    "trend_bias": "neutral",
+    "trade_plan": "Short-term, consider selling ETH on a break below $1,850. Medium-term, look for a potential bounce around $1,800. Monitor the market for a clear trend reversal.",
+    "risk_note": "A sudden increase in demand from institutional investors could lead to a sharp price surge, catching traders off guard."
   },
-  "updated_at": "2026-08-15T05:14:02.158253+00:00"
+  "updated_at": "2026-08-15T06:17:06.928023+00:00"
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-06T07:30:05.181660+00:00",
-    "price": 0.684583,
-    "trend_bias": "neutral",
-    "trade_plan": "Wait for a breakout above $0.72 to consider a long position, or a breakdown below $0.65 to consider a short position.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 39.32
-  },
-  {
     "timestamp": "2026-08-06T10:23:12.351886+00:00",
     "price": 0.671209,
     "trend_bias": "bearish",
@@ -2843,6 +2826,23 @@
     "price": 0.682298,
     "trend_bias": "bullish",
     "trade_plan": "Consider buying on dips towards the $0.65 support level, with a target of $0.72 resistance. However, be cautious of a potential reversal if the price fails to hold above $0.65.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 40.29
+  },
+  {
+    "timestamp": "2026-08-15T16:09:12.159436+00:00",
+    "price": 0.682937,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy on dips strategy, targeting $0.75 resistance with a stop-loss at $0.60. Monitor the market for signs of acceleration or deceleration.",
     "key_levels": {
       "support": [
         "$0.65",

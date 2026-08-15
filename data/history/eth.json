@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-06T23:45:58.411667+00:00",
-    "price": 1898.78,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,900.00 or selling on a break below $1,850.00. Monitor the market for a potential reversal. Keep a close eye on the $1,800.00 support level.",
-    "key_levels": {
-      "support": [
-        "$1,850.00",
-        "$1,800.00"
-      ],
-      "resistance": [
-        "$1,950.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 67.91
-  },
-  {
     "timestamp": "2026-08-07T01:59:30.500967+00:00",
     "price": 1901.11,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900",
         "$2,000"
+      ]
+    },
+    "rsi": 40.36
+  },
+  {
+    "timestamp": "2026-08-15T20:08:33.547306+00:00",
+    "price": 1882.56,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider buying ETH on dips near $1,800, targeting $1,900-$1,950 resistance. Set a stop-loss at $1,700 to limit potential losses. Monitor market sentiment and adjust the trade plan accordingly.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
       ]
     },
     "rsi": 40.36

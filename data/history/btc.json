@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T20:16:02.615616+00:00",
-    "price": 64128,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips to $62,000 for a potential short-term gain, with a stop-loss at $60,000. Alternatively, consider selling at $65,500 for a quick profit. Monitor market conditions for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,500",
-        "$67,000"
-      ]
-    },
-    "rsi": 64.97
-  },
-  {
     "timestamp": "2026-08-04T22:02:44.227429+00:00",
     "price": 64149,
     "trend_bias": "neutral",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$63,500",
+        "$65,000"
+      ]
+    },
+    "rsi": 39.53
+  },
+  {
+    "timestamp": "2026-08-15T02:05:49.122641+00:00",
+    "price": 62986,
+    "trend_bias": "bearish",
+    "trade_plan": "Short-term, consider selling on a break below $62,000. Medium-term, focus on a potential bounce to $65,000 for a long entry. Be cautious of a potential false breakout.",
+    "key_levels": {
+      "support": [
+        "$62,000",
+        "$60,000"
+      ],
+      "resistance": [
+        "$63,000",
         "$65,000"
       ]
     },

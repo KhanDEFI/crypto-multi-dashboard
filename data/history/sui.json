@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T20:16:02.615616+00:00",
-    "price": 0.696661,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position with a tight stop-loss at $0.65, targeting a 10-15% gain to $0.77-$0.78, but be cautious of a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 65.92
-  },
-  {
     "timestamp": "2026-08-04T22:02:44.227429+00:00",
     "price": 0.694517,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 0.682726,
     "trend_bias": "bearish",
     "trade_plan": "Short-term, consider selling on a break above $0.70 resistance, targeting $0.75. Alternatively, consider buying on a break below $0.65 support, targeting $0.60. Monitor the price action closely for a potential trend reversal.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
+        "$0.75"
+      ]
+    },
+    "rsi": 46.69
+  },
+  {
+    "timestamp": "2026-08-15T02:05:49.122641+00:00",
+    "price": 0.68207,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting the asset if it breaks below $0.65, targeting $0.60. Alternatively, consider buying if it bounces off the current level and breaks above $0.70. Monitor the price action closely for a potential trend reversal.",
     "key_levels": {
       "support": [
         "$0.65",

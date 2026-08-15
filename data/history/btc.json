@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-05T17:15:35.125816+00:00",
-    "price": 64549,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a close above $67,000 for a potential short-term profit, with a stop-loss at $62,000. Monitor for a potential pullback to $60,000 for a long entry opportunity. Keep an eye on the 24h RSI for signs of exhaustion.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,500",
-        "$67,000"
-      ]
-    },
-    "rsi": 76.2
-  },
-  {
     "timestamp": "2026-08-05T19:09:22.987142+00:00",
     "price": 64819,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$64,000",
         "$65,500"
+      ]
+    },
+    "rsi": 39.41
+  },
+  {
+    "timestamp": "2026-08-15T09:14:17.850318+00:00",
+    "price": 62895,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $62,000, with a target of $63,000. Sell on rallies towards $63,500, with a stop-loss at $62,500. Monitor the price action for a potential breakout or reversal.",
+    "key_levels": {
+      "support": [
+        "$62,500",
+        "$62,000"
+      ],
+      "resistance": [
+        "$63,000",
+        "$63,500"
       ]
     },
     "rsi": 39.41

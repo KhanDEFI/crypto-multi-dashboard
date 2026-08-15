@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-05T17:15:35.125816+00:00",
-    "price": 0.691589,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a neutral stance and wait for a clear breakout above $0.72 or a breakdown below $0.65 to establish a trade plan. A short-term trade could be initiated with a stop-loss at $0.60 and a target at $0.75.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 55.18
-  },
-  {
     "timestamp": "2026-08-05T19:09:22.987142+00:00",
     "price": 0.692606,
     "trend_bias": "bearish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 51.05
+  },
+  {
+    "timestamp": "2026-08-15T09:14:17.850318+00:00",
+    "price": 0.6813,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a buy position if the price breaks above $0.70, targeting $0.75. Alternatively, consider a sell position if the price breaks below $0.65, targeting $0.60. Monitor the market for a clear breakout.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
         "$0.75"
       ]
     },

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-07T01:59:30.500967+00:00",
-    "price": 0.674361,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a bounce above $0.67, targeting $0.70-$0.72. Set a stop-loss at $0.65. Consider scaling in positions if price action confirms a bullish reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.62"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.72"
-      ]
-    },
-    "rsi": 27.99
-  },
-  {
     "timestamp": "2026-08-07T04:24:55.525433+00:00",
     "price": 0.674825,
     "trend_bias": "bearish",
@@ -2850,6 +2833,23 @@
       ],
       "resistance": [
         "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 44.0
+  },
+  {
+    "timestamp": "2026-08-15T21:10:04.531257+00:00",
+    "price": 0.679758,
+    "trend_bias": "bearish",
+    "trade_plan": "Sell SUI/USD on a break below $0.65, targeting $0.60. Consider buying on a bounce to $0.70, but be cautious of a potential reversal. Monitor the market for a clear trend reversal.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.70",
         "$0.75"
       ]
     },

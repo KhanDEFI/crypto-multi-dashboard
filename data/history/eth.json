@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T06:30:23.666248+00:00",
-    "price": 1915.59,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $1,850.00 or sell on rallies to $2,000.00, with a stop-loss at $1,800.00.",
-    "key_levels": {
-      "support": [
-        "$1,850.00",
-        "$1,800.00"
-      ],
-      "resistance": [
-        "$2,000.00",
-        "$2,050.00"
-      ]
-    },
-    "rsi": 50.44
-  },
-  {
     "timestamp": "2026-08-08T08:25:02.584687+00:00",
     "price": 1914.06,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900",
         "$1,950"
+      ]
+    },
+    "rsi": 67.74
+  },
+  {
+    "timestamp": "2026-08-16T20:07:57.255641+00:00",
+    "price": 1884.24,
+    "trend_bias": "neutral",
+    "trade_plan": "Buy on dips towards $1,850.00, targeting $1,920.00. Sell on rallies above $1,920.00, aiming for $1,950.00. Monitor the 24h candlestick formation.",
+    "key_levels": {
+      "support": [
+        "$1,850.00",
+        "$1,800.00"
+      ],
+      "resistance": [
+        "$1,920.00",
+        "$1,950.00"
       ]
     },
     "rsi": 67.74

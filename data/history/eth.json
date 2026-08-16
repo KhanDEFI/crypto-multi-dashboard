@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T05:33:05.942936+00:00",
-    "price": 1915.97,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips below $1,900 with a target of $2,000, and set a stop-loss at $1,850. Consider selling on rallies above $1,950. Monitor market conditions for potential trend reversals.",
-    "key_levels": {
-      "support": [
-        "$1,900",
-        "$1,850"
-      ],
-      "resistance": [
-        "$1,950",
-        "$2,000"
-      ]
-    },
-    "rsi": 50.44
-  },
-  {
     "timestamp": "2026-08-08T06:30:23.666248+00:00",
     "price": 1915.59,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 1883.71,
     "trend_bias": "neutral",
     "trade_plan": "Consider buying on dips towards $1,800, targeting $1,900-$1,950. However, be cautious of a potential bearish reversal if the price breaks below $1,700.",
+    "key_levels": {
+      "support": [
+        "$1,800",
+        "$1,700"
+      ],
+      "resistance": [
+        "$1,900",
+        "$1,950"
+      ]
+    },
+    "rsi": 67.74
+  },
+  {
+    "timestamp": "2026-08-16T19:11:48.109600+00:00",
+    "price": 1884.79,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips to $1,800, with a target at $2,000. Consider selling at $1,950 for profit. Monitor the market for any signs of reversal.",
     "key_levels": {
       "support": [
         "$1,800",

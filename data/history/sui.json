@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T02:47:26.371550+00:00",
-    "price": 0.676269,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term buy or sell on the bounce, targeting $0.70 or $0.60 respectively, with a stop-loss at $0.55.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.75"
-      ]
-    },
-    "rsi": 28.4
-  },
-  {
     "timestamp": "2026-08-08T04:01:24.699897+00:00",
     "price": 0.679457,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.48
+  },
+  {
+    "timestamp": "2026-08-16T17:09:14.419667+00:00",
+    "price": 0.678286,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider shorting on a break below $0.65, targeting $0.60. Alternatively, look to buy on a bounce above $0.72, with a stop below $0.68.",
+    "key_levels": {
+      "support": [
+        "$0.65",
+        "$0.60"
+      ],
+      "resistance": [
+        "$0.72",
+        "$0.75"
+      ]
+    },
+    "rsi": 52.3
   }
 ]

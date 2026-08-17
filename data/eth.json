@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1901.77,
-  "change_24h": 1.18,
-  "market_cap": 229508732587.18442,
-  "rsi": 68.78,
+  "price": 1892.32,
+  "change_24h": 0.7,
+  "market_cap": 228361953257.44073,
+  "rsi": 67.22,
   "analysis": {
-    "elliott_wave": "ETH is currently in a wave 4 correction, with a potential wave 5 impulse expected to follow.",
-    "momentum": "The RSI of 68.78 suggests a neutral momentum, but the 1.18% 24h change indicates a slight upward trend.",
+    "elliott_wave": "ETH is currently in a corrective wave, potentially forming a triangle or a zigzag pattern, which could lead to a breakout in either direction.",
+    "momentum": "The RSI reading of 67.22 indicates a neutral momentum, suggesting that the price action is not strongly biased towards either a bullish or bearish trend.",
     "key_levels": {
       "support": [
         "$1,800",
         "$1,700"
       ],
       "resistance": [
-        "$2,000",
-        "$2,100"
+        "$1,900",
+        "$1,950"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $1,800, targeting $2,000. Set stop-loss at $1,700. Consider scaling in with 20-30% allocation.",
-    "risk_note": "A potential bearish reversal could occur if the price falls below $1,700, invalidating the current bullish trend bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider buying on a pullback to $1,800 or selling on a break above $1,900, with a stop-loss at $1,700 and a target at $2,000.",
+    "risk_note": "The 24h change of 0.70% indicates a relatively stable market, but be cautious of a potential reversal if the price fails to break above $1,900."
   },
-  "updated_at": "2026-08-17T07:41:14.095040+00:00"
+  "updated_at": "2026-08-17T08:28:20.488935+00:00"
 }

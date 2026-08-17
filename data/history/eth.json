@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T12:20:53.686285+00:00",
-    "price": 1920.39,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $1,850.00 or selling on rallies towards $2,000.00. Monitor market sentiment and adjust the plan accordingly. A break above $2,000.00 could confirm a bullish trend.",
-    "key_levels": {
-      "support": [
-        "$1,850.00",
-        "$1,800.00"
-      ],
-      "resistance": [
-        "$1,950.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 65.94
-  },
-  {
     "timestamp": "2026-08-08T13:35:59.153870+00:00",
     "price": 1917.51,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$1,900",
         "$1,950"
+      ]
+    },
+    "rsi": 41.46
+  },
+  {
+    "timestamp": "2026-08-17T02:11:30.422293+00:00",
+    "price": 1888.06,
+    "trend_bias": "bullish",
+    "trade_plan": "Buy on dips towards $1,850.00, targeting $1,920.00. Set a stop-loss at $1,800.00. Consider scaling out of positions if $1,950.00 is reached.",
+    "key_levels": {
+      "support": [
+        "$1,850.00",
+        "$1,800.00"
+      ],
+      "resistance": [
+        "$1,920.00",
+        "$1,950.00"
       ]
     },
     "rsi": 41.46

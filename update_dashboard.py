@@ -2,11 +2,13 @@ import requests
 import json
 import os
 import re
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
+COINGECKO_API_KEY = os.environ.get("COINGECKO_API_KEY")
 
 CRYPTO_ASSETS = {
     "btc": {"id": "bitcoin", "symbol": "BTC", "name": "Bitcoin"},
@@ -51,26 +53,33 @@ ASSET_KEYWORDS = {
 }
 
 
+def coingecko_get(path, params=None, retries=3):
+    """GET from CoinGecko using the Demo key, retrying on 429 rate limits."""
+    url = f"https://api.coingecko.com/api/v3/{path}"
+    headers = {"x-cg-demo-api-key": COINGECKO_API_KEY} if COINGECKO_API_KEY else {}
+    for attempt in range(1, retries + 1):
+        r = requests.get(url, params=params, headers=headers, timeout=15)
+        if r.status_code == 429 and attempt < retries:
+            wait = 10 * attempt
+            print(f"    CoinGecko rate limit (429) - waiting {wait}s, retry {attempt}/{retries - 1}...")
+            time.sleep(wait)
+            continue
+        r.raise_for_status()
+        return r.json()
+
+
 def fetch_crypto_prices():
     ids = ",".join([a["id"] for a in CRYPTO_ASSETS.values()])
-    url = (
-        "https://api.coingecko.com/api/v3/simple/price"
-        f"?ids={ids}&vs_currencies=usd"
-        "&include_24hr_change=true&include_market_cap=true"
-    )
-    r = requests.get(url, timeout=15)
-    r.raise_for_status()
-    return r.json()
+    return coingecko_get("simple/price", {
+        "ids": ids,
+        "vs_currencies": "usd",
+        "include_24hr_change": "true",
+        "include_market_cap": "true",
+    })
 
 
 def fetch_crypto_ohlc(coin_id):
-    url = (
-        f"https://api.coingecko.com/api/v3/coins/{coin_id}"
-        "/ohlc?vs_currency=usd&days=14"
-    )
-    r = requests.get(url, timeout=15)
-    r.raise_for_status()
-    return r.json()
+    return coingecko_get(f"coins/{coin_id}/ohlc", {"vs_currency": "usd", "days": 14})
 
 
 def fetch_gold_tradingview():

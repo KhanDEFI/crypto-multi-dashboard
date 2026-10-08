@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T21:17:47.904357+00:00",
-    "price": 0.697613,
-    "trend_bias": "neutral",
-    "trade_plan": "Sell on a close above $0.75, targeting $0.80. Consider buying on a close below $0.65, targeting $0.60. Monitor the 24h change for signs of reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 71.85
-  },
-  {
     "timestamp": "2026-08-08T22:15:23.436467+00:00",
     "price": 0.694729,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 23.08
+  },
+  {
+    "timestamp": "2026-10-08T17:01:49.947423+00:00",
+    "price": 1.024,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.95 support with tight stops above 1.00, or wait for a reversal signal to enter long near 0.88 support. Target the nearest resistance around 1.10 within 24-48h.",
+    "key_levels": {
+      "support": [
+        "0.95",
+        "0.88"
+      ],
+      "resistance": [
+        "1.10",
+        "1.20"
+      ]
+    },
+    "rsi": 13.45
   }
 ]

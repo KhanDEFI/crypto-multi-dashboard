@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T19:19:39.333659+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,313.41. Set a stop-loss below $4,179.88. Monitor the price action for a breakout above $4,313.41.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-08T21:17:47.904357+00:00",
     "price": 4340.67,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 64.98
+  },
+  {
+    "timestamp": "2026-10-08T15:41:01.928344+00:00",
+    "price": 4116.91,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the near\u2011flat price action and neutral RSI, hold current positions and consider a short\u2011term sell if price breaks below the $4,007.99 support, targeting $3,859.32. If price rebounds above $4,408.11, look for a long entry with a target near $4,659.56.",
+    "key_levels": {
+      "support": [
+        "$4,007.99",
+        "$3,859.32"
+      ],
+      "resistance": [
+        "$4,408.11",
+        "$4,659.56"
+      ]
+    },
+    "rsi": 38.06
   }
 ]

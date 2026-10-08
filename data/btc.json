@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 63376,
-  "change_24h": 0.56,
-  "market_cap": 1272011840774.4883,
-  "rsi": 67.72,
+  "price": 81172,
+  "change_24h": -2.49,
+  "market_cap": 1631176432038.6724,
+  "rsi": 19.51,
   "analysis": {
-    "elliott_wave": "BTC is currently in a corrective wave, potentially forming a triangle pattern within the larger bull trend.",
-    "momentum": "Momentum is neutral, with the RSI at 67.72, but the 0.56% 24h change indicates a slight upward bias.",
+    "elliott_wave": "BTC appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is retracing from recent highs and RSI is deep in oversold territory.",
+    "momentum": "Price is declining with a -2.49% 24h change and RSI at 19.51, indicating weak momentum and potential for a short\u2011term bounce but overall bearish pressure.",
     "key_levels": {
       "support": [
-        "$62,000",
-        "$60,000"
+        "$78,000",
+        "$75,500"
       ],
       "resistance": [
-        "$64,500",
-        "$65,500"
+        "$83,500",
+        "$86,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $62,000, with a target of $65,500. However, be cautious of a potential bearish reversal if price breaks below $60,000.",
-    "risk_note": "A break below $60,000 could indicate a shift in trend bias to bearish."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $78,000 support with tight stops above $79,500, targeting the next support around $75,500. If price shows a clear reversal and RSI climbs above 30, flip to a long bias targeting $83,500.",
+    "risk_note": "Watch for a rapid RSI recovery above 30 or a breakout above $83,500, which could invalidate the bearish outlook."
   },
-  "updated_at": "2026-08-17T08:28:20.488935+00:00"
+  "updated_at": "2026-10-08T15:41:01.928344+00:00"
 }

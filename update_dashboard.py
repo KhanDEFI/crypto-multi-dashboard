@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 
 CRYPTO_ASSETS = {
     "btc": {"id": "bitcoin", "symbol": "BTC", "name": "Bitcoin"},
@@ -220,10 +221,13 @@ def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="cryp
         "Content-Type": "application/json",
     }
     body = {
-        "model": "llama-3.1-8b-instant",
+        "model": GROQ_MODEL,
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 500,
+        "max_completion_tokens": 1500,
         "temperature": 0.3,
+        "reasoning_effort": "low",
+        "include_reasoning": False,
+        "response_format": {"type": "json_object"},
     }
     r = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",

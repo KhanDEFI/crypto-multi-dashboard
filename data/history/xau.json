@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T22:15:23.436467+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying XAU/USD on dips towards the support levels, with a target of $4,313.41. Monitor the price action for a breakout above $4,313.41 for further upside. A stop-loss can be set at $4,179.88.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T00:44:41.367532+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.06
+  },
+  {
+    "timestamp": "2026-10-08T22:33:59.067867+00:00",
+    "price": 4137.15,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the strong sell signal on TradingView and lack of clear momentum, consider a short position near the current price with a target at the nearest support $4,007.99. Place a stop loss just above the next resistance $4,408.11 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$4,007.99",
+        "$3,859.32"
+      ],
+      "resistance": [
+        "$4,408.11",
+        "$4,659.56"
+      ]
+    },
+    "rsi": 40.15
   }
 ]

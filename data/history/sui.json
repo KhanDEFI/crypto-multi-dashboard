@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-08T22:15:23.436467+00:00",
-    "price": 0.694729,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling on a pullback to $0.65-$0.60, targeting $0.75-$0.80. However, if the price breaks above $0.75, consider buying with a stop-loss at $0.65.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 71.85
-  },
-  {
     "timestamp": "2026-08-09T00:44:41.367532+00:00",
     "price": 0.691046,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 13.45
+  },
+  {
+    "timestamp": "2026-10-08T22:33:59.067867+00:00",
+    "price": 1.05,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight long entries near the $0.95 support with a target around $0.85, using a stop loss above $1.00. Alternatively, wait for a clear reversal candle before initiating longs.",
+    "key_levels": {
+      "support": [
+        "$0.95",
+        "$0.90"
+      ],
+      "resistance": [
+        "$1.15",
+        "$1.25"
+      ]
+    },
+    "rsi": 14.6
   }
 ]

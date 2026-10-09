@@ -399,7 +399,7 @@ def run_accuracy_evaluation(all_current_data):
             # No fresh data for this asset this run: keep its previous scores untouched
             print(f"  {asset_key.upper()} accuracy: skipped (no fresh data this run)")
             try:
-            with open(ACCURACY_FILE, "r") as f:
+                with open(ACCURACY_FILE, "r") as f:
                     accuracy[asset_key] = json.load(f).get(asset_key, {"evaluations": [], "stats": {}})
             except (IOError, json.JSONDecodeError):
                 accuracy[asset_key] = {"evaluations": [], "stats": {}}

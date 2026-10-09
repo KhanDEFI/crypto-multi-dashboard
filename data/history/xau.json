@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T02:55:04.518667+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $3,936.03 or $3,825.71, targeting $4,313.41 or $4,179.88. Monitor DXY and real yields for potential impact on gold prices.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T04:07:50.818217+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 43.77
+  },
+  {
+    "timestamp": "2026-10-09T09:43:49.080611+00:00",
+    "price": 4184.87,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the neutral momentum and sell signal on TradingView, consider a short position near the current price with a target at the nearest support around $4,008 and a stop loss above the first resistance at $4,408. Monitor real yield movements and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,007.99",
+        "$3,859.32"
+      ],
+      "resistance": [
+        "$4,408.11",
+        "$4,659.56"
+      ]
+    },
+    "rsi": 44.81
   }
 ]

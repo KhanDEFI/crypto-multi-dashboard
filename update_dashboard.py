@@ -3,6 +3,7 @@ import json
 import os
 import re
 import time
+import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
@@ -393,6 +394,16 @@ def run_accuracy_evaluation(all_current_data):
 
         with open(history_file, "r") as f:
             history = json.load(f)
+
+        if asset_key not in all_current_data:
+            # No fresh data for this asset this run: keep its previous scores untouched
+            print(f"  {asset_key.upper()} accuracy: skipped (no fresh data this run)")
+            try:
+            with open(ACCURACY_FILE, "r") as f:
+                    accuracy[asset_key] = json.load(f).get(asset_key, {"evaluations": [], "stats": {}})
+            except (IOError, json.JSONDecodeError):
+                accuracy[asset_key] = {"evaluations": [], "stats": {}}
+            continue
 
         current_price = all_current_data[asset_key]["price"]
 
@@ -930,101 +941,172 @@ def fetch_youtube_feed():
 #  MAIN
 # ══════════════════════════════════════════════════════════
 
+def unavailable_analysis(reason):
+    """Placeholder used when the AI call fails, so the price and RSI still get saved."""
+    return {
+        "elliott_wave": "AI analysis unavailable this hour.",
+        "momentum": "AI analysis unavailable this hour.",
+        "key_levels": {"support": [], "resistance": []},
+        "trend_bias": "unavailable",
+        "trade_plan": "AI analysis unavailable this hour. Price and RSI above are still live.",
+        "risk_note": f"AI error: {str(reason)[:150]}",
+    }
+
+
+def safe_ai_analysis(*args, **kwargs):
+    """Call the AI. If it fails, return the placeholder instead of crashing the run."""
+    try:
+        return get_ai_analysis(*args, **kwargs), True
+    except Exception as e:
+        print(f"  ⚠ AI analysis failed: {e}")
+        return unavailable_analysis(e), False
+
+
 def main():
     os.makedirs("data", exist_ok=True)
     os.makedirs(HISTORY_DIR, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
 
     all_current = {}
+    succeeded = []   # assets saved with fresh data
+    ai_failed = []   # assets saved, but without an AI plan
+    failed = {}      # assets skipped completely -> error message
 
+    # ── Crypto prices (one call for all 3 coins) ──
     print("Fetching crypto prices...")
-    prices = fetch_crypto_prices()
+    try:
+        prices = fetch_crypto_prices()
+    except Exception as e:
+        print(f"  ⚠ Crypto price fetch failed: {e}")
+        prices = {}
 
+    # ── Each crypto asset gets its own safety net ──
     for key, asset in CRYPTO_ASSETS.items():
         print(f"Processing {asset['symbol']}...")
-        coin = prices.get(asset["id"], {})
-        price = coin.get("usd", 0)
-        change = coin.get("usd_24h_change", 0)
-        mcap = coin.get("usd_market_cap", 0)
+        try:
+            coin = prices.get(asset["id"])
+            if not coin or not coin.get("usd"):
+                raise ValueError("no price returned by CoinGecko")
+            price = coin["usd"]
+            change = coin.get("usd_24h_change") or 0
+            mcap = coin.get("usd_market_cap") or 0
 
-        ohlc = fetch_crypto_ohlc(asset["id"])
-        rsi = calculate_rsi(ohlc)
+            try:
+                ohlc = fetch_crypto_ohlc(asset["id"])
+                rsi = calculate_rsi(ohlc)
+            except Exception as e:
+                print(f"  ⚠ RSI unavailable for {asset['symbol']}: {e}")
+                rsi = None
 
-        analysis = get_ai_analysis(asset["symbol"], price, change, mcap, rsi)
+            analysis, ai_ok = safe_ai_analysis(asset["symbol"], price, change, mcap, rsi)
+
+            output = {
+                "symbol": asset["symbol"],
+                "name": asset["name"],
+                "price": price,
+                "change_24h": round(change, 2),
+                "market_cap": mcap,
+                "rsi": rsi,
+                "analysis": analysis,
+                "updated_at": now,
+            }
+            with open(f"data/{key}.json", "w") as f:
+                json.dump(output, f, indent=2)
+            print(f"  {asset['symbol']} done - ${price:,.2f}" + ("" if ai_ok else " (no AI plan)"))
+
+            # Only real AI predictions go into history, so accuracy is never scored on a placeholder
+            if ai_ok:
+                save_history_snapshot(key, output)
+            else:
+                ai_failed.append(key)
+            all_current[key] = output
+            succeeded.append(key)
+        except Exception as e:
+            print(f"  ✗ {asset['symbol']} skipped: {e}")
+            failed[key] = str(e)
+
+    # ── Gold gets its own safety net ──
+    print("Processing XAU (Gold) via TradingView...")
+    try:
+        gold = fetch_gold_tradingview()
+        gold_price = gold["price"]
+        gold_change = gold["change_pct"]
+        gold_rsi = gold["rsi"]
+
+        extra = f"- TradingView Signal: {gold['tv_recommendation']}"
+        if gold["support"]:
+            extra += "\n- TV Pivot Support: " + ", ".join([f"${s:,.2f}" for s in gold["support"]])
+        if gold["resistance"]:
+            extra += "\n- TV Pivot Resistance: " + ", ".join([f"${r:,.2f}" for r in gold["resistance"]])
+
+        analysis, ai_ok = safe_ai_analysis(
+            "XAU", gold_price, gold_change, 0, gold_rsi,
+            asset_type="commodity", extra_context=extra
+        )
+
+        if gold["support"] or gold["resistance"]:
+            analysis["key_levels"] = {
+                "support": [f"${s:,.2f}" for s in gold["support"]],
+                "resistance": [f"${r:,.2f}" for r in gold["resistance"]],
+            }
 
         output = {
-            "symbol": asset["symbol"],
-            "name": asset["name"],
-            "price": price,
-            "change_24h": round(change, 2),
-            "market_cap": mcap,
-            "rsi": rsi,
+            "symbol": "XAU",
+            "name": "Gold",
+            "price": gold_price,
+            "change_24h": gold_change,
+            "market_cap": 0,
+            "rsi": gold_rsi,
             "analysis": analysis,
             "updated_at": now,
         }
-        with open(f"data/{key}.json", "w") as f:
+        with open("data/xau.json", "w") as f:
             json.dump(output, f, indent=2)
-        print(f"  {asset['symbol']} done - ${price:,.2f}")
+        print(f"  XAU done - ${gold_price:,.2f} | RSI: {gold_rsi} | TV: {gold['tv_recommendation']}"
+              + ("" if ai_ok else " (no AI plan)"))
 
-        # ── Save history snapshot ──
-        save_history_snapshot(key, output)
-        all_current[key] = output
+        if ai_ok:
+            save_history_snapshot("xau", output)
+        else:
+            ai_failed.append("xau")
+        all_current["xau"] = output
+        succeeded.append("xau")
+    except Exception as e:
+        print(f"  ✗ XAU skipped: {e}")
+        failed["xau"] = str(e)
 
-    print("Processing XAU (Gold) via TradingView...")
-    gold = fetch_gold_tradingview()
-    gold_price = gold["price"]
-    gold_change = gold["change_pct"]
-    gold_rsi = gold["rsi"]
-
-    extra = f"- TradingView Signal: {gold['tv_recommendation']}"
-    if gold["support"]:
-        extra += "\n- TV Pivot Support: " + ", ".join([f"${s:,.2f}" for s in gold["support"]])
-    if gold["resistance"]:
-        extra += "\n- TV Pivot Resistance: " + ", ".join([f"${r:,.2f}" for r in gold["resistance"]])
-
-    analysis = get_ai_analysis(
-        "XAU", gold_price, gold_change, 0, gold_rsi,
-        asset_type="commodity", extra_context=extra
-    )
-
-    if gold["support"] or gold["resistance"]:
-        analysis["key_levels"] = {
-            "support": [f"${s:,.2f}" for s in gold["support"]],
-            "resistance": [f"${r:,.2f}" for r in gold["resistance"]],
-        }
-
-    output = {
-        "symbol": "XAU",
-        "name": "Gold",
-        "price": gold_price,
-        "change_24h": gold_change,
-        "market_cap": 0,
-        "rsi": gold_rsi,
-        "analysis": analysis,
-        "updated_at": now,
-    }
-    with open("data/xau.json", "w") as f:
-        json.dump(output, f, indent=2)
-    print(f"  XAU done - ${gold_price:,.2f} | RSI: {gold_rsi} | TV: {gold['tv_recommendation']}")
-
-    # ── Save XAU history snapshot ──
-    save_history_snapshot("xau", output)
-    all_current["xau"] = output
-
-    # ── Run accuracy evaluation ──
+    # ── Accuracy, YouTube: each on its own safety net ──
     print("\nEvaluating prediction accuracy...")
-    run_accuracy_evaluation(all_current)
+    try:
+        run_accuracy_evaluation(all_current)
+    except Exception as e:
+        print(f"  ⚠ Accuracy evaluation failed: {e}")
 
-    # ── Fetch YouTube feed ──
-    fetch_youtube_feed()
+    try:
+        fetch_youtube_feed()
+    except Exception as e:
+        print(f"  ⚠ YouTube feed failed: {e}")
 
-    # ── Fetch X posts & analyze consensus ──
+    # ── Fetch X posts & analyze consensus (parked feature, unchanged) ──
     fetch_x_posts()
     print("\nAnalyzing X community consensus...")
     analyze_x_consensus(all_current)
 
-    print("\nAll done.")
+    # ── Run summary ──
+    print("\n══ Run summary ══")
+    print(f"  Saved:      {', '.join(a.upper() for a in succeeded) or 'none'}")
+    if ai_failed:
+        print(f"  No AI plan: {', '.join(a.upper() for a in ai_failed)}")
+        print(f"::warning title=AI analysis unavailable::{', '.join(a.upper() for a in ai_failed)} saved without an AI plan")
+    for a, err in failed.items():
+        print(f"  Failed:     {a.upper()} - {err}")
+        print(f"::warning title={a.upper()} skipped::{err[:200]}")
 
+    if not succeeded:
+        print("\n✗ Every asset failed - marking this run as FAILED.")
+        sys.exit(1)
+
+    print("\nAll done.")
 
 if __name__ == "__main__":
     main()

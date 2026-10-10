@@ -80,8 +80,18 @@ def fetch_crypto_prices():
     })
 
 
-def fetch_crypto_ohlc(coin_id):
-    return coingecko_get(f"coins/{coin_id}/ohlc", {"vs_currency": "usd", "days": 14})
+def fetch_crypto_daily_closes(coin_id, days=120):
+    """
+    Daily closing prices for RSI (see F-08). CoinGecko returns one price per day
+    (taken at 00:00 UTC) when more than 90 days are requested; keep the first
+    point of each UTC day so a "latest" extra point doesn't count as a day.
+    """
+    data = coingecko_get(f"coins/{coin_id}/market_chart", {"vs_currency": "usd", "days": days})
+    by_day = {}
+    for ts, value in data.get("prices", []):
+        day = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).date()
+        by_day.setdefault(day, value)
+    return [by_day[d] for d in sorted(by_day)]
 
 
 PIVOT_KEYS = ["S3", "S2", "S1", "Middle", "R1", "R2", "R3"]
@@ -200,8 +210,11 @@ def fetch_gold_tradingview():
         "levels_source": levels_source,
         "tv_recommendation": recommendation,
     }
-def calculate_rsi(ohlc_data, period=14):
-    closes = [candle[4] for candle in ohlc_data[-period * 2:]]
+def calculate_rsi(closes, period=14):
+    """
+    Standard Wilder RSI, the same method TradingView uses (see F-08):
+    seed with a simple average of the first `period` moves, then smooth.
+    """
     if len(closes) < period + 1:
         return None
     gains, losses = [], []
@@ -209,14 +222,15 @@ def calculate_rsi(ohlc_data, period=14):
         delta = closes[i] - closes[i - 1]
         gains.append(max(delta, 0))
         losses.append(max(-delta, 0))
-    avg_gain = sum(gains[-period:]) / period
-    avg_loss = sum(losses[-period:]) / period
+    avg_gain = sum(gains[:period]) / period
+    avg_loss = sum(losses[:period]) / period
+    for gain, loss in zip(gains[period:], losses[period:]):
+        avg_gain = (avg_gain * (period - 1) + gain) / period
+        avg_loss = (avg_loss * (period - 1) + loss) / period
     if avg_loss == 0:
-        return 100
+        return 100.0
     rs = avg_gain / avg_loss
     return round(100 - (100 / (1 + rs)), 2)
-
-
 def parse_ai_json(content):
     """Safely parse JSON from AI response, handling bad escapes."""
     if content.startswith("```"):
@@ -245,7 +259,7 @@ def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="cryp
             f"Market data:\n"
             f"- Price: ${price:,.2f} per troy ounce\n"
             f"- 24h Change: {change_24h:.2f}%\n"
-            f"- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})\n"
+            f"- RSI (14, daily): {rsi if rsi else 'N/A'} ({rsi_label})\n"
             f"{extra_context}\n\n"
             f"Note: Gold does not follow Elliott Wave theory in the same way crypto does. "
             f"Focus on classical technical patterns, macro drivers (DXY, real yields, central bank policy), "
@@ -260,7 +274,7 @@ def get_ai_analysis(symbol, price, change_24h, market_cap, rsi, asset_type="cryp
             f"- Price: ${price:,.2f}\n"
             f"- 24h Change: {change_24h:.2f}%\n"
             f"- Market Cap: ${market_cap:,.0f}\n"
-            f"- RSI (14): {rsi if rsi else 'N/A'} ({rsi_label})"
+            f"- RSI (14, daily): {rsi if rsi else 'N/A'} ({rsi_label})"
         )
 
     prompt = (
@@ -1051,8 +1065,8 @@ def main():
             mcap = coin.get("usd_market_cap") or 0
 
             try:
-                ohlc = fetch_crypto_ohlc(asset["id"])
-                rsi = calculate_rsi(ohlc)
+                closes = fetch_crypto_daily_closes(asset["id"]) + [price]   # + today's live price
+                rsi = calculate_rsi(closes)
             except Exception as e:
                 print(f"  ⚠ RSI unavailable for {asset['symbol']}: {e}")
                 rsi = None

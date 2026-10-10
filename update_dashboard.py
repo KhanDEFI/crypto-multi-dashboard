@@ -21,8 +21,9 @@ CRYPTO_ASSETS = {
 HISTORY_DIR = "data/history"
 ACCURACY_FILE = "data/accuracy.json"
 MAX_HISTORY_ENTRIES = 168  # 7 days of hourly snapshots
-LOOKBACK_HOURS = 24        # Evaluate predictions from 24h ago
-LOOKBACK_TOLERANCE_MIN = 30  # ±30 min tolerance when finding the 24h-old snapshot
+LOOKBACK_HOURS = 24        # Ideal age of a prediction when we score it
+LOOKBACK_MIN_HOURS = 20    # Accept predictions from 20h old ...
+LOOKBACK_MAX_HOURS = 28    # ... up to 28h old (GitHub run times drift, see F-12)
 
 # ── YouTube Feed Settings ────────────────────────────────
 YOUTUBE_CHANNEL_ID = "UCngIhBkikUe6e7tZTjpKK7Q"  # More Crypto Online
@@ -290,17 +291,25 @@ def save_history_snapshot(asset_key, data):
     return history
 
 
-def find_snapshot_near(history, target_time, tolerance_minutes=LOOKBACK_TOLERANCE_MIN):
-    """Find the snapshot closest to target_time within tolerance."""
+def find_snapshot_to_score(history, now, already_scored=()):
+    """
+    Pick the prediction to score this run: the snapshot whose age is closest to
+    LOOKBACK_HOURS, as long as it is between LOOKBACK_MIN_HOURS and LOOKBACK_MAX_HOURS
+    old and hasn't been scored yet. The wide window copes with GitHub's irregular
+    run times (see F-12).
+    """
     best = None
     best_delta = None
     for snap in history:
+        if snap.get("timestamp") in already_scored:
+            continue
         try:
             snap_time = datetime.fromisoformat(snap["timestamp"])
-        except (ValueError, KeyError):
+        except (ValueError, KeyError, TypeError):
             continue
-        delta = abs((snap_time - target_time).total_seconds())
-        if delta <= tolerance_minutes * 60:
+        age_hours = (now - snap_time).total_seconds() / 3600
+        if LOOKBACK_MIN_HOURS <= age_hours <= LOOKBACK_MAX_HOURS:
+            delta = abs(age_hours - LOOKBACK_HOURS)
             if best_delta is None or delta < best_delta:
                 best = snap
                 best_delta = delta
@@ -407,9 +416,6 @@ def run_accuracy_evaluation(all_current_data):
 
         current_price = all_current_data[asset_key]["price"]
 
-        # Find the 24h-old snapshot
-        old_snap = find_snapshot_near(history, target_time)
-
         # Load existing accuracy results so we accumulate over time
         existing_accuracy = {}
         if os.path.exists(ACCURACY_FILE):
@@ -420,24 +426,25 @@ def run_accuracy_evaluation(all_current_data):
                 existing_accuracy = {}
 
         prev_evals = existing_accuracy.get(asset_key, {}).get("evaluations", [])
+        already_scored = {e["prediction_time"] for e in prev_evals}
+
+        # Find a prediction made 20-28h ago that hasn't been scored yet (see F-12)
+        old_snap = find_snapshot_to_score(history, now, already_scored)
 
         if old_snap:
             evaluation = evaluate_prediction(old_snap, current_price)
             if evaluation:
-                # Deduplicate — don't re-evaluate the same prediction timestamp
-                existing_times = {e["prediction_time"] for e in prev_evals}
-                if evaluation["prediction_time"] not in existing_times:
-                    prev_evals.append(evaluation)
-                    print(f"  {asset_key.upper()} accuracy: predicted {evaluation['predicted_bias']}, "
-                          f"actual {evaluation['actual_direction']} → {evaluation['verdict']} "
-                          f"({evaluation['price_change_pct']:+.2f}%)")
-                else:
-                    print(f"  {asset_key.upper()} accuracy: already evaluated this snapshot")
+                hours = (now - datetime.fromisoformat(old_snap["timestamp"])).total_seconds() / 3600
+                evaluation["hours_elapsed"] = round(hours, 1)
+                prev_evals.append(evaluation)
+                print(f"  {asset_key.upper()} accuracy: predicted {evaluation['predicted_bias']}, "
+                      f"actual {evaluation['actual_direction']} → {evaluation['verdict']} "
+                      f"({evaluation['price_change_pct']:+.2f}% after {evaluation['hours_elapsed']}h)")
             else:
                 print(f"  {asset_key.upper()} accuracy: could not evaluate (price was 0)")
         else:
-            print(f"  {asset_key.upper()} accuracy: no 24h-old snapshot found yet")
-
+            print(f"  {asset_key.upper()} accuracy: no unscored prediction from "
+                  f"{LOOKBACK_MIN_HOURS}-{LOOKBACK_MAX_HOURS}h ago")
         # Trim to last 30 evaluations (30 days if daily, ~30 entries)
         prev_evals = prev_evals[-30:]
 

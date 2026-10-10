@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T09:26:26.885319+00:00",
-    "price": 64785,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $62,000 support, targeting $60,000. Alternatively, buy on a bounce above $65,000 resistance, aiming for $67,000. Monitor the 24h price action for confirmation.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 66.67
-  },
-  {
     "timestamp": "2026-08-09T10:20:22.992636+00:00",
     "price": 64904,
     "trend_bias": "neutral",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "83,200",
         "84,000"
+      ]
+    },
+    "rsi": 43.19
+  },
+  {
+    "timestamp": "2026-10-10T05:49:15.527018+00:00",
+    "price": 82724,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term scalp around the $82,700 level with a tight stop above $83,200; if price breaks below $81,500, look for a short entry targeting $80,800. Hold any long positions only if price decisively breaks above $84,000.",
+    "key_levels": {
+      "support": [
+        "$81,500",
+        "$80,800"
+      ],
+      "resistance": [
+        "$83,200",
+        "$84,000"
       ]
     },
     "rsi": 43.19

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T14:22:13.940990+00:00",
-    "price": 1922.7,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $1,900, targeting $2,000 resistance. Alternatively, sell on rallies towards $2,000, targeting $1,950 support. Monitor the price action for a clear breakout.",
-    "key_levels": {
-      "support": [
-        "$1,900",
-        "$1,850"
-      ],
-      "resistance": [
-        "$1,950",
-        "$2,000"
-      ]
-    },
-    "rsi": 69.98
-  },
-  {
     "timestamp": "2026-08-09T15:18:48.582525+00:00",
     "price": 1925.29,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.38
+  },
+  {
+    "timestamp": "2026-10-10T21:44:06.617316+00:00",
+    "price": 2506.76,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the 2,460 support if price holds, targeting the 2,540 resistance; set a stop just below 2,420. If price breaks below 2,420, flip to a short with a target around 2,380.",
+    "key_levels": {
+      "support": [
+        "2,460.00",
+        "2,420.00"
+      ],
+      "resistance": [
+        "2,540.00",
+        "2,580.00"
+      ]
+    },
+    "rsi": 41.33
   }
 ]

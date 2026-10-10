@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T13:39:26.841086+00:00",
-    "price": 65076,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling a portion of long positions at current levels to lock in profits, with a target to re-enter on a pullback to $63,000. Alternatively, consider going long with a stop-loss at $60,000.",
-    "key_levels": {
-      "support": [
-        "$63,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$68,500"
-      ]
-    },
-    "rsi": 70.2
-  },
-  {
     "timestamp": "2026-08-09T14:22:13.940990+00:00",
     "price": 65151,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.05
+  },
+  {
+    "timestamp": "2026-10-10T17:51:50.395654+00:00",
+    "price": 83076,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the $81,500 support if volume confirms, target the first resistance at $84,500 with a stop below $80,000. If price breaks above $84,500 with strong momentum, consider extending the target to $86,000.",
+    "key_levels": {
+      "support": [
+        "$81,500",
+        "$80,000"
+      ],
+      "resistance": [
+        "$84,500",
+        "$86,000"
+      ]
+    },
+    "rsi": 52.12
   }
 ]

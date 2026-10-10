@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T13:39:26.841086+00:00",
-    "price": 0.695226,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a pullback to $0.68 or $0.65, with a target of $0.72 or $0.75. However, be cautious of a potential bearish reversal if the price falls below $0.65.",
-    "key_levels": {
-      "support": [
-        "$0.68",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 69.36
-  },
-  {
     "timestamp": "2026-08-09T14:22:13.940990+00:00",
     "price": 0.695738,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 55.39
+  },
+  {
+    "timestamp": "2026-10-10T17:51:50.395654+00:00",
+    "price": 1.12,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the 1.05 support with a target around the 1.20 resistance. Use a stop loss just below the 0.98 level and consider scaling out at the 1.30 level if momentum holds.",
+    "key_levels": {
+      "support": [
+        "1.05",
+        "0.98"
+      ],
+      "resistance": [
+        "1.20",
+        "1.30"
+      ]
+    },
+    "rsi": 56.12
   }
 ]

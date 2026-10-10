@@ -84,6 +84,25 @@ def fetch_crypto_ohlc(coin_id):
     return coingecko_get(f"coins/{coin_id}/ohlc", {"vs_currency": "usd", "days": 14})
 
 
+PIVOT_KEYS = ["S3", "S2", "S1", "Middle", "R1", "R2", "R3"]
+
+
+def read_pivots(indicators):
+    """Pull the Classic pivot levels (S3 ... R3) out of a TradingView indicators dict."""
+    return {k: indicators.get(f"Pivot.M.Classic.{k}") for k in PIVOT_KEYS}
+
+
+def pick_levels(pivots, price, per_side=2):
+    """
+    Keep only levels that make sense for the current price (see F-05):
+    support strictly BELOW price, resistance strictly ABOVE price, nearest first.
+    """
+    values = [v for v in (pivots or {}).values() if isinstance(v, (int, float)) and v > 0]
+    support = sorted([v for v in values if v < price], reverse=True)[:per_side]
+    resistance = sorted([v for v in values if v > price])[:per_side]
+    return support, resistance
+
+
 def fetch_gold_tradingview():
     from tradingview_ta import TA_Handler, Interval
 
@@ -98,6 +117,7 @@ def fetch_gold_tradingview():
     ]
 
     analysis = None
+    used = None
     for combo in combos:
         try:
             print(f"    Trying {combo['exchange']}:{combo['symbol']} ({combo['screener']})...")
@@ -108,6 +128,7 @@ def fetch_gold_tradingview():
                 interval=Interval.INTERVAL_1_DAY,
             )
             analysis = handler.get_analysis()
+            used = combo
             print(f"    Success with {combo['exchange']}")
             break
         except Exception as e:
@@ -125,10 +146,42 @@ def fetch_gold_tradingview():
     high = indicators.get("high", 0)
     low = indicators.get("low", 0)
 
-    support_1 = indicators.get("Pivot.M.Classic.S1", None)
-    support_2 = indicators.get("Pivot.M.Classic.S2", None)
-    resistance_1 = indicators.get("Pivot.M.Classic.R1", None)
-    resistance_2 = indicators.get("Pivot.M.Classic.R2", None)
+    # TradingView picks the pivot period from the interval (see F-05):
+    #   1-day analysis  -> MONTHLY pivots (too wide for a 24-48h plan)
+    #   1-hour analysis -> WEEKLY pivots  (used for the dashboard levels)
+    monthly = read_pivots(indicators)
+    weekly = {}
+    try:
+        weekly_handler = TA_Handler(
+            symbol=used["symbol"],
+            screener=used["screener"],
+            exchange=used["exchange"],
+            interval=Interval.INTERVAL_1_HOUR,
+        )
+        weekly = read_pivots(weekly_handler.get_analysis().indicators)
+    except Exception as e:
+        print(f"    ⚠ Weekly pivots unavailable: {e}")
+
+    def show(p):
+        return " ".join(f"{k}={v:,.2f}" for k, v in p.items() if isinstance(v, (int, float))) or "none"
+    print(f"    Monthly pivots: {show(monthly)}")
+    print(f"    Weekly pivots:  {show(weekly)}")
+    has_weekly = any(isinstance(v, (int, float)) for v in weekly.values())
+    if has_weekly and weekly == monthly:
+        print("    ⚠ Weekly pivots are identical to monthly - TradingView interval mapping may have changed")
+
+    w_support, w_resistance = pick_levels(weekly, price)
+    m_support, m_resistance = pick_levels(monthly, price)
+    support = w_support or m_support          # fall back side-by-side, never wrong-side
+    resistance = w_resistance or m_resistance
+
+    sources = set()
+    if support:
+        sources.add("weekly" if w_support else "monthly")
+    if resistance:
+        sources.add("weekly" if w_resistance else "monthly")
+    levels_source = " + ".join(sorted(sources, reverse=True)) + " pivots" if sources else "none"
+    print(f"    Levels used ({levels_source}): support {support} | resistance {resistance}")
 
     summary = analysis.summary
     recommendation = summary.get("RECOMMENDATION", "NEUTRAL")
@@ -142,12 +195,11 @@ def fetch_gold_tradingview():
         "rsi": rsi,
         "high": high,
         "low": low,
-        "support": [s for s in [support_1, support_2] if s],
-        "resistance": [r for r in [resistance_1, resistance_2] if r],
+        "support": support,
+        "resistance": resistance,
+        "levels_source": levels_source,
         "tv_recommendation": recommendation,
     }
-
-
 def calculate_rsi(ohlc_data, period=14):
     closes = [candle[4] for candle in ohlc_data[-period * 2:]]
     if len(closes) < period + 1:
@@ -1042,9 +1094,9 @@ def main():
 
         extra = f"- TradingView Signal: {gold['tv_recommendation']}"
         if gold["support"]:
-            extra += "\n- TV Pivot Support: " + ", ".join([f"${s:,.2f}" for s in gold["support"]])
+            extra += f"\n- Support ({gold['levels_source']}): " + ", ".join([f"${s:,.2f}" for s in gold["support"]])
         if gold["resistance"]:
-            extra += "\n- TV Pivot Resistance: " + ", ".join([f"${r:,.2f}" for r in gold["resistance"]])
+            extra += f"\n- Resistance ({gold['levels_source']}): " + ", ".join([f"${r:,.2f}" for r in gold["resistance"]])
 
         analysis, ai_ok = safe_ai_analysis(
             "XAU", gold_price, gold_change, 0, gold_rsi,
@@ -1056,6 +1108,7 @@ def main():
                 "support": [f"${s:,.2f}" for s in gold["support"]],
                 "resistance": [f"${r:,.2f}" for r in gold["resistance"]],
             }
+            analysis["levels_source"] = gold["levels_source"]
 
         output = {
             "symbol": "XAU",

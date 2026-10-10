@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T12:22:50.526508+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying XAU/USD on dips towards $3,825.71, targeting $4,313.41. Monitor the 24h change and RSI for signs of exhaustion. A TradingView BUY signal further supports this bullish stance.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T13:39:26.841086+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 4194.81,
     "trend_bias": "bearish",
     "trade_plan": "Given the TradingView SELL signal and the proximity to the first weekly resistance at $4,239.26, consider a short position targeting the nearest support at $4,175.02. Place a stop\u2011loss just above $4,239.26 to limit upside risk. Monitor price action for a break above resistance, which would invalidate the short bias.",
+    "key_levels": {
+      "support": [
+        "$4,175.02",
+        "$4,074.90"
+      ],
+      "resistance": [
+        "$4,239.26",
+        "$4,339.38"
+      ]
+    },
+    "rsi": 45.69
+  },
+  {
+    "timestamp": "2026-10-10T12:31:46.073674+00:00",
+    "price": 4194.81,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position near the current price with a target around the first weekly support at $4,175.02 and a stop loss above the nearest resistance at $4,239.26. Monitor for reversal candlesticks before entry.",
     "key_levels": {
       "support": [
         "$4,175.02",

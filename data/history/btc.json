@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T12:22:50.526508+00:00",
-    "price": 64893,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $64,500 or buying on a bounce from the current levels. Monitor the market for a potential reversal in the next 24-48 hours. A break above $66,200 could confirm a bullish trend resumption.",
-    "key_levels": {
-      "support": [
-        "$64,500",
-        "$63,800"
-      ],
-      "resistance": [
-        "$65,500",
-        "$66,200"
-      ]
-    },
-    "rsi": 70.2
-  },
-  {
     "timestamp": "2026-08-09T13:39:26.841086+00:00",
     "price": 65076,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 50.69
+  },
+  {
+    "timestamp": "2026-10-10T12:31:46.073674+00:00",
+    "price": 82781,
+    "trend_bias": "neutral",
+    "trade_plan": "Hold current positions and consider a short\u2011term scalp if price breaks below $81,500 with a tight stop above $82,100; alternatively, look for a bounce off $84,000 resistance for a potential long entry with a stop below $83,200",
+    "key_levels": {
+      "support": [
+        "$81,500",
+        "$80,800"
+      ],
+      "resistance": [
+        "$84,000",
+        "$85,200"
+      ]
+    },
+    "rsi": 51.05
   }
 ]

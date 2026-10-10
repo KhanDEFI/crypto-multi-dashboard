@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2491.45,
-  "change_24h": -0.4,
-  "market_cap": 304260108741.49506,
-  "rsi": 39.59,
+  "price": 2494.84,
+  "change_24h": -0.15,
+  "market_cap": 304652746548.2551,
+  "rsi": 39.98,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is testing lower bounds after a modest decline.",
-    "momentum": "Price is slightly down with a 24h change of -0.40% and RSI at 39.6, indicating weakening momentum but not yet oversold.",
+    "elliott_wave": "Likely in a Wave\u202f4 corrective phase, pausing after a prior impulse move",
+    "momentum": "Price is marginally down with a -0.15% 24h change and RSI at 39.98, indicating weakening momentum but not yet oversold",
     "key_levels": {
       "support": [
-        "2450.00",
-        "2400.00"
+        "$2,450.00",
+        "$2,420.00"
       ],
       "resistance": [
-        "2550.00",
-        "2600.00"
+        "$2,500.00",
+        "$2,550.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the 2450 support if price breaks lower with confirmation, targeting the 2400 level. Alternatively, hold a small long position above 2550 on a bounce, aiming for 2600.",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push RSI above 45 and reverse the corrective trend."
+    "trade_plan": "Watch for a break below $2,500; if price falls through, consider a short targeting the $2,450 support with a stop just above $2,505. If price rebounds above $2,500, flip to a long aiming for $2,550, stopping below $2,495.",
+    "risk_note": "Unexpected bullish catalysts or macro news could reverse the short bias and push price back above $2,500"
   },
-  "updated_at": "2026-10-10T07:48:30.614776+00:00"
+  "updated_at": "2026-10-10T12:31:46.073674+00:00"
 }

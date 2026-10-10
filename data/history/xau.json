@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T08:27:22.857345+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards TV Pivot Support levels, with a target of reaching TV Pivot Resistance levels. Monitor TradingView Signal for confirmation. A 2-3% price movement is expected within the next 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T09:26:26.885319+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 4194.81,
     "trend_bias": "neutral",
     "trade_plan": "Given the TradingView SELL signal and neutral RSI, consider a short position near the current level with a target at the first support $4,007.99 and a stop above the nearest resistance $4,408.11. Monitor macro cues such as DXY strength and real yields for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,007.99",
+        "$3,859.32"
+      ],
+      "resistance": [
+        "$4,408.11",
+        "$4,659.56"
+      ]
+    },
+    "rsi": 45.69
+  },
+  {
+    "timestamp": "2026-10-10T05:35:20.929546+00:00",
+    "price": 4194.81,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the neutral momentum and TradingView SELL signal, consider a short position near the current price with a target at the first support level $4,007.99 and a stop loss just above the nearest resistance $4,408.11. Monitor real yield movements and DXY for confirmation.",
     "key_levels": {
       "support": [
         "$4,007.99",

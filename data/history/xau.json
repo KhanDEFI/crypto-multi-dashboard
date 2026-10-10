@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T10:20:22.992636+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the $3,825.71 support level, with a target of $4,313.41 resistance. Monitor the price action for potential breakouts or reversals. A 24-48h stop-loss should be set at the $3,936.03 support level.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T11:17:54.440123+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2851,6 +2834,23 @@
       "resistance": [
         "$4,408.11",
         "$4,659.56"
+      ]
+    },
+    "rsi": 45.69
+  },
+  {
+    "timestamp": "2026-10-10T06:07:29.216152+00:00",
+    "price": 4194.81,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the neutral momentum and proximity to the first weekly support, consider a short position near $4,175 with a tight stop above $4,190, targeting the next support at $4,075. If price rebounds sharply, flip to a long near $4,190 with a target at $4,240.",
+    "key_levels": {
+      "support": [
+        "$4,175.02",
+        "$4,074.90"
+      ],
+      "resistance": [
+        "$4,239.26",
+        "$4,339.38"
       ]
     },
     "rsi": 45.69

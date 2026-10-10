@@ -599,7 +599,7 @@
     script.textContent = JSON.stringify({
       "autosize": true,
       "symbol": TV_SYMBOLS[asset],
-      "interval": "60",
+      "interval": "D",
       "timezone": "Etc/UTC",
       "theme": "dark",
       "style": "1",
@@ -654,7 +654,7 @@
         <span class="price-usd">$${Number(d.price).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: priceDecimals})}</span>
         <span class="${changeClass}">${changeSign}${d.change_24h}%</span>
         <span class="bias-badge ${biasClass}">${(a.trend_bias ?? 'neutral').toUpperCase()}</span>
-        ${hasRsi ? `<span class="meta-pill">RSI ${rsi}</span>` : ''}
+        ${hasRsi ? `<span class="meta-pill">RSI ${rsi} · 1D</span>` : ''}
       </div>
 
       <div class="chart-label">// LIVE CHART</div>
@@ -673,13 +673,13 @@
 
       ${hasRsi ? `
       <div class="block-full">
-        <div class="block-label">RSI (14) — ${rsi} ${rsiClass ? '· ' + rsiClass.toUpperCase() : ''}</div>
+        <div class="block-label">RSI (14, daily) — ${rsi}
         <div class="rsi-bar-wrap">
           <div class="rsi-bar ${rsiClass}" style="width:${rsi}%"></div>
         </div>
       </div>` : `
       <div class="block-full">
-        <div class="block-label">RSI (14)</div>
+        <div class="block-label">RSI (14, daily)</div>
         <div class="block-value" style="color:#555">— Not available for this asset —</div>
       </div>`}
 

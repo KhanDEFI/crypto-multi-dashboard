@@ -822,7 +822,7 @@
               <td style="color:${actualColor};letter-spacing:1px;font-size:10px;">${(ev.actual_direction || '—').toUpperCase()}</td>
               <td>
                 <span class="${changeClass}">${changeSign}${changePct}%</span>
-                <span style="color:#444;margin-left:6px;font-size:10px;">→ ${priceNow}</span>
+                <span style="color:#444;margin-left:6px;font-size:10px;">→ ${priceNow}${ev.hours_elapsed ? ' · ' + ev.hours_elapsed + 'h' : ''}</span>
               </td>
               <td><span class="verdict ${verdictClass}">${ev.verdict}</span></td>
               <td class="plan-cell">${planShort}</td>
@@ -849,7 +849,7 @@
                     <th>Predicted at</th>
                     <th>AI Said</th>
                     <th>Actual</th>
-                    <th>Price Δ (24h)</th>
+                    <th>Price Δ (~24h)</th>
                     <th>Verdict</th>
                     <th>Trade Plan</th>
                   </tr>

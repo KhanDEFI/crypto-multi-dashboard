@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T18:20:50.589555+00:00",
-    "price": 1920.71,
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, consider selling on a break above $2,000, targeting $2,100. Alternatively, buy on a break below $1,800, targeting $1,600. Monitor the market for a clear trend direction.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,600"
-      ],
-      "resistance": [
-        "$2,000",
-        "$2,100"
-      ]
-    },
-    "rsi": 71.13
-  },
-  {
     "timestamp": "2026-08-09T19:23:13.298318+00:00",
     "price": 1920.58,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.7
+  },
+  {
+    "timestamp": "2026-10-11T18:54:30.957738+00:00",
+    "price": 2528.57,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term sell\u2011stop near 2,560 if price breaks higher, targeting the 2,460 support zone; alternatively, a long entry on a pull\u2011back to 2,460 with a tight stop above 2,500.",
+    "key_levels": {
+      "support": [
+        "2,460.00",
+        "2,420.00"
+      ],
+      "resistance": [
+        "2,560.00",
+        "2,600.00"
+      ]
+    },
+    "rsi": 43.83
   }
 ]

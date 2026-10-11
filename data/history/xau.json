@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T18:20:50.589555+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider a long position with a stop-loss below $3,825.71, targeting $4,313.41 or higher, but be cautious of a potential pullback",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T19:23:13.298318+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 4194.81,
     "trend_bias": "neutral",
     "trade_plan": "Given the TradingView SELL signal and neutral momentum, consider a short position near the current price with a target at the first weekly support $4,175.02 and a stop loss above the nearest resistance $4,239.26. Monitor real yield movements and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,175.02",
+        "$4,074.90"
+      ],
+      "resistance": [
+        "$4,239.26",
+        "$4,339.38"
+      ]
+    },
+    "rsi": 45.69
+  },
+  {
+    "timestamp": "2026-10-11T18:54:30.957738+00:00",
+    "price": 4194.81,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter a short position near the current price with a target at the first weekly support $4,175.02 and a stop above the first resistance $4,239.26. Consider scaling out if price approaches the support level within 24\u201148 hours.",
     "key_levels": {
       "support": [
         "$4,175.02",

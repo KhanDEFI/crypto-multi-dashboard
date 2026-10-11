@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T18:20:50.589555+00:00",
-    "price": 65156,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider shorting on a break below $63,000, targeting $60,000. Alternatively, consider buying on a pullback to $60,000, targeting $67,000. Monitor the market for a potential continuation of the uptrend.",
-    "key_levels": {
-      "support": [
-        "$63,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$70,000"
-      ]
-    },
-    "rsi": 74.11
-  },
-  {
     "timestamp": "2026-08-09T19:23:13.298318+00:00",
     "price": 65165,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.87
+  },
+  {
+    "timestamp": "2026-10-11T18:54:30.957738+00:00",
+    "price": 83521,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider entering a long position near the 82,800 support with a target around the 84,200 resistance. Use a stop loss just below 81,500 to manage risk. Monitor price action for any reversal signals over the next 24-48 hours.",
+    "key_levels": {
+      "support": [
+        "82,800.00",
+        "81,500.00"
+      ],
+      "resistance": [
+        "84,200.00",
+        "85,500.00"
+      ]
+    },
+    "rsi": 53.8
   }
 ]

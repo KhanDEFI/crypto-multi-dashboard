@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T15:18:48.582525+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying XAU/USD with a stop-loss below $4,179.88 and a target of $4,313.41, but be cautious of potential pullbacks to the TV Pivot Support levels.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T16:19:08.444099+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 4194.81,
     "trend_bias": "neutral",
     "trade_plan": "Given the TradingView SELL signal and neutral momentum, consider a short position near the current price with a target at the first weekly support of $4,175.02 and a stop loss above the nearest resistance at $4,239.26. Monitor macro drivers such as DXY strength and real yields for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,175.02",
+        "$4,074.90"
+      ],
+      "resistance": [
+        "$4,239.26",
+        "$4,339.38"
+      ]
+    },
+    "rsi": 45.69
+  },
+  {
+    "timestamp": "2026-10-11T01:00:30.858519+00:00",
+    "price": 4194.81,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the $4,175 support if price holds, targeting the first resistance at $4,239. Set a stop just below $4,150. If price breaks below $4,150, consider shorting towards $4,074.90.",
     "key_levels": {
       "support": [
         "$4,175.02",

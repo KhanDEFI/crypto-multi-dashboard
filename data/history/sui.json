@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T19:23:13.298318+00:00",
-    "price": 0.69748,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider selling a portion of long positions and taking profits, while maintaining a core long position with a stop-loss at $0.60 to protect against a potential pullback.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.75",
-        "$0.80"
-      ]
-    },
-    "rsi": 74.44
-  },
-  {
     "timestamp": "2026-08-09T20:17:17.475105+00:00",
     "price": 0.696338,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 1.12,
     "trend_bias": "neutral",
     "trade_plan": "Consider a short\u2011term long position near the current price with a target around $1.16 and a stop loss near $1.08. If price breaks below $1.04, shift to a defensive short stance.",
+    "key_levels": {
+      "support": [
+        "1.08",
+        "1.04"
+      ],
+      "resistance": [
+        "1.16",
+        "1.20"
+      ]
+    },
+    "rsi": 56.16
+  },
+  {
+    "timestamp": "2026-10-11T22:54:34.196697+00:00",
+    "price": 1.12,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider a short\u2011term long entry near the current price with a target around $1.16 and a stop below $1.08. If price breaks below $1.04, shift to a defensive short stance.",
     "key_levels": {
       "support": [
         "1.08",

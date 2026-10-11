@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T16:19:08.444099+00:00",
-    "price": 4340.67,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying gold with a stop below $4,179.88, targeting $4,313.41 or higher. Monitor DXY and real yields for potential shifts in safe-haven demand.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.48
-  },
-  {
     "timestamp": "2026-08-09T17:19:34.781043+00:00",
     "price": 4340.67,
     "trend_bias": "bullish",
@@ -2843,6 +2826,23 @@
     "price": 4194.81,
     "trend_bias": "bullish",
     "trade_plan": "Enter long near the $4,175 support if price holds, targeting the first resistance at $4,239. Set a stop just below $4,150. If price breaks below $4,150, consider shorting towards $4,074.90.",
+    "key_levels": {
+      "support": [
+        "$4,175.02",
+        "$4,074.90"
+      ],
+      "resistance": [
+        "$4,239.26",
+        "$4,339.38"
+      ]
+    },
+    "rsi": 45.69
+  },
+  {
+    "timestamp": "2026-10-11T07:11:58.599523+00:00",
+    "price": 4194.81,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the modest daily gain and a neutral RSI, consider a short\u2011term scalp on pullbacks toward the $4,175 support with a tight stop above the recent high. If price breaks above $4,239 on strong volume, flip to a long bias targeting $4,339.",
     "key_levels": {
       "support": [
         "$4,175.02",

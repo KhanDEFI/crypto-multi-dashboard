@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T23:18:27.500528+00:00",
-    "price": 64985,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a tight stop-loss around $62,000, targeting $67,000 for a potential 5-7% gain. Monitor the price action closely for a potential breakout or breakdown. Adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$67,000",
-        "$70,000"
-      ]
-    },
-    "rsi": 56.57
-  },
-  {
     "timestamp": "2026-08-10T00:46:41.053742+00:00",
     "price": 64790,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.15
+  },
+  {
+    "timestamp": "2026-10-13T02:34:22.667879+00:00",
+    "price": 82648,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider short positions near the upper resistance around $84,000 with tight stops above $85,500, or long positions near support at $81,500 with stops below $80,200. Target the next major resistance at $85,500 if bullish, or the next support at $80,200 if bearish.",
+    "key_levels": {
+      "support": [
+        "81,500",
+        "80,200"
+      ],
+      "resistance": [
+        "84,000",
+        "85,500"
+      ]
+    },
+    "rsi": 50.32
   }
 ]

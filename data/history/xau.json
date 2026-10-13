@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-10T03:04:03.171303+00:00",
-    "price": 4319.14,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting with a stop above $4,313.41, targeting $3,936.03. Alternatively, look for buying opportunities near $3,825.71. Monitor price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.45
-  },
-  {
     "timestamp": "2026-08-10T07:04:12.053311+00:00",
     "price": 4354.95,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.08
+  },
+  {
+    "timestamp": "2026-10-13T18:18:13.612597+00:00",
+    "price": 4159.62,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal, weak momentum and proximity to the first weekly support, consider a short position targeting the $4,104.56 level, with a stop just above the $4,156.14 support. If price rebounds above $4,160, flip to a neutral stance or consider a long near the $4,245.94 resistance for a breakout play.",
+    "key_levels": {
+      "support": [
+        "$4,156.14",
+        "$4,104.56"
+      ],
+      "resistance": [
+        "$4,245.94",
+        "$4,297.52"
+      ]
+    },
+    "rsi": 43.0
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-10T14:10:10.081788+00:00",
-    "price": 1897.82,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce above $1,900, targeting $2,000. Alternatively, sell on a break below $1,850. Monitor the price action for a potential trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1,850",
-        "$1,800"
-      ],
-      "resistance": [
-        "$1,950",
-        "$2,000"
-      ]
-    },
-    "rsi": 51.21
-  },
-  {
     "timestamp": "2026-08-10T15:46:49.117287+00:00",
     "price": 1876.38,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.99
+  },
+  {
+    "timestamp": "2026-10-14T22:18:17.974738+00:00",
+    "price": 2411.92,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight long entries near the $2,300 support with a target around $2,250 and stop above $2,340. If price rebounds sharply above $2,460, flip to a bullish breakout trade with a target near $2,520.",
+    "key_levels": {
+      "support": [
+        "$2,300.00",
+        "$2,250.00"
+      ],
+      "resistance": [
+        "$2,460.00",
+        "$2,520.00"
+      ]
+    },
+    "rsi": 37.19
   }
 ]

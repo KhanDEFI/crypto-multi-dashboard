@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-10T14:10:10.081788+00:00",
-    "price": 64633,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $62,000 for a potential bounce, with a target of $66,000. Alternatively, consider selling at $64,000 for a short-term profit. Monitor the price action for a breakout above $66,000.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$66,000",
-        "$68,000"
-      ]
-    },
-    "rsi": 52.47
-  },
-  {
     "timestamp": "2026-08-10T15:46:49.117287+00:00",
     "price": 64282,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 46.59
+  },
+  {
+    "timestamp": "2026-10-14T22:18:17.974738+00:00",
+    "price": 81598,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position near the $79,800 support with a tight stop above $80,500, targeting the next support at $78,200. Alternatively, if price rebounds above $82,500, look for a long entry with a stop below $81,800 and target $84,000.",
+    "key_levels": {
+      "support": [
+        "$79,800",
+        "$78,200"
+      ],
+      "resistance": [
+        "$82,500",
+        "$84,000"
+      ]
+    },
+    "rsi": 46.64
   }
 ]

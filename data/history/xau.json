@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-10T14:10:10.081788+00:00",
-    "price": 4324.77,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards support levels, with a target of breaking above the resistance at $4,179.88, and a stop-loss below the support at $3,825.71",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.97
-  },
-  {
     "timestamp": "2026-08-10T15:46:49.117287+00:00",
     "price": 4350.44,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.31
+  },
+  {
+    "timestamp": "2026-10-14T22:18:17.974738+00:00",
+    "price": 4104.41,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price with targets at the weekly support levels of $4,014.76 and $3,873.38. Use tight stops above the immediate resistance at $4,104.56 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$4,014.76",
+        "$3,873.38"
+      ],
+      "resistance": [
+        "$4,104.56",
+        "$4,156.14"
+      ]
+    },
+    "rsi": 38.93
   }
 ]

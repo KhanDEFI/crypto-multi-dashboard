@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2425.03,
-  "change_24h": -2.96,
-  "market_cap": 296302746791.3302,
-  "rsi": 37.99,
+  "price": 2411.92,
+  "change_24h": -3.79,
+  "market_cap": 294577167978.81494,
+  "rsi": 37.19,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price retreated from recent highs while RSI remains below 40, suggesting a developing correction.",
-    "momentum": "Price is down 2.96% with RSI at 37.99, indicating weakening momentum and potential oversold conditions in the short term.",
+    "elliott_wave": "ETH appears to be in a corrective wave (likely Wave 2) of a larger bullish impulse, with price retracing from recent highs toward the 38.2% Fibonacci level.",
+    "momentum": "Price is down 3.79% with an RSI of 37.19, indicating weakening momentum but not yet oversold, suggesting continued short-term pressure.",
     "key_levels": {
       "support": [
-        "$2,350",
-        "$2,300"
+        "$2,300.00",
+        "$2,250.00"
       ],
       "resistance": [
-        "$2,500",
-        "$2,560"
+        "$2,460.00",
+        "$2,520.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying near the $2,300 support if price holds, targeting the $2,500 resistance for a short\u2011term upside. Keep position size modest and watch for a reversal signal before the next 48h.",
-    "risk_note": "A sudden negative macro event or a sharp drop below $2,250 could trigger a deeper correction."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight long entries near the $2,300 support with a target around $2,250 and stop above $2,340. If price rebounds sharply above $2,460, flip to a bullish breakout trade with a target near $2,520.",
+    "risk_note": "Watch for a sudden reversal if the RSI drops below 30 or if major on\u2011chain metrics show a surge in inflows, which could invalidate the bearish bias."
   },
-  "updated_at": "2026-10-14T18:38:06.869100+00:00"
+  "updated_at": "2026-10-14T22:18:17.974738+00:00"
 }

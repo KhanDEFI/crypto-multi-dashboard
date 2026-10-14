@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2505.26,
-  "change_24h": 1.82,
-  "market_cap": 306003543017.34344,
-  "rsi": 43.92,
+  "price": 2503.76,
+  "change_24h": -1.14,
+  "market_cap": 305827024690.5908,
+  "rsi": 43.77,
   "analysis": {
-    "elliott_wave": "The price appears to be in an Elliott Wave 3 impulse, extending the prior wave 2 correction, but the momentum is softening, suggesting a possible transition to wave 4 soon.",
-    "momentum": "Price is modestly higher (+1.82%) while RSI at 43.9 indicates weakening bullish momentum and a neutral stance.",
+    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of a larger impulse, retracing the recent uptrend after the prior wave 1 rally.",
+    "momentum": "Price is modestly down with a -1.14% 24h change and RSI at 43.8, indicating weakening momentum but still above oversold levels.",
     "key_levels": {
       "support": [
-        "2470.00",
-        "2430.00"
+        "2,460.00",
+        "2,430.00"
       ],
       "resistance": [
-        "2540.00",
-        "2580.00"
+        "2,540.00",
+        "2,580.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term scalp near the $2,540 resistance with a tight stop at $2,550; if price breaks below $2,470, look for a short entry targeting $2,430. Monitor volume for confirmation.",
-    "risk_note": "A sudden surge in buying pressure could push RSI above 55, invalidating the bearish bias and triggering a wave 5 rally."
+    "trade_plan": "Consider short positions near the 2,460 support if price breaks lower, targeting the next support at 2,430, with a tight stop above 2,470. Alternatively, hold long if price rebounds above 2,540, aiming for the 2,580 resistance.",
+    "risk_note": "Watch for a sudden reversal if macro news or on-chain activity triggers a rapid price swing beyond current support levels."
   },
-  "updated_at": "2026-10-14T01:58:14.105825+00:00"
+  "updated_at": "2026-10-14T07:38:16.687395+00:00"
 }

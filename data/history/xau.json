@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-10T12:38:59.094945+00:00",
-    "price": 4331.41,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $3,825.71, targeting $4,313.41 resistance. Monitor TradingView Signal and pivot levels for confirmation.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.59
-  },
-  {
     "timestamp": "2026-08-10T14:10:10.081788+00:00",
     "price": 4324.77,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.67
+  },
+  {
+    "timestamp": "2026-10-14T18:38:06.869100+00:00",
+    "price": 4094.81,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the $4,014.76 support, targeting the next weekly support around $3,873.38. If price rebounds above $4,104.56, look for a quick scalp back to $4,014.76 with a tight stop. Monitor real\u2011yield spreads and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,014.76",
+        "$3,873.38"
+      ],
+      "resistance": [
+        "$4,104.56",
+        "$4,156.14"
+      ]
+    },
+    "rsi": 38.31
   }
 ]

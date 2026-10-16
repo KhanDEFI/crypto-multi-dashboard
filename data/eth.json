@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2397.8,
-  "change_24h": -2.12,
-  "market_cap": 292736779333.698,
-  "rsi": 36.96,
+  "price": 2411.66,
+  "change_24h": -1.61,
+  "market_cap": 294559196224.841,
+  "rsi": 37.85,
   "analysis": {
-    "elliott_wave": "Ethereum appears to be in a corrective wave, likely a Wave B of a larger ABC correction following a prior impulse uptrend.",
-    "momentum": "Price is slipping with a -2.12% 24h change and RSI at 36.96, indicating weakening momentum and approaching oversold territory.",
+    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave B of a larger 5\u2011wave impulse, as price is retracing from recent highs.",
+    "momentum": "Price is down 1.61% with RSI at 37.85, indicating weakening momentum but still above oversold territory.",
     "key_levels": {
       "support": [
-        "$2,350.00",
-        "$2,300.00"
+        "$2,350",
+        "$2,300"
       ],
       "resistance": [
-        "$2,450.00",
-        "$2,500.00"
+        "$2,460",
+        "$2,520"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions or protective puts near the $2,350 support, targeting the $2,300 level, with a stop just above $2,450. If price rebounds sharply, look for a quick long entry around $2,400 with a target near $2,500.",
-    "risk_note": "Watch for a sudden bullish catalyst (e.g., major protocol upgrade news) that could reverse the downtrend and invalidate the short bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider short positions near the $2,350 support with tight stops above $2,380, or wait for a bounce and go long at $2,460 resistance with stops below $2,430. Monitor price action over the next 24\u201148h for a clear break.",
+    "risk_note": "A sudden bullish catalyst could reverse the correction and push ETH back above $2,500, invalidating short bias."
   },
-  "updated_at": "2026-10-16T17:24:05.103551+00:00"
+  "updated_at": "2026-10-16T21:07:46.883539+00:00"
 }

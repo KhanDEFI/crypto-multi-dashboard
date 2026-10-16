@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T02:57:13.969489+00:00",
-    "price": 4412.46,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $3,825.71, with a target of $4,313.41. Monitor TradingView Signal and adjust accordingly. Be cautious of a potential pullback.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 68.86
-  },
-  {
     "timestamp": "2026-08-11T04:13:47.338741+00:00",
     "price": 4413.13,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 44.74
+  },
+  {
+    "timestamp": "2026-10-16T21:07:46.883539+00:00",
+    "price": 4164.07,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position if price breaks below the immediate support at $4,164.07 with a target near $4,104.56. Hold for 24\u201148\u202fhours and exit if price rebounds above $4,200 or reaches the next support.",
+    "key_levels": {
+      "support": [
+        "$4,156.14",
+        "$4,104.56"
+      ],
+      "resistance": [
+        "$4,245.94",
+        "$4,297.52"
+      ]
+    },
+    "rsi": 45.02
   }
 ]

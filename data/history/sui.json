@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T05:44:34.913662+00:00",
-    "price": 0.687765,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $0.60 with a target of $0.75, or sell on rallies above $0.72 with a stop at $0.65.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 42.94
-  },
-  {
     "timestamp": "2026-08-11T06:42:48.723166+00:00",
     "price": 0.688855,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 47.05
+  },
+  {
+    "timestamp": "2026-10-17T04:25:11.311842+00:00",
+    "price": 1.012,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider short positions or tight\u2011range scalps near the 0.96 support if price holds, targeting the 0.92 level. If price rebounds above $1.00 with volume, look for a quick long entry aiming for the 1.05 resistance.",
+    "key_levels": {
+      "support": [
+        "0.96",
+        "0.92"
+      ],
+      "resistance": [
+        "1.05",
+        "1.10"
+      ]
+    },
+    "rsi": 46.49
   }
 ]

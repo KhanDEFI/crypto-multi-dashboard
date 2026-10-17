@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2420.25,
-  "change_24h": -1.52,
-  "market_cap": 295661854279.53644,
-  "rsi": 38.42,
+  "price": 2401.66,
+  "change_24h": -0.65,
+  "market_cap": 293248757029.463,
+  "rsi": 37.12,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave 2 of a larger impulse, showing a shallow retracement after a recent upmove.",
-    "momentum": "Price is down 1.5% with RSI at 38.4, indicating weakening momentum but still above oversold levels.",
+    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of a larger impulse, with price testing the lower half of the prior wave 1 rally.",
+    "momentum": "Price is slightly down (-0.65%) while RSI at 37.12 suggests weakening momentum but not yet oversold, indicating modest bearish pressure.",
     "key_levels": {
       "support": [
-        "2390.00",
-        "2350.00"
+        "$2,350.00",
+        "$2,300.00"
       ],
       "resistance": [
-        "2500.00",
-        "2550.00"
+        "$2,440.00",
+        "$2,480.00"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the 2390 support with tight stops above 2425. If price rebounds to 2500, look for a quick scalp profit on the upside.",
-    "risk_note": "Watch for a breakout above 2500, which could flip bias to bullish and invalidate the short thesis."
+    "trade_plan": "Consider short positions or tight-range scalps near the $2,350 support, targeting the $2,300 level with a stop just above $2,380. If price rebounds above $2,440, flip to a short\u2011term long with a target near $2,480 and stop below $2,420.",
+    "risk_note": "Watch for a sudden bullish catalyst (e.g., major protocol upgrade news) that could reverse the short\u2011term downtrend and push price above $2,440."
   },
-  "updated_at": "2026-10-17T13:43:14.200779+00:00"
+  "updated_at": "2026-10-17T17:10:15.830742+00:00"
 }

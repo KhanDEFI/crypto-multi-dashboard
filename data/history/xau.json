@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T19:52:02.383571+00:00",
-    "price": 4368.76,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider going long with a stop-loss below $4,179.88 and a target above $4,313.41, but be cautious of potential price reversals.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.75
-  },
-  {
     "timestamp": "2026-08-11T20:31:25.465930+00:00",
     "price": 4369.89,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.02
+  },
+  {
+    "timestamp": "2026-10-18T23:12:14.179380+00:00",
+    "price": 4178.39,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the neutral momentum and TradingView SELL signal, consider a short position near the current price with a target at the first weekly support ($4,151.53) and a stop loss above the nearest resistance ($4,229.64). Hold for 24-48 hours while monitoring macro cues.",
+    "key_levels": {
+      "support": [
+        "$4,151.53",
+        "$4,085.83"
+      ],
+      "resistance": [
+        "$4,229.64",
+        "$4,295.34"
+      ]
+    },
+    "rsi": 46.47
   }
 ]

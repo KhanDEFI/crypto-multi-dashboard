@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 81464,
-  "change_24h": -0.02,
-  "market_cap": 1637419333189.51,
-  "rsi": 46.34,
+  "price": 81643,
+  "change_24h": 0.19,
+  "market_cap": 1641003677653.8752,
+  "rsi": 47.12,
   "analysis": {
-    "elliott_wave": "The price appears to be in a corrective wave, likely a Wave 2 of an impulse or a B\u2011wave of a Zigzag, as the market is near a flat RSI and minimal 24h change.",
-    "momentum": "Momentum is weak, with price flatlining around $81,464 and RSI at 46.34 indicating near\u2011neutral pressure.",
+    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, with price testing the lower half of the prior wave 1 range",
+    "momentum": "Price is marginally up (+0.19%) while RSI at 47 suggests neutral momentum, indicating limited buying pressure",
     "key_levels": {
       "support": [
-        "$80,800",
-        "$80,200"
+        "80,800",
+        "80,200"
       ],
       "resistance": [
-        "$82,200",
-        "$83,000"
+        "82,200",
+        "83,000"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Hold existing positions; consider buying on a dip to the $80,800 support with a tight stop just below $80,200, targeting the $82,200 resistance within 24\u201148h. Avoid new long entries if price breaks below $80,200.",
-    "risk_note": "A sudden breakout below $80,200 could trigger a deeper correction toward $78,000."
+    "trade_plan": "Watch for a break above 82,200 for a short\u2011term bullish entry; if price falls below 80,800, consider a contrarian long with a tight stop. Maintain position size modestly given the narrow momentum window.",
+    "risk_note": "A sudden shift in risk sentiment or macro news could push RSI into overbought/oversold territory, invalidating the neutral bias"
   },
-  "updated_at": "2026-10-18T01:02:16.890527+00:00"
+  "updated_at": "2026-10-18T05:53:46.203916+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2408.09,
-  "change_24h": -0.73,
-  "market_cap": 294148727232.2982,
-  "rsi": 37.97,
+  "price": 2413.74,
+  "change_24h": -0.92,
+  "market_cap": 294827147167.2523,
+  "rsi": 38.64,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is retracing from recent highs while RSI remains near oversold territory",
-    "momentum": "Price is modestly down with a -0.73% 24h move and RSI at 37.97, indicating weakening bullish momentum and potential short\u2011term downside pressure",
+    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger bullish impulse, as price is retracing from recent highs while RSI remains in neutral territory.",
+    "momentum": "Price is modestly down (-0.92%) and RSI at 38.6 suggests weakening momentum but not yet oversold, indicating limited downside pressure.",
     "key_levels": {
       "support": [
-        "$2,350.00",
-        "$2,300.00"
+        "2,380.00",
+        "2,350.00"
       ],
       "resistance": [
-        "$2,460.00",
-        "$2,500.00"
+        "2,440.00",
+        "2,470.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the $2,460 resistance if price breaks above with strong volume, targeting the nearest support at $2,350. Alternatively, hold cash and wait for a clear break below $2,350 to enter a longer\u2011term short. Keep stops tight around the breakout level.",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push RSI back above 50 and reverse the corrective bias"
+    "trade_plan": "Consider a short\u2011term sell\u2011stop at the nearest support (~$2,380) with a target near the next resistance (~$2,440). If price breaks above $2,470, flip to a bullish stance with a stop at $2,440.",
+    "risk_note": "Watch for a sudden bullish catalyst (e.g., major protocol upgrade news) that could invalidate the corrective bias."
   },
-  "updated_at": "2026-10-18T05:53:46.203916+00:00"
+  "updated_at": "2026-10-18T11:04:09.213978+00:00"
 }

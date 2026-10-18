@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 81643,
-  "change_24h": 0.19,
-  "market_cap": 1641003677653.8752,
-  "rsi": 47.12,
+  "price": 81949,
+  "change_24h": 0.48,
+  "market_cap": 1647072222954.9988,
+  "rsi": 48.39,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, with price testing the lower half of the prior wave 1 range",
-    "momentum": "Price is marginally up (+0.19%) while RSI at 47 suggests neutral momentum, indicating limited buying pressure",
+    "elliott_wave": "BTC appears to be in a 5\u2011wave impulse, likely in wave 3 as price is still rising but RSI is near neutral, suggesting momentum is building.",
+    "momentum": "Price is modestly up 0.48% with RSI at 48.4, indicating neutral momentum but slight bullish bias as price holds above recent lows.",
     "key_levels": {
       "support": [
-        "80,800",
-        "80,200"
+        "80,500",
+        "79,800"
       ],
       "resistance": [
-        "82,200",
-        "83,000"
+        "82,500",
+        "84,000"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Watch for a break above 82,200 for a short\u2011term bullish entry; if price falls below 80,800, consider a contrarian long with a tight stop. Maintain position size modestly given the narrow momentum window.",
-    "risk_note": "A sudden shift in risk sentiment or macro news could push RSI into overbought/oversold territory, invalidating the neutral bias"
+    "trend_bias": "bullish",
+    "trade_plan": "Consider a short\u2011term long position near the 80,500 support with a target around the 82,500 resistance. Use a stop loss just below 79,800 to limit downside.",
+    "risk_note": "Watch for a rapid pullback if RSI drops below 45 or if Bitcoin breaks below the 79,800 support, which could signal a shift to wave 4."
   },
-  "updated_at": "2026-10-18T05:53:46.203916+00:00"
+  "updated_at": "2026-10-18T11:04:09.213978+00:00"
 }

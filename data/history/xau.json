@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T18:42:39.174209+00:00",
-    "price": 4369.6,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a cautious approach, potentially looking to buy on dips near support levels, but prioritize risk management due to the neutral trend bias.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.83
-  },
-  {
     "timestamp": "2026-08-11T19:52:02.383571+00:00",
     "price": 4368.76,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 4164.07,
     "trend_bias": "neutral",
     "trade_plan": "Given the SELL signal and near\u2011neutral RSI, consider a short position targeting the nearest support at $4,156.14 with a tight stop above $4,170. If price rebounds, flip to a long bias aiming for the first resistance at $4,245.94. Monitor macro cues for rapid shifts.",
+    "key_levels": {
+      "support": [
+        "$4,156.14",
+        "$4,104.56"
+      ],
+      "resistance": [
+        "$4,245.94",
+        "$4,297.52"
+      ]
+    },
+    "rsi": 45.02
+  },
+  {
+    "timestamp": "2026-10-18T20:42:34.532564+00:00",
+    "price": 4164.07,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the SELL signal and modest downside bias, consider short positions near the $4,160 level with a target around $4,104. If price rebounds to $4,245, consider exiting or flipping to a short near that resistance. Keep stops just above $4,170 to limit risk.",
     "key_levels": {
       "support": [
         "$4,156.14",

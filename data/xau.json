@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4176.91,
-  "change_24h": 0.31,
+  "price": 4145.24,
+  "change_24h": -0.45,
   "market_cap": 0,
-  "rsi": 46.32,
+  "rsi": 43.47,
   "analysis": {
-    "elliott_wave": "Not applicable for gold; no clear Elliott pattern identified",
-    "momentum": "Price is marginally higher (+0.31%) with RSI at 46.32, indicating neutral momentum and no strong overbought/oversold condition",
+    "elliott_wave": "Gold is not typically analyzed with Elliott Wave; no clear wave pattern is evident at this time.",
+    "momentum": "Price is slightly down with a -0.45% 24h change and RSI at 43.47, indicating weakening momentum but still near neutral territory.",
     "key_levels": {
       "support": [
-        "$4,151.53",
-        "$4,085.83"
+        "$4,085.83",
+        "$4,007.72"
       ],
       "resistance": [
-        "$4,229.64",
-        "$4,295.34"
+        "$4,151.53",
+        "$4,229.64"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Given the modest upside and a TradingView SELL signal, consider a short position if price breaks below the nearest support at $4,171.53, targeting the next support at $4,085.83. If price holds above $4,176, a cautious long could be placed with a target near $4,229.64, using a tight stop just below $4,171.53.",
-    "risk_note": "Watch for sudden spikes in safe\u2011haven demand or a rapid rise in US real yields that could push gold higher despite short\u2011term weakness",
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price targeting the first weekly support at $4,085.83, with a stop just above the nearest resistance $4,151.53. Monitor for any reversal candlestick patterns before entry.",
+    "risk_note": "A sudden rise in safe\u2011haven demand or a dovish shift in Fed policy could quickly lift gold above $4,151.53, invalidating the short bias.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-10-19T06:17:17.781304+00:00"
+  "updated_at": "2026-10-19T14:40:27.444943+00:00"
 }

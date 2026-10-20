@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-12T09:56:37.069356+00:00",
-    "price": 0.690823,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a break above $0.70, with a target of $0.76. A stop-loss at $0.66 can help mitigate potential losses. Monitor the price action for a clear breakout.",
-    "key_levels": {
-      "support": [
-        "$0.66",
-        "$0.62"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.76"
-      ]
-    },
-    "rsi": 53.24
-  },
-  {
     "timestamp": "2026-08-12T10:53:10.692066+00:00",
     "price": 0.690108,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 49.05
+  },
+  {
+    "timestamp": "2026-10-20T23:52:21.603593+00:00",
+    "price": 1.03,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the 0.98 support with a target around 1.07 resistance. Consider scaling out at 1.07 and moving stop to break even if price holds.",
+    "key_levels": {
+      "support": [
+        "0.98",
+        "0.94"
+      ],
+      "resistance": [
+        "1.07",
+        "1.12"
+      ]
+    },
+    "rsi": 49.37
   }
 ]

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2441.21,
-  "change_24h": 1.23,
-  "market_cap": 298179886815.46783,
-  "rsi": 42.46,
+  "price": 2449.4,
+  "change_24h": 2.73,
+  "market_cap": 299348361115.7251,
+  "rsi": 43.31,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave 2 of a larger impulse, showing a shallow pullback after a modest up\u2011trend.",
-    "momentum": "Price is modestly higher (+1.23%) while RSI at 42.5 suggests weakening bullish momentum and room for further correction.",
+    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of a larger impulse, with price retracing from recent highs but still above the prior wave 1 low.",
+    "momentum": "Price is up 2.73% on the day while RSI sits at 43.31, indicating modest bullish momentum but still below the 50 neutral threshold.",
     "key_levels": {
       "support": [
-        "$2,380.00",
-        "$2,340.00"
+        "2400.00",
+        "2350.00"
       ],
       "resistance": [
-        "$2,480.00",
-        "$2,520.00"
+        "2500.00",
+        "2550.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the $2,480 resistance with a tight stop above $2,500, targeting the $2,380 support. Alternatively, if price breaks above $2,520 with strong volume, flip to a long with a stop at $2,500.",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push RSI above 55 and invalidate the corrective bias."
+    "trend_bias": "bullish",
+    "trade_plan": "Consider entering a long position near the 2400 support with a target around the 2500 resistance. Use a stop loss just below 2350 to manage downside risk.",
+    "risk_note": "Watch for a sudden drop if Bitcoin rallies sharply lower, which could pull ETH down and break support."
   },
-  "updated_at": "2026-10-21T04:46:04.965140+00:00"
+  "updated_at": "2026-10-21T10:07:53.293936+00:00"
 }

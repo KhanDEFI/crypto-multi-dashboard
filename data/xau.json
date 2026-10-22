@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4087.81,
-  "change_24h": -1.29,
+  "price": 4054.97,
+  "change_24h": -2.08,
   "market_cap": 0,
-  "rsi": 39.26,
+  "rsi": 36.95,
   "analysis": {
     "elliott_wave": "N/A - Gold is not analyzed with Elliott Wave in this context",
-    "momentum": "Price is down 1.29% with RSI at 39.26, indicating weakening momentum and approaching oversold conditions",
+    "momentum": "Price is declining with a 2.08% drop and RSI at 36.95, indicating weakening momentum but not yet oversold",
     "key_levels": {
       "support": [
-        "$4,085.83",
-        "$4,007.72"
+        "$4,007.72",
+        "$3,863.91"
       ],
       "resistance": [
-        "$4,151.53",
-        "$4,229.64"
+        "$4,085.83",
+        "$4,151.53"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the upper support at $4,085.8 with a target around $4,007.7 if price breaks lower. If price rebounds above $4,150, shift to a quick scalp long with a tight stop below $4,150.",
-    "risk_note": "Watch for a sudden rally if US dollar weakness or higher inflation expectations boost safe\u2011haven demand.",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $4,007.72, targeting the next support around $3,864. Monitor for any reversal candlestick near $4,085. If price rebounds sharply, a quick scalp near $4,085 with a tight stop at $4,100 could be viable.",
+    "risk_note": "Watch for a sudden surge in safe\u2011haven demand or a sharp DXY decline that could lift gold above $4,100, invalidating the bearish bias",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-10-22T10:10:36.093011+00:00"
+  "updated_at": "2026-10-22T15:16:33.610523+00:00"
 }

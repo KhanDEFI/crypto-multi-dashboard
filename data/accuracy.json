@@ -2,18 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-10-15T07:26:48.925948+00:00",
-        "price_at_prediction": 81032,
-        "price_now": 82104,
-        "price_change_pct": 1.32,
-        "predicted_bias": "bearish",
-        "actual_direction": "bullish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider short positions near the 78,500 support with a target around 77,000, or tight scalp trades on pullbacks to 81,500. Maintain tight stops above 79,200 to limit downside risk.",
-        "levels_hit": [],
-        "hours_elapsed": 23.7
-      },
-      {
         "prediction_time": "2026-10-15T13:26:13.353971+00:00",
         "price_at_prediction": 80344,
         "price_now": 82278,
@@ -420,37 +408,31 @@
         "trade_plan": "Consider a long entry near $80,500 with a target around $84,500. If price retests support, add to the position, but exit if it falls below $78,000. Monitor for a breakout above $86,200 for a larger upside move",
         "levels_hit": [],
         "hours_elapsed": 23.4
+      },
+      {
+        "prediction_time": "2026-10-21T04:46:04.965140+00:00",
+        "price_at_prediction": 82685,
+        "price_now": 82717,
+        "price_change_pct": 0.04,
+        "predicted_bias": "bullish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Consider entering a long position near the 81,500 support with a target around the 83,200 resistance. Use a stop loss just below 80,800 to manage risk. Monitor price action for any reversal signals.",
+        "levels_hit": [],
+        "hours_elapsed": 24.0
       }
     ],
     "stats": {
       "total": 30,
       "correct": 23,
-      "partial": 0,
-      "incorrect": 7,
+      "partial": 1,
+      "incorrect": 6,
       "accuracy_pct": 76.7,
-      "updated_at": "2026-10-21T23:18:45.366652+00:00"
+      "updated_at": "2026-10-22T04:44:34.006884+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-15T07:26:48.925948+00:00",
-        "price_at_prediction": 2365.53,
-        "price_now": 2449.55,
-        "price_change_pct": 3.55,
-        "predicted_bias": "bearish",
-        "actual_direction": "bullish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider short positions near the $2,420 resistance with tight stops above $2,440, or buy on dips near $2,250 with targets around $2,380. Monitor price action over the next 24\u201148h for breakout confirmation",
-        "levels_hit": [
-          {
-            "level": "$2,420.00",
-            "type": "resistance",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 23.7
-      },
       {
         "prediction_time": "2026-10-15T13:26:13.353971+00:00",
         "price_at_prediction": 2344.98,
@@ -862,31 +844,31 @@
         "trade_plan": "Consider a short\u2011term long position if price breaks above $2,500 with confirmation, targeting the $2,560 resistance; otherwise, stay flat or protect with a stop near $2,380.",
         "levels_hit": [],
         "hours_elapsed": 23.4
+      },
+      {
+        "prediction_time": "2026-10-21T04:46:04.965140+00:00",
+        "price_at_prediction": 2441.21,
+        "price_now": 2439.5,
+        "price_change_pct": -0.07,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a short position near the $2,480 resistance with a tight stop above $2,500, targeting the $2,380 support. Alternatively, if price breaks above $2,520 with strong volume, flip to a long with a stop at $2,500.",
+        "levels_hit": [],
+        "hours_elapsed": 24.0
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 18,
+      "correct": 19,
       "partial": 1,
-      "incorrect": 11,
-      "accuracy_pct": 60.0,
-      "updated_at": "2026-10-21T23:18:45.366652+00:00"
+      "incorrect": 10,
+      "accuracy_pct": 63.3,
+      "updated_at": "2026-10-22T04:44:34.006884+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-15T07:26:48.925948+00:00",
-        "price_at_prediction": 0.989525,
-        "price_now": 1.043,
-        "price_change_pct": 5.4,
-        "predicted_bias": "bearish",
-        "actual_direction": "bullish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider short positions or tight long entries near the 0.92 support with a target around 0.85, using a stop just above 0.95. If price rebounds to 1.05, evaluate a breakout long with a target near 1.12.",
-        "levels_hit": [],
-        "hours_elapsed": 23.7
-      },
       {
         "prediction_time": "2026-10-15T13:26:13.353971+00:00",
         "price_at_prediction": 0.969219,
@@ -1264,6 +1246,18 @@
         "trade_plan": "Enter long near the 0.98 support with a target around 1.07 resistance. Consider scaling out at 1.07 and moving stop to break even if price holds.",
         "levels_hit": [],
         "hours_elapsed": 23.4
+      },
+      {
+        "prediction_time": "2026-10-21T04:46:04.965140+00:00",
+        "price_at_prediction": 1.024,
+        "price_now": 1.001,
+        "price_change_pct": -2.25,
+        "predicted_bias": "bullish",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider entering long positions near the 0.98 support with a target around 1.06 resistance. Use a stop loss just below 0.94 to manage risk.",
+        "levels_hit": [],
+        "hours_elapsed": 24.0
       }
     ],
     "stats": {
@@ -1272,29 +1266,11 @@
       "partial": 3,
       "incorrect": 18,
       "accuracy_pct": 30.0,
-      "updated_at": "2026-10-21T23:18:45.366652+00:00"
+      "updated_at": "2026-10-22T04:44:34.006884+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-15T07:26:48.925948+00:00",
-        "price_at_prediction": 4143.44,
-        "price_now": 4181.97,
-        "price_change_pct": 0.93,
-        "predicted_bias": "neutral",
-        "actual_direction": "bullish",
-        "verdict": "CORRECT",
-        "trade_plan": "Given the TradingView SELL signal and lack of strong momentum, consider short positions near the upper resistance $4,156.14 with a target at the first support $4,104.56. Use a tight stop above $4,170 to protect against a sudden rally.",
-        "levels_hit": [
-          {
-            "level": "$4,156.14",
-            "type": "resistance",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 23.7
-      },
       {
         "prediction_time": "2026-10-15T13:26:13.353971+00:00",
         "price_at_prediction": 4155.46,
@@ -1672,6 +1648,18 @@
         "trade_plan": "Consider short positions near the 4151.53 resistance with a target at the 4085.83 support. If price breaks below 4085.83, look for a deeper sell-off toward 4007.72. Keep stops just above the nearest resistance level.",
         "levels_hit": [],
         "hours_elapsed": 23.4
+      },
+      {
+        "prediction_time": "2026-10-21T04:46:04.965140+00:00",
+        "price_at_prediction": 4116.35,
+        "price_now": 4090.03,
+        "price_change_pct": -0.64,
+        "predicted_bias": "bearish",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Given the SELL signal and weakening momentum, consider short positions near the current price with targets at the nearest support of $4,085.83. If price rebounds above $4,120, exit or flip to a neutral stance.",
+        "levels_hit": [],
+        "hours_elapsed": 24.0
       }
     ],
     "stats": {
@@ -1680,7 +1668,7 @@
       "partial": 15,
       "incorrect": 0,
       "accuracy_pct": 50.0,
-      "updated_at": "2026-10-21T23:18:45.366652+00:00"
+      "updated_at": "2026-10-22T04:44:34.006884+00:00"
     }
   }
 }

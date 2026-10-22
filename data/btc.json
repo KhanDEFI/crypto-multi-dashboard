@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 81415,
-  "change_24h": -3.73,
-  "market_cap": 1636320848928.0083,
-  "rsi": 46.3,
+  "price": 81266,
+  "change_24h": -3.56,
+  "market_cap": 1632442584802.969,
+  "rsi": 45.82,
   "analysis": {
-    "elliott_wave": "The price appears to be in a corrective wave 2 of a larger impulse, showing a shallow retracement after the previous peak.",
-    "momentum": "Price is declining modestly with a -3.73% 24h change while RSI at 46.3 suggests weakening but not yet oversold momentum.",
+    "elliott_wave": "The price appears to be in a corrective wave 2 of an impulse, retracing from the recent wave 1 peak around $84k toward the prior wave 0 support.",
+    "momentum": "Price is down 3.56% with RSI at 45.8, indicating weakening momentum but still near neutral territory.",
     "key_levels": {
       "support": [
-        "$78,800",
-        "$77,200"
+        "$78,500",
+        "$76,000"
       ],
       "resistance": [
-        "$82,500",
-        "$84,000"
+        "$84,000",
+        "$86,500"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $78,800 support with tight stops above $80,200, targeting the next support around $77,200. If price rebounds above $81,500, flip to a small long targeting $82,500.",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could reverse the downtrend and push price above $82,000."
+    "trade_plan": "Consider short positions near the $78,500 support with a target around $76,000, or a tight scalp if price rebounds to $84,000 resistance. Use stop\u2011loss just above $79,500 to protect against a sudden reversal.",
+    "risk_note": "Watch for a breakout above $84,000 which could flip momentum and invalidate the bearish bias."
   },
-  "updated_at": "2026-10-22T15:16:33.610523+00:00"
+  "updated_at": "2026-10-22T19:14:56.139450+00:00"
 }

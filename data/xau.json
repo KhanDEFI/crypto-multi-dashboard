@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4029.15,
-  "change_24h": 0.12,
+  "price": 4015.92,
+  "change_24h": -0.2,
   "market_cap": 0,
-  "rsi": 35.6,
+  "rsi": 34.49,
   "analysis": {
-    "elliott_wave": "Not applicable; gold is better analyzed with classical patterns rather than Elliott Wave.",
-    "momentum": "Price is marginally higher with a 0.12% gain and RSI at 35.6, indicating weak upside momentum and slight oversold conditions.",
+    "elliott_wave": "Not applicable; gold\u2019s price action does not conform to Elliott Wave patterns in the short term.",
+    "momentum": "Price is marginally lower with a -0.20% 24h change and RSI at 34.5, indicating weakening momentum and approaching oversold territory.",
     "key_levels": {
       "support": [
         "$4,007.72",
@@ -19,9 +19,9 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Given the STRONG_SELL signal and weak momentum, consider short positions near the current price with targets at the first support level of $4,007.72. If price rebounds above $4,050, exit short and look for a possible long entry toward the next support at $3,863.91.",
-    "risk_note": "Watch for a sudden rise in safe-haven demand or a sharp DXY decline that could invalidate the bearish bias.",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $4,007.7, targeting the next support around $3,864. Maintain tight stops above $4,020 to limit downside risk.",
+    "risk_note": "A sudden rise in safe\u2011haven demand or a sharp drop in the DXY could reverse the bias and push gold back above $4,020.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-10-22T22:22:02.910355+00:00"
+  "updated_at": "2026-10-23T01:31:08.388010+00:00"
 }

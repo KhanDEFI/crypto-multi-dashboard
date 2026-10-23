@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-12T22:27:10.175955+00:00",
-    "price": 63446,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on a breakout above $65,000 with a target of $67,000. Sell on a breakdown below $62,000 with a stop-loss at $60,000. Monitor the 24h chart for a clear trend direction.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$65,000",
-        "$67,000"
-      ]
-    },
-    "rsi": 29.38
-  },
-  {
     "timestamp": "2026-08-12T23:27:33.183606+00:00",
     "price": 63327,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.93
+  },
+  {
+    "timestamp": "2026-10-23T01:31:08.388010+00:00",
+    "price": 81393,
+    "trend_bias": "neutral",
+    "trade_plan": "Watch for a break below $78,500 to confirm a short\u2011term corrective leg; if price holds and rebounds toward $83,000, consider a long entry near $79,500 with a target around $85,500. Adjust position size based on volatility.",
+    "key_levels": {
+      "support": [
+        "$78,500",
+        "$76,000"
+      ],
+      "resistance": [
+        "$83,000",
+        "$85,500"
+      ]
+    },
+    "rsi": 46.29
   }
 ]

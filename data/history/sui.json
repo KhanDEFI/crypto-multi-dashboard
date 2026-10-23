@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T05:25:27.501906+00:00",
-    "price": 0.687015,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce from the $0.66 support level, with a target of $0.75 resistance. Alternatively, shorting at $0.72 resistance could be a viable option. Monitor the price action closely for signs of a breakout.",
-    "key_levels": {
-      "support": [
-        "$0.66",
-        "$0.63"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 47.73
-  },
-  {
     "timestamp": "2026-08-13T07:07:12.581425+00:00",
     "price": 0.690567,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 45.7
+  },
+  {
+    "timestamp": "2026-10-23T22:10:30.536949+00:00",
+    "price": 0.974876,
+    "trend_bias": "neutral",
+    "trade_plan": "Hold existing positions and consider a small long entry near the 0.92 support if price stabilizes, targeting the 1.02 resistance. If price breaks below 0.88, shift to a short bias with a tight stop above 0.90.",
+    "key_levels": {
+      "support": [
+        "0.92",
+        "0.88"
+      ],
+      "resistance": [
+        "1.02",
+        "1.08"
+      ]
+    },
+    "rsi": 43.79
   }
 ]

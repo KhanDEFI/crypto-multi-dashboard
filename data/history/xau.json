@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T00:55:30.862061+00:00",
-    "price": 4429.38,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards the support levels, targeting the $4,313.41 resistance; set a stop-loss below the $4,179.88 pivot.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 68.7
-  },
-  {
     "timestamp": "2026-08-13T03:21:01.622531+00:00",
     "price": 4408.17,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.78
+  },
+  {
+    "timestamp": "2026-10-23T13:26:38.284963+00:00",
+    "price": 4027.23,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position near the current price with a target around the first weekly support at $4,007.72 and a stop loss just above the nearest resistance at $4,085.83. Monitor real yield movements and DXY strength for confirmation.",
+    "key_levels": {
+      "support": [
+        "$4,007.72",
+        "$3,863.91"
+      ],
+      "resistance": [
+        "$4,085.83",
+        "$4,151.53"
+      ]
+    },
+    "rsi": 35.38
   }
 ]

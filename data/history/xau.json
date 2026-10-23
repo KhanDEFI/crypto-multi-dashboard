@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-12T23:27:33.183606+00:00",
-    "price": 4408.78,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry above $4,179.88, targeting $4,313.41. Alternatively, a sell entry below $3,936.03 could be explored. Monitor the price action for a clear breakout.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 67.69
-  },
-  {
     "timestamp": "2026-08-13T00:55:30.862061+00:00",
     "price": 4429.38,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.49
+  },
+  {
+    "timestamp": "2026-10-23T07:31:55.869659+00:00",
+    "price": 4020.5,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position if price breaks below the current level of $4,020.50, targeting the first weekly support at $4,007.72 with a stop above $4,085.83. If price rebounds, look for a quick scalp long near $4,007.72 aiming for $4,085.83.",
+    "key_levels": {
+      "support": [
+        "$4,007.72",
+        "$3,863.91"
+      ],
+      "resistance": [
+        "$4,085.83",
+        "$4,151.53"
+      ]
+    },
+    "rsi": 34.78
   }
 ]

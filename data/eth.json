@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2388.81,
-  "change_24h": -3.54,
-  "market_cap": 291929670622.85645,
-  "rsi": 38.89,
+  "price": 2401.28,
+  "change_24h": -1.03,
+  "market_cap": 293343829170.1928,
+  "rsi": 40.39,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely wave 2 of a larger impulse, as price has retraced from recent highs while RSI remains below 40.",
-    "momentum": "Price is down 3.5% over 24h and RSI at 38.9 suggests weakening momentum, indicating short-term bearish pressure.",
+    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of a larger impulse, retracing from recent highs toward the 1.618 Fibonacci of the prior rally.",
+    "momentum": "Price is modestly down (-1.03%) and RSI at 40.39 suggests weakening momentum but still above oversold levels, indicating room for a short-term bounce.",
     "key_levels": {
       "support": [
-        "$2,300.00",
-        "$2,250.00"
+        "$2,350.00",
+        "$2,300.00"
       ],
       "resistance": [
-        "$2,420.00",
-        "$2,470.00"
+        "$2,450.00",
+        "$2,500.00"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions or tight long entries near $2,300 with stop loss above $2,420. Target the $2,250 support level for profit taking within the next 24-48 hours.",
-    "risk_note": "A sudden bullish catalyst or macro news could reverse the downtrend and break resistance, invalidating the short bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the $2,350 support with a target around $2,450, using a tight stop below $2,300. If price breaks below $2,300, flip to a short bias targeting $2,250.",
+    "risk_note": "Watch for a sudden bearish catalyst such as a major protocol exploit or adverse regulatory news that could drive ETH below $2,300 quickly."
   },
-  "updated_at": "2026-10-23T01:31:08.388010+00:00"
+  "updated_at": "2026-10-23T07:31:55.869659+00:00"
 }

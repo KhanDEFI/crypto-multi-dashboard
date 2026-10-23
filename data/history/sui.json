@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-12T23:27:33.183606+00:00",
-    "price": 0.677835,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy order around $0.65 for a potential bounce, with a stop-loss at $0.60 and a target at $0.75. Alternatively, a sell order can be placed around $0.72 for a potential decline, with a stop-loss at $0.75 and a target at $0.60.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 41.77
-  },
-  {
     "timestamp": "2026-08-13T00:55:30.862061+00:00",
     "price": 0.683525,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 44.14
+  },
+  {
+    "timestamp": "2026-10-23T07:31:55.869659+00:00",
+    "price": 0.995573,
+    "trend_bias": "neutral",
+    "trade_plan": "Hold current positions and watch for a breakout above $1.02 or a drop below $0.97. If price breaches resistance with volume, consider a short-term long; if it falls through support, look for a defensive short or exit.",
+    "key_levels": {
+      "support": [
+        "0.97",
+        "0.94"
+      ],
+      "resistance": [
+        "1.02",
+        "1.05"
+      ]
+    },
+    "rsi": 46.27
   }
 ]

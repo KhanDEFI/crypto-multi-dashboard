@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T10:04:35.108552+00:00",
-    "price": 4384.34,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $3,825.71, but wait for a clear breakout above $4,313.41 for confirmation",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 65.2
-  },
-  {
     "timestamp": "2026-08-13T11:36:32.818308+00:00",
     "price": 4388.39,
     "trend_bias": "neutral",
@@ -2840,6 +2823,22 @@
     "price": 3998.02,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions near the $3,998 level with a target at the $3,864 support. If price rebounds sharply, look for a quick long entry around $4,010 with a profit target near $4,086. Manage stops tightly given the volatile safe\u2011haven dynamics.",
+    "key_levels": {
+      "support": [
+        "$3,863.91"
+      ],
+      "resistance": [
+        "$4,007.72",
+        "$4,085.83"
+      ]
+    },
+    "rsi": 33.42
+  },
+  {
+    "timestamp": "2026-10-24T10:59:11.767898+00:00",
+    "price": 3998.02,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the $3,900\u2011$3,864 region, targeting the $3,863.91 support. If price rebounds above $4,000, tighten stops and look for a quick scalp toward the $4,007.72 resistance.",
     "key_levels": {
       "support": [
         "$3,863.91"

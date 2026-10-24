@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T07:07:12.581425+00:00",
-    "price": 1894.78,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,850.00, targeting $1,950.00. Set stop-loss at $1,800.00. Monitor for a potential breakout above $2,000.00.",
-    "key_levels": {
-      "support": [
-        "$1,850.00",
-        "$1,800.00"
-      ],
-      "resistance": [
-        "$1,950.00",
-        "$2,000.00"
-      ]
-    },
-    "rsi": 52.97
-  },
-  {
     "timestamp": "2026-08-13T08:59:27.464463+00:00",
     "price": 1887.7,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.93
+  },
+  {
+    "timestamp": "2026-10-24T00:42:03.155570+00:00",
+    "price": 2370.12,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position if price breaks below $2,300 with a target near $2,250, or a long entry on a bounce above $2,400 aiming for $2,450. Keep positions small given the tight range.",
+    "key_levels": {
+      "support": [
+        "$2,300.00",
+        "$2,250.00"
+      ],
+      "resistance": [
+        "$2,400.00",
+        "$2,450.00"
+      ]
+    },
+    "rsi": 37.29
   }
 ]

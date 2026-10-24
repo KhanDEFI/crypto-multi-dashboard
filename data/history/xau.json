@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T07:07:12.581425+00:00",
-    "price": 4377.58,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards the TV Pivot Support levels, but wait for a clear breakout above $4,313.41 for confirmation",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.54
-  },
-  {
     "timestamp": "2026-08-13T08:59:27.464463+00:00",
     "price": 4375.05,
     "trend_bias": "bearish",
@@ -2842,6 +2825,22 @@
     "price": 3998.02,
     "trend_bias": "bearish",
     "trade_plan": "Consider a short position around $3998 targeting the $3863.9 support level; place a stop just above the nearest resistance at $4007.7. If price rebounds above $4010, flip to a short on pull\u2011back or exit the trade.",
+    "key_levels": {
+      "support": [
+        "$3,863.91"
+      ],
+      "resistance": [
+        "$4,007.72",
+        "$4,085.83"
+      ]
+    },
+    "rsi": 33.42
+  },
+  {
+    "timestamp": "2026-10-24T00:42:03.155570+00:00",
+    "price": 3998.02,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the $3,950 level, targeting the primary support at $3,863.9. If price rebounds sharply above $4,000, look for a quick scalp back to $3,950.",
     "key_levels": {
       "support": [
         "$3,863.91"

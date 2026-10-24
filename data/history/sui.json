@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T08:59:27.464463+00:00",
-    "price": 0.688369,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $0.67, with a target of $0.75. Set a stop-loss at $0.65 to limit potential losses. Monitor the market for signs of increased momentum.",
-    "key_levels": {
-      "support": [
-        "$0.67",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 54.06
-  },
-  {
     "timestamp": "2026-08-13T10:04:35.108552+00:00",
     "price": 0.689542,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 41.31
+  },
+  {
+    "timestamp": "2026-10-24T05:53:07.556276+00:00",
+    "price": 0.957887,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.96 level with targets at the 0.88 and 0.82 supports, or hold cash if price breaks below 0.82. If price rebounds above 1.00, flip to a cautious long with a tight stop.",
+    "key_levels": {
+      "support": [
+        "0.88",
+        "0.82"
+      ],
+      "resistance": [
+        "1.00",
+        "1.08"
+      ]
+    },
+    "rsi": 42.05
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T08:59:27.464463+00:00",
-    "price": 4375.05,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider selling on a bounce off support levels, targeting resistance levels for a potential short-term reversal. However, be cautious of a potential safe-haven demand surge in response to market volatility. Monitor the situation closely for a potential entry.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.29
-  },
-  {
     "timestamp": "2026-08-13T10:04:35.108552+00:00",
     "price": 4384.34,
     "trend_bias": "neutral",
@@ -2841,6 +2824,22 @@
     "price": 3998.02,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions or protective puts if price breaks below the $3,950 level, targeting the primary support at $3,863.9. If price rebounds sharply above $4,000, look for a quick scalp back to $3,950.",
+    "key_levels": {
+      "support": [
+        "$3,863.91"
+      ],
+      "resistance": [
+        "$4,007.72",
+        "$4,085.83"
+      ]
+    },
+    "rsi": 33.42
+  },
+  {
+    "timestamp": "2026-10-24T05:53:07.556276+00:00",
+    "price": 3998.02,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $3,998 level with a target at the $3,864 support. If price rebounds sharply, look for a quick long entry around $4,010 with a profit target near $4,086. Manage stops tightly given the volatile safe\u2011haven dynamics.",
     "key_levels": {
       "support": [
         "$3,863.91"

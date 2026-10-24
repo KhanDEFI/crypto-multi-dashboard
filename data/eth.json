@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2344.94,
-  "change_24h": -2.34,
-  "market_cap": 286351274930.68665,
-  "rsi": 35.41,
+  "price": 2343.35,
+  "change_24h": -0.7,
+  "market_cap": 286207532586.9752,
+  "rsi": 35.3,
   "analysis": {
-    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of a larger impulse, with price retracing from recent highs and showing signs of a potential wave 3 setup if bullish momentum resumes.",
-    "momentum": "Price is down 2.34% with an RSI of 35.41, indicating weakening momentum and approaching oversold conditions, suggesting limited upside in the short term.",
+    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of an impulse, showing a shallow pullback after a prior rally.",
+    "momentum": "Price is modestly down with a 0.70% decline and RSI at 35.3, indicating weakening momentum but still above oversold territory.",
     "key_levels": {
       "support": [
-        "$2,250.00",
-        "$2,180.00"
+        "2,300.00",
+        "2,250.00"
       ],
       "resistance": [
-        "$2,380.00",
-        "$2,440.00"
+        "2,380.00",
+        "2,420.00"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider a short position or tight-range trade near the $2,250 support, targeting the $2,180 level with a stop just above $2,300. If price breaks above $2,380 with volume, flip to a bullish entry targeting $2,440.",
-    "risk_note": "Watch for a sudden reversal if RSI drops below 30 or if major on-chain metrics show inflows, which could invalidate the bearish bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Target the nearest support around $2,300 with a stop just below $2,250; consider a short entry if price breaks below $2,250 and retests, aiming for the next resistance near $2,380.",
+    "risk_note": "Watch for a sudden bullish reversal if Bitcoin rallies strongly or macro news shifts risk sentiment."
   },
-  "updated_at": "2026-10-24T20:49:05.951773+00:00"
+  "updated_at": "2026-10-24T23:14:03.990014+00:00"
 }

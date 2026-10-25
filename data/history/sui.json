@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T21:32:35.111121+00:00",
-    "price": 0.686961,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.67 or $0.65, with a target of $0.72 or $0.75. However, be cautious of a potential bearish reversal if the price breaks below $0.65.",
-    "key_levels": {
-      "support": [
-        "$0.67",
-        "$0.65"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 45.14
-  },
-  {
     "timestamp": "2026-08-13T22:28:40.481121+00:00",
     "price": 0.688591,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.04
+  },
+  {
+    "timestamp": "2026-10-25T22:33:06.558026+00:00",
+    "price": 0.923927,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short-term scalp near the 0.88 support with a tight stop above 0.92; if price breaks above 0.96, look for a breakout long with a target near 1.02. Monitor volume for confirmation.",
+    "key_levels": {
+      "support": [
+        "0.88",
+        "0.84"
+      ],
+      "resistance": [
+        "0.96",
+        "1.02"
+      ]
+    },
+    "rsi": 38.85
   }
 ]

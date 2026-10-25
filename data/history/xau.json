@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T21:32:35.111121+00:00",
-    "price": 4351.16,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider selling on a break below $4,179.88, targeting $3,936.03 support. Alternatively, look for a bounce off current levels to buy into $4,313.41 resistance.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 62.09
-  },
-  {
     "timestamp": "2026-08-13T22:28:40.481121+00:00",
     "price": 4356.82,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 33.42
+  },
+  {
+    "timestamp": "2026-10-25T22:33:06.558026+00:00",
+    "price": 3999.72,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the flat price action and sell signal, consider a short position near the current price with a target at the nearest support $3,918.63 and a stop above $4,054.58. Monitor for any breakout or reversal cues within the next 24-48 hours.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 33.63
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T18:44:28.694317+00:00",
-    "price": 4357.81,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry above $4,313.41, targeting $4,313.41 or higher. Alternatively, monitor for a potential breakdown below $3,825.71, considering a short entry.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 62.69
-  },
-  {
     "timestamp": "2026-08-13T19:49:01.584737+00:00",
     "price": 4348.19,
     "trend_bias": "bearish",
@@ -2833,6 +2816,22 @@
     "price": 3998.02,
     "trend_bias": "bearish",
     "trade_plan": "Consider a short position around the current $3,998 level with a target near the $3,864 support. Place a stop\u2011loss just above the nearest resistance at $4,008. Monitor for any reversal candlestick patterns before entry.",
+    "key_levels": {
+      "support": [
+        "$3,863.91"
+      ],
+      "resistance": [
+        "$4,007.72",
+        "$4,085.83"
+      ]
+    },
+    "rsi": 33.42
+  },
+  {
+    "timestamp": "2026-10-25T11:28:13.815693+00:00",
+    "price": 3998.02,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the weekly support of $3,863.91, targeting the next resistance at $4,007.72 as a stop\u2011loss level. If price rebounds above $3,950, look for a quick scalp back to $3,900 with tight risk management.",
     "key_levels": {
       "support": [
         "$3,863.91"

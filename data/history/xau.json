@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-13T22:28:40.481121+00:00",
-    "price": 4356.82,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards TV Pivot Support levels, with a target of $4,313.41. Monitor TradingView Signal confirmation for potential entry points. Be cautious of potential pullbacks.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 62.42
-  },
-  {
     "timestamp": "2026-08-13T23:28:44.248771+00:00",
     "price": 4360.8,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 33.63
+  },
+  {
+    "timestamp": "2026-10-26T01:09:46.449678+00:00",
+    "price": 3987.77,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current level around $3,987, targeting the nearest weekly support at $3,918.63. Use a stop\u2011loss just above the next resistance $4,054.58 to manage risk. Monitor for reversal candlesticks before entry.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 32.78
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T05:22:25.824824+00:00",
-    "price": 4318.13,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards the TV Pivot Support levels, with a target of $4,313.41. However, be cautious of a potential bearish breakout if price falls below $3,825.71. Monitor the situation closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 59.07
-  },
-  {
     "timestamp": "2026-08-14T07:03:37.941651+00:00",
     "price": 4335.01,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 35.06
+  },
+  {
+    "timestamp": "2026-10-26T23:53:12.593128+00:00",
+    "price": 4005.28,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price with a target at the nearest support $3,918.63. Place a stop just above the next resistance $4,054.58 to manage risk. Monitor for any reversal candlestick patterns before entry.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 34.91
   }
 ]

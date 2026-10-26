@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 80131,
-  "change_24h": -0.24,
-  "market_cap": 1610910896020.3633,
-  "rsi": 41.99,
+  "price": 80000,
+  "change_24h": -0.64,
+  "market_cap": 1608242933468.0334,
+  "rsi": 41.41,
   "analysis": {
     "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, showing a shallow pullback after the recent rally.",
-    "momentum": "Price is marginally down with a 0.24% decline and RSI at 41.99, indicating weak momentum and a neutral stance.",
+    "momentum": "Price is slightly down with a 24h change of -0.64% and RSI at 41.41, indicating weak momentum but not yet oversold.",
     "key_levels": {
       "support": [
-        "79,500",
-        "78,800"
+        "78,500",
+        "77,000"
       ],
       "resistance": [
-        "80,500",
-        "81,200"
+        "81,200",
+        "82,500"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the 80,500 resistance with a tight stop above 81,200, targeting the 79,500 support. Alternatively, wait for a clear breakout before committing.",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push BTC above 81,200, invalidating the short bias."
+    "trade_plan": "Consider a short position near the 78,500 support with a tight stop above 79,200, targeting the 77,000 level. Alternatively, if price rebounds above 80,500, look for a long entry with a stop below 79,800 and target 81,200.",
+    "risk_note": "Watch for a breakout above 82,000 which could flip bias to bullish and invalidate the corrective wave premise."
   },
-  "updated_at": "2026-10-26T13:05:19.959600+00:00"
+  "updated_at": "2026-10-26T19:19:19.284240+00:00"
 }

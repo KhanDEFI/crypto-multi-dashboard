@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2311.63,
-  "change_24h": -0.43,
-  "market_cap": 282309131158.11926,
-  "rsi": 32.86,
+  "price": 2301.63,
+  "change_24h": -1.22,
+  "market_cap": 281183210780.79736,
+  "rsi": 32.12,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely wave 2 of an impulse, as price is retracing after a modest decline",
-    "momentum": "Price is slightly down with a 0.43% drop and RSI at 32.86, indicating weakening momentum but not yet oversold",
+    "elliott_wave": "Wave 3 impulse appears to be concluding, suggesting a potential transition to a corrective wave.",
+    "momentum": "Price is slipping below recent highs and RSI at 32 indicates weakening momentum, hinting at near\u2011term downside pressure.",
     "key_levels": {
       "support": [
-        "2,260.00",
-        "2,210.00"
+        "2250",
+        "2200"
       ],
       "resistance": [
-        "2,340.00",
-        "2,380.00"
+        "2350",
+        "2400"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the upper resistance if price breaks above $2,340 with a tight stop below $2,320, or a long entry near $2,260 with a stop below $2,210; target the next resistance zone around $2,340",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push RSI into oversold territory and reverse the short bias"
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 2250 support with tight stops above 2300, targeting the 2200 level. If price rebounds sharply, look for a quick long entry around 2300 with a target near 2350.",
+    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push RSI above 40 and reverse the downtrend."
   },
-  "updated_at": "2026-10-27T05:04:17.927447+00:00"
+  "updated_at": "2026-10-27T10:33:44.141434+00:00"
 }

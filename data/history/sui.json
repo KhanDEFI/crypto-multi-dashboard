@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T07:03:37.941651+00:00",
-    "price": 0.677642,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position if price breaks above $0.72, targeting $0.75. Otherwise, wait for a clear bullish signal or a strong bearish reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 50.83
-  },
-  {
     "timestamp": "2026-08-14T08:55:12.557332+00:00",
     "price": 0.680126,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.02
+  },
+  {
+    "timestamp": "2026-10-27T05:04:17.927447+00:00",
+    "price": 0.909501,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.88 support with tight stops above 0.95 resistance, or wait for a bounce off 0.84 to enter a contrarian long with a target near 0.95. Monitor price action over the next 24\u201148h for a clear break.",
+    "key_levels": {
+      "support": [
+        "0.88",
+        "0.84"
+      ],
+      "resistance": [
+        "0.95",
+        "1.00"
+      ]
+    },
+    "rsi": 37.47
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T07:03:37.941651+00:00",
-    "price": 4335.01,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry on a bounce from the $3,936.03 support level, targeting $4,313.41 resistance. Monitor the price action for a clear breakout or reversal. A stop loss below $3,825.71 is recommended.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 60.57
-  },
-  {
     "timestamp": "2026-08-14T08:55:12.557332+00:00",
     "price": 4346.97,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 34.91
+  },
+  {
+    "timestamp": "2026-10-27T05:04:17.927447+00:00",
+    "price": 4011.38,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price targeting the nearest support at $3,918.63, with a stop above the recent high around $4,050. If price rebounds sharply, flip to a quick scalp long targeting $4,054.58, using a tight stop below $4,020.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 35.32
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T09:49:22.295416+00:00",
-    "price": 1871.46,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term traders may consider shorting ETH around current levels, targeting $1,800 support. Long-term investors may consider buying the dip, but should set a stop-loss around $1,600 to limit potential losses.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 46.32
-  },
-  {
     "timestamp": "2026-08-14T10:45:38.062432+00:00",
     "price": 1874.42,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 32.12
+  },
+  {
+    "timestamp": "2026-10-27T16:38:50.526450+00:00",
+    "price": 2348.36,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the 2,300 support with a target near 2,380 resistance; if price breaks below 2,250, shift to a defensive short or exit.",
+    "key_levels": {
+      "support": [
+        "2,300.00",
+        "2,250.00"
+      ],
+      "resistance": [
+        "2,380.00",
+        "2,420.00"
+      ]
+    },
+    "rsi": 37.65
   }
 ]

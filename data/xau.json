@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3996.37,
-  "change_24h": -0.51,
+  "price": 4059.97,
+  "change_24h": 1.07,
   "market_cap": 0,
-  "rsi": 34.32,
+  "rsi": 40.69,
   "analysis": {
-    "elliott_wave": "Not applicable; gold is not analyzed with Elliott Wave in this context",
-    "momentum": "Price is slightly lower with a 0.51% decline and RSI at 34.32, indicating weakening momentum and approaching oversold territory",
+    "elliott_wave": "Not applicable; gold is better analyzed with classical patterns rather than Elliott Wave.",
+    "momentum": "Price is modestly higher (+1.07%) with RSI at 40.7, indicating slight upward momentum but still below neutral 50, suggesting limited bullish strength.",
     "key_levels": {
       "support": [
-        "$3,918.63",
-        "$3,839.53"
+        "$4,054.58",
+        "$3,918.63"
       ],
       "resistance": [
-        "$4,054.58",
-        "$4,133.68"
+        "$4,133.68",
+        "$4,269.63"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $3,918.63, targeting the next support at $3,839.53. If price rebounds above $4,054.58, look for a quick scalp back to $3,996.37 level.",
-    "risk_note": "Watch for a sudden shift in US dollar index or real yield spikes that could reverse the downside quickly",
+    "trend_bias": "neutral",
+    "trade_plan": "Given the TradingView SELL signal and modest price rise, consider short positions near the current price with a target at the first weekly support $4,054.58. Place a stop above the nearest resistance $4,133.68 to manage risk.",
+    "risk_note": "Watch for a rapid rise in real yields or a strengthening DXY, which could accelerate downside, while a sudden safe-haven rally could break above resistance.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-10-27T10:33:44.141434+00:00"
+  "updated_at": "2026-10-27T16:38:50.526450+00:00"
 }

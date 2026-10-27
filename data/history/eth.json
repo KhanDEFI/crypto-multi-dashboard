@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T10:45:38.062432+00:00",
-    "price": 1874.42,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $1,800, targeting $2,000. Sell on rallies above $1,900, aiming for $1,700. Monitor the 24h change for signs of trend reversal.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 46.32
-  },
-  {
     "timestamp": "2026-08-14T11:34:40.787021+00:00",
     "price": 1875.65,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.65
+  },
+  {
+    "timestamp": "2026-10-27T21:18:52.803927+00:00",
+    "price": 2341.69,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the 2300 support with a target around 2400, using a stop loss just below 2250. If price breaks below 2250, flip to a short with a target near 2150.",
+    "key_levels": {
+      "support": [
+        "2300.00",
+        "2250.00"
+      ],
+      "resistance": [
+        "2400.00",
+        "2450.00"
+      ]
+    },
+    "rsi": 36.71
   }
 ]

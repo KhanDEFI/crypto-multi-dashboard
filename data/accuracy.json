@@ -1287,24 +1287,6 @@
   "xau": {
     "evaluations": [
       {
-        "prediction_time": "2026-10-21T19:18:55.781738+00:00",
-        "price_at_prediction": 4118.59,
-        "price_now": 4027.86,
-        "price_change_pct": -2.2,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider short positions near the current price with a target around the first weekly support at $4,085.83. Place a stop loss just above the nearest resistance $4,151.53 to manage risk. Monitor macro cues such as DXY strength and real yield movements for confirmation.",
-        "levels_hit": [
-          {
-            "level": "$4,085.83",
-            "type": "support",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 23.9
-      },
-      {
         "prediction_time": "2026-10-21T23:18:41.425209+00:00",
         "price_at_prediction": 4127.2,
         "price_now": 4029.15,
@@ -1741,6 +1723,18 @@
           }
         ],
         "hours_elapsed": 23.4
+      },
+      {
+        "prediction_time": "2026-10-27T21:18:52.803927+00:00",
+        "price_at_prediction": 4060.31,
+        "price_now": 4067.19,
+        "price_change_pct": 0.17,
+        "predicted_bias": "neutral",
+        "actual_direction": "neutral",
+        "verdict": "CORRECT",
+        "trade_plan": "Given the modest rise and neutral RSI, consider a short\u2011term sell on break below the current price of $4,060.31 with a target at the weekly support $4,054.58. If price holds above $4,060, watch for a retest of $4,133.68 as a potential upside entry.",
+        "levels_hit": [],
+        "hours_elapsed": 23.8
       }
     ],
     "stats": {
@@ -1749,7 +1743,7 @@
       "partial": 16,
       "incorrect": 4,
       "accuracy_pct": 33.3,
-      "updated_at": "2026-10-28T16:02:02.752697+00:00"
+      "updated_at": "2026-10-28T21:04:38.247184+00:00"
     }
   }
 }

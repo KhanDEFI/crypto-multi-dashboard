@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T14:05:49.033983+00:00",
-    "price": 4391.54,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying gold with a target of $4,313.41 resistance, with a stop-loss at $4,179.88. Monitor the price action closely for any signs of reversal. A break above $4,313.41 could lead to further gains.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.32
-  },
-  {
     "timestamp": "2026-08-14T15:39:21.994781+00:00",
     "price": 4387.11,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 40.69
+  },
+  {
+    "timestamp": "2026-10-28T08:31:03.661305+00:00",
+    "price": 4051.26,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal and modest downside bias, consider short positions near the current price with targets at the first support level of $3,918.63. If price rebounds sharply above $4,054.58, flip to a short\u2011cover or long bias with a target near $4,133.68.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 40.03
   }
 ]

@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4059.83,
-  "change_24h": -0.01,
+  "price": 4051.26,
+  "change_24h": -0.22,
   "market_cap": 0,
-  "rsi": 40.69,
+  "rsi": 40.03,
   "analysis": {
-    "elliott_wave": "Gold is not exhibiting a clear Elliott Wave pattern; price is in a short\u2011term corrective phase.",
-    "momentum": "Price is marginally down with a -0.01% 24h change and RSI at 40.69, indicating weakening momentum but still above oversold territory.",
+    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified.",
+    "momentum": "Price is slightly down with a -0.22% 24h change and RSI at 40, indicating weakening momentum but still above oversold levels.",
     "key_levels": {
       "support": [
-        "$4,054.58",
-        "$3,918.63"
+        "$3,918.63",
+        "$3,839.53"
       ],
       "resistance": [
-        "$4,133.68",
-        "$4,269.63"
+        "$4,054.58",
+        "$4,133.68"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $4,054.58 support if price breaks lower, targeting the next support at $3,918.63. Keep stops just above the $4,054.58 level to manage risk.",
-    "risk_note": "Watch for a sudden rally if the US dollar weakens or real yields drop, which could reverse the short bias.",
+    "trade_plan": "Given the sell signal and modest downside bias, consider short positions near the current price with targets at the first support level of $3,918.63. If price rebounds sharply above $4,054.58, flip to a short\u2011cover or long bias with a target near $4,133.68.",
+    "risk_note": "Watch for a sudden rise in safe\u2011haven demand or a dovish shift in Fed policy that could lift gold above $4,050 quickly.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-10-28T01:21:25.956050+00:00"
+  "updated_at": "2026-10-28T08:31:03.661305+00:00"
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T15:39:21.994781+00:00",
-    "price": 4387.11,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards TV Pivot Support levels, targeting $4,313.41 resistance. Set stop-loss below $3,825.71. Consider scaling out of positions if price reaches $4,313.41.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.08
-  },
-  {
     "timestamp": "2026-08-14T17:42:28.212728+00:00",
     "price": 4380.21,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 40.03
+  },
+  {
+    "timestamp": "2026-10-28T16:01:57.498211+00:00",
+    "price": 4041.9,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $3,918.63, targeting the next support around $3,839.53. If price rebounds above $4,054.58, look for a quick scalp on the upside with a tight stop below $4,040.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 39.34
   }
 ]

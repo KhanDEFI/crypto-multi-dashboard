@@ -2,24 +2,6 @@
   "btc": {
     "evaluations": [
       {
-        "prediction_time": "2026-10-21T23:18:41.425209+00:00",
-        "price_at_prediction": 84309,
-        "price_now": 81299,
-        "price_change_pct": -3.57,
-        "predicted_bias": "bullish",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider entering long positions near the $82,500 support with a target around $86,000; tighten stops just below $80,000 and adjust if price breaches $88,500 resistance.",
-        "levels_hit": [
-          {
-            "level": "$82,500",
-            "type": "support",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 23.1
-      },
-      {
         "prediction_time": "2026-10-22T04:44:30.222914+00:00",
         "price_at_prediction": 82717,
         "price_now": 81393,
@@ -430,37 +412,31 @@
         "trade_plan": "Consider a short\u2011term long position near the $78,800 support with a target around $81,200, using a tight stop just below $78,300. If price breaks below $77,500, flip to a short stance targeting $75,000.",
         "levels_hit": [],
         "hours_elapsed": 23.6
+      },
+      {
+        "prediction_time": "2026-10-28T08:31:03.661305+00:00",
+        "price_at_prediction": 81310,
+        "price_now": 79882,
+        "price_change_pct": -1.76,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Consider a short\u2011term scalp or tight\u2011range trade: sell near the $82,500 resistance if price stalls, and target the $79,800 support; place a stop just above $83,200. If price breaks above $84,000, shift to a bullish bias with a longer stop.",
+        "levels_hit": [],
+        "hours_elapsed": 22.6
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 24,
+      "correct": 25,
       "partial": 3,
-      "incorrect": 3,
-      "accuracy_pct": 80.0,
-      "updated_at": "2026-10-29T00:56:02.306393+00:00"
+      "incorrect": 2,
+      "accuracy_pct": 83.3,
+      "updated_at": "2026-10-29T07:05:18.883375+00:00"
     }
   },
   "eth": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-21T23:18:41.425209+00:00",
-        "price_at_prediction": 2479.78,
-        "price_now": 2384.64,
-        "price_change_pct": -3.84,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider a short\u2011term scalp or tight\u2011range trade, targeting the near support at $2,430 if price dips, or the resistance at $2,520 on a bounce; keep position size small and use a 1\u20112% stop. Monitor price action over the next 24\u201148h for a breakout direction.",
-        "levels_hit": [
-          {
-            "level": "$2,430.00",
-            "type": "support",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 23.1
-      },
       {
         "prediction_time": "2026-10-22T04:44:30.222914+00:00",
         "price_at_prediction": 2439.5,
@@ -849,6 +825,18 @@
         "trade_plan": "Consider a short\u2011term long position near the 2,300 support with a target around 2,380 resistance, using a tight stop just below 2,250. If price breaks below 2,250, flip to a short stance targeting 2,200.",
         "levels_hit": [],
         "hours_elapsed": 23.6
+      },
+      {
+        "prediction_time": "2026-10-28T08:31:03.661305+00:00",
+        "price_at_prediction": 2370.19,
+        "price_now": 2310.82,
+        "price_change_pct": -2.5,
+        "predicted_bias": "bullish",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Enter a long position near the $2,300 support with a target around $2,420. If price breaks above $2,420, consider extending the target to $2,500. Place a stop loss just below $2,250.",
+        "levels_hit": [],
+        "hours_elapsed": 22.6
       }
     ],
     "stats": {
@@ -857,29 +845,11 @@
       "partial": 5,
       "incorrect": 8,
       "accuracy_pct": 56.7,
-      "updated_at": "2026-10-29T00:56:02.306393+00:00"
+      "updated_at": "2026-10-29T07:05:18.883375+00:00"
     }
   },
   "sui": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-21T23:18:41.425209+00:00",
-        "price_at_prediction": 1.033,
-        "price_now": 0.974753,
-        "price_change_pct": -5.64,
-        "predicted_bias": "neutral",
-        "actual_direction": "bearish",
-        "verdict": "INCORRECT",
-        "trade_plan": "Consider a short\u2011term long position if price breaks above the $1.07 resistance with volume confirmation, targeting the next resistance near $1.12. If price falls back below $0.98 support, look for a quick scalp short to the $0.94 level.",
-        "levels_hit": [
-          {
-            "level": "0.98",
-            "type": "support",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 23.1
-      },
       {
         "prediction_time": "2026-10-22T04:44:30.222914+00:00",
         "price_at_prediction": 1.001,
@@ -1245,6 +1215,18 @@
         "trade_plan": "Consider a short\u2011term scalp near the 0.96 resistance; if price breaks above, target 1.02 with a tight stop at 0.94. Conversely, if price falls back to 0.88 support, look for a bounce and set a modest long entry around 0.90 with a stop at 0.86.",
         "levels_hit": [],
         "hours_elapsed": 23.6
+      },
+      {
+        "prediction_time": "2026-10-28T08:31:03.661305+00:00",
+        "price_at_prediction": 0.941802,
+        "price_now": 0.908107,
+        "price_change_pct": -3.58,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "INCORRECT",
+        "trade_plan": "Consider a short\u2011term scalp near the 0.94 level with a tight stop at 0.96; if price breaks below 0.88, look for a deeper sell-off, otherwise target the 0.98 resistance for a quick profit",
+        "levels_hit": [],
+        "hours_elapsed": 22.6
       }
     ],
     "stats": {
@@ -1253,29 +1235,11 @@
       "partial": 3,
       "incorrect": 12,
       "accuracy_pct": 50.0,
-      "updated_at": "2026-10-29T00:56:02.306393+00:00"
+      "updated_at": "2026-10-29T07:05:18.883375+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-22T04:44:30.222914+00:00",
-        "price_at_prediction": 4090.03,
-        "price_now": 4015.92,
-        "price_change_pct": -1.81,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $4,085.83, targeting the next support around $4,007.72. If price rebounds above $4,151.53, look for a quick scalp back to the $4,090 level.",
-        "levels_hit": [
-          {
-            "level": "$4,085.83",
-            "type": "support",
-            "hit": true
-          }
-        ],
-        "hours_elapsed": 20.8
-      },
       {
         "prediction_time": "2026-10-22T10:10:36.093011+00:00",
         "price_at_prediction": 4087.81,
@@ -1707,15 +1671,27 @@
           }
         ],
         "hours_elapsed": 23.6
+      },
+      {
+        "prediction_time": "2026-10-28T08:31:03.661305+00:00",
+        "price_at_prediction": 4051.26,
+        "price_now": 4035.5,
+        "price_change_pct": -0.39,
+        "predicted_bias": "bearish",
+        "actual_direction": "neutral",
+        "verdict": "PARTIAL",
+        "trade_plan": "Given the sell signal and modest downside bias, consider short positions near the current price with targets at the first support level of $3,918.63. If price rebounds sharply above $4,054.58, flip to a short\u2011cover or long bias with a target near $4,133.68.",
+        "levels_hit": [],
+        "hours_elapsed": 22.6
       }
     ],
     "stats": {
       "total": 30,
-      "correct": 10,
-      "partial": 16,
+      "correct": 9,
+      "partial": 17,
       "incorrect": 4,
-      "accuracy_pct": 33.3,
-      "updated_at": "2026-10-29T00:56:02.306393+00:00"
+      "accuracy_pct": 30.0,
+      "updated_at": "2026-10-29T07:05:18.883375+00:00"
     }
   }
 }

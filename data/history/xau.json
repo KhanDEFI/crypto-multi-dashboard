@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T19:40:08.946555+00:00",
-    "price": 4376.51,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,313.41. However, be cautious of potential sell-offs if the RSI surpasses 70. Monitor the DXY and real yields for further guidance.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.52
-  },
-  {
     "timestamp": "2026-08-14T20:19:12.405532+00:00",
     "price": 4373.57,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 39.12
+  },
+  {
+    "timestamp": "2026-10-29T07:05:03.897713+00:00",
+    "price": 4035.5,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $3,918.6, targeting the next support around $3,839.5. If price rebounds above $4,054.6, look for a quick scalp back to $4,035.5 with a tight stop above $4,060.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 38.98
   }
 ]

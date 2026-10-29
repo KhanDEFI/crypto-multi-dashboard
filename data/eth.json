@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2326.68,
-  "change_24h": 0.04,
-  "market_cap": 284055744752.7773,
-  "rsi": 36.18,
+  "price": 2311.74,
+  "change_24h": -2.22,
+  "market_cap": 282528943592.52545,
+  "rsi": 34.96,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is flat and RSI is near oversold territory",
-    "momentum": "Price action is flat with a marginal 0.04% rise and RSI at 36.18, indicating weak bullish momentum but still neutral overall",
+    "elliott_wave": "Potentially in a corrective wave 2 of a larger impulse, as price has retraced from recent highs and RSI is approaching oversold territory.",
+    "momentum": "Negative momentum evident from the -2.22% 24h move and RSI at 34.96, indicating weakening buying pressure but not yet oversold.",
     "key_levels": {
       "support": [
-        "$2,300",
-        "$2,260"
+        "2250.00",
+        "2200.00"
       ],
       "resistance": [
-        "$2,350",
-        "$2,380"
+        "2350.00",
+        "2400.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Hold current positions; if price breaks above $2,350 with volume, consider a short\u2011term long, but if it falls below $2,300, look for a short entry with tight stops. Monitor RSI for any shift toward oversold/overbought.",
-    "risk_note": "Watch for a sudden drop in on\u2011chain activity or macro news that could push ETH below $2,260, triggering a deeper correction."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or put spreads near the 2250 support if price holds, targeting the 2200 level. If price breaks above 2350 with volume, flip to a bullish breakout trade targeting 2400.",
+    "risk_note": "Watch for a rapid reversal if bullish volume spikes or macro news lifts risk appetite, which could invalidate the short bias."
   },
-  "updated_at": "2026-10-29T14:18:43.103430+00:00"
+  "updated_at": "2026-10-29T20:17:36.729549+00:00"
 }

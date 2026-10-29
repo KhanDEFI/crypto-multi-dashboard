@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T21:13:36.107637+00:00",
-    "price": 4376.29,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy position based on the TradingView Signal: BUY, but maintain a cautious approach due to the neutral momentum and potential for a pullback.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-14T22:10:00.545625+00:00",
     "price": 4376.29,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 38.3
+  },
+  {
+    "timestamp": "2026-10-29T20:17:36.729549+00:00",
+    "price": 4027.18,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $3,918.6, targeting the next support around $3,839.5. If price rebounds sharply above $4,054.6, look for a quick scalp back to $4,030.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 38.36
   }
 ]

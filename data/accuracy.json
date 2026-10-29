@@ -421,7 +421,7 @@
       "partial": 3,
       "incorrect": 2,
       "accuracy_pct": 83.3,
-      "updated_at": "2026-10-29T14:18:47.065757+00:00"
+      "updated_at": "2026-10-29T20:17:40.972090+00:00"
     }
   },
   "eth": {
@@ -828,7 +828,7 @@
       "partial": 5,
       "incorrect": 7,
       "accuracy_pct": 60.0,
-      "updated_at": "2026-10-29T14:18:47.065757+00:00"
+      "updated_at": "2026-10-29T20:17:40.972090+00:00"
     }
   },
   "sui": {
@@ -1218,23 +1218,11 @@
       "partial": 3,
       "incorrect": 11,
       "accuracy_pct": 53.3,
-      "updated_at": "2026-10-29T14:18:47.065757+00:00"
+      "updated_at": "2026-10-29T20:17:40.972090+00:00"
     }
   },
   "xau": {
     "evaluations": [
-      {
-        "prediction_time": "2026-10-22T15:16:33.610523+00:00",
-        "price_at_prediction": 4054.97,
-        "price_now": 4027.23,
-        "price_change_pct": -0.68,
-        "predicted_bias": "bearish",
-        "actual_direction": "bearish",
-        "verdict": "CORRECT",
-        "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $4,007.72, targeting the next support around $3,864. Monitor for any reversal candlestick near $4,085. If price rebounds sharply, a quick scalp near $4,085 with a tight stop at $4,100 could be viable.",
-        "levels_hit": [],
-        "hours_elapsed": 22.2
-      },
       {
         "prediction_time": "2026-10-22T19:14:56.139450+00:00",
         "price_at_prediction": 4027.86,
@@ -1660,6 +1648,24 @@
         "trade_plan": "Consider short positions or protective puts if price breaks below the nearest support at $3,918.63, targeting the next support around $3,839.53. If price rebounds above $4,054.58, look for a quick scalp on the upside with a tight stop below $4,040.",
         "levels_hit": [],
         "hours_elapsed": 22.3
+      },
+      {
+        "prediction_time": "2026-10-28T21:04:26.941778+00:00",
+        "price_at_prediction": 4067.19,
+        "price_now": 4027.18,
+        "price_change_pct": -0.98,
+        "predicted_bias": "neutral",
+        "actual_direction": "bearish",
+        "verdict": "CORRECT",
+        "trade_plan": "Given the modest upside and a TradingView SELL signal, consider a short position near the current price with a target at the first weekly support $4,064.58 and a stop just above the nearest resistance $4,133.68. Hold for 24\u201148\u202fhours and adjust if price breaches either level.",
+        "levels_hit": [
+          {
+            "level": "$4,054.58",
+            "type": "support",
+            "hit": true
+          }
+        ],
+        "hours_elapsed": 23.2
       }
     ],
     "stats": {
@@ -1668,7 +1674,7 @@
       "partial": 18,
       "incorrect": 4,
       "accuracy_pct": 26.7,
-      "updated_at": "2026-10-29T14:18:47.065757+00:00"
+      "updated_at": "2026-10-29T20:17:40.972090+00:00"
     }
   }
 }

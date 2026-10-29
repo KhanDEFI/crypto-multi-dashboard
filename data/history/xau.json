@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T20:19:12.405532+00:00",
-    "price": 4373.57,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider a long position with a target of $4,313.41 and a stop-loss at $3,825.71. Monitor the price action closely for a breakout or reversal. A strong DXY or rising real yields could impact gold's price.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.36
-  },
-  {
     "timestamp": "2026-08-14T21:13:36.107637+00:00",
     "price": 4376.29,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 38.98
+  },
+  {
+    "timestamp": "2026-10-29T14:18:43.103430+00:00",
+    "price": 4026.35,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price with targets at the first weekly support of $3,918.63 and the second at $3,839.53. Use a tight stop just above the nearest resistance $4,054.58 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 38.3
   }
 ]

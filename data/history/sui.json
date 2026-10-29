@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T19:40:08.946555+00:00",
-    "price": 0.677039,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider selling SUI around current levels ($0.68) with a stop-loss at $0.72. A target of $0.60 can be set for a potential short trade. Monitor the price action closely for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 37.77
-  },
-  {
     "timestamp": "2026-08-14T20:19:12.405532+00:00",
     "price": 0.678133,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.47
+  },
+  {
+    "timestamp": "2026-10-29T14:18:43.103430+00:00",
+    "price": 0.931922,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position near the 0.96 resistance if price breaks above with volume, targeting the 0.88 support. Alternatively, a tight long entry around 0.90 with a stop below 0.84 could capture a bounce.",
+    "key_levels": {
+      "support": [
+        "0.88",
+        "0.84"
+      ],
+      "resistance": [
+        "0.96",
+        "1.02"
+      ]
+    },
+    "rsi": 41.04
   }
 ]

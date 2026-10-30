@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T23:10:07.526141+00:00",
-    "price": 0.677753,
-    "trend_bias": "bearish",
-    "trade_plan": "Sell on strength, targeting $0.60. Consider short positions with a stop-loss at $0.72. Monitor RSI for signs of oversold conditions.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.75"
-      ]
-    },
-    "rsi": 35.22
-  },
-  {
     "timestamp": "2026-08-15T00:31:29.797387+00:00",
     "price": 0.682726,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 38.95
+  },
+  {
+    "timestamp": "2026-10-30T14:07:41.098848+00:00",
+    "price": 0.880587,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.88 level with targets at the nearest support zones (0.80 and 0.75). If price rebounds above 0.92, flip to a cautious long with a tight stop below 0.88.",
+    "key_levels": {
+      "support": [
+        "0.80",
+        "0.75"
+      ],
+      "resistance": [
+        "0.92",
+        "0.98"
+      ]
+    },
+    "rsi": 36.81
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T21:13:36.107637+00:00",
-    "price": 1877.27,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short-term buys around $1,800 support, targeting $1,900 resistance. Alternatively, wait for a bullish reversal signal to enter long positions. Monitor the 24h price action for a potential breakout.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 32.02
-  },
-  {
     "timestamp": "2026-08-14T22:10:00.545625+00:00",
     "price": 1877.33,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.96
+  },
+  {
+    "timestamp": "2026-10-30T00:58:46.641537+00:00",
+    "price": 2217.23,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $2,210 level with targets at the identified support zones, or wait for a reversal signal before entering long at $2,150. Use tight stops above $2,260 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$2,150.00",
+        "$2,080.00"
+      ],
+      "resistance": [
+        "$2,260.00",
+        "$2,320.00"
+      ]
+    },
+    "rsi": 28.67
   }
 ]

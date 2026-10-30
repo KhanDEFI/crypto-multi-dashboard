@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T22:10:00.545625+00:00",
-    "price": 4376.29,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards the support levels, especially if the TradingView Signal remains BUY. Monitor the price action for a potential breakout above $4,313.41. A close above this level could confirm a bullish trend.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-14T23:10:07.526141+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 38.36
+  },
+  {
+    "timestamp": "2026-10-30T00:58:46.641537+00:00",
+    "price": 4007.13,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position near the current price of $4,007. Target the primary weekly support at $3,918.63, with a secondary target at $3,839.53. Place a stop\u2011loss just above the nearest resistance at $4,054.58 to limit downside risk.",
+    "key_levels": {
+      "support": [
+        "$3,918.63",
+        "$3,839.53"
+      ],
+      "resistance": [
+        "$4,054.58",
+        "$4,133.68"
+      ]
+    },
+    "rsi": 36.87
   }
 ]

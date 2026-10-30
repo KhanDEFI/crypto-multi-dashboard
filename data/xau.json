@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3909.82,
-  "change_24h": -2.77,
+  "price": 3878.1,
+  "change_24h": -3.56,
   "market_cap": 0,
-  "rsi": 30.94,
+  "rsi": 29.39,
   "analysis": {
-    "elliott_wave": "Gold is not typically analyzed with Elliott Wave; no clear wave pattern evident at this stage.",
-    "momentum": "Price is down 2.77% with RSI near 31, indicating weakening momentum and approaching oversold territory.",
+    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified.",
+    "momentum": "Price is down 3.56% with RSI at 29.39, indicating oversold conditions but still bearish momentum.",
     "key_levels": {
       "support": [
         "$3,839.53",
@@ -19,9 +19,9 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the current price with targets at the first weekly support of $3,819.53 and the second at $3,624.48. If price rebounds above $3,950, shift to a neutral stance or consider a small long with a tight stop below $3,918.63.",
-    "risk_note": "Watch for a sudden rise in real yields or a dovish shift in Fed policy that could quickly reverse the downtrend.",
+    "trade_plan": "Consider short positions near the current price with a target around the first weekly support at $3,839.53. Place a stop\u2011loss just above the nearest resistance at $3,918.63. If price rebounds sharply and RSI moves above 40, reassess for a potential short\u2011cover or long entry.",
+    "risk_note": "Watch for a sudden rally driven by a sharp DXY decline or unexpected dovish central bank signals, which could invalidate the short bias.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-10-30T14:07:41.098848+00:00"
+  "updated_at": "2026-10-30T19:22:03.905512+00:00"
 }

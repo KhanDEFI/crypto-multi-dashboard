@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T00:31:29.797387+00:00",
-    "price": 62947,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider shorting on a break below $62,000, targeting $60,000. Alternatively, look for a bounce above $63,500 to re-enter long positions. Monitor the market for a clear trend bias.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$63,500",
-        "$65,000"
-      ]
-    },
-    "rsi": 39.53
-  },
-  {
     "timestamp": "2026-08-15T02:05:49.122641+00:00",
     "price": 62986,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 33.34
+  },
+  {
+    "timestamp": "2026-10-30T19:22:03.905512+00:00",
+    "price": 76395,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight\u2011range longs near the $73,500 support, targeting the next resistance around $78,200. Use stop\u2011losses just above the $78,500 level or below $71,800 if the market reverses.",
+    "key_levels": {
+      "support": [
+        "$73,500",
+        "$71,800"
+      ],
+      "resistance": [
+        "$78,200",
+        "$80,500"
+      ]
+    },
+    "rsi": 32.36
   }
 ]

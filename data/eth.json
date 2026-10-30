@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2219.45,
-  "change_24h": -4.45,
-  "market_cap": 271161819060.1873,
-  "rsi": 28.8,
+  "price": 2224.03,
+  "change_24h": -4.43,
+  "market_cap": 271716751437.27597,
+  "rsi": 29.07,
   "analysis": {
-    "elliott_wave": "Potentially in a corrective wave 2 of a larger impulse, showing a descending triangle formation",
-    "momentum": "Price is falling with a 4.45% drop and RSI at 28.8, indicating strong short\u2011term bearish momentum and oversold conditions",
+    "elliott_wave": "ETH appears to be in a corrective wave (likely Wave B of a larger ABC correction) after a recent down move, setting up for a potential Wave C.",
+    "momentum": "Price is falling with a -4.43% 24h change and RSI at 29.07, indicating strong bearish momentum and oversold conditions.",
     "key_levels": {
       "support": [
-        "$2,150",
-        "$2,080"
+        "$2,150.00",
+        "$2,080.00"
       ],
       "resistance": [
-        "$2,260",
-        "$2,300"
+        "$2,300.00",
+        "$2,380.00"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $2,260 resistance with tight stops above $2,300, targeting the nearest support around $2,150. If price rebounds sharply, flip to a quick long at $2,150 with a target near $2,260.",
-    "risk_note": "Watch for a sudden bullish reversal if buying pressure lifts RSI above 40 or breaks above $2,300, which could invalidate the short bias"
+    "trade_plan": "Consider short positions or buying dips near the $2,150 support with tight stops above $2,300. If price breaks above $2,300 convincingly, look for a reversal entry with a stop below $2,250.",
+    "risk_note": "Watch for a rapid RSI rebound above 40, which could signal a swift reversal and invalidate the bearish bias."
   },
-  "updated_at": "2026-10-30T14:07:41.098848+00:00"
+  "updated_at": "2026-10-30T19:22:03.905512+00:00"
 }

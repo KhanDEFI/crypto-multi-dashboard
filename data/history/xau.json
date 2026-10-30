@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T02:05:49.122641+00:00",
-    "price": 4376.29,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards the TV Pivot Support levels, with a target of $4,313.41. However, be cautious of potential selling pressure from a strengthening US dollar or rising real yields. Monitor the situation closely for a potential entry.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T03:32:47.700452+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 30.94
+  },
+  {
+    "timestamp": "2026-10-30T19:22:03.905512+00:00",
+    "price": 3878.1,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price with a target around the first weekly support at $3,839.53. Place a stop\u2011loss just above the nearest resistance at $3,918.63. If price rebounds sharply and RSI moves above 40, reassess for a potential short\u2011cover or long entry.",
+    "key_levels": {
+      "support": [
+        "$3,839.53",
+        "$3,624.48"
+      ],
+      "resistance": [
+        "$3,918.63",
+        "$4,054.58"
+      ]
+    },
+    "rsi": 29.39
   }
 ]

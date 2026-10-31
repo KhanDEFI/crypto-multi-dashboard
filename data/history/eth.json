@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T04:17:29.507914+00:00",
-    "price": 1881.9,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a long position with a tight stop-loss at $1,800.00, targeting $1,900.00 or higher. Alternatively, a short position with a stop-loss at $1,950.00 could be considered.",
-    "key_levels": {
-      "support": [
-        "$1,800.00",
-        "$1,700.00"
-      ],
-      "resistance": [
-        "$1,900.00",
-        "$1,950.00"
-      ]
-    },
-    "rsi": 52.63
-  },
-  {
     "timestamp": "2026-08-15T05:14:02.158253+00:00",
     "price": 1882.9,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 29.96
+  },
+  {
+    "timestamp": "2026-10-31T12:28:09.566160+00:00",
+    "price": 2246.33,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the $2,200 support with a target around $2,300, using a tight stop just below $2,150. Monitor price action for a breakout above $2,300 to add to the position.",
+    "key_levels": {
+      "support": [
+        "$2,200.00",
+        "$2,150.00"
+      ],
+      "resistance": [
+        "$2,300.00",
+        "$2,350.00"
+      ]
+    },
+    "rsi": 30.8
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T04:17:29.507914+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying gold if it breaks above $4,313.41 resistance, targeting $4,376.29 and potentially $4,500.00. However, if it falls below $3,936.03 support, consider selling with a target of $3,825.71.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T05:14:02.158253+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2829,6 +2812,23 @@
     "price": 3876.6,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions or tight\u2011range scalps near the $3,876 level, targeting the first weekly support at $3,839.5. If price rebounds sharply, look for a quick long entry around $3,850 with a target at $3,918.6. Keep stops tight to manage volatility.",
+    "key_levels": {
+      "support": [
+        "$3,839.53",
+        "$3,624.48"
+      ],
+      "resistance": [
+        "$3,918.63",
+        "$4,054.58"
+      ]
+    },
+    "rsi": 29.33
+  },
+  {
+    "timestamp": "2026-10-31T05:39:56.174554+00:00",
+    "price": 3876.6,
+    "trend_bias": "bearish",
+    "trade_plan": "Target short positions if price breaks below the nearest support at $3,879.53, aiming for the next support at $3,624.48. Consider a tight stop just above $3,918.63 resistance to limit upside risk.",
     "key_levels": {
       "support": [
         "$3,839.53",

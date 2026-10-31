@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T03:32:47.700452+00:00",
-    "price": 1882.94,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips around $1,800-$1,700 with a target of $2,000-$2,100, and consider scaling in on further corrections.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$1,950"
-      ]
-    },
-    "rsi": 43.01
-  },
-  {
     "timestamp": "2026-08-15T04:17:29.507914+00:00",
     "price": 1881.9,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 30.27
+  },
+  {
+    "timestamp": "2026-10-31T05:39:56.174554+00:00",
+    "price": 2238.99,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position near the $2,230 level with a target at the $2,180 support. If price rebounds sharply above $2,260, flip to a long with a target near $2,300. Manage stops tightly around recent swing points.",
+    "key_levels": {
+      "support": [
+        "$2,180.00",
+        "$2,150.00"
+      ],
+      "resistance": [
+        "$2,260.00",
+        "$2,300.00"
+      ]
+    },
+    "rsi": 29.96
   }
 ]

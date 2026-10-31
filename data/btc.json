@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 77242,
-  "change_24h": -0.93,
-  "market_cap": 1552971594780.4182,
-  "rsi": 34.37,
+  "price": 77131,
+  "change_24h": -1.9,
+  "market_cap": 1550734466719.7983,
+  "rsi": 34.07,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave, likely wave 2 of a larger impulse, as price is retracing from recent highs with a modest decline.",
-    "momentum": "Price is slightly down (-0.93%) and RSI at 34.37 suggests weakening momentum but not yet oversold, indicating limited downside pressure.",
+    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, showing a shallow pullback after the previous rally.",
+    "momentum": "Price is down 1.9% with RSI at 34, indicating weakening momentum but not yet oversold.",
     "key_levels": {
       "support": [
-        "75,500",
-        "73,800"
+        "$75,500",
+        "$73,800"
       ],
       "resistance": [
-        "78,500",
-        "80,200"
+        "$78,500",
+        "$80,200"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the 75,500 support with a tight stop above 78,500 resistance, targeting the 73,800 level. Alternatively, a small long could be placed on a bounce off 75,500 with a target near 78,500.",
-    "risk_note": "Watch for a breakout above 78,500, which could flip bias to bullish and invalidate the short setup."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $75,500 support with tight stops above $76,200, targeting the $73,800 level. If price rebounds above $78,500, flip to a long bias aiming for $80,200.",
+    "risk_note": "Watch for a sudden bullish reversal if Bitcoin breaks above $78,500, which could invalidate the short bias."
   },
-  "updated_at": "2026-10-30T23:46:41.351298+00:00"
+  "updated_at": "2026-10-31T05:39:56.174554+00:00"
 }

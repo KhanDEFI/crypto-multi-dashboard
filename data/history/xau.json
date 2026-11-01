@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T11:08:27.032599+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $3,825.71, with a target of $4,313.41; however, be cautious of a potential pullback if the 24h change reverses.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T12:13:16.493912+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2829,6 +2812,23 @@
     "price": 3876.6,
     "trend_bias": "bearish",
     "trade_plan": "Consider a short position near the upper resistance around $3,918.6 with a target at the first weekly support $3,839.5. If price rebounds sharply, flip to a quick long targeting $3,918.6, managing stops just above $3,950.",
+    "key_levels": {
+      "support": [
+        "$3,839.53",
+        "$3,624.48"
+      ],
+      "resistance": [
+        "$3,918.63",
+        "$4,054.58"
+      ]
+    },
+    "rsi": 29.33
+  },
+  {
+    "timestamp": "2026-11-01T19:39:45.060829+00:00",
+    "price": 3876.6,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position around $3876 targeting the nearest support at $3,839.53 with a stop above the first resistance at $3,918.63. If price rebounds sharply, flip to a quick long targeting $3,918.63 with a tight stop below $3,839.53.",
     "key_levels": {
       "support": [
         "$3,839.53",

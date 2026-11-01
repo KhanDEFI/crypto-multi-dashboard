@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T09:14:17.850318+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,313.41. Monitor the 24h change and adjust the trade plan accordingly. A stop-loss below $4,179.88 is recommended.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T10:09:50.349042+00:00",
     "price": 4376.29,
     "trend_bias": "neutral",
@@ -2829,6 +2812,23 @@
     "price": 3876.6,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions or sell\u2011stop orders near the $3,918.63 resistance, targeting the first weekly support at $3,839.53. If price rebounds above $3,918, shift to a short\u2011cover or long bias with a target near $4,054.58.",
+    "key_levels": {
+      "support": [
+        "$3,839.53",
+        "$3,624.48"
+      ],
+      "resistance": [
+        "$3,918.63",
+        "$4,054.58"
+      ]
+    },
+    "rsi": 29.33
+  },
+  {
+    "timestamp": "2026-11-01T07:31:47.252764+00:00",
+    "price": 3876.6,
+    "trend_bias": "bearish",
+    "trade_plan": "Enter a short position around $3,870 with a target at the nearest support $3,839.53 and a stop above the first resistance $3,918.63. Manage position size for a 1:2 risk\u2011reward over the next 24\u201148 hours.",
     "key_levels": {
       "support": [
         "$3,839.53",

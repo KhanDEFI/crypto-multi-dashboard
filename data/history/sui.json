@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T07:19:41.129448+00:00",
-    "price": 0.682762,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $0.65 and selling on rallies towards $0.70, with a focus on managing risk and scaling positions.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.75"
-      ]
-    },
-    "rsi": 50.33
-  },
-  {
     "timestamp": "2026-08-15T08:12:49.328256+00:00",
     "price": 0.681898,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.99
+  },
+  {
+    "timestamp": "2026-11-01T01:09:10.538249+00:00",
+    "price": 0.902326,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position if price breaks below the $0.86 support with a target near $0.82, or a long entry on a bounce off $0.86 aiming for $0.94. Use tight stops around the entry level.",
+    "key_levels": {
+      "support": [
+        "0.86",
+        "0.82"
+      ],
+      "resistance": [
+        "0.94",
+        "0.98"
+      ]
+    },
+    "rsi": 40.35
   }
 ]

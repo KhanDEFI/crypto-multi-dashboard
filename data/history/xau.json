@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T12:13:16.493912+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying XAU/USD on dips towards the TV Pivot Support levels, targeting the $4,313.41 resistance. Stop-loss below the $3,825.71 support level. Monitor the 24h change and adjust the trade plan accordingly.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T13:21:03.287516+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 29.33
+  },
+  {
+    "timestamp": "2026-11-01T23:35:39.096902+00:00",
+    "price": 3896.93,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the SELL signal and weak momentum, consider short positions near the current price with targets at the first support $3,803.68 and second support $3,730.50. Hold for 24\u201148 hours and exit if price rebounds above $3,940 or RSI rises above 40.",
+    "key_levels": {
+      "support": [
+        "$3,803.68",
+        "$3,730.50"
+      ],
+      "resistance": [
+        "$3,943.29",
+        "$4,016.47"
+      ]
+    },
+    "rsi": 31.67
   }
 ]

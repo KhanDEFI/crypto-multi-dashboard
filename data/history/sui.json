@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T12:13:16.493912+00:00",
-    "price": 0.681346,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $0.65 for a potential bounce, with a target of $0.72. Sell on rallies above $0.72 for a potential correction. Monitor the price action closely for any signs of a trend reversal.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 40.29
-  },
-  {
     "timestamp": "2026-08-15T13:21:03.287516+00:00",
     "price": 0.683169,
     "trend_bias": "neutral",
@@ -2843,6 +2826,23 @@
     "price": 0.896956,
     "trend_bias": "neutral",
     "trade_plan": "Consider buying near the $0.85 support with a tight stop just below $0.80, targeting the nearest resistance at $0.95. If price breaks below $0.80, shift to a short bias aiming for $0.75.",
+    "key_levels": {
+      "support": [
+        "0.85",
+        "0.80"
+      ],
+      "resistance": [
+        "0.95",
+        "1.00"
+      ]
+    },
+    "rsi": 39.58
+  },
+  {
+    "timestamp": "2026-11-02T06:01:09.796182+00:00",
+    "price": 0.896371,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight long entries near the 0.85 support with a target around 0.80, and set stop-loss just above 0.90. Monitor for any reversal candlestick patterns before committing.",
     "key_levels": {
       "support": [
         "0.85",

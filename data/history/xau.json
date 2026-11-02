@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T14:10:19.170068+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying XAU/USD on dips towards $3,936.03 or $3,825.71, with a target of $4,313.41.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T15:08:26.941567+00:00",
     "price": 4376.29,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 33.51
+  },
+  {
+    "timestamp": "2026-11-02T15:51:41.014245+00:00",
+    "price": 3958.83,
+    "trend_bias": "bearish",
+    "trade_plan": "Target the near\u2011term support at $3,943.29 with a short position, aiming for a break toward $3,803.68 if the sell signal holds. Consider a stop just above $4,016.47 to protect against a rapid reversal.",
+    "key_levels": {
+      "support": [
+        "$3,943.29",
+        "$3,803.68"
+      ],
+      "resistance": [
+        "$4,016.47",
+        "$4,156.08"
+      ]
+    },
+    "rsi": 37.95
   }
 ]

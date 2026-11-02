@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3958.83,
-  "change_24h": 2.12,
+  "price": 3944.89,
+  "change_24h": -0.03,
   "market_cap": 0,
-  "rsi": 37.95,
+  "rsi": 36.68,
   "analysis": {
-    "elliott_wave": "Gold is currently in a corrective phase, likely a wave B of a larger A\u2011B\u2011C pattern, as price retests prior support levels.",
-    "momentum": "Price is modestly higher with a 2.12% gain, but RSI at 37.95 suggests weakening upward momentum and room for further downside.",
+    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified",
+    "momentum": "Price is flat near $3,944 with a negligible 24h change and RSI at 36.7, indicating slight downside pressure but still above oversold territory",
     "key_levels": {
       "support": [
         "$3,943.29",
@@ -18,10 +18,10 @@
         "$4,156.08"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Target the near\u2011term support at $3,943.29 with a short position, aiming for a break toward $3,803.68 if the sell signal holds. Consider a stop just above $4,016.47 to protect against a rapid reversal.",
-    "risk_note": "Watch for a sudden rise in the DXY or a spike in real yields, which could quickly lift gold and invalidate the short bias.",
+    "trend_bias": "neutral",
+    "trade_plan": "Given the sell signal and modest downside bias, consider a short position near the current price with a target at the first weekly support $3,943.29 and a stop above the nearest resistance $4,016.47. Monitor real yield movements and DXY for confirmation.",
+    "risk_note": "A sudden rise in safe\u2011haven demand or dovish central bank news could push gold back above $4,000, invalidating the short bias",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-02T15:51:41.014245+00:00"
+  "updated_at": "2026-11-02T23:29:34.003672+00:00"
 }

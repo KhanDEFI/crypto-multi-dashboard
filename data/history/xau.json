@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T15:08:26.941567+00:00",
-    "price": 4376.29,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy entry above $4,313.41 or a sell entry below $3,936.03, with a target of $4,313.41 or $3,825.71 respectively. Monitor TradingView Signal and adjust accordingly.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T16:09:12.159436+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 37.95
+  },
+  {
+    "timestamp": "2026-11-02T23:29:34.003672+00:00",
+    "price": 3944.89,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the sell signal and modest downside bias, consider a short position near the current price with a target at the first weekly support $3,943.29 and a stop above the nearest resistance $4,016.47. Monitor real yield movements and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$3,943.29",
+        "$3,803.68"
+      ],
+      "resistance": [
+        "$4,016.47",
+        "$4,156.08"
+      ]
+    },
+    "rsi": 36.68
   }
 ]

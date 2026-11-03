@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T17:09:47.918652+00:00",
-    "price": 0.682576,
-    "trend_bias": "bullish",
-    "trade_plan": "Buy on dips towards $0.65, targeting $0.75. Set a stop-loss at $0.60. Monitor for a potential breakout above $0.75.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.72",
-        "$0.75"
-      ]
-    },
-    "rsi": 41.92
-  },
-  {
     "timestamp": "2026-08-15T18:10:32.263810+00:00",
     "price": 0.680935,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 40.85
+  },
+  {
+    "timestamp": "2026-11-03T20:58:36.850408+00:00",
+    "price": 0.895381,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term scalp near the 0.90 level with a tight stop above 0.95; if price breaks above 0.95, look for a breakout long targeting 1.00. Hold any position no longer than 48 hours.",
+    "key_levels": {
+      "support": [
+        "0.85",
+        "0.80"
+      ],
+      "resistance": [
+        "0.95",
+        "1.00"
+      ]
+    },
+    "rsi": 40.96
   }
 ]

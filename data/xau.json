@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3937.35,
-  "change_24h": -0.22,
+  "price": 3921.25,
+  "change_24h": -0.63,
   "market_cap": 0,
-  "rsi": 36.24,
+  "rsi": 35.32,
   "analysis": {
-    "elliott_wave": "Not applicable; gold\u2019s price action is better described by macro\u2011driven trends rather than Elliott Wave patterns.",
-    "momentum": "Price is marginally lower with a -0.22% 24h change and RSI at 36.24, indicating weakening momentum but still above oversold territory.",
+    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified.",
+    "momentum": "Price is modestly down with a -0.63% 24h move and RSI at 35.3, indicating weakening momentum and approaching oversold territory.",
     "key_levels": {
       "support": [
         "$3,803.68",
@@ -19,9 +19,9 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Given the TradingView SELL signal and weakening momentum, consider short positions near the current level with a target around the first weekly support at $3,803.68. Place a stop\u2011loss just above the nearest resistance at $3,943.29 to manage risk.",
-    "risk_note": "Watch for a sudden rally in safe\u2011haven demand or a sharp move in the DXY that could push gold back above $3,943.29.",
+    "trade_plan": "Consider a short position if price tests the upper resistance around $3,943. Target the primary weekly support at $3,803.68, with a secondary target near $3,730.50. Manage risk with a stop just above $4,016.47 or above recent swing high.",
+    "risk_note": "A rapid rise in the DXY or unexpected hawkish central bank signals could reverse the downside quickly.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-03T15:06:36.178143+00:00"
+  "updated_at": "2026-11-03T20:58:36.850408+00:00"
 }

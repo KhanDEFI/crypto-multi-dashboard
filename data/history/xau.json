@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T17:09:47.918652+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the support levels, with a target of $4,313.41. However, be cautious of potential selling pressure from the dollar and yields. Monitor the 24h change for signs of exhaustion.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T18:10:32.263810+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 35.06
+  },
+  {
+    "timestamp": "2026-11-03T15:06:36.178143+00:00",
+    "price": 3937.35,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the TradingView SELL signal and weakening momentum, consider short positions near the current level with a target around the first weekly support at $3,803.68. Place a stop\u2011loss just above the nearest resistance at $3,943.29 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$3,803.68",
+        "$3,730.50"
+      ],
+      "resistance": [
+        "$3,943.29",
+        "$4,016.47"
+      ]
+    },
+    "rsi": 36.24
   }
 ]

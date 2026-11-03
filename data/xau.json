@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3944.89,
-  "change_24h": -0.03,
+  "price": 3916.44,
+  "change_24h": -0.75,
   "market_cap": 0,
-  "rsi": 36.68,
+  "rsi": 35.06,
   "analysis": {
-    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified",
-    "momentum": "Price is flat near $3,944 with a negligible 24h change and RSI at 36.7, indicating slight downside pressure but still above oversold territory",
+    "elliott_wave": "Gold is in a corrective phase, likely a wave B of a larger ABC correction, but Elliott analysis is secondary here.",
+    "momentum": "Price is modestly down with a 0.75% decline and RSI at 35, indicating weakening momentum and approaching oversold territory.",
     "key_levels": {
       "support": [
-        "$3,943.29",
-        "$3,803.68"
+        "$3,803.68",
+        "$3,730.50"
       ],
       "resistance": [
-        "$4,016.47",
-        "$4,156.08"
+        "$3,943.29",
+        "$4,016.47"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Given the sell signal and modest downside bias, consider a short position near the current price with a target at the first weekly support $3,943.29 and a stop above the nearest resistance $4,016.47. Monitor real yield movements and DXY for confirmation.",
-    "risk_note": "A sudden rise in safe\u2011haven demand or dovish central bank news could push gold back above $4,000, invalidating the short bias",
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price targeting the nearest support at $3,803.68, with a stop above the recent high around $3,950. Monitor DXY strength and real yields for confirmation. If price rebounds sharply, flip to a quick scalp long at $3,940 with a tight stop at $3,950.",
+    "risk_note": "A sudden surge in safe\u2011haven demand or dovish Fed signals could reverse the downtrend quickly.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-02T23:29:34.003672+00:00"
+  "updated_at": "2026-11-03T06:46:37.007995+00:00"
 }

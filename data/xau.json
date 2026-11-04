@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4065.57,
-  "change_24h": 3.45,
+  "price": 4060.28,
+  "change_24h": 3.31,
   "market_cap": 0,
-  "rsi": 47.88,
+  "rsi": 47.49,
   "analysis": {
-    "elliott_wave": "Not applicable; gold\u2019s price action does not conform to Elliott Wave patterns in the short term.",
-    "momentum": "Price is up 3.45% on the day while RSI sits near 48, indicating modest bullish momentum but still in neutral territory.",
+    "elliott_wave": "Gold is not evaluated with Elliott Wave; no wave count applicable.",
+    "momentum": "Price is up 3.31% on the day while RSI sits near 47.5, indicating weakening momentum and a potential shift lower.",
     "key_levels": {
       "support": [
         "$4,016.47",
@@ -18,10 +18,10 @@
         "$4,368.87"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Given the daily sell signal from TradingView but a rising price and neutral RSI, consider a short\u2011term scalp on a pull\u2011back to the $4,016.47 support with a tight stop above $4,100. If price breaks above $4,156, flip to a short\u2011term long targeting the next resistance around $4,368.87.",
-    "risk_note": "Watch for a rapid rise in the DXY or a spike in real yields, which could quickly reverse gold\u2019s upward move.",
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position around the current price with a target at the nearest support $4,016.47 and a stop above the first resistance $4,156.08. Monitor price action for a break below $4,016.47 to confirm the bias.",
+    "risk_note": "A rapid rise in the DXY or unexpected easing of real yields could reverse the downtrend and invalidate the short setup.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-04T17:14:59.200034+00:00"
+  "updated_at": "2026-11-04T22:38:58.931887+00:00"
 }

@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3956.02,
-  "change_24h": 0.66,
+  "price": 4045.4,
+  "change_24h": 2.94,
   "market_cap": 0,
-  "rsi": 38.54,
+  "rsi": 46.38,
   "analysis": {
-    "elliott_wave": "Gold is not evaluated under Elliott Wave; no wave count applied.",
-    "momentum": "Price is modestly higher (+0.66%) with RSI at 38.5, indicating weakening upward momentum and approaching oversold territory.",
+    "elliott_wave": "Gold is currently in a corrective phase, likely a wave B of a larger ABC correction following the prior uptrend.",
+    "momentum": "Price is up 2.94% with RSI at 46.38, indicating modest bullish momentum but still near neutral territory.",
     "key_levels": {
       "support": [
-        "$3,943.29",
-        "$3,803.68"
+        "$4,016.47",
+        "$3,943.29"
       ],
       "resistance": [
-        "$4,016.47",
-        "$4,156.08"
+        "$4,156.08",
+        "$4,368.87"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Given the slight upside and bearish TradingView signal, consider a short position near the current level with a target at the nearest support $3,943.29 and a stop above $4,016.47. If price breaks above $4,016.47, shift to a neutral stance or consider a long on retest. Monitor macro cues for rapid shifts.",
-    "risk_note": "A sudden rise in US real yields or dovish Fed comments could quickly push gold higher, invalidating short bias.",
+    "trend_bias": "bullish",
+    "trade_plan": "Consider a short\u2011term long position near the $4,016 support with a target around $4,156. If price breaks below $4,016, shift to a defensive short or exit. Maintain tight stops around $3,990 to protect against sudden risk-off moves.",
+    "risk_note": "Watch for a rapid rise in the DXY or unexpected hawkish Fed comments that could push real yields higher and pressure gold lower.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-04T01:20:37.642359+00:00"
+  "updated_at": "2026-11-04T09:10:54.268674+00:00"
 }

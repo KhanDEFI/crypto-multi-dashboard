@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 77801,
-  "change_24h": 1.5,
-  "market_cap": 1564003458618.5955,
-  "rsi": 40.18,
+  "price": 76820,
+  "change_24h": -0.43,
+  "market_cap": 1545240896227.696,
+  "rsi": 36.58,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a Wave 3 of an impulsive cycle, extending the prior Wave 2 correction with strong upward thrust.",
-    "momentum": "Price is modestly up 1.5% and RSI at 40.18 suggests still room for upside before entering overbought territory, indicating mild bullish momentum.",
+    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulsive wave 3, showing a shallow retracement after the recent rally.",
+    "momentum": "Price is slightly down with a 24h change of -0.43% and RSI at 36.58, indicating weakening momentum but still above oversold levels.",
     "key_levels": {
       "support": [
-        "$76,200",
-        "$75,000"
+        "$75,500",
+        "$74,200"
       ],
       "resistance": [
-        "$78,500",
-        "$80,000"
+        "$77,500",
+        "$78,800"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Consider entering long positions near the $76,200 support with a target around $78,500. Use a stop loss just below $75,000 to manage risk.",
-    "risk_note": "Watch for a sudden drop if RSI falls below 30, indicating potential oversold conditions and a reversal."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position if price breaks below $75,500 with a target near $74,200, or a long position on a bounce above $77,500 aiming for $78,800. Use tight stops around the opposite key level.",
+    "risk_note": "Watch for a sudden reversal if macro news or regulatory events trigger a rapid shift in market sentiment."
   },
-  "updated_at": "2026-11-03T20:58:36.850408+00:00"
+  "updated_at": "2026-11-04T01:20:37.642359+00:00"
 }

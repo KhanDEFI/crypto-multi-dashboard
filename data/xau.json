@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3921.25,
-  "change_24h": -0.63,
+  "price": 3956.02,
+  "change_24h": 0.66,
   "market_cap": 0,
-  "rsi": 35.32,
+  "rsi": 38.54,
   "analysis": {
-    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified.",
-    "momentum": "Price is modestly down with a -0.63% 24h move and RSI at 35.3, indicating weakening momentum and approaching oversold territory.",
+    "elliott_wave": "Gold is not evaluated under Elliott Wave; no wave count applied.",
+    "momentum": "Price is modestly higher (+0.66%) with RSI at 38.5, indicating weakening upward momentum and approaching oversold territory.",
     "key_levels": {
       "support": [
-        "$3,803.68",
-        "$3,730.50"
+        "$3,943.29",
+        "$3,803.68"
       ],
       "resistance": [
-        "$3,943.29",
-        "$4,016.47"
+        "$4,016.47",
+        "$4,156.08"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider a short position if price tests the upper resistance around $3,943. Target the primary weekly support at $3,803.68, with a secondary target near $3,730.50. Manage risk with a stop just above $4,016.47 or above recent swing high.",
-    "risk_note": "A rapid rise in the DXY or unexpected hawkish central bank signals could reverse the downside quickly.",
+    "trend_bias": "neutral",
+    "trade_plan": "Given the slight upside and bearish TradingView signal, consider a short position near the current level with a target at the nearest support $3,943.29 and a stop above $4,016.47. If price breaks above $4,016.47, shift to a neutral stance or consider a long on retest. Monitor macro cues for rapid shifts.",
+    "risk_note": "A sudden rise in US real yields or dovish Fed comments could quickly push gold higher, invalidating short bias.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-03T20:58:36.850408+00:00"
+  "updated_at": "2026-11-04T01:20:37.642359+00:00"
 }

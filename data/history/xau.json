@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T21:10:04.531257+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying XAU/USD with a stop-loss below $3,825.71 and a take-profit target at $4,313.41, based on TradingView's BUY signal.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-15T22:07:53.772408+00:00",
     "price": 4376.29,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 46.38
+  },
+  {
+    "timestamp": "2026-11-04T17:14:59.200034+00:00",
+    "price": 4065.57,
+    "trend_bias": "bullish",
+    "trade_plan": "Given the daily sell signal from TradingView but a rising price and neutral RSI, consider a short\u2011term scalp on a pull\u2011back to the $4,016.47 support with a tight stop above $4,100. If price breaks above $4,156, flip to a short\u2011term long targeting the next resistance around $4,368.87.",
+    "key_levels": {
+      "support": [
+        "$4,016.47",
+        "$3,943.29"
+      ],
+      "resistance": [
+        "$4,156.08",
+        "$4,368.87"
+      ]
+    },
+    "rsi": 47.88
   }
 ]

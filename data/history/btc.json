@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T23:08:56.550711+00:00",
-    "price": 63081,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips around $62,500, targeting $64,500, with a stop-loss at $61,000. Monitor the price action for a potential breakout above $64,500.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$61,000"
-      ],
-      "resistance": [
-        "$64,500",
-        "$66,000"
-      ]
-    },
-    "rsi": 35.59
-  },
-  {
     "timestamp": "2026-08-16T00:32:29.872805+00:00",
     "price": 63013,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 51.24
+  },
+  {
+    "timestamp": "2026-11-05T12:19:44.042609+00:00",
+    "price": 80107,
+    "trend_bias": "bullish",
+    "trade_plan": "Consider entering long positions near the 78,500 support with a target around 81,500. Use a tight stop below 77,000 to manage risk.",
+    "key_levels": {
+      "support": [
+        "78,500",
+        "77,000"
+      ],
+      "resistance": [
+        "81,500",
+        "83,000"
+      ]
+    },
+    "rsi": 49.5
   }
 ]

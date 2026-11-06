@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 75839,
-  "change_24h": -0.13,
-  "market_cap": 1524763421323.9563,
-  "rsi": 38.2,
+  "price": 75825,
+  "change_24h": 0.35,
+  "market_cap": 1524616329633.0356,
+  "rsi": 38.17,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, showing a shallow pullback after a brief rally.",
-    "momentum": "Price is marginally down with a 0.13% decline and RSI at 38.2, indicating weak momentum and approaching oversold territory.",
+    "elliott_wave": "The price appears to be in a corrective wave 2 of a larger impulse, showing a shallow pullback after a modest up\u2011move.",
+    "momentum": "Price is marginally higher with a 0.35% gain and RSI at 38.17, indicating weak but still positive momentum, bordering oversold territory.",
     "key_levels": {
       "support": [
-        "75,300",
-        "74,800"
+        "$74,800",
+        "$73,500"
       ],
       "resistance": [
-        "76,200",
-        "77,000"
+        "$76,500",
+        "$78,000"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider short positions near the 75,300 support if price breaks lower, targeting the 74,800 level, or long positions near the 76,200 resistance on a bounce, aiming for 77,000. Keep positions small and monitor RSI for reversal signals.",
-    "risk_note": "Watch for a sudden bullish catalyst (e.g., macro news or exchange inflows) that could snap the price back above 76,200, invalidating short bias."
+    "trade_plan": "Consider buying on a dip near $74,800 with a target around $76,500, holding for 24\u201148h. If price breaks below $73,500, shift to a short bias or exit long positions.",
+    "risk_note": "Watch for a sudden reversal if RSI drops below 30 or if volume spikes on a down move, which could signal deeper correction."
   },
-  "updated_at": "2026-11-06T17:29:06.937565+00:00"
+  "updated_at": "2026-11-06T23:07:44.749366+00:00"
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T09:15:10.968445+00:00",
-    "price": 63015,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips to $62,000 for a potential move to $65,000, or sell at $63,500 for a potential correction to $60,000.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$63,500",
-        "$65,000"
-      ]
-    },
-    "rsi": 32.61
-  },
-  {
     "timestamp": "2026-08-16T10:10:35.554356+00:00",
     "price": 62918,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.95
+  },
+  {
+    "timestamp": "2026-11-07T20:52:50.034214+00:00",
+    "price": 75603,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position near the 75,200 support with a tight stop above 76,000, targeting the 74,500 level. Alternatively, hold cash if price breaks above 77,000 for a bullish continuation.",
+    "key_levels": {
+      "support": [
+        "75,200.00",
+        "74,500.00"
+      ],
+      "resistance": [
+        "76,000.00",
+        "77,000.00"
+      ]
+    },
+    "rsi": 37.66
   }
 ]

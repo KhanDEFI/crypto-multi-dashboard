@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T12:13:44.806378+00:00",
-    "price": 1878.77,
-    "trend_bias": "neutral",
-    "trade_plan": "We recommend short-term traders to wait for a clear breakout above $1,900 or a breakdown below $1,800 before entering a position. Medium-term traders can look to buy on dips towards $1,700. Long-term traders should maintain a bullish bias.",
-    "key_levels": {
-      "support": [
-        "$1,800",
-        "$1,700"
-      ],
-      "resistance": [
-        "$1,900",
-        "$2,000"
-      ]
-    },
-    "rsi": 44.95
-  },
-  {
     "timestamp": "2026-08-16T13:22:03.147886+00:00",
     "price": 1879.53,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 39.39
+  },
+  {
+    "timestamp": "2026-11-08T15:11:26.645039+00:00",
+    "price": 2237.58,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short position if price breaks below $2,180 with a target near $2,150, or a long if it rebounds above $2,260 aiming for $2,300; keep stops tight given the narrow range",
+    "key_levels": {
+      "support": [
+        "$2,180.00",
+        "$2,150.00"
+      ],
+      "resistance": [
+        "$2,260.00",
+        "$2,300.00"
+      ]
+    },
+    "rsi": 39.69
   }
 ]

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2237.58,
-  "change_24h": -0.12,
-  "market_cap": 273395226788.89563,
-  "rsi": 39.69,
+  "price": 2229.92,
+  "change_24h": -0.05,
+  "market_cap": 272494966098.12045,
+  "rsi": 39.14,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely wave 2 of a larger impulse, as price is testing the lower half of the prior impulse range",
-    "momentum": "Price is marginally down with a -0.12% 24h change and RSI at 39.7, indicating weakening momentum but not yet oversold",
+    "elliott_wave": "ETH appears to be in a corrective wave (likely Wave 2) of a larger bullish impulse, as price is flat and RSI is near oversold territory.",
+    "momentum": "Momentum is weak; the price is marginally down and RSI at 39.14 suggests diminishing buying pressure.",
     "key_levels": {
       "support": [
-        "$2,180.00",
-        "$2,150.00"
+        "2210.00",
+        "2190.00"
       ],
       "resistance": [
-        "$2,260.00",
-        "$2,300.00"
+        "2245.00",
+        "2270.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short position if price breaks below $2,180 with a target near $2,150, or a long if it rebounds above $2,260 aiming for $2,300; keep stops tight given the narrow range",
-    "risk_note": "Watch for a sudden bullish catalyst or macro news that could push RSI above 50 and reverse the current weakness"
+    "trade_plan": "Consider short-term scalps near the 2210 support if price holds, targeting the 2190 level, or buy on a bounce above 2245 with a target near 2270. Keep positions small and monitor price action closely.",
+    "risk_note": "A sudden bullish catalyst (e.g., major protocol upgrade news) could flip sentiment and invalidate the short bias."
   },
-  "updated_at": "2026-11-08T15:11:26.645039+00:00"
+  "updated_at": "2026-11-08T19:40:58.227239+00:00"
 }

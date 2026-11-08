@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 75963,
-  "change_24h": 0.21,
-  "market_cap": 1527780699849.086,
-  "rsi": 38.83,
+  "price": 75810,
+  "change_24h": 0.15,
+  "market_cap": 1524578712022.4033,
+  "rsi": 38.21,
   "analysis": {
     "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, showing a shallow retracement after the recent rally.",
-    "momentum": "Price is marginally higher with a 0.21% gain, but RSI at 38.83 suggests weakening momentum and potential for further downside.",
+    "momentum": "Price is marginally up with a 0.15% gain while RSI at 38.21 suggests weakening momentum and potential for further downside.",
     "key_levels": {
       "support": [
-        "75,200",
-        "74,500"
+        "75,200.00",
+        "74,600.00"
       ],
       "resistance": [
-        "76,500",
-        "77,200"
+        "76,300.00",
+        "77,000.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short position near the 75,200 support with a tight stop above 76,500. Target the 74,500 level for profit within 24-48 hours.",
-    "risk_note": "Watch for a breakout above 76,500 which could invalidate the short bias and trigger a rapid rally."
+    "trade_plan": "Consider a short position near the 75,200 support with a tight stop above 75,800; target the 74,600 level. If price breaks above 76,300, flip to a long with stop at 75,800 and target 77,000.",
+    "risk_note": "Watch for a sudden bullish catalyst (e.g., macro news or exchange inflows) that could push RSI above 45 and invalidate the short bias."
   },
-  "updated_at": "2026-11-08T15:11:26.645039+00:00"
+  "updated_at": "2026-11-08T19:40:58.227239+00:00"
 }

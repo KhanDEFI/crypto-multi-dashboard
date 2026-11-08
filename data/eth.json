@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2226.27,
-  "change_24h": -0.21,
-  "market_cap": 272071404461.57706,
-  "rsi": 38.91,
+  "price": 2233.92,
+  "change_24h": -0.2,
+  "market_cap": 273072688248.41772,
+  "rsi": 39.42,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger bullish impulse, as price is testing the lower half of the prior impulse range",
-    "momentum": "Price is slightly down with a -0.21% 24h change and RSI at 38.9, indicating weakening momentum but not yet oversold",
+    "elliott_wave": "Ethereum appears to be in a corrective wave 2 of a larger impulse, with price testing the lower half of the prior wave 1 rally.",
+    "momentum": "Price is slightly down (-0.20%) while RSI at 39.4 suggests weakening momentum but not yet oversold, indicating modest bearish pressure.",
     "key_levels": {
       "support": [
-        "$2,180.00",
-        "$2,150.00"
+        "2190.00",
+        "2150.00"
       ],
       "resistance": [
-        "$2,260.00",
-        "$2,300.00"
+        "2275.00",
+        "2320.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Consider a short position if price breaks below $2,180 with a tight stop above $2,190, targeting the next support at $2,150. If price rebounds above $2,260, flip to a long with a stop below $2,250 and aim for $2,300.",
-    "risk_note": "Watch for a sudden shift in risk sentiment or macro news that could drive ETH above $2,300, invalidating the short bias"
+    "trade_plan": "Consider a short position near the upper resistance around $2275 with a target at the nearest support $2190, using a tight stop above $2320. Alternatively, if price rebounds above $2320, flip to a long bias targeting $2400.",
+    "risk_note": "Watch for a breakout above $2320 which could invalidate the bearish bias and trigger a rapid rally."
   },
-  "updated_at": "2026-11-07T20:52:50.034214+00:00"
+  "updated_at": "2026-11-08T00:35:08.114113+00:00"
 }

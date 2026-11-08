@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T10:10:35.554356+00:00",
-    "price": 62918,
-    "trend_bias": "neutral",
-    "trade_plan": "Short-term, we recommend a neutral stance, focusing on range trading between $62,000 and $63,000. A break above $63,000 could trigger a bullish trade, while a break below $62,000 could trigger a bearish trade. We'll reassess the trend bias in 24-48 hours.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$63,000",
-        "$65,000"
-      ]
-    },
-    "rsi": 32.61
-  },
-  {
     "timestamp": "2026-08-16T11:09:28.121615+00:00",
     "price": 62954,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.66
+  },
+  {
+    "timestamp": "2026-11-08T00:35:08.114113+00:00",
+    "price": 75700,
+    "trend_bias": "neutral",
+    "trade_plan": "Hold existing positions and consider adding on a pullback to the $74,800 support level, targeting the next resistance around $76,500. If price breaks below $73,500, shift to a short bias with a tight stop above $74,200.",
+    "key_levels": {
+      "support": [
+        "$74,800",
+        "$73,500"
+      ],
+      "resistance": [
+        "$76,500",
+        "$78,000"
+      ]
+    },
+    "rsi": 37.88
   }
 ]

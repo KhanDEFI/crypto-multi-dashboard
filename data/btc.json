@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 75700,
-  "change_24h": -0.19,
-  "market_cap": 1522287805916.3154,
-  "rsi": 37.88,
+  "price": 75780,
+  "change_24h": -0.23,
+  "market_cap": 1523885387228.6072,
+  "rsi": 38.08,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price retests the prior low after a modest decline.",
-    "momentum": "Price action shows slight weakness with a -0.19% 24h change and RSI at 37.9, indicating fading bullish momentum but not yet oversold.",
+    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, with price testing the lower half of the prior wave 1 range.",
+    "momentum": "Price is slightly down with a -0.23% 24h change and RSI at 38.08, indicating weakening momentum but still above oversold levels.",
     "key_levels": {
       "support": [
-        "$74,800",
-        "$73,500"
+        "75,200.00",
+        "74,500.00"
       ],
       "resistance": [
-        "$76,500",
-        "$78,000"
+        "76,300.00",
+        "77,000.00"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Hold existing positions and consider adding on a pullback to the $74,800 support level, targeting the next resistance around $76,500. If price breaks below $73,500, shift to a short bias with a tight stop above $74,200.",
-    "risk_note": "Watch for a sudden reversal if macro news or a major exchange outage triggers a rapid sell\u2011off, which could push BTC below $73,000."
+    "trade_plan": "Consider a short position if price breaks below the 75,200 support with a tight stop above 75,300, targeting the 74,500 support. Alternatively, look for a bounce off 75,200 and go long with a stop below 75,100, aiming for the 76,300 resistance.",
+    "risk_note": "Watch for a sudden bullish reversal if Bitcoin breaks above 77,000, which could invalidate the corrective bias."
   },
-  "updated_at": "2026-11-08T00:35:08.114113+00:00"
+  "updated_at": "2026-11-08T07:19:22.385193+00:00"
 }

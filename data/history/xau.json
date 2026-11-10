@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T20:07:57.255641+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards the support levels, especially if the TradingView Signal remains BUY. Set a stop-loss below the support levels and aim for the resistance levels. Monitor the DXY and real yields for potential macro drivers.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-16T21:08:26.025438+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 49.16
+  },
+  {
+    "timestamp": "2026-11-10T17:50:03.137510+00:00",
+    "price": 4020.46,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal and declining price, consider short positions near the current level with a target around the first weekly support at $3,919.55. Place a stop loss just above the nearest resistance at $4,033.31 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$3,919.55",
+        "$3,768.21"
+      ],
+      "resistance": [
+        "$4,033.31",
+        "$4,184.65"
+      ]
+    },
+    "rsi": 45.06
   }
 ]

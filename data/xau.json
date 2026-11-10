@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4083.61,
-  "change_24h": -1.38,
+  "price": 4020.46,
+  "change_24h": -2.91,
   "market_cap": 0,
-  "rsi": 49.16,
+  "rsi": 45.06,
   "analysis": {
-    "elliott_wave": "Not applicable; gold\u2019s price action does not conform to Elliott Wave patterns in the short term.",
-    "momentum": "Price is down 1.38% with RSI near 49, indicating a lack of strong momentum and a neutral stance.",
+    "elliott_wave": "Not applicable; gold\u2019s price action is better described by classical patterns rather than Elliott Wave at this stage.",
+    "momentum": "Price is down 2.91% with RSI at 45, indicating weakening momentum but still near neutral territory.",
     "key_levels": {
       "support": [
-        "$4,033.31",
-        "$3,919.55"
+        "$3,919.55",
+        "$3,768.21"
       ],
       "resistance": [
-        "$4,184.65",
-        "$4,298.41"
+        "$4,033.31",
+        "$4,184.65"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Given the sell signal, consider a short position near the current price with a target around the first weekly support at $4,033.31. Place a stop\u2011loss just above the nearest resistance at $4,184.65 to manage risk.",
-    "risk_note": "Watch for a sudden rise in safe\u2011haven demand or a dovish shift in Fed policy that could quickly lift gold above $4,200.",
+    "trade_plan": "Given the sell signal and declining price, consider short positions near the current level with a target around the first weekly support at $3,919.55. Place a stop loss just above the nearest resistance at $4,033.31 to manage risk.",
+    "risk_note": "Watch for a sudden rally in safe\u2011haven demand or a dovish shift in US monetary policy that could reverse the downtrend.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-10T09:49:08.117761+00:00"
+  "updated_at": "2026-11-10T17:50:03.137510+00:00"
 }

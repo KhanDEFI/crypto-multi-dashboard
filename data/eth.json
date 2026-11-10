@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2126.62,
-  "change_24h": 0.07,
-  "market_cap": 259833420403.52573,
-  "rsi": 33.47,
+  "price": 2102.38,
+  "change_24h": -0.16,
+  "market_cap": 256925063640.8644,
+  "rsi": 32.15,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely Wave 2 of a larger impulse, as price is flat and RSI is low but not oversold",
-    "momentum": "Price is near\u2011flat with a minimal 0.07% rise and RSI at 33.5, indicating weak bullish momentum but still in the lower half of the range",
+    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger bullish impulse, as price is consolidating after a modest decline",
+    "momentum": "Price is marginally down with a 0.16% drop and RSI at 32.15, indicating weak momentum but not yet oversold",
     "key_levels": {
       "support": [
-        "2100.00",
-        "2050.00"
+        "$2,050",
+        "$2,000"
       ],
       "resistance": [
-        "2150.00",
-        "2200.00"
+        "$2,150",
+        "$2,200"
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Target the near\u2011term support around $2,100; if price holds, consider a small long position with a tight stop just below $2,050, aiming for the $2,150 resistance within 24\u201148h. If price breaks below $2,050, flip to a short with a stop near $2,100.",
-    "risk_note": "Watch for a sudden drop below $2,050 which could trigger a deeper correction toward $1,950"
+    "trade_plan": "Consider buying on dips near $2,050 with a target around $2,150; set a stop loss just below $2,000. If price breaks below $2,000, shift to a short bias for the next 24\u201148h",
+    "risk_note": "Watch for a sudden reversal if RSI breaches 30, which could trigger a sharper down move"
   },
-  "updated_at": "2026-11-10T01:30:00.543614+00:00"
+  "updated_at": "2026-11-10T09:49:08.117761+00:00"
 }

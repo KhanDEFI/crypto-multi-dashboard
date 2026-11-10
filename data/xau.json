@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4140.54,
-  "change_24h": -0.01,
+  "price": 4083.61,
+  "change_24h": -1.38,
   "market_cap": 0,
-  "rsi": 53.56,
+  "rsi": 49.16,
   "analysis": {
-    "elliott_wave": "Gold is not evaluated under Elliott Wave; no clear wave pattern identified.",
-    "momentum": "Price is flat with a -0.01% change and RSI at 53.6, indicating neutral momentum.",
+    "elliott_wave": "Not applicable; gold\u2019s price action does not conform to Elliott Wave patterns in the short term.",
+    "momentum": "Price is down 1.38% with RSI near 49, indicating a lack of strong momentum and a neutral stance.",
     "key_levels": {
       "support": [
         "$4,033.31",
@@ -18,10 +18,10 @@
         "$4,298.41"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Maintain a tight range\u2011bound stance. Consider short positions near the upper pivot $4,184.65 with a target at $4,033.31, and long positions near $3,919.55 if price breaks lower support, using stops just beyond the opposite pivot. Monitor macro cues for any shift.",
-    "risk_note": "A sudden rise in real yields or aggressive DXY rally could push gold lower quickly.",
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal, consider a short position near the current price with a target around the first weekly support at $4,033.31. Place a stop\u2011loss just above the nearest resistance at $4,184.65 to manage risk.",
+    "risk_note": "Watch for a sudden rise in safe\u2011haven demand or a dovish shift in Fed policy that could quickly lift gold above $4,200.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-10T01:30:00.543614+00:00"
+  "updated_at": "2026-11-10T09:49:08.117761+00:00"
 }

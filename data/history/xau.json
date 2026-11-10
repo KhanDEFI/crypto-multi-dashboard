@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T19:11:48.109600+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards TV Pivot Support, with a target of $4,313.41. Monitor TradingView Signal and adjust accordingly. Set stop-loss at TV Pivot Support.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-16T20:07:57.255641+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 53.56
+  },
+  {
+    "timestamp": "2026-11-10T09:49:08.117761+00:00",
+    "price": 4083.61,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal, consider a short position near the current price with a target around the first weekly support at $4,033.31. Place a stop\u2011loss just above the nearest resistance at $4,184.65 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$4,033.31",
+        "$3,919.55"
+      ],
+      "resistance": [
+        "$4,184.65",
+        "$4,298.41"
+      ]
+    },
+    "rsi": 49.16
   }
 ]

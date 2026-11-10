@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T18:10:52.660675+00:00",
-    "price": 4376.29,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $3,825.71, with a target of $4,313.41; however, be cautious of a potential pullback if the 24h change reverses",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 63.51
-  },
-  {
     "timestamp": "2026-08-16T19:11:48.109600+00:00",
     "price": 4376.29,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 51.04
+  },
+  {
+    "timestamp": "2026-11-10T01:30:00.543614+00:00",
+    "price": 4140.54,
+    "trend_bias": "neutral",
+    "trade_plan": "Maintain a tight range\u2011bound stance. Consider short positions near the upper pivot $4,184.65 with a target at $4,033.31, and long positions near $3,919.55 if price breaks lower support, using stops just beyond the opposite pivot. Monitor macro cues for any shift.",
+    "key_levels": {
+      "support": [
+        "$4,033.31",
+        "$3,919.55"
+      ],
+      "resistance": [
+        "$4,184.65",
+        "$4,298.41"
+      ]
+    },
+    "rsi": 53.56
   }
 ]

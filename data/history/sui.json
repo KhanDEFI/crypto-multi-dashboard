@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T21:08:26.025438+00:00",
-    "price": 0.674061,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on a bounce to $0.70, with a stop-loss at $0.62, and a target at $0.75. Alternatively, consider selling on a break below $0.65, with a stop-loss at $0.72, and a target at $0.60.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.62"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.72"
-      ]
-    },
-    "rsi": 52.71
-  },
-  {
     "timestamp": "2026-08-16T22:08:02.073427+00:00",
     "price": 0.669337,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 37.71
+  },
+  {
+    "timestamp": "2026-11-11T06:18:49.082471+00:00",
+    "price": 0.824938,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.78 support with a target around 0.74, or a tight scalp if price breaks below 0.78. If price rebounds to 0.86, look for a quick sell to capture upside.",
+    "key_levels": {
+      "support": [
+        "0.78",
+        "0.74"
+      ],
+      "resistance": [
+        "0.86",
+        "0.90"
+      ]
+    },
+    "rsi": 38.24
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-16T22:08:02.073427+00:00",
-    "price": 62822,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards $61,000, targeting $63,500. Sell on rallies above $63,500, targeting $65,000. Monitor for a breakout.",
-    "key_levels": {
-      "support": [
-        "$62,500",
-        "$61,000"
-      ],
-      "resistance": [
-        "$63,500",
-        "$65,000"
-      ]
-    },
-    "rsi": 64.45
-  },
-  {
     "timestamp": "2026-08-16T23:08:23.059245+00:00",
     "price": 62886,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 34.27
+  },
+  {
+    "timestamp": "2026-11-11T15:11:04.173995+00:00",
+    "price": 73497,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight\u2011range longs near the $71,800 support, targeting the next resistance around $75,200. Use a stop loss above $73,500 to limit downside.",
+    "key_levels": {
+      "support": [
+        "$71,800",
+        "$70,500"
+      ],
+      "resistance": [
+        "$75,200",
+        "$77,000"
+      ]
+    },
+    "rsi": 33.63
   }
 ]

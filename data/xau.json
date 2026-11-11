@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 4056.86,
-  "change_24h": 0.6,
+  "price": 4017.53,
+  "change_24h": -0.38,
   "market_cap": 0,
-  "rsi": 47.63,
+  "rsi": 44.82,
   "analysis": {
-    "elliott_wave": "Gold is currently in a corrective phase, likely a short\u2011term ABC pattern following a prior uptrend",
-    "momentum": "Price is modestly higher (+0.60%) with RSI at 47.6, indicating near\u2011neutral momentum and limited buying pressure",
+    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern identified",
+    "momentum": "Price is slipping with a -0.38% 24h move and RSI at 44.8, indicating weakening momentum and slight bearish pressure",
     "key_levels": {
       "support": [
-        "$4,033.31",
-        "$3,919.55"
+        "$3,919.55",
+        "$3,768.21"
       ],
       "resistance": [
-        "$4,184.65",
-        "$4,298.41"
+        "$4,033.31",
+        "$4,184.65"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Given the neutral momentum and weekly support at $4,033, consider a short\u2011term sell stop at $4,060 if price breaks below the recent high, targeting the $4,033 support. If price rebounds above $4,060, look for a quick scalp toward $4,184 resistance.",
-    "risk_note": "Watch for a sudden rise in DXY or real yields that could accelerate downside pressure on gold",
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position around the current price targeting the nearest support at $3,919.55, with a stop loss just above the upper weekly resistance $4,033.31. Manage position size for a 1-2% risk over the next 24\u201148 hours.",
+    "risk_note": "A rapid rise in the DXY or unexpected dovish central bank signals could reverse gold's downside quickly",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-11T06:18:49.082471+00:00"
+  "updated_at": "2026-11-11T15:11:04.173995+00:00"
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 2043.23,
-  "change_24h": -0.69,
-  "market_cap": 249731114363.33078,
-  "rsi": 29.58,
+  "price": 2010.92,
+  "change_24h": -3.37,
+  "market_cap": 245825053354.63358,
+  "rsi": 28.04,
   "analysis": {
-    "elliott_wave": "Ethereum appears to be in a corrective wave, likely a Wave 2 of a larger bullish impulse, as price is retracing from recent highs while RSI remains oversold.",
-    "momentum": "Price is modestly declining with a -0.69% 24h change and RSI at 29.6, indicating weak momentum and potential for a short\u2011term bounce.",
+    "elliott_wave": "ETH appears to be in a corrective wave (likely a Wave B) following a prior impulsive move, with the price retracing toward the 38.2% Fibonacci of the last uptrend.",
+    "momentum": "Price is down 3.37% with an RSI of 28, indicating strong bearish momentum and oversold conditions that could trigger a short-term bounce.",
     "key_levels": {
       "support": [
-        "$1,980",
-        "$1,940"
+        "1950.00",
+        "1900.00"
       ],
       "resistance": [
-        "$2,080",
-        "$2,120"
+        "2050.00",
+        "2100.00"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying near the $1,980 support with a tight stop just below $1,940, targeting the $2,080 resistance for a short\u2011term upside. If price breaks below $1,940, shift to a defensive stance or short position targeting $1,880.",
-    "risk_note": "Watch for a sudden reversal if broader risk sentiment improves, which could drive ETH back above $2,100 and invalidate the oversold bias."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider entering a short position near the 2050 resistance with a target around 1950 and a stop loss above 2100. If price rebounds sharply, flip to a quick long targeting 2100 with a stop below 2000.",
+    "risk_note": "Watch for a sudden bullish catalyst (e.g., major protocol upgrade news) that could invalidate the short bias and drive price above 2100."
   },
-  "updated_at": "2026-11-12T11:07:47.809604+00:00"
+  "updated_at": "2026-11-12T18:55:36.939945+00:00"
 }

@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3952.65,
-  "change_24h": -0.89,
+  "price": 3881.12,
+  "change_24h": -2.67,
   "market_cap": 0,
-  "rsi": 40.9,
+  "rsi": 37.2,
   "analysis": {
-    "elliott_wave": "Not applicable; gold's price action is better described by classical patterns rather than Elliott Wave.",
-    "momentum": "Price is slightly down with a -0.89% 24h change and RSI at 40.9, indicating weakening momentum but still above oversold levels.",
+    "elliott_wave": "Gold is not exhibiting a clear Elliott Wave pattern; price appears in a corrective phase after recent highs.",
+    "momentum": "Price is declining with a -2.67% 24h move and RSI at 37.2, indicating weakening momentum but not yet oversold.",
     "key_levels": {
       "support": [
-        "$3,919.55",
-        "$3,768.21"
+        "$3,768.21",
+        "$3,503.11"
       ],
       "resistance": [
-        "$4,033.31",
-        "$4,184.65"
+        "$3,919.55",
+        "$4,033.31"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Given the sell signal and weakening momentum, consider short positions near the current price with targets at the nearest support of $3,919.55 and a secondary target at $3,768.21. Place a stop loss just above the first resistance level around $4,040 to manage risk.",
-    "risk_note": "Watch for a rapid rise in the DXY or unexpected inflation data that could boost safe\u2011haven demand and reverse the downtrend.",
+    "trade_plan": "Consider a short position near the upper resistance around $3,919.5 with a target around the first weekly support at $3,781.2. Manage the trade with a stop just above $4,000 to limit upside risk.",
+    "risk_note": "A rapid strengthening of the US dollar or unexpected dovish central bank signals could reverse the downtrend.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-12T11:07:47.809604+00:00"
+  "updated_at": "2026-11-12T18:55:36.939945+00:00"
 }

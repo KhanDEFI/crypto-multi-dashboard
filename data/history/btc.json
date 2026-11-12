@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T00:31:05.851531+00:00",
-    "price": 62780,
-    "trend_bias": "bearish",
-    "trade_plan": "Short-term: Sell on a break below $62,000. Medium-term: Target $60,000. Long-term: Monitor for a potential reversal.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$63,000",
-        "$65,000"
-      ]
-    },
-    "rsi": 44.48
-  },
-  {
     "timestamp": "2026-08-17T02:11:30.422293+00:00",
     "price": 63002,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.86
+  },
+  {
+    "timestamp": "2026-11-12T02:58:49.673465+00:00",
+    "price": 73732,
+    "trend_bias": "neutral",
+    "trade_plan": "Maintain a tight short\u2011term position: consider a small sell stop\u2011limit near the lower support if price breaks below 73,200, or a modest buy near the upper resistance if it holds above 74,200. Keep exposure limited to 1\u20112% of capital.",
+    "key_levels": {
+      "support": [
+        "73,200",
+        "72,800"
+      ],
+      "resistance": [
+        "74,200",
+        "74,800"
+      ]
+    },
+    "rsi": 34.64
   }
 ]

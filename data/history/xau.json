@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T05:24:20.785309+00:00",
-    "price": 4395.65,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider buying on dips towards $3,825.71 or $3,936.03, with a target of $4,313.41. Monitor DXY and real yields for potential shifts in safe-haven demand.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.61
-  },
-  {
     "timestamp": "2026-08-17T06:28:09.338530+00:00",
     "price": 4397.24,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 37.2
+  },
+  {
+    "timestamp": "2026-11-13T00:23:15.608420+00:00",
+    "price": 3885.75,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the modest upside and bearish TradingView signal, consider a short position near the current price with a target at the first weekly support ($3,788.21). Place a stop loss just above the nearest resistance ($3,919.55) to limit downside risk.",
+    "key_levels": {
+      "support": [
+        "$3,768.21",
+        "$3,503.11"
+      ],
+      "resistance": [
+        "$3,919.55",
+        "$4,033.31"
+      ]
+    },
+    "rsi": 37.74
   }
 ]

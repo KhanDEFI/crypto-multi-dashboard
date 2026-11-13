@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T05:24:20.785309+00:00",
-    "price": 0.678055,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a buy or sell order at key levels, with a stop-loss at $0.60 to limit potential losses. Monitor the market for a potential breakout above $0.72 or a breakdown below $0.65.",
-    "key_levels": {
-      "support": [
-        "$0.65",
-        "$0.60"
-      ],
-      "resistance": [
-        "$0.70",
-        "$0.72"
-      ]
-    },
-    "rsi": 47.83
-  },
-  {
     "timestamp": "2026-08-17T06:28:09.338530+00:00",
     "price": 0.676307,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 36.28
+  },
+  {
+    "timestamp": "2026-11-13T07:57:07.666691+00:00",
+    "price": 0.796968,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or tight long entries near the 0.75 support with a target around 0.70, using a stop just above 0.80. If price rebounds sharply above 0.80, flip to a cautious long with a target near 0.85.",
+    "key_levels": {
+      "support": [
+        "0.75",
+        "0.70"
+      ],
+      "resistance": [
+        "0.85",
+        "0.90"
+      ]
+    },
+    "rsi": 35.29
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T06:28:09.338530+00:00",
-    "price": 4397.24,
-    "trend_bias": "neutral",
-    "trade_plan": "Buy on dips towards TV Pivot Support, targeting $4,313.41 resistance. Set stop-loss below $3,825.71. Monitor DXY and real yields for potential safe-haven demand shifts.",
-    "key_levels": {
-      "support": [
-        "$3,936.03",
-        "$3,825.71"
-      ],
-      "resistance": [
-        "$4,179.88",
-        "$4,313.41"
-      ]
-    },
-    "rsi": 64.69
-  },
-  {
     "timestamp": "2026-08-17T07:41:14.095040+00:00",
     "price": 4407.68,
     "trend_bias": "bullish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 37.74
+  },
+  {
+    "timestamp": "2026-11-13T07:57:07.666691+00:00",
+    "price": 3901.26,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the TradingView SELL signal and RSI approaching oversold, consider a short position near the current price with a target at the first weekly support of $3,768.21. Place a stop\u2011loss just above the nearest resistance at $3,919.55 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$3,768.21",
+        "$3,503.11"
+      ],
+      "resistance": [
+        "$3,919.55",
+        "$4,033.31"
+      ]
+    },
+    "rsi": 39.01
   }
 ]

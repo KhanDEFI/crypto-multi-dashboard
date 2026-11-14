@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-08-17T08:28:20.488935+00:00",
-    "price": 63376,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider buying on dips towards $62,000, with a target of $65,500. However, be cautious of a potential bearish reversal if price breaks below $60,000.",
-    "key_levels": {
-      "support": [
-        "$62,000",
-        "$60,000"
-      ],
-      "resistance": [
-        "$64,500",
-        "$65,500"
-      ]
-    },
-    "rsi": 67.72
-  },
-  {
     "timestamp": "2026-10-08T15:41:01.928344+00:00",
     "price": 81172,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 24.77
+  },
+  {
+    "timestamp": "2026-11-14T03:15:14.456914+00:00",
+    "price": 67553,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 66,800 support with tight stops above 68,200 resistance. If price breaks above 68,800, flip to a long bias with targets near 70,000.",
+    "key_levels": {
+      "support": [
+        "66,800",
+        "66,200"
+      ],
+      "resistance": [
+        "68,200",
+        "68,800"
+      ]
+    },
+    "rsi": 23.73
   }
 ]

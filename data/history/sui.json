@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T22:33:59.067867+00:00",
-    "price": 1.05,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions or tight long entries near the $0.95 support with a target around $0.85, using a stop loss above $1.00. Alternatively, wait for a clear reversal candle before initiating longs.",
-    "key_levels": {
-      "support": [
-        "$0.95",
-        "$0.90"
-      ],
-      "resistance": [
-        "$1.15",
-        "$1.25"
-      ]
-    },
-    "rsi": 14.6
-  },
-  {
     "timestamp": "2026-10-09T02:37:18.473745+00:00",
     "price": 1.046,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 28.77
+  },
+  {
+    "timestamp": "2026-11-14T21:29:31.496841+00:00",
+    "price": 0.694554,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.70 resistance zone with tight stops above 0.75, or wait for a bounce at the 0.60 support to enter a contrarian long with a target near 0.68. Monitor price action closely over the next 24\u201148h for reversal candles.",
+    "key_levels": {
+      "support": [
+        "0.60",
+        "0.55"
+      ],
+      "resistance": [
+        "0.75",
+        "0.80"
+      ]
+    },
+    "rsi": 26.87
   }
 ]

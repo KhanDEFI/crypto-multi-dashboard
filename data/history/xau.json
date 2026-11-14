@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T17:01:49.947423+00:00",
-    "price": 4126.55,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the slight upside and neutral RSI, consider a short position near the current level with a target at the first support $4,007.99, and a stop just above the nearest resistance $4,408.11. Monitor for a break below $4,100 to confirm downside bias.",
-    "key_levels": {
-      "support": [
-        "$4,007.99",
-        "$3,859.32"
-      ],
-      "resistance": [
-        "$4,408.11",
-        "$4,659.56"
-      ]
-    },
-    "rsi": 39.06
-  },
-  {
     "timestamp": "2026-10-08T22:33:59.067867+00:00",
     "price": 4137.15,
     "trend_bias": "neutral",
@@ -2829,6 +2812,23 @@
     "price": 3880.25,
     "trend_bias": "bearish",
     "trade_plan": "Given the TradingView SELL signal and weak momentum, consider short positions near the current price with targets at the first support level around $3,780. Manage risk with a stop just above the nearest resistance at $3,920.",
+    "key_levels": {
+      "support": [
+        "$3,768.21",
+        "$3,503.11"
+      ],
+      "resistance": [
+        "$3,919.55",
+        "$4,033.31"
+      ]
+    },
+    "rsi": 37.27
+  },
+  {
+    "timestamp": "2026-11-14T10:32:07.464185+00:00",
+    "price": 3880.25,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the TradingView SELL signal and lack of strong momentum, consider a short position near the current price with a target at the first weekly support $3,768.21 and a stop\u2011loss just above the nearest resistance $3,919.55. Monitor real\u2011yield spreads and DXY for confirmation.",
     "key_levels": {
       "support": [
         "$3,768.21",

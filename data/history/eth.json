@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T17:01:49.947423+00:00",
-    "price": 2413.81,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $2,400 resistance if price fails to hold above $2,420, targeting the $2,300 support. Alternatively, look for a reversal entry at $2,300 with a tight stop above $2,320 for a potential bounce.",
-    "key_levels": {
-      "support": [
-        "$2,300.00",
-        "$2,250.00"
-      ],
-      "resistance": [
-        "$2,500.00",
-        "$2,600.00"
-      ]
-    },
-    "rsi": 7.6
-  },
-  {
     "timestamp": "2026-10-08T22:33:59.067867+00:00",
     "price": 2472.75,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 23.72
+  },
+  {
+    "timestamp": "2026-11-14T17:07:33.148585+00:00",
+    "price": 1819.09,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or buying puts near the $1,750 support with a target around $1,700, or wait for a bounce above $1,850 for a potential long entry. Use tight stops above $1,770 for shorts or below $1,860 for longs.",
+    "key_levels": {
+      "support": [
+        "$1,750.00",
+        "$1,700.00"
+      ],
+      "resistance": [
+        "$1,850.00",
+        "$1,900.00"
+      ]
+    },
+    "rsi": 20.81
   }
 ]

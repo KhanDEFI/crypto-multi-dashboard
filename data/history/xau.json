@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-08T22:33:59.067867+00:00",
-    "price": 4137.15,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the strong sell signal on TradingView and lack of clear momentum, consider a short position near the current price with a target at the nearest support $4,007.99. Place a stop loss just above the next resistance $4,408.11 to manage risk.",
-    "key_levels": {
-      "support": [
-        "$4,007.99",
-        "$3,859.32"
-      ],
-      "resistance": [
-        "$4,408.11",
-        "$4,659.56"
-      ]
-    },
-    "rsi": 40.15
-  },
-  {
     "timestamp": "2026-10-09T02:37:18.473745+00:00",
     "price": 4173.54,
     "trend_bias": "neutral",
@@ -2829,6 +2812,23 @@
     "price": 3880.25,
     "trend_bias": "neutral",
     "trade_plan": "Given the TradingView SELL signal and lack of strong momentum, consider a short position near the current price with a target at the first weekly support $3,768.21 and a stop\u2011loss just above the nearest resistance $3,919.55. Monitor real\u2011yield spreads and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$3,768.21",
+        "$3,503.11"
+      ],
+      "resistance": [
+        "$3,919.55",
+        "$4,033.31"
+      ]
+    },
+    "rsi": 37.27
+  },
+  {
+    "timestamp": "2026-11-14T17:07:33.148585+00:00",
+    "price": 3880.25,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the near\u2011flat price, stay on the sidelines or consider a short position near the top of the $3,919.55 resistance with a tight stop below $3,880. If price breaks above $3,919, look for a bullish continuation toward $4,033.31; otherwise, a move below $3,880 could target the $3,768 support.",
     "key_levels": {
       "support": [
         "$3,768.21",

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-09T14:42:22.853208+00:00",
-    "price": 1.058,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the 1.06 level with targets at the identified support zones, or a tight scalp if price breaks below 0.98. Maintain tight stops above 1.08 to limit upside risk.",
-    "key_levels": {
-      "support": [
-        "0.98",
-        "0.92"
-      ],
-      "resistance": [
-        "1.12",
-        "1.20"
-      ]
-    },
-    "rsi": 33.01
-  },
-  {
     "timestamp": "2026-10-09T16:39:49.493150+00:00",
     "price": 1.061,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 32.41
+  },
+  {
+    "timestamp": "2026-11-15T17:10:17.942846+00:00",
+    "price": 0.716943,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.72 level with targets at the nearest supports (0.68, 0.65). If price rebounds above 0.75, shift to a cautious long stance targeting 0.80.",
+    "key_levels": {
+      "support": [
+        "0.68",
+        "0.65"
+      ],
+      "resistance": [
+        "0.75",
+        "0.80"
+      ]
+    },
+    "rsi": 30.15
   }
 ]

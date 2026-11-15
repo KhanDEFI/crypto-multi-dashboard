@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-09T09:43:49.080611+00:00",
-    "price": 82565,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $81,800 support with tight stops above $82,200, targeting the $80,500 level. If price rebounds sharply above $82,500, flip to a cautious long targeting $84,000.",
-    "key_levels": {
-      "support": [
-        "$81,800",
-        "$80,500"
-      ],
-      "resistance": [
-        "$84,000",
-        "$86,200"
-      ]
-    },
-    "rsi": 27.81
-  },
-  {
     "timestamp": "2026-10-09T14:42:22.853208+00:00",
     "price": 82991,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 18.2
+  },
+  {
+    "timestamp": "2026-11-15T09:25:25.438651+00:00",
+    "price": 65668,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider entering a short position near $65,200 with a target around $64,200 and a stop loss above $66,000. If price rebounds sharply above $66,500, flip to a long with a target near $68,000.",
+    "key_levels": {
+      "support": [
+        "$64,200",
+        "$63,500"
+      ],
+      "resistance": [
+        "$66,500",
+        "$68,000"
+      ]
+    },
+    "rsi": 25.72
   }
 ]

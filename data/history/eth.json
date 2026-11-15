@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-09T09:43:49.080611+00:00",
-    "price": 2502.93,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider entering a short position near the $2,500 level with a target at the $2,430 support. If price rebounds sharply, flip to a quick long targeting $2,560 resistance, using a tight stop.",
-    "key_levels": {
-      "support": [
-        "$2,430.00",
-        "$2,380.00"
-      ],
-      "resistance": [
-        "$2,560.00",
-        "$2,620.00"
-      ]
-    },
-    "rsi": 22.62
-  },
-  {
     "timestamp": "2026-10-09T14:42:22.853208+00:00",
     "price": 2489.94,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 18.37
+  },
+  {
+    "timestamp": "2026-11-15T09:25:25.438651+00:00",
+    "price": 1832.05,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider entering long positions near the 1750 support with a target around 1900. Place a stop loss just below 1700. Monitor price action for a reversal signal within the next 24\u201148 hours.",
+    "key_levels": {
+      "support": [
+        "1750.00",
+        "1700.00"
+      ],
+      "resistance": [
+        "1900.00",
+        "2000.00"
+      ]
+    },
+    "rsi": 26.0
   }
 ]

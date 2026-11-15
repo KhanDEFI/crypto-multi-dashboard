@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-09T14:42:22.853208+00:00",
-    "price": 4182.29,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the TradingView SELL signal and neutral RSI, consider a short position if price breaks below the nearest support at $4,007.99 with a target near $3,859.32. Alternatively, stay flat and watch for a clear breakout direction before committing.",
-    "key_levels": {
-      "support": [
-        "$4,007.99",
-        "$3,859.32"
-      ],
-      "resistance": [
-        "$4,408.11",
-        "$4,659.56"
-      ]
-    },
-    "rsi": 44.58
-  },
-  {
     "timestamp": "2026-10-09T16:39:49.493150+00:00",
     "price": 4187.67,
     "trend_bias": "neutral",
@@ -2829,6 +2812,23 @@
     "price": 3880.25,
     "trend_bias": "neutral",
     "trade_plan": "Given the near\u2011flat price action and bearish TradingView signal, consider a short position near the upper weekly resistance of $3,919.55 with a target around the first support at $3,768.21. Use a tight stop above $3,940 to protect against a sudden rally.",
+    "key_levels": {
+      "support": [
+        "$3,768.21",
+        "$3,503.11"
+      ],
+      "resistance": [
+        "$3,919.55",
+        "$4,033.31"
+      ]
+    },
+    "rsi": 37.27
+  },
+  {
+    "timestamp": "2026-11-15T09:25:25.438651+00:00",
+    "price": 3880.25,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the near\u2011flat price, stay out of new positions or consider a tight scalp sell if price breaks below the $3,768 support with a target at $3,503. If price rallies above $3,920, a short\u2011term buy could be placed with a target near $4,030, but keep stops tight.",
     "key_levels": {
       "support": [
         "$3,768.21",

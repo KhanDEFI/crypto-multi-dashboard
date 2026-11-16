@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T01:21:25.764591+00:00",
-    "price": 4194.81,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the TradingView SELL signal and neutral RSI, consider a short position near the current level with a target at the first support $4,007.99 and a stop above the nearest resistance $4,408.11. Monitor macro cues such as DXY strength and real yields for confirmation.",
-    "key_levels": {
-      "support": [
-        "$4,007.99",
-        "$3,859.32"
-      ],
-      "resistance": [
-        "$4,408.11",
-        "$4,659.56"
-      ]
-    },
-    "rsi": 45.69
-  },
-  {
     "timestamp": "2026-10-10T05:35:20.929546+00:00",
     "price": 4194.81,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 37.27
+  },
+  {
+    "timestamp": "2026-11-16T02:06:27.061553+00:00",
+    "price": 3878.87,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal, flat price action and proximity to the first weekly support, consider a short position near the current level with a target at $3,772.26 and a stop above $3,960.48. Monitor for any reversal candlesticks before entry.",
+    "key_levels": {
+      "support": [
+        "$3,772.26",
+        "$3,664.04"
+      ],
+      "resistance": [
+        "$3,960.48",
+        "$4,068.70"
+      ]
+    },
+    "rsi": 37.19
   }
 ]

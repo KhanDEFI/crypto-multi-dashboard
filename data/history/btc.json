@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T05:35:20.929546+00:00",
-    "price": 82652,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term scalp near the 81,800 support if price dips, targeting the 83,200 resistance. If price breaks above 83,200 with volume, look for a breakout long with a tight stop below 83,000.",
-    "key_levels": {
-      "support": [
-        "81,800",
-        "81,200"
-      ],
-      "resistance": [
-        "83,200",
-        "84,000"
-      ]
-    },
-    "rsi": 43.19
-  },
-  {
     "timestamp": "2026-10-10T05:49:15.527018+00:00",
     "price": 82724,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 23.17
+  },
+  {
+    "timestamp": "2026-11-16T20:28:45.553784+00:00",
+    "price": 65033,
+    "trend_bias": "neutral",
+    "trade_plan": "Target the nearest support around $64,500 with a stop above $65,500; consider a small long position if price breaks above $65,500 with a target near $66,200. Monitor for reversal signals at $63,800 for potential short entry.",
+    "key_levels": {
+      "support": [
+        "64,500.00",
+        "63,800.00"
+      ],
+      "resistance": [
+        "65,500.00",
+        "66,200.00"
+      ]
+    },
+    "rsi": 24.09
   }
 ]

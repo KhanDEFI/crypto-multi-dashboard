@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 64783,
-  "change_24h": 2.52,
-  "market_cap": 1303518605961.7473,
-  "rsi": 23.79,
+  "price": 64243,
+  "change_24h": -1.74,
+  "market_cap": 1292213313537.8452,
+  "rsi": 23.17,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, showing a shallow retracement after a prior bullish wave 1.",
-    "momentum": "Price is modestly up 2.5% while RSI is deep in oversold territory at 23.79, indicating potential bullish momentum despite short\u2011term weakness.",
+    "elliott_wave": "BTC appears to be in a corrective wave 2 of a larger impulse, showing a shallow decline after the prior wave 1 rally.",
+    "momentum": "Price is falling with a -1.74% 24h change and RSI at 23.17, indicating strong bearish momentum and oversold conditions.",
     "key_levels": {
       "support": [
-        "$62,500",
-        "$60,800"
+        "$63,500",
+        "$62,800"
       ],
       "resistance": [
-        "$66,200",
-        "$68,000"
+        "$65,000",
+        "$66,200"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Enter long near the $62,500 support with a target around $66,200. If price breaks above $66,200, consider adding on pull\u2011backs to $64,800. Keep stop loss just below $60,800.",
-    "risk_note": "A sudden reversal driven by macro news or a rapid sell\u2011off could push BTC back below $60,800, invalidating the bullish bias."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or buying dips near the $63,500 support, targeting the next resistance around $65,000. Keep stops just above $64,200 to limit downside if the trend reverses.",
+    "risk_note": "A sudden macro news catalyst could trigger a rapid bounce, invalidating the bearish bias."
   },
-  "updated_at": "2026-11-16T02:06:27.061553+00:00"
+  "updated_at": "2026-11-16T09:42:13.078311+00:00"
 }

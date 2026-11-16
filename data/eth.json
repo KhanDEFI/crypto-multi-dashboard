@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1812.63,
-  "change_24h": 4.01,
-  "market_cap": 221643239733.92007,
-  "rsi": 25.47,
+  "price": 1794.65,
+  "change_24h": -1.68,
+  "market_cap": 219384480833.64047,
+  "rsi": 24.87,
   "analysis": {
-    "elliott_wave": "Potentially in a Wave 3 of an impulsive bullish Elliott wave, following a corrective Wave 2 after the recent dip; price is accelerating upward.",
-    "momentum": "Price is rising with a 4% 24h gain while RSI is deep in oversold territory (~25), indicating strong upward momentum and possible reversal.",
+    "elliott_wave": "ETH appears to be in a corrective wave (likely a Wave 2) after a recent impulsive rally, showing signs of a descending triangle formation.",
+    "momentum": "Price is slipping with a -1.68% 24h change and RSI at 24.87, indicating strong bearish momentum and oversold conditions.",
     "key_levels": {
       "support": [
-        "$1,770.00",
-        "$1,750.00"
+        "$1,750.00",
+        "$1,720.00"
       ],
       "resistance": [
-        "$1,845.00",
-        "$1,880.00"
+        "$1,820.00",
+        "$1,860.00"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Enter long positions near the $1,770 support level with a target around $1,845. Consider adding to positions if price holds above $1,800 and set a stop loss just below $1,750.",
-    "risk_note": "Watch for a sudden reversal if RSI spikes above 40, indicating a potential exhaustion of the current rally."
+    "trend_bias": "bearish",
+    "trade_plan": "Target the nearest support around $1,750 with a stop above $1,820. Consider a short position if price breaks below $1,720, aiming for $1,680. Adjust position size based on volatility.",
+    "risk_note": "Watch for a sudden bullish reversal if large buying pressure emerges above $1,820, which could invalidate the bearish bias."
   },
-  "updated_at": "2026-11-16T02:06:27.061553+00:00"
+  "updated_at": "2026-11-16T09:42:13.078311+00:00"
 }

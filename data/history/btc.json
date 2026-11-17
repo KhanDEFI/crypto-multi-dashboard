@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T07:48:30.614776+00:00",
-    "price": 82686,
-    "trend_bias": "neutral",
-    "trade_plan": "Hold current positions; consider buying on a dip near $81,500 with a target near $83,200. If price breaks above $84,000, look for a short\u2011term long entry, but keep stops tight.",
-    "key_levels": {
-      "support": [
-        "$81,500",
-        "$80,800"
-      ],
-      "resistance": [
-        "$83,200",
-        "$84,000"
-      ]
-    },
-    "rsi": 50.69
-  },
-  {
     "timestamp": "2026-10-10T12:31:46.073674+00:00",
     "price": 82781,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 24.19
+  },
+  {
+    "timestamp": "2026-11-17T22:23:37.109909+00:00",
+    "price": 64437,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $64,400 level with targets at the $63,800 and $63,200 supports. If price rebounds sharply above $65,000, flip to a quick long with a target near $66,200, using a tight stop.",
+    "key_levels": {
+      "support": [
+        "$63,800",
+        "$63,200"
+      ],
+      "resistance": [
+        "$65,000",
+        "$66,200"
+      ]
+    },
+    "rsi": 23.35
   }
 ]

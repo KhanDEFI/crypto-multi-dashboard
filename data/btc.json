@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 64920,
-  "change_24h": 1.38,
-  "market_cap": 1305761223160.693,
-  "rsi": 24.19,
+  "price": 64437,
+  "change_24h": -1.39,
+  "market_cap": 1294825263566.832,
+  "rsi": 23.35,
   "analysis": {
-    "elliott_wave": "Potentially in Wave 3 of an impulsive bullish sequence, as price is extending beyond prior highs after a corrective dip.",
-    "momentum": "Price is modestly up 1.38% while RSI is deep in oversold territory (24.19), indicating strong upward momentum and possible short-term rebound.",
+    "elliott_wave": "BTC appears to be in a corrective wave, likely wave 2 of a larger impulse, as price is retracing from recent highs while RSI remains deep oversold.",
+    "momentum": "Price is declining with a -1.39% 24h change and RSI at 23.35, indicating weak momentum and potential for a short-term bounce but overall bearish pressure.",
     "key_levels": {
       "support": [
-        "64,200",
-        "63,500"
+        "$63,800",
+        "$63,200"
       ],
       "resistance": [
-        "65,500",
-        "66,200"
+        "$65,000",
+        "$66,200"
       ]
     },
-    "trend_bias": "bullish",
-    "trade_plan": "Enter long near the 64,200 support with a target around the 65,500 resistance. Use a stop loss just below 63,500. Consider scaling out at the second resistance if price holds.",
-    "risk_note": "Watch for a rapid RSI rebound above 30, which could signal a reversal back into a corrective phase."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $64,400 level with targets at the $63,800 and $63,200 supports. If price rebounds sharply above $65,000, flip to a quick long with a target near $66,200, using a tight stop.",
+    "risk_note": "Watch for a sudden bullish reversal if macro news or institutional buying lifts BTC above $65,000, which could invalidate the bearish bias."
   },
-  "updated_at": "2026-11-17T13:25:55.131380+00:00"
+  "updated_at": "2026-11-17T22:23:37.109909+00:00"
 }

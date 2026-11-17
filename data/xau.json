@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3871.3,
-  "change_24h": 0.39,
+  "price": 3856.61,
+  "change_24h": 0.01,
   "market_cap": 0,
-  "rsi": 37.44,
+  "rsi": 36.05,
   "analysis": {
-    "elliott_wave": "Gold is not evaluated via Elliott Wave; no wave count applied.",
-    "momentum": "Price is modestly higher with a 0.39% gain and RSI at 37.44, indicating slight downside momentum but still near neutral territory.",
+    "elliott_wave": "Not applicable; gold's price action does not conform to Elliott Wave patterns in the short term.",
+    "momentum": "Price is flat near $3,856 with a negligible 0.01% rise and RSI at 36, indicating weak momentum and slight bearish pressure.",
     "key_levels": {
       "support": [
         "$3,772.26",
@@ -19,9 +19,9 @@
       ]
     },
     "trend_bias": "neutral",
-    "trade_plan": "Given the TradingView SELL signal and marginal upside, consider a short position near the current level with a target at the first weekly support $3,772.26 and a stop just above the nearest resistance $3,960.48. Monitor price action for any reversal candlesticks before entry.",
-    "risk_note": "Watch for a sudden rise in real yields or a DXY pullback that could quickly lift gold above $4,000, invalidating the short bias.",
+    "trade_plan": "Given the flat price action and sell signal, consider a short position if price breaks below the nearest support at $3,772. Maintain a tight stop just above $3,800. Target the next support level around $3,664.",
+    "risk_note": "Watch for a sudden rally if the US dollar weakens or real yields drop sharply, which could invalidate the short bias.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-17T03:53:06.304684+00:00"
+  "updated_at": "2026-11-17T13:25:55.131380+00:00"
 }

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T07:48:30.614776+00:00",
-    "price": 4194.81,
-    "trend_bias": "bearish",
-    "trade_plan": "Given the TradingView SELL signal and the proximity to the first weekly resistance at $4,239.26, consider a short position targeting the nearest support at $4,175.02. Place a stop\u2011loss just above $4,239.26 to limit upside risk. Monitor price action for a break above resistance, which would invalidate the short bias.",
-    "key_levels": {
-      "support": [
-        "$4,175.02",
-        "$4,074.90"
-      ],
-      "resistance": [
-        "$4,239.26",
-        "$4,339.38"
-      ]
-    },
-    "rsi": 45.69
-  },
-  {
     "timestamp": "2026-10-10T12:31:46.073674+00:00",
     "price": 4194.81,
     "trend_bias": "bearish",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 37.44
+  },
+  {
+    "timestamp": "2026-11-17T13:25:55.131380+00:00",
+    "price": 3856.61,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the flat price action and sell signal, consider a short position if price breaks below the nearest support at $3,772. Maintain a tight stop just above $3,800. Target the next support level around $3,664.",
+    "key_levels": {
+      "support": [
+        "$3,772.26",
+        "$3,664.04"
+      ],
+      "resistance": [
+        "$3,960.48",
+        "$4,068.70"
+      ]
+    },
+    "rsi": 36.05
   }
 ]

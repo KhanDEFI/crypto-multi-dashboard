@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T21:44:06.617316+00:00",
-    "price": 2506.76,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term long position near the 2,460 support if price holds, targeting the 2,540 resistance; set a stop just below 2,420. If price breaks below 2,420, flip to a short with a target around 2,380.",
-    "key_levels": {
-      "support": [
-        "2,460.00",
-        "2,420.00"
-      ],
-      "resistance": [
-        "2,540.00",
-        "2,580.00"
-      ]
-    },
-    "rsi": 41.33
-  },
-  {
     "timestamp": "2026-10-11T01:00:30.858519+00:00",
     "price": 2502.09,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 24.82
+  },
+  {
+    "timestamp": "2026-11-18T21:56:30.378631+00:00",
+    "price": 1762.27,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider entering a short position near the $1,730 support if price breaks below with tight stops above $1,740, targeting the $1,700 level. Alternatively, look for a long entry on a bounce off $1,730 with a target near $1,790, using a stop below $1,720.",
+    "key_levels": {
+      "support": [
+        "$1,730.00",
+        "$1,700.00"
+      ],
+      "resistance": [
+        "$1,790.00",
+        "$1,820.00"
+      ]
+    },
+    "rsi": 23.83
   }
 ]

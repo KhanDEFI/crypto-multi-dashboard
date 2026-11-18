@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3785.05,
-  "change_24h": -1.68,
+  "price": 3724.33,
+  "change_24h": -3.26,
   "market_cap": 0,
-  "rsi": 32.29,
+  "rsi": 29.66,
   "analysis": {
-    "elliott_wave": "Gold is in a corrective phase, likely a wave B of a larger downtrend, but Elliott analysis is limited for metals.",
-    "momentum": "Price is down 1.68% with RSI at 32.29, indicating weakening momentum and approaching oversold territory.",
+    "elliott_wave": "Not applicable for gold; no clear Elliott pattern observed.",
+    "momentum": "Price is down 3.26% with RSI at 29.66, indicating oversold conditions but bearish momentum persists.",
     "key_levels": {
       "support": [
-        "$3,772.26",
-        "$3,664.04"
+        "$3,664.04",
+        "$3,367.60"
       ],
       "resistance": [
-        "$3,960.48",
-        "$4,068.70"
+        "$3,772.26",
+        "$3,960.48"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $3,785 level with targets at the weekly supports of $3,772 and $3,664. If price rebounds sharply above $3,800, look for a quick exit or a reversal trade toward $3,960. Maintain tight stops around $3,795 to limit downside risk.",
-    "risk_note": "Watch for a sudden rise in safe\u2011haven demand or a dovish shift in Fed policy that could lift gold and invalidate the short bias.",
+    "trade_plan": "Target a short entry near the current price if it fails to hold above $3,724. If price breaks below the weekly support at $3,664, consider a deeper short toward $3,367. Manage with a stop just above $3,770 resistance.",
+    "risk_note": "A sudden rally in the DXY or a drop in real yields could reverse the downtrend quickly.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-18T13:57:48.498850+00:00"
+  "updated_at": "2026-11-18T21:56:30.378631+00:00"
 }

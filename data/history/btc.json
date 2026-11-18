@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T12:31:46.073674+00:00",
-    "price": 82781,
-    "trend_bias": "neutral",
-    "trade_plan": "Hold current positions and consider a short\u2011term scalp if price breaks below $81,500 with a tight stop above $82,100; alternatively, look for a bounce off $84,000 resistance for a potential long entry with a stop below $83,200",
-    "key_levels": {
-      "support": [
-        "$81,500",
-        "$80,800"
-      ],
-      "resistance": [
-        "$84,000",
-        "$85,200"
-      ]
-    },
-    "rsi": 51.05
-  },
-  {
     "timestamp": "2026-10-10T17:51:50.395654+00:00",
     "price": 83076,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 23.35
+  },
+  {
+    "timestamp": "2026-11-18T04:19:56.067505+00:00",
+    "price": 64490,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $63,800 support with tight stops above $64,200, targeting the next support around $63,200. Alternatively, look for long entries if price rebounds sharply above $64,500, aiming for $65,200.",
+    "key_levels": {
+      "support": [
+        "$63,800",
+        "$63,200"
+      ],
+      "resistance": [
+        "$65,200",
+        "$66,000"
+      ]
+    },
+    "rsi": 23.51
   }
 ]

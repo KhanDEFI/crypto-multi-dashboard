@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3849.86,
-  "change_24h": -0.17,
+  "price": 3788.83,
+  "change_24h": -1.59,
   "market_cap": 0,
-  "rsi": 35.67,
+  "rsi": 32.47,
   "analysis": {
-    "elliott_wave": "N/A - Gold is not typically analyzed with Elliott Wave patterns",
-    "momentum": "Price is marginally down (-0.17%) with RSI at 35.67, indicating weakening momentum but not yet oversold",
+    "elliott_wave": "Not applicable for gold; no clear Elliott pattern identified",
+    "momentum": "Price is down 1.59% with RSI at 32.47, indicating weakening momentum and approaching oversold territory",
     "key_levels": {
       "support": [
         "$3,772.26",
@@ -19,9 +19,9 @@
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider a short position if price tests the upper resistance around $3,960.48 and shows rejection; target the nearest weekly support at $3,772.26 with a tight stop above $3,970. If price breaks above $3,960.48 with strong volume, flip to a short on pull\u2011back to $3,960.48 or hold cash for a potential reversal",
-    "risk_note": "A sudden rise in US real yields or dovish central bank signals could quickly lift gold, invalidating the short bias",
+    "trade_plan": "Consider short positions if price breaks below the nearest resistance at $3,960.48, targeting the first weekly support at $3,782.26. Manage with a stop above $4,000 to limit downside risk.",
+    "risk_note": "A sudden rise in US real yields or dovish central bank signals could quickly reverse the downtrend",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-17T22:23:37.109909+00:00"
+  "updated_at": "2026-11-18T04:19:56.067505+00:00"
 }

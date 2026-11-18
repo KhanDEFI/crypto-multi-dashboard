@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-10T17:51:50.395654+00:00",
-    "price": 4194.81,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider initiating a short position near the upper resistance around $4,239 with a target at the primary support $4,175. Manage the trade with a stop just above $4,250. Monitor for reversal candlesticks before entry.",
-    "key_levels": {
-      "support": [
-        "$4,175.02",
-        "$4,074.90"
-      ],
-      "resistance": [
-        "$4,239.26",
-        "$4,339.38"
-      ]
-    },
-    "rsi": 45.69
-  },
-  {
     "timestamp": "2026-10-10T21:44:06.617316+00:00",
     "price": 4194.81,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 35.67
+  },
+  {
+    "timestamp": "2026-11-18T04:19:56.067505+00:00",
+    "price": 3788.83,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions if price breaks below the nearest resistance at $3,960.48, targeting the first weekly support at $3,782.26. Manage with a stop above $4,000 to limit downside risk.",
+    "key_levels": {
+      "support": [
+        "$3,772.26",
+        "$3,664.04"
+      ],
+      "resistance": [
+        "$3,960.48",
+        "$4,068.70"
+      ]
+    },
+    "rsi": 32.47
   }
 ]

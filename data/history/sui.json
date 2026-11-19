@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-11T14:02:51.069606+00:00",
-    "price": 1.098,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short-term scalps near the 1.05 support if price holds, or look for a bounce back to the 1.15 resistance for a potential breakout. Keep positions small and monitor volume for confirmation.",
-    "key_levels": {
-      "support": [
-        "1.05",
-        "1.00"
-      ],
-      "resistance": [
-        "1.15",
-        "1.20"
-      ]
-    },
-    "rsi": 54.18
-  },
-  {
     "timestamp": "2026-10-11T18:54:30.957738+00:00",
     "price": 1.12,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 35.48
+  },
+  {
+    "timestamp": "2026-11-19T21:33:30.572117+00:00",
+    "price": 0.701067,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.70 level with targets at the nearest supports of 0.65 and 0.60, or wait for a bounce and enter long near 0.60 with a target at 0.75. Manage stops tightly above recent highs.",
+    "key_levels": {
+      "support": [
+        "0.65",
+        "0.60"
+      ],
+      "resistance": [
+        "0.75",
+        "0.80"
+      ]
+    },
+    "rsi": 31.92
   }
 ]

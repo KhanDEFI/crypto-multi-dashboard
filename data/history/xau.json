@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-11T18:54:30.957738+00:00",
-    "price": 4194.81,
-    "trend_bias": "bullish",
-    "trade_plan": "Enter a short position near the current price with a target at the first weekly support $4,175.02 and a stop above the first resistance $4,239.26. Consider scaling out if price approaches the support level within 24\u201148 hours.",
-    "key_levels": {
-      "support": [
-        "$4,175.02",
-        "$4,074.90"
-      ],
-      "resistance": [
-        "$4,239.26",
-        "$4,339.38"
-      ]
-    },
-    "rsi": 45.69
-  },
-  {
     "timestamp": "2026-10-11T22:54:34.196697+00:00",
     "price": 4185.87,
     "trend_bias": "bearish",
@@ -2840,5 +2823,21 @@
       ]
     },
     "rsi": 29.32
+  },
+  {
+    "timestamp": "2026-11-19T21:33:30.572117+00:00",
+    "price": 3632.39,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or sell\u2011stop orders near the current price, targeting the nearest support at $3,367.60. If price rebounds sharply above $3,500, look for a quick exit or reversal trade toward the $3,664 resistance.",
+    "key_levels": {
+      "support": [
+        "$3,367.60"
+      ],
+      "resistance": [
+        "$3,664.04",
+        "$3,772.26"
+      ]
+    },
+    "rsi": 26.18
   }
 ]

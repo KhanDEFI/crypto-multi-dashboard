@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-11T07:11:58.599523+00:00",
-    "price": 4194.81,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the modest daily gain and a neutral RSI, consider a short\u2011term scalp on pullbacks toward the $4,175 support with a tight stop above the recent high. If price breaks above $4,239 on strong volume, flip to a long bias targeting $4,339.",
-    "key_levels": {
-      "support": [
-        "$4,175.02",
-        "$4,074.90"
-      ],
-      "resistance": [
-        "$4,239.26",
-        "$4,339.38"
-      ]
-    },
-    "rsi": 45.69
-  },
-  {
     "timestamp": "2026-10-11T14:02:51.069606+00:00",
     "price": 4194.81,
     "trend_bias": "neutral",
@@ -2840,5 +2823,22 @@
       ]
     },
     "rsi": 29.66
+  },
+  {
+    "timestamp": "2026-11-19T03:27:05.902216+00:00",
+    "price": 3711.3,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $3,710 level with a target at the primary support $3,664.04. If price rebounds sharply, look for a quick long entry around $3,750 with a modest upside to $3,772.26. Keep stops tight given volatility.",
+    "key_levels": {
+      "support": [
+        "$3,664.04",
+        "$3,367.60"
+      ],
+      "resistance": [
+        "$3,772.26",
+        "$3,960.48"
+      ]
+    },
+    "rsi": 29.11
   }
 ]

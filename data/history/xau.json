@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-11T22:54:34.196697+00:00",
-    "price": 4185.87,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the $4,185 level with a target at the first weekly support $4,180. If price rebounds, look for a long entry around $4,190 with a profit target near $4,245. Manage stops tight, within $10\u201115.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 45.0
-  },
-  {
     "timestamp": "2026-10-12T02:24:05.067587+00:00",
     "price": 4210.77,
     "trend_bias": "neutral",
@@ -2839,5 +2822,21 @@
       ]
     },
     "rsi": 26.18
+  },
+  {
+    "timestamp": "2026-11-20T03:14:21.060705+00:00",
+    "price": 3523.01,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions targeting the nearest support around $3,367.60, with a stop above the first resistance at $3,664.04. If price rebounds sharply, look for a quick long entry near $3,500 with a target at $3,664.04.",
+    "key_levels": {
+      "support": [
+        "$3,367.60"
+      ],
+      "resistance": [
+        "$3,664.04",
+        "$3,772.26"
+      ]
+    },
+    "rsi": 22.77
   }
 ]

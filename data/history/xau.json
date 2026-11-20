@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-12T02:24:05.067587+00:00",
-    "price": 4210.77,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the weak upside and a sell signal, consider a short position near the current price with a target at the first weekly support ($4,156.14). Place a stop\u2011loss just above the nearest resistance ($4,245.94) to limit downside risk.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 47.15
-  },
-  {
     "timestamp": "2026-10-12T10:48:54.145463+00:00",
     "price": 4177.18,
     "trend_bias": "bearish",
@@ -2838,5 +2821,21 @@
       ]
     },
     "rsi": 22.77
+  },
+  {
+    "timestamp": "2026-11-20T11:44:00.573655+00:00",
+    "price": 3584.12,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts if price breaks below the weekly support at $3,367.60, targeting the next resistance at $3,664.04. If price rebounds above $3,500 with volume, a quick scalp long to $3,664.04 could be taken, but keep stops tight.",
+    "key_levels": {
+      "support": [
+        "$3,367.60"
+      ],
+      "resistance": [
+        "$3,664.04",
+        "$3,772.26"
+      ]
+    },
+    "rsi": 24.57
   }
 ]

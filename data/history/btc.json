@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-12T20:17:43.041956+00:00",
-    "price": 82916,
-    "trend_bias": "neutral",
-    "trade_plan": "Watch for a break above $84,200 to confirm a short\u2011term bullish continuation; if price falls below $81,500, consider a small long position targeting $84,200. Maintain tight stops around $80,800.",
-    "key_levels": {
-      "support": [
-        "$81,500",
-        "$80,800"
-      ],
-      "resistance": [
-        "$84,200",
-        "$85,500"
-      ]
-    },
-    "rsi": 51.15
-  },
-  {
     "timestamp": "2026-10-13T02:34:22.667879+00:00",
     "price": 82648,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 18.04
+  },
+  {
+    "timestamp": "2026-11-21T09:51:13.814361+00:00",
+    "price": 57871,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider entering a short position near the $55,500 support with a tight stop just above $57,000. Target the lower support around $53,800 and manage the trade with a risk-reward of at least 1:2 over the next 24-48 hours.",
+    "key_levels": {
+      "support": [
+        "$55,500",
+        "$53,800"
+      ],
+      "resistance": [
+        "$59,200",
+        "$61,000"
+      ]
+    },
+    "rsi": 16.55
   }
 ]

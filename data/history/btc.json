@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-13T10:35:22.940595+00:00",
-    "price": 83307,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short-term scalp around the 83,300 level, targeting the nearest support at ~82,800 with a tight stop above 83,800. If price breaks above 83,800, look for a quick long entry targeting 84,500.",
-    "key_levels": {
-      "support": [
-        "82,800",
-        "82,300"
-      ],
-      "resistance": [
-        "83,800",
-        "84,500"
-      ]
-    },
-    "rsi": 52.56
-  },
-  {
     "timestamp": "2026-10-13T18:18:13.612597+00:00",
     "price": 83124,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 22.88
+  },
+  {
+    "timestamp": "2026-11-21T23:15:20.186075+00:00",
+    "price": 60177,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the 60,000 level with a target around 60,500\u201361,200. Place a stop loss just below the nearest support at 59,500. Consider scaling out at the first resistance.",
+    "key_levels": {
+      "support": [
+        "59,500",
+        "58,800"
+      ],
+      "resistance": [
+        "60,500",
+        "61,200"
+      ]
+    },
+    "rsi": 22.85
   }
 ]

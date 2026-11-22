@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-13T23:16:48.392254+00:00",
-    "price": 4157.79,
-    "trend_bias": "bearish",
-    "trade_plan": "Given the SELL signal and weak momentum, consider short positions near the $4,156 support with a target around $4,104. Watch for a break above $4,245 as a reversal cue. Use tight stops above the nearest resistance level.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 42.85
-  },
-  {
     "timestamp": "2026-10-14T01:58:14.105825+00:00",
     "price": 4152.18,
     "trend_bias": "bearish",
@@ -2822,6 +2805,22 @@
     "price": 3533.36,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions or protective puts targeting the nearest support at $3,367.60, with a stop above the first resistance $3,664.04. If price breaks above $3,664.04, flip to a short\u2011term sell on pull\u2011back to $3,772.26 resistance.",
+    "key_levels": {
+      "support": [
+        "$3,367.60"
+      ],
+      "resistance": [
+        "$3,664.04",
+        "$3,772.26"
+      ]
+    },
+    "rsi": 23.06
+  },
+  {
+    "timestamp": "2026-11-22T03:14:06.604103+00:00",
+    "price": 3533.36,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the current price with targets at the first resistance $3,664.04 and the second $3,772.26 if price rebounds. Place stop\u2011loss just above the nearest support $3,367.60 to limit downside.",
     "key_levels": {
       "support": [
         "$3,367.60"

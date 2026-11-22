@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T01:58:14.105825+00:00",
-    "price": 4152.18,
-    "trend_bias": "bearish",
-    "trade_plan": "Given the sell signal, consider a short position near the current level with a target at the first weekly support $4,104.56. Place a stop just above the nearest resistance $4,156.14 to manage risk.",
-    "key_levels": {
-      "support": [
-        "$4,104.56",
-        "$4,014.76"
-      ],
-      "resistance": [
-        "$4,156.14",
-        "$4,245.94"
-      ]
-    },
-    "rsi": 42.4
-  },
-  {
     "timestamp": "2026-10-14T07:38:16.687395+00:00",
     "price": 4148.31,
     "trend_bias": "bearish",
@@ -2821,6 +2804,22 @@
     "price": 3533.36,
     "trend_bias": "bearish",
     "trade_plan": "Consider short positions near the current price with targets at the first resistance $3,664.04 and the second $3,772.26 if price rebounds. Place stop\u2011loss just above the nearest support $3,367.60 to limit downside.",
+    "key_levels": {
+      "support": [
+        "$3,367.60"
+      ],
+      "resistance": [
+        "$3,664.04",
+        "$3,772.26"
+      ]
+    },
+    "rsi": 23.06
+  },
+  {
+    "timestamp": "2026-11-22T11:29:01.715854+00:00",
+    "price": 3533.36,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions targeting the nearest support around $3,367.60 with a stop above the first resistance $3,664.04. If price rebounds sharply, look for a quick long entry near $3,400 with a tight stop below $3,350.",
     "key_levels": {
       "support": [
         "$3,367.60"

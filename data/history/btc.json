@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-13T23:16:48.392254+00:00",
-    "price": 83223,
-    "trend_bias": "bullish",
-    "trade_plan": "Consider a short\u2011term long position near the current price with a target around $84,000 and a stop below $82,500. If price breaks below $81,800, shift to a defensive short stance.",
-    "key_levels": {
-      "support": [
-        "82,500",
-        "81,800"
-      ],
-      "resistance": [
-        "84,000",
-        "85,200"
-      ]
-    },
-    "rsi": 52.29
-  },
-  {
     "timestamp": "2026-10-14T01:58:14.105825+00:00",
     "price": 83309,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 21.62
+  },
+  {
+    "timestamp": "2026-11-22T11:29:01.715854+00:00",
+    "price": 60964,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the 60,200 support with a target around the 61,500 resistance. Use a stop loss just below 59,500. Consider scaling out at 61,500 and re\u2011enter if price retests support.",
+    "key_levels": {
+      "support": [
+        "60,200",
+        "59,500"
+      ],
+      "resistance": [
+        "61,500",
+        "62,300"
+      ]
+    },
+    "rsi": 25.93
   }
 ]

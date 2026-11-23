@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T13:43:41.639667+00:00",
-    "price": 1.034,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term scalp around the $1.03 level; if price breaks below $0.98, look for a sell entry with a target near $0.94. If it rebounds above $1.07, a quick long could be taken with a target around $1.12.",
-    "key_levels": {
-      "support": [
-        "0.98",
-        "0.94"
-      ],
-      "resistance": [
-        "1.07",
-        "1.12"
-      ]
-    },
-    "rsi": 48.34
-  },
-  {
     "timestamp": "2026-10-14T18:38:06.869100+00:00",
     "price": 1.024,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 28.91
+  },
+  {
+    "timestamp": "2026-11-23T09:03:52.920361+00:00",
+    "price": 0.667721,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the 0.62 support with a target around 0.71 resistance, using a tight stop below 0.58. If price breaks below 0.58, flip to a short with a target near 0.52.",
+    "key_levels": {
+      "support": [
+        "0.62",
+        "0.58"
+      ],
+      "resistance": [
+        "0.71",
+        "0.75"
+      ]
+    },
+    "rsi": 31.74
   }
 ]

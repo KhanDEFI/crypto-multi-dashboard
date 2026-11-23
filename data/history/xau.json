@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T22:18:17.974738+00:00",
-    "price": 4104.41,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the current price with targets at the weekly support levels of $4,014.76 and $3,873.38. Use tight stops above the immediate resistance at $4,104.56 to manage risk.",
-    "key_levels": {
-      "support": [
-        "$4,014.76",
-        "$3,873.38"
-      ],
-      "resistance": [
-        "$4,104.56",
-        "$4,156.14"
-      ]
-    },
-    "rsi": 38.93
-  },
-  {
     "timestamp": "2026-10-15T01:28:43.201946+00:00",
     "price": 4144.18,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 30.16
+  },
+  {
+    "timestamp": "2026-11-23T21:23:42.892113+00:00",
+    "price": 3635.93,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the $3,400\u2011$3,450 area with a target at the first weekly resistance $3,646.27. Use a stop loss below the nearest support $3,391.11. Consider scaling out at the next resistance if price confirms the move.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 32.13
   }
 ]

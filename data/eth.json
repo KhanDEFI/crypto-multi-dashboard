@@ -1,26 +1,26 @@
 {
   "symbol": "ETH",
   "name": "Ethereum",
-  "price": 1722.06,
-  "change_24h": 2.2,
-  "market_cap": 210513362391.66092,
-  "rsi": 29.9,
+  "price": 1718.56,
+  "change_24h": -0.22,
+  "market_cap": 210026695244.71857,
+  "rsi": 29.72,
   "analysis": {
-    "elliott_wave": "ETH appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is retracing from recent highs while RSI remains oversold.",
-    "momentum": "Price is modestly up 2.2% on the day but RSI at 29.9 signals weak momentum and potential for further downside before a rebound.",
+    "elliott_wave": "ETH appears to be in a corrective wave (likely Wave 2 of a larger impulse) as price is retracing after a prior rally, with the RSI indicating oversold conditions.",
+    "momentum": "Price action is flat to slightly down with a -0.22% 24h change, and the RSI at 29.72 signals weak momentum and potential for a short-term bounce.",
     "key_levels": {
       "support": [
-        "$1,680",
-        "$1,640"
+        "$1,680.00",
+        "$1,640.00"
       ],
       "resistance": [
-        "$1,750",
-        "$1,800"
+        "$1,750.00",
+        "$1,800.00"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions or tight\u2011range longs near the $1,680 support with a target around $1,640, and set stop\u2011loss just above $1,750 resistance. Monitor for a bounce if RSI moves into neutral territory.",
-    "risk_note": "A sudden bullish catalyst could push ETH above $1,800, invalidating the short bias."
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short-term long position near the $1,680 support with a target around $1,750, using a tight stop below $1,640. Alternatively, if price breaks sharply lower, look for short entries with a target near $1,640.",
+    "risk_note": "Watch for a decisive break below $1,640, which could trigger a deeper correction and shift bias to bearish."
   },
-  "updated_at": "2026-11-23T09:03:52.920361+00:00"
+  "updated_at": "2026-11-23T21:23:42.892113+00:00"
 }

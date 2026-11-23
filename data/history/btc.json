@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T07:38:16.687395+00:00",
-    "price": 83363,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short position if price breaks below the 82,200 support with a tight stop above 82,800, targeting the 81,500 area. If price rebounds above 84,000, look for a long entry with a stop below 83,500 and target 85,000.",
-    "key_levels": {
-      "support": [
-        "82,800",
-        "82,200"
-      ],
-      "resistance": [
-        "84,000",
-        "84,500"
-      ]
-    },
-    "rsi": 52.8
-  },
-  {
     "timestamp": "2026-10-14T13:43:41.639667+00:00",
     "price": 82856,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 24.66
+  },
+  {
+    "timestamp": "2026-11-23T00:52:22.552100+00:00",
+    "price": 61048,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long near the 60,200 support with a target around 61,500. If price breaks below 59,500, consider exiting or flipping to a short position.",
+    "key_levels": {
+      "support": [
+        "60,200",
+        "59,500"
+      ],
+      "resistance": [
+        "61,500",
+        "62,200"
+      ]
+    },
+    "rsi": 26.52
   }
 ]

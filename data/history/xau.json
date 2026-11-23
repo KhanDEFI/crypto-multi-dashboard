@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-14T13:43:41.639667+00:00",
-    "price": 4100.32,
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the current price with targets at the first weekly support $4,014.76 and the second at $3,873.38. If price rebounds above $4,104.56, shift to a neutral stance or consider a small long with a tight stop below $4,100.",
-    "key_levels": {
-      "support": [
-        "$4,014.76",
-        "$3,873.38"
-      ],
-      "resistance": [
-        "$4,104.56",
-        "$4,156.14"
-      ]
-    },
-    "rsi": 38.67
-  },
-  {
     "timestamp": "2026-10-14T18:38:06.869100+00:00",
     "price": 4094.81,
     "trend_bias": "bearish",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 23.06
+  },
+  {
+    "timestamp": "2026-11-23T00:52:22.552100+00:00",
+    "price": 3573.54,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the oversold RSI and slight upside move, consider a short position near the current price with a target at the first weekly support of $3,391.11. Place a stop just above the nearest resistance at $3,646.27 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 26.89
   }
 ]

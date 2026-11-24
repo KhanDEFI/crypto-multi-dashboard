@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T01:28:43.201946+00:00",
-    "price": 81549,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term scalp or swing sell near the 82,200 resistance if price fails to break higher, targeting the 80,800 support. If price rebounds above 82,200 with volume, look for a quick long entry targeting 83,500.",
-    "key_levels": {
-      "support": [
-        "80,800.00",
-        "79,500.00"
-      ],
-      "resistance": [
-        "82,200.00",
-        "83,500.00"
-      ]
-    },
-    "rsi": 46.48
-  },
-  {
     "timestamp": "2026-10-15T07:26:48.925948+00:00",
     "price": 81032,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 25.92
+  },
+  {
+    "timestamp": "2026-11-24T17:43:41.617973+00:00",
+    "price": 60020,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $58,500 support with a target around $57,800, or long entries on a bounce off $58,500 aiming for $60,500. Use tight stops above $59,200 to limit downside.",
+    "key_levels": {
+      "support": [
+        "$58,500",
+        "$57,800"
+      ],
+      "resistance": [
+        "$60,500",
+        "$61,200"
+      ]
+    },
+    "rsi": 25.16
   }
 ]

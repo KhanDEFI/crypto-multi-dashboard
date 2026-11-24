@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T07:26:48.925948+00:00",
-    "price": 4143.44,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the TradingView SELL signal and lack of strong momentum, consider short positions near the upper resistance $4,156.14 with a target at the first support $4,104.56. Use a tight stop above $4,170 to protect against a sudden rally.",
-    "key_levels": {
-      "support": [
-        "$4,104.56",
-        "$4,014.76"
-      ],
-      "resistance": [
-        "$4,156.14",
-        "$4,245.94"
-      ]
-    },
-    "rsi": 42.99
-  },
-  {
     "timestamp": "2026-10-15T13:26:13.353971+00:00",
     "price": 4155.46,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 31.92
+  },
+  {
+    "timestamp": "2026-11-24T17:43:41.617973+00:00",
+    "price": 3567.76,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions targeting the nearest support at $3,391.11 with a stop above the recent high near $3,600. If price rebounds sharply, look for a quick long entry near $3,550 with a target around $3,646.27.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 29.62
   }
 ]

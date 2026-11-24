@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T01:28:43.201946+00:00",
-    "price": 1.015,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short positions near the 1.05 resistance if price breaks above with volume, targeting the 0.95 support. Alternatively, hold cash or a small long at current levels anticipating a bounce back to the 1.00\u20111.02 range.",
-    "key_levels": {
-      "support": [
-        "0.95",
-        "0.90"
-      ],
-      "resistance": [
-        "1.05",
-        "1.10"
-      ]
-    },
-    "rsi": 46.77
-  },
-  {
     "timestamp": "2026-10-15T07:26:48.925948+00:00",
     "price": 0.989525,
     "trend_bias": "bearish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 33.86
+  },
+  {
+    "timestamp": "2026-11-24T17:43:41.617973+00:00",
+    "price": 0.65142,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the 0.58 support with tight stops above 0.62, or wait for a bounce above 0.70 to go long. Target the next resistance around 0.75 within 24\u201148h.",
+    "key_levels": {
+      "support": [
+        "0.58",
+        "0.55"
+      ],
+      "resistance": [
+        "0.70",
+        "0.75"
+      ]
+    },
+    "rsi": 30.83
   }
 ]

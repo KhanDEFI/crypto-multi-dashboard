@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T01:28:43.201946+00:00",
-    "price": 4144.18,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the sell signal and weakening momentum, consider a short position near the current level with a target at the first weekly support $4,104.56 and a stop above the nearest resistance $4,156.14. If price breaks above $4,156, flip to a bullish stance targeting $4,245.94.",
-    "key_levels": {
-      "support": [
-        "$4,104.56",
-        "$4,014.76"
-      ],
-      "resistance": [
-        "$4,156.14",
-        "$4,245.94"
-      ]
-    },
-    "rsi": 43.06
-  },
-  {
     "timestamp": "2026-10-15T07:26:48.925948+00:00",
     "price": 4143.44,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 32.13
+  },
+  {
+    "timestamp": "2026-11-24T06:01:51.596763+00:00",
+    "price": 3630.82,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the sell signal and weak momentum, consider short positions near the current price with a target at the nearest support $3,391.11. If price rebounds sharply, look for a quick long entry around $3,630 with a profit target near $3,646.27.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 31.92
   }
 ]

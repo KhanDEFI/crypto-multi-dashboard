@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 61229,
-  "change_24h": 0.54,
-  "market_cap": 1231699918986.3015,
-  "rsi": 26.92,
+  "price": 60567,
+  "change_24h": -1.77,
+  "market_cap": 1218307593175.9001,
+  "rsi": 25.92,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is still below the recent highs and RSI is deep in oversold territory.",
-    "momentum": "Price is marginally up (+0.54%) but momentum remains weak, with RSI at 26.9 indicating oversold conditions and limited buying pressure.",
+    "elliott_wave": "BTC appears to be in a corrective wave, likely wave 2 of a larger impulse, as price is retracing from recent highs while RSI remains oversold.",
+    "momentum": "Price is declining with a -1.77% 24h change and RSI at 25.9, indicating weak momentum and potential short\u2011term buying pressure from oversold conditions.",
     "key_levels": {
       "support": [
-        "$60,500",
-        "$59,800"
+        "$58,800",
+        "$57,500"
       ],
       "resistance": [
-        "$62,000",
-        "$63,500"
+        "$61,200",
+        "$62,500"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a cautious long entry near the $60,500 support with a tight stop below $59,800. Target the first resistance around $62,000 and adjust stop to breakeven as price moves higher.",
-    "risk_note": "Watch for a sudden reversal if price breaks below $59,800, which could trigger a deeper correction toward $58,000."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $60,500 level with targets at the $58,800 and $57,500 supports, or a small long on a bounce above $61,200 with a target near $62,500. Keep stops tight, around $61,200 for shorts and $60,300 for longs.",
+    "risk_note": "Watch for a rapid reversal if bullish news or a strong buying surge pushes RSI above 30, which could invalidate the bearish bias."
   },
-  "updated_at": "2026-11-23T21:23:42.892113+00:00"
+  "updated_at": "2026-11-24T06:01:51.596763+00:00"
 }

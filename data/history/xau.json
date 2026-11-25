@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T13:26:13.353971+00:00",
-    "price": 4155.46,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the neutral RSI and the TradingView SELL signal, consider a short position near the top of the current range around $4,155 with a tight stop just above $4,160. Target the nearest support at $4,104. If price rebounds, flip to a quick scalp long near $4,150 with a stop below $4,145, aiming for the same support zone.",
-    "key_levels": {
-      "support": [
-        "$4,104.56",
-        "$4,014.76"
-      ],
-      "resistance": [
-        "$4,156.14",
-        "$4,245.94"
-      ]
-    },
-    "rsi": 44.15
-  },
-  {
     "timestamp": "2026-10-15T18:18:19.642418+00:00",
     "price": 4156.4,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 29.62
+  },
+  {
+    "timestamp": "2026-11-25T02:28:05.894370+00:00",
+    "price": 3568.28,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the modest upside and near\u2011oversold RSI, consider a short\u2011term sell on rallies toward the first resistance at $3,646.27 with a stop above $3,660. If price breaks below the primary support at $3,391.11, shift to a bearish stance targeting $3,247.57.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 30.25
   }
 ]

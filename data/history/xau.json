@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T22:17:49.601266+00:00",
-    "price": 4169.73,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the sell signal and near\u2011neutral RSI, consider short positions near the top of the weekly range with stop\u2011loss above $4,245.94. Target the primary support at $4,156.14 and secondary at $4,104.56 within 24\u201148h.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 45.47
-  },
-  {
     "timestamp": "2026-10-16T01:20:29.750097+00:00",
     "price": 4157.37,
     "trend_bias": "bearish",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 28.02
+  },
+  {
+    "timestamp": "2026-11-25T22:31:45.119857+00:00",
+    "price": 3588.86,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the slight upside and low RSI, consider a short\u2011term sell on rallies toward the nearest resistance around $3,646, targeting the first support at $3,391. Hold position for 24\u201148\u202fhours and exit if price breaks above $3,650 or falls below $3,380.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 31.92
   }
 ]

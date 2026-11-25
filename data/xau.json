@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3520.48,
-  "change_24h": -1.01,
+  "price": 3588.86,
+  "change_24h": 0.91,
   "market_cap": 0,
-  "rsi": 28.02,
+  "rsi": 31.92,
   "analysis": {
-    "elliott_wave": "Gold is not exhibiting a clear Elliott Wave pattern; price is likely in a corrective phase after recent highs.",
-    "momentum": "Price is down 1.01% with RSI at 28, indicating oversold conditions and weakening momentum.",
+    "elliott_wave": "Not applicable for gold; no clear Elliott wave pattern observed",
+    "momentum": "Price is modestly higher with a 0.91% rise but RSI at 31.9 suggests weak momentum and potential oversold conditions",
     "key_levels": {
       "support": [
         "$3,391.11",
@@ -18,10 +18,10 @@
         "$3,789.81"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Consider short positions near the current price targeting the $3,391.11 support, with a stop above the $3,520.48 level. If price rebounds sharply, flip to a quick long targeting $3,646.27, protecting downside with the same stop.",
-    "risk_note": "Watch for a sudden rise in real yields or a DXY pullback that could trigger a rapid reversal.",
+    "trend_bias": "neutral",
+    "trade_plan": "Given the slight upside and low RSI, consider a short\u2011term sell on rallies toward the nearest resistance around $3,646, targeting the first support at $3,391. Hold position for 24\u201148\u202fhours and exit if price breaks above $3,650 or falls below $3,380.",
+    "risk_note": "A sudden spike in safe\u2011haven demand or a sharp move in the DXY could push gold higher, invalidating the short bias.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-25T12:54:35.496456+00:00"
+  "updated_at": "2026-11-25T22:31:45.119857+00:00"
 }

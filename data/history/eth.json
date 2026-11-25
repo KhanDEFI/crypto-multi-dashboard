@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-15T18:18:19.642418+00:00",
-    "price": 2436.25,
-    "trend_bias": "neutral",
-    "trade_plan": "Target the near\u2011term support around $2,380 with a stop just below $2,350; consider a small long position if price rebounds toward $2,460 resistance, aiming for a 2\u20113% upside over 24\u201148h.",
-    "key_levels": {
-      "support": [
-        "$2,380",
-        "$2,350"
-      ],
-      "resistance": [
-        "$2,460",
-        "$2,500"
-      ]
-    },
-    "rsi": 39.41
-  },
-  {
     "timestamp": "2026-10-15T22:17:49.601266+00:00",
     "price": 2461.12,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 26.63
+  },
+  {
+    "timestamp": "2026-11-25T22:31:45.119857+00:00",
+    "price": 1682.23,
+    "trend_bias": "neutral",
+    "trade_plan": "Consider a short\u2011term long position near the $1,640 support with a tight stop just below $1,600, targeting the $1,720 resistance. If price breaks decisively below $1,600, flip to a short stance targeting $1,560.",
+    "key_levels": {
+      "support": [
+        "$1,640.00",
+        "$1,600.00"
+      ],
+      "resistance": [
+        "$1,720.00",
+        "$1,760.00"
+      ]
+    },
+    "rsi": 28.47
   }
 ]

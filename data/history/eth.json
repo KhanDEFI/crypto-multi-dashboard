@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T01:20:29.750097+00:00",
-    "price": 2441.44,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term sell\u2011stop near the 2500 resistance if price breaks above with volume, targeting the 2400 support. If price falls below 2400, look for a rebound entry near 2350 with a tight stop above 2400.",
-    "key_levels": {
-      "support": [
-        "2400.00",
-        "2350.00"
-      ],
-      "resistance": [
-        "2500.00",
-        "2550.00"
-      ]
-    },
-    "rsi": 39.95
-  },
-  {
     "timestamp": "2026-10-16T07:09:05.373378+00:00",
     "price": 2449.55,
     "trend_bias": "bullish",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 30.51
+  },
+  {
+    "timestamp": "2026-11-26T15:15:17.977123+00:00",
+    "price": 1678.11,
+    "trend_bias": "bullish",
+    "trade_plan": "Enter long positions near the $1,620 support with a target around $1,720, scaling out at $1,760 if momentum holds. Use a tight stop just below $1,580 to manage risk.",
+    "key_levels": {
+      "support": [
+        "$1,620.00",
+        "$1,580.00"
+      ],
+      "resistance": [
+        "$1,720.00",
+        "$1,760.00"
+      ]
+    },
+    "rsi": 28.79
   }
 ]

@@ -1,13 +1,13 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3594.89,
-  "change_24h": 0.17,
+  "price": 3575.9,
+  "change_24h": -0.36,
   "market_cap": 0,
-  "rsi": 32.44,
+  "rsi": 31.41,
   "analysis": {
-    "elliott_wave": "Not applicable; gold\u2019s price action does not conform to Elliott Wave patterns in the short term",
-    "momentum": "Price is marginally higher (+0.17%) with RSI at 32.44, indicating weak momentum and slight oversold conditions",
+    "elliott_wave": "Not applicable; gold is better analyzed with classical patterns rather than Elliott Wave.",
+    "momentum": "Price is slightly lower with a 24h change of -0.36% and RSI at 31.41, indicating weak momentum and approaching oversold territory.",
     "key_levels": {
       "support": [
         "$3,391.11",
@@ -18,10 +18,10 @@
         "$3,789.81"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Given the modest upside and bearish TradingView signal, consider a short position near the current level with a target at the first weekly support $3,391.11 and a stop loss just above the nearest resistance $3,646.27. Monitor real\u2011yield spreads and DXY for confirmation.",
-    "risk_note": "A sudden spike in safe\u2011haven demand or a dovish Fed pivot could push gold above $3,646, invalidating the short bias",
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts near the $3,575 level, targeting the first weekly support at $3,391. If price rebounds, watch for a retest of $3,646 resistance as a potential exit. Keep stops just above $3,600 to limit upside risk.",
+    "risk_note": "A sudden rise in real yields or a dovish shift in Fed policy could quickly reverse the downtrend.",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-26T05:03:42.461378+00:00"
+  "updated_at": "2026-11-26T15:15:17.977123+00:00"
 }

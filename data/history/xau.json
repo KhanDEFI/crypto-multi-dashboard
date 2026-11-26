@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T07:09:05.373378+00:00",
-    "price": 4181.97,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the modest upside and neutral RSI, consider a short\u2011term sell or flat position if price fails to break above $4,245. Hold risk at the nearest support $4,156. If price breaches $4,245 with volume, a cautious long could be entertained.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 46.62
-  },
-  {
     "timestamp": "2026-10-16T12:25:13.421428+00:00",
     "price": 4177.99,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 32.44
+  },
+  {
+    "timestamp": "2026-11-26T15:15:17.977123+00:00",
+    "price": 3575.9,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions or protective puts near the $3,575 level, targeting the first weekly support at $3,391. If price rebounds, watch for a retest of $3,646 resistance as a potential exit. Keep stops just above $3,600 to limit upside risk.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 31.41
   }
 ]

@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T01:20:29.750097+00:00",
-    "price": 4157.37,
-    "trend_bias": "bearish",
-    "trade_plan": "Given the sell signal and weakening momentum, consider a short position near the current price with a target at the first weekly support of $4,156.14. Place a stop\u2011loss just above the nearest resistance at $4,245.94 to manage risk.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 44.49
-  },
-  {
     "timestamp": "2026-10-16T07:09:05.373378+00:00",
     "price": 4181.97,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 31.92
+  },
+  {
+    "timestamp": "2026-11-26T05:03:42.461378+00:00",
+    "price": 3594.89,
+    "trend_bias": "neutral",
+    "trade_plan": "Given the modest upside and bearish TradingView signal, consider a short position near the current level with a target at the first weekly support $3,391.11 and a stop loss just above the nearest resistance $3,646.27. Monitor real\u2011yield spreads and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 32.44
   }
 ]

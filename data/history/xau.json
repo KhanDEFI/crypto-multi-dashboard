@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T12:25:13.421428+00:00",
-    "price": 4177.99,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the modest upside and neutral momentum, consider a short\u2011term sell or stay flat near the current price. If price breaks below the nearest support at $4,176, target $4,156 and tighten stops. If it rebounds above $4,200, re\u2011evaluate for a possible short\u2011term long.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 46.25
-  },
-  {
     "timestamp": "2026-10-16T17:24:05.103551+00:00",
     "price": 4160.47,
     "trend_bias": "neutral",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 31.41
+  },
+  {
+    "timestamp": "2026-11-26T23:53:00.756077+00:00",
+    "price": 3568.2,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider a short position near the current price with a target around the first weekly support at $3,391.11. Place a stop\u2011loss just above the nearest resistance at $3,646.27. Monitor real\u2011yield spreads and DXY for confirmation.",
+    "key_levels": {
+      "support": [
+        "$3,391.11",
+        "$3,247.57"
+      ],
+      "resistance": [
+        "$3,646.27",
+        "$3,789.81"
+      ]
+    },
+    "rsi": 31.2
   }
 ]

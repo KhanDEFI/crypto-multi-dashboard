@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3674.01,
-  "change_24h": 3.01,
+  "price": 3642.16,
+  "change_24h": 2.12,
   "market_cap": 0,
-  "rsi": 39.61,
+  "rsi": 37.3,
   "analysis": {
-    "elliott_wave": "N/A - Gold is not analyzed using Elliott Wave in this context",
-    "momentum": "Price has risen 3.01% on the day while RSI is at 39.61, indicating weakening bullish momentum and potential oversold conditions",
+    "elliott_wave": "Not applicable; gold\u2019s price action is better described by macro\u2011driven trends rather than Elliott patterns",
+    "momentum": "Price is modestly higher with a 2.12% gain and RSI at 37.3, indicating slight upward momentum but still below the 50\u2011level, suggesting room for further upside",
     "key_levels": {
       "support": [
-        "$3,646.27",
-        "$3,391.11"
+        "$3,391.11",
+        "$3,247.57"
       ],
       "resistance": [
-        "$3,789.81",
-        "$4,044.97"
+        "$3,646.27",
+        "$3,789.81"
       ]
     },
-    "trend_bias": "bearish",
-    "trade_plan": "Given the TradingView SELL signal and declining RSI, consider a short position targeting the nearest support at $3,664.27 with a stop above the first resistance $3,789.81. Hold for 24\u201148 hours and exit if price rebounds toward resistance or RSI rises above 45.",
-    "risk_note": "Watch for a sudden spike in safe\u2011haven demand or a dovish shift in US monetary policy that could lift gold above $3,789.81",
+    "trend_bias": "bullish",
+    "trade_plan": "Consider a short\u2011term long position near the current level, targeting the first resistance at $3,646.27 with a stop below the nearest support at $3,391.11. If price breaks decisively above $3,646, extend the target to $3,789.81.",
+    "risk_note": "Watch for a rapid rise in the DXY or unexpected hawkish signals from the Fed, which could pressure gold lower",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-27T08:31:24.337784+00:00"
+  "updated_at": "2026-11-27T18:58:42.768309+00:00"
 }

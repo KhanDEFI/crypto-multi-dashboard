@@ -1,26 +1,26 @@
 {
   "symbol": "BTC",
   "name": "Bitcoin",
-  "price": 61816,
-  "change_24h": 1.96,
-  "market_cap": 1243616041209.0674,
-  "rsi": 33.49,
+  "price": 59883,
+  "change_24h": -0.91,
+  "market_cap": 1205206938682.222,
+  "rsi": 26.88,
   "analysis": {
-    "elliott_wave": "BTC appears to be in a corrective wave, likely a Wave 2 of a larger impulse, as price is still below the recent high and RSI is in the lower neutral zone.",
-    "momentum": "Price is modestly up 1.96% with RSI at 33.5, indicating weak bullish momentum but still near oversold levels.",
+    "elliott_wave": "BTC appears to be in a corrective wave, likely wave 2 of an impulse, as price is retracing from recent highs while RSI remains oversold.",
+    "momentum": "Price is modestly declining with a -0.91% 24h move and RSI at 26.9, indicating weak momentum and potential for a short\u2011term bounce.",
     "key_levels": {
       "support": [
-        "$60,500",
-        "$59,800"
+        "$58,800",
+        "$57,500"
       ],
       "resistance": [
-        "$62,500",
-        "$63,200"
+        "$60,500",
+        "$61,800"
       ]
     },
-    "trend_bias": "neutral",
-    "trade_plan": "Consider a short\u2011term long position if price holds above $61,500 with a tight stop below $60,800, targeting the next resistance around $62,500. If price falls back below $60,500, look for a quick scalp short with a target near $59,800.",
-    "risk_note": "Watch for a sudden drop if broader market risk sentiment spikes, which could push BTC below $59,500 quickly."
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $58,800 support with tight stops above $60,000, targeting the $57,500 level. If price rebounds sharply above $60,500, flip to a small long targeting $61,800.",
+    "risk_note": "Watch for a rapid reversal if bullish news or a break above $60,500 triggers a trend change."
   },
-  "updated_at": "2026-11-27T08:31:24.337784+00:00"
+  "updated_at": "2026-11-27T18:58:42.768309+00:00"
 }

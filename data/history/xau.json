@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T17:24:05.103551+00:00",
-    "price": 4160.47,
-    "trend_bias": "neutral",
-    "trade_plan": "Given the marginal downside and lack of strong momentum, consider a short position near the current price with a tight stop above the nearest resistance at $4,245.94, targeting the primary support around $4,156.14. If price rebounds above $4,200, shift to a neutral stance or consider a small long with a stop below $4,156.14.",
-    "key_levels": {
-      "support": [
-        "$4,156.14",
-        "$4,104.56"
-      ],
-      "resistance": [
-        "$4,245.94",
-        "$4,297.52"
-      ]
-    },
-    "rsi": 44.74
-  },
-  {
     "timestamp": "2026-10-16T21:07:46.883539+00:00",
     "price": 4164.07,
     "trend_bias": "bearish",
@@ -2829,5 +2812,22 @@
       ]
     },
     "rsi": 31.2
+  },
+  {
+    "timestamp": "2026-11-27T08:31:24.337784+00:00",
+    "price": 3674.01,
+    "trend_bias": "bearish",
+    "trade_plan": "Given the TradingView SELL signal and declining RSI, consider a short position targeting the nearest support at $3,664.27 with a stop above the first resistance $3,789.81. Hold for 24\u201148 hours and exit if price rebounds toward resistance or RSI rises above 45.",
+    "key_levels": {
+      "support": [
+        "$3,646.27",
+        "$3,391.11"
+      ],
+      "resistance": [
+        "$3,789.81",
+        "$4,044.97"
+      ]
+    },
+    "rsi": 39.61
   }
 ]

@@ -1,27 +1,27 @@
 {
   "symbol": "XAU",
   "name": "Gold",
-  "price": 3568.2,
-  "change_24h": 0.05,
+  "price": 3674.01,
+  "change_24h": 3.01,
   "market_cap": 0,
-  "rsi": 31.2,
+  "rsi": 39.61,
   "analysis": {
-    "elliott_wave": "Not applicable for gold; no clear Elliott pattern observed.",
-    "momentum": "Price is marginally higher with a 0.05% rise, but RSI at 31.2 suggests weakening momentum and potential oversold conditions.",
+    "elliott_wave": "N/A - Gold is not analyzed using Elliott Wave in this context",
+    "momentum": "Price has risen 3.01% on the day while RSI is at 39.61, indicating weakening bullish momentum and potential oversold conditions",
     "key_levels": {
       "support": [
-        "$3,391.11",
-        "$3,247.57"
+        "$3,646.27",
+        "$3,391.11"
       ],
       "resistance": [
-        "$3,646.27",
-        "$3,789.81"
+        "$3,789.81",
+        "$4,044.97"
       ]
     },
     "trend_bias": "bearish",
-    "trade_plan": "Consider a short position near the current price with a target around the first weekly support at $3,391.11. Place a stop\u2011loss just above the nearest resistance at $3,646.27. Monitor real\u2011yield spreads and DXY for confirmation.",
-    "risk_note": "A sudden spike in safe\u2011haven demand or a dovish shift in Fed policy could quickly reverse downside pressure.",
+    "trade_plan": "Given the TradingView SELL signal and declining RSI, consider a short position targeting the nearest support at $3,664.27 with a stop above the first resistance $3,789.81. Hold for 24\u201148 hours and exit if price rebounds toward resistance or RSI rises above 45.",
+    "risk_note": "Watch for a sudden spike in safe\u2011haven demand or a dovish shift in US monetary policy that could lift gold above $3,789.81",
     "levels_source": "weekly pivots"
   },
-  "updated_at": "2026-11-26T23:53:00.756077+00:00"
+  "updated_at": "2026-11-27T08:31:24.337784+00:00"
 }

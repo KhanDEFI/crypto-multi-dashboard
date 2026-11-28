@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T21:07:46.883539+00:00",
-    "price": 81573,
-    "trend_bias": "neutral",
-    "trade_plan": "Watch for a break below the 80,800 support to consider short entries with a target near 80,200, or a bounce above 82,200 for long entries targeting 82,800. Keep positions tight and monitor volume for confirmation.",
-    "key_levels": {
-      "support": [
-        "80,800",
-        "80,200"
-      ],
-      "resistance": [
-        "82,200",
-        "82,800"
-      ]
-    },
-    "rsi": 46.68
-  },
-  {
     "timestamp": "2026-10-16T23:35:08.640581+00:00",
     "price": 81548,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 26.88
+  },
+  {
+    "timestamp": "2026-11-28T01:59:26.819267+00:00",
+    "price": 60152,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $58,800 support with tight stops above $59,500, targeting the next support around $57,500. If price rebounds sharply, flip to a quick long entry around $60,200 with a target near $61,500.",
+    "key_levels": {
+      "support": [
+        "$58,800",
+        "$57,500"
+      ],
+      "resistance": [
+        "$61,500",
+        "$63,000"
+      ]
+    },
+    "rsi": 28.19
   }
 ]

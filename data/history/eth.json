@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-10-16T21:07:46.883539+00:00",
-    "price": 2411.66,
-    "trend_bias": "neutral",
-    "trade_plan": "Consider short positions near the $2,350 support with tight stops above $2,380, or wait for a bounce and go long at $2,460 resistance with stops below $2,430. Monitor price action over the next 24\u201148h for a clear break.",
-    "key_levels": {
-      "support": [
-        "$2,350",
-        "$2,300"
-      ],
-      "resistance": [
-        "$2,460",
-        "$2,520"
-      ]
-    },
-    "rsi": 37.85
-  },
-  {
     "timestamp": "2026-10-16T23:35:08.640581+00:00",
     "price": 2420.43,
     "trend_bias": "neutral",
@@ -2854,5 +2837,22 @@
       ]
     },
     "rsi": 28.4
+  },
+  {
+    "timestamp": "2026-11-28T01:59:26.819267+00:00",
+    "price": 1668.51,
+    "trend_bias": "bearish",
+    "trade_plan": "Consider short positions near the $1,720 resistance with targets at $1,620 and $1,580, or a small long at $1,580 if price shows a clear reversal candle. Manage stops tightly above $1,730.",
+    "key_levels": {
+      "support": [
+        "$1,620",
+        "$1,580"
+      ],
+      "resistance": [
+        "$1,720",
+        "$1,770"
+      ]
+    },
+    "rsi": 28.89
   }
 ]
